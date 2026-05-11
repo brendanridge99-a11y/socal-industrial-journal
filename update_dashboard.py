@@ -13,7 +13,7 @@ import hashlib
 # Configuration
 ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY', 'YOUR_API_KEY_HERE')
 ARTICLES_FILE = 'articles_database.json'
-HTML_OUTPUT = 'index.html'
+HTML_OUTPUT = 'docs/index.html'
 RETENTION_HOURS = 48
 YOUR_EMAIL = "Brendan.ridge@jll.com"
 
