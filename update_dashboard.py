@@ -49,7 +49,8 @@ def generate_article_id(headline, source):
 
 def remove_old_articles(data):
     """Remove articles older than retention period"""
-    cutoff = datetime.utcnow() - timedelta(hours=RETENTION_HOURS)
+    from datetime import timezone
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=RETENTION_HOURS)
     
     original_count = len(data['articles'])
     data['articles'] = [
