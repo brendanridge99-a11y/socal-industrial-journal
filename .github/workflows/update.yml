@@ -1,0 +1,38 @@
+name: Update SoCal Industrial Journal
+
+on:
+  schedule:
+    # Runs at 4am, 6am, 8am, 10am, 12pm, 2pm, 4pm, 6pm Pacific Time
+    # Times in UTC (PST = UTC+8, PDT = UTC+7)
+    - cron: '0 12,14,16,18,20,22 * * *'  # 4am, 6am, 8am, 10am, 12pm, 2pm PST
+    - cron: '0 0,2 * * *'  # 4pm, 6pm PST (next day UTC)
+  workflow_dispatch:  # Allows manual trigger for testing
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install anthropic
+      
+      - name: Run update script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python update_dashboard.py
+      
+      - name: Commit and push changes
+        run: |
+          git config user.name "SoCal Journal Bot"
+          git config user.email "bot@socaljournal.com"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "Auto-update: $(date)"
+          git push
