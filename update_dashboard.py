@@ -150,7 +150,7 @@ Return ONLY valid JSON. If no new articles found, return: {{"articles": []}}
 
     try:
         message = client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-sonnet-4-6",
             max_tokens=8000,
             messages=[{"role": "user", "content": prompt}],
             tools=[{"type": "web_search_20250305", "name": "web_search"}]
