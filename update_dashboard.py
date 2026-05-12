@@ -67,16 +67,19 @@ def remove_old_articles(data):
 def search_new_articles(existing_articles):
     """Search for new articles using Claude API"""
     
-    # Determine time window based on current hour
-    current_hour = datetime.now().hour
+    # TEMPORARY: Search past 24 hours to populate site initially
+    # After site has content, change back to the 2-10 hour windows
+    time_window = "PAST 24 HOURS"
+    hours_back = 24
     
-    # First scan of day (4am) looks back 10 hours, others look back 2 hours
-    if current_hour == 4:
-        time_window = "PAST 10 HOURS (since 6pm yesterday)"
-        hours_back = 10
-    else:
-        time_window = "PAST 2 HOURS"
-        hours_back = 2
+    # UNCOMMENT THESE LINES after initial population:
+    # current_hour = datetime.now().hour
+    # if current_hour == 4:
+    #     time_window = "PAST 10 HOURS (since 6pm yesterday)"
+    #     hours_back = 10
+    # else:
+    #     time_window = "PAST 2 HOURS"
+    #     hours_back = 2
     
     # Build list of existing article headlines to avoid duplicates
     existing_headlines = [article['headline'] for article in existing_articles]
@@ -467,8 +470,14 @@ def generate_html(data):
     {tertiary_html}
 '''
     
-    current_date = datetime.now().strftime('%A, %B %d, %Y')
-    current_time = datetime.now().strftime('%I:%M %p PST')
+    # Convert UTC to Pacific Time for display
+    from datetime import timezone, timedelta as td
+    utc_now = datetime.now(timezone.utc)
+    pacific_offset = td(hours=-8)  # PST is UTC-8
+    pacific_now = utc_now + pacific_offset
+    
+    current_date = pacific_now.strftime('%A, %B %d, %Y')
+    current_time = pacific_now.strftime('%I:%M %p PST')
     total_articles = len(data['articles'])
     
     # Generate navigation with all sections
