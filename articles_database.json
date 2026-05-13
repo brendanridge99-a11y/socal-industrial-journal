@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T21:23:05.675427Z",
+  "last_updated": "2026-05-13T23:41:22.502884Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -1068,6 +1068,54 @@
       "id": "033deda17895",
       "added_at": "2026-05-13T21:23:05.660138Z",
       "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "IEA Oil Market Report \u2014 May 2026: Record Supply Losses as Hormuz Disruption Deepens",
+      "source": "International Energy Agency",
+      "source_type": "free",
+      "date": "May 13, 2026",
+      "url": "https://www.iea.org/reports/oil-market-report-may-2026",
+      "summary": "The International Energy Agency's May 2026 Oil Market Report warns that more than ten weeks after the Iran war began, Strait of Hormuz supply losses are depleting global oil inventories at a record pace. Cumulative supply losses from Gulf producers already exceed 1 billion barrels, with more than 14 million barrels per day shut in \u2014 described by the IEA as the largest supply disruption in the history of the global oil market. Global oil supply declined a further 1.8 mb/d in April to 95.1 mb/d, with WTI crude trading around $102-$110 per barrel. The IEA assumes Hormuz flows could gradually resume from Q3 2026, but warns of further price volatility ahead of the peak summer demand period.",
+      "category": "economics",
+      "id": "42fd6651a148",
+      "added_at": "2026-05-13T23:41:22.488448Z",
+      "timestamp": "2026-05-13T23:41:22.488448Z"
+    },
+    {
+      "headline": "US and China Seek to Repair Damage from Tariff War That Sent Trade Into a Freefall",
+      "source": "Bloomberg/AP",
+      "source_type": "free",
+      "date": "May 13, 2026",
+      "url": "https://www.baltimoresun.com/2026/05/13/us-china-trump-exports/",
+      "summary": "President Trump arrived in Beijing on May 13, 2026, for a summit with President Xi Jinping aimed at stabilizing the U.S.-China trade relationship after a tumultuous year. U.S. tariffs on Chinese goods currently stand at approximately 48%, even after coming down from triple-digit levels briefly hit in 2025; China's share of U.S. trade has fallen from over 13% in 2016 to 6.4% last year. Many American companies have shifted production to Vietnam and India, while Chinese manufacturers have scrambled to find customers in Europe and Southeast Asia. Factory owners in China expressed hopes for at least incremental improvement, though prospects for a return to pre-tariff trade volumes are considered slim.",
+      "category": "supply-chain",
+      "id": "5f883864cde3",
+      "added_at": "2026-05-13T23:41:22.488448Z",
+      "timestamp": "2026-05-13T23:41:22.488448Z"
+    },
+    {
+      "headline": "Stock Market Today: Nasdaq, S&P 500 Rise to New Records as Tech Leads Despite Hot Wholesale Inflation Print",
+      "source": "CNBC/TheStreet",
+      "source_type": "free",
+      "date": "May 13, 2026",
+      "url": "https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html",
+      "summary": "The S&P 500 rose 0.58% to 7,444.25 and the Nasdaq Composite gained 1.20% to 26,402.34, both reaching new all-time intraday and closing records on May 13, 2026, despite a hotter-than-expected April PPI report. WTI crude finished the day at approximately $102 per barrel, with high oil prices driven by continued Strait of Hormuz disruption contributing to elevated inflation. After the close, Cisco Systems surged 18% after posting Q3 results and guidance that beat expectations while announcing nearly 4,000 job cuts. April retail sales data and initial jobless claims are scheduled for release Thursday.",
+      "category": "economics",
+      "id": "dd5f7c97a1d8",
+      "added_at": "2026-05-13T23:41:22.488448Z",
+      "timestamp": "2026-05-13T23:41:22.488448Z"
+    },
+    {
+      "headline": "Wholesale Inflation Shoots to +6.0% Year-Over-Year in April 2026: PPI Report Details",
+      "source": "CNBC",
+      "source_type": "free",
+      "date": "May 13, 2026",
+      "url": "https://www.cnbc.com/2026/05/13/ppi-inflation-report-april-2026-.html",
+      "summary": "April's Producer Price Index rose a seasonally adjusted 1.4% month-over-month and 6% year-over-year \u2014 the largest annual gain since December 2022 \u2014 against a consensus forecast of just 0.5% for the month. Energy was the primary driver, with gasoline prices surging 15.6% on a monthly basis due to the Iran war and Strait of Hormuz closure. Services inflation accelerated 1.2%, the biggest monthly gain since March 2022, led by a 2.7% rise in trade services and a 3.5% jump in machinery and equipment wholesaling margins; truck transportation of freight costs also increased. The Fed has kept its benchmark rate in the 3.5%-3.75% range, with market pricing now showing about 39% odds of a rate hike in the next 12 months.",
+      "category": "economics",
+      "id": "a424c7c86a0a",
+      "added_at": "2026-05-13T23:41:22.488448Z",
+      "timestamp": "2026-05-13T23:41:22.488448Z"
     }
   ],
   "settings": {
