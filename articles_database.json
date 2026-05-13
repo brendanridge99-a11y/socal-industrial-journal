@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T02:57:30.040720Z",
+  "last_updated": "2026-05-13T03:05:16.159602Z",
   "articles": [
     {
       "headline": "US Treasuries Hold Losses After Core CPI Tops Estimates on Inflation Worries",
@@ -708,6 +708,54 @@
       "id": "72503a03c405",
       "added_at": "2026-05-13T02:57:30.040646Z",
       "timestamp": "2026-05-13T02:57:30.040646Z"
+    },
+    {
+      "headline": "Hot CPI Report Likely to Put Fed on Guard for Longer-Lasting Inflation; Rate Hike Odds Rising",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://finance.yahoo.com/economy/article/hot-cpi-report-likely-to-put-fed-on-guard-for-longer-lasting-inflation-meanwhile-rate-hike-odds-are-rising-141806600.html",
+      "summary": "April's hotter-than-expected CPI reading of 3.8% \u2014 up from 3.3% in March \u2014 is likely to put the Fed on alert that high energy prices are feeding through into broader consumer prices. According to CME FedWatch, markets are pricing in a nearly 98% chance the Fed holds rates steady at its June meeting and through most of 2026. Economists including RSM's Joe Brusuelas stated 'we're not getting rate cuts this year,' while Morgan Stanley's Ellen Zentner noted the data reinforces that new Fed leadership won't bring an immediate dovish shift. The odds of a rate hike in 2026, while still below 50%, are described as 'rising' by Morningstar's Preston Caldwell.",
+      "category": "economics",
+      "id": "40bcc7379356",
+      "added_at": "2026-05-13T03:05:16.159490Z",
+      "timestamp": "2026-05-13T03:05:16.159490Z"
+    },
+    {
+      "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.thestreet.com/fed/bofa-drops-blunt-warning-about-fed-rate-cuts-for-remaining-of-2026",
+      "summary": "Bank of America Global Research has revised its Federal Reserve rate-cut forecast, now expecting the Fed to hold rates steady through all of 2026, with two quarter-point cuts delayed until July and September 2027. BofA cited elevated inflation driven by energy prices from the Iran conflict and a stronger-than-expected labor market, with nonfarm payrolls rising 115,000 in April and unemployment holding at 4.3%. The Fed held its benchmark rate at 3.50%-3.75% at its April 29 meeting in an unusually divisive 8-4 vote, the closest since 1992. Headline PCE accelerated to 3.5% year-over-year in March while core PCE rose to 3.2%.",
+      "category": "economics",
+      "id": "bd01d967a018",
+      "added_at": "2026-05-13T03:05:16.159490Z",
+      "timestamp": "2026-05-13T03:05:16.159490Z"
+    },
+    {
+      "headline": "Columbia Container Lines Signs 68-Month, $13.6M Lease for 156,096-SF Industrial in Fullerton",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 1, 2026",
+      "url": "https://www.connectcre.com/california/",
+      "summary": "Columbia Container Lines LAX, Inc. signed a 68-month lease for a 156,096-square-foot industrial property at 691-701 Burning Tree Rd. in Fullerton, Orange County, valued at more than $13.6 million. The Klabin Company/CORFAC International represented Columbia Container Lines, with Tyler Rollema, SIOR, and Matt Stringfellow, SIOR, leading the transaction. The company is relocating and expanding from its prior location as part of the deal. The landlord was not disclosed in the available details.",
+      "category": "local-deals",
+      "id": "079ea733fff8",
+      "added_at": "2026-05-13T03:05:16.159490Z",
+      "timestamp": "2026-05-13T03:05:16.159490Z"
+    },
+    {
+      "headline": "CoStar: U.S. Industrial Vacancy Remains in Mid-7% Range Entering Q2 2026, Expected to Edge Higher Into 2027",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 2026",
+      "url": "https://www.costar.com/article/765793773/what-to-watch-in-2026-industrial-outlook-remains-volatile-amid-supply-overhang-shifting-demand",
+      "summary": "CoStar's revised forecast shows the national industrial vacancy rate remaining in the mid-7% range entering Q2 2026 and expected to edge higher into 2027 before beginning a gradual descent. West Coast port markets, despite facing lower new supply risk, are set to continue underperforming due to reduced demand, with availability in large, newer logistics properties near major West Coast ports exceeding 13%, compared to about 9% for East Coast ports. The ongoing trade disruptions weigh heavily on port markets exposed to Chinese trade, while improving demand in the latter half of 2026 may offer some relief, potentially returning national rent growth by 2027. Inland Empire, Los Angeles, and San Jose are expected to continue negative absorption into early 2027.",
+      "category": "industries",
+      "id": "d55db557b8c9",
+      "added_at": "2026-05-13T03:05:16.159490Z",
+      "timestamp": "2026-05-13T03:05:16.159490Z"
     }
   ],
   "settings": {
