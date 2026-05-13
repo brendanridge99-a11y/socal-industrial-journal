@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T03:56:35.571892Z",
+  "last_updated": "2026-05-13T04:14:21.376019Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -192,6 +192,54 @@
       "id": "86a7823ad080",
       "added_at": "2026-05-13T03:56:35.571799Z",
       "timestamp": "2026-05-13T03:56:35.571799Z"
+    },
+    {
+      "headline": "Markets Raise Chances for a Fed Rate Hike Following Hot Inflation Report",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html",
+      "summary": "Following the April CPI report, traders moved away from expecting Federal Reserve interest rate cuts and began pricing in a better than 1-in-3 chance of a rate hike by year-end, per CME Group's FedWatch tracker. Market pricing removed virtually any chance of a cut through the end of 2027. Jefferies economist Thomas Simons said the Fed is expected to stay on hold as it watches events unfold. Moody's Analytics chief economist Mark Zandi said the deciding factor will be whether inflation expectations continue to move higher.",
+      "category": "economics",
+      "id": "cf0a2d21506f",
+      "added_at": "2026-05-13T04:14:21.375919Z",
+      "timestamp": "2026-05-13T04:14:21.375919Z"
+    },
+    {
+      "headline": "Goodman Launches Leasing at 1.6M-SF Inland Empire West Logistics Campus in Rancho Cucamonga",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 4, 2026",
+      "url": "https://www.connectcre.com/stories/goodman-launches-leasing-at-1-6m-sf-inland-empire-west-logistics-campus/",
+      "summary": "Goodman announced it is now leasing Goodman Logistics Center Rancho Cucamonga, described as the largest contiguous logistics campus currently available in the Inland Empire West. The 1.6 million-square-foot campus is now being actively marketed for lease. No lease terms, asking rents, or leasing brokers were disclosed in the announcement. The project represents one of the largest available blocks of logistics space in the Western Inland Empire submarket.",
+      "category": "local-deals",
+      "id": "3fcd3567a17c",
+      "added_at": "2026-05-13T04:14:21.375919Z",
+      "timestamp": "2026-05-13T04:14:21.375919Z"
+    },
+    {
+      "headline": "CoStar: U.S. Industrial Vacancy to Rise Into Early 2027, National Rate Remains in Mid-7% Range",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 2026",
+      "url": "https://www.businesswire.com/news/home/20260323739921/en/Visual-Lease-Named-2026-GlobeSt.-Influencer-in-CRE-Technology",
+      "summary": "CoStar revised its industrial vacancy forecast, projecting the national industrial vacancy rate to remain in the mid-7% range entering Q2 2026 and edge higher into 2027 before beginning a gradual descent. West Coast port markets, including Southern California, are expected to continue underperforming due to reduced demand, with availability in large newer logistics properties near major West Coast ports exceeding 13%. U.S. retail vacancy is separately projected to peak in the mid-4.4% range, edging slightly higher in 2026 before stabilizing. CoStar forecasts increasing industrial demand in the second half of 2026 as the supply overhang begins to absorb.",
+      "category": "industries",
+      "id": "2aa5958368aa",
+      "added_at": "2026-05-13T04:14:21.375919Z",
+      "timestamp": "2026-05-13T04:14:21.375919Z"
+    },
+    {
+      "headline": "Port of Long Beach Sets 2025 Record at 9.9M TEUs, Plans $3.2B in Infrastructure Ahead of 2026",
+      "source": "GlobeSt",
+      "source_type": "paywalled",
+      "date": "January 22, 2026",
+      "url": "https://media.shipco.com/port-of-long-beach-sets-record-in-2025-eyes-continued-growth-in-2026/",
+      "summary": "The Port of Long Beach concluded 2025 handling a record 9.9 million TEUs \u2014 its busiest year in its 115-year history \u2014 securing a 48.9% cargo share among San Pedro Bay ports. Newly appointed CEO Dr. Noel Hacegaba projected another 9 million TEU year in 2026, targeting a top-five year by cargo volume. The port announced $3.2 billion in infrastructure investments to double capacity by 2050, including the $1.8 billion Pier B On-Dock Rail Support Facility scheduled for completion in 2032. Hacegaba noted tariffs have reshaped trade patterns, with China's share of cargo declining from 70% to 60% over six years as Southeast Asian countries gained share.",
+      "category": "supply-chain",
+      "id": "6c9241bab056",
+      "added_at": "2026-05-13T04:14:21.375919Z",
+      "timestamp": "2026-05-13T04:14:21.375919Z"
     }
   ],
   "settings": {
