@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T04:54:04.466033Z",
+  "last_updated": "2026-05-13T10:04:50.698789Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -612,6 +612,162 @@
       "id": "6c4dba37b918",
       "added_at": "2026-05-13T04:54:04.465896Z",
       "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "Oil Holds Gain With Iran's Exports Strained as Conflict Drags On",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13",
+      "summary": "West Texas Intermediate crude traded near $102 per barrel and Brent closed above $107 after a 4% gain the prior session, as the U.S.-Iran conflict continued and Iranian oil exports showed further strain. Satellite images confirmed no ocean-going tankers at Iran's Kharg Island export hub for several days \u2014 the first sign of an extended halt since the 10-week war began. Saudi Aramco CEO Amin Nasser warned the market is losing approximately 100 million barrels of supply per week, and said prolonged disruptions could delay market normalization until next year. President Trump was expected to press China's President Xi on Iran during their Beijing summit.",
+      "category": "economics",
+      "id": "ddb3c916a190",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "US to Release New Data on Global Oil Reserves, Hormuz Shipments Quarterly",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/us-to-unveil-new-data-spotlighting-hormuz-and-global-reserves",
+      "summary": "The U.S. Energy Information Administration announced it will begin releasing new quarterly data on global strategic reserves and petroleum and LNG flows through key shipping choke points, beginning Wednesday. The new energy security datasets are designed to track how the war in Iran has upended global energy supply and altered key assumptions about oil markets. The report will provide indicators of how Strait of Hormuz disruptions are affecting global supply chains.",
+      "category": "supply-chain",
+      "id": "b3eb4b218e23",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "US Beef Prices Hit Record Highs as Trump Team Holds Off on Import Tariff Cuts",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/trump-team-pauses-effort-to-lower-tariffs-on-beef-imports",
+      "summary": "The Trump administration delayed a previously planned executive action to temporarily suspend beef import tariffs, despite earlier reports that the move was imminent. A White House official said the administration is still fine-tuning potential directives aimed at alleviating temporary domestic beef shortages. Beef prices have reached record highs as a result of supply constraints. The delay came after Trump was expected to sign the directives on Monday.",
+      "category": "politics",
+      "id": "cde5a7490772",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "Top Industrial Leases Recognized for Inland Empire \u2014 Tireco, Medline, and Unis Among Q1 Deals",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 5, 2026",
+      "url": "https://www.costar.com/article/1079728703/top-industrial-leases-recognized-for-inland-empire",
+      "summary": "CoStar recognized the top Q1 2026 industrial leases in the Inland Empire, with prominent transactions signed by tire distributor Tireco, healthcare distributor Medline, and logistics operator Unis negotiated by CBRE. The Power Broker quarterly deals program evaluated all leases closed in Q1 and selected standout deals from CoStar's research team. Full deal terms are available to CoStar subscribers.",
+      "category": "local-deals",
+      "id": "7b2258f15a60",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "Newmark Advises Anheuser-Busch on $360M Sale of Former Newark Facility to Goodman Group",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 7, 2026",
+      "url": "https://www.connectcre.com/stories/new-york-people-and-company-news-week-of-may-8-2026/",
+      "summary": "Newmark Group advised Anheuser-Busch in the $360 million sale of its former brewing facility in Newark, New Jersey, to Goodman Group, a global industrial real estate owner and developer. The 75-year-old facility was closed by Anheuser-Busch in January 2026. Newmark Executive Vice Chairman Adam Doneger and Executive Managing Director Adam Petrillo served as exclusive advisors to the seller. Goodman Group plans to redevelop the site for industrial use.",
+      "category": "industries",
+      "id": "bbb83f989de1",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "Green Street Commercial Property Price Index Fell 0.1% in April; Life Science Properties Decline",
+      "source": "Green Street",
+      "source_type": "paywalled",
+      "date": "May 6, 2026",
+      "url": "https://www.greenstreet.com/resources/pricing-index/",
+      "summary": "Green Street's Commercial Property Price Index decreased 0.1% in April 2026, with life science property values declining and pricing in other sectors remaining essentially unchanged. The index, which measures REIT portfolio pricing on a frequently updated basis, has increased 2.3% over the past twelve months. Green Street Co-Head of Strategic Research Peter Rothemund had previously stated that roughly 2% annual price appreciation was his baseline expectation for 2026.",
+      "category": "industries",
+      "id": "10c104d7a114",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "Green Street Expands News Platform to U.S. Subscribers for Real-Time CRE Intelligence",
+      "source": "Green Street",
+      "source_type": "paywalled",
+      "date": "January 29, 2026",
+      "url": "https://www.greenstreet.com/about/newsroom/",
+      "summary": "Green Street announced the expansion of its Green Street News digital platform to include U.S. subscribers, granting real-time access to first-to-market scoops across 25 global commercial real estate markets. The platform was previously available only to non-U.S. subscribers and delivers exclusive deal flow, capital markets intelligence, and sector news. The expansion makes Green Street's international CRE news coverage available to U.S. investors, lenders, and market leaders for the first time.",
+      "category": "industries",
+      "id": "d904e9208f03",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "U.S. CPI Accelerates to 3.8% in April \u2014 Fastest Since 2023 \u2014 Driven by Energy and Services",
+      "source": "BLS / Bloomberg",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.bls.gov/news.release/pdf/cpi.pdf",
+      "summary": "The Bureau of Labor Statistics released April 2026 CPI data showing headline inflation of 3.8% year-over-year \u2014 the fastest pace since 2023 \u2014 with a 0.6% month-over-month gain. Core CPI rose 0.4% for the month and 2.8% year-over-year, exceeding the 0.3% consensus estimate. Higher gasoline prices tied to Middle East conflict accounted for roughly one-third of the monthly headline increase. Services inflation rose 0.6% month-over-month, and food prices rose 0.5%, reflecting diesel-driven cost pass-through in the food distribution sector. The data fueled market bets on potential Federal Reserve rate hikes in 2027.",
+      "category": "economics",
+      "id": "51bb27f32fc3",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "Fed Holds Rates at 3.5%\u20133.75% for Third Straight Meeting; Dissent Rises Over Inflation Risk",
+      "source": "Bloomberg / Federal Reserve",
+      "source_type": "free",
+      "date": "April 29, 2026",
+      "url": "https://tradingeconomics.com/united-states/interest-rate",
+      "summary": "The Federal Open Market Committee held the federal funds rate at 3.5%\u20133.75% at its April 29 meeting, the third consecutive hold, in an 8-4 vote \u2014 the most dissent since October 1992. The Fed acknowledged that Middle East developments have increased uncertainty around the economic outlook and flagged elevated upside risks to inflation. Fed Chair Jerome Powell's term expires May 15, with Kevin Warsh confirmed as his successor. Markets currently price in no changes to rates through year-end 2026, though interest-rate swaps now reflect a 70% probability of a rate hike by April 2027 following the hot April CPI print.",
+      "category": "economics",
+      "id": "80d9abeeed9e",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "Trump-Xi Summit Aims for Stability on Trade; Breakthroughs Unlikely",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.washingtonpost.com/politics/2026/05/12/trump-xi-summit-economy/",
+      "summary": "President Trump arrived in Beijing for his first visit since taking office, with trade and tariffs expected to dominate discussions with President Xi Jinping. Since Trump's last Beijing visit, U.S.-China merchandise trade has fallen by more than one-third. A one-year tariff truce between the two countries is in effect through November 10, 2026, including a reduction of fentanyl-related duties from 20% to 10%. Analysts described the summit as stability-focused with little expectation of major new breakthroughs on trade structure.",
+      "category": "politics",
+      "id": "8f6510ee0b66",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "NorthPoint Development Starts Work on 428,900 SF Speculative Industrial Building in Chicago's 90 & Randall Logistics Park",
+      "source": "CoStar / CRE Direct",
+      "source_type": "free",
+      "date": "May 11, 2026",
+      "url": "https://crenews.com/2026/05/11/work-to-start-on-chicago-area-industrial-property/",
+      "summary": "NorthPoint Development commenced construction on a 428,900-square-foot speculative cross-dock warehouse at Interstate 90 and Randall Road in Algonquin, Illinois, within the 90 & Randall Logistics Park. The facility will feature a 40-foot clear height, 44 dock doors, four drive-in doors, 104 trailer stalls, and 277 car parking spaces. Peak Construction Corporation was awarded the general contracting contract, with studioNorth as architect and Atwell as civil engineer. The Kansas City, Missouri-based developer is building the property speculatively without a pre-signed tenant.",
+      "category": "industries",
+      "id": "630579a70319",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "Weston Acquires 305,491 SF Class A Distribution Center in Huntsville, Alabama for $29.3M",
+      "source": "CoStar",
+      "source_type": "free",
+      "date": "May 5, 2026",
+      "url": "https://www.costar.com/author/00000198-a98c-d232-a7be-b9bf2cd80000/costar-ai",
+      "summary": "Weston, a Cleveland, Ohio-based industrial real estate owner and operator, acquired River and Rocket Commerce Center \u2014 a 305,491-square-foot Class A industrial distribution facility at 23366 Bibb \u2014 in the Huntsville, Alabama area for $29.3 million. The acquisition reflects continued investor appetite for Class A logistics facilities in high-growth Sun Belt markets. Huntsville has been among the Southeast's most active industrial markets, driven by defense, aerospace, and advanced manufacturing demand.",
+      "category": "industries",
+      "id": "5a7a5372e92a",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "Missner Group Buys 58,236 SF Multi-Tenant Industrial Building in Aurora, Illinois",
+      "source": "CoStar",
+      "source_type": "free",
+      "date": "May 8, 2026",
+      "url": "https://www.costar.com/news/us/category/sale",
+      "summary": "The Missner Group acquired a 58,236-square-foot multi-tenant industrial building in Aurora, Illinois, with plans to lease up the property. The Chicago-area acquisition reflects continued investor interest in smaller multi-tenant industrial product in the greater Chicago logistics market. Aurora sits within the broader Chicago industrial corridor, which recorded strong absorption and a 6% vacancy rate as of early 2026. Financial terms of the transaction were not disclosed.",
+      "category": "industries",
+      "id": "6c1dd08166da",
+      "added_at": "2026-05-13T10:04:50.698643Z",
+      "timestamp": "2026-05-13T10:04:50.698643Z"
     }
   ],
   "settings": {
