@@ -17,6 +17,7 @@
 
         html {
             scroll-behavior: smooth;
+            scroll-padding-top: 6rem;
         }
 
         body {
@@ -24,6 +25,10 @@
             background: #fafafa;
             color: #000;
             line-height: 1.6;
+        }
+
+        section {
+            scroll-margin-top: 2rem;
         }
 
         @media (max-width: 768px) {
@@ -43,8 +48,7 @@
           <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 0.75rem; color: #999; margin: 0.5rem 0 0; letter-spacing: 0.15em; text-transform: uppercase;">Tuesday, May 12, 2026 • Rolling 48-Hour Brief</p>
         </div>
         <div style="text-align: right; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 0.75rem; color: #999;">
-          <div>Last update 07:23 PM PDT</div>
-          <div style="margin-top: 0.25rem;">48 stories</div>
+          <div style="margin-top: 0.25rem;">59 stories</div>
         </div>
       </div>
     </div>
@@ -65,7 +69,7 @@
     <div style="background: #fafafa; padding: 2.5rem 2rem;">
       
     <!-- Economics Section -->
-    <div id="economics" style="scroll-margin-top: 2rem;">
+    <section id="economics">
     
         <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #c8102e; margin-bottom: 2.5rem; padding: 2.5rem;">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
@@ -205,6 +209,22 @@
 
         <div>
           <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">CNBC / Bureau of Labor Statistics</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 12, 2026</span>
+            
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">CPI Inflation April 2026: Prices Rose 3.8% Annually</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            The April 2026 Consumer Price Index rose 3.8% year-over-year — the highest annual rate since May 2023 — driven by a 3.8% surge in energy prices tied to the ongoing Iran war, which accounted for over 40% of the monthly gain. Core CPI (ex-food and energy) came in at +0.4% MoM and +2.8% YoY, exceeding expectations. Real average hourly wages fell 0.3% annually, compressing consumer purchasing power. For IE industrial brokers, this hot inflation print virtually eliminates any prospect of Fed rate cuts in 2026, keeping commercial borrowing costs elevated and further chilling investment sales and refinancing activity in Southern California industrial properties.
+          </p>
+          
+          <a href="https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a>
+        </div>
+
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
             <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">Connect CRE</span>
             <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 11, 2026</span>
             
@@ -314,11 +334,47 @@
               <a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem; display: inline-block; width: fit-content;">Request access →</a>
             </div>
         </div>
+
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">TheStreet (citing Bloomberg/BofA Global Research)</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 11, 2026</span>
+            
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">BofA Delays Fed Rate-Cut Forecast Into 2027</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            Bank of America Global Research now expects the Federal Reserve to keep rates on hold for the remainder of 2026, with two 25bp cuts not occurring until July and September 2027 — a sharp revision from its prior forecast of September 2026. The call is driven by elevated inflation (headline PCE at 3.5% YoY, core PCE at 3.2%), a stronger-than-expected April jobs report (+115,000 nonfarm payrolls), and energy price shocks from the Iran war. Goldman Sachs similarly pushed its first expected cut to December 2026. For IE industrial brokers, the 'higher for longer' rate environment (Fed funds at 3.50–3.75%) will continue to suppress investment sales volume, widen bid-ask spreads on industrial assets, and delay lease decisions by tenants sensitive to financing costs.
+          </p>
+          
+          <a href="https://www.thestreet.com/fed/bofa-drops-blunt-warning-about-fed-rate-cuts-for-remaining-of-2026" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a>
+        </div>
+
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">Wall Street Journal (via Reuters/WHBL citing WSJ-reported data)</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 11, 2026</span>
+            <span style="background: #fff5f5; color: #c8102e; padding: 0.15rem 0.4rem; font-family: var(--font-sans); font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0;">🔒</span>
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">BofA and Goldman Push Back Fed Rate-Cut Expectations on Inflation Risks, Jobs Data</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            A broad coalition of global brokerages — including BofA, Goldman Sachs, and JP Morgan — have revised their Fed rate-cut forecasts significantly later, with BofA expecting no cuts in 2026 and Goldman eyeing December 2026 at the earliest. The 10-week-old Iran war has pushed energy prices higher and U.S. unemployment held steady at 4.3% in April. Traders are now pricing in mid-to-late 2027 for the next Fed cut, according to the CME FedWatch Tool. For IE brokers, this 'rates on hold' environment means industrial cap rates are unlikely to compress near-term, keeping transaction volumes suppressed and making it harder to close investment sales at seller-expected pricing.
+          </p>
+          
+          
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <a href="https://whbl.com/2026/05/11/goldman-sachs-delays-fed-cut-outlook-to-december-2026-as-iran-war-drives-us-inflation/" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px; display: inline-block; width: fit-content;">Continue reading</a>
+              <a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem; display: inline-block; width: fit-content;">Request access →</a>
+            </div>
+        </div>
     </div>
-    </div>
+    </section>
 
     <!-- Industries Section -->
-    <div id="industries" style="scroll-margin-top: 2rem;">
+    <section id="industries">
     
         <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #c8102e; margin-bottom: 2.5rem; padding: 2.5rem;">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
@@ -363,23 +419,43 @@
 
         <div style="border-bottom: 1px solid #e0e0e0; padding-bottom: 1.5rem;">
           <div style="margin-bottom: 0.875rem; display: flex; align-items: center; gap: 0.5rem;">
-            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">Wall Street Journal</span>
-            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 6, 2026</span>
-            <span style="background: #fff5f5; color: #c8102e; padding: 0.15rem 0.4rem; font-family: var(--font-sans); font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0;">🔒</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">Connect CRE (citing MBA data)</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 7, 2026</span>
+            
           </div>
           
-          <h4 style="font-family: Georgia, serif; font-size: 1.35rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.875rem; color: #000;">US Industrial Leasing Surges 17.8% in Q1 2026 as Supply Chain Shifts Drive Demand</h4>
+          <h4 style="font-family: Georgia, serif; font-size: 1.35rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.875rem; color: #000;">Commercial Mortgage Volume Rises 52% Year-Over-Year in Q1 2026</h4>
           
           <p style="font-family: Georgia, serif; font-size: 0.95rem; line-height: 1.65; color: #555; margin: 0 0 1rem;">
-            JLL's Q1 2026 U.S. Industrial Market Dynamics Report found national industrial leasing activity jumped 17.8% year-over-year, with 145 million SF of leases executed — 71.6% representing new leases rather than renewals. Asking rates stayed modestly positive, up 0.8% annually to $10.34 per SF nationally, while average direct asking rates for mega-box warehouses rose 14.5% annually. The leasing strength was driven by supply chain diversification, nearshoring manufacturing, and demand for modern logistics facilities. For IE industrial brokers, this national trend contrasts with SoCal's softer dynamics — tenants with flexibility are increasingly considering IE alternatives to more expensive coastal markets, particularly for large-format distribution.
+            The Mortgage Bankers Association reported that commercial and multifamily mortgage originations surged 52% year-over-year in Q1 2026, with industrial property loan originations specifically rising 56% YoY — the fourth-largest gain among property types. The growth was led by an 80% rise in depository lending driven by maturing bank-held loans, and investor-driven lenders posted a 133% YoY surge. While Q1 originations fell 30% sequentially from Q4 2025 (typical seasonal pattern), the annual trajectory is constructive. For IE/SoCal industrial brokers, this data confirms lenders are returning to the industrial sector, which could support more transaction activity in H2 2026 if rate conditions stabilize.
           </p>
           
-          <div style="display: flex; align-items: center; gap: 1rem;"><a href="https://www.logisticsmgmt.com/article/u.s_industrial_leasing_surges_in_q1_as_supply_chain_shifts_drive_demand_reports_jll" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a><a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem;">Request access →</a></div>
+          <a href="https://www.connectcre.com/stories/commercial-mortgage-volume-rises-52-year-over-year/" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a>
         </div>
     </div>
     
     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-bottom: 3rem;">
       
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">Wall Street Journal</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 6, 2026</span>
+            <span style="background: #fff5f5; color: #c8102e; padding: 0.15rem 0.4rem; font-family: var(--font-sans); font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0;">🔒</span>
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">US Industrial Leasing Surges 17.8% in Q1 2026 as Supply Chain Shifts Drive Demand</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            JLL's Q1 2026 U.S. Industrial Market Dynamics Report found national industrial leasing activity jumped 17.8% year-over-year, with 145 million SF of leases executed — 71.6% representing new leases rather than renewals. Asking rates stayed modestly positive, up 0.8% annually to $10.34 per SF nationally, while average direct asking rates for mega-box warehouses rose 14.5% annually. The leasing strength was driven by supply chain diversification, nearshoring manufacturing, and demand for modern logistics facilities. For IE industrial brokers, this national trend contrasts with SoCal's softer dynamics — tenants with flexibility are increasingly considering IE alternatives to more expensive coastal markets, particularly for large-format distribution.
+          </p>
+          
+          
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <a href="https://www.logisticsmgmt.com/article/u.s_industrial_leasing_surges_in_q1_as_supply_chain_shifts_drive_demand_reports_jll" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px; display: inline-block; width: fit-content;">Continue reading</a>
+              <a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem; display: inline-block; width: fit-content;">Request access →</a>
+            </div>
+        </div>
+
         <div>
           <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
             <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">BisNow</span>
@@ -466,6 +542,26 @@
           </p>
           
           <a href="https://www.businesswire.com/news/home/20260205011373/en/CoStar-Expects-U.S.-Industrial-Vacancy-to-Peak-This-Year-Rent-Growth-Remains-Unchanged-Through-2026" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a>
+        </div>
+
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">GlobeSt</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• April 6, 2026</span>
+            <span style="background: #fff5f5; color: #c8102e; padding: 0.15rem 0.4rem; font-family: var(--font-sans); font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0;">🔒</span>
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">Larger Deals Provide Boost to Orange County's Industrial Market</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            GlobeSt reported that Orange County's industrial leasing market is showing signs of recovery, with larger deals driving activity to its strongest pace since pre-pandemic levels according to a recent market report. The article notes stable interest rates and resilient consumer demand as key drivers supporting Southern California industrial growth. Orange County industrial availability sits near 5.5%, with asking rents around $18.90/SF annually — among the highest in the nation. For OC industrial brokers, the return of large-format deal activity is a positive leading indicator, suggesting institutional and national tenants are re-engaging with the market after a period of caution.
+          </p>
+          
+          
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <a href="https://www.globest.com/2026/04/06/larger-deals-provide-boost-to-orange-countys-industrial-market/" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px; display: inline-block; width: fit-content;">Continue reading</a>
+              <a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem; display: inline-block; width: fit-content;">Request access →</a>
+            </div>
         </div>
 
         <div>
@@ -563,11 +659,27 @@
               <a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem; display: inline-block; width: fit-content;">Request access →</a>
             </div>
         </div>
+
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">Cushman & Wakefield (via CoStar/market data)</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• April 14, 2026</span>
+            
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">Inland Empire Industrial Vacancy Rate Increased to 8.9% in Q1 2026 — Cushman & Wakefield MarketBeat</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            Cushman & Wakefield's Q1 2026 Inland Empire MarketBeat reported the overall vacancy rate at 8.9% (up 10 bps QoQ, up 40 bps YoY), while the strictly industrial vacancy rate reached 8.5% — 50 bps above Q4 2025 and well above the 10-year average of 4.0%. The report noted that peak vacancy may be approaching as the construction pipeline dwindles sharply. National conditions are improving with vacancy dropping below its 2025 peak, while West Coast markets continue to lag on occupancy declines. For IE industrial brokers, the data confirms the market remains in a tenant-favorable environment with negotiating leverage, but the pipeline's collapse signals conditions for rent recovery as early as late 2026 or 2027.
+          </p>
+          
+          <a href="https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/inland-empire-marketbeats" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a>
+        </div>
     </div>
-    </div>
+    </section>
 
     <!-- Business Section -->
-    <div id="business" style="scroll-margin-top: 2rem;">
+    <section id="business">
     
         <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #c8102e; margin-bottom: 2.5rem; padding: 2.5rem;">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
@@ -627,10 +739,10 @@
         </div>
     </div>
     
-    </div>
+    </section>
 
     <!-- Tech Section -->
-    <div id="tech" style="scroll-margin-top: 2rem;">
+    <section id="tech">
     
         <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #c8102e; margin-bottom: 2.5rem; padding: 2.5rem;">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
@@ -652,11 +764,32 @@
           </div>
         </div>
     
-    
+    <div style="border-bottom: 2px solid #c8102e; margin-bottom: 2rem; padding-bottom: 0.5rem;">
+      <h3 style="font-family: var(--font-sans); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; margin: 0; color: #000;">More in Tech</h3>
     </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; margin-bottom: 3rem;">
+      
+        <div style="border-bottom: 1px solid #e0e0e0; padding-bottom: 1.5rem;">
+          <div style="margin-bottom: 0.875rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">Connect CRE (citing CoreNet Global/Colliers research)</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 8, 2026</span>
+            
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.35rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.875rem; color: #000;">AI Is Now the Leading Driver of Change in Corporate Real Estate, Survey Finds</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.95rem; line-height: 1.65; color: #555; margin: 0 0 1rem;">
+            New research from CoreNet Global and Colliers found that 51% of more than 1,000 corporate real estate professionals surveyed at recent global summits identified AI and automation as the most significant force shaping CRE operations — surpassing sustainability, portfolio optimization, and workforce changes. The findings reflect a growing shift toward AI-driven warehouse management, predictive analytics for space utilization, and robotic fulfillment systems that are reshaping the physical requirements of industrial facilities. For Inland Empire and SoCal industrial brokers, this trend accelerates demand for modern, automation-ready facilities with high power capacity (3,000+ amps), reinforced floors, and tall clear heights — features that older Class B/C warehouse stock in the IE cannot easily provide.
+          </p>
+          
+          <a href="https://www.connectcre.com/" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a>
+        </div>
+    </div>
+    
+    </section>
 
     <!-- Supply Chain & Logistics Section -->
-    <div id="supply-chain" style="scroll-margin-top: 2rem;">
+    <section id="supply-chain">
     
         <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #c8102e; margin-bottom: 2.5rem; padding: 2.5rem;">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
@@ -768,6 +901,26 @@
 
         <div>
           <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">GlobeSt</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• March 4, 2026</span>
+            <span style="background: #fff5f5; color: #c8102e; padding: 0.15rem 0.4rem; font-family: var(--font-sans); font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0;">🔒</span>
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">California Ports Show Resiliency, With Long Beach Setting Record for TEUs</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            A Savills research report highlighted that the Ports of LA and Long Beach combined to handle more than 20 million TEUs in 2025 — both ports' busiest years on record — despite April-June tariff-driven volume dips. The Port of LA handled 10.2 million TEUs in 2025 (its 26th consecutive year as the top U.S. container port), while Long Beach set its own TEU record. Critically, neither port experienced meaningful congestion or extended vessel wait times, a sharp contrast to prior disruption cycles. For IE industrial brokers, record port throughput underpins the long-term demand thesis for Inland Empire warehouse and distribution space, even as current vacancy remains elevated due to the construction overhang.
+          </p>
+          
+          
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <a href="https://www.globest.com/amp/2026/03/04/california-ports-show-resiliency-with-long-beach-setting-record-for-teus/" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px; display: inline-block; width: fit-content;">Continue reading</a>
+              <a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem; display: inline-block; width: fit-content;">Request access →</a>
+            </div>
+        </div>
+
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
             <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">gCaptain</span>
             <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• April 2026</span>
             
@@ -782,10 +935,10 @@
           <a href="https://gcaptain.com/port-of-long-beach-outpaces-rivals-as-tariffs-and-war-risks-cloud-outlook/" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a>
         </div>
     </div>
-    </div>
+    </section>
 
     <!-- Local Deals & Developments Section -->
-    <div id="local-deals" style="scroll-margin-top: 2rem;">
+    <section id="local-deals">
     
         <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #c8102e; margin-bottom: 2.5rem; padding: 2.5rem;">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
@@ -885,6 +1038,22 @@
 
         <div>
           <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">Connect CRE</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 8, 2026</span>
+            
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">JLL Arranges $26M Bridge Financing for Anaheim Industrial Outdoor Storage Facility</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            JLL Capital Markets arranged $26 million in non-recourse, three-year floating-rate bridge financing for a 7.75-acre industrial outdoor storage (IOS) facility at 1477 N. Jefferson St. in Anaheim, Orange County, on behalf of borrower North Palisade Partners. Senior Director Peter Thompson led the transaction for the Class A, 337,590-square-foot property. The deal reflects continued lender appetite for IOS assets in infill Orange County locations, even in a high-rate environment. For IE and OC brokers, the IOS sector remains one of the most liquid and in-demand industrial sub-types, with strong rent premiums in supply-constrained infill markets like Anaheim.
+          </p>
+          
+          <a href="https://www.connectcre.com/industrial/" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a>
+        </div>
+
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
             <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">CoStar</span>
             <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 5, 2026</span>
             <span style="background: #fff5f5; color: #c8102e; padding: 0.15rem 0.4rem; font-family: var(--font-sans); font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0;">🔒</span>
@@ -919,6 +1088,26 @@
           
             <div style="display: flex; flex-direction: column; gap: 0.5rem;">
               <a href="https://www.costar.com/article/1079728703/top-industrial-leases-recognized-for-inland-empire" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px; display: inline-block; width: fit-content;">Continue reading</a>
+              <a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem; display: inline-block; width: fit-content;">Request access →</a>
+            </div>
+        </div>
+
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">CoStar</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• May 5, 2026</span>
+            <span style="background: #fff5f5; color: #c8102e; padding: 0.15rem 0.4rem; font-family: var(--font-sans); font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0;">🔒</span>
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">Top Industrial Leases Recognized for Orange County — Q1 2026 Power Broker Awards</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            CoStar recognized the top Q1 2026 industrial leases in Orange County, with prominent deals signed by Houdini, Cubework, and Dot Corp., negotiated by dealmakers from CBRE, Prologis, and Tierra West Advisors. The Power Broker Awards highlight the strongest quarterly deal activity evaluated by CoStar's research team across all Orange County industrial transactions. These recognized leases signal continued active deal-making in OC despite rising vacancy (approximately 5.5%) and softening asking rents (down 3.7% QoQ to ~$1.55 NNN/SF/month per CBRE's Q1 figures). For OC industrial brokers, Cubework's presence on the list also signals continued flex/co-warehousing demand in the county.
+          </p>
+          
+          
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <a href="https://www.costar.com/article/2100691866/top-industrial-leases-recognized-for-orange-county" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px; display: inline-block; width: fit-content;">Continue reading</a>
               <a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem; display: inline-block; width: fit-content;">Request access →</a>
             </div>
         </div>
@@ -990,8 +1179,28 @@
           
           <a href="https://www.connectcre.com/california/" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px;">Continue reading</a>
         </div>
+
+        <div>
+          <div style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #c8102e;">GlobeSt</span>
+            <span style="font-family: var(--font-sans); font-size: 0.7rem; color: #999;">• April 14, 2026</span>
+            <span style="background: #fff5f5; color: #c8102e; padding: 0.15rem 0.4rem; font-family: var(--font-sans); font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0;">🔒</span>
+          </div>
+          
+          <h4 style="font-family: Georgia, serif; font-size: 1.1rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.75rem; color: #000;">Recovery Shapes in San Diego's Industrial Market Amid Economic Shocks</h4>
+          
+          <p style="font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.6; color: #555; margin: 0 0 0.75rem;">
+            San Diego's industrial market posted 220,000 SF of positive net absorption in Q1 2026, pushing vacancy down 20 bps QoQ to 7.7%, driven by move-ins from logistics and consumer goods sectors. North County showed positive signs with moderating availability after two consecutive years of new-leasing growth, while Otay Mesa saw elevated vacancy at 15.7% due to large tenant move-outs, though it remained one of the most active deal submarkets for renewals. The limited development pipeline and strong renewal activity provided supply-side support for stabilization. For San Diego industrial brokers, the market is diverging sharply by submarket — Otay Mesa offers value-add and large-block opportunities, while North County commands premium rents from life sciences and defense-adjacent users.
+          </p>
+          
+          
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <a href="https://www.globest.com/amp/2026/04/14/recovery-shapes-in-san-diegos-industrial-market-amid-economic-shocks/" target="_blank" style="font-family: var(--font-sans); color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; border-bottom: 1px solid #000; padding-bottom: 1px; display: inline-block; width: fit-content;">Continue reading</a>
+              <a href="mailto:Brendan.ridge@jll.com" style="font-family: var(--font-sans); color: #c8102e; text-decoration: none; font-size: 0.75rem; display: inline-block; width: fit-content;">Request access →</a>
+            </div>
+        </div>
     </div>
-    </div>
+    </section>
 
     </div>
 
