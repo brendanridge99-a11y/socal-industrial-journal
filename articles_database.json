@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T21:06:53.377486Z",
+  "last_updated": "2026-05-13T21:23:05.675427Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -900,6 +900,174 @@
       "id": "21160adadd9b",
       "added_at": "2026-05-13T21:06:53.362035Z",
       "timestamp": "2026-05-13T21:06:53.362035Z"
+    },
+    {
+      "headline": "US Producer Prices Rise Most Since 2022 on Energy Costs",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/us-producer-prices-rise-most-since-2022-on-higher-energy-costs",
+      "summary": "The U.S. Producer Price Index rose 6% year-over-year in April 2026, the largest annual increase since December 2022, topping all estimates in a Bloomberg survey of economists. On a monthly basis, the PPI surged 1.4%, the largest gain since March 2022, driven primarily by a 15.6% surge in gasoline prices tied to the Iran war. Goods prices jumped 2% and services prices rose 1.2%, with truck transportation of freight and machinery and equipment wholesaling among the notable service-side increases. The April increase is nearly triple the 0.5% consensus forecast from economists.",
+      "category": "economics",
+      "id": "eb75cb373e69",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Bond Investors Flee as Inflation Worry Sends Yields to 2026 High",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/us-10-year-treasury-yield-hits-highest-since-july-after-ppi-data",
+      "summary": "Following back-to-back hotter-than-expected U.S. inflation reports this week, investors fled government bonds, sending benchmark 10-year Treasury yields to their highest level since July 2025. The 30-year Treasury yield briefly traded above 5% as the latest PPI data pushed traders to increase bets on a Federal Reserve interest-rate hike in the coming year. The Fed currently holds its benchmark rate at 3.50%\u20133.75% following an 8-4 vote at its April 29 meeting. Market pricing now shows roughly a 39% chance of a rate hike by year-end, up sharply from prior weeks.",
+      "category": "economics",
+      "id": "62b71316ba9d",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Why US Inflation Matters for British Investors",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-13/why-us-inflation-matters-for-british-investors",
+      "summary": "Bloomberg's Money Distilled newsletter published May 13, 2026, examined the threat of rising U.S. interest rates following April's hot CPI reading of 3.8% and the even hotter PPI report released Wednesday. The newsletter referenced Federal Reserve Chair nominee Kevin Warsh and the potential knock-on effects for global assets from elevated U.S. inflation. The April CPI came in at 3.8% annually \u2014 the fastest pace since 2023 \u2014 with energy prices accounting for roughly one-third of the monthly increase, tied to the Iran war's impact on the Strait of Hormuz.",
+      "category": "economics",
+      "id": "68eedaca77af",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Walmart Cuts or Relocates About 1,000 Corporate Workers in Tech Consolidation",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.wsj.com/business/retail/walmart-tech-layoffs-restructuring-2026",
+      "summary": "Walmart announced it would cut or relocate approximately 1,000 corporate employees in its technology and product divisions as the retail giant completes a shift to a unified global technology platform, the Wall Street Journal first reported. The restructuring was directed by Global CTO Suresh Kumar and EVP of AI Acceleration Daniel Danker, who cited the consolidation of previously siloed tech teams working on duplicate problems across Walmart U.S., Sam's Club, and international units. Affected workers are being offered internal positions or relocation to Walmart's Bentonville, Arkansas headquarters or its Northern California offices. The round brings total 2026 corporate roles affected to roughly 1,100, following an earlier 1,500-position reduction in May 2025.",
+      "category": "business",
+      "id": "2d6b67ea45ca",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Wall Street Gets More Anxious About Long-Term Inflation",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.wsj.com/economy/inflation-tips-breakeven-rate-2026",
+      "summary": "The Wall Street Journal reported that the gap between yields on ordinary U.S. Treasurys and Treasury inflation-protected securities \u2014 known as the break-even rate \u2014 recently hit its highest level since October 2022, according to Federal Reserve data. The elevated break-even rate signals that investors expect average annual inflation of approximately 2.7% over the next five years. The reading follows April's CPI print of 3.8% and Wednesday's PPI report showing a 6% annual increase, both well above the Fed's 2% target. Wall Street has scaled back any near-term expectations for Fed rate cuts following the dual inflation reports.",
+      "category": "economics",
+      "id": "26f87b6ee3db",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Investors Back Blackstone's Industrial Bet With $4 Billion in New Refinancings",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.costar.com/article/616629042/investors-back-blackstones-industrial-bet-with-4-billion-in-new-refinancings",
+      "summary": "Blackstone is completing its third major industrial portfolio refinancing of 2026 through its Link Logistics affiliate, locking in a total of more than $4 billion in new floating-rate CMBS debt across 213 warehouse and logistics properties. The latest deal, BX Trust 2026-CIP, is a $1.3 billion mortgage loan secured by 83 industrial properties spanning 13 million square feet across 15 states, scheduled to close May 21 with co-origination from Deutsche Bank, Citi, JPMorgan, Nomura, and Goldman Sachs. The three 2026 refinancings combined cover 30.9 million square feet and drew participation from at least 12 major lending institutions. Fitch noted that in-place rents of $7.75 per square foot across the latest portfolio trail average market rents of $10.50 per square foot, providing a built-in rent growth narrative for lenders.",
+      "category": "industries",
+      "id": "9627dcfb9b85",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "CoStar: U.S. Industrial Vacancy Projected to Rise Into Early 2027",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.businesswire.com/news/home/20260507938582/en/Apartments.com-and-CoStar-Raise-U.S.-Multifamily-Vacancy-Forecast",
+      "summary": "According to the most recent CoStar forecast, the national industrial vacancy rate remains in the mid-7% range entering Q2 2026 and is projected to edge higher into early 2027 before beginning a gradual descent, a slightly worse outlook than prior expectations. CoStar cited a near-term energy price spike that has eroded consumer spending power, along with downgraded employment growth forecasts tied to tariff policy changes and slower labor force growth. The revised forecast noted that risks are tilted to the downside, with elevated tariffs or weaker consumer goods spending potentially pushing vacancy to 8\u20139%. Rent growth is projected at approximately 2.2% annually over 2026\u201327, below the pre-pandemic five-year average.",
+      "category": "industries",
+      "id": "971c27b9e1ff",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Tech Carries Wall Street to Records Even as Most Stocks Fall After Discouraging Inflation Data",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.wsj.com/finance/stocks/stock-market-today-may-13-2026",
+      "summary": "The S&P 500 rose 0.58% to a new record close of 7,444.25 on Wednesday and the Nasdaq added 1.2% to 26,402.34, both hitting fresh intraday and closing records, driven by technology sector outperformance. However, roughly two-thirds of S&P 500 components fell during the session as the hotter-than-expected April PPI report of 6% year-over-year weighed on retail, banking, and other cyclically sensitive sectors. Nvidia shares closed up more than 2% and Micron Technology gained more than 4%, as investors anticipated positive semiconductor developments from Trump's Beijing summit with Xi Jinping. The Dow Jones Industrial Average shed 67.36 points, or 0.14%, ending at 49,693.20.",
+      "category": "economics",
+      "id": "62a219fc8221",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Wholesale Prices Surge 1.4% in April \u2014 Largest Monthly Gain Since March 2022",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.wsj.com/economy/ppi-april-2026-wholesale-inflation",
+      "summary": "The April 2026 Producer Price Index released Wednesday by the Bureau of Labor Statistics showed wholesale prices rose 1.4% month-over-month, the largest monthly increase since March 2022, and 6.0% year-over-year, the largest annual gain since December 2022. Goods prices surged 2%, led by a 15.6% jump in gasoline, while services prices rose 1.2%, with a 3.5% increase in margins for machinery and equipment wholesaling and higher truck transportation of freight costs. Core PPI excluding food and energy accelerated 1%, compared to the 0.4% estimate. Nationwide senior economist Ben Ayers said the jump in input prices portends further consumer price increases in May, forecasting CPI above 4% in next month's report.",
+      "category": "economics",
+      "id": "d3dd5e139d85",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Stonelake Capital Partners Acquires Apex Commerce Center Industrial Portfolio in Raleigh for $90M",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.connectcre.com/stories/stonelake-acquires-apex-commerce-center-raleigh/",
+      "summary": "Stonelake Capital Partners acquired Apex Commerce Center, a three-building Class A industrial portfolio totaling 613,353 square feet in Raleigh, North Carolina, for $90 million, closing immediately after construction completion in April 2026. The three buildings are located at 2061 Production Drive, 2170 Production Drive, and 600 Pristine Water Drive in the Apex submarket. No seller or tenant details were disclosed in the Connect CRE report. The transaction reflects continued investor demand for newly built Class A industrial product in Southeastern U.S. logistics markets.",
+      "category": "industries",
+      "id": "ea16a3076220",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "BGO and Greenlaw Partners Purchase River Park 6 Warehouse in Atlanta Submarket for $70M",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.connectcre.com/stories/bgo-greenlaw-river-park-6-butts-county/",
+      "summary": "BentallGreenOak (BGO) and Greenlaw Partners purchased River Park 6, a 724,687-square-foot warehouse in Butts County, Georgia, for $70 million from sellers Waterloo Partners and ICM Property Group. The building is part of the River Park industrial campus, which is planned to ultimately reach 21 million square feet. Luggage brand Travelpro leases a portion of River Park 6. The deal adds to BGO's growing industrial portfolio in the Southeast as the Atlanta market continues to absorb excess post-pandemic supply.",
+      "category": "industries",
+      "id": "d1caa05dca1c",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Phoenix Developers Converting Office Complexes Into Industrial Parks",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.connectcre.com/stories/phoenix-office-to-industrial-conversion/",
+      "summary": "Lincoln Property and Panattoni Development have both recently announced plans to either demolish or reposition office buildings in the Phoenix metro area in favor of industrial uses. Lincoln Property's Sky Harbor Innovation Park sits on approximately 19 acres at 1920 W. University Drive, just west of Phoenix Sky Harbor Airport. The trend of office-to-industrial conversion has accelerated in Phoenix as vacancy in suburban office parks rises and demand for infill industrial and flex space in urban-adjacent locations remains active. No financial terms were disclosed for either project.",
+      "category": "industries",
+      "id": "bbada20c85e0",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "FedEx Ground Distribution Facility Sold in Kentucky After 17-Year Hold",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.connectcre.com/stories/surmount-fedex-ground-paducah-kentucky/",
+      "summary": "SURMOUNT, a net lease real estate advisory and investment platform, arranged the sale of an 82,754-square-foot FedEx Ground distribution facility at 2500 Eich Road in Paducah, Kentucky. SURMOUNT's Rocco Driscoll and Anthony Bird represented the seller, a private investor, following a nearly 17-year hold period. No buyer identity or sale price was disclosed. The transaction underscores continued investor appetite for net-leased logistics assets occupied by national carriers.",
+      "category": "industries",
+      "id": "6415f06d4425",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
+    },
+    {
+      "headline": "Prologis Names Chief Development Officer as Firm Plans $8 Billion Data Center Push",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.costar.com/news/category/USA/industrial",
+      "summary": "Industrial real estate giant Prologis tapped veteran executive Damon Austin to join its C-suite as Chief Development Officer as the company plans to spend $8 billion over the next four years on data center development. Austin's appointment signals Prologis's strategic pivot toward data center infrastructure alongside its core logistics portfolio, capitalizing on surging demand from artificial intelligence-driven hyperscaler tenants. The data center investment represents a significant expansion of Prologis's development scope beyond traditional warehouse and distribution facilities. No specific projects or locations were disclosed in the announcement.",
+      "category": "industries",
+      "id": "033deda17895",
+      "added_at": "2026-05-13T21:23:05.660138Z",
+      "timestamp": "2026-05-13T21:23:05.660138Z"
     }
   ],
   "settings": {
