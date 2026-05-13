@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T18:29:56.574176Z",
+  "last_updated": "2026-05-13T20:56:42.331897Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -768,6 +768,102 @@
       "id": "6c1dd08166da",
       "added_at": "2026-05-13T10:04:50.698643Z",
       "timestamp": "2026-05-13T10:04:50.698643Z"
+    },
+    {
+      "headline": "At China Summit, Trump Has CEOs, But Xi Has Leverage on Tariffs, Taiwan",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/at-china-summit-trump-has-ceos-but-xi-has-leverage-on-tariffs-taiwan",
+      "summary": "President Trump arrived in Beijing for a high-stakes summit with Chinese President Xi Jinping, bringing an entourage of 16 A-list executives including Tesla's Elon Musk, Apple's Tim Cook, and Boeing's Kelly Ortberg. The two leaders are negotiating across trade, tech, Taiwan, and Iran-related issues, with each side pursuing different leverage strategies. U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng held three hours of preparatory talks in Seoul on May 13. A trade truce reached last October is expected to be extended, with modest policy announcements anticipated.",
+      "category": "politics",
+      "id": "601730961032",
+      "added_at": "2026-05-13T20:56:42.319649Z",
+      "timestamp": "2026-05-13T20:56:42.319649Z"
+    },
+    {
+      "headline": "US and China Wrap Up Trade Talks With Trump En Route to Beijing",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/china-s-top-trade-negotiator-meets-lee-ahead-of-bessent-talks",
+      "summary": "Trade negotiators led by U.S. Treasury Secretary Scott Bessent and China's Vice Premier He Lifeng concluded approximately three hours of talks in Seoul to prepare for the Trump-Xi summit. The Iran war and bilateral trade developments were among the top agenda items. The teams last met face-to-face in Paris two months ago, shortly after the U.S. and Israel attacked Iran. No joint statement was issued following the preliminary meeting.",
+      "category": "politics",
+      "id": "f938fb0ab46c",
+      "added_at": "2026-05-13T20:56:42.319649Z",
+      "timestamp": "2026-05-13T20:56:42.319649Z"
+    },
+    {
+      "headline": "Trump, Xi to Weigh Tariff Cuts on $30 Billion of Imports in Managed Trade Push",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.usnews.com/news/top-news/articles/2026-05-13/trump-xi-to-weigh-tariff-cuts-on-30-billion-of-imports-in-managed-trade-push",
+      "summary": "The U.S. and China are expected to move toward a managed trade mechanism for non-sensitive goods at this week's summit, with each side potentially identifying approximately $30 billion worth of goods on which they could reduce tariffs. The proposed 'Board of Trade' mechanism was first raised by U.S. Trade Representative Jamieson Greer in March as a key deliverable. China currently maintains a general 10% extra tariff on all U.S. imports, matching the current temporary 10% U.S. tariff on Chinese goods. Four people familiar with the Trump administration's objectives expected a $30 billion-for-$30 billion trade-barrier reduction framework.",
+      "category": "politics",
+      "id": "ebd322e1a211",
+      "added_at": "2026-05-13T20:56:42.319649Z",
+      "timestamp": "2026-05-13T20:56:42.319649Z"
+    },
+    {
+      "headline": "Kevin Warsh Wants to Change How You Think About Inflation \u2014 Potentially Terrible News for Wall Street",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.fool.com/investing/2026/05/13/kevin-warsh-change-inflation-terrible-news-wall-st/",
+      "summary": "May 15 marks the final day of Jerome Powell's second term as Fed chair and the presumed beginning of Kevin Warsh's tenure. Warsh, a former FOMC voting member known for hawkish positions, wants to change the Fed's definition of inflation away from the formal 2% target. During his Senate Banking Committee testimony on April 21, Warsh said price stability should mean conditions where 'no one's talking about it.' The Iran war has fueled inflationary pressures that may make rate cuts unavailable under either chair.",
+      "category": "economics",
+      "id": "9a895ab3ae48",
+      "added_at": "2026-05-13T20:56:42.319649Z",
+      "timestamp": "2026-05-13T20:56:42.319649Z"
+    },
+    {
+      "headline": "Trump and Xi Dialed Down the Trade War, But Challenges Lurk at Their China Summit",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.bnnbloomberg.ca/tariffs/2026/05/12/trump-and-xi-dialed-down-the-trade-war-but-challenges-lurk-at-their-china-summit/",
+      "summary": "China's share of goods imported to the U.S. has fallen from 22% at the start of Trump's first term in 2017 to just 7.5% in the first three months of 2026, according to U.S. Census Bureau data analyzed by the Peterson Institute for International Economics. A trade truce reached last October is likely to be extended at the Beijing summit, with China potentially announcing plans to buy American soybeans, beef, and Boeing aircraft. U.S. officials have proposed creating a Board of Trade to keep the sides engaged on economic issues. Despite Trump's claims about profiting from China trade, China bought nearly $50 billion less in American products last year than in 2022.",
+      "category": "politics",
+      "id": "ef8cc9d9417e",
+      "added_at": "2026-05-13T20:56:42.319649Z",
+      "timestamp": "2026-05-13T20:56:42.319649Z"
+    },
+    {
+      "headline": "CoStar: Industrial Vacancy Remains in Mid-7% Range Entering Q2 2026, Expected to Edge Higher Into 2027",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.businesswire.com/news/home/20251120971962/en/CoStar-projects-yields-to-ease-across-CRE-property-types-in-2026",
+      "summary": "The national industrial vacancy rate remains in the mid-7% range entering the second quarter of 2026 and is expected to edge higher into 2027 before beginning a gradual descent, according to CoStar's latest revised forecast. West Coast port markets, particularly those exposed to Chinese trade, continue to underperform due to reduced demand, with availability in large, newer logistics properties near major West Coast ports exceeding 13%, compared to approximately 9% for East Coast port markets. Markets with elevated availability in new industrial construction such as Gainesville, Georgia, Harrisburg, Pennsylvania, and San Antonio, Texas face particular challenges. CoStar forecasts increasing industrial demand in the second half of 2026 that could accelerate lease-up of the supply overhang.",
+      "category": "industries",
+      "id": "7c71caea1d60",
+      "added_at": "2026-05-13T20:56:42.319649Z",
+      "timestamp": "2026-05-13T20:56:42.319649Z"
+    },
+    {
+      "headline": "GlobeSt: Large Banks Ease Lending Standards While Construction Lending Weakens Amid Higher Costs",
+      "source": "GlobeSt",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.globest.com/",
+      "summary": "Large banks are easing credit standards for commercial real estate borrowers, according to the Fed's latest Senior Loan Officer Opinion Survey, while construction lending continues to weaken amid higher building material costs. The divergence reflects institutional CRE borrowers regaining access to capital for stabilized assets while development financing remains constrained. The trend aligns with a broader CRE market where top-performing assets can attract refinancing but speculative development faces continued headwinds.",
+      "category": "economics",
+      "id": "a970454ae5fe",
+      "added_at": "2026-05-13T20:56:42.319649Z",
+      "timestamp": "2026-05-13T20:56:42.319649Z"
+    },
+    {
+      "headline": "CoStar: Industrial Vacancy at West Coast Port Markets Exceeds 13% as Chinese Trade Volume Falls",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.costar.com/article/765793773/what-to-watch-in-2026-industrial-outlook-remains-volatile-amid-supply-overhang-shifting-demand",
+      "summary": "Availability in large, newer logistics properties near major West Coast ports exceeds 13%, compared to an average of approximately 9% for East Coast port markets, per CoStar data. China's share of U.S. imports fell to just 7.5% in early 2026, down from 22% at the start of Trump's first term in 2017, directly reducing demand at Southern California port-adjacent warehouse markets. The Birtcher Logistics Center, a 492,000-square-foot building in the Inland Empire that completed construction in early 2025, remains vacant, illustrating continued challenges in the supply overhang. CoStar projects that data centers will surpass warehouses in construction spending in 2026.",
+      "category": "local-deals",
+      "id": "271109831c97",
+      "added_at": "2026-05-13T20:56:42.319649Z",
+      "timestamp": "2026-05-13T20:56:42.319649Z"
     }
   ],
   "settings": {
