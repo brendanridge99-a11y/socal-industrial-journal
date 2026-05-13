@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T03:25:19.298643Z",
+  "last_updated": "2026-05-13T03:56:35.571892Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -120,6 +120,78 @@
       "id": "798ee9b75eef",
       "added_at": "2026-05-13T03:25:19.298565Z",
       "timestamp": "2026-05-13T03:25:19.298565Z"
+    },
+    {
+      "headline": "US Treasuries Hold Losses After Core CPI Tops Estimates on Inflation Worries",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/us-treasuries-hold-losses-as-rising-gas-costs-fuel-inflation",
+      "summary": "U.S. Treasury yields rose two to three basis points across maturities on May 12 after the April Consumer Price Index came in hotter than expected, with 30-year yields hovering around 5%. Interest-rate swaps traders priced in approximately 70% odds of a quarter-point Federal Reserve rate increase by April 2027. The April CPI report showed headline inflation at 3.8% year-over-year, above the 3.7% forecast and up from 3.3% in March, driven heavily by energy prices. Stock market futures declined following the release.",
+      "category": "economics",
+      "id": "95339311c78e",
+      "added_at": "2026-05-13T03:56:35.571799Z",
+      "timestamp": "2026-05-13T03:56:35.571799Z"
+    },
+    {
+      "headline": "CPI Inflation April 2026: Prices Rose 3.8% Annually",
+      "source": "CNBC",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html",
+      "summary": "The Bureau of Labor Statistics reported on May 12 that the Consumer Price Index rose 0.6% in April on a seasonally adjusted basis, pushing the annual rate to 3.8% \u2014 the highest since May 2023 and above the 3.7% consensus forecast. Core CPI, excluding food and energy, increased 0.4% for the month and 2.8% year-over-year, with the monthly rate the highest since January 2025. Energy prices jumped 3.8% for the month, accounting for more than 40% of the headline gain, with gasoline up 28.4% annually. Traders raised odds of a Fed rate hike by year-end to approximately 30%, according to CME Group data.",
+      "category": "economics",
+      "id": "38987b1ef0c9",
+      "added_at": "2026-05-13T03:56:35.571799Z",
+      "timestamp": "2026-05-13T03:56:35.571799Z"
+    },
+    {
+      "headline": "He's on a Mission to Find Opportunities in Southern California's Choppy Industrial Market",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 8, 2026",
+      "url": "https://www.costar.com/article/1331348521/hes-on-a-mission-to-find-opportunities-in-southern-californias-choppy-industrial-market",
+      "summary": "CoStar profiled Lincoln Property investor Sean Perrier, who is pursuing value-add industrial acquisitions in Southern California's Inland Empire, where the firm already owns a cluster of roughly 10 buildings near Ontario ranging from 50,000 to 250,000 square feet. In Los Angeles, occupancy slipped again in Q1 2026, pushing vacancy to 6.6% as asking rents moved lower amid added supply, per CoStar data. The Inland Empire's vacancy stands at 9%, above the national average of 7.5%, with demand turning positive but leverage remaining with tenants. Perrier noted that the bid-ask spread between buyers and sellers remains an obstacle to deal execution.",
+      "category": "local-deals",
+      "id": "a4e1f3444004",
+      "added_at": "2026-05-13T03:56:35.571799Z",
+      "timestamp": "2026-05-13T03:56:35.571799Z"
+    },
+    {
+      "headline": "Global Net Lease Agrees to Pay $535 Million for Modiv Industrial",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 4, 2026",
+      "url": "https://www.costar.com/article/281792020/industrial-property-owner-chases-expansion-with-deal-for-smaller-company",
+      "summary": "Global Net Lease, a New York-based industrial-focused REIT, agreed to acquire Modiv Industrial in an all-stock transaction valued at $535 million, pending Modiv shareholder approval and expected to close by September 2026. Modiv owns 42 properties across 14 states with a majority in California, collected $39.1 million in annual base rent in 2025, and describes its portfolio as mission-critical industrial properties supporting U.S. supply chains. The national industrial vacancy rate stands at 7.6% per CoStar data and is expected to peak at 7.8% by year-end 2026. Modiv CEO Aaron Halfacre stated the company believed its portfolio was historically mispriced by the marketplace.",
+      "category": "industries",
+      "id": "327e14cf9904",
+      "added_at": "2026-05-13T03:56:35.571799Z",
+      "timestamp": "2026-05-13T03:56:35.571799Z"
+    },
+    {
+      "headline": "JLL Arranges $26M Bridge Financing for Anaheim Industrial Outdoor Storage Facility",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 8, 2026",
+      "url": "https://www.connectcre.com/industrial/",
+      "summary": "JLL Capital Markets arranged $26 million in bridge financing for a 7.75-acre Class A industrial outdoor storage facility at 1477 N. Jefferson St. in Anaheim, Orange County. Senior Director Peter Thompson, Associate Kyle White, and Analyst Nick Englhard worked on behalf of borrower North Palisade Partners to secure a non-recourse, three-year, floating-rate loan. The property spans approximately 337,590 square feet. Full loan terms and lender identity were not disclosed.",
+      "category": "local-deals",
+      "id": "cb1a71d345be",
+      "added_at": "2026-05-13T03:56:35.571799Z",
+      "timestamp": "2026-05-13T03:56:35.571799Z"
+    },
+    {
+      "headline": "Hot CPI Report Likely to Put Fed on Guard for Longer-Lasting Inflation; Rate Hike Odds Rising",
+      "source": "Yahoo Finance",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://finance.yahoo.com/economy/article/hot-cpi-report-likely-to-put-fed-on-guard-for-longer-lasting-inflation-meanwhile-rate-hike-odds-are-rising-141806600.html",
+      "summary": "The April 2026 CPI report showed headline inflation at 3.8% year-over-year, topping the 3.7% forecast, with energy price increases compounding existing tariff-driven inflation pressures. CME FedWatch markets priced in a nearly 98% chance the Fed holds rates steady at its next June meeting, but a nearly 30% chance of a rate hike by December 2026. Cleveland Fed President Beth Hammack cited this as the fourth major shock in five years following the pandemic, Russia-Ukraine war, and tariffs. Morningstar chief U.S. economist Preston Caldwell noted that odds of a rate hike in 2026, while still below 50%, are rising.",
+      "category": "economics",
+      "id": "86a7823ad080",
+      "added_at": "2026-05-13T03:56:35.571799Z",
+      "timestamp": "2026-05-13T03:56:35.571799Z"
     }
   ],
   "settings": {
