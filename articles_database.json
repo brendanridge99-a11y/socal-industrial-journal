@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T20:56:42.331897Z",
+  "last_updated": "2026-05-13T21:06:53.377486Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -864,6 +864,42 @@
       "id": "271109831c97",
       "added_at": "2026-05-13T20:56:42.319649Z",
       "timestamp": "2026-05-13T20:56:42.319649Z"
+    },
+    {
+      "headline": "Goldman Sachs Delays Fed Rate-Cut Forecast as Inflation Lingers Near 3%",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 11, 2026",
+      "url": "https://www.thestreet.com/investing/goldman-sachs-sends-blunt-message-on-fed-interest-rate-cuts",
+      "summary": "Goldman Sachs pushed its Fed rate-cut forecast back by one quarter, now expecting the next two cuts in December 2026 and March 2027, citing PCE inflation hovering near 3% \u2014 well above the Fed's 2% goal. The Fed held rates steady at 3.50%-3.75% at its April 28-29 FOMC meeting amid four internal dissents, the most since 1992. Barclays dropped its September cut call entirely, now expecting no move until March 2027. JPMorgan Global Research expects the Fed to hold all year and sees the next move as a potential 25-basis-point hike.",
+      "category": "economics",
+      "id": "1e96674f83b9",
+      "added_at": "2026-05-13T21:06:53.362035Z",
+      "timestamp": "2026-05-13T21:06:53.362035Z"
+    },
+    {
+      "headline": "Kevin Warsh Confirmed as Federal Reserve Chair, Replacing Jerome Powell",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.ml.com/articles/washington-update.html",
+      "summary": "Kevin Warsh was confirmed by the full Senate on May 13, replacing Jerome Powell as Federal Reserve Chair, whose term ends May 15. The transition arrives as April CPI came in at 3.8% year-over-year, well above the Fed's 2% target, creating an immediate challenge for the incoming chair. Markets no longer expect rate cuts in 2026, with BofA Global Research now projecting cuts may not come until mid or late 2027. Warsh would need to rally six other Fed governors to vote for any rate cut under current inflation conditions.",
+      "category": "economics",
+      "id": "82a423c6fab1",
+      "added_at": "2026-05-13T21:06:53.362035Z",
+      "timestamp": "2026-05-13T21:06:53.362035Z"
+    },
+    {
+      "headline": "Data Centers Boost Otherwise Sagging Construction Pipeline",
+      "source": "BisNow",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.bisnow.com/national/news/data-center-development/data-centers-boost-otherwise-sagging-construction-backlogs-134546",
+      "summary": "The Associated Builders and Contractors Construction Backlog Indicator rose to a 10-month high of 8.8 months in April, driven disproportionately by data center projects. The metric rose 0.2 months from March and 0.1 months from April 2025, with backlog surging for firms with more than $100M in annual revenue, a 2.2-month year-over-year jump. The data shows a stark split between large contractors benefiting from data center work and smaller firms that lack access to those projects. Just 1 in 5 respondents expected profit margins to decrease over the next six months, the lowest share since January 2025.",
+      "category": "industries",
+      "id": "21160adadd9b",
+      "added_at": "2026-05-13T21:06:53.362035Z",
+      "timestamp": "2026-05-13T21:06:53.362035Z"
     }
   ],
   "settings": {
