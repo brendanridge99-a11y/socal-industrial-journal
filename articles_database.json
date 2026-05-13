@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T03:13:07.987714Z",
+  "last_updated": "2026-05-13T03:18:31.179576Z",
   "articles": [
     {
       "headline": "US Treasuries Hold Losses After Core CPI Tops Estimates on Inflation Worries",
@@ -780,6 +780,66 @@
       "id": "7365fa34cfc4",
       "added_at": "2026-05-13T03:13:07.987643Z",
       "timestamp": "2026-05-13T03:13:07.987643Z"
+    },
+    {
+      "headline": "Green Street Launches Green Street Infrastructure, Setting a New Standard for Real Assets Intelligence",
+      "source": "Green Street",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.prnewswire.com/news-releases/green-street-launches-green-street-infrastructure-setting-a-new-standard-for-real-assets-intelligence-302768957.html",
+      "summary": "Green Street, headquartered in Newport Beach, CA, officially launched Green Street Infrastructure, a dedicated infrastructure intelligence platform integrated into its existing commercial real estate ecosystem. The platform gives clients access to the largest infrastructure transaction, financing, and asset database in the market and covers ten sectors including Data Centers, Towers, Airports, Railroads, Toll Roads, Cold Storage, and Contractors. The platform was commercially introduced at IFF Europe in Madrid on May 12, 2026. Green Street Infrastructure is available as an add-on to existing Green Street subscriptions.",
+      "category": "industries",
+      "id": "4dd28e65bf7a",
+      "added_at": "2026-05-13T03:18:31.179439Z",
+      "timestamp": "2026-05-13T03:18:31.179439Z"
+    },
+    {
+      "headline": "Green Street Commercial Property Price Index Decreased 0.1% in April",
+      "source": "Green Street",
+      "source_type": "paywalled",
+      "date": "May 6, 2026",
+      "url": "https://www.greenstreet.com/resources/pricing-index/",
+      "summary": "Green Street reported its Commercial Property Price Index decreased 0.1% in April 2026, with life science property values declining while pricing in other sectors remained unchanged. Over the prior twelve months through March 2026, the all-property index had increased 2.6%. The index is based on frequently updated estimates of price appreciation of property portfolios owned by REITs. No forward guidance on pricing trajectories was issued with the April release.",
+      "category": "industries",
+      "id": "0e72c80bd50a",
+      "added_at": "2026-05-13T03:18:31.179439Z",
+      "timestamp": "2026-05-13T03:18:31.179439Z"
+    },
+    {
+      "headline": "FOMC Holds Rates Steady at 3.5%\u20133.75% in Unusually Divisive 8\u20134 Vote",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "April 29, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+      "summary": "The Federal Open Market Committee voted to maintain the federal funds rate target range at 3.5% to 3.75% at its April 29, 2026 meeting, marking the third consecutive hold. The 8\u20134 vote was the most divided FOMC decision since October 1992, with Governor Miran voting to lower rates by 25 basis points and three other members objecting to language in the statement that suggested the central bank would eventually resume cutting rates. The Fed noted that developments in the Middle East are contributing to elevated uncertainty about the economic outlook. Kevin Warsh, nominated by President Trump to succeed Jerome Powell, was set to be confirmed as Fed Chair on May 15, 2026.",
+      "category": "economics",
+      "id": "8311993a4085",
+      "added_at": "2026-05-13T03:18:31.179439Z",
+      "timestamp": "2026-05-13T03:18:31.179439Z"
+    },
+    {
+      "headline": "How a Plan to Create LA's Next Industrial Frontier Could Reshape Regional Market",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "April 21, 2026",
+      "url": "https://www.costar.com/article/1050769523/how-a-plan-to-create-las-next-industrial-frontier-could-reshape-regional-market",
+      "summary": "Covington Group secured approvals for 8 million square feet of industrial space in Palmdale, California, adding to prior permissions for an adjacent 1.4-million-square-foot project, for a total Antelope Valley Commerce Center entitlement that ranks among the largest ever completed in Los Angeles County. The planned $1.2 billion real estate development is located approximately 55 miles north of downtown Los Angeles, off Highway 14 near Palmdale Regional Airport. City officials noted Palmdale has over 13 million square feet of industrial space in development and is within 90 miles of LAX and the ports of Los Angeles and Long Beach. The broader Los Angeles industrial market showed early signs of stabilizing with more tenant move-ins than move-outs in Q1 2026, according to CoStar data.",
+      "category": "local-deals",
+      "id": "cc7eef17e28c",
+      "added_at": "2026-05-13T03:18:31.179439Z",
+      "timestamp": "2026-05-13T03:18:31.179439Z"
+    },
+    {
+      "headline": "Orange County Industrial Vacancy Climbs to 5.1% in Q1 2026",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "April 14, 2026",
+      "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/orange-county-marketbeats",
+      "summary": "Orange County's industrial vacancy rate climbed to 5.1% in Q1 2026, increasing 60 basis points quarter-over-quarter and 110 basis points year-over-year, per Cushman & Wakefield's Q1 2026 MarketBeat. The rate remains near the highest level of the past decade, though still historically low compared to most other major U.S. industrial markets. The report was part of Cushman & Wakefield's quarterly Southern California MarketBeat series authored by Jason Price. No forward absorption or rent guidance was included in the publicly available summary.",
+      "category": "industries",
+      "id": "b2bfd9455e71",
+      "added_at": "2026-05-13T03:18:31.179439Z",
+      "timestamp": "2026-05-13T03:18:31.179439Z"
     }
   ],
   "settings": {
