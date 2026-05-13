@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T04:36:46.221749Z",
+  "last_updated": "2026-05-13T04:54:04.466033Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -444,6 +444,174 @@
       "id": "1cf569e67f37",
       "added_at": "2026-05-13T04:36:46.221565Z",
       "timestamp": "2026-05-13T04:36:46.221565Z"
+    },
+    {
+      "headline": "Trump Heads to Beijing With Tariff Uncertainty, AI Communication, and Strait of Hormuz in Focus",
+      "source": "Yahoo Finance / Washington Post",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://finance.yahoo.com/economy/policy/article/trump-heads-to-beijing-with-tariff-uncertainty-ai-communication-and-strait-of-hormuz-in-focus-125943647.html",
+      "summary": "President Trump departed for Beijing on May 12 for a summit with President Xi Jinping scheduled for May 14\u201315, with tariffs, AI policy, and China's role in the Iran conflict as top agenda items. The White House indicated Trump will announce new trade deals, most likely focused on agriculture, energy, and aerospace, with Boeing executives accompanying the trip and new Chinese aircraft purchases expected. The administration also plans to announce a new US-China 'board of trade' and 'board of investment' to improve communication around the AI rivalry. Top CEOs including Elon Musk of Tesla and Tim Cook of Apple are also on the trip.",
+      "category": "politics",
+      "id": "9464227fcd76",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "Google Takes Space in Atlanta Industrial Property for Warehouse, Not Data Center",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.costar.com/article/958820595/google-takes-space-in-atlanta-industrial-property-for-warehouse-not-data-center",
+      "summary": "Google has leased a former Procter & Gamble warehouse in the south Atlanta region to use for storage and distribution purposes, not as a data center. The transaction signals growing corporate demand for traditional warehouse and distribution space from large technology companies expanding their physical logistics footprints. Additional details on square footage and lease terms were not disclosed publicly. The deal was reported by CoStar News on May 12, 2026.",
+      "category": "business",
+      "id": "a879744d3884",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "Global Net Lease Strikes $535M Deal for Modiv Industrial",
+      "source": "GlobeSt",
+      "source_type": "paywalled",
+      "date": "May 5, 2026",
+      "url": "https://www.globest.com/2026/05/05/global-net-lease-strikes-535m-deal-for-modiv-industrial/",
+      "summary": "Global Net Lease agreed to acquire Modiv Industrial REIT in a $535 million deal, adding 42 industrial properties as the REIT doubles down on logistics assets. The acquisition was reported by BisNow on May 4, 2026 and GlobeSt on May 5, 2026. Modiv Industrial had been a publicly traded net-lease REIT focused on single-tenant industrial properties. The deal expands Global Net Lease's industrial footprint significantly as institutional investors continue to favor industrial/logistics as a top overweight sector.",
+      "category": "industries",
+      "id": "f6103b6a63bf",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "Amazon Expands Into Full-Scale Third-Party Logistics Services",
+      "source": "GlobeSt",
+      "source_type": "paywalled",
+      "date": "May 5, 2026",
+      "url": "https://www.globest.com/2026/05/05/amazon-expands-into-full-scale-third-party-logistics-services/",
+      "summary": "Amazon officially launched Amazon Supply Chain Services (ASCS), decoupling its logistics infrastructure from its retail marketplace to operate as a standalone service for all businesses. The platform opens Amazon's multimodal freight, automated warehousing, and last-mile parcel delivery networks to companies regardless of whether they sell on Amazon, similar to the trajectory of Amazon Web Services. Major early adopters include Procter & Gamble, 3M, and Lands' End, who are using the service to move raw materials through finished products. Amazon currently moves 13 billion items annually and is offering 96.4% on-time delivery rates, positioning ASCS as a direct competitor to traditional 3PLs and carriers like FedEx and UPS.",
+      "category": "supply-chain",
+      "id": "325e2b97d568",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "JLL: Industrial Leasing Jumped 17.8% Year-Over-Year in Q1 2026, Net Absorption Hits 50.9 MSF",
+      "source": "CoStar / JLL",
+      "source_type": "free",
+      "date": "May 2026",
+      "url": "https://www.jll.com/en-us/insights/market-dynamics/industrial-market-statistics-trends",
+      "summary": "U.S. industrial leasing activity increased 17.8% year-over-year in Q1 2026, with 145.2 million square feet of leases executed, of which 71.6% were new leases. Net absorption reached 50.9 million square feet in Q1, demonstrating exceptional strength for a historically underperforming quarter. Performance was largely driven by ongoing flight-to-quality trends and tenant consolidation into more efficient facilities. The sector maintains a cautiously optimistic outlook despite escalating geopolitical tensions, rising oil prices, and trade policy volatility.",
+      "category": "industries",
+      "id": "e87b8008ebe2",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "Covington Group Obtains Full Entitlements for 9.4M SF Antelope Valley Commerce Center in Palmdale, CA",
+      "source": "Commercial Property Executive",
+      "source_type": "free",
+      "date": "April 2026",
+      "url": "https://www.commercialsearch.com/news/covington-obtains-entitlement-for-massive-socal-industrial-development/",
+      "summary": "Industrial real estate specialist Covington Group obtained full entitlements for Antelope Valley Commerce Center in Palmdale, California, covering up to 9.4 million square feet on 510 acres \u2014 described as one of the largest industrial entitlements ever completed in Los Angeles County. The latest entitlements cover AVCC East at just over 8 million square feet, building on the previously approved AVCC West at approximately 1.4 million square feet. Earlier in 2026, Covington also secured a $33.8 million construction loan for a 428,185-square-foot industrial development in Hesperia, California (Inland Empire) on behalf of Pixior Group, a 3PL with an option to occupy and purchase the building. The Palmdale project is located in the northern Los Angeles County industrial corridor.",
+      "category": "local-deals",
+      "id": "115012bfdaa7",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "Port of Long Beach Commits $3.2 Billion 10-Year Capital Plan, Targeting Triple On-Dock Rail Capacity",
+      "source": "Semafor",
+      "source_type": "free",
+      "date": "February 20, 2026",
+      "url": "https://www.semafor.com/article/02/20/2026/why-the-port-of-long-beach-is-betting-that-us-imports-will-continue-to-grow",
+      "summary": "New Port of Long Beach CEO Noel Hacegaba greenlit a $3.2 billion, 10-year capital spending plan \u2014 the largest of any North American port \u2014 forecasting that U.S. import volumes will continue growing faster than the overall economy despite tariff pressures. Approximately $2 billion of the investment is dedicated to rail infrastructure, with a goal of tripling on-dock rail capacity and reducing ship-to-train container transfer time from four days to 24 hours. Hacegaba and Brookfield are also exploring building what would be the world's first conventional, net-zero container terminal at the port. The port expects to double its import volume by 2050.",
+      "category": "supply-chain",
+      "id": "620b92a2640d",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "First Industrial Realty Trust Reports 41% Cash Rental Rate Increase on 2026 Leases, Tours Inland Empire Portfolio",
+      "source": "PR Newswire",
+      "source_type": "free",
+      "date": "April 22, 2026",
+      "url": "https://www.prnewswire.com/news-releases/first-industrial-realty-trust-reports-first-quarter-2026-results-302750853.html",
+      "summary": "First Industrial Realty Trust (NYSE: FR) reported Q1 2026 results including a 41% cash rental rate increase on leases signed to date commencing in 2026, covering 61% of 2026 expirations by square footage. The REIT successfully renewed a 556,000-square-foot facility in the Inland Empire \u2014 its largest 2026 expiration \u2014 and cash basis same-store NOI grew 8.7% in Q1. The company started two new developments in Q1 2026 totaling 305,000 square feet in Miami and Dallas with an estimated $70 million investment, and closed $425 million and $375 million unsecured term loans. First Industrial conducted an investor property tour in the Inland Empire, Southern California on May 12, 2026.",
+      "category": "industries",
+      "id": "12e67789a67f",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "Q1 2026 Freight Spending Up Sharply on Tight Capacity; West Region Diesel Hit $6.60/Gallon in March",
+      "source": "Commercial Carrier Journal",
+      "source_type": "free",
+      "date": "May 11, 2026",
+      "url": "https://www.ccjdigital.com/business/article/15824843/rising-fuel-costs-and-tight-capacity-drive-q1-2026-freight-spending",
+      "summary": "Total freight volumes in Q1 2026 were roughly flat quarter-over-quarter, but freight spending surged sharply as tighter capacity lifted costs through fuel surcharges and rate increases. The West region saw diesel prices hit $6.60 per gallon in late March \u2014 the highest of any EIA region \u2014 driving spending 8.5% higher quarter-over-quarter and 20.5% year-over-year despite only modest volume growth. The Midwest was the quarter's standout performer with shipments rising 5.4% sequentially and 9.5% year-over-year, though the region also saw the steepest spending surge at 19.6% sequentially. A weak used truck market limited fleet foreclosures and driver pool expansion, with ATA chief economist Bob Costello noting: 'This is a market being reshaped by supply, not demand.'",
+      "category": "supply-chain",
+      "id": "7d02a6051bde",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "FreightWaves May 2026 State of the Industry: U.S. Manufacturing Returns to Expansion, Intermodal Growth Strong",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 2026",
+      "url": "https://www.freightwaves.com/news/white-paper-state-of-the-industry-may-2026",
+      "summary": "FreightWaves' May 2026 State of the Industry white paper reports that U.S. manufacturing activity has returned to expansion, supporting flatbed, rail, and LTL demand despite broader economic mixed signals. Tight truckload conditions and attractive rate spreads are driving strong domestic intermodal growth, supported by improved service levels and available container capacity. Retail and consumer spending continue to hold up even as inflation and energy costs pressure sentiment, helping sustain freight volumes in the near term. Diesel prices remain highly sensitive to geopolitical developments \u2014 particularly the Iran conflict \u2014 complicating rate signals and reinforcing the need for cost and risk management strategies.",
+      "category": "supply-chain",
+      "id": "1e7c254c0382",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "Bloomberg: Trump Tariffs on Vietnam and Southeast Asia Reshape Global Supply Chains One Year After Liberation Day",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "March 31, 2026",
+      "url": "https://www.bloomberg.com/graphics/2026-vietnam-trump-tariffs-supply-chain/",
+      "summary": "One year after 'Liberation Day,' Bloomberg's analysis finds that Trump's tariffs have fueled a shift in global supply chains, though not in the way the administration envisioned. China was targeted with tariffs peaking at 125%, leading to a US-China one-year truce reached in October, while China's overall trade surplus soared to record levels as it pivoted exports to markets outside the US. Universal tariffs officially sit at 10% until July 24, with threats they could rise to 15%, and the White House launched new trade investigations into 16 and 60 economies respectively, including Vietnam \u2014 now identified as a bigger tariff target due to its large US trade surplus. Foxconn and other major manufacturers continue expanding capacity in Vietnam's Bac Ninh province.",
+      "category": "politics",
+      "id": "69984619fcb0",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "CRE Finance Council Q1 2026 Sentiment Index Falls 20%, Iran War Blamed for Rate Pessimism",
+      "source": "Altus Group / CRE Finance Council",
+      "source_type": "free",
+      "date": "May 4, 2026",
+      "url": "https://www.altusgroup.com/research/cre-this-week/",
+      "summary": "The CRE Finance Council's Q1 2026 Board of Governors Sentiment Index fell 20.2% to 100.1, down from 125.4 in Q4 2025, nearly erasing three quarters of gains and returning the index to its 2017 baseline. The survey, conducted April 7\u201313, captured the immediate impact of the Iran conflict on rate expectations, with 61% of respondents saying the conflict would keep borrowing costs elevated by pushing out rate relief. Fifty-four percent of respondents now expect the U.S. economy to deteriorate over the next 12 months, up sharply from just 14% in Q4 2025, and 56% flagged office loans as most exposed to refinancing risk. Despite macro pessimism, 71% still expect higher borrower demand for financing and 61% expect stronger investor demand for CRE assets, suggesting repricing risk rather than a market freeze.",
+      "category": "economics",
+      "id": "2be58a581130",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "Strait of Hormuz Disruptions Force Fundamental Shift in Energy Logistics Network Design",
+      "source": "Logistics Viewpoints",
+      "source_type": "free",
+      "date": "May 8, 2026",
+      "url": "https://logisticsviewpoints.com/2026/05/08/supply-chain-and-logistics-news-week-of-may-7th-2026/",
+      "summary": "Geopolitical instability in the Strait of Hormuz \u2014 which handles roughly 20% of the world's oil and liquefied natural gas \u2014 is forcing a fundamental shift in energy logistics, moving the industry away from lowest-cost network design toward a risk-adjusted model. Repeated disruptions have transformed infrastructure planning around pipelines, storage terminals, and alternative routing, with companies building redundancy into their energy supply chains. Diesel prices have been highly sensitive to Hormuz developments, complicating freight rate signals across all transportation modes and reinforcing the need for fuel cost and risk management strategies for logistics operators. The shift is affecting both domestic U.S. energy logistics and global shipping routes serving U.S. importers.",
+      "category": "supply-chain",
+      "id": "f93a5f441632",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
+    },
+    {
+      "headline": "S&P 500 Closes at Record 7,412.84 as Iran Ceasefire Remains Fragile; Copper Hits Record $6.46/lb",
+      "source": "CNBC",
+      "source_type": "free",
+      "date": "May 11, 2026",
+      "url": "https://www.cnbc.com/2026/05/10/stock-market-today-live-updates.html",
+      "summary": "The S&P 500 closed at a record 7,412.84 on May 11 as markets maintained momentum following their second-best April performance since 1945. Iran sent a new ceasefire proposal to U.S. negotiators on May 11, which President Trump called 'TOTALLY UNACCEPTABLE,' describing the month-old ceasefire as 'on life support.' Crude oil futures moved higher following the Iran developments, with oil trading above $102/barrel. Copper climbed more than 2% to a record close of $6.4605 per pound, up more than 13% year-to-date, reflecting strong industrial demand and supply concerns.",
+      "category": "economics",
+      "id": "6c4dba37b918",
+      "added_at": "2026-05-13T04:54:04.465896Z",
+      "timestamp": "2026-05-13T04:54:04.465896Z"
     }
   ],
   "settings": {
