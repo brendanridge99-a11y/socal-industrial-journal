@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T23:41:22.502884Z",
+  "last_updated": "2026-05-14T09:41:43.271641Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -1116,6 +1116,138 @@
       "id": "a424c7c86a0a",
       "added_at": "2026-05-13T23:41:22.488448Z",
       "timestamp": "2026-05-13T23:41:22.488448Z"
+    },
+    {
+      "headline": "Kevin Warsh Confirmed as Federal Reserve Chair, Succeeding Jerome Powell",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.wsj.com/economy/central-banking/kevin-warsh-confirmed-federal-reserve-chair",
+      "summary": "The Senate confirmed Kevin Warsh as the next Federal Reserve Chair in a 54-45 vote on Wednesday, May 13, the most partisan confirmation vote in the Fed's modern era. Warsh, 56, succeeds Jerome Powell whose four-year term as chair expires Friday, May 15, though Powell will remain on the Fed's Board of Governors through 2028. Warsh takes office as April CPI hit 3.8% year-over-year \u2014 a near three-year high \u2014 and markets are pricing in a 97% chance the Fed holds rates unchanged at the June 16-17 FOMC meeting, his first as chair. Trump has publicly pressed for rate cuts, while inflation driven by the U.S.-Iran war's energy shock complicates any near-term easing.",
+      "category": "economics",
+      "id": "93f1734278f1",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "April Producer Price Index Surges 1.4% Month-Over-Month, Biggest Jump Since March 2022",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/us-ppi-april-2026",
+      "summary": "U.S. producer prices rose 1.4% month-over-month in April 2026, the largest monthly increase since March 2022, far exceeding the 0.5% consensus forecast. Goods prices jumped 2.0%, led by a 15.6% surge in gasoline costs driven by the ongoing U.S.-Iran conflict disrupting Strait of Hormuz tanker traffic. Year-over-year, producer prices jumped 6.0%, the biggest annual increase since December 2022. Services prices also rose 1.2%, with truck transportation of freight and machinery and equipment wholesaling among the key contributors, signaling rising pipeline inflation for business costs.",
+      "category": "economics",
+      "id": "ed9eb9adcd67",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "April CPI Rises 3.8% Year-Over-Year, Energy and Shelter Drive Monthly Gain",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.wsj.com/economy/inflation/april-cpi-2026",
+      "summary": "The Consumer Price Index for All Urban Consumers increased 0.6% on a seasonally adjusted basis in April 2026, following a 0.9% rise in March, according to the Bureau of Labor Statistics. Over the last 12 months, the all-items index rose 3.8%, the highest rate in nearly three years. Energy prices rose 3.8% in April, accounting for over 40% of the monthly increase, while shelter rose 0.6% and food at home rose 0.7%. Core CPI, excluding food and energy, rose 0.4% for the month and 2.8% year-over-year. The hotter-than-expected print sent Treasury yields sharply higher and wiped out most market expectations for a 2026 rate cut.",
+      "category": "economics",
+      "id": "184ad7505263",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "April Retail Sales Data Released; Census Bureau Report Scheduled for May 14",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.census.gov/retail/sales.html",
+      "summary": "The U.S. Census Bureau released the April 2026 Advance Monthly Retail Sales report on May 14, 2026 at 8:30 a.m. EDT. Ahead of the official data, the CNBC/NRF Retail Monitor showed total retail sales excluding autos and gasoline rose 0.34% month-over-month and 5.73% year-over-year in April. NRF President and CEO Matthew Shay stated that consumers continued spending despite higher gas prices from the Iran conflict, cautious sentiment, and persistent inflation concerns. Sales growth was led by clothing, sporting goods, and health and personal care stores. March retail sales had come in at $752.1 billion, up 1.7% from the prior month and 4.0% year-over-year.",
+      "category": "economics",
+      "id": "5cda7fd9d59f",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "CoStar World News for May 14: Blackstone French Industrial Deal, Data Center Capital Crunch",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.costar.com/article/2032561379/costar-world-news-for-may-14",
+      "summary": "CoStar's daily global news roundup for May 14, 2026 highlighted Blackstone's previously announced \u20ac2.3 billion acquisition of Proudreed's French industrial portfolio of more than 500 sites and 2.2 million square meters, with Blackstone planning to accelerate development to reach 115,000\u2013120,000 square meters of new properties annually. The roundup also flagged a growing capital crunch in data center development, with industry estimates pegging total capital needs at as much as $1 trillion over the next five years as construction costs for AI and cloud facilities surge. Additional items covered UK commercial real estate new lending rising 29% in 2025 to a decade high, and German real estate prices increasing 2.2% annually in Q1 2026.",
+      "category": "industries",
+      "id": "ba31e34c4207",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "New Rexford CEO Laura Clark Focused on 'Operational Rigor' at Southern California Industrial REIT",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 12, 2026",
+      "url": "https://www.costar.com/article/1096277798/laura-clark-didnt-plan-on-a-real-estate-career-now-she-runs-one-of-the-biggest-industrial-landlords",
+      "summary": "CoStar published a profile of Laura Clark, the new CEO of Rexford Industrial Realty, who took the helm of one of Southern California's largest industrial landlords after building a career spanning multiple property types including retail, hotels, student housing, and industrial. Clark indicated her strategic focus will center less on building large amounts of new space and more on owning strategically located warehouses that are increasingly difficult to replicate. Clark's background includes time at Green Street Advisors in financial analysis before rising through industrial real estate. Rexford Industrial focuses exclusively on infill Southern California industrial markets including the Inland Empire, Los Angeles, and Orange County.",
+      "category": "local-deals",
+      "id": "4f96303bbac9",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "BGO and Greenlaw Partners Acquire River Park 6 Industrial Warehouse in Georgia for $70M",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.connectcre.com/stories/bgo-greenlaw-partners-river-park-6/",
+      "summary": "BentallGreenOak (BGO) and Greenlaw Partners purchased River Park 6, a 724,687-square-foot warehouse in Butts County, Georgia, for $70 million from sellers Waterloo Partners and ICM Property Group. The facility is part of the River Park industrial campus, which is slated to grow to 21 million square feet of space. Travelpro currently leases part of River Park 6. The acquisition expands BGO and Greenlaw's industrial footprint in the Southeast Atlanta logistics corridor.",
+      "category": "industries",
+      "id": "b5b90bc68f98",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "Large Banks Ease CRE Lending Standards While Construction Lending Weakens Amid Higher Costs",
+      "source": "GlobeSt",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.globest.com/2026/05/14/large-banks-ease-standards-construction-lending-weakens/",
+      "summary": "GlobeSt reported that large banks have begun easing lending standards for commercial real estate borrowers, according to recent survey data, while construction lending has simultaneously weakened amid persistently higher construction costs. The divergence reflects improving liquidity conditions for stabilized assets but ongoing hesitancy to finance new development. The trend is consistent with CoStar data showing the national industrial vacancy rate remaining in the mid-7% range entering Q2 2026, with vacancy projected to edge higher into 2027 before beginning a gradual descent.",
+      "category": "economics",
+      "id": "3f9fde25d6c3",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "Trump-Xi Summit on May 14\u201315 to Tackle AI Guardrails Between World's Two Largest Economies",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/trump-xi-summit-ai-tech-trade",
+      "summary": "A Trump-Xi summit is scheduled for May 14\u201315, 2026, with AI governance and guardrails between the U.S. and China as a key agenda item, according to market coverage from multiple outlets including Bloomberg. The summit follows the November 2025 one-year tariff truce extension, which reduced bilateral tariffs on each other's goods and included reductions in U.S. fentanyl-related tariffs on China from 20% to 10% through November 10, 2026. Semiconductor and technology company stocks are expected to react sharply to any outcome. U.S. universal tariffs officially remain at 10% until July 24, with threats they could rise to 15% if no broader deal is reached.",
+      "category": "politics",
+      "id": "85d81dc5433c",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "Apartment Construction Starts Plummet to 15-Year Low",
+      "source": "BisNow",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.bisnow.com/national/news/multifamily/apartment-construction-starts-15-year-low-2026",
+      "summary": "BisNow reported that apartment construction starts have fallen to a 15-year low nationally, according to new data released in mid-May 2026. The sharp decline reflects a combination of high borrowing costs, elevated construction costs, and reduced investor appetite for new multifamily development. The dropoff in residential construction is occurring simultaneously with reduced industrial development starts, which PwC/ULI research has pegged at down 25% versus the 2017\u20132019 average through 2025 year-to-date. The broader contraction in construction starts affects demand for building materials supply chains and construction-related industrial tenants.",
+      "category": "industries",
+      "id": "9c1fefdb7948",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "Jeff Bezos' Blue Origin Mulls City Near Austin to House Next Big Venture",
+      "source": "BisNow",
+      "source_type": "free",
+      "date": "May 12, 2026",
+      "url": "https://www.bisnow.com/austin-san-antonio/news/other/jeff-bezos-blue-origin-city-austin-next-venture-2026",
+      "summary": "BisNow reported that Jeff Bezos' Blue Origin is considering developing a company-sponsored city near Austin, Texas, to house its next major venture, according to sources familiar with the plans. No specific location or timeline was confirmed. The report adds to a broader trend of major technology and aerospace companies seeking to develop large-scale campus or community infrastructure to support their operations and workforce. Blue Origin is a major aerospace manufacturer and launch services provider with growing logistics and infrastructure footprints.",
+      "category": "business",
+      "id": "20b881ccc761",
+      "added_at": "2026-05-14T09:41:43.249356Z",
+      "timestamp": "2026-05-14T09:41:43.249356Z"
     }
   ],
   "settings": {
