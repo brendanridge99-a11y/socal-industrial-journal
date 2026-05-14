@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T09:41:43.271641Z",
+  "last_updated": "2026-05-14T18:23:55.724944Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -1248,6 +1248,78 @@
       "id": "20b881ccc761",
       "added_at": "2026-05-14T09:41:43.249356Z",
       "timestamp": "2026-05-14T09:41:43.249356Z"
+    },
+    {
+      "headline": "US Retail Sales Rise for Third Month Despite Gas Price Surge",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-14/us-retail-sales-moderated-in-april-as-gas-surge-crimped-budgets",
+      "summary": "U.S. retail sales advanced for a third consecutive month in April, gaining 0.5% from March and rising 4.9% year-over-year, according to the Census Bureau. The increase occurred despite a 3.8% annualized rise in the Consumer Price Index and diminished consumer confidence amid war-driven energy cost surges. Nine of 13 retail categories posted gains, while furniture stores (-2%), department stores (-3.2%), car dealerships (-0.5%), and clothing shops (-1.5%) all declined. Unemployment held steady at 4.3% with employers adding 115,000 jobs in April, supporting continued consumer spending.",
+      "category": "economics",
+      "id": "fe3c4fef111f",
+      "added_at": "2026-05-14T18:23:55.703814Z",
+      "timestamp": "2026-05-14T18:23:55.703814Z"
+    },
+    {
+      "headline": "Stock Market Today: S&P 500 Tops 7,500 as AI Trade Fuels Record-Breaking Run",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/asian-stocks-to-climb-as-wall-street-hits-new-high-markets-wrap",
+      "summary": "The S&P 500 surpassed 7,500 on May 14, driven by a revival of the artificial intelligence trade and strong April retail sales data showing consumer resilience despite war-driven energy cost surges. Nvidia climbed for a seventh straight day and Cisco Systems rose 13% after a solid earnings outlook. AI chipmaker Cerebras Systems surged 89% in its Nasdaq trading debut after raising $5.55 billion in the year's largest IPO, priced at $185 per share. Ford Motor Co. also extended gains on enthusiasm around firms positioned to benefit from power-hungry data centers.",
+      "category": "economics",
+      "id": "4f8545a6106f",
+      "added_at": "2026-05-14T18:23:55.703814Z",
+      "timestamp": "2026-05-14T18:23:55.703814Z"
+    },
+    {
+      "headline": "AI Chipmaker Cerebras Shares Soar 89% After Year's Biggest IPO",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-14/cerebras-shares-indicated-to-surge-89-after-year-s-top-ipo",
+      "summary": "AI chipmaker and data center firm Cerebras Systems raised $5.55 billion in its Nasdaq IPO, priced at $185 per share \u2014 above the marketed range \u2014 giving it an initial market value of approximately $40 billion. Shares opened at $350, up 89%, pushing the valuation above $100 billion on a fully diluted basis. Demand for the offering exceeded available shares by more than 20 times. The company has partnerships with Amazon Web Services and OpenAI, and the debut is viewed as an early test of investor appetite ahead of potential larger offerings from SpaceX and OpenAI later in 2026.",
+      "category": "tech",
+      "id": "f5fcb342dcb0",
+      "added_at": "2026-05-14T18:23:55.703814Z",
+      "timestamp": "2026-05-14T18:23:55.703814Z"
+    },
+    {
+      "headline": "Foundry Commercial Nabs North Texas Office Complex to Build Industrial Facility",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.costar.com/article/1007255209/foundry-commercial-nabs-north-texas-office-complex-to-build-industrial-facility",
+      "summary": "Foundry Commercial, a real estate firm pioneering office-to-industrial conversions across the United States, is adding to its pipeline in the Dallas-Fort Worth region with the acquisition of a North Texas office complex intended for industrial redevelopment. The company is executing a broader strategy to demolish and replace approximately 1.9 million square feet of existing office properties with 2.9 million square feet of new industrial space across multiple U.S. markets. Foundry has previously executed similar conversions in Jacksonville, Florida, and other Sun Belt markets. The article is exclusively available to CoStar subscribers.",
+      "category": "industries",
+      "id": "bb03f0919bda",
+      "added_at": "2026-05-14T18:23:55.703814Z",
+      "timestamp": "2026-05-14T18:23:55.703814Z"
+    },
+    {
+      "headline": "Proprietary Data Obsession Is Holding Real Estate Back From AI",
+      "source": "BisNow",
+      "source_type": "free",
+      "date": "May 13, 2026",
+      "url": "https://www.bisnow.com/national/news/ai/no-one-cares-about-your-data-fears-of-leaks-implementation-holds-cre-back-from-ai-134564",
+      "summary": "At Bisnow's New York AI & Technology event held at Silverstein Properties' 7 World Trade Center on May 13, industry executives discussed how real estate firms' reluctance to share proprietary data with AI platforms is limiting adoption of the technology. Fundrise CEO Ben Miller stated that real estate companies are 'afraid to adopt the cutting-edge' AI tools due to concerns about data exposure to large language models. Onyxia Cyber CEO Sivan Tehila warned of 'shadow AI,' where employees use AI tools without authorization, potentially leaking sensitive company data. IBM research cited at the event found that over one-third of employees admit sharing sensitive work information with AI tools without employer permission.",
+      "category": "tech",
+      "id": "cfefa03308f4",
+      "added_at": "2026-05-14T18:23:55.703814Z",
+      "timestamp": "2026-05-14T18:23:55.703814Z"
+    },
+    {
+      "headline": "Market Outlook: U.S. Retail Sales Resilience Adds to Inflation Pressure",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.bnnbloomberg.ca/investing/market-outlook/2026/05/14/market-outlook-us-retail-sales-resilience-adds-to-inflation-pressure/",
+      "summary": "Strong U.S. retail sales in April are reinforcing concerns that inflation pressures could remain elevated as consumers continue spending despite rising costs linked to the Iran war. Rising inflation expectations tied to energy prices are increasing pressure on bond markets and pushing Treasury yields higher, with markets still expecting central banks to hold interest rates steady through 2026. BMO Global Asset Management's Earl Davis noted that while consumer growth supports corporate bonds, investors should favor shorter-duration corporate paper \u2014 two-to-five year bonds \u2014 rather than 10-year Treasuries given inflation risk. The resilience of consumer demand despite record-low consumer sentiment signals sustained distribution and logistics activity.",
+      "category": "economics",
+      "id": "bbe2d6416608",
+      "added_at": "2026-05-14T18:23:55.703814Z",
+      "timestamp": "2026-05-14T18:23:55.703814Z"
     }
   ],
   "settings": {
