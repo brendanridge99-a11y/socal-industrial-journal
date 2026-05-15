@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T17:18:55.901767Z",
+  "last_updated": "2026-05-15T21:40:54.956089Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -1560,6 +1560,42 @@
       "id": "f2bb4ff27cfe",
       "added_at": "2026-05-15T17:18:55.896085Z",
       "timestamp": "2026-05-15T17:18:55.896085Z"
+    },
+    {
+      "headline": "Westmount Hires Industrial Veteran; SRS Expands National Retail Team; CenterSquare Adds AI Director",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 15, 2026",
+      "url": "https://www.costar.com/article/924503917/westmount-hires-industrial-veteran-srs-expands-national-retail-team-centersquare-adds-ai-director",
+      "summary": "Westmount Realty Capital appointed Mike Demperio as director of development in Atlanta, bringing over five decades of industrial real estate experience and more than 100 million square feet of industrial projects across the country valued at over $4 billion. Demperio previously served as EVP at CRG and held roles at CBRE where he launched the firm's Global Logistics practice. SRS Real Estate Partners added Neill Kelly and Benjamin Gould to its national retail team to bolster restructuring and dispositions capability. CenterSquare Investment Management also appointed Doug Carpenter as its new director and head of data strategy and artificial intelligence.",
+      "category": "industries",
+      "id": "5f5ffbcb7acc",
+      "added_at": "2026-05-15T21:40:54.940300Z",
+      "timestamp": "2026-05-15T21:40:54.940300Z"
+    },
+    {
+      "headline": "Small Bay Now Dominates Industrial and It Will Stay That Way",
+      "source": "GlobeSt",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.globest.com/2026/05/14/small-bay-now-dominates-industrial-and-it-will-stay-that-way/",
+      "summary": "GlobeSt published an analysis on May 14, 2026 examining how small-bay industrial product has become the dominant force in the industrial market. HALO businesses and the evolution of the broader economy were cited as major demand drivers behind the shift. Small-bay and micro-warehouse assets in last-mile and infill locations continue to post vacancy rates below 5%, making them among the most competitive subsectors in the market. The analysis concludes that the structural demand for small-bay industrial is durable and unlikely to reverse.",
+      "category": "industries",
+      "id": "7344765caebc",
+      "added_at": "2026-05-15T21:40:54.940300Z",
+      "timestamp": "2026-05-15T21:40:54.940300Z"
+    },
+    {
+      "headline": "Betting on Continued Industrial Demand, Redfearn Capital Closes Pair of Deals Across Florida Totaling $60M",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.costar.com/article/1989049024/betting-on-continued-industrial-demand-real-estate-group-closes-pair-of-deals-across-florida",
+      "summary": "Redfearn Capital closed two industrial deals in South Florida and Jacksonville totaling $60 million, in what the firm described as a vote of confidence in Florida's industrial market. The transactions represent the new group's entry into the Florida industrial investment space. No specific property addresses or tenant details were disclosed in publicly available information. The deals signal continued private capital appetite for industrial assets in the Southeast despite broader market uncertainty.",
+      "category": "industries",
+      "id": "05e182ccf5e6",
+      "added_at": "2026-05-15T21:40:54.940300Z",
+      "timestamp": "2026-05-15T21:40:54.940300Z"
     }
   ],
   "settings": {
