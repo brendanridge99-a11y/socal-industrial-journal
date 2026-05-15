@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T10:03:24.181513Z",
+  "last_updated": "2026-05-15T16:11:04.012183Z",
   "articles": [
     {
       "headline": "BofA Delays Fed Rate-Cut Forecast Into 2027",
@@ -1440,6 +1440,54 @@
       "id": "18f77e182dcb",
       "added_at": "2026-05-15T10:03:24.161292Z",
       "timestamp": "2026-05-15T10:03:24.161292Z"
+    },
+    {
+      "headline": "From Bad to Worse: The Federal Reserve's May Inflation Forecast Is Terrible News for Stock Investors",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 15, 2026",
+      "url": "https://www.fool.com/investing/2026/05/15/from-bad-to-worse-the-federal-reserves-may-inflati/",
+      "summary": "The Federal Reserve Bank of Cleveland updated its May inflation nowcast to 4.2% CPI year-over-year, which would be the highest reading since April 2023. April CPI already came in at 3.8%, driven by gas prices averaging $4.50 per gallon nationally \u2014 up roughly 50% since the US-Iran conflict began February 28 and closed the Strait of Hormuz to commercial vessels. A Cleveland Fed CEO survey found manufacturing and services sector leaders expect inflation to average 3.7% over the next 12 months, up from 3.1% in the prior survey. Incoming Fed Chair Kevin Warsh inherits the rate-setting challenge with his first FOMC decision set for June 16-17.",
+      "category": "economics",
+      "id": "b3cfa220440f",
+      "added_at": "2026-05-15T16:11:04.006261Z",
+      "timestamp": "2026-05-15T16:11:04.006261Z"
+    },
+    {
+      "headline": "Blackstone's Data Center REIT Raises $1.75 Billion in IPO to Buy Data Centers",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 13, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/blackstone-reit-raises-1-75-billion-in-ipo-to-buy-data-centers",
+      "summary": "Blackstone Digital Infrastructure Trust (BXDC) completed its US IPO on May 14 on the NYSE, pricing 87.5 million shares at $20 each to raise $1.75 billion, with underwriters holding a 30-day option to lift total proceeds to $2 billion. The REIT will focus on acquiring newly constructed, stabilized data centers valued between $250 million and $1.5 billion, occupied by investment-grade hyperscale tenants on long-term leases, targeting yields of 5.75% to 7%. Blackstone has identified approximately $25 billion in potential near-term data center purchases in Northern Virginia, Ohio, Phoenix, Maryland, and Austin. Nick Pell, former president and CIO of Blackstone's Link Logistics industrial REIT arm, was appointed CEO of the new entity.",
+      "category": "industries",
+      "id": "188283f195d5",
+      "added_at": "2026-05-15T16:11:04.006261Z",
+      "timestamp": "2026-05-15T16:11:04.006261Z"
+    },
+    {
+      "headline": "Texas People & Companies, May 15, 2026",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 15, 2026",
+      "url": "https://www.connectcre.com/stories/texas-people-companies-may-15-2026/",
+      "summary": "Stream Realty Partners broke ground on Northfield Logistics Center, a Class A industrial development at 4330 Northfield Lane in Houston's infill Northwest submarket. The project will deliver more than 300,000 square feet of Class A distribution space. Rosenberger Construction is serving as the general contractor and Seeberger Architecture is the project architect. No tenant has been announced for the project.",
+      "category": "industries",
+      "id": "74c13718e4a8",
+      "added_at": "2026-05-15T16:11:04.006261Z",
+      "timestamp": "2026-05-15T16:11:04.006261Z"
+    },
+    {
+      "headline": "CBRE Arranges $30.9 Million Sale of Treasure Coast Commerce Center Portfolio in Stuart, Florida",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 15, 2026",
+      "url": "https://www.connectcre.com/stories/florida-people-companies-may-15-2026/",
+      "summary": "CBRE arranged the $30.9 million sale of the Treasure Coast Commerce Center Portfolio, a seven-building, multitenant industrial portfolio totaling 153,198 square feet in Stuart, Florida. CBRE represented both the seller, Ted Glasrud Associates, Inc., and the buyer, NorthBridge Partners, in the transaction. No lease terms or vacancy details for the portfolio were disclosed. The deal reflects continued investor demand for multitenant industrial product in secondary Florida markets.",
+      "category": "industries",
+      "id": "5822543bd6c0",
+      "added_at": "2026-05-15T16:11:04.006261Z",
+      "timestamp": "2026-05-15T16:11:04.006261Z"
     }
   ],
   "settings": {
