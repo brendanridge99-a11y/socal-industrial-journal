@@ -1,54 +1,6 @@
 {
-  "last_updated": "2026-05-16T04:08:26.132499Z",
+  "last_updated": "2026-05-16T04:18:03.054161Z",
   "articles": [
-    {
-      "headline": "Markets Raise Chances for a Fed Rate Hike Following Hot Inflation Report",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 12, 2026",
-      "url": "https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html",
-      "summary": "Following the April CPI report, traders moved away from expecting Federal Reserve interest rate cuts and began pricing in a better than 1-in-3 chance of a rate hike by year-end, per CME Group's FedWatch tracker. Market pricing removed virtually any chance of a cut through the end of 2027. Jefferies economist Thomas Simons said the Fed is expected to stay on hold as it watches events unfold. Moody's Analytics chief economist Mark Zandi said the deciding factor will be whether inflation expectations continue to move higher.",
-      "category": "economics",
-      "id": "cf0a2d21506f",
-      "added_at": "2026-05-13T04:14:21.375919Z",
-      "timestamp": "2026-05-13T04:14:21.375919Z"
-    },
-    {
-      "headline": "Goodman Launches Leasing at 1.6M-SF Inland Empire West Logistics Campus in Rancho Cucamonga",
-      "source": "Connect CRE",
-      "source_type": "free",
-      "date": "May 4, 2026",
-      "url": "https://www.connectcre.com/stories/goodman-launches-leasing-at-1-6m-sf-inland-empire-west-logistics-campus/",
-      "summary": "Goodman announced it is now leasing Goodman Logistics Center Rancho Cucamonga, described as the largest contiguous logistics campus currently available in the Inland Empire West. The 1.6 million-square-foot campus is now being actively marketed for lease. No lease terms, asking rents, or leasing brokers were disclosed in the announcement. The project represents one of the largest available blocks of logistics space in the Western Inland Empire submarket.",
-      "category": "local-deals",
-      "id": "3fcd3567a17c",
-      "added_at": "2026-05-13T04:14:21.375919Z",
-      "timestamp": "2026-05-13T04:14:21.375919Z"
-    },
-    {
-      "headline": "CoStar: U.S. Industrial Vacancy to Rise Into Early 2027, National Rate Remains in Mid-7% Range",
-      "source": "CoStar",
-      "source_type": "paywalled",
-      "date": "May 2026",
-      "url": "https://www.businesswire.com/news/home/20260323739921/en/Visual-Lease-Named-2026-GlobeSt.-Influencer-in-CRE-Technology",
-      "summary": "CoStar revised its industrial vacancy forecast, projecting the national industrial vacancy rate to remain in the mid-7% range entering Q2 2026 and edge higher into 2027 before beginning a gradual descent. West Coast port markets, including Southern California, are expected to continue underperforming due to reduced demand, with availability in large newer logistics properties near major West Coast ports exceeding 13%. U.S. retail vacancy is separately projected to peak in the mid-4.4% range, edging slightly higher in 2026 before stabilizing. CoStar forecasts increasing industrial demand in the second half of 2026 as the supply overhang begins to absorb.",
-      "category": "industries",
-      "id": "2aa5958368aa",
-      "added_at": "2026-05-13T04:14:21.375919Z",
-      "timestamp": "2026-05-13T04:14:21.375919Z"
-    },
-    {
-      "headline": "Port of Long Beach Sets 2025 Record at 9.9M TEUs, Plans $3.2B in Infrastructure Ahead of 2026",
-      "source": "GlobeSt",
-      "source_type": "paywalled",
-      "date": "January 22, 2026",
-      "url": "https://media.shipco.com/port-of-long-beach-sets-record-in-2025-eyes-continued-growth-in-2026/",
-      "summary": "The Port of Long Beach concluded 2025 handling a record 9.9 million TEUs \u2014 its busiest year in its 115-year history \u2014 securing a 48.9% cargo share among San Pedro Bay ports. Newly appointed CEO Dr. Noel Hacegaba projected another 9 million TEU year in 2026, targeting a top-five year by cargo volume. The port announced $3.2 billion in infrastructure investments to double capacity by 2050, including the $1.8 billion Pier B On-Dock Rail Support Facility scheduled for completion in 2032. Hacegaba noted tariffs have reshaped trade patterns, with China's share of cargo declining from 70% to 60% over six years as Southeast Asian countries gained share.",
-      "category": "supply-chain",
-      "id": "6c9241bab056",
-      "added_at": "2026-05-13T04:14:21.375919Z",
-      "timestamp": "2026-05-13T04:14:21.375919Z"
-    },
     {
       "headline": "US April Inflation Rises 3.8% as Gasoline Prices Climb on Iran War",
       "source": "Bloomberg",
@@ -1428,6 +1380,54 @@
       "id": "3d3321cc848a",
       "added_at": "2026-05-16T04:08:26.115984Z",
       "timestamp": "2026-05-16T04:08:26.115984Z"
+    },
+    {
+      "headline": "U.S. Retail Sales Rise in April Despite Inflation and Higher Energy Costs",
+      "source": "Bloomberg / U.S. Census Bureau",
+      "source_type": "free",
+      "date": "May 14, 2026",
+      "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+      "summary": "The U.S. Census Bureau's Advance Monthly Retail Trade Survey for April 2026 showed retail and food services sales of $757.1 billion, up 0.5% from March and up 4.9% from April 2025. Retail trade sales were up 5.2% year-over-year, and nonstore retailers\u2014the e-commerce proxy\u2014rose 11.1% from a year ago. Total sales for the February\u2013April 2026 period were up 4.4% from the same period a year ago, while food services and drinking places were up 2.7% from April 2025.",
+      "category": "economics",
+      "id": "f9509bd55fab",
+      "added_at": "2026-05-16T04:18:03.047850Z",
+      "timestamp": "2026-05-16T04:18:03.047850Z"
+    },
+    {
+      "headline": "New Sales and Inventory Numbers Reflect Cautious Consumers and Retailers",
+      "source": "Bloomberg / Marketplace",
+      "source_type": "free",
+      "date": "May 14, 2026",
+      "url": "https://www.marketplace.org/story/2026/05/14/consumers-retailers-grow-cautious-as-inflation-climbs",
+      "summary": "New retail sales and wholesale inventory data show consumers growing more cautious as inflation accelerates, with the nominal retail sales increase reflecting higher prices rather than more units sold. Some wholesalers are building inventories in anticipation of further fuel cost increases, while demand for big-ticket items such as cars and furniture is softening. Supply chain management experts noted wholesalers are front-loading purchases ahead of back-to-school and holiday seasons to lock in current prices before further inflation.",
+      "category": "supply-chain",
+      "id": "cf70957d6a40",
+      "added_at": "2026-05-16T04:18:03.047850Z",
+      "timestamp": "2026-05-16T04:18:03.047850Z"
+    },
+    {
+      "headline": "Retail Q1 2026: Low Availability and Construction Slow Absorption",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 15, 2026",
+      "url": "https://www.connectcre.com/stories/retail-q1-low-availability-and-construction-slow-absorption/",
+      "summary": "Q1 2026 retail market reports from CBRE, JLL, Newmark, and others showed negative net absorption across nearly all tracked reports, driven by a wave of store closures from multiple bankruptcy filings adding available space to the market. Consumer sentiment was negatively affected by lingering inflation, uncertainty about the job market, and the impact of the Iran conflict on fuel costs, per Newmark analysts, though retail sales and consumer spending remained in positive territory. Sun Belt markets outpaced the rest of the country in retail metrics driven by population growth, and JLL noted that for the remainder of 2026, performance will depend more on which markets a portfolio is in than on national averages.",
+      "category": "business",
+      "id": "4ec1ce35b0e0",
+      "added_at": "2026-05-16T04:18:03.047850Z",
+      "timestamp": "2026-05-16T04:18:03.047850Z"
+    },
+    {
+      "headline": "House Cuts Build-To-Rent Ban From Latest Bill, Targets Vote Next Week",
+      "source": "BisNow",
+      "source_type": "free",
+      "date": "May 14, 2026",
+      "url": "https://www.bisnow.com/national/news/build-to-rent/",
+      "summary": "The House removed a ban on build-to-rent housing from its latest legislative package and is targeting a vote the following week on the modified bill, after President Trump publicly pushed House members to pass a housing bill that had included a forced-sale provision for BTR properties. The real estate lobby had sounded the alarm over the forced-sale provision in the original bill, arguing it would chill investment in single-family rental development. The modified bill's passage timeline remains uncertain pending negotiations among House members.",
+      "category": "politics",
+      "id": "e8363ba12871",
+      "added_at": "2026-05-16T04:18:03.047850Z",
+      "timestamp": "2026-05-16T04:18:03.047850Z"
     }
   ],
   "settings": {
