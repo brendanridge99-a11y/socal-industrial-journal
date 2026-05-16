@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T04:18:03.054161Z",
+  "last_updated": "2026-05-16T04:35:41.976023Z",
   "articles": [
     {
       "headline": "US April Inflation Rises 3.8% as Gasoline Prices Climb on Iran War",
@@ -1428,6 +1428,18 @@
       "id": "e8363ba12871",
       "added_at": "2026-05-16T04:18:03.047850Z",
       "timestamp": "2026-05-16T04:18:03.047850Z"
+    },
+    {
+      "headline": "Hapag-Lloyd Q1 2026 Loss: Strait of Hormuz Chaos and Weak Freight Rates Hit Shipping",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-13/container-shipping-demand",
+      "summary": "Hapag-Lloyd reported a Q1 2026 net loss of \u20ac219 million ($257 million), compared to a profit of \u20ac446 million in Q1 2025, as lower freight rates and the effective closure of the Strait of Hormuz disrupted global shipping operations. Average freight rates fell 9.5% year-over-year to $1,330 per TEU, and hundreds of commercial vessels carrying up to 20,000 seafarers remained unable to transit the Strait since the U.S. and Israel began attacks on Iran in late February 2026. Brent crude prices nearly doubled during the quarter, ending March at $118.35 per barrel, while low-sulfur bunker fuel prices surged more than 80% from year-end 2025 levels. The company maintained its full-year 2026 EBITDA guidance of $1.1 billion to $3.1 billion but warned the outlook remains subject to 'considerable uncertainty.'",
+      "category": "supply-chain",
+      "id": "d1d318c18713",
+      "added_at": "2026-05-16T04:35:41.954501Z",
+      "timestamp": "2026-05-16T04:35:41.954501Z"
     }
   ],
   "settings": {
