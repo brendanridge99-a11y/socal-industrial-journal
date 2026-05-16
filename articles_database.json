@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T06:39:27.674035Z",
+  "last_updated": "2026-05-16T07:34:30.720949Z",
   "articles": [
     {
       "headline": "Oil Holds Gain With Iran's Exports Strained as Conflict Drags On",
@@ -1260,6 +1260,30 @@
       "id": "04f148bb97d9",
       "added_at": "2026-05-16T05:44:01.437674Z",
       "timestamp": "2026-05-16T05:44:01.437674Z"
+    },
+    {
+      "headline": "Starbucks Plans First Corporate Tech Office in India to Cut Costs",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 16, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/starbucks-to-open-first-corporate-office-in-india-for-tech-jobs",
+      "summary": "Starbucks Corp. announced plans to open a technology office in India as part of a broader initiative to cut $2 billion in costs. The new hub is slated for the company's fiscal year 2027, which begins in October, according to an internal message seen by Bloomberg News. The India location will be Starbucks' first corporate office in the country, and the company expects to begin recruiting once a site is selected later this year.",
+      "category": "business",
+      "id": "9ae3f5f2a923",
+      "added_at": "2026-05-16T07:34:30.655145Z",
+      "timestamp": "2026-05-16T07:34:30.655145Z"
+    },
+    {
+      "headline": "Fed Names Powell Chair Pro Tempore Until Warsh Sworn In",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 16, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/fed-says-powell-will-be-chair-pro-tempore-until-warsh-sworn-in",
+      "summary": "The Federal Reserve named Jerome Powell as temporary chair of the Board of Governors until his successor Kevin Warsh is officially sworn in, according to a central bank statement released Friday. Some board members issued a statement opposing the action, saying 'we do not support an unlimited timeframe for temporary chair designation.' The transition marks a leadership change at the Fed as Warsh prepares to assume the role of Federal Reserve Chair.",
+      "category": "economics",
+      "id": "23faec958c54",
+      "added_at": "2026-05-16T07:34:30.655145Z",
+      "timestamp": "2026-05-16T07:34:30.655145Z"
     }
   ],
   "settings": {
