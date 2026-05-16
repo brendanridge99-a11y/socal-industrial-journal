@@ -321,8 +321,69 @@
             border-radius: 2px;
         }
 
-        /* ── Empty state ── */
-        .empty-state {
+        /* ── Category page summary banner ── */
+        .cat-summary-banner {
+            background: var(--parchment);
+            border-left: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem 2rem;
+            margin-bottom: 2.5rem;
+        }
+        .cat-summary-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.65;
+            color: var(--ink);
+        }
+
+        /* ── Top Articles section ── */
+        .section-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .top-article-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .top-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            background: var(--parchment);
+            padding: 0.2rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+            align-self: flex-start;
+        }
+        .top-article-headline {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.3;
+            color: var(--ink);
+            margin-bottom: 0.85rem;
+        }
+
+        /* ── All stories divider ── */
+        .all-stories-divider {
+            margin: 2.5rem 0 1.5rem;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -367,53 +428,65 @@
     <p class="page-count">6 stories from the past 72 hours</p>
   </div>
 
-  <div class="article-grid">
-    <div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="cat-summary-banner" style="--cat-color:#4E6B5E;">
+  <p class="cat-summary-text">**Global supply chains face compounding pressures on multiple fronts.** The effective closure of the Strait of Hormuz—forcing costly overland convoy alternatives—has spiked oil prices and driven Hapag-Lloyd to a quarterly loss. U.S.-China trade tensions persist despite the Beijing summit, with bilateral trade volumes structurally diminished. Domestically, cautious consumers, accelerating inflation, and inventory front-loading signal demand uncertainty. A Supreme Court ruling on freight broker liability adds further structural cost pressure to an already strained logistics environment.</p>
+</div>
+<div class="section-label">Top Stories</div>
+<div class="article-grid">
+  <div class="top-article-card" style="--cat-color:#4E6B5E;">
+  <span class="top-badge">Top Story</span>
   <div class="article-meta">
     <span>Wall Street Journal</span>
     <span class="date">· May 15, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="article-headline">The New Route Around Hormuz Involves a Massive Convoy of Trucks</h3>
+  <h3 class="top-article-headline">The New Route Around Hormuz Involves a Massive Convoy of Trucks</h3>
   <p class="article-summary">With the Strait of Hormuz closed following the outbreak of war in Iran, shippers and logistics operators have developed an alternative overland route using massive truck convoys to move energy and cargo around the conflict zone. The closure of the strait has driven Brent crude above $107 per barrel, up more than 10% this week alone, creating severe cost pressure across global supply chains. Trump-Xi summit talks in Beijing this week failed to produce breakthroughs on reopening the strait, with China calling for rapid reopening but no concrete agreement reached. The alternative convoy route adds significant transit time and cost compared to the standard maritime passage.</p>
   <div>
     <a href="https://www.wsj.com/business/logistics/hormuz-truck-convoy-route" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20The%20New%20Route%20Around%20Hormuz%20Involves%20a%20Massive%20Convoy%20of%20Tru&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AThe New Route Around Hormuz Involves a Massive Convoy of Trucks%0Ahttps://www.wsj.com/business/logistics/hormuz-truck-convoy-route%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
-<div class="article-card" style="--cat-color:#4E6B5E;">
+<div class="top-article-card" style="--cat-color:#4E6B5E;">
+  <span class="top-badge">Top Story</span>
   <div class="article-meta">
     <span>Wall Street Journal</span>
     <span class="date">· May 15, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="article-headline">Supreme Court Rules Unanimously: Freight Broker C.H. Robinson Faces Negligent Hiring Lawsuit</h3>
+  <h3 class="top-article-headline">Supreme Court Rules Unanimously: Freight Broker C.H. Robinson Faces Negligent Hiring Lawsuit</h3>
   <p class="article-summary">The US Supreme Court ruled unanimously this week that freight broker C.H. Robinson can face a state-law negligent hiring lawsuit from plaintiff Shawn Montgomery, rejecting the argument that federal law shields brokers from such claims. The ruling found that plaintiffs can bring state-law negligent hiring claims against freight brokers, removing a key legal protection the industry had relied upon. Industry analysts noted the ruling is expected to raise insurance premiums across the brokerage sector, tighten carrier vetting standards, and increase barriers to entry for new brokers. Over time, tighter carrier qualification standards are expected to reduce available capacity and place upward pressure on freight rates.</p>
   <div>
     <a href="https://www.wsj.com/business/logistics/supreme-court-ch-robinson-freight-broker-negligent-hiring" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Supreme%20Court%20Rules%20Unanimously:%20Freight%20Broker%20C.H.%20Robinso&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ASupreme Court Rules Unanimously: Freight Broker C.H. Robinson Faces Negligent Hiring Lawsuit%0Ahttps://www.wsj.com/business/logistics/supreme-court-ch-robinson-freight-broker-negligent-hiring%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
-<div class="article-card" style="--cat-color:#4E6B5E;">
-  <div class="article-meta">
-    <span>Bloomberg / Marketplace</span>
-    <span class="date">· May 14, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">New Sales and Inventory Numbers Reflect Cautious Consumers and Retailers</h3>
-  <p class="article-summary">New retail sales and wholesale inventory data show consumers growing more cautious as inflation accelerates, with the nominal retail sales increase reflecting higher prices rather than more units sold. Some wholesalers are building inventories in anticipation of further fuel cost increases, while demand for big-ticket items such as cars and furniture is softening. Supply chain management experts noted wholesalers are front-loading purchases ahead of back-to-school and holiday seasons to lock in current prices before further inflation.</p>
-  <div>
-    <a href="https://www.marketplace.org/story/2026/05/14/consumers-retailers-grow-cautious-as-inflation-climbs" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#4E6B5E;">
+<div class="top-article-card" style="--cat-color:#4E6B5E;">
+  <span class="top-badge">Top Story</span>
   <div class="article-meta">
     <span>Bloomberg</span>
     <span class="date">· May 14, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="article-headline">Hapag-Lloyd Q1 2026 Loss: Strait of Hormuz Chaos and Weak Freight Rates Hit Shipping</h3>
+  <h3 class="top-article-headline">Hapag-Lloyd Q1 2026 Loss: Strait of Hormuz Chaos and Weak Freight Rates Hit Shipping</h3>
   <p class="article-summary">Hapag-Lloyd reported a Q1 2026 net loss of €219 million ($257 million), compared to a profit of €446 million in Q1 2025, as lower freight rates and the effective closure of the Strait of Hormuz disrupted global shipping operations. Average freight rates fell 9.5% year-over-year to $1,330 per TEU, and hundreds of commercial vessels carrying up to 20,000 seafarers remained unable to transit the Strait since the U.S. and Israel began attacks on Iran in late February 2026. Brent crude prices nearly doubled during the quarter, ending March at $118.35 per barrel, while low-sulfur bunker fuel prices surged more than 80% from year-end 2025 levels. The company maintained its full-year 2026 EBITDA guidance of $1.1 billion to $3.1 billion but warned the outlook remains subject to 'considerable uncertainty.'</p>
   <div>
     <a href="https://www.bloomberg.com/news/newsletters/2026-05-13/container-shipping-demand" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Hapag-Lloyd%20Q1%202026%20Loss:%20Strait%20of%20Hormuz%20Chaos%20and%20Weak%20Fr&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AHapag-Lloyd Q1 2026 Loss: Strait of Hormuz Chaos and Weak Freight Rates Hit Shipping%0Ahttps://www.bloomberg.com/news/newsletters/2026-05-13/container-shipping-demand%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+</div>
+<div class="all-stories-divider">
+  <div class="section-label">All Stories</div>
+</div>
+<div class="article-grid">
+  <div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">US to Release New Data on Global Oil Reserves, Hormuz Shipments Quarterly</h3>
+  <p class="article-summary">The U.S. Energy Information Administration announced it will begin releasing new quarterly data on global strategic reserves and petroleum and LNG flows through key shipping choke points, beginning Wednesday. The new energy security datasets are designed to track how the war in Iran has upended global energy supply and altered key assumptions about oil markets. The report will provide indicators of how Strait of Hormuz disruptions are affecting global supply chains.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-12/us-to-unveil-new-data-spotlighting-hormuz-and-global-reserves" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20to%20Release%20New%20Data%20on%20Global%20Oil%20Reserves,%20Hormuz%20Shipme&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS to Release New Data on Global Oil Reserves, Hormuz Shipments Quarterly%0Ahttps://www.bloomberg.com/news/articles/2026-05-12/us-to-unveil-new-data-spotlighting-hormuz-and-global-reserves%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#4E6B5E;">
@@ -430,17 +503,17 @@
 </div>
 <div class="article-card" style="--cat-color:#4E6B5E;">
   <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 12, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
+    <span>Bloomberg / Marketplace</span>
+    <span class="date">· May 14, 2026</span>
+    
   </div>
-  <h3 class="article-headline">US to Release New Data on Global Oil Reserves, Hormuz Shipments Quarterly</h3>
-  <p class="article-summary">The U.S. Energy Information Administration announced it will begin releasing new quarterly data on global strategic reserves and petroleum and LNG flows through key shipping choke points, beginning Wednesday. The new energy security datasets are designed to track how the war in Iran has upended global energy supply and altered key assumptions about oil markets. The report will provide indicators of how Strait of Hormuz disruptions are affecting global supply chains.</p>
+  <h3 class="article-headline">New Sales and Inventory Numbers Reflect Cautious Consumers and Retailers</h3>
+  <p class="article-summary">New retail sales and wholesale inventory data show consumers growing more cautious as inflation accelerates, with the nominal retail sales increase reflecting higher prices rather than more units sold. Some wholesalers are building inventories in anticipation of further fuel cost increases, while demand for big-ticket items such as cars and furniture is softening. Supply chain management experts noted wholesalers are front-loading purchases ahead of back-to-school and holiday seasons to lock in current prices before further inflation.</p>
   <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-12/us-to-unveil-new-data-spotlighting-hormuz-and-global-reserves" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20to%20Release%20New%20Data%20on%20Global%20Oil%20Reserves,%20Hormuz%20Shipme&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS to Release New Data on Global Oil Reserves, Hormuz Shipments Quarterly%0Ahttps://www.bloomberg.com/news/articles/2026-05-12/us-to-unveil-new-data-spotlighting-hormuz-and-global-reserves%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+    <a href="https://www.marketplace.org/story/2026/05/14/consumers-retailers-grow-cautious-as-inflation-climbs" target="_blank" class="article-read">Read full story</a>
   </div>
 </div>
-  </div>
+</div>
 
 </main>
 

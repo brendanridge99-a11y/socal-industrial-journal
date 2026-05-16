@@ -321,8 +321,69 @@
             border-radius: 2px;
         }
 
-        /* ── Empty state ── */
-        .empty-state {
+        /* ── Category page summary banner ── */
+        .cat-summary-banner {
+            background: var(--parchment);
+            border-left: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem 2rem;
+            margin-bottom: 2.5rem;
+        }
+        .cat-summary-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.65;
+            color: var(--ink);
+        }
+
+        /* ── Top Articles section ── */
+        .section-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .top-article-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .top-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            background: var(--parchment);
+            padding: 0.2rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+            align-self: flex-start;
+        }
+        .top-article-headline {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.3;
+            color: var(--ink);
+            margin-bottom: 0.85rem;
+        }
+
+        /* ── All stories divider ── */
+        .all-stories-divider {
+            margin: 2.5rem 0 1.5rem;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -367,8 +428,56 @@
     <p class="page-count">4 stories from the past 72 hours</p>
   </div>
 
-  <div class="article-grid">
-    <div class="article-card" style="--cat-color:#7A6040;">
+  <div class="cat-summary-banner" style="--cat-color:#7A6040;">
+  <p class="cat-summary-text">Southern California industrial markets face mounting headwinds as West Coast port-adjacent vacancy exceeds 13%, driven by China's U.S. import share falling to 7.5%. Rexford Industrial's new CEO Laura Clark is pivoting toward infill positioning over new development. Notable Q1 Inland Empire leases included Tireco, Medline, and Unis deals brokered by CBRE. Transwestern Development hired Clark Neuhoff as West Coast Industrial Regional Partner, while Continental Development appointed Robert Peddicord as EVP of property management and leasing.</p>
+</div>
+<div class="section-label">Top Stories</div>
+<div class="article-grid">
+  <div class="top-article-card" style="--cat-color:#7A6040;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 5, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">Top Industrial Leases Recognized for Inland Empire — Tireco, Medline, and Unis Among Q1 Deals</h3>
+  <p class="article-summary">CoStar recognized the top Q1 2026 industrial leases in the Inland Empire, with prominent transactions signed by tire distributor Tireco, healthcare distributor Medline, and logistics operator Unis negotiated by CBRE. The Power Broker quarterly deals program evaluated all leases closed in Q1 and selected standout deals from CoStar's research team. Full deal terms are available to CoStar subscribers.</p>
+  <div>
+    <a href="https://www.costar.com/article/1079728703/top-industrial-leases-recognized-for-inland-empire" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Top%20Industrial%20Leases%20Recognized%20for%20Inland%20Empire%20—%20Tireco,&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATop Industrial Leases Recognized for Inland Empire — Tireco, Medline, and Unis Among Q1 Deals%0Ahttps://www.costar.com/article/1079728703/top-industrial-leases-recognized-for-inland-empire%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="top-article-card" style="--cat-color:#7A6040;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">CoStar: Industrial Vacancy at West Coast Port Markets Exceeds 13% as Chinese Trade Volume Falls</h3>
+  <p class="article-summary">Availability in large, newer logistics properties near major West Coast ports exceeds 13%, compared to an average of approximately 9% for East Coast port markets, per CoStar data. China's share of U.S. imports fell to just 7.5% in early 2026, down from 22% at the start of Trump's first term in 2017, directly reducing demand at Southern California port-adjacent warehouse markets. The Birtcher Logistics Center, a 492,000-square-foot building in the Inland Empire that completed construction in early 2025, remains vacant, illustrating continued challenges in the supply overhang. CoStar projects that data centers will surpass warehouses in construction spending in 2026.</p>
+  <div>
+    <a href="https://www.costar.com/article/765793773/what-to-watch-in-2026-industrial-outlook-remains-volatile-amid-supply-overhang-shifting-demand" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20CoStar:%20Industrial%20Vacancy%20at%20West%20Coast%20Port%20Markets%20Exceed&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ACoStar: Industrial Vacancy at West Coast Port Markets Exceeds 13% as Chinese Trade Volume Falls%0Ahttps://www.costar.com/article/765793773/what-to-watch-in-2026-industrial-outlook-remains-volatile-amid-supply-overhang-shifting-demand%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="top-article-card" style="--cat-color:#7A6040;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">New Rexford CEO Laura Clark Focused on 'Operational Rigor' at Southern California Industrial REIT</h3>
+  <p class="article-summary">CoStar published a profile of Laura Clark, the new CEO of Rexford Industrial Realty, who took the helm of one of Southern California's largest industrial landlords after building a career spanning multiple property types including retail, hotels, student housing, and industrial. Clark indicated her strategic focus will center less on building large amounts of new space and more on owning strategically located warehouses that are increasingly difficult to replicate. Clark's background includes time at Green Street Advisors in financial analysis before rising through industrial real estate. Rexford Industrial focuses exclusively on infill Southern California industrial markets including the Inland Empire, Los Angeles, and Orange County.</p>
+  <div>
+    <a href="https://www.costar.com/article/1096277798/laura-clark-didnt-plan-on-a-real-estate-career-now-she-runs-one-of-the-biggest-industrial-landlords" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20New%20Rexford%20CEO%20Laura%20Clark%20Focused%20on%20'Operational%20Rigor'%20a&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ANew Rexford CEO Laura Clark Focused on 'Operational Rigor' at Southern California Industrial REIT%0Ahttps://www.costar.com/article/1096277798/laura-clark-didnt-plan-on-a-real-estate-career-now-she-runs-one-of-the-biggest-industrial-landlords%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+</div>
+<div class="all-stories-divider">
+  <div class="section-label">All Stories</div>
+</div>
+<div class="article-grid">
+  <div class="article-card" style="--cat-color:#7A6040;">
   <div class="article-meta">
     <span>Connect CRE</span>
     <span class="date">· May 14, 2026</span>
@@ -380,43 +489,7 @@
     <a href="https://www.connectcre.com/stories/california-people-and-company-news-week-of-may-15-2026/" target="_blank" class="article-read">Read full story</a>
   </div>
 </div>
-<div class="article-card" style="--cat-color:#7A6040;">
-  <div class="article-meta">
-    <span>CoStar</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">CoStar: Industrial Vacancy at West Coast Port Markets Exceeds 13% as Chinese Trade Volume Falls</h3>
-  <p class="article-summary">Availability in large, newer logistics properties near major West Coast ports exceeds 13%, compared to an average of approximately 9% for East Coast port markets, per CoStar data. China's share of U.S. imports fell to just 7.5% in early 2026, down from 22% at the start of Trump's first term in 2017, directly reducing demand at Southern California port-adjacent warehouse markets. The Birtcher Logistics Center, a 492,000-square-foot building in the Inland Empire that completed construction in early 2025, remains vacant, illustrating continued challenges in the supply overhang. CoStar projects that data centers will surpass warehouses in construction spending in 2026.</p>
-  <div>
-    <a href="https://www.costar.com/article/765793773/what-to-watch-in-2026-industrial-outlook-remains-volatile-amid-supply-overhang-shifting-demand" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20CoStar:%20Industrial%20Vacancy%20at%20West%20Coast%20Port%20Markets%20Exceed&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ACoStar: Industrial Vacancy at West Coast Port Markets Exceeds 13% as Chinese Trade Volume Falls%0Ahttps://www.costar.com/article/765793773/what-to-watch-in-2026-industrial-outlook-remains-volatile-amid-supply-overhang-shifting-demand%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
 </div>
-<div class="article-card" style="--cat-color:#7A6040;">
-  <div class="article-meta">
-    <span>CoStar</span>
-    <span class="date">· May 12, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">New Rexford CEO Laura Clark Focused on 'Operational Rigor' at Southern California Industrial REIT</h3>
-  <p class="article-summary">CoStar published a profile of Laura Clark, the new CEO of Rexford Industrial Realty, who took the helm of one of Southern California's largest industrial landlords after building a career spanning multiple property types including retail, hotels, student housing, and industrial. Clark indicated her strategic focus will center less on building large amounts of new space and more on owning strategically located warehouses that are increasingly difficult to replicate. Clark's background includes time at Green Street Advisors in financial analysis before rising through industrial real estate. Rexford Industrial focuses exclusively on infill Southern California industrial markets including the Inland Empire, Los Angeles, and Orange County.</p>
-  <div>
-    <a href="https://www.costar.com/article/1096277798/laura-clark-didnt-plan-on-a-real-estate-career-now-she-runs-one-of-the-biggest-industrial-landlords" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20New%20Rexford%20CEO%20Laura%20Clark%20Focused%20on%20'Operational%20Rigor'%20a&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ANew Rexford CEO Laura Clark Focused on 'Operational Rigor' at Southern California Industrial REIT%0Ahttps://www.costar.com/article/1096277798/laura-clark-didnt-plan-on-a-real-estate-career-now-she-runs-one-of-the-biggest-industrial-landlords%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7A6040;">
-  <div class="article-meta">
-    <span>CoStar</span>
-    <span class="date">· May 5, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Top Industrial Leases Recognized for Inland Empire — Tireco, Medline, and Unis Among Q1 Deals</h3>
-  <p class="article-summary">CoStar recognized the top Q1 2026 industrial leases in the Inland Empire, with prominent transactions signed by tire distributor Tireco, healthcare distributor Medline, and logistics operator Unis negotiated by CBRE. The Power Broker quarterly deals program evaluated all leases closed in Q1 and selected standout deals from CoStar's research team. Full deal terms are available to CoStar subscribers.</p>
-  <div>
-    <a href="https://www.costar.com/article/1079728703/top-industrial-leases-recognized-for-inland-empire" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Top%20Industrial%20Leases%20Recognized%20for%20Inland%20Empire%20—%20Tireco,&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATop Industrial Leases Recognized for Inland Empire — Tireco, Medline, and Unis Among Q1 Deals%0Ahttps://www.costar.com/article/1079728703/top-industrial-leases-recognized-for-inland-empire%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-  </div>
 
 </main>
 

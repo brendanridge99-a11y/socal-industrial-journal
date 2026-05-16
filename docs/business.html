@@ -321,8 +321,69 @@
             border-radius: 2px;
         }
 
-        /* ── Empty state ── */
-        .empty-state {
+        /* ── Category page summary banner ── */
+        .cat-summary-banner {
+            background: var(--parchment);
+            border-left: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem 2rem;
+            margin-bottom: 2.5rem;
+        }
+        .cat-summary-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.65;
+            color: var(--ink);
+        }
+
+        /* ── Top Articles section ── */
+        .section-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .top-article-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .top-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            background: var(--parchment);
+            padding: 0.2rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+            align-self: flex-start;
+        }
+        .top-article-headline {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.3;
+            color: var(--ink);
+            margin-bottom: 0.85rem;
+        }
+
+        /* ── All stories divider ── */
+        .all-stories-divider {
+            margin: 2.5rem 0 1.5rem;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -364,11 +425,59 @@
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
     <h1 class="page-title">◆ Business</h1>
-    <p class="page-count">4 stories from the past 72 hours</p>
+    <p class="page-count">5 stories from the past 72 hours</p>
   </div>
 
-  <div class="article-grid">
-    <div class="article-card" style="--cat-color:#4A5F82;">
+  <div class="cat-summary-banner" style="--cat-color:#4A5F82;">
+  <p class="cat-summary-text">**Corporate restructuring and logistics competition dominated business news this week.** Walmart and Starbucks each announced further layoffs—totaling roughly 1,300 corporate positions—as both companies consolidate operations and cut costs. Amazon intensified pressure on retail and grocery rivals with a 30-minute delivery rollout, underscoring accelerating last-mile infrastructure investment. Retail absorption turned negative in Q1 amid store closures and weak consumer sentiment. Blue Origin's reported plans for a company city near Austin signal continued large-scale corporate campus ambitions.</p>
+</div>
+<div class="section-label">Top Stories</div>
+<div class="article-grid">
+  <div class="top-article-card" style="--cat-color:#4A5F82;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">Starbucks Announces Third Round of U.S. Layoffs, 300 Corporate Employees Cut</h3>
+  <p class="article-summary">Starbucks announced it will lay off 300 U.S. corporate employees in its third round of job cuts as part of its ongoing turnaround strategy under CEO Brian Niccol. The coffee giant is also closing some regional support offices, with combined severance costs and office space reassessment expected to result in $400 million in restructuring charges. Starbucks expects to record $280 million in noncash charges tied to asset impairments and $120 million in cash charges related to the layoffs. This follows an earlier round that cut 1,100 jobs and another that eliminated 900 nonretail positions as part of a $1 billion restructuring plan.</p>
+  <div>
+    <a href="https://www.bloomberg.com" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Starbucks%20Announces%20Third%20Round%20of%20U.S.%20Layoffs,%20300%20Corpora&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AStarbucks Announces Third Round of U.S. Layoffs, 300 Corporate Employees Cut%0Ahttps://www.bloomberg.com%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="top-article-card" style="--cat-color:#4A5F82;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">Amazon Rolls Out 30-Minute Delivery on Thousands of Groceries and Essentials</h3>
+  <p class="article-summary">Amazon launched a 30-minute delivery service covering thousands of grocery and everyday essentials items, expanding its ultra-fast fulfillment capabilities to a broader product set beyond its existing same-day offerings. The service relies on Amazon's network of urban micro-fulfillment nodes and delivery infrastructure. The rollout follows Amazon's May 4 launch of Amazon Supply Chain Services (ASCS), which opened its full logistics network to third-party businesses. The 30-minute delivery expansion intensifies pressure on traditional grocery retailers and last-mile delivery providers, and requires continued investment in dense, last-mile warehouse infrastructure.</p>
+  <div>
+    <a href="https://www.wsj.com/business/retail/amazon-30-minute-delivery-groceries-essentials" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Amazon%20Rolls%20Out%2030-Minute%20Delivery%20on%20Thousands%20of%20Grocerie&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AAmazon Rolls Out 30-Minute Delivery on Thousands of Groceries and Essentials%0Ahttps://www.wsj.com/business/retail/amazon-30-minute-delivery-groceries-essentials%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="top-article-card" style="--cat-color:#4A5F82;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">Walmart Cuts or Relocates About 1,000 Corporate Workers in Tech Consolidation</h3>
+  <p class="article-summary">Walmart announced it would cut or relocate approximately 1,000 corporate employees in its technology and product divisions as the retail giant completes a shift to a unified global technology platform, the Wall Street Journal first reported. The restructuring was directed by Global CTO Suresh Kumar and EVP of AI Acceleration Daniel Danker, who cited the consolidation of previously siloed tech teams working on duplicate problems across Walmart U.S., Sam's Club, and international units. Affected workers are being offered internal positions or relocation to Walmart's Bentonville, Arkansas headquarters or its Northern California offices. The round brings total 2026 corporate roles affected to roughly 1,100, following an earlier 1,500-position reduction in May 2025.</p>
+  <div>
+    <a href="https://www.wsj.com/business/retail/walmart-tech-layoffs-restructuring-2026" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Walmart%20Cuts%20or%20Relocates%20About%201,000%20Corporate%20Workers%20in%20T&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AWalmart Cuts or Relocates About 1,000 Corporate Workers in Tech Consolidation%0Ahttps://www.wsj.com/business/retail/walmart-tech-layoffs-restructuring-2026%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+</div>
+<div class="all-stories-divider">
+  <div class="section-label">All Stories</div>
+</div>
+<div class="article-grid">
+  <div class="article-card" style="--cat-color:#4A5F82;">
   <div class="article-meta">
     <span>Connect CRE</span>
     <span class="date">· May 15, 2026</span>
@@ -378,30 +487,6 @@
   <p class="article-summary">Q1 2026 retail market reports from CBRE, JLL, Newmark, and others showed negative net absorption across nearly all tracked reports, driven by a wave of store closures from multiple bankruptcy filings adding available space to the market. Consumer sentiment was negatively affected by lingering inflation, uncertainty about the job market, and the impact of the Iran conflict on fuel costs, per Newmark analysts, though retail sales and consumer spending remained in positive territory. Sun Belt markets outpaced the rest of the country in retail metrics driven by population growth, and JLL noted that for the remainder of 2026, performance will depend more on which markets a portfolio is in than on national averages.</p>
   <div>
     <a href="https://www.connectcre.com/stories/retail-q1-low-availability-and-construction-slow-absorption/" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#4A5F82;">
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Amazon Rolls Out 30-Minute Delivery on Thousands of Groceries and Essentials</h3>
-  <p class="article-summary">Amazon launched a 30-minute delivery service covering thousands of grocery and everyday essentials items, expanding its ultra-fast fulfillment capabilities to a broader product set beyond its existing same-day offerings. The service relies on Amazon's network of urban micro-fulfillment nodes and delivery infrastructure. The rollout follows Amazon's May 4 launch of Amazon Supply Chain Services (ASCS), which opened its full logistics network to third-party businesses. The 30-minute delivery expansion intensifies pressure on traditional grocery retailers and last-mile delivery providers, and requires continued investment in dense, last-mile warehouse infrastructure.</p>
-  <div>
-    <a href="https://www.wsj.com/business/retail/amazon-30-minute-delivery-groceries-essentials" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Amazon%20Rolls%20Out%2030-Minute%20Delivery%20on%20Thousands%20of%20Grocerie&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AAmazon Rolls Out 30-Minute Delivery on Thousands of Groceries and Essentials%0Ahttps://www.wsj.com/business/retail/amazon-30-minute-delivery-groceries-essentials%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#4A5F82;">
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Walmart Cuts or Relocates About 1,000 Corporate Workers in Tech Consolidation</h3>
-  <p class="article-summary">Walmart announced it would cut or relocate approximately 1,000 corporate employees in its technology and product divisions as the retail giant completes a shift to a unified global technology platform, the Wall Street Journal first reported. The restructuring was directed by Global CTO Suresh Kumar and EVP of AI Acceleration Daniel Danker, who cited the consolidation of previously siloed tech teams working on duplicate problems across Walmart U.S., Sam's Club, and international units. Affected workers are being offered internal positions or relocation to Walmart's Bentonville, Arkansas headquarters or its Northern California offices. The round brings total 2026 corporate roles affected to roughly 1,100, following an earlier 1,500-position reduction in May 2025.</p>
-  <div>
-    <a href="https://www.wsj.com/business/retail/walmart-tech-layoffs-restructuring-2026" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Walmart%20Cuts%20or%20Relocates%20About%201,000%20Corporate%20Workers%20in%20T&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AWalmart Cuts or Relocates About 1,000 Corporate Workers in Tech Consolidation%0Ahttps://www.wsj.com/business/retail/walmart-tech-layoffs-restructuring-2026%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#4A5F82;">
@@ -416,7 +501,7 @@
     <a href="https://www.bisnow.com/austin-san-antonio/news/other/jeff-bezos-blue-origin-city-austin-next-venture-2026" target="_blank" class="article-read">Read full story</a>
   </div>
 </div>
-  </div>
+</div>
 
 </main>
 

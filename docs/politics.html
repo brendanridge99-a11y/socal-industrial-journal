@@ -321,8 +321,69 @@
             border-radius: 2px;
         }
 
-        /* ── Empty state ── */
-        .empty-state {
+        /* ── Category page summary banner ── */
+        .cat-summary-banner {
+            background: var(--parchment);
+            border-left: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem 2rem;
+            margin-bottom: 2.5rem;
+        }
+        .cat-summary-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.65;
+            color: var(--ink);
+        }
+
+        /* ── Top Articles section ── */
+        .section-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .top-article-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .top-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            background: var(--parchment);
+            padding: 0.2rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+            align-self: flex-start;
+        }
+        .top-article-headline {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.3;
+            color: var(--ink);
+            margin-bottom: 0.85rem;
+        }
+
+        /* ── All stories divider ── */
+        .all-stories-divider {
+            margin: 2.5rem 0 1.5rem;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -367,8 +428,80 @@
     <p class="page-count">13 stories from the past 72 hours</p>
   </div>
 
-  <div class="article-grid">
-    <div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="cat-summary-banner" style="--cat-color:#8B4A3A;">
+  <p class="cat-summary-text">**U.S.-China relations dominated the week's political landscape.** Trump's Beijing summit with Xi concluded with China committing to purchase U.S. oil and 200 Boeing aircraft, alongside a three-year "strategic stability" framework. The existing trade truce holds, with average U.S. tariffs remaining at 47.5%. Domestically, tariff refund processing began following the Supreme Court's IEEPA ruling, while a major aluminum customs fraud settlement signaled intensified enforcement. Beef import tariff relief remains delayed amid record consumer prices.</p>
+</div>
+<div class="section-label">Top Stories</div>
+<div class="article-grid">
+  <div class="top-article-card" style="--cat-color:#8B4A3A;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">Trump, Xi to Weigh Tariff Cuts on $30 Billion of Imports in Managed Trade Push</h3>
+  <p class="article-summary">The U.S. and China are expected to move toward a managed trade mechanism for non-sensitive goods at this week's summit, with each side potentially identifying approximately $30 billion worth of goods on which they could reduce tariffs. The proposed 'Board of Trade' mechanism was first raised by U.S. Trade Representative Jamieson Greer in March as a key deliverable. China currently maintains a general 10% extra tariff on all U.S. imports, matching the current temporary 10% U.S. tariff on Chinese goods. Four people familiar with the Trump administration's objectives expected a $30 billion-for-$30 billion trade-barrier reduction framework.</p>
+  <div>
+    <a href="https://www.usnews.com/news/top-news/articles/2026-05-13/trump-xi-to-weigh-tariff-cuts-on-30-billion-of-imports-in-managed-trade-push" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Trump,%20Xi%20to%20Weigh%20Tariff%20Cuts%20on%20$30%20Billion%20of%20Imports%20in%20&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATrump, Xi to Weigh Tariff Cuts on $30 Billion of Imports in Managed Trade Push%0Ahttps://www.usnews.com/news/top-news/articles/2026-05-13/trump-xi-to-weigh-tariff-cuts-on-30-billion-of-imports-in-managed-trade-push%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="top-article-card" style="--cat-color:#8B4A3A;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">US Beef Prices Hit Record Highs as Trump Team Holds Off on Import Tariff Cuts</h3>
+  <p class="article-summary">The Trump administration delayed a previously planned executive action to temporarily suspend beef import tariffs, despite earlier reports that the move was imminent. A White House official said the administration is still fine-tuning potential directives aimed at alleviating temporary domestic beef shortages. Beef prices have reached record highs as a result of supply constraints. The delay came after Trump was expected to sign the directives on Monday.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-12/trump-team-pauses-effort-to-lower-tariffs-on-beef-imports" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Beef%20Prices%20Hit%20Record%20Highs%20as%20Trump%20Team%20Holds%20Off%20on%20I&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Beef Prices Hit Record Highs as Trump Team Holds Off on Import Tariff Cuts%0Ahttps://www.bloomberg.com/news/articles/2026-05-12/trump-team-pauses-effort-to-lower-tariffs-on-beef-imports%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="top-article-card" style="--cat-color:#8B4A3A;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">Trump-Xi Summit on May 14–15 to Tackle AI Guardrails Between World's Two Largest Economies</h3>
+  <p class="article-summary">A Trump-Xi summit is scheduled for May 14–15, 2026, with AI governance and guardrails between the U.S. and China as a key agenda item, according to market coverage from multiple outlets including Bloomberg. The summit follows the November 2025 one-year tariff truce extension, which reduced bilateral tariffs on each other's goods and included reductions in U.S. fentanyl-related tariffs on China from 20% to 10% through November 10, 2026. Semiconductor and technology company stocks are expected to react sharply to any outcome. U.S. universal tariffs officially remain at 10% until July 24, with threats they could rise to 15% if no broader deal is reached.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-13/trump-xi-summit-ai-tech-trade" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Trump-Xi%20Summit%20on%20May%2014–15%20to%20Tackle%20AI%20Guardrails%20Between&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATrump-Xi Summit on May 14–15 to Tackle AI Guardrails Between World's Two Largest Economies%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/trump-xi-summit-ai-tech-trade%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+</div>
+<div class="all-stories-divider">
+  <div class="section-label">All Stories</div>
+</div>
+<div class="article-grid">
+  <div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Companies Are Getting Tariff Refunds. Here's What They Plan to Do With the Money.</h3>
+  <p class="article-summary">The US Customs and Border Protection began processing the first wave of electronic tariff refunds on May 12, returning billions of dollars to importers who paid levies later struck down by the Supreme Court in February 2026. CBP said about 15% of submitted claims were rejected due to incorrect information or ineligible shipments. Major companies including General Motors said they expect hundreds of millions of dollars in refunds; Citi analysis found Walmart is owed approximately $10 billion, Target $2 billion, and Nike $1 billion. Companies have stated plans to use refunds to pay down debt, rehire workers, restock inventory, or potentially lower prices, while consumers are not directly eligible for refunds.</p>
+  <div>
+    <a href="https://www.wsj.com/economy/trade/tariff-refunds-companies-plans" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Companies%20Are%20Getting%20Tariff%20Refunds.%20Here's%20What%20They%20Plan%20&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ACompanies Are Getting Tariff Refunds. Here's What They Plan to Do With the Money.%0Ahttps://www.wsj.com/economy/trade/tariff-refunds-companies-plans%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">At China Summit, Trump Has CEOs, But Xi Has Leverage on Tariffs, Taiwan</h3>
+  <p class="article-summary">President Trump arrived in Beijing for a high-stakes summit with Chinese President Xi Jinping, bringing an entourage of 16 A-list executives including Tesla's Elon Musk, Apple's Tim Cook, and Boeing's Kelly Ortberg. The two leaders are negotiating across trade, tech, Taiwan, and Iran-related issues, with each side pursuing different leverage strategies. U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng held three hours of preparatory talks in Seoul on May 13. A trade truce reached last October is expected to be extended, with modest policy announcements anticipated.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-13/at-china-summit-trump-has-ceos-but-xi-has-leverage-on-tariffs-taiwan" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20At%20China%20Summit,%20Trump%20Has%20CEOs,%20But%20Xi%20Has%20Leverage%20on%20Tari&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AAt China Summit, Trump Has CEOs, But Xi Has Leverage on Tariffs, Taiwan%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/at-china-summit-trump-has-ceos-but-xi-has-leverage-on-tariffs-taiwan%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
   <div class="article-meta">
     <span>Bloomberg</span>
     <span class="date">· May 15, 2026</span>
@@ -410,46 +543,10 @@
     <span class="date">· May 15, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="article-headline">Companies Are Getting Tariff Refunds. Here's What They Plan to Do With the Money.</h3>
-  <p class="article-summary">The US Customs and Border Protection began processing the first wave of electronic tariff refunds on May 12, returning billions of dollars to importers who paid levies later struck down by the Supreme Court in February 2026. CBP said about 15% of submitted claims were rejected due to incorrect information or ineligible shipments. Major companies including General Motors said they expect hundreds of millions of dollars in refunds; Citi analysis found Walmart is owed approximately $10 billion, Target $2 billion, and Nike $1 billion. Companies have stated plans to use refunds to pay down debt, rehire workers, restock inventory, or potentially lower prices, while consumers are not directly eligible for refunds.</p>
-  <div>
-    <a href="https://www.wsj.com/economy/trade/tariff-refunds-companies-plans" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Companies%20Are%20Getting%20Tariff%20Refunds.%20Here's%20What%20They%20Plan%20&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ACompanies Are Getting Tariff Refunds. Here's What They Plan to Do With the Money.%0Ahttps://www.wsj.com/economy/trade/tariff-refunds-companies-plans%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#8B4A3A;">
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
   <h3 class="article-headline">Perfectus Aluminum and Related Companies Agree to Pay $549.5M to Settle False Claims Act Allegations Relating to Evaded Customs Duties</h3>
   <p class="article-summary">Perfectus Aluminum Inc. and affiliated companies agreed to pay $549.5 million to settle False Claims Act allegations that they evaded customs duties on aluminum imports, in one of the largest customs fraud settlements in US history. The case involved allegations of tariff evasion through misclassification of aluminum products to avoid anti-dumping and countervailing duties. The settlement signals intensified federal enforcement of customs compliance as part of the broader crackdown on tariff evasion following the Supreme Court's ruling on IEEPA tariffs. Importers, freight brokers, and 3PLs are expected to face heightened customs scrutiny as a result of the case.</p>
   <div>
     <a href="https://www.wsj.com/business/perfectus-aluminum-customs-duties-settlement" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Perfectus%20Aluminum%20and%20Related%20Companies%20Agree%20to%20Pay%20$549.5&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0APerfectus Aluminum and Related Companies Agree to Pay $549.5M to Settle False Claims Act Allegations Relating to Evaded Customs Duties%0Ahttps://www.wsj.com/business/perfectus-aluminum-customs-duties-settlement%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#8B4A3A;">
-  <div class="article-meta">
-    <span>BisNow</span>
-    <span class="date">· May 14, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">House Cuts Build-To-Rent Ban From Latest Bill, Targets Vote Next Week</h3>
-  <p class="article-summary">The House removed a ban on build-to-rent housing from its latest legislative package and is targeting a vote the following week on the modified bill, after President Trump publicly pushed House members to pass a housing bill that had included a forced-sale provision for BTR properties. The real estate lobby had sounded the alarm over the forced-sale provision in the original bill, arguing it would chill investment in single-family rental development. The modified bill's passage timeline remains uncertain pending negotiations among House members.</p>
-  <div>
-    <a href="https://www.bisnow.com/national/news/build-to-rent/" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#8B4A3A;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">At China Summit, Trump Has CEOs, But Xi Has Leverage on Tariffs, Taiwan</h3>
-  <p class="article-summary">President Trump arrived in Beijing for a high-stakes summit with Chinese President Xi Jinping, bringing an entourage of 16 A-list executives including Tesla's Elon Musk, Apple's Tim Cook, and Boeing's Kelly Ortberg. The two leaders are negotiating across trade, tech, Taiwan, and Iran-related issues, with each side pursuing different leverage strategies. U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng held three hours of preparatory talks in Seoul on May 13. A trade truce reached last October is expected to be extended, with modest policy announcements anticipated.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-13/at-china-summit-trump-has-ceos-but-xi-has-leverage-on-tariffs-taiwan" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20At%20China%20Summit,%20Trump%20Has%20CEOs,%20But%20Xi%20Has%20Leverage%20on%20Tari&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AAt China Summit, Trump Has CEOs, But Xi Has Leverage on Tariffs, Taiwan%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/at-china-summit-trump-has-ceos-but-xi-has-leverage-on-tariffs-taiwan%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#8B4A3A;">
@@ -462,42 +559,6 @@
   <p class="article-summary">Trade negotiators led by U.S. Treasury Secretary Scott Bessent and China's Vice Premier He Lifeng concluded approximately three hours of talks in Seoul to prepare for the Trump-Xi summit. The Iran war and bilateral trade developments were among the top agenda items. The teams last met face-to-face in Paris two months ago, shortly after the U.S. and Israel attacked Iran. No joint statement was issued following the preliminary meeting.</p>
   <div>
     <a href="https://www.bloomberg.com/news/articles/2026-05-13/china-s-top-trade-negotiator-meets-lee-ahead-of-bessent-talks" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20and%20China%20Wrap%20Up%20Trade%20Talks%20With%20Trump%20En%20Route%20to%20Beij&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS and China Wrap Up Trade Talks With Trump En Route to Beijing%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/china-s-top-trade-negotiator-meets-lee-ahead-of-bessent-talks%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#8B4A3A;">
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Trump, Xi to Weigh Tariff Cuts on $30 Billion of Imports in Managed Trade Push</h3>
-  <p class="article-summary">The U.S. and China are expected to move toward a managed trade mechanism for non-sensitive goods at this week's summit, with each side potentially identifying approximately $30 billion worth of goods on which they could reduce tariffs. The proposed 'Board of Trade' mechanism was first raised by U.S. Trade Representative Jamieson Greer in March as a key deliverable. China currently maintains a general 10% extra tariff on all U.S. imports, matching the current temporary 10% U.S. tariff on Chinese goods. Four people familiar with the Trump administration's objectives expected a $30 billion-for-$30 billion trade-barrier reduction framework.</p>
-  <div>
-    <a href="https://www.usnews.com/news/top-news/articles/2026-05-13/trump-xi-to-weigh-tariff-cuts-on-30-billion-of-imports-in-managed-trade-push" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Trump,%20Xi%20to%20Weigh%20Tariff%20Cuts%20on%20$30%20Billion%20of%20Imports%20in%20&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATrump, Xi to Weigh Tariff Cuts on $30 Billion of Imports in Managed Trade Push%0Ahttps://www.usnews.com/news/top-news/articles/2026-05-13/trump-xi-to-weigh-tariff-cuts-on-30-billion-of-imports-in-managed-trade-push%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#8B4A3A;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Trump-Xi Summit on May 14–15 to Tackle AI Guardrails Between World's Two Largest Economies</h3>
-  <p class="article-summary">A Trump-Xi summit is scheduled for May 14–15, 2026, with AI governance and guardrails between the U.S. and China as a key agenda item, according to market coverage from multiple outlets including Bloomberg. The summit follows the November 2025 one-year tariff truce extension, which reduced bilateral tariffs on each other's goods and included reductions in U.S. fentanyl-related tariffs on China from 20% to 10% through November 10, 2026. Semiconductor and technology company stocks are expected to react sharply to any outcome. U.S. universal tariffs officially remain at 10% until July 24, with threats they could rise to 15% if no broader deal is reached.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-13/trump-xi-summit-ai-tech-trade" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Trump-Xi%20Summit%20on%20May%2014–15%20to%20Tackle%20AI%20Guardrails%20Between&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATrump-Xi Summit on May 14–15 to Tackle AI Guardrails Between World's Two Largest Economies%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/trump-xi-summit-ai-tech-trade%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#8B4A3A;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 12, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">US Beef Prices Hit Record Highs as Trump Team Holds Off on Import Tariff Cuts</h3>
-  <p class="article-summary">The Trump administration delayed a previously planned executive action to temporarily suspend beef import tariffs, despite earlier reports that the move was imminent. A White House official said the administration is still fine-tuning potential directives aimed at alleviating temporary domestic beef shortages. Beef prices have reached record highs as a result of supply constraints. The delay came after Trump was expected to sign the directives on Monday.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-12/trump-team-pauses-effort-to-lower-tariffs-on-beef-imports" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Beef%20Prices%20Hit%20Record%20Highs%20as%20Trump%20Team%20Holds%20Off%20on%20I&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Beef Prices Hit Record Highs as Trump Team Holds Off on Import Tariff Cuts%0Ahttps://www.bloomberg.com/news/articles/2026-05-12/trump-team-pauses-effort-to-lower-tariffs-on-beef-imports%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#8B4A3A;">
@@ -524,7 +585,19 @@
     <a href="https://www.bnnbloomberg.ca/tariffs/2026/05/12/trump-and-xi-dialed-down-the-trade-war-but-challenges-lurk-at-their-china-summit/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Trump%20and%20Xi%20Dialed%20Down%20the%20Trade%20War,%20But%20Challenges%20Lurk%20&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATrump and Xi Dialed Down the Trade War, But Challenges Lurk at Their China Summit%0Ahttps://www.bnnbloomberg.ca/tariffs/2026/05/12/trump-and-xi-dialed-down-the-trade-war-but-challenges-lurk-at-their-china-summit/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>BisNow</span>
+    <span class="date">· May 14, 2026</span>
+    
   </div>
+  <h3 class="article-headline">House Cuts Build-To-Rent Ban From Latest Bill, Targets Vote Next Week</h3>
+  <p class="article-summary">The House removed a ban on build-to-rent housing from its latest legislative package and is targeting a vote the following week on the modified bill, after President Trump publicly pushed House members to pass a housing bill that had included a forced-sale provision for BTR properties. The real estate lobby had sounded the alarm over the forced-sale provision in the original bill, arguing it would chill investment in single-family rental development. The modified bill's passage timeline remains uncertain pending negotiations among House members.</p>
+  <div>
+    <a href="https://www.bisnow.com/national/news/build-to-rent/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+</div>
 
 </main>
 

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T05:07:35.010837Z",
+  "last_updated": "2026-05-16T05:28:07.829629Z",
   "articles": [
     {
       "headline": "Oil Holds Gain With Iran's Exports Strained as Conflict Drags On",
@@ -1200,6 +1200,42 @@
       "id": "97f6b969efad",
       "added_at": "2026-05-16T05:07:35.004986Z",
       "timestamp": "2026-05-16T05:07:35.004986Z"
+    },
+    {
+      "headline": "The Energy Crisis Is Becoming a Currency Crisis in Asia's Emerging Markets",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 14, 2026",
+      "url": "https://www.bloomberg.com/opinion/articles/2026-05-14/the-energy-crisis-is-becoming-a-currency-crisis-in-asia-s-emerging-markets",
+      "summary": "Bloomberg Opinion reports that the Iran conflict-driven energy price shock is spreading into a currency crisis across Asian emerging markets, with major energy importers including the Philippine peso, South Korean won, Thai baht, and Egyptian pound among the worst-performing currencies since the start of the U.S.-Israel conflict with Iran. The supply-side energy shock has spread into food systems, financial markets, and regional economies, raising concerns about stagflation. India has asked the U.S. to extend its waiver on Russian oil cargo sales beyond the May 16 expiry date. The disruption is affecting global shipping routes, container costs, and supply chain reliability.",
+      "category": "economics",
+      "id": "6e871f50ba43",
+      "added_at": "2026-05-16T05:28:07.824176Z",
+      "timestamp": "2026-05-16T05:28:07.824176Z"
+    },
+    {
+      "headline": "Construction Material Costs Rose 6.2% Through April, Pressuring CRE Projects",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 15, 2026",
+      "url": "https://www.credaily.com/",
+      "summary": "Construction material costs rose 6.2% through April 2026, with energy, steel, and lumber prices climbing and pressuring commercial real estate development projects across the country. As of April 2026, steel, aluminum, and copper items carry a 50% tariff, with derivatives at 25% and industrial/electrical equipment incorporating those materials facing a 15% tariff. Associated Builders and Contractors data shows nonresidential construction input prices surged at a 12.6% annualized rate during the first two months of 2026, the fastest pace since the supply chain disruptions of early 2022. The industry needs approximately 349,000 net new workers in 2026 beyond normal hiring levels to maintain supply-demand equilibrium, with the shortage described as structural rather than cyclical.",
+      "category": "economics",
+      "id": "5925c1e93e03",
+      "added_at": "2026-05-16T05:28:07.824176Z",
+      "timestamp": "2026-05-16T05:28:07.824176Z"
+    },
+    {
+      "headline": "Starbucks Announces Third Round of U.S. Layoffs, 300 Corporate Employees Cut",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 15, 2026",
+      "url": "https://www.bloomberg.com",
+      "summary": "Starbucks announced it will lay off 300 U.S. corporate employees in its third round of job cuts as part of its ongoing turnaround strategy under CEO Brian Niccol. The coffee giant is also closing some regional support offices, with combined severance costs and office space reassessment expected to result in $400 million in restructuring charges. Starbucks expects to record $280 million in noncash charges tied to asset impairments and $120 million in cash charges related to the layoffs. This follows an earlier round that cut 1,100 jobs and another that eliminated 900 nonretail positions as part of a $1 billion restructuring plan.",
+      "category": "business",
+      "id": "e0135d4a08d1",
+      "added_at": "2026-05-16T05:28:07.824176Z",
+      "timestamp": "2026-05-16T05:28:07.824176Z"
     }
   ],
   "settings": {

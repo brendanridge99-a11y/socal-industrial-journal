@@ -321,8 +321,69 @@
             border-radius: 2px;
         }
 
-        /* ── Empty state ── */
-        .empty-state {
+        /* ── Category page summary banner ── */
+        .cat-summary-banner {
+            background: var(--parchment);
+            border-left: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem 2rem;
+            margin-bottom: 2.5rem;
+        }
+        .cat-summary-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.65;
+            color: var(--ink);
+        }
+
+        /* ── Top Articles section ── */
+        .section-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .top-article-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .top-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            background: var(--parchment);
+            padding: 0.2rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+            align-self: flex-start;
+        }
+        .top-article-headline {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.3;
+            color: var(--ink);
+            margin-bottom: 0.85rem;
+        }
+
+        /* ── All stories divider ── */
+        .all-stories-divider {
+            margin: 2.5rem 0 1.5rem;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -367,44 +428,56 @@
     <p class="page-count">5 stories from the past 72 hours</p>
   </div>
 
-  <div class="article-grid">
-    <div class="article-card" style="--cat-color:#6B4F7A;">
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">project44 Launches Autopilot to Cut Freight Costs, Improve Data Quality, Optimize Inventory Levels, and Accelerate Cash Flow</h3>
-  <p class="article-summary">Supply chain visibility platform project44 launched 'Autopilot,' an AI-driven tool designed to autonomously cut freight costs, improve shipment data quality, optimize inventory levels, and accelerate cash flow for shippers and logistics operators. The system uses machine learning to make automated decisions across freight procurement, routing, and inventory positioning without requiring manual intervention from supply chain teams. The launch comes as shippers face elevated freight costs due to oil price spikes from the Strait of Hormuz closure and continued tariff-related supply chain disruptions. project44 positions Autopilot as a response to the growing complexity of operating supply chains in a volatile trade and energy environment.</p>
-  <div>
-    <a href="https://www.wsj.com/tech/project44-autopilot-freight-ai" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20project44%20Launches%20Autopilot%20to%20Cut%20Freight%20Costs,%20Improve%20D&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0Aproject44 Launches Autopilot to Cut Freight Costs, Improve Data Quality, Optimize Inventory Levels, and Accelerate Cash Flow%0Ahttps://www.wsj.com/tech/project44-autopilot-freight-ai%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
+  <div class="cat-summary-banner" style="--cat-color:#6B4F7A;">
+  <p class="cat-summary-text">**AI infrastructure and capital markets dominated the past 72 hours.** Cerebras's landmark IPO signaled strong institutional appetite for AI hardware investment, while data center expansion continues reshaping power grids and real estate markets — with Texas emerging as Virginia's long-term rival. AI adoption is deepening across industries, from autonomous supply chain management to logistics real estate. A recurring friction point: enterprises remain cautious about data exposure, slowing full AI integration despite accelerating infrastructure buildout.</p>
 </div>
-<div class="article-card" style="--cat-color:#6B4F7A;">
+<div class="section-label">Top Stories</div>
+<div class="article-grid">
+  <div class="top-article-card" style="--cat-color:#6B4F7A;">
+  <span class="top-badge">Top Story</span>
   <div class="article-meta">
     <span>Bloomberg</span>
     <span class="date">· May 14, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="article-headline">AI Chipmaker Cerebras Shares Soar 89% After Year's Biggest IPO</h3>
+  <h3 class="top-article-headline">AI Chipmaker Cerebras Shares Soar 89% After Year's Biggest IPO</h3>
   <p class="article-summary">AI chipmaker and data center firm Cerebras Systems raised $5.55 billion in its Nasdaq IPO, priced at $185 per share — above the marketed range — giving it an initial market value of approximately $40 billion. Shares opened at $350, up 89%, pushing the valuation above $100 billion on a fully diluted basis. Demand for the offering exceeded available shares by more than 20 times. The company has partnerships with Amazon Web Services and OpenAI, and the debut is viewed as an early test of investor appetite ahead of potential larger offerings from SpaceX and OpenAI later in 2026.</p>
   <div>
     <a href="https://www.bloomberg.com/news/articles/2026-05-14/cerebras-shares-indicated-to-surge-89-after-year-s-top-ipo" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20AI%20Chipmaker%20Cerebras%20Shares%20Soar%2089%%20After%20Year's%20Biggest%20I&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AAI Chipmaker Cerebras Shares Soar 89% After Year's Biggest IPO%0Ahttps://www.bloomberg.com/news/articles/2026-05-14/cerebras-shares-indicated-to-surge-89-after-year-s-top-ipo%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
-<div class="article-card" style="--cat-color:#6B4F7A;">
+<div class="top-article-card" style="--cat-color:#6B4F7A;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">project44 Launches Autopilot to Cut Freight Costs, Improve Data Quality, Optimize Inventory Levels, and Accelerate Cash Flow</h3>
+  <p class="article-summary">Supply chain visibility platform project44 launched 'Autopilot,' an AI-driven tool designed to autonomously cut freight costs, improve shipment data quality, optimize inventory levels, and accelerate cash flow for shippers and logistics operators. The system uses machine learning to make automated decisions across freight procurement, routing, and inventory positioning without requiring manual intervention from supply chain teams. The launch comes as shippers face elevated freight costs due to oil price spikes from the Strait of Hormuz closure and continued tariff-related supply chain disruptions. project44 positions Autopilot as a response to the growing complexity of operating supply chains in a volatile trade and energy environment.</p>
+  <div>
+    <a href="https://www.wsj.com/tech/project44-autopilot-freight-ai" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20project44%20Launches%20Autopilot%20to%20Cut%20Freight%20Costs,%20Improve%20D&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0Aproject44 Launches Autopilot to Cut Freight Costs, Improve Data Quality, Optimize Inventory Levels, and Accelerate Cash Flow%0Ahttps://www.wsj.com/tech/project44-autopilot-freight-ai%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="top-article-card" style="--cat-color:#6B4F7A;">
+  <span class="top-badge">Top Story</span>
   <div class="article-meta">
     <span>BisNow</span>
     <span class="date">· May 13, 2026</span>
     
   </div>
-  <h3 class="article-headline">Proprietary Data Obsession Is Holding Real Estate Back From AI</h3>
+  <h3 class="top-article-headline">Proprietary Data Obsession Is Holding Real Estate Back From AI</h3>
   <p class="article-summary">At Bisnow's New York AI & Technology event held at Silverstein Properties' 7 World Trade Center on May 13, industry executives discussed how real estate firms' reluctance to share proprietary data with AI platforms is limiting adoption of the technology. Fundrise CEO Ben Miller stated that real estate companies are 'afraid to adopt the cutting-edge' AI tools due to concerns about data exposure to large language models. Onyxia Cyber CEO Sivan Tehila warned of 'shadow AI,' where employees use AI tools without authorization, potentially leaking sensitive company data. IBM research cited at the event found that over one-third of employees admit sharing sensitive work information with AI tools without employer permission.</p>
   <div>
     <a href="https://www.bisnow.com/national/news/ai/no-one-cares-about-your-data-fears-of-leaks-implementation-holds-cre-back-from-ai-134564" target="_blank" class="article-read">Read full story</a>
   </div>
 </div>
-<div class="article-card" style="--cat-color:#6B4F7A;">
+</div>
+<div class="all-stories-divider">
+  <div class="section-label">All Stories</div>
+</div>
+<div class="article-grid">
+  <div class="article-card" style="--cat-color:#6B4F7A;">
   <div class="article-meta">
     <span>BisNow</span>
     <span class="date">· May 13, 2026</span>
@@ -428,7 +501,7 @@
     <a href="https://www.bisnow.com/national/news/industrial/data-center-supply-chain-boosting-industrial-leasing-and-development-134509" target="_blank" class="article-read">Read full story</a>
   </div>
 </div>
-  </div>
+</div>
 
 </main>
 

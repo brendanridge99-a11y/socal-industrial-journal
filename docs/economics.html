@@ -321,8 +321,69 @@
             border-radius: 2px;
         }
 
-        /* ── Empty state ── */
-        .empty-state {
+        /* ── Category page summary banner ── */
+        .cat-summary-banner {
+            background: var(--parchment);
+            border-left: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem 2rem;
+            margin-bottom: 2.5rem;
+        }
+        .cat-summary-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.65;
+            color: var(--ink);
+        }
+
+        /* ── Top Articles section ── */
+        .section-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .top-article-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .top-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            background: var(--parchment);
+            padding: 0.2rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+            align-self: flex-start;
+        }
+        .top-article-headline {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.3;
+            color: var(--ink);
+            margin-bottom: 0.85rem;
+        }
+
+        /* ── All stories divider ── */
+        .all-stories-divider {
+            margin: 2.5rem 0 1.5rem;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -364,11 +425,73 @@
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
     <h1 class="page-title">◈ Economics</h1>
-    <p class="page-count">39 stories from the past 72 hours</p>
+    <p class="page-count">41 stories from the past 72 hours</p>
   </div>
 
-  <div class="article-grid">
-    <div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="cat-summary-banner" style="--cat-color:#7C5C3E;">
+  <p class="cat-summary-text">**Inflation Dominates the Economic Landscape**
+
+Back-to-back inflation shocks defined the week: April CPI hit 3.8% year-over-year and PPI surged 6%, both driven by Iran war-related energy disruptions closing the Strait of Hormuz. Bond markets sold off sharply, with 10-year Treasury yields reaching 4.6% and 30-year yields topping 5%. Markets have fully repriced from expecting rate cuts to pricing a Fed hike by December. Kevin Warsh replaced Jerome Powell as Fed Chair amid the most challenging inflation environment since 2022.</p>
+</div>
+<div class="section-label">Top Stories</div>
+<div class="article-grid">
+  <div class="top-article-card" style="--cat-color:#7C5C3E;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">Stock Market Today: S&P 500 Tops 7,500 as AI Trade Fuels Record-Breaking Run</h3>
+  <p class="article-summary">The S&P 500 surpassed 7,500 on May 14, driven by a revival of the artificial intelligence trade and strong April retail sales data showing consumer resilience despite war-driven energy cost surges. Nvidia climbed for a seventh straight day and Cisco Systems rose 13% after a solid earnings outlook. AI chipmaker Cerebras Systems surged 89% in its Nasdaq trading debut after raising $5.55 billion in the year's largest IPO, priced at $185 per share. Ford Motor Co. also extended gains on enthusiasm around firms positioned to benefit from power-hungry data centers.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-13/asian-stocks-to-climb-as-wall-street-hits-new-high-markets-wrap" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Stock%20Market%20Today:%20S&P%20500%20Tops%207,500%20as%20AI%20Trade%20Fuels%20Rec&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AStock Market Today: S&P 500 Tops 7,500 as AI Trade Fuels Record-Breaking Run%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/asian-stocks-to-climb-as-wall-street-hits-new-high-markets-wrap%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="top-article-card" style="--cat-color:#7C5C3E;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">Tech Carries Wall Street to Records Even as Most Stocks Fall After Discouraging Inflation Data</h3>
+  <p class="article-summary">The S&P 500 rose 0.58% to a new record close of 7,444.25 on Wednesday and the Nasdaq added 1.2% to 26,402.34, both hitting fresh intraday and closing records, driven by technology sector outperformance. However, roughly two-thirds of S&P 500 components fell during the session as the hotter-than-expected April PPI report of 6% year-over-year weighed on retail, banking, and other cyclically sensitive sectors. Nvidia shares closed up more than 2% and Micron Technology gained more than 4%, as investors anticipated positive semiconductor developments from Trump's Beijing summit with Xi Jinping. The Dow Jones Industrial Average shed 67.36 points, or 0.14%, ending at 49,693.20.</p>
+  <div>
+    <a href="https://www.wsj.com/finance/stocks/stock-market-today-may-13-2026" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Tech%20Carries%20Wall%20Street%20to%20Records%20Even%20as%20Most%20Stocks%20Fall&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATech Carries Wall Street to Records Even as Most Stocks Fall After Discouraging Inflation Data%0Ahttps://www.wsj.com/finance/stocks/stock-market-today-may-13-2026%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="top-article-card" style="--cat-color:#7C5C3E;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="top-article-headline">Wholesale Prices Surge 1.4% in April — Largest Monthly Gain Since March 2022</h3>
+  <p class="article-summary">The April 2026 Producer Price Index released Wednesday by the Bureau of Labor Statistics showed wholesale prices rose 1.4% month-over-month, the largest monthly increase since March 2022, and 6.0% year-over-year, the largest annual gain since December 2022. Goods prices surged 2%, led by a 15.6% jump in gasoline, while services prices rose 1.2%, with a 3.5% increase in margins for machinery and equipment wholesaling and higher truck transportation of freight costs. Core PPI excluding food and energy accelerated 1%, compared to the 0.4% estimate. Nationwide senior economist Ben Ayers said the jump in input prices portends further consumer price increases in May, forecasting CPI above 4% in next month's report.</p>
+  <div>
+    <a href="https://www.wsj.com/economy/ppi-april-2026-wholesale-inflation" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Wholesale%20Prices%20Surge%201.4%%20in%20April%20—%20Largest%20Monthly%20Gain%20&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AWholesale Prices Surge 1.4% in April — Largest Monthly Gain Since March 2022%0Ahttps://www.wsj.com/economy/ppi-april-2026-wholesale-inflation%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+</div>
+<div class="all-stories-divider">
+  <div class="section-label">All Stories</div>
+</div>
+<div class="article-grid">
+  <div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">April Producer Price Index Surges 1.4% Month-Over-Month, Biggest Jump Since March 2022</h3>
+  <p class="article-summary">U.S. producer prices rose 1.4% month-over-month in April 2026, the largest monthly increase since March 2022, far exceeding the 0.5% consensus forecast. Goods prices jumped 2.0%, led by a 15.6% surge in gasoline costs driven by the ongoing U.S.-Iran conflict disrupting Strait of Hormuz tanker traffic. Year-over-year, producer prices jumped 6.0%, the biggest annual increase since December 2022. Services prices also rose 1.2%, with truck transportation of freight and machinery and equipment wholesaling among the key contributors, signaling rising pipeline inflation for business costs.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-13/us-ppi-april-2026" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20April%20Producer%20Price%20Index%20Surges%201.4%%20Month-Over-Month,%20Big&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AApril Producer Price Index Surges 1.4% Month-Over-Month, Biggest Jump Since March 2022%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/us-ppi-april-2026%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
   <div class="article-meta">
     <span>Wall Street Journal</span>
     <span class="date">· May 15, 2026</span>
@@ -378,18 +501,6 @@
   <p class="article-summary">The Federal Reserve Bank of Cleveland updated its May inflation nowcast to 4.2% CPI year-over-year, which would be the highest reading since April 2023. April CPI already came in at 3.8%, driven by gas prices averaging $4.50 per gallon nationally — up roughly 50% since the US-Iran conflict began February 28 and closed the Strait of Hormuz to commercial vessels. A Cleveland Fed CEO survey found manufacturing and services sector leaders expect inflation to average 3.7% over the next 12 months, up from 3.1% in the prior survey. Incoming Fed Chair Kevin Warsh inherits the rate-setting challenge with his first FOMC decision set for June 16-17.</p>
   <div>
     <a href="https://www.fool.com/investing/2026/05/15/from-bad-to-worse-the-federal-reserves-may-inflati/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20From%20Bad%20to%20Worse:%20The%20Federal%20Reserve's%20May%20Inflation%20Forec&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AFrom Bad to Worse: The Federal Reserve's May Inflation Forecast Is Terrible News for Stock Investors%0Ahttps://www.fool.com/investing/2026/05/15/from-bad-to-worse-the-federal-reserves-may-inflati/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">US Industrial Production Rises by Most in Over a Year</h3>
-  <p class="article-summary">U.S. industrial production posted its largest gain in over a year, according to Federal Reserve data released May 15. The report covers output at factories, mines, and utilities, following a March decline of 0.5% attributed to the Iran war's impact on factory and utility output. The data was featured as a top headline on Bloomberg's homepage on May 15, 2026, alongside reporting on the Xi-Trump summit framework.</p>
-  <div>
-    <a href="https://www.bloomberg.com/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Industrial%20Production%20Rises%20by%20Most%20in%20Over%20a%20Year&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Industrial Production Rises by Most in Over a Year%0Ahttps://www.bloomberg.com/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
@@ -422,18 +533,6 @@
     <span class="date">· May 15, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="article-headline">Oil Headed for Weekly Gain as Strait of Hormuz Remains Effectively Closed</h3>
-  <p class="article-summary">Oil prices were on track for a weekly gain as the Strait of Hormuz remained effectively closed amid the ongoing Iran war, with efforts to end the conflict still in limbo. The closure has upended global energy markets, with both Trump and Xi agreeing at their Beijing summit that the Strait must remain open to support the free flow of energy. The sustained disruption has contributed to elevated energy prices that are feeding into already-sticky inflation.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-14/latest-oil-market-news-and-analysis-for-may-15" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Oil%20Headed%20for%20Weekly%20Gain%20as%20Strait%20of%20Hormuz%20Remains%20Effec&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AOil Headed for Weekly Gain as Strait of Hormuz Remains Effectively Closed%0Ahttps://www.bloomberg.com/news/articles/2026-05-14/latest-oil-market-news-and-analysis-for-may-15%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
   <h3 class="article-headline">Inflation and Fed Policy Are on Collision Course, Page Says</h3>
   <p class="article-summary">T. Rowe Price CIO Sébastien Page stated on Bloomberg Surveillance that the primary risk in financial markets is a 'collision course between inflation and Fed policy.' This comes as Jerome Powell's term as Fed Chair ended May 15, with the U.S. Senate confirming Kevin Warsh as his successor. Warsh is viewed as more open to rate cuts, but persistent inflation data has made near-term Fed rate cuts unlikely.</p>
   <div>
@@ -454,114 +553,6 @@
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
   <div class="article-meta">
-    <span>CNBC</span>
-    <span class="date">· May 15, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Traders Now See Next Fed Interest Rate Move as a Hike Following Inflation Surge</h3>
-  <p class="article-summary">Following a week of hotter-than-expected inflation readings, fed funds futures traders are now pricing in a Federal Reserve interest rate hike as soon as December 2026, the first time in the current cycle markets have priced in a hike rather than a cut. A December hike carries a nearly 51% probability, January a 60% probability, and March better than 71%, per CME Group's FedWatch tool. The Survey of Professional Forecasters released Friday projects Q2 consumer price inflation to hit 6%, a dramatic revision from the prior 2.7% estimate, driven largely by energy prices tied to the Iran conflict and the Strait of Hormuz. Incoming Fed Chair Kevin Warsh, confirmed by the Senate Wednesday, inherits an increasingly complicated inflation picture as GDP growth is simultaneously revised down to 2.2% for the full year.</p>
-  <div>
-    <a href="https://www.cnbc.com/amp/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>CNBC</span>
-    <span class="date">· May 15, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Treasury Yields Surge as Inflation Data Points to Tricky Rates Path for New Fed Chair Warsh</h3>
-  <p class="article-summary">U.S. Treasury yields spiked Friday following a week of elevated inflation data, with the 10-year note surging nearly 14 basis points to 4.595% and the 30-year bond jumping to just over 5.1%, its highest level since May 2025. The 2-year yield rose close to 9 basis points to 4.079%. Import prices rose 1.9% in April and 4.2% on a 12-month basis — the largest annual gain since October 2022 — while export prices surged 8.8%, the highest since September 2022, as Middle East conflict keeps energy prices elevated. West Texas Intermediate crude rose to $104.39 per barrel, up $3.22, after the Trump-Xi summit concluded with little to show on energy diplomacy.</p>
-  <div>
-    <a href="https://www.cnbc.com/2026/05/15/treasury-yields-surge-as-inflation-data-points-to-tricky-rates-path.html" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>CNBC</span>
-    <span class="date">· May 15, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Bonds, Stocks and Precious Metals Slump as Inflation Fears Mount, Silver Falls 7%</h3>
-  <p class="article-summary">Global government bonds, precious metals, and international stocks sold off Friday as inflation fears intensified and President Trump concluded a three-day visit to China with no meaningful agreement on energy or trade. The U.S. 10-year Treasury yield hit its highest level in nearly a year at 4.544%, while money markets priced in a near-zero chance of any Fed rate cuts this year and a 50% chance of a December hike, per CME FedWatch. Silver fell 7% on the session. The combination of Iran war energy shocks, ongoing tariff uncertainty, and political upheaval in the U.K. weighed on cross-asset sentiment globally.</p>
-  <div>
-    <a href="https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Global Bond Selloff Worsens as Rising Oil Prices Spook Investors</h3>
-  <p class="article-summary">Global government bond markets fell sharply on May 15, with US 10-year Treasury yields rising 12 basis points to 4.6% and 30-year yields approaching 5.12%—the highest since 2007—as Brent crude climbed past $107 per barrel amid an unresolved Strait of Hormuz standoff following the Iran war. The selloff was compounded by back-to-back US government reports showing consumer and wholesale prices accelerating at the fastest pace since 2022, with traders now pricing a near two-thirds probability of a Fed rate hike in December. Incoming Fed Chair Kevin Warsh, narrowly confirmed by the Senate this week, faces the selloff as his first major test. The S&P 500 fell more than 1% on Friday, pulling back from a recent rally, while gas prices nationally held above $4.50 per gallon—up 51% since the Iran war began.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Global%20Bond%20Selloff%20Worsens%20as%20Rising%20Oil%20Prices%20Spook%20Inves&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AGlobal Bond Selloff Worsens as Rising Oil Prices Spook Investors%0Ahttps://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">US Shopping Data Is Good, But Something Worrisome Is Lurking</h3>
-  <p class="article-summary">Bloomberg's Retail Monitor reported that US retail sales data this week showed surface-level strength in consumer spending, but that rising oil prices above $105 per barrel and surging bond yields are creating a worrisome undercurrent for forward consumer demand. Producer price data released this week showed costs accelerating at the fastest pace since 2022, signaling potential margin compression for retailers and goods distributors. The inflation pressures stem from the combined effect of the Strait of Hormuz closure and ongoing tariff-related cost pass-through still working through supply chains. Analysts noted the combination of high gas prices—nationally averaging $4.50 per gallon—and tightening financial conditions presents a risk to the consumer spending outlook in the coming months.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/newsletters/2026-05-15/us-shopping-data-retail-monitor" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Shopping%20Data%20Is%20Good,%20But%20Something%20Worrisome%20Is%20Lurking&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Shopping Data Is Good, But Something Worrisome Is Lurking%0Ahttps://www.bloomberg.com/news/newsletters/2026-05-15/us-shopping-data-retail-monitor%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 14, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">April Retail Sales Data Released; Census Bureau Report Scheduled for May 14</h3>
-  <p class="article-summary">The U.S. Census Bureau released the April 2026 Advance Monthly Retail Sales report on May 14, 2026 at 8:30 a.m. EDT. Ahead of the official data, the CNBC/NRF Retail Monitor showed total retail sales excluding autos and gasoline rose 0.34% month-over-month and 5.73% year-over-year in April. NRF President and CEO Matthew Shay stated that consumers continued spending despite higher gas prices from the Iran conflict, cautious sentiment, and persistent inflation concerns. Sales growth was led by clothing, sporting goods, and health and personal care stores. March retail sales had come in at $752.1 billion, up 1.7% from the prior month and 4.0% year-over-year.</p>
-  <div>
-    <a href="https://www.census.gov/retail/sales.html" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20April%20Retail%20Sales%20Data%20Released;%20Census%20Bureau%20Report%20Sched&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AApril Retail Sales Data Released; Census Bureau Report Scheduled for May 14%0Ahttps://www.census.gov/retail/sales.html%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>GlobeSt</span>
-    <span class="date">· May 14, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Large Banks Ease CRE Lending Standards While Construction Lending Weakens Amid Higher Costs</h3>
-  <p class="article-summary">GlobeSt reported that large banks have begun easing lending standards for commercial real estate borrowers, according to recent survey data, while construction lending has simultaneously weakened amid persistently higher construction costs. The divergence reflects improving liquidity conditions for stabilized assets but ongoing hesitancy to finance new development. The trend is consistent with CoStar data showing the national industrial vacancy rate remaining in the mid-7% range entering Q2 2026, with vacancy projected to edge higher into 2027 before beginning a gradual descent.</p>
-  <div>
-    <a href="https://www.globest.com/2026/05/14/large-banks-ease-standards-construction-lending-weakens/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Large%20Banks%20Ease%20CRE%20Lending%20Standards%20While%20Construction%20Le&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ALarge Banks Ease CRE Lending Standards While Construction Lending Weakens Amid Higher Costs%0Ahttps://www.globest.com/2026/05/14/large-banks-ease-standards-construction-lending-weakens/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 14, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">US Retail Sales Rise for Third Month Despite Gas Price Surge</h3>
-  <p class="article-summary">U.S. retail sales advanced for a third consecutive month in April, gaining 0.5% from March and rising 4.9% year-over-year, according to the Census Bureau. The increase occurred despite a 3.8% annualized rise in the Consumer Price Index and diminished consumer confidence amid war-driven energy cost surges. Nine of 13 retail categories posted gains, while furniture stores (-2%), department stores (-3.2%), car dealerships (-0.5%), and clothing shops (-1.5%) all declined. Unemployment held steady at 4.3% with employers adding 115,000 jobs in April, supporting continued consumer spending.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-14/us-retail-sales-moderated-in-april-as-gas-surge-crimped-budgets" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Retail%20Sales%20Rise%20for%20Third%20Month%20Despite%20Gas%20Price%20Surge&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Retail Sales Rise for Third Month Despite Gas Price Surge%0Ahttps://www.bloomberg.com/news/articles/2026-05-14/us-retail-sales-moderated-in-april-as-gas-surge-crimped-budgets%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 14, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Stock Market Today: S&P 500 Tops 7,500 as AI Trade Fuels Record-Breaking Run</h3>
-  <p class="article-summary">The S&P 500 surpassed 7,500 on May 14, driven by a revival of the artificial intelligence trade and strong April retail sales data showing consumer resilience despite war-driven energy cost surges. Nvidia climbed for a seventh straight day and Cisco Systems rose 13% after a solid earnings outlook. AI chipmaker Cerebras Systems surged 89% in its Nasdaq trading debut after raising $5.55 billion in the year's largest IPO, priced at $185 per share. Ford Motor Co. also extended gains on enthusiasm around firms positioned to benefit from power-hungry data centers.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-13/asian-stocks-to-climb-as-wall-street-hits-new-high-markets-wrap" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Stock%20Market%20Today:%20S&P%20500%20Tops%207,500%20as%20AI%20Trade%20Fuels%20Rec&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AStock Market Today: S&P 500 Tops 7,500 as AI Trade Fuels Record-Breaking Run%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/asian-stocks-to-climb-as-wall-street-hits-new-high-markets-wrap%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
     <span>Bloomberg</span>
     <span class="date">· May 14, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
@@ -570,18 +561,6 @@
   <p class="article-summary">Strong U.S. retail sales in April are reinforcing concerns that inflation pressures could remain elevated as consumers continue spending despite rising costs linked to the Iran war. Rising inflation expectations tied to energy prices are increasing pressure on bond markets and pushing Treasury yields higher, with markets still expecting central banks to hold interest rates steady through 2026. BMO Global Asset Management's Earl Davis noted that while consumer growth supports corporate bonds, investors should favor shorter-duration corporate paper — two-to-five year bonds — rather than 10-year Treasuries given inflation risk. The resilience of consumer demand despite record-low consumer sentiment signals sustained distribution and logistics activity.</p>
   <div>
     <a href="https://www.bnnbloomberg.ca/investing/market-outlook/2026/05/14/market-outlook-us-retail-sales-resilience-adds-to-inflation-pressure/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Market%20Outlook:%20U.S.%20Retail%20Sales%20Resilience%20Adds%20to%20Inflati&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AMarket Outlook: U.S. Retail Sales Resilience Adds to Inflation Pressure%0Ahttps://www.bnnbloomberg.ca/investing/market-outlook/2026/05/14/market-outlook-us-retail-sales-resilience-adds-to-inflation-pressure/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 14, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Treasury Yields Little Changed as April Import and Export Prices Soar Above Wall Street Expectations</h3>
-  <p class="article-summary">April import prices jumped 1.9% month-over-month — a full percentage point above March's move and well above the 0.9% consensus — pushing the 12-month rate to 4.2%, the most since October 2022. Fuels and lubricants surged 16.3% while petroleum products rose 19%, driven by the Iran war's impact on energy supply. The producer price index rose 1.4% in April, the biggest monthly increase since March 2022, with the annual rate reaching 6%. Core CPI came in at 2.8% annually, keeping the Fed on hold as newly confirmed Chair Kevin Warsh faces mounting inflation pressure from both the Iran conflict and tariffs.</p>
-  <div>
-    <a href="https://www.cnbc.com/2026/05/14/treasury-yields-energy-inflation-fed.html" target="_blank" class="article-read">Read full story</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
@@ -598,18 +577,6 @@
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
   <div class="article-meta">
-    <span>Bloomberg / U.S. Census Bureau</span>
-    <span class="date">· May 14, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">U.S. Retail Sales Rise in April Despite Inflation and Higher Energy Costs</h3>
-  <p class="article-summary">The U.S. Census Bureau's Advance Monthly Retail Trade Survey for April 2026 showed retail and food services sales of $757.1 billion, up 0.5% from March and up 4.9% from April 2025. Retail trade sales were up 5.2% year-over-year, and nonstore retailers—the e-commerce proxy—rose 11.1% from a year ago. Total sales for the February–April 2026 period were up 4.4% from the same period a year ago, while food services and drinking places were up 2.7% from April 2025.</p>
-  <div>
-    <a href="https://www.census.gov/retail/marts/www/marts_current.pdf" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
     <span>Bloomberg</span>
     <span class="date">· May 13, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
@@ -622,18 +589,6 @@
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
   <div class="article-meta">
-    <span>GlobeSt</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">GlobeSt: Large Banks Ease Lending Standards While Construction Lending Weakens Amid Higher Costs</h3>
-  <p class="article-summary">Large banks are easing credit standards for commercial real estate borrowers, according to the Fed's latest Senior Loan Officer Opinion Survey, while construction lending continues to weaken amid higher building material costs. The divergence reflects institutional CRE borrowers regaining access to capital for stabilized assets while development financing remains constrained. The trend aligns with a broader CRE market where top-performing assets can attract refinancing but speculative development faces continued headwinds.</p>
-  <div>
-    <a href="https://www.globest.com/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20GlobeSt:%20Large%20Banks%20Ease%20Lending%20Standards%20While%20Constructi&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AGlobeSt: Large Banks Ease Lending Standards While Construction Lending Weakens Amid Higher Costs%0Ahttps://www.globest.com/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
     <span>Wall Street Journal</span>
     <span class="date">· May 13, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
@@ -642,18 +597,6 @@
   <p class="article-summary">Kevin Warsh was confirmed by the full Senate on May 13, replacing Jerome Powell as Federal Reserve Chair, whose term ends May 15. The transition arrives as April CPI came in at 3.8% year-over-year, well above the Fed's 2% target, creating an immediate challenge for the incoming chair. Markets no longer expect rate cuts in 2026, with BofA Global Research now projecting cuts may not come until mid or late 2027. Warsh would need to rally six other Fed governors to vote for any rate cut under current inflation conditions.</p>
   <div>
     <a href="https://www.ml.com/articles/washington-update.html" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Kevin%20Warsh%20Confirmed%20as%20Federal%20Reserve%20Chair,%20Replacing%20Je&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AKevin Warsh Confirmed as Federal Reserve Chair, Replacing Jerome Powell%0Ahttps://www.ml.com/articles/washington-update.html%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">US Producer Prices Rise Most Since 2022 on Energy Costs</h3>
-  <p class="article-summary">The U.S. Producer Price Index rose 6% year-over-year in April 2026, the largest annual increase since December 2022, topping all estimates in a Bloomberg survey of economists. On a monthly basis, the PPI surged 1.4%, the largest gain since March 2022, driven primarily by a 15.6% surge in gasoline prices tied to the Iran war. Goods prices jumped 2% and services prices rose 1.2%, with truck transportation of freight and machinery and equipment wholesaling among the notable service-side increases. The April increase is nearly triple the 0.5% consensus forecast from economists.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-13/us-producer-prices-rise-most-since-2022-on-higher-energy-costs" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Producer%20Prices%20Rise%20Most%20Since%202022%20on%20Energy%20Costs&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Producer Prices Rise Most Since 2022 on Energy Costs%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/us-producer-prices-rise-most-since-2022-on-higher-energy-costs%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
@@ -698,118 +641,10 @@
     <span class="date">· May 13, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="article-headline">Tech Carries Wall Street to Records Even as Most Stocks Fall After Discouraging Inflation Data</h3>
-  <p class="article-summary">The S&P 500 rose 0.58% to a new record close of 7,444.25 on Wednesday and the Nasdaq added 1.2% to 26,402.34, both hitting fresh intraday and closing records, driven by technology sector outperformance. However, roughly two-thirds of S&P 500 components fell during the session as the hotter-than-expected April PPI report of 6% year-over-year weighed on retail, banking, and other cyclically sensitive sectors. Nvidia shares closed up more than 2% and Micron Technology gained more than 4%, as investors anticipated positive semiconductor developments from Trump's Beijing summit with Xi Jinping. The Dow Jones Industrial Average shed 67.36 points, or 0.14%, ending at 49,693.20.</p>
-  <div>
-    <a href="https://www.wsj.com/finance/stocks/stock-market-today-may-13-2026" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Tech%20Carries%20Wall%20Street%20to%20Records%20Even%20as%20Most%20Stocks%20Fall&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATech Carries Wall Street to Records Even as Most Stocks Fall After Discouraging Inflation Data%0Ahttps://www.wsj.com/finance/stocks/stock-market-today-may-13-2026%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Wholesale Prices Surge 1.4% in April — Largest Monthly Gain Since March 2022</h3>
-  <p class="article-summary">The April 2026 Producer Price Index released Wednesday by the Bureau of Labor Statistics showed wholesale prices rose 1.4% month-over-month, the largest monthly increase since March 2022, and 6.0% year-over-year, the largest annual gain since December 2022. Goods prices surged 2%, led by a 15.6% jump in gasoline, while services prices rose 1.2%, with a 3.5% increase in margins for machinery and equipment wholesaling and higher truck transportation of freight costs. Core PPI excluding food and energy accelerated 1%, compared to the 0.4% estimate. Nationwide senior economist Ben Ayers said the jump in input prices portends further consumer price increases in May, forecasting CPI above 4% in next month's report.</p>
-  <div>
-    <a href="https://www.wsj.com/economy/ppi-april-2026-wholesale-inflation" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Wholesale%20Prices%20Surge%201.4%%20in%20April%20—%20Largest%20Monthly%20Gain%20&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AWholesale Prices Surge 1.4% in April — Largest Monthly Gain Since March 2022%0Ahttps://www.wsj.com/economy/ppi-april-2026-wholesale-inflation%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>International Energy Agency</span>
-    <span class="date">· May 13, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">IEA Oil Market Report — May 2026: Record Supply Losses as Hormuz Disruption Deepens</h3>
-  <p class="article-summary">The International Energy Agency's May 2026 Oil Market Report warns that more than ten weeks after the Iran war began, Strait of Hormuz supply losses are depleting global oil inventories at a record pace. Cumulative supply losses from Gulf producers already exceed 1 billion barrels, with more than 14 million barrels per day shut in — described by the IEA as the largest supply disruption in the history of the global oil market. Global oil supply declined a further 1.8 mb/d in April to 95.1 mb/d, with WTI crude trading around $102-$110 per barrel. The IEA assumes Hormuz flows could gradually resume from Q3 2026, but warns of further price volatility ahead of the peak summer demand period.</p>
-  <div>
-    <a href="https://www.iea.org/reports/oil-market-report-may-2026" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>CNBC/TheStreet</span>
-    <span class="date">· May 13, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Stock Market Today: Nasdaq, S&P 500 Rise to New Records as Tech Leads Despite Hot Wholesale Inflation Print</h3>
-  <p class="article-summary">The S&P 500 rose 0.58% to 7,444.25 and the Nasdaq Composite gained 1.20% to 26,402.34, both reaching new all-time intraday and closing records on May 13, 2026, despite a hotter-than-expected April PPI report. WTI crude finished the day at approximately $102 per barrel, with high oil prices driven by continued Strait of Hormuz disruption contributing to elevated inflation. After the close, Cisco Systems surged 18% after posting Q3 results and guidance that beat expectations while announcing nearly 4,000 job cuts. April retail sales data and initial jobless claims are scheduled for release Thursday.</p>
-  <div>
-    <a href="https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>CNBC</span>
-    <span class="date">· May 13, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Wholesale Inflation Shoots to +6.0% Year-Over-Year in April 2026: PPI Report Details</h3>
-  <p class="article-summary">April's Producer Price Index rose a seasonally adjusted 1.4% month-over-month and 6% year-over-year — the largest annual gain since December 2022 — against a consensus forecast of just 0.5% for the month. Energy was the primary driver, with gasoline prices surging 15.6% on a monthly basis due to the Iran war and Strait of Hormuz closure. Services inflation accelerated 1.2%, the biggest monthly gain since March 2022, led by a 2.7% rise in trade services and a 3.5% jump in machinery and equipment wholesaling margins; truck transportation of freight costs also increased. The Fed has kept its benchmark rate in the 3.5%-3.75% range, with market pricing now showing about 39% odds of a rate hike in the next 12 months.</p>
-  <div>
-    <a href="https://www.cnbc.com/2026/05/13/ppi-inflation-report-april-2026-.html" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
   <h3 class="article-headline">Kevin Warsh Confirmed as Federal Reserve Chair, Succeeding Jerome Powell</h3>
   <p class="article-summary">The Senate confirmed Kevin Warsh as the next Federal Reserve Chair in a 54-45 vote on Wednesday, May 13, the most partisan confirmation vote in the Fed's modern era. Warsh, 56, succeeds Jerome Powell whose four-year term as chair expires Friday, May 15, though Powell will remain on the Fed's Board of Governors through 2028. Warsh takes office as April CPI hit 3.8% year-over-year — a near three-year high — and markets are pricing in a 97% chance the Fed holds rates unchanged at the June 16-17 FOMC meeting, his first as chair. Trump has publicly pressed for rate cuts, while inflation driven by the U.S.-Iran war's energy shock complicates any near-term easing.</p>
   <div>
     <a href="https://www.wsj.com/economy/central-banking/kevin-warsh-confirmed-federal-reserve-chair" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Kevin%20Warsh%20Confirmed%20as%20Federal%20Reserve%20Chair,%20Succeeding%20J&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AKevin Warsh Confirmed as Federal Reserve Chair, Succeeding Jerome Powell%0Ahttps://www.wsj.com/economy/central-banking/kevin-warsh-confirmed-federal-reserve-chair%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">April Producer Price Index Surges 1.4% Month-Over-Month, Biggest Jump Since March 2022</h3>
-  <p class="article-summary">U.S. producer prices rose 1.4% month-over-month in April 2026, the largest monthly increase since March 2022, far exceeding the 0.5% consensus forecast. Goods prices jumped 2.0%, led by a 15.6% surge in gasoline costs driven by the ongoing U.S.-Iran conflict disrupting Strait of Hormuz tanker traffic. Year-over-year, producer prices jumped 6.0%, the biggest annual increase since December 2022. Services prices also rose 1.2%, with truck transportation of freight and machinery and equipment wholesaling among the key contributors, signaling rising pipeline inflation for business costs.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-13/us-ppi-april-2026" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20April%20Producer%20Price%20Index%20Surges%201.4%%20Month-Over-Month,%20Big&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AApril Producer Price Index Surges 1.4% Month-Over-Month, Biggest Jump Since March 2022%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/us-ppi-april-2026%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 12, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Oil Holds Gain With Iran's Exports Strained as Conflict Drags On</h3>
-  <p class="article-summary">West Texas Intermediate crude traded near $102 per barrel and Brent closed above $107 after a 4% gain the prior session, as the U.S.-Iran conflict continued and Iranian oil exports showed further strain. Satellite images confirmed no ocean-going tankers at Iran's Kharg Island export hub for several days — the first sign of an extended halt since the 10-week war began. Saudi Aramco CEO Amin Nasser warned the market is losing approximately 100 million barrels of supply per week, and said prolonged disruptions could delay market normalization until next year. President Trump was expected to press China's President Xi on Iran during their Beijing summit.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Oil%20Holds%20Gain%20With%20Iran's%20Exports%20Strained%20as%20Conflict%20Drag&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AOil Holds Gain With Iran's Exports Strained as Conflict Drags On%0Ahttps://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>BLS / Bloomberg</span>
-    <span class="date">· May 12, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">U.S. CPI Accelerates to 3.8% in April — Fastest Since 2023 — Driven by Energy and Services</h3>
-  <p class="article-summary">The Bureau of Labor Statistics released April 2026 CPI data showing headline inflation of 3.8% year-over-year — the fastest pace since 2023 — with a 0.6% month-over-month gain. Core CPI rose 0.4% for the month and 2.8% year-over-year, exceeding the 0.3% consensus estimate. Higher gasoline prices tied to Middle East conflict accounted for roughly one-third of the monthly headline increase. Services inflation rose 0.6% month-over-month, and food prices rose 0.5%, reflecting diesel-driven cost pass-through in the food distribution sector. The data fueled market bets on potential Federal Reserve rate hikes in 2027.</p>
-  <div>
-    <a href="https://www.bls.gov/news.release/pdf/cpi.pdf" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 12, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">April CPI Rises 3.8% Year-Over-Year, Energy and Shelter Drive Monthly Gain</h3>
-  <p class="article-summary">The Consumer Price Index for All Urban Consumers increased 0.6% on a seasonally adjusted basis in April 2026, following a 0.9% rise in March, according to the Bureau of Labor Statistics. Over the last 12 months, the all-items index rose 3.8%, the highest rate in nearly three years. Energy prices rose 3.8% in April, accounting for over 40% of the monthly increase, while shelter rose 0.6% and food at home rose 0.7%. Core CPI, excluding food and energy, rose 0.4% for the month and 2.8% year-over-year. The hotter-than-expected print sent Treasury yields sharply higher and wiped out most market expectations for a 2026 rate cut.</p>
-  <div>
-    <a href="https://www.wsj.com/economy/inflation/april-cpi-2026" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20April%20CPI%20Rises%203.8%%20Year-Over-Year,%20Energy%20and%20Shelter%20Driv&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AApril CPI Rises 3.8% Year-Over-Year, Energy and Shelter Drive Monthly Gain%0Ahttps://www.wsj.com/economy/inflation/april-cpi-2026%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
@@ -826,6 +661,234 @@
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
   <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">US Industrial Production Rises by Most in Over a Year</h3>
+  <p class="article-summary">U.S. industrial production posted its largest gain in over a year, according to Federal Reserve data released May 15. The report covers output at factories, mines, and utilities, following a March decline of 0.5% attributed to the Iran war's impact on factory and utility output. The data was featured as a top headline on Bloomberg's homepage on May 15, 2026, alongside reporting on the Xi-Trump summit framework.</p>
+  <div>
+    <a href="https://www.bloomberg.com/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Industrial%20Production%20Rises%20by%20Most%20in%20Over%20a%20Year&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Industrial Production Rises by Most in Over a Year%0Ahttps://www.bloomberg.com/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Oil Headed for Weekly Gain as Strait of Hormuz Remains Effectively Closed</h3>
+  <p class="article-summary">Oil prices were on track for a weekly gain as the Strait of Hormuz remained effectively closed amid the ongoing Iran war, with efforts to end the conflict still in limbo. The closure has upended global energy markets, with both Trump and Xi agreeing at their Beijing summit that the Strait must remain open to support the free flow of energy. The sustained disruption has contributed to elevated energy prices that are feeding into already-sticky inflation.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-14/latest-oil-market-news-and-analysis-for-may-15" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Oil%20Headed%20for%20Weekly%20Gain%20as%20Strait%20of%20Hormuz%20Remains%20Effec&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AOil Headed for Weekly Gain as Strait of Hormuz Remains Effectively Closed%0Ahttps://www.bloomberg.com/news/articles/2026-05-14/latest-oil-market-news-and-analysis-for-may-15%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Global Bond Selloff Worsens as Rising Oil Prices Spook Investors</h3>
+  <p class="article-summary">Global government bond markets fell sharply on May 15, with US 10-year Treasury yields rising 12 basis points to 4.6% and 30-year yields approaching 5.12%—the highest since 2007—as Brent crude climbed past $107 per barrel amid an unresolved Strait of Hormuz standoff following the Iran war. The selloff was compounded by back-to-back US government reports showing consumer and wholesale prices accelerating at the fastest pace since 2022, with traders now pricing a near two-thirds probability of a Fed rate hike in December. Incoming Fed Chair Kevin Warsh, narrowly confirmed by the Senate this week, faces the selloff as his first major test. The S&P 500 fell more than 1% on Friday, pulling back from a recent rally, while gas prices nationally held above $4.50 per gallon—up 51% since the Iran war began.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Global%20Bond%20Selloff%20Worsens%20as%20Rising%20Oil%20Prices%20Spook%20Inves&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AGlobal Bond Selloff Worsens as Rising Oil Prices Spook Investors%0Ahttps://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">US Shopping Data Is Good, But Something Worrisome Is Lurking</h3>
+  <p class="article-summary">Bloomberg's Retail Monitor reported that US retail sales data this week showed surface-level strength in consumer spending, but that rising oil prices above $105 per barrel and surging bond yields are creating a worrisome undercurrent for forward consumer demand. Producer price data released this week showed costs accelerating at the fastest pace since 2022, signaling potential margin compression for retailers and goods distributors. The inflation pressures stem from the combined effect of the Strait of Hormuz closure and ongoing tariff-related cost pass-through still working through supply chains. Analysts noted the combination of high gas prices—nationally averaging $4.50 per gallon—and tightening financial conditions presents a risk to the consumer spending outlook in the coming months.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/newsletters/2026-05-15/us-shopping-data-retail-monitor" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Shopping%20Data%20Is%20Good,%20But%20Something%20Worrisome%20Is%20Lurking&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Shopping Data Is Good, But Something Worrisome Is Lurking%0Ahttps://www.bloomberg.com/news/newsletters/2026-05-15/us-shopping-data-retail-monitor%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">April Retail Sales Data Released; Census Bureau Report Scheduled for May 14</h3>
+  <p class="article-summary">The U.S. Census Bureau released the April 2026 Advance Monthly Retail Sales report on May 14, 2026 at 8:30 a.m. EDT. Ahead of the official data, the CNBC/NRF Retail Monitor showed total retail sales excluding autos and gasoline rose 0.34% month-over-month and 5.73% year-over-year in April. NRF President and CEO Matthew Shay stated that consumers continued spending despite higher gas prices from the Iran conflict, cautious sentiment, and persistent inflation concerns. Sales growth was led by clothing, sporting goods, and health and personal care stores. March retail sales had come in at $752.1 billion, up 1.7% from the prior month and 4.0% year-over-year.</p>
+  <div>
+    <a href="https://www.census.gov/retail/sales.html" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20April%20Retail%20Sales%20Data%20Released;%20Census%20Bureau%20Report%20Sched&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AApril Retail Sales Data Released; Census Bureau Report Scheduled for May 14%0Ahttps://www.census.gov/retail/sales.html%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">US Retail Sales Rise for Third Month Despite Gas Price Surge</h3>
+  <p class="article-summary">U.S. retail sales advanced for a third consecutive month in April, gaining 0.5% from March and rising 4.9% year-over-year, according to the Census Bureau. The increase occurred despite a 3.8% annualized rise in the Consumer Price Index and diminished consumer confidence amid war-driven energy cost surges. Nine of 13 retail categories posted gains, while furniture stores (-2%), department stores (-3.2%), car dealerships (-0.5%), and clothing shops (-1.5%) all declined. Unemployment held steady at 4.3% with employers adding 115,000 jobs in April, supporting continued consumer spending.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-14/us-retail-sales-moderated-in-april-as-gas-surge-crimped-budgets" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Retail%20Sales%20Rise%20for%20Third%20Month%20Despite%20Gas%20Price%20Surge&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Retail Sales Rise for Third Month Despite Gas Price Surge%0Ahttps://www.bloomberg.com/news/articles/2026-05-14/us-retail-sales-moderated-in-april-as-gas-surge-crimped-budgets%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 14, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Treasury Yields Little Changed as April Import and Export Prices Soar Above Wall Street Expectations</h3>
+  <p class="article-summary">April import prices jumped 1.9% month-over-month — a full percentage point above March's move and well above the 0.9% consensus — pushing the 12-month rate to 4.2%, the most since October 2022. Fuels and lubricants surged 16.3% while petroleum products rose 19%, driven by the Iran war's impact on energy supply. The producer price index rose 1.4% in April, the biggest monthly increase since March 2022, with the annual rate reaching 6%. Core CPI came in at 2.8% annually, keeping the Fed on hold as newly confirmed Chair Kevin Warsh faces mounting inflation pressure from both the Iran conflict and tariffs.</p>
+  <div>
+    <a href="https://www.cnbc.com/2026/05/14/treasury-yields-energy-inflation-fed.html" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">The Energy Crisis Is Becoming a Currency Crisis in Asia's Emerging Markets</h3>
+  <p class="article-summary">Bloomberg Opinion reports that the Iran conflict-driven energy price shock is spreading into a currency crisis across Asian emerging markets, with major energy importers including the Philippine peso, South Korean won, Thai baht, and Egyptian pound among the worst-performing currencies since the start of the U.S.-Israel conflict with Iran. The supply-side energy shock has spread into food systems, financial markets, and regional economies, raising concerns about stagflation. India has asked the U.S. to extend its waiver on Russian oil cargo sales beyond the May 16 expiry date. The disruption is affecting global shipping routes, container costs, and supply chain reliability.</p>
+  <div>
+    <a href="https://www.bloomberg.com/opinion/articles/2026-05-14/the-energy-crisis-is-becoming-a-currency-crisis-in-asia-s-emerging-markets" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20The%20Energy%20Crisis%20Is%20Becoming%20a%20Currency%20Crisis%20in%20Asia's%20Em&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AThe Energy Crisis Is Becoming a Currency Crisis in Asia's Emerging Markets%0Ahttps://www.bloomberg.com/opinion/articles/2026-05-14/the-energy-crisis-is-becoming-a-currency-crisis-in-asia-s-emerging-markets%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">US Producer Prices Rise Most Since 2022 on Energy Costs</h3>
+  <p class="article-summary">The U.S. Producer Price Index rose 6% year-over-year in April 2026, the largest annual increase since December 2022, topping all estimates in a Bloomberg survey of economists. On a monthly basis, the PPI surged 1.4%, the largest gain since March 2022, driven primarily by a 15.6% surge in gasoline prices tied to the Iran war. Goods prices jumped 2% and services prices rose 1.2%, with truck transportation of freight and machinery and equipment wholesaling among the notable service-side increases. The April increase is nearly triple the 0.5% consensus forecast from economists.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-13/us-producer-prices-rise-most-since-2022-on-higher-energy-costs" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Producer%20Prices%20Rise%20Most%20Since%202022%20on%20Energy%20Costs&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Producer Prices Rise Most Since 2022 on Energy Costs%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/us-producer-prices-rise-most-since-2022-on-higher-energy-costs%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Oil Holds Gain With Iran's Exports Strained as Conflict Drags On</h3>
+  <p class="article-summary">West Texas Intermediate crude traded near $102 per barrel and Brent closed above $107 after a 4% gain the prior session, as the U.S.-Iran conflict continued and Iranian oil exports showed further strain. Satellite images confirmed no ocean-going tankers at Iran's Kharg Island export hub for several days — the first sign of an extended halt since the 10-week war began. Saudi Aramco CEO Amin Nasser warned the market is losing approximately 100 million barrels of supply per week, and said prolonged disruptions could delay market normalization until next year. President Trump was expected to press China's President Xi on Iran during their Beijing summit.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Oil%20Holds%20Gain%20With%20Iran's%20Exports%20Strained%20as%20Conflict%20Drag&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AOil Holds Gain With Iran's Exports Strained as Conflict Drags On%0Ahttps://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">April CPI Rises 3.8% Year-Over-Year, Energy and Shelter Drive Monthly Gain</h3>
+  <p class="article-summary">The Consumer Price Index for All Urban Consumers increased 0.6% on a seasonally adjusted basis in April 2026, following a 0.9% rise in March, according to the Bureau of Labor Statistics. Over the last 12 months, the all-items index rose 3.8%, the highest rate in nearly three years. Energy prices rose 3.8% in April, accounting for over 40% of the monthly increase, while shelter rose 0.6% and food at home rose 0.7%. Core CPI, excluding food and energy, rose 0.4% for the month and 2.8% year-over-year. The hotter-than-expected print sent Treasury yields sharply higher and wiped out most market expectations for a 2026 rate cut.</p>
+  <div>
+    <a href="https://www.wsj.com/economy/inflation/april-cpi-2026" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20April%20CPI%20Rises%203.8%%20Year-Over-Year,%20Energy%20and%20Shelter%20Driv&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AApril CPI Rises 3.8% Year-Over-Year, Energy and Shelter Drive Monthly Gain%0Ahttps://www.wsj.com/economy/inflation/april-cpi-2026%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>CNBC/TheStreet</span>
+    <span class="date">· May 13, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Stock Market Today: Nasdaq, S&P 500 Rise to New Records as Tech Leads Despite Hot Wholesale Inflation Print</h3>
+  <p class="article-summary">The S&P 500 rose 0.58% to 7,444.25 and the Nasdaq Composite gained 1.20% to 26,402.34, both reaching new all-time intraday and closing records on May 13, 2026, despite a hotter-than-expected April PPI report. WTI crude finished the day at approximately $102 per barrel, with high oil prices driven by continued Strait of Hormuz disruption contributing to elevated inflation. After the close, Cisco Systems surged 18% after posting Q3 results and guidance that beat expectations while announcing nearly 4,000 job cuts. April retail sales data and initial jobless claims are scheduled for release Thursday.</p>
+  <div>
+    <a href="https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Construction Material Costs Rose 6.2% Through April, Pressuring CRE Projects</h3>
+  <p class="article-summary">Construction material costs rose 6.2% through April 2026, with energy, steel, and lumber prices climbing and pressuring commercial real estate development projects across the country. As of April 2026, steel, aluminum, and copper items carry a 50% tariff, with derivatives at 25% and industrial/electrical equipment incorporating those materials facing a 15% tariff. Associated Builders and Contractors data shows nonresidential construction input prices surged at a 12.6% annualized rate during the first two months of 2026, the fastest pace since the supply chain disruptions of early 2022. The industry needs approximately 349,000 net new workers in 2026 beyond normal hiring levels to maintain supply-demand equilibrium, with the shortage described as structural rather than cyclical.</p>
+  <div>
+    <a href="https://www.credaily.com/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Construction%20Material%20Costs%20Rose%206.2%%20Through%20April,%20Pressur&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AConstruction Material Costs Rose 6.2% Through April, Pressuring CRE Projects%0Ahttps://www.credaily.com/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>CNBC</span>
+    <span class="date">· May 15, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Traders Now See Next Fed Interest Rate Move as a Hike Following Inflation Surge</h3>
+  <p class="article-summary">Following a week of hotter-than-expected inflation readings, fed funds futures traders are now pricing in a Federal Reserve interest rate hike as soon as December 2026, the first time in the current cycle markets have priced in a hike rather than a cut. A December hike carries a nearly 51% probability, January a 60% probability, and March better than 71%, per CME Group's FedWatch tool. The Survey of Professional Forecasters released Friday projects Q2 consumer price inflation to hit 6%, a dramatic revision from the prior 2.7% estimate, driven largely by energy prices tied to the Iran conflict and the Strait of Hormuz. Incoming Fed Chair Kevin Warsh, confirmed by the Senate Wednesday, inherits an increasingly complicated inflation picture as GDP growth is simultaneously revised down to 2.2% for the full year.</p>
+  <div>
+    <a href="https://www.cnbc.com/amp/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>CNBC</span>
+    <span class="date">· May 15, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Treasury Yields Surge as Inflation Data Points to Tricky Rates Path for New Fed Chair Warsh</h3>
+  <p class="article-summary">U.S. Treasury yields spiked Friday following a week of elevated inflation data, with the 10-year note surging nearly 14 basis points to 4.595% and the 30-year bond jumping to just over 5.1%, its highest level since May 2025. The 2-year yield rose close to 9 basis points to 4.079%. Import prices rose 1.9% in April and 4.2% on a 12-month basis — the largest annual gain since October 2022 — while export prices surged 8.8%, the highest since September 2022, as Middle East conflict keeps energy prices elevated. West Texas Intermediate crude rose to $104.39 per barrel, up $3.22, after the Trump-Xi summit concluded with little to show on energy diplomacy.</p>
+  <div>
+    <a href="https://www.cnbc.com/2026/05/15/treasury-yields-surge-as-inflation-data-points-to-tricky-rates-path.html" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>CNBC</span>
+    <span class="date">· May 15, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Bonds, Stocks and Precious Metals Slump as Inflation Fears Mount, Silver Falls 7%</h3>
+  <p class="article-summary">Global government bonds, precious metals, and international stocks sold off Friday as inflation fears intensified and President Trump concluded a three-day visit to China with no meaningful agreement on energy or trade. The U.S. 10-year Treasury yield hit its highest level in nearly a year at 4.544%, while money markets priced in a near-zero chance of any Fed rate cuts this year and a 50% chance of a December hike, per CME FedWatch. Silver fell 7% on the session. The combination of Iran war energy shocks, ongoing tariff uncertainty, and political upheaval in the U.K. weighed on cross-asset sentiment globally.</p>
+  <div>
+    <a href="https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>Bloomberg / U.S. Census Bureau</span>
+    <span class="date">· May 14, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">U.S. Retail Sales Rise in April Despite Inflation and Higher Energy Costs</h3>
+  <p class="article-summary">The U.S. Census Bureau's Advance Monthly Retail Trade Survey for April 2026 showed retail and food services sales of $757.1 billion, up 0.5% from March and up 4.9% from April 2025. Retail trade sales were up 5.2% year-over-year, and nonstore retailers—the e-commerce proxy—rose 11.1% from a year ago. Total sales for the February–April 2026 period were up 4.4% from the same period a year ago, while food services and drinking places were up 2.7% from April 2025.</p>
+  <div>
+    <a href="https://www.census.gov/retail/marts/www/marts_current.pdf" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>International Energy Agency</span>
+    <span class="date">· May 13, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">IEA Oil Market Report — May 2026: Record Supply Losses as Hormuz Disruption Deepens</h3>
+  <p class="article-summary">The International Energy Agency's May 2026 Oil Market Report warns that more than ten weeks after the Iran war began, Strait of Hormuz supply losses are depleting global oil inventories at a record pace. Cumulative supply losses from Gulf producers already exceed 1 billion barrels, with more than 14 million barrels per day shut in — described by the IEA as the largest supply disruption in the history of the global oil market. Global oil supply declined a further 1.8 mb/d in April to 95.1 mb/d, with WTI crude trading around $102-$110 per barrel. The IEA assumes Hormuz flows could gradually resume from Q3 2026, but warns of further price volatility ahead of the peak summer demand period.</p>
+  <div>
+    <a href="https://www.iea.org/reports/oil-market-report-may-2026" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>CNBC</span>
+    <span class="date">· May 13, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Wholesale Inflation Shoots to +6.0% Year-Over-Year in April 2026: PPI Report Details</h3>
+  <p class="article-summary">April's Producer Price Index rose a seasonally adjusted 1.4% month-over-month and 6% year-over-year — the largest annual gain since December 2022 — against a consensus forecast of just 0.5% for the month. Energy was the primary driver, with gasoline prices surging 15.6% on a monthly basis due to the Iran war and Strait of Hormuz closure. Services inflation accelerated 1.2%, the biggest monthly gain since March 2022, led by a 2.7% rise in trade services and a 3.5% jump in machinery and equipment wholesaling margins; truck transportation of freight costs also increased. The Fed has kept its benchmark rate in the 3.5%-3.75% range, with market pricing now showing about 39% odds of a rate hike in the next 12 months.</p>
+  <div>
+    <a href="https://www.cnbc.com/2026/05/13/ppi-inflation-report-april-2026-.html" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
     <span>Bloomberg / Federal Reserve</span>
     <span class="date">· April 29, 2026</span>
     
@@ -836,7 +899,43 @@
     <a href="https://tradingeconomics.com/united-states/interest-rate" target="_blank" class="article-read">Read full story</a>
   </div>
 </div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>GlobeSt</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
   </div>
+  <h3 class="article-headline">Large Banks Ease CRE Lending Standards While Construction Lending Weakens Amid Higher Costs</h3>
+  <p class="article-summary">GlobeSt reported that large banks have begun easing lending standards for commercial real estate borrowers, according to recent survey data, while construction lending has simultaneously weakened amid persistently higher construction costs. The divergence reflects improving liquidity conditions for stabilized assets but ongoing hesitancy to finance new development. The trend is consistent with CoStar data showing the national industrial vacancy rate remaining in the mid-7% range entering Q2 2026, with vacancy projected to edge higher into 2027 before beginning a gradual descent.</p>
+  <div>
+    <a href="https://www.globest.com/2026/05/14/large-banks-ease-standards-construction-lending-weakens/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Large%20Banks%20Ease%20CRE%20Lending%20Standards%20While%20Construction%20Le&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ALarge Banks Ease CRE Lending Standards While Construction Lending Weakens Amid Higher Costs%0Ahttps://www.globest.com/2026/05/14/large-banks-ease-standards-construction-lending-weakens/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>GlobeSt</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">GlobeSt: Large Banks Ease Lending Standards While Construction Lending Weakens Amid Higher Costs</h3>
+  <p class="article-summary">Large banks are easing credit standards for commercial real estate borrowers, according to the Fed's latest Senior Loan Officer Opinion Survey, while construction lending continues to weaken amid higher building material costs. The divergence reflects institutional CRE borrowers regaining access to capital for stabilized assets while development financing remains constrained. The trend aligns with a broader CRE market where top-performing assets can attract refinancing but speculative development faces continued headwinds.</p>
+  <div>
+    <a href="https://www.globest.com/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20GlobeSt:%20Large%20Banks%20Ease%20Lending%20Standards%20While%20Constructi&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AGlobeSt: Large Banks Ease Lending Standards While Construction Lending Weakens Amid Higher Costs%0Ahttps://www.globest.com/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  <div class="article-meta">
+    <span>BLS / Bloomberg</span>
+    <span class="date">· May 12, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">U.S. CPI Accelerates to 3.8% in April — Fastest Since 2023 — Driven by Energy and Services</h3>
+  <p class="article-summary">The Bureau of Labor Statistics released April 2026 CPI data showing headline inflation of 3.8% year-over-year — the fastest pace since 2023 — with a 0.6% month-over-month gain. Core CPI rose 0.4% for the month and 2.8% year-over-year, exceeding the 0.3% consensus estimate. Higher gasoline prices tied to Middle East conflict accounted for roughly one-third of the monthly headline increase. Services inflation rose 0.6% month-over-month, and food prices rose 0.5%, reflecting diesel-driven cost pass-through in the food distribution sector. The data fueled market bets on potential Federal Reserve rate hikes in 2027.</p>
+  <div>
+    <a href="https://www.bls.gov/news.release/pdf/cpi.pdf" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+</div>
 
 </main>
 
