@@ -1,787 +1,765 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Industries | SoCal Industrial Journal</title>
-    <meta http-equiv="refresh" content="7200">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Industries | SoCal Industrial Journal</title>
+  <meta http-equiv="refresh" content="7200">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+        :root {
+            --cream: #FAF7F2;
+            --parchment: #F0EBE1;
+            --ink: #1C1917;
+            --ink-light: #44403C;
+            --rule: #D6CFC4;
+            --accent: #B5451B;
+            --accent-warm: #C9622F;
+            --muted: #78716C;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
         body {
-            font-family: Georgia, serif;
-            background: #fafafa;
-            color: #000;
+            font-family: 'Jost', sans-serif;
+            background: var(--cream);
+            color: var(--ink);
             line-height: 1.6;
-            padding-top: 160px;
+            -webkit-font-smoothing: antialiased;
         }
-        @media (max-width: 768px) {
-            body { padding-top: 180px; }
+
+        /* ── Header ── */
+        .site-header {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            background: var(--ink);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 0 2px 20px rgba(28,25,23,0.25);
         }
-    </style>
+        .header-inner {
+            text-align: center;
+            padding: 1.25rem 2rem 0.75rem;
+            border-bottom: 1px solid rgba(255,255,255,0.07);
+        }
+        .masthead {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 2.1rem;
+            font-weight: 300;
+            letter-spacing: 0.06em;
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+        .masthead-sub {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 400;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.4);
+        }
+        .site-nav {
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            background: var(--ink);
+            padding: 0 2rem;
+            overflow-x: auto;
+        }
+        .site-nav a {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 500;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.45);
+            text-decoration: none;
+            padding: 0.65rem 1rem;
+            border-bottom: 2px solid transparent;
+            transition: color 0.2s, border-color 0.2s;
+            white-space: nowrap;
+        }
+        .site-nav a:hover { color: rgba(255,255,255,0.85); }
+        .site-nav a.active {
+            color: #fff;
+            border-bottom-color: var(--accent);
+        }
+
+        /* ── Bottom Line banner ── */
+        .bottom-line {
+            background: var(--ink);
+            border-left: 3px solid var(--accent);
+            padding: 1.75rem 2.25rem;
+            margin-bottom: 2.5rem;
+        }
+        .bottom-line-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.6rem;
+        }
+        .bottom-line-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.6;
+            color: rgba(255,255,255,0.92);
+        }
+
+        /* ── Front Page category cards ── */
+        .fp-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .fp-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.18s ease, box-shadow 0.18s ease;
+        }
+        .fp-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(28,25,23,0.1);
+        }
+        .fp-card-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .fp-card-count {
+            background: var(--cat-color, var(--accent));
+            color: #fff;
+            font-size: 0.55rem;
+            padding: 0.1rem 0.4rem;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+        .fp-card-summary {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: var(--ink-light);
+            flex: 1;
+            margin-bottom: 1.25rem;
+        }
+        .fp-card-cta {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+        }
+
+        /* ── Article grid (category pages) ── */
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .article-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .article-meta {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            margin-bottom: 0.65rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+        .article-meta .date {
+            color: var(--muted);
+            font-weight: 400;
+        }
+        .article-headline {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.05rem;
+            font-weight: 400;
+            line-height: 1.35;
+            color: var(--ink);
+            margin-bottom: 0.85rem;
+        }
+        .article-summary {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 300;
+            line-height: 1.7;
+            color: var(--ink-light);
+            flex: 1;
+            margin-bottom: 1.1rem;
+        }
+        .article-read {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink);
+            text-decoration: none;
+            border-bottom: 1px solid var(--rule);
+            padding-bottom: 1px;
+            display: inline-block;
+            transition: border-color 0.15s;
+        }
+        .article-read:hover { border-color: var(--ink); }
+
+        /* ── Page header (category pages) ── */
+        .page-header {
+            border-bottom: 1px solid var(--rule);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+        .back-link {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        .back-link:hover { color: var(--accent); }
+        .page-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 2.75rem;
+            font-weight: 300;
+            letter-spacing: 0.02em;
+            color: var(--ink);
+            margin-bottom: 0.35rem;
+        }
+        .page-count {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.7rem;
+            color: var(--muted);
+            letter-spacing: 0.05em;
+        }
+
+        /* ── Footer ── */
+        .site-footer {
+            background: var(--ink);
+            color: rgba(255,255,255,0.35);
+            padding: 2rem;
+            text-align: center;
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            letter-spacing: 0.08em;
+            margin-top: 4rem;
+            border-top: 3px solid var(--accent);
+        }
+        .site-footer .footer-name {
+            color: rgba(255,255,255,0.6);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            font-size: 0.7rem;
+        }
+        .site-footer .footer-sources { margin-bottom: 0.5rem; }
+
+        /* ── Divider ── */
+        .ruled { border: none; border-top: 1px solid var(--rule); margin: 2rem 0; }
+
+        /* ── Status badge ── */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            background: #EEFAF2;
+            color: #2D6A4F;
+            font-family: 'Jost', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 500;
+            letter-spacing: 0.06em;
+            padding: 0.25rem 0.65rem;
+            border-radius: 2px;
+        }
+        .status-dot {
+            width: 5px; height: 5px;
+            background: #2D6A4F;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        /* ── Paywall badge ── */
+        .paywall-badge {
+            font-size: 0.55rem;
+            color: var(--muted);
+            border: 1px solid var(--rule);
+            padding: 0.1rem 0.35rem;
+            border-radius: 2px;
+        }
+
+        /* ── Empty state ── */
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 3rem;
+            background: var(--parchment);
+            border: 1px solid var(--rule);
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.1rem;
+            color: var(--muted);
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 900px) {
+            .fp-grid, .article-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .fp-grid, .article-grid { grid-template-columns: 1fr; }
+            .masthead { font-size: 1.5rem; }
+            body { padding-top: 170px !important; }
+        }
+
+    body { padding-top: 120px; }
+    @media (max-width: 600px) { body { padding-top: 140px; } }
+  </style>
 </head>
 <body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="masthead">SoCal Industrial Journal</a>
+    <div class="masthead-sub">Friday, May 15, 2026 &nbsp;·&nbsp; Rolling 72-Hour Brief</div>
+  </div>
+  <nav class="site-nav">
+    <a href="index.html" class="site-nav-link" style="">Front Page</a>
+    <a href="economics.html" style="" class="site-nav-link">Economics</a><a href="industries.html" style="color:#fff; border-bottom-color:var(--accent);" class="site-nav-link">Industries</a><a href="business.html" style="" class="site-nav-link">Business</a><a href="tech.html" style="" class="site-nav-link">Tech</a><a href="politics.html" style="" class="site-nav-link">Politics</a><a href="supply-chain.html" style="" class="site-nav-link">Supply</a><a href="local-deals.html" style="" class="site-nav-link">Local</a>
+  </nav>
+</header>
 
-  <div style="position: fixed; top: 0; left: 0; right: 0; background: #000; color: #fff; z-index: 1000; border-bottom: 3px solid #c8102e; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <div style="text-align: center; padding: 1.5rem 2rem 1rem;">
-      <a href="index.html" style="text-decoration: none; color: inherit;">
-        <div style="font-family: 'Playfair Display', Georgia, serif; font-size: 2rem; font-weight: 400; letter-spacing: -0.02em; margin-bottom: 0.5rem;">SoCal Industrial Journal</div>
-      </a>
-      <div style="font-size: 0.7rem; color: #999; letter-spacing: 0.15em; text-transform: uppercase;">Friday, May 15, 2026 • Rolling 72-Hour Brief</div>
-    </div>
+<main style="max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem;">
+
+  <div class="page-header">
+    <a href="index.html" class="back-link">← Front Page</a>
+    <h1 class="page-title">◉ Industries</h1>
+    <p class="page-count">32 stories from the past 72 hours</p>
+  </div>
+
+  <div class="article-grid">
+    <div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 15, 2026</span>
     
-    <div style="background: #fff; border-top: 1px solid #333; padding: 0.75rem 2rem; display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-      <a href="index.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Front Page</a>
-      <a href="economics.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Economics</a>
-        <a href="industries.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Industries</a>
-        <a href="business.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Business</a>
-        <a href="tech.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Tech</a>
-        <a href="politics.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Politics</a>
-        <a href="supply-chain.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Supply Chain</a>
-        <a href="local-deals.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Local Deals</a>
-    </div>
   </div>
-
-<div style="max-width: 900px; margin: 0 auto; padding: 2rem;">
-  
-  <div style="margin-bottom: 3rem;">
-    <a href="index.html" style="font-family: -apple-system, sans-serif; font-size: 0.8rem; color: #1976d2; text-decoration: none; margin-bottom: 1rem; display: inline-block;">← Back to Front Page</a>
-    <h1 style="font-family: 'Playfair Display', Georgia, serif; font-size: 2.5rem; font-weight: 400; color: #000; margin-bottom: 0.5rem;">🏭 Industries</h1>
-    <p style="font-size: 0.95rem; color: #666;">38 stories</p>
+  <h3 class="article-headline">New York People and Company News, Week of May 15, 2026</h3>
+  <p class="article-summary">Latham & Watkins LLP announced that Marco Caffuzzi has joined its New York office as a partner in the Real Estate Practice, bringing extensive experience in real estate financings, restructurings, joint ventures, and large-scale development transactions; he joins from Skadden, Arps. Avison Young made five strategic hires in New York City, including Christian Stanton and Libby Hodes focused on retail, two executive directors for office tenant representation, and a director on the Tri-State Investment Sales team. CRH, a leading building materials provider, appointed Aylwyn Bryan as CFO.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/new-york-people-and-company-news-week-of-may-15-2026/" target="_blank" class="article-read">Read full story</a>
   </div>
-
-  
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 15, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">New York People and Company News, Week of May 15, 2026</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Latham & Watkins LLP announced that Marco Caffuzzi has joined its New York office as a partner in the Real Estate Practice, bringing extensive experience in real estate financings, restructurings, joint ventures, and large-scale development transactions; he joins from Skadden, Arps. Avison Young made five strategic hires in New York City, including Christian Stanton and Libby Hodes focused on retail, two executive directors for office tenant representation, and a director on the Tri-State Investment Sales team. CRH, a leading building materials provider, appointed Aylwyn Bryan as CFO.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/new-york-people-and-company-news-week-of-may-15-2026/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 15, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Texas People & Companies, May 15, 2026</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Stream Realty Partners broke ground on Northfield Logistics Center, a Class A industrial development at 4330 Northfield Lane in Houston's infill Northwest submarket. The project will deliver more than 300,000 square feet of Class A distribution space. Rosenberger Construction is serving as the general contractor and Seeberger Architecture is the project architect. No tenant has been announced for the project.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/texas-people-companies-may-15-2026/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 15, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">CBRE Arranges $30.9 Million Sale of Treasure Coast Commerce Center Portfolio in Stuart, Florida</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        CBRE arranged the $30.9 million sale of the Treasure Coast Commerce Center Portfolio, a seven-building, multitenant industrial portfolio totaling 153,198 square feet in Stuart, Florida. CBRE represented both the seller, Ted Glasrud Associates, Inc., and the buyer, NorthBridge Partners, in the transaction. No lease terms or vacancy details for the portfolio were disclosed. The deal reflects continued investor demand for multitenant industrial product in secondary Florida markets.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/florida-people-companies-may-15-2026/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 15, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Westmount Hires Industrial Veteran; SRS Expands National Retail Team; CenterSquare Adds AI Director</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Westmount Realty Capital appointed Mike Demperio as director of development in Atlanta, bringing over five decades of industrial real estate experience and more than 100 million square feet of industrial projects across the country valued at over $4 billion. Demperio previously served as EVP at CRG and held roles at CBRE where he launched the firm's Global Logistics practice. SRS Real Estate Partners added Neill Kelly and Benjamin Gould to its national retail team to bolster restructuring and dispositions capability. CenterSquare Investment Management also appointed Doug Carpenter as its new director and head of data strategy and artificial intelligence.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.costar.com/article/924503917/westmount-hires-industrial-veteran-srs-expands-national-retail-team-centersquare-adds-ai-director" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 14, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">CoStar World News for May 14: Blackstone French Industrial Deal, Data Center Capital Crunch</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        CoStar's daily global news roundup for May 14, 2026 highlighted Blackstone's previously announced €2.3 billion acquisition of Proudreed's French industrial portfolio of more than 500 sites and 2.2 million square meters, with Blackstone planning to accelerate development to reach 115,000–120,000 square meters of new properties annually. The roundup also flagged a growing capital crunch in data center development, with industry estimates pegging total capital needs at as much as $1 trillion over the next five years as construction costs for AI and cloud facilities surge. Additional items covered UK commercial real estate new lending rising 29% in 2025 to a decade high, and German real estate prices increasing 2.2% annually in Q1 2026.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.costar.com/article/2032561379/costar-world-news-for-may-14" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 14, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Webinar: Distress Cycle Evolves as $520B of Maturities Looms</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        With roughly $52 billion of maturing commercial real estate debt considered at-risk out of $520 billion coming due in 2026, industry leaders reported that CRE distress is expanding beyond the office sector. Andrew Hundertmark, Vice Chairman at Argentic Services, told the Connect CRE webinar that office distress has decreased while more multifamily and hospitality distress is arriving. LNR Partners' Randall Rosen said major metro office markets — with Chicago cited specifically — continue to struggle significantly. The panel discussed evolving strategies for lenders and special servicers navigating the active distress environment.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/webinar-distress-cycle-evolves-as-520b-of-maturities-looms/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 14, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Return to Lender: Week of May 14, 2026</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Connect CRE's weekly CMBS distress tracker reports multiple loans entering special servicing, including the $64.5 million Summit Place Wisconsin loan (CD 2016-CD3 & JPMDB 2017-C5) after the borrower indicated it would no longer fund operating shortfalls. A prominent Houston Galleria-area office tower at 3000 Post Oak Blvd faces foreclosure after its $80 million loan matured vacant. The Decoration & Design Building in New York moved to special servicing upon hitting its May 2026 maturity date on a CGCMT-securitized loan. The Seattle Bravern office complex — formerly leased to Microsoft — had a court-approved sale overseen by Eastdil Secured following a $304 million mortgage default.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/return-to-lender-week-of-may-14-2026/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">BisNow</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 14, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Blackstone's Data Center REIT Hits Its $1.75B Initial Target In Debut</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Blackstone Digital Infrastructure Trust raised $1.75 billion in its NYSE debut on May 14, selling 87.5 million shares at $20 per share, with underwriters holding a 30-day option to lift total proceeds to $2 billion. The REIT is a 'blind pool' with no assets yet identified, targeting acquisition of newly built data centers occupied by hyperscalers valued between $250 million and $1.5 billion. Blackstone has identified approximately $25 billion in potential near-term data center purchases in Northern Virginia, Ohio, Phoenix, Maryland, and Austin.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bisnow.com/national/news/data-center/blackstones-data-center-reit-raises-175b-in-debut-as-share-prices-fall-134583" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">GlobeSt</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 14, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Small Bay Now Dominates Industrial and It Will Stay That Way</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        GlobeSt published an analysis on May 14, 2026 examining how small-bay industrial product has become the dominant force in the industrial market. HALO businesses and the evolution of the broader economy were cited as major demand drivers behind the shift. Small-bay and micro-warehouse assets in last-mile and infill locations continue to post vacancy rates below 5%, making them among the most competitive subsectors in the market. The analysis concludes that the structural demand for small-bay industrial is durable and unlikely to reverse.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.globest.com/2026/05/14/small-bay-now-dominates-industrial-and-it-will-stay-that-way/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 14, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Betting on Continued Industrial Demand, Redfearn Capital Closes Pair of Deals Across Florida Totaling $60M</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Redfearn Capital closed two industrial deals in South Florida and Jacksonville totaling $60 million, in what the firm described as a vote of confidence in Florida's industrial market. The transactions represent the new group's entry into the Florida industrial investment space. No specific property addresses or tenant details were disclosed in publicly available information. The deals signal continued private capital appetite for industrial assets in the Southeast despite broader market uncertainty.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.costar.com/article/1989049024/betting-on-continued-industrial-demand-real-estate-group-closes-pair-of-deals-across-florida" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Constellation Real Estate Partners Closes on Fort Worth Land for 492,000 SF Spec Warehouse</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Constellation Real Estate Partners has acquired 44 acres of land in Fort Worth, Texas for the development of Constellation Summit 35, a 492,000 square foot speculative industrial building. The project will be built on a speculative basis, meaning without a pre-leased tenant, targeting the active Dallas-Fort Worth industrial market. No financial terms for the land acquisition were disclosed.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/constellation-closes-on-ft-worth-property-for-spec-warehouse-project/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">CoStar: Industrial Vacancy Remains in Mid-7% Range Entering Q2 2026, Expected to Edge Higher Into 2027</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        The national industrial vacancy rate remains in the mid-7% range entering the second quarter of 2026 and is expected to edge higher into 2027 before beginning a gradual descent, according to CoStar's latest revised forecast. West Coast port markets, particularly those exposed to Chinese trade, continue to underperform due to reduced demand, with availability in large, newer logistics properties near major West Coast ports exceeding 13%, compared to approximately 9% for East Coast port markets. Markets with elevated availability in new industrial construction such as Gainesville, Georgia, Harrisburg, Pennsylvania, and San Antonio, Texas face particular challenges. CoStar forecasts increasing industrial demand in the second half of 2026 that could accelerate lease-up of the supply overhang.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.businesswire.com/news/home/20251120971962/en/CoStar-projects-yields-to-ease-across-CRE-property-types-in-2026" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Investors Back Blackstone's Industrial Bet With $4 Billion in New Refinancings</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Blackstone is completing its third major industrial portfolio refinancing of 2026 through its Link Logistics affiliate, locking in a total of more than $4 billion in new floating-rate CMBS debt across 213 warehouse and logistics properties. The latest deal, BX Trust 2026-CIP, is a $1.3 billion mortgage loan secured by 83 industrial properties spanning 13 million square feet across 15 states, scheduled to close May 21 with co-origination from Deutsche Bank, Citi, JPMorgan, Nomura, and Goldman Sachs. The three 2026 refinancings combined cover 30.9 million square feet and drew participation from at least 12 major lending institutions. Fitch noted that in-place rents of $7.75 per square foot across the latest portfolio trail average market rents of $10.50 per square foot, providing a built-in rent growth narrative for lenders.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.costar.com/article/616629042/investors-back-blackstones-industrial-bet-with-4-billion-in-new-refinancings" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">CoStar: U.S. Industrial Vacancy Projected to Rise Into Early 2027</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        According to the most recent CoStar forecast, the national industrial vacancy rate remains in the mid-7% range entering Q2 2026 and is projected to edge higher into early 2027 before beginning a gradual descent, a slightly worse outlook than prior expectations. CoStar cited a near-term energy price spike that has eroded consumer spending power, along with downgraded employment growth forecasts tied to tariff policy changes and slower labor force growth. The revised forecast noted that risks are tilted to the downside, with elevated tariffs or weaker consumer goods spending potentially pushing vacancy to 8–9%. Rent growth is projected at approximately 2.2% annually over 2026–27, below the pre-pandemic five-year average.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.businesswire.com/news/home/20260507938582/en/Apartments.com-and-CoStar-Raise-U.S.-Multifamily-Vacancy-Forecast" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Foundry Commercial Nabs North Texas Office Complex to Build Industrial Facility</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Foundry Commercial, a real estate firm pioneering office-to-industrial conversions across the United States, is adding to its pipeline in the Dallas-Fort Worth region with the acquisition of a North Texas office complex intended for industrial redevelopment. The company is executing a broader strategy to demolish and replace approximately 1.9 million square feet of existing office properties with 2.9 million square feet of new industrial space across multiple U.S. markets. Foundry has previously executed similar conversions in Jacksonville, Florida, and other Sun Belt markets. The article is exclusively available to CoStar subscribers.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.costar.com/article/1007255209/foundry-commercial-nabs-north-texas-office-complex-to-build-industrial-facility" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Blackstone's Data Center REIT Raises $1.75 Billion in IPO to Buy Data Centers</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Blackstone Digital Infrastructure Trust (BXDC) completed its US IPO on May 14 on the NYSE, pricing 87.5 million shares at $20 each to raise $1.75 billion, with underwriters holding a 30-day option to lift total proceeds to $2 billion. The REIT will focus on acquiring newly constructed, stabilized data centers valued between $250 million and $1.5 billion, occupied by investment-grade hyperscale tenants on long-term leases, targeting yields of 5.75% to 7%. Blackstone has identified approximately $25 billion in potential near-term data center purchases in Northern Virginia, Ohio, Phoenix, Maryland, and Austin. Nick Pell, former president and CIO of Blackstone's Link Logistics industrial REIT arm, was appointed CEO of the new entity.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/news/articles/2026-05-13/blackstone-reit-raises-1-75-billion-in-ipo-to-buy-data-centers" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">REBNY Spotlights Creativity with 82nd Annual Most Ingenious Commercial Deal Awards</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        The Real Estate Board of New York awarded its 82nd annual Most Ingenious Commercial Deal Awards, with the first-place Henry Hart Rice Achievement Award going to Geoffrey Newman of Savills for assembling a stretch of Gramercy Park frontage over 13 years involving six buildings including a 34-unit cooperative at 252–258 Third Avenue and 37–38 Gramercy Park. The second-place Robert T. Lawrence Memorial Award went to Scott Gottlieb, Brendan Herlihy, and Michael Wellen of CBRE for a deal at 2 Penn Plaza. The competition recognizes the most creative commercial real estate transactions completed in New York City.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/rebny-spotlights-creativity-with-82nd-annual-most-ingenious-commercial-deal-awards/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">BisNow</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Data Centers Boost Otherwise Sagging Construction Pipeline</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        The Associated Builders and Contractors Construction Backlog Indicator rose to a 10-month high of 8.8 months in April, driven disproportionately by data center projects. The metric rose 0.2 months from March and 0.1 months from April 2025, with backlog surging for firms with more than $100M in annual revenue, a 2.2-month year-over-year jump. The data shows a stark split between large contractors benefiting from data center work and smaller firms that lack access to those projects. Just 1 in 5 respondents expected profit margins to decrease over the next six months, the lowest share since January 2025.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bisnow.com/national/news/data-center-development/data-centers-boost-otherwise-sagging-construction-backlogs-134546" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Stonelake Capital Partners Acquires Apex Commerce Center Industrial Portfolio in Raleigh for $90M</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Stonelake Capital Partners acquired Apex Commerce Center, a three-building Class A industrial portfolio totaling 613,353 square feet in Raleigh, North Carolina, for $90 million, closing immediately after construction completion in April 2026. The three buildings are located at 2061 Production Drive, 2170 Production Drive, and 600 Pristine Water Drive in the Apex submarket. No seller or tenant details were disclosed in the Connect CRE report. The transaction reflects continued investor demand for newly built Class A industrial product in Southeastern U.S. logistics markets.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/stonelake-acquires-apex-commerce-center-raleigh/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">BGO and Greenlaw Partners Purchase River Park 6 Warehouse in Atlanta Submarket for $70M</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        BentallGreenOak (BGO) and Greenlaw Partners purchased River Park 6, a 724,687-square-foot warehouse in Butts County, Georgia, for $70 million from sellers Waterloo Partners and ICM Property Group. The building is part of the River Park industrial campus, which is planned to ultimately reach 21 million square feet. Luggage brand Travelpro leases a portion of River Park 6. The deal adds to BGO's growing industrial portfolio in the Southeast as the Atlanta market continues to absorb excess post-pandemic supply.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/bgo-greenlaw-river-park-6-butts-county/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Phoenix Developers Converting Office Complexes Into Industrial Parks</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Lincoln Property and Panattoni Development have both recently announced plans to either demolish or reposition office buildings in the Phoenix metro area in favor of industrial uses. Lincoln Property's Sky Harbor Innovation Park sits on approximately 19 acres at 1920 W. University Drive, just west of Phoenix Sky Harbor Airport. The trend of office-to-industrial conversion has accelerated in Phoenix as vacancy in suburban office parks rises and demand for infill industrial and flex space in urban-adjacent locations remains active. No financial terms were disclosed for either project.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/phoenix-office-to-industrial-conversion/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">FedEx Ground Distribution Facility Sold in Kentucky After 17-Year Hold</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        SURMOUNT, a net lease real estate advisory and investment platform, arranged the sale of an 82,754-square-foot FedEx Ground distribution facility at 2500 Eich Road in Paducah, Kentucky. SURMOUNT's Rocco Driscoll and Anthony Bird represented the seller, a private investor, following a nearly 17-year hold period. No buyer identity or sale price was disclosed. The transaction underscores continued investor appetite for net-leased logistics assets occupied by national carriers.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/surmount-fedex-ground-paducah-kentucky/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Prologis Names Chief Development Officer as Firm Plans $8 Billion Data Center Push</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Industrial real estate giant Prologis tapped veteran executive Damon Austin to join its C-suite as Chief Development Officer as the company plans to spend $8 billion over the next four years on data center development. Austin's appointment signals Prologis's strategic pivot toward data center infrastructure alongside its core logistics portfolio, capitalizing on surging demand from artificial intelligence-driven hyperscaler tenants. The data center investment represents a significant expansion of Prologis's development scope beyond traditional warehouse and distribution facilities. No specific projects or locations were disclosed in the announcement.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.costar.com/news/category/USA/industrial" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">BGO and Greenlaw Partners Acquire River Park 6 Industrial Warehouse in Georgia for $70M</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        BentallGreenOak (BGO) and Greenlaw Partners purchased River Park 6, a 724,687-square-foot warehouse in Butts County, Georgia, for $70 million from sellers Waterloo Partners and ICM Property Group. The facility is part of the River Park industrial campus, which is slated to grow to 21 million square feet of space. Travelpro currently leases part of River Park 6. The acquisition expands BGO and Greenlaw's industrial footprint in the Southeast Atlanta logistics corridor.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/bgo-greenlaw-partners-river-park-6/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">BisNow</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Apartment Construction Starts Plummet to 15-Year Low</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        BisNow reported that apartment construction starts have fallen to a 15-year low nationally, according to new data released in mid-May 2026. The sharp decline reflects a combination of high borrowing costs, elevated construction costs, and reduced investor appetite for new multifamily development. The dropoff in residential construction is occurring simultaneously with reduced industrial development starts, which PwC/ULI research has pegged at down 25% versus the 2017–2019 average through 2025 year-to-date. The broader contraction in construction starts affects demand for building materials supply chains and construction-related industrial tenants.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bisnow.com/national/news/multifamily/apartment-construction-starts-15-year-low-2026" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">BisNow</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 11, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">CBRE Hires Former EQ Office CEO For Property Management Role</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        CBRE has expanded its asset management capabilities within its U.S. Property Management business by hiring Lisa Picard, former CEO of EQ Office (a Blackstone company), as a Senior Advisor. The firm also hired Chris Doman to lead U.S. asset management services within the Property Management division; Doman previously founded and ran two companies providing asset management and redevelopment services for institutions and family offices. CBRE said the hires are in response to growing client demand for asset management services across various property types.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bisnow.com/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar / CRE Direct</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 11, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">NorthPoint Development Starts Work on 428,900 SF Speculative Industrial Building in Chicago's 90 & Randall Logistics Park</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        NorthPoint Development commenced construction on a 428,900-square-foot speculative cross-dock warehouse at Interstate 90 and Randall Road in Algonquin, Illinois, within the 90 & Randall Logistics Park. The facility will feature a 40-foot clear height, 44 dock doors, four drive-in doors, 104 trailer stalls, and 277 car parking spaces. Peak Construction Corporation was awarded the general contracting contract, with studioNorth as architect and Atwell as civil engineer. The Kansas City, Missouri-based developer is building the property speculatively without a pre-signed tenant.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://crenews.com/2026/05/11/work-to-start-on-chicago-area-industrial-property/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 8, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Commercial Real Estate Lending Optimism Fades as Caution Takes Hold</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Banks have largely paused changes to commercial real estate credit standards, but loan demand has cooled across several CRE categories, according to the Federal Reserve's latest Senior Loan Officer Opinion Survey. In January, banks expected demand to strengthen through 2026, pointing to projected interest rate declines as a key driver, but by April that outlook had softened significantly. The renewed Middle East conflict pushed oil prices to their sharpest increase in four years, reinforcing policymakers' caution about easing monetary policy. The Strait of Hormuz, critical to global oil trade, has been effectively blocked since late February.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.costar.com/article/726888714/commercial-real-estate-lending-optimism-fades-as-caution-takes-hold" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 8, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Macerich Purchases Annapolis Mall for $272 Million Including Adjacent Sears Parcel</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Macerich has acquired Annapolis Mall in Maryland along with a 13.1-acre vacant Sears parcel adjacent to the 1.5-million-SF enclosed mall for $272 million. The mall serves the Baltimore and Washington D.C. metro areas and is anchored by Macy's, AMC Theatres, Apple, Zara, The Cheesecake Factory, Urban Outfitters, Foot Locker, Hollister, American Eagle, and Lululemon. The purchase of the adjacent Sears site provides Macerich with redevelopment optionality at one of Maryland's top retail destinations.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 8, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Missner Group Buys 58,236 SF Multi-Tenant Industrial Building in Aurora, Illinois</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        The Missner Group acquired a 58,236-square-foot multi-tenant industrial building in Aurora, Illinois, with plans to lease up the property. The Chicago-area acquisition reflects continued investor interest in smaller multi-tenant industrial product in the greater Chicago logistics market. Aurora sits within the broader Chicago industrial corridor, which recorded strong absorption and a 6% vacancy rate as of early 2026. Financial terms of the transaction were not disclosed.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.costar.com/news/us/category/sale" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Connect CRE</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 7, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Newmark Advises Anheuser-Busch on $360M Sale of Former Newark Facility to Goodman Group</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Newmark Group advised Anheuser-Busch in the $360 million sale of its former brewing facility in Newark, New Jersey, to Goodman Group, a global industrial real estate owner and developer. The 75-year-old facility was closed by Anheuser-Busch in January 2026. Newmark Executive Vice Chairman Adam Doneger and Executive Managing Director Adam Petrillo served as exclusive advisors to the seller. Goodman Group plans to redevelop the site for industrial use.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.connectcre.com/stories/new-york-people-and-company-news-week-of-may-8-2026/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Green Street</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 6, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Green Street Commercial Property Price Index Fell 0.1% in April; Life Science Properties Decline</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Green Street's Commercial Property Price Index decreased 0.1% in April 2026, with life science property values declining and pricing in other sectors remaining essentially unchanged. The index, which measures REIT portfolio pricing on a frequently updated basis, has increased 2.3% over the past twelve months. Green Street Co-Head of Strategic Research Peter Rothemund had previously stated that roughly 2% annual price appreciation was his baseline expectation for 2026.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.greenstreet.com/resources/pricing-index/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">GlobeSt</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 5, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Global Net Lease Strikes $535M Deal for Modiv Industrial</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Global Net Lease agreed to acquire Modiv Industrial REIT in a $535 million deal, adding 42 industrial properties as the REIT doubles down on logistics assets. The acquisition was reported by BisNow on May 4, 2026 and GlobeSt on May 5, 2026. Modiv Industrial had been a publicly traded net-lease REIT focused on single-tenant industrial properties. The deal expands Global Net Lease's industrial footprint significantly as institutional investors continue to favor industrial/logistics as a top overweight sector.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.globest.com/2026/05/05/global-net-lease-strikes-535m-deal-for-modiv-industrial/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 5, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Weston Acquires 305,491 SF Class A Distribution Center in Huntsville, Alabama for $29.3M</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Weston, a Cleveland, Ohio-based industrial real estate owner and operator, acquired River and Rocket Commerce Center — a 305,491-square-foot Class A industrial distribution facility at 23366 Bibb — in the Huntsville, Alabama area for $29.3 million. The acquisition reflects continued investor appetite for Class A logistics facilities in high-growth Sun Belt markets. Huntsville has been among the Southeast's most active industrial markets, driven by defense, aerospace, and advanced manufacturing demand.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.costar.com/author/00000198-a98c-d232-a7be-b9bf2cd80000/costar-ai" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">PR Newswire</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• April 22, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">First Industrial Realty Trust Reports 41% Cash Rental Rate Increase on 2026 Leases, Tours Inland Empire Portfolio</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        First Industrial Realty Trust (NYSE: FR) reported Q1 2026 results including a 41% cash rental rate increase on leases signed to date commencing in 2026, covering 61% of 2026 expirations by square footage. The REIT successfully renewed a 556,000-square-foot facility in the Inland Empire — its largest 2026 expiration — and cash basis same-store NOI grew 8.7% in Q1. The company started two new developments in Q1 2026 totaling 305,000 square feet in Miami and Dallas with an estimated $70 million investment, and closed $425 million and $375 million unsecured term loans. First Industrial conducted an investor property tour in the Inland Empire, Southern California on May 12, 2026.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.prnewswire.com/news-releases/first-industrial-realty-trust-reports-first-quarter-2026-results-302750853.html" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">Green Street</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• January 29, 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Green Street Expands News Platform to U.S. Subscribers for Real-Time CRE Intelligence</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Green Street announced the expansion of its Green Street News digital platform to include U.S. subscribers, granting real-time access to first-to-market scoops across 25 global commercial real estate markets. The platform was previously available only to non-U.S. subscribers and delivers exclusive deal flow, capital markets intelligence, and sector news. The expansion makes Green Street's international CRE news coverage available to U.S. investors, lenders, and market leaders for the first time.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.greenstreet.com/about/newsroom/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 2026</span>
-        <span style="background: #fff5f5; color: #1976d2; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">US Industrial Vacancy Rate to Rise Into Early 2027, CoStar Revised Forecast Shows</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        CoStar's revised forecast projects the national industrial vacancy rate, currently in the mid-7% range entering Q2 2026, will edge higher into early 2027 before beginning a gradual descent. Average annual rent growth is expected to remain steady at approximately 1.0% through 2026 before reaccelerating to +2.8% by end of 2027. CoStar's national director of industrial analytics Juan Arias noted that the freight recession persisting since 2023 has primarily resulted in negative net absorption in older properties, while sublease space has begun increasing in newer properties as tenants right-size their footprints. Risks to the forecast are tilted to the downside if tariffs remain elevated or consumer spending on goods weakens.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.businesswire.com/news/home/20260205011373/en/CoStar-Expects-U.S.-Industrial-Vacancy-to-Peak-This-Year-Rent-Growth-Remains-Unchanged-Through-2026" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #1976d2; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1976d2; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #1976d2;">CoStar / JLL</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">JLL: Industrial Leasing Jumped 17.8% Year-Over-Year in Q1 2026, Net Absorption Hits 50.9 MSF</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        U.S. industrial leasing activity increased 17.8% year-over-year in Q1 2026, with 145.2 million square feet of leases executed, of which 71.6% were new leases. Net absorption reached 50.9 million square feet in Q1, demonstrating exceptional strength for a historically underperforming quarter. Performance was largely driven by ongoing flight-to-quality trends and tenant consolidation into more efficient facilities. The sector maintains a cautiously optimistic outlook despite escalating geopolitical tensions, rising oil prices, and trade policy volatility.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.jll.com/en-us/insights/market-dynamics/industrial-market-statistics-trends" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-  <div style="background: #000; color: #666; padding: 2rem; text-align: center; font-family: -apple-system, sans-serif; font-size: 0.75rem; border-top: 3px solid #c8102e; margin-top: 3rem;">
-    <div style="margin-bottom: 0.5rem; color: #999;">SoCal Industrial Journal</div>
-    <div style="margin-bottom: 0.75rem;">Bloomberg • Wall Street Journal • Green Street • Connect CRE • BisNow • CoStar • GlobeSt</div>
-    <div style="font-size: 0.7rem; color: #555;">Rolling 72-hour window • Updates every 2 hours</div>
-  </div>
-
 </div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 15, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Texas People & Companies, May 15, 2026</h3>
+  <p class="article-summary">Stream Realty Partners broke ground on Northfield Logistics Center, a Class A industrial development at 4330 Northfield Lane in Houston's infill Northwest submarket. The project will deliver more than 300,000 square feet of Class A distribution space. Rosenberger Construction is serving as the general contractor and Seeberger Architecture is the project architect. No tenant has been announced for the project.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/texas-people-companies-may-15-2026/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 15, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">CBRE Arranges $30.9 Million Sale of Treasure Coast Commerce Center Portfolio in Stuart, Florida</h3>
+  <p class="article-summary">CBRE arranged the $30.9 million sale of the Treasure Coast Commerce Center Portfolio, a seven-building, multitenant industrial portfolio totaling 153,198 square feet in Stuart, Florida. CBRE represented both the seller, Ted Glasrud Associates, Inc., and the buyer, NorthBridge Partners, in the transaction. No lease terms or vacancy details for the portfolio were disclosed. The deal reflects continued investor demand for multitenant industrial product in secondary Florida markets.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/florida-people-companies-may-15-2026/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Westmount Hires Industrial Veteran; SRS Expands National Retail Team; CenterSquare Adds AI Director</h3>
+  <p class="article-summary">Westmount Realty Capital appointed Mike Demperio as director of development in Atlanta, bringing over five decades of industrial real estate experience and more than 100 million square feet of industrial projects across the country valued at over $4 billion. Demperio previously served as EVP at CRG and held roles at CBRE where he launched the firm's Global Logistics practice. SRS Real Estate Partners added Neill Kelly and Benjamin Gould to its national retail team to bolster restructuring and dispositions capability. CenterSquare Investment Management also appointed Doug Carpenter as its new director and head of data strategy and artificial intelligence.</p>
+  <div>
+    <a href="https://www.costar.com/article/924503917/westmount-hires-industrial-veteran-srs-expands-national-retail-team-centersquare-adds-ai-director" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">CoStar World News for May 14: Blackstone French Industrial Deal, Data Center Capital Crunch</h3>
+  <p class="article-summary">CoStar's daily global news roundup for May 14, 2026 highlighted Blackstone's previously announced €2.3 billion acquisition of Proudreed's French industrial portfolio of more than 500 sites and 2.2 million square meters, with Blackstone planning to accelerate development to reach 115,000–120,000 square meters of new properties annually. The roundup also flagged a growing capital crunch in data center development, with industry estimates pegging total capital needs at as much as $1 trillion over the next five years as construction costs for AI and cloud facilities surge. Additional items covered UK commercial real estate new lending rising 29% in 2025 to a decade high, and German real estate prices increasing 2.2% annually in Q1 2026.</p>
+  <div>
+    <a href="https://www.costar.com/article/2032561379/costar-world-news-for-may-14" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 14, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Webinar: Distress Cycle Evolves as $520B of Maturities Looms</h3>
+  <p class="article-summary">With roughly $52 billion of maturing commercial real estate debt considered at-risk out of $520 billion coming due in 2026, industry leaders reported that CRE distress is expanding beyond the office sector. Andrew Hundertmark, Vice Chairman at Argentic Services, told the Connect CRE webinar that office distress has decreased while more multifamily and hospitality distress is arriving. LNR Partners' Randall Rosen said major metro office markets — with Chicago cited specifically — continue to struggle significantly. The panel discussed evolving strategies for lenders and special servicers navigating the active distress environment.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/webinar-distress-cycle-evolves-as-520b-of-maturities-looms/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 14, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Return to Lender: Week of May 14, 2026</h3>
+  <p class="article-summary">Connect CRE's weekly CMBS distress tracker reports multiple loans entering special servicing, including the $64.5 million Summit Place Wisconsin loan (CD 2016-CD3 & JPMDB 2017-C5) after the borrower indicated it would no longer fund operating shortfalls. A prominent Houston Galleria-area office tower at 3000 Post Oak Blvd faces foreclosure after its $80 million loan matured vacant. The Decoration & Design Building in New York moved to special servicing upon hitting its May 2026 maturity date on a CGCMT-securitized loan. The Seattle Bravern office complex — formerly leased to Microsoft — had a court-approved sale overseen by Eastdil Secured following a $304 million mortgage default.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/return-to-lender-week-of-may-14-2026/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>BisNow</span>
+    <span class="date">· May 14, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Blackstone's Data Center REIT Hits Its $1.75B Initial Target In Debut</h3>
+  <p class="article-summary">Blackstone Digital Infrastructure Trust raised $1.75 billion in its NYSE debut on May 14, selling 87.5 million shares at $20 per share, with underwriters holding a 30-day option to lift total proceeds to $2 billion. The REIT is a 'blind pool' with no assets yet identified, targeting acquisition of newly built data centers occupied by hyperscalers valued between $250 million and $1.5 billion. Blackstone has identified approximately $25 billion in potential near-term data center purchases in Northern Virginia, Ohio, Phoenix, Maryland, and Austin.</p>
+  <div>
+    <a href="https://www.bisnow.com/national/news/data-center/blackstones-data-center-reit-raises-175b-in-debut-as-share-prices-fall-134583" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>GlobeSt</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Small Bay Now Dominates Industrial and It Will Stay That Way</h3>
+  <p class="article-summary">GlobeSt published an analysis on May 14, 2026 examining how small-bay industrial product has become the dominant force in the industrial market. HALO businesses and the evolution of the broader economy were cited as major demand drivers behind the shift. Small-bay and micro-warehouse assets in last-mile and infill locations continue to post vacancy rates below 5%, making them among the most competitive subsectors in the market. The analysis concludes that the structural demand for small-bay industrial is durable and unlikely to reverse.</p>
+  <div>
+    <a href="https://www.globest.com/2026/05/14/small-bay-now-dominates-industrial-and-it-will-stay-that-way/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Betting on Continued Industrial Demand, Redfearn Capital Closes Pair of Deals Across Florida Totaling $60M</h3>
+  <p class="article-summary">Redfearn Capital closed two industrial deals in South Florida and Jacksonville totaling $60 million, in what the firm described as a vote of confidence in Florida's industrial market. The transactions represent the new group's entry into the Florida industrial investment space. No specific property addresses or tenant details were disclosed in publicly available information. The deals signal continued private capital appetite for industrial assets in the Southeast despite broader market uncertainty.</p>
+  <div>
+    <a href="https://www.costar.com/article/1989049024/betting-on-continued-industrial-demand-real-estate-group-closes-pair-of-deals-across-florida" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">CoStar: Industrial Vacancy Remains in Mid-7% Range Entering Q2 2026, Expected to Edge Higher Into 2027</h3>
+  <p class="article-summary">The national industrial vacancy rate remains in the mid-7% range entering the second quarter of 2026 and is expected to edge higher into 2027 before beginning a gradual descent, according to CoStar's latest revised forecast. West Coast port markets, particularly those exposed to Chinese trade, continue to underperform due to reduced demand, with availability in large, newer logistics properties near major West Coast ports exceeding 13%, compared to approximately 9% for East Coast port markets. Markets with elevated availability in new industrial construction such as Gainesville, Georgia, Harrisburg, Pennsylvania, and San Antonio, Texas face particular challenges. CoStar forecasts increasing industrial demand in the second half of 2026 that could accelerate lease-up of the supply overhang.</p>
+  <div>
+    <a href="https://www.businesswire.com/news/home/20251120971962/en/CoStar-projects-yields-to-ease-across-CRE-property-types-in-2026" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Investors Back Blackstone's Industrial Bet With $4 Billion in New Refinancings</h3>
+  <p class="article-summary">Blackstone is completing its third major industrial portfolio refinancing of 2026 through its Link Logistics affiliate, locking in a total of more than $4 billion in new floating-rate CMBS debt across 213 warehouse and logistics properties. The latest deal, BX Trust 2026-CIP, is a $1.3 billion mortgage loan secured by 83 industrial properties spanning 13 million square feet across 15 states, scheduled to close May 21 with co-origination from Deutsche Bank, Citi, JPMorgan, Nomura, and Goldman Sachs. The three 2026 refinancings combined cover 30.9 million square feet and drew participation from at least 12 major lending institutions. Fitch noted that in-place rents of $7.75 per square foot across the latest portfolio trail average market rents of $10.50 per square foot, providing a built-in rent growth narrative for lenders.</p>
+  <div>
+    <a href="https://www.costar.com/article/616629042/investors-back-blackstones-industrial-bet-with-4-billion-in-new-refinancings" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">CoStar: U.S. Industrial Vacancy Projected to Rise Into Early 2027</h3>
+  <p class="article-summary">According to the most recent CoStar forecast, the national industrial vacancy rate remains in the mid-7% range entering Q2 2026 and is projected to edge higher into early 2027 before beginning a gradual descent, a slightly worse outlook than prior expectations. CoStar cited a near-term energy price spike that has eroded consumer spending power, along with downgraded employment growth forecasts tied to tariff policy changes and slower labor force growth. The revised forecast noted that risks are tilted to the downside, with elevated tariffs or weaker consumer goods spending potentially pushing vacancy to 8–9%. Rent growth is projected at approximately 2.2% annually over 2026–27, below the pre-pandemic five-year average.</p>
+  <div>
+    <a href="https://www.businesswire.com/news/home/20260507938582/en/Apartments.com-and-CoStar-Raise-U.S.-Multifamily-Vacancy-Forecast" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Foundry Commercial Nabs North Texas Office Complex to Build Industrial Facility</h3>
+  <p class="article-summary">Foundry Commercial, a real estate firm pioneering office-to-industrial conversions across the United States, is adding to its pipeline in the Dallas-Fort Worth region with the acquisition of a North Texas office complex intended for industrial redevelopment. The company is executing a broader strategy to demolish and replace approximately 1.9 million square feet of existing office properties with 2.9 million square feet of new industrial space across multiple U.S. markets. Foundry has previously executed similar conversions in Jacksonville, Florida, and other Sun Belt markets. The article is exclusively available to CoStar subscribers.</p>
+  <div>
+    <a href="https://www.costar.com/article/1007255209/foundry-commercial-nabs-north-texas-office-complex-to-build-industrial-facility" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Blackstone's Data Center REIT Raises $1.75 Billion in IPO to Buy Data Centers</h3>
+  <p class="article-summary">Blackstone Digital Infrastructure Trust (BXDC) completed its US IPO on May 14 on the NYSE, pricing 87.5 million shares at $20 each to raise $1.75 billion, with underwriters holding a 30-day option to lift total proceeds to $2 billion. The REIT will focus on acquiring newly constructed, stabilized data centers valued between $250 million and $1.5 billion, occupied by investment-grade hyperscale tenants on long-term leases, targeting yields of 5.75% to 7%. Blackstone has identified approximately $25 billion in potential near-term data center purchases in Northern Virginia, Ohio, Phoenix, Maryland, and Austin. Nick Pell, former president and CIO of Blackstone's Link Logistics industrial REIT arm, was appointed CEO of the new entity.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-13/blackstone-reit-raises-1-75-billion-in-ipo-to-buy-data-centers" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>BisNow</span>
+    <span class="date">· May 12, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Data Centers Boost Otherwise Sagging Construction Pipeline</h3>
+  <p class="article-summary">The Associated Builders and Contractors Construction Backlog Indicator rose to a 10-month high of 8.8 months in April, driven disproportionately by data center projects. The metric rose 0.2 months from March and 0.1 months from April 2025, with backlog surging for firms with more than $100M in annual revenue, a 2.2-month year-over-year jump. The data shows a stark split between large contractors benefiting from data center work and smaller firms that lack access to those projects. Just 1 in 5 respondents expected profit margins to decrease over the next six months, the lowest share since January 2025.</p>
+  <div>
+    <a href="https://www.bisnow.com/national/news/data-center-development/data-centers-boost-otherwise-sagging-construction-backlogs-134546" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 12, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Stonelake Capital Partners Acquires Apex Commerce Center Industrial Portfolio in Raleigh for $90M</h3>
+  <p class="article-summary">Stonelake Capital Partners acquired Apex Commerce Center, a three-building Class A industrial portfolio totaling 613,353 square feet in Raleigh, North Carolina, for $90 million, closing immediately after construction completion in April 2026. The three buildings are located at 2061 Production Drive, 2170 Production Drive, and 600 Pristine Water Drive in the Apex submarket. No seller or tenant details were disclosed in the Connect CRE report. The transaction reflects continued investor demand for newly built Class A industrial product in Southeastern U.S. logistics markets.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/stonelake-acquires-apex-commerce-center-raleigh/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 12, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">BGO and Greenlaw Partners Purchase River Park 6 Warehouse in Atlanta Submarket for $70M</h3>
+  <p class="article-summary">BentallGreenOak (BGO) and Greenlaw Partners purchased River Park 6, a 724,687-square-foot warehouse in Butts County, Georgia, for $70 million from sellers Waterloo Partners and ICM Property Group. The building is part of the River Park industrial campus, which is planned to ultimately reach 21 million square feet. Luggage brand Travelpro leases a portion of River Park 6. The deal adds to BGO's growing industrial portfolio in the Southeast as the Atlanta market continues to absorb excess post-pandemic supply.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/bgo-greenlaw-river-park-6-butts-county/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 12, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Phoenix Developers Converting Office Complexes Into Industrial Parks</h3>
+  <p class="article-summary">Lincoln Property and Panattoni Development have both recently announced plans to either demolish or reposition office buildings in the Phoenix metro area in favor of industrial uses. Lincoln Property's Sky Harbor Innovation Park sits on approximately 19 acres at 1920 W. University Drive, just west of Phoenix Sky Harbor Airport. The trend of office-to-industrial conversion has accelerated in Phoenix as vacancy in suburban office parks rises and demand for infill industrial and flex space in urban-adjacent locations remains active. No financial terms were disclosed for either project.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/phoenix-office-to-industrial-conversion/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 12, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">FedEx Ground Distribution Facility Sold in Kentucky After 17-Year Hold</h3>
+  <p class="article-summary">SURMOUNT, a net lease real estate advisory and investment platform, arranged the sale of an 82,754-square-foot FedEx Ground distribution facility at 2500 Eich Road in Paducah, Kentucky. SURMOUNT's Rocco Driscoll and Anthony Bird represented the seller, a private investor, following a nearly 17-year hold period. No buyer identity or sale price was disclosed. The transaction underscores continued investor appetite for net-leased logistics assets occupied by national carriers.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/surmount-fedex-ground-paducah-kentucky/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Prologis Names Chief Development Officer as Firm Plans $8 Billion Data Center Push</h3>
+  <p class="article-summary">Industrial real estate giant Prologis tapped veteran executive Damon Austin to join its C-suite as Chief Development Officer as the company plans to spend $8 billion over the next four years on data center development. Austin's appointment signals Prologis's strategic pivot toward data center infrastructure alongside its core logistics portfolio, capitalizing on surging demand from artificial intelligence-driven hyperscaler tenants. The data center investment represents a significant expansion of Prologis's development scope beyond traditional warehouse and distribution facilities. No specific projects or locations were disclosed in the announcement.</p>
+  <div>
+    <a href="https://www.costar.com/news/category/USA/industrial" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 12, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">BGO and Greenlaw Partners Acquire River Park 6 Industrial Warehouse in Georgia for $70M</h3>
+  <p class="article-summary">BentallGreenOak (BGO) and Greenlaw Partners purchased River Park 6, a 724,687-square-foot warehouse in Butts County, Georgia, for $70 million from sellers Waterloo Partners and ICM Property Group. The facility is part of the River Park industrial campus, which is slated to grow to 21 million square feet of space. Travelpro currently leases part of River Park 6. The acquisition expands BGO and Greenlaw's industrial footprint in the Southeast Atlanta logistics corridor.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/bgo-greenlaw-partners-river-park-6/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>BisNow</span>
+    <span class="date">· May 12, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Apartment Construction Starts Plummet to 15-Year Low</h3>
+  <p class="article-summary">BisNow reported that apartment construction starts have fallen to a 15-year low nationally, according to new data released in mid-May 2026. The sharp decline reflects a combination of high borrowing costs, elevated construction costs, and reduced investor appetite for new multifamily development. The dropoff in residential construction is occurring simultaneously with reduced industrial development starts, which PwC/ULI research has pegged at down 25% versus the 2017–2019 average through 2025 year-to-date. The broader contraction in construction starts affects demand for building materials supply chains and construction-related industrial tenants.</p>
+  <div>
+    <a href="https://www.bisnow.com/national/news/multifamily/apartment-construction-starts-15-year-low-2026" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar / CRE Direct</span>
+    <span class="date">· May 11, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">NorthPoint Development Starts Work on 428,900 SF Speculative Industrial Building in Chicago's 90 & Randall Logistics Park</h3>
+  <p class="article-summary">NorthPoint Development commenced construction on a 428,900-square-foot speculative cross-dock warehouse at Interstate 90 and Randall Road in Algonquin, Illinois, within the 90 & Randall Logistics Park. The facility will feature a 40-foot clear height, 44 dock doors, four drive-in doors, 104 trailer stalls, and 277 car parking spaces. Peak Construction Corporation was awarded the general contracting contract, with studioNorth as architect and Atwell as civil engineer. The Kansas City, Missouri-based developer is building the property speculatively without a pre-signed tenant.</p>
+  <div>
+    <a href="https://crenews.com/2026/05/11/work-to-start-on-chicago-area-industrial-property/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 8, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Missner Group Buys 58,236 SF Multi-Tenant Industrial Building in Aurora, Illinois</h3>
+  <p class="article-summary">The Missner Group acquired a 58,236-square-foot multi-tenant industrial building in Aurora, Illinois, with plans to lease up the property. The Chicago-area acquisition reflects continued investor interest in smaller multi-tenant industrial product in the greater Chicago logistics market. Aurora sits within the broader Chicago industrial corridor, which recorded strong absorption and a 6% vacancy rate as of early 2026. Financial terms of the transaction were not disclosed.</p>
+  <div>
+    <a href="https://www.costar.com/news/us/category/sale" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 7, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Newmark Advises Anheuser-Busch on $360M Sale of Former Newark Facility to Goodman Group</h3>
+  <p class="article-summary">Newmark Group advised Anheuser-Busch in the $360 million sale of its former brewing facility in Newark, New Jersey, to Goodman Group, a global industrial real estate owner and developer. The 75-year-old facility was closed by Anheuser-Busch in January 2026. Newmark Executive Vice Chairman Adam Doneger and Executive Managing Director Adam Petrillo served as exclusive advisors to the seller. Goodman Group plans to redevelop the site for industrial use.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/new-york-people-and-company-news-week-of-may-8-2026/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Green Street</span>
+    <span class="date">· May 6, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Green Street Commercial Property Price Index Fell 0.1% in April; Life Science Properties Decline</h3>
+  <p class="article-summary">Green Street's Commercial Property Price Index decreased 0.1% in April 2026, with life science property values declining and pricing in other sectors remaining essentially unchanged. The index, which measures REIT portfolio pricing on a frequently updated basis, has increased 2.3% over the past twelve months. Green Street Co-Head of Strategic Research Peter Rothemund had previously stated that roughly 2% annual price appreciation was his baseline expectation for 2026.</p>
+  <div>
+    <a href="https://www.greenstreet.com/resources/pricing-index/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>GlobeSt</span>
+    <span class="date">· May 5, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Global Net Lease Strikes $535M Deal for Modiv Industrial</h3>
+  <p class="article-summary">Global Net Lease agreed to acquire Modiv Industrial REIT in a $535 million deal, adding 42 industrial properties as the REIT doubles down on logistics assets. The acquisition was reported by BisNow on May 4, 2026 and GlobeSt on May 5, 2026. Modiv Industrial had been a publicly traded net-lease REIT focused on single-tenant industrial properties. The deal expands Global Net Lease's industrial footprint significantly as institutional investors continue to favor industrial/logistics as a top overweight sector.</p>
+  <div>
+    <a href="https://www.globest.com/2026/05/05/global-net-lease-strikes-535m-deal-for-modiv-industrial/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 5, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Weston Acquires 305,491 SF Class A Distribution Center in Huntsville, Alabama for $29.3M</h3>
+  <p class="article-summary">Weston, a Cleveland, Ohio-based industrial real estate owner and operator, acquired River and Rocket Commerce Center — a 305,491-square-foot Class A industrial distribution facility at 23366 Bibb — in the Huntsville, Alabama area for $29.3 million. The acquisition reflects continued investor appetite for Class A logistics facilities in high-growth Sun Belt markets. Huntsville has been among the Southeast's most active industrial markets, driven by defense, aerospace, and advanced manufacturing demand.</p>
+  <div>
+    <a href="https://www.costar.com/author/00000198-a98c-d232-a7be-b9bf2cd80000/costar-ai" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>PR Newswire</span>
+    <span class="date">· April 22, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">First Industrial Realty Trust Reports 41% Cash Rental Rate Increase on 2026 Leases, Tours Inland Empire Portfolio</h3>
+  <p class="article-summary">First Industrial Realty Trust (NYSE: FR) reported Q1 2026 results including a 41% cash rental rate increase on leases signed to date commencing in 2026, covering 61% of 2026 expirations by square footage. The REIT successfully renewed a 556,000-square-foot facility in the Inland Empire — its largest 2026 expiration — and cash basis same-store NOI grew 8.7% in Q1. The company started two new developments in Q1 2026 totaling 305,000 square feet in Miami and Dallas with an estimated $70 million investment, and closed $425 million and $375 million unsecured term loans. First Industrial conducted an investor property tour in the Inland Empire, Southern California on May 12, 2026.</p>
+  <div>
+    <a href="https://www.prnewswire.com/news-releases/first-industrial-realty-trust-reports-first-quarter-2026-results-302750853.html" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Green Street</span>
+    <span class="date">· January 29, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Green Street Expands News Platform to U.S. Subscribers for Real-Time CRE Intelligence</h3>
+  <p class="article-summary">Green Street announced the expansion of its Green Street News digital platform to include U.S. subscribers, granting real-time access to first-to-market scoops across 25 global commercial real estate markets. The platform was previously available only to non-U.S. subscribers and delivers exclusive deal flow, capital markets intelligence, and sector news. The expansion makes Green Street's international CRE news coverage available to U.S. investors, lenders, and market leaders for the first time.</p>
+  <div>
+    <a href="https://www.greenstreet.com/about/newsroom/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar / JLL</span>
+    <span class="date">· May 2026</span>
+    
+  </div>
+  <h3 class="article-headline">JLL: Industrial Leasing Jumped 17.8% Year-Over-Year in Q1 2026, Net Absorption Hits 50.9 MSF</h3>
+  <p class="article-summary">U.S. industrial leasing activity increased 17.8% year-over-year in Q1 2026, with 145.2 million square feet of leases executed, of which 71.6% were new leases. Net absorption reached 50.9 million square feet in Q1, demonstrating exceptional strength for a historically underperforming quarter. Performance was largely driven by ongoing flight-to-quality trends and tenant consolidation into more efficient facilities. The sector maintains a cautiously optimistic outlook despite escalating geopolitical tensions, rising oil prices, and trade policy volatility.</p>
+  <div>
+    <a href="https://www.jll.com/en-us/insights/market-dynamics/industrial-market-statistics-trends" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-name">SoCal Industrial Journal</div>
+  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt</div>
+  <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
+</footer>
+
 </body>
 </html>

@@ -1,312 +1,537 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politics | SoCal Industrial Journal</title>
-    <meta http-equiv="refresh" content="7200">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politics | SoCal Industrial Journal</title>
+  <meta http-equiv="refresh" content="7200">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+        :root {
+            --cream: #FAF7F2;
+            --parchment: #F0EBE1;
+            --ink: #1C1917;
+            --ink-light: #44403C;
+            --rule: #D6CFC4;
+            --accent: #B5451B;
+            --accent-warm: #C9622F;
+            --muted: #78716C;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
         body {
-            font-family: Georgia, serif;
-            background: #fafafa;
-            color: #000;
+            font-family: 'Jost', sans-serif;
+            background: var(--cream);
+            color: var(--ink);
             line-height: 1.6;
-            padding-top: 160px;
+            -webkit-font-smoothing: antialiased;
         }
-        @media (max-width: 768px) {
-            body { padding-top: 180px; }
+
+        /* ── Header ── */
+        .site-header {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            background: var(--ink);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 0 2px 20px rgba(28,25,23,0.25);
         }
-    </style>
+        .header-inner {
+            text-align: center;
+            padding: 1.25rem 2rem 0.75rem;
+            border-bottom: 1px solid rgba(255,255,255,0.07);
+        }
+        .masthead {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 2.1rem;
+            font-weight: 300;
+            letter-spacing: 0.06em;
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+        .masthead-sub {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 400;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.4);
+        }
+        .site-nav {
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            background: var(--ink);
+            padding: 0 2rem;
+            overflow-x: auto;
+        }
+        .site-nav a {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 500;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.45);
+            text-decoration: none;
+            padding: 0.65rem 1rem;
+            border-bottom: 2px solid transparent;
+            transition: color 0.2s, border-color 0.2s;
+            white-space: nowrap;
+        }
+        .site-nav a:hover { color: rgba(255,255,255,0.85); }
+        .site-nav a.active {
+            color: #fff;
+            border-bottom-color: var(--accent);
+        }
+
+        /* ── Bottom Line banner ── */
+        .bottom-line {
+            background: var(--ink);
+            border-left: 3px solid var(--accent);
+            padding: 1.75rem 2.25rem;
+            margin-bottom: 2.5rem;
+        }
+        .bottom-line-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.6rem;
+        }
+        .bottom-line-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.6;
+            color: rgba(255,255,255,0.92);
+        }
+
+        /* ── Front Page category cards ── */
+        .fp-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .fp-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.18s ease, box-shadow 0.18s ease;
+        }
+        .fp-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(28,25,23,0.1);
+        }
+        .fp-card-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .fp-card-count {
+            background: var(--cat-color, var(--accent));
+            color: #fff;
+            font-size: 0.55rem;
+            padding: 0.1rem 0.4rem;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+        .fp-card-summary {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: var(--ink-light);
+            flex: 1;
+            margin-bottom: 1.25rem;
+        }
+        .fp-card-cta {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+        }
+
+        /* ── Article grid (category pages) ── */
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .article-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .article-meta {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            margin-bottom: 0.65rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+        .article-meta .date {
+            color: var(--muted);
+            font-weight: 400;
+        }
+        .article-headline {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.05rem;
+            font-weight: 400;
+            line-height: 1.35;
+            color: var(--ink);
+            margin-bottom: 0.85rem;
+        }
+        .article-summary {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 300;
+            line-height: 1.7;
+            color: var(--ink-light);
+            flex: 1;
+            margin-bottom: 1.1rem;
+        }
+        .article-read {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink);
+            text-decoration: none;
+            border-bottom: 1px solid var(--rule);
+            padding-bottom: 1px;
+            display: inline-block;
+            transition: border-color 0.15s;
+        }
+        .article-read:hover { border-color: var(--ink); }
+
+        /* ── Page header (category pages) ── */
+        .page-header {
+            border-bottom: 1px solid var(--rule);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+        .back-link {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        .back-link:hover { color: var(--accent); }
+        .page-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 2.75rem;
+            font-weight: 300;
+            letter-spacing: 0.02em;
+            color: var(--ink);
+            margin-bottom: 0.35rem;
+        }
+        .page-count {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.7rem;
+            color: var(--muted);
+            letter-spacing: 0.05em;
+        }
+
+        /* ── Footer ── */
+        .site-footer {
+            background: var(--ink);
+            color: rgba(255,255,255,0.35);
+            padding: 2rem;
+            text-align: center;
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            letter-spacing: 0.08em;
+            margin-top: 4rem;
+            border-top: 3px solid var(--accent);
+        }
+        .site-footer .footer-name {
+            color: rgba(255,255,255,0.6);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            font-size: 0.7rem;
+        }
+        .site-footer .footer-sources { margin-bottom: 0.5rem; }
+
+        /* ── Divider ── */
+        .ruled { border: none; border-top: 1px solid var(--rule); margin: 2rem 0; }
+
+        /* ── Status badge ── */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            background: #EEFAF2;
+            color: #2D6A4F;
+            font-family: 'Jost', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 500;
+            letter-spacing: 0.06em;
+            padding: 0.25rem 0.65rem;
+            border-radius: 2px;
+        }
+        .status-dot {
+            width: 5px; height: 5px;
+            background: #2D6A4F;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        /* ── Paywall badge ── */
+        .paywall-badge {
+            font-size: 0.55rem;
+            color: var(--muted);
+            border: 1px solid var(--rule);
+            padding: 0.1rem 0.35rem;
+            border-radius: 2px;
+        }
+
+        /* ── Empty state ── */
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 3rem;
+            background: var(--parchment);
+            border: 1px solid var(--rule);
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.1rem;
+            color: var(--muted);
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 900px) {
+            .fp-grid, .article-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .fp-grid, .article-grid { grid-template-columns: 1fr; }
+            .masthead { font-size: 1.5rem; }
+            body { padding-top: 170px !important; }
+        }
+
+    body { padding-top: 120px; }
+    @media (max-width: 600px) { body { padding-top: 140px; } }
+  </style>
 </head>
 <body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="masthead">SoCal Industrial Journal</a>
+    <div class="masthead-sub">Friday, May 15, 2026 &nbsp;·&nbsp; Rolling 72-Hour Brief</div>
+  </div>
+  <nav class="site-nav">
+    <a href="index.html" class="site-nav-link" style="">Front Page</a>
+    <a href="economics.html" style="" class="site-nav-link">Economics</a><a href="industries.html" style="" class="site-nav-link">Industries</a><a href="business.html" style="" class="site-nav-link">Business</a><a href="tech.html" style="" class="site-nav-link">Tech</a><a href="politics.html" style="color:#fff; border-bottom-color:var(--accent);" class="site-nav-link">Politics</a><a href="supply-chain.html" style="" class="site-nav-link">Supply</a><a href="local-deals.html" style="" class="site-nav-link">Local</a>
+  </nav>
+</header>
 
-  <div style="position: fixed; top: 0; left: 0; right: 0; background: #000; color: #fff; z-index: 1000; border-bottom: 3px solid #c8102e; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <div style="text-align: center; padding: 1.5rem 2rem 1rem;">
-      <a href="index.html" style="text-decoration: none; color: inherit;">
-        <div style="font-family: 'Playfair Display', Georgia, serif; font-size: 2rem; font-weight: 400; letter-spacing: -0.02em; margin-bottom: 0.5rem;">SoCal Industrial Journal</div>
-      </a>
-      <div style="font-size: 0.7rem; color: #999; letter-spacing: 0.15em; text-transform: uppercase;">Friday, May 15, 2026 • Rolling 72-Hour Brief</div>
-    </div>
-    
-    <div style="background: #fff; border-top: 1px solid #333; padding: 0.75rem 2rem; display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-      <a href="index.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Front Page</a>
-      <a href="economics.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Economics</a>
-        <a href="industries.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Industries</a>
-        <a href="business.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Business</a>
-        <a href="tech.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Tech</a>
-        <a href="politics.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Politics</a>
-        <a href="supply-chain.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Supply Chain</a>
-        <a href="local-deals.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Local Deals</a>
-    </div>
+<main style="max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem;">
+
+  <div class="page-header">
+    <a href="index.html" class="back-link">← Front Page</a>
+    <h1 class="page-title">◐ Politics</h1>
+    <p class="page-count">13 stories from the past 72 hours</p>
   </div>
 
-<div style="max-width: 900px; margin: 0 auto; padding: 2rem;">
-  
-  <div style="margin-bottom: 3rem;">
-    <a href="index.html" style="font-family: -apple-system, sans-serif; font-size: 0.8rem; color: #f57c00; text-decoration: none; margin-bottom: 1rem; display: inline-block;">← Back to Front Page</a>
-    <h1 style="font-family: 'Playfair Display', Georgia, serif; font-size: 2.5rem; font-weight: 400; color: #000; margin-bottom: 0.5rem;">⚖️ Politics</h1>
-    <p style="font-size: 0.95rem; color: #666;">13 stories</p>
+  <div class="article-grid">
+    <div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-
-  
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 15, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Greer: US, China Willing to Continue Trade Truce</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        U.S. Trade Representative Jamieson Greer, speaking exclusively to Bloomberg on the sidelines of the Trump-Xi summit in Beijing, signaled cautious optimism that US-China trade relations are stabilizing. Greer cited progress on agriculture purchases and rare earth supplies, though tariffs and supply chain issues remain unresolved. He stated the U.S. expects China to commit to 'double-digit billion' agricultural purchases per year over the next three years. The two presidents are anticipated to extend the one-year trade war pause agreed to in South Korea in October 2025.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/news/videos/2026-05-15/greer-us-china-willing-to-continue-trade-truce-video" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 15, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">US Expects Dramatic Agricultural Purchases by China, Greer Says</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        U.S. Trade Representative Jamieson Greer told Bloomberg Television that the U.S. anticipates China will commit to billions in American agricultural purchases as the Trump-Xi summit in Beijing concludes. Greer specifically referenced 'double-digit billion' annual aggregate agricultural purchases — not just soybeans — over a three-year period. The average U.S. tariff on Chinese goods currently stands at 47.5% following the South Korea summit, up from 3.1% before Trump's first term, per the Peterson Institute for International Economics. Two-way goods trade between the U.S. and China totaled approximately $415 billion in 2025, down sharply from a $690 billion peak in 2022.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/news/articles/2026-05-15/us-expects-dramatic-agricultural-purchases-by-china-greer-says" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Wall Street Journal</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 15, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Trump-Xi Summit Concludes: China Agrees to Buy U.S. Oil and 200 Boeing Aircraft; 'Strategic Stability' Framework Set for Three Years</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        President Trump concluded his two-day Beijing summit with President Xi Jinping on May 15, with Trump announcing China agreed to purchase U.S. oil and 200 Boeing aircraft. Xi and Trump agreed to a 'strategic stability' framework to govern the bilateral relationship for the next three years, though no major formal trade agreements were announced before Trump departed. The two leaders agreed that the Strait of Hormuz must remain open for global energy flows and invited Xi for a White House visit on September 24; the one-year trade truce set in October 2025 remains in place, with average U.S. tariffs on Chinese goods at 47.5%.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.wsj.com/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">BisNow</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 14, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">House Cuts Build-To-Rent Ban From Latest Bill, Targets Vote Next Week</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        The House removed a ban on build-to-rent housing from its latest legislative package and is targeting a vote the following week on the modified bill, after President Trump publicly pushed House members to pass a housing bill that had included a forced-sale provision for BTR properties. The real estate lobby had sounded the alarm over the forced-sale provision in the original bill, arguing it would chill investment in single-family rental development. The modified bill's passage timeline remains uncertain pending negotiations among House members.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bisnow.com/national/news/build-to-rent/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">At China Summit, Trump Has CEOs, But Xi Has Leverage on Tariffs, Taiwan</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        President Trump arrived in Beijing for a high-stakes summit with Chinese President Xi Jinping, bringing an entourage of 16 A-list executives including Tesla's Elon Musk, Apple's Tim Cook, and Boeing's Kelly Ortberg. The two leaders are negotiating across trade, tech, Taiwan, and Iran-related issues, with each side pursuing different leverage strategies. U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng held three hours of preparatory talks in Seoul on May 13. A trade truce reached last October is expected to be extended, with modest policy announcements anticipated.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/news/articles/2026-05-13/at-china-summit-trump-has-ceos-but-xi-has-leverage-on-tariffs-taiwan" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">US and China Wrap Up Trade Talks With Trump En Route to Beijing</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Trade negotiators led by U.S. Treasury Secretary Scott Bessent and China's Vice Premier He Lifeng concluded approximately three hours of talks in Seoul to prepare for the Trump-Xi summit. The Iran war and bilateral trade developments were among the top agenda items. The teams last met face-to-face in Paris two months ago, shortly after the U.S. and Israel attacked Iran. No joint statement was issued following the preliminary meeting.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/news/articles/2026-05-13/china-s-top-trade-negotiator-meets-lee-ahead-of-bessent-talks" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Wall Street Journal</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Trump, Xi to Weigh Tariff Cuts on $30 Billion of Imports in Managed Trade Push</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        The U.S. and China are expected to move toward a managed trade mechanism for non-sensitive goods at this week's summit, with each side potentially identifying approximately $30 billion worth of goods on which they could reduce tariffs. The proposed 'Board of Trade' mechanism was first raised by U.S. Trade Representative Jamieson Greer in March as a key deliverable. China currently maintains a general 10% extra tariff on all U.S. imports, matching the current temporary 10% U.S. tariff on Chinese goods. Four people familiar with the Trump administration's objectives expected a $30 billion-for-$30 billion trade-barrier reduction framework.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.usnews.com/news/top-news/articles/2026-05-13/trump-xi-to-weigh-tariff-cuts-on-30-billion-of-imports-in-managed-trade-push" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Trump-Xi Summit on May 14–15 to Tackle AI Guardrails Between World's Two Largest Economies</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        A Trump-Xi summit is scheduled for May 14–15, 2026, with AI governance and guardrails between the U.S. and China as a key agenda item, according to market coverage from multiple outlets including Bloomberg. The summit follows the November 2025 one-year tariff truce extension, which reduced bilateral tariffs on each other's goods and included reductions in U.S. fentanyl-related tariffs on China from 20% to 10% through November 10, 2026. Semiconductor and technology company stocks are expected to react sharply to any outcome. U.S. universal tariffs officially remain at 10% until July 24, with threats they could rise to 15% if no broader deal is reached.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/news/articles/2026-05-13/trump-xi-summit-ai-tech-trade" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Yahoo Finance / Washington Post</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Trump Heads to Beijing With Tariff Uncertainty, AI Communication, and Strait of Hormuz in Focus</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        President Trump departed for Beijing on May 12 for a summit with President Xi Jinping scheduled for May 14–15, with tariffs, AI policy, and China's role in the Iran conflict as top agenda items. The White House indicated Trump will announce new trade deals, most likely focused on agriculture, energy, and aerospace, with Boeing executives accompanying the trip and new Chinese aircraft purchases expected. The administration also plans to announce a new US-China 'board of trade' and 'board of investment' to improve communication around the AI rivalry. Top CEOs including Elon Musk of Tesla and Tim Cook of Apple are also on the trip.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://finance.yahoo.com/economy/policy/article/trump-heads-to-beijing-with-tariff-uncertainty-ai-communication-and-strait-of-hormuz-in-focus-125943647.html" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">US Beef Prices Hit Record Highs as Trump Team Holds Off on Import Tariff Cuts</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        The Trump administration delayed a previously planned executive action to temporarily suspend beef import tariffs, despite earlier reports that the move was imminent. A White House official said the administration is still fine-tuning potential directives aimed at alleviating temporary domestic beef shortages. Beef prices have reached record highs as a result of supply constraints. The delay came after Trump was expected to sign the directives on Monday.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/news/articles/2026-05-12/trump-team-pauses-effort-to-lower-tariffs-on-beef-imports" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Trump-Xi Summit Aims for Stability on Trade; Breakthroughs Unlikely</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        President Trump arrived in Beijing for his first visit since taking office, with trade and tariffs expected to dominate discussions with President Xi Jinping. Since Trump's last Beijing visit, U.S.-China merchandise trade has fallen by more than one-third. A one-year tariff truce between the two countries is in effect through November 10, 2026, including a reduction of fentanyl-related duties from 20% to 10%. Analysts described the summit as stability-focused with little expectation of major new breakthroughs on trade structure.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.washingtonpost.com/politics/2026/05/12/trump-xi-summit-economy/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Trump and Xi Dialed Down the Trade War, But Challenges Lurk at Their China Summit</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        China's share of goods imported to the U.S. has fallen from 22% at the start of Trump's first term in 2017 to just 7.5% in the first three months of 2026, according to U.S. Census Bureau data analyzed by the Peterson Institute for International Economics. A trade truce reached last October is likely to be extended at the Beijing summit, with China potentially announcing plans to buy American soybeans, beef, and Boeing aircraft. U.S. officials have proposed creating a Board of Trade to keep the sides engaged on economic issues. Despite Trump's claims about profiting from China trade, China bought nearly $50 billion less in American products last year than in 2022.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bnnbloomberg.ca/tariffs/2026/05/12/trump-and-xi-dialed-down-the-trade-war-but-challenges-lurk-at-their-china-summit/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #f57c00; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #f57c00;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• March 31, 2026</span>
-        <span style="background: #fff5f5; color: #f57c00; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Bloomberg: Trump Tariffs on Vietnam and Southeast Asia Reshape Global Supply Chains One Year After Liberation Day</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        One year after 'Liberation Day,' Bloomberg's analysis finds that Trump's tariffs have fueled a shift in global supply chains, though not in the way the administration envisioned. China was targeted with tariffs peaking at 125%, leading to a US-China one-year truce reached in October, while China's overall trade surplus soared to record levels as it pivoted exports to markets outside the US. Universal tariffs officially sit at 10% until July 24, with threats they could rise to 15%, and the White House launched new trade investigations into 16 and 60 economies respectively, including Vietnam — now identified as a bigger tariff target due to its large US trade surplus. Foxconn and other major manufacturers continue expanding capacity in Vietnam's Bac Ninh province.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/graphics/2026-vietnam-trump-tariffs-supply-chain/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #f57c00; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-  <div style="background: #000; color: #666; padding: 2rem; text-align: center; font-family: -apple-system, sans-serif; font-size: 0.75rem; border-top: 3px solid #c8102e; margin-top: 3rem;">
-    <div style="margin-bottom: 0.5rem; color: #999;">SoCal Industrial Journal</div>
-    <div style="margin-bottom: 0.75rem;">Bloomberg • Wall Street Journal • Green Street • Connect CRE • BisNow • CoStar • GlobeSt</div>
-    <div style="font-size: 0.7rem; color: #555;">Rolling 72-hour window • Updates every 2 hours</div>
+  <h3 class="article-headline">Greer: US, China Willing to Continue Trade Truce</h3>
+  <p class="article-summary">U.S. Trade Representative Jamieson Greer, speaking exclusively to Bloomberg on the sidelines of the Trump-Xi summit in Beijing, signaled cautious optimism that US-China trade relations are stabilizing. Greer cited progress on agriculture purchases and rare earth supplies, though tariffs and supply chain issues remain unresolved. He stated the U.S. expects China to commit to 'double-digit billion' agricultural purchases per year over the next three years. The two presidents are anticipated to extend the one-year trade war pause agreed to in South Korea in October 2025.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/videos/2026-05-15/greer-us-china-willing-to-continue-trade-truce-video" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
   </div>
-
 </div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">US Expects Dramatic Agricultural Purchases by China, Greer Says</h3>
+  <p class="article-summary">U.S. Trade Representative Jamieson Greer told Bloomberg Television that the U.S. anticipates China will commit to billions in American agricultural purchases as the Trump-Xi summit in Beijing concludes. Greer specifically referenced 'double-digit billion' annual aggregate agricultural purchases — not just soybeans — over a three-year period. The average U.S. tariff on Chinese goods currently stands at 47.5% following the South Korea summit, up from 3.1% before Trump's first term, per the Peterson Institute for International Economics. Two-way goods trade between the U.S. and China totaled approximately $415 billion in 2025, down sharply from a $690 billion peak in 2022.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-15/us-expects-dramatic-agricultural-purchases-by-china-greer-says" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Trump-Xi Summit Concludes: China Agrees to Buy U.S. Oil and 200 Boeing Aircraft; 'Strategic Stability' Framework Set for Three Years</h3>
+  <p class="article-summary">President Trump concluded his two-day Beijing summit with President Xi Jinping on May 15, with Trump announcing China agreed to purchase U.S. oil and 200 Boeing aircraft. Xi and Trump agreed to a 'strategic stability' framework to govern the bilateral relationship for the next three years, though no major formal trade agreements were announced before Trump departed. The two leaders agreed that the Strait of Hormuz must remain open for global energy flows and invited Xi for a White House visit on September 24; the one-year trade truce set in October 2025 remains in place, with average U.S. tariffs on Chinese goods at 47.5%.</p>
+  <div>
+    <a href="https://www.wsj.com/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>BisNow</span>
+    <span class="date">· May 14, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">House Cuts Build-To-Rent Ban From Latest Bill, Targets Vote Next Week</h3>
+  <p class="article-summary">The House removed a ban on build-to-rent housing from its latest legislative package and is targeting a vote the following week on the modified bill, after President Trump publicly pushed House members to pass a housing bill that had included a forced-sale provision for BTR properties. The real estate lobby had sounded the alarm over the forced-sale provision in the original bill, arguing it would chill investment in single-family rental development. The modified bill's passage timeline remains uncertain pending negotiations among House members.</p>
+  <div>
+    <a href="https://www.bisnow.com/national/news/build-to-rent/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">At China Summit, Trump Has CEOs, But Xi Has Leverage on Tariffs, Taiwan</h3>
+  <p class="article-summary">President Trump arrived in Beijing for a high-stakes summit with Chinese President Xi Jinping, bringing an entourage of 16 A-list executives including Tesla's Elon Musk, Apple's Tim Cook, and Boeing's Kelly Ortberg. The two leaders are negotiating across trade, tech, Taiwan, and Iran-related issues, with each side pursuing different leverage strategies. U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng held three hours of preparatory talks in Seoul on May 13. A trade truce reached last October is expected to be extended, with modest policy announcements anticipated.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-13/at-china-summit-trump-has-ceos-but-xi-has-leverage-on-tariffs-taiwan" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">US and China Wrap Up Trade Talks With Trump En Route to Beijing</h3>
+  <p class="article-summary">Trade negotiators led by U.S. Treasury Secretary Scott Bessent and China's Vice Premier He Lifeng concluded approximately three hours of talks in Seoul to prepare for the Trump-Xi summit. The Iran war and bilateral trade developments were among the top agenda items. The teams last met face-to-face in Paris two months ago, shortly after the U.S. and Israel attacked Iran. No joint statement was issued following the preliminary meeting.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-13/china-s-top-trade-negotiator-meets-lee-ahead-of-bessent-talks" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Trump, Xi to Weigh Tariff Cuts on $30 Billion of Imports in Managed Trade Push</h3>
+  <p class="article-summary">The U.S. and China are expected to move toward a managed trade mechanism for non-sensitive goods at this week's summit, with each side potentially identifying approximately $30 billion worth of goods on which they could reduce tariffs. The proposed 'Board of Trade' mechanism was first raised by U.S. Trade Representative Jamieson Greer in March as a key deliverable. China currently maintains a general 10% extra tariff on all U.S. imports, matching the current temporary 10% U.S. tariff on Chinese goods. Four people familiar with the Trump administration's objectives expected a $30 billion-for-$30 billion trade-barrier reduction framework.</p>
+  <div>
+    <a href="https://www.usnews.com/news/top-news/articles/2026-05-13/trump-xi-to-weigh-tariff-cuts-on-30-billion-of-imports-in-managed-trade-push" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 13, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Trump-Xi Summit on May 14–15 to Tackle AI Guardrails Between World's Two Largest Economies</h3>
+  <p class="article-summary">A Trump-Xi summit is scheduled for May 14–15, 2026, with AI governance and guardrails between the U.S. and China as a key agenda item, according to market coverage from multiple outlets including Bloomberg. The summit follows the November 2025 one-year tariff truce extension, which reduced bilateral tariffs on each other's goods and included reductions in U.S. fentanyl-related tariffs on China from 20% to 10% through November 10, 2026. Semiconductor and technology company stocks are expected to react sharply to any outcome. U.S. universal tariffs officially remain at 10% until July 24, with threats they could rise to 15% if no broader deal is reached.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-13/trump-xi-summit-ai-tech-trade" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Yahoo Finance / Washington Post</span>
+    <span class="date">· May 12, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Trump Heads to Beijing With Tariff Uncertainty, AI Communication, and Strait of Hormuz in Focus</h3>
+  <p class="article-summary">President Trump departed for Beijing on May 12 for a summit with President Xi Jinping scheduled for May 14–15, with tariffs, AI policy, and China's role in the Iran conflict as top agenda items. The White House indicated Trump will announce new trade deals, most likely focused on agriculture, energy, and aerospace, with Boeing executives accompanying the trip and new Chinese aircraft purchases expected. The administration also plans to announce a new US-China 'board of trade' and 'board of investment' to improve communication around the AI rivalry. Top CEOs including Elon Musk of Tesla and Tim Cook of Apple are also on the trip.</p>
+  <div>
+    <a href="https://finance.yahoo.com/economy/policy/article/trump-heads-to-beijing-with-tariff-uncertainty-ai-communication-and-strait-of-hormuz-in-focus-125943647.html" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">US Beef Prices Hit Record Highs as Trump Team Holds Off on Import Tariff Cuts</h3>
+  <p class="article-summary">The Trump administration delayed a previously planned executive action to temporarily suspend beef import tariffs, despite earlier reports that the move was imminent. A White House official said the administration is still fine-tuning potential directives aimed at alleviating temporary domestic beef shortages. Beef prices have reached record highs as a result of supply constraints. The delay came after Trump was expected to sign the directives on Monday.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-12/trump-team-pauses-effort-to-lower-tariffs-on-beef-imports" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Trump-Xi Summit Aims for Stability on Trade; Breakthroughs Unlikely</h3>
+  <p class="article-summary">President Trump arrived in Beijing for his first visit since taking office, with trade and tariffs expected to dominate discussions with President Xi Jinping. Since Trump's last Beijing visit, U.S.-China merchandise trade has fallen by more than one-third. A one-year tariff truce between the two countries is in effect through November 10, 2026, including a reduction of fentanyl-related duties from 20% to 10%. Analysts described the summit as stability-focused with little expectation of major new breakthroughs on trade structure.</p>
+  <div>
+    <a href="https://www.washingtonpost.com/politics/2026/05/12/trump-xi-summit-economy/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Trump and Xi Dialed Down the Trade War, But Challenges Lurk at Their China Summit</h3>
+  <p class="article-summary">China's share of goods imported to the U.S. has fallen from 22% at the start of Trump's first term in 2017 to just 7.5% in the first three months of 2026, according to U.S. Census Bureau data analyzed by the Peterson Institute for International Economics. A trade truce reached last October is likely to be extended at the Beijing summit, with China potentially announcing plans to buy American soybeans, beef, and Boeing aircraft. U.S. officials have proposed creating a Board of Trade to keep the sides engaged on economic issues. Despite Trump's claims about profiting from China trade, China bought nearly $50 billion less in American products last year than in 2022.</p>
+  <div>
+    <a href="https://www.bnnbloomberg.ca/tariffs/2026/05/12/trump-and-xi-dialed-down-the-trade-war-but-challenges-lurk-at-their-china-summit/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#8B4A3A;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· March 31, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Bloomberg: Trump Tariffs on Vietnam and Southeast Asia Reshape Global Supply Chains One Year After Liberation Day</h3>
+  <p class="article-summary">One year after 'Liberation Day,' Bloomberg's analysis finds that Trump's tariffs have fueled a shift in global supply chains, though not in the way the administration envisioned. China was targeted with tariffs peaking at 125%, leading to a US-China one-year truce reached in October, while China's overall trade surplus soared to record levels as it pivoted exports to markets outside the US. Universal tariffs officially sit at 10% until July 24, with threats they could rise to 15%, and the White House launched new trade investigations into 16 and 60 economies respectively, including Vietnam — now identified as a bigger tariff target due to its large US trade surplus. Foxconn and other major manufacturers continue expanding capacity in Vietnam's Bac Ninh province.</p>
+  <div>
+    <a href="https://www.bloomberg.com/graphics/2026-vietnam-trump-tariffs-supply-chain/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-name">SoCal Industrial Journal</div>
+  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt</div>
+  <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
+</footer>
+
 </body>
 </html>

@@ -1,236 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supply Chain & Logistics | SoCal Industrial Journal</title>
-    <meta http-equiv="refresh" content="7200">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supply Chain & Logistics | SoCal Industrial Journal</title>
+  <meta http-equiv="refresh" content="7200">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+        :root {
+            --cream: #FAF7F2;
+            --parchment: #F0EBE1;
+            --ink: #1C1917;
+            --ink-light: #44403C;
+            --rule: #D6CFC4;
+            --accent: #B5451B;
+            --accent-warm: #C9622F;
+            --muted: #78716C;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
         body {
-            font-family: Georgia, serif;
-            background: #fafafa;
-            color: #000;
+            font-family: 'Jost', sans-serif;
+            background: var(--cream);
+            color: var(--ink);
             line-height: 1.6;
-            padding-top: 160px;
+            -webkit-font-smoothing: antialiased;
         }
-        @media (max-width: 768px) {
-            body { padding-top: 180px; }
+
+        /* ── Header ── */
+        .site-header {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            background: var(--ink);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 0 2px 20px rgba(28,25,23,0.25);
         }
-    </style>
+        .header-inner {
+            text-align: center;
+            padding: 1.25rem 2rem 0.75rem;
+            border-bottom: 1px solid rgba(255,255,255,0.07);
+        }
+        .masthead {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 2.1rem;
+            font-weight: 300;
+            letter-spacing: 0.06em;
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+        .masthead-sub {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 400;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.4);
+        }
+        .site-nav {
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            background: var(--ink);
+            padding: 0 2rem;
+            overflow-x: auto;
+        }
+        .site-nav a {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 500;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.45);
+            text-decoration: none;
+            padding: 0.65rem 1rem;
+            border-bottom: 2px solid transparent;
+            transition: color 0.2s, border-color 0.2s;
+            white-space: nowrap;
+        }
+        .site-nav a:hover { color: rgba(255,255,255,0.85); }
+        .site-nav a.active {
+            color: #fff;
+            border-bottom-color: var(--accent);
+        }
+
+        /* ── Bottom Line banner ── */
+        .bottom-line {
+            background: var(--ink);
+            border-left: 3px solid var(--accent);
+            padding: 1.75rem 2.25rem;
+            margin-bottom: 2.5rem;
+        }
+        .bottom-line-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.6rem;
+        }
+        .bottom-line-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.6;
+            color: rgba(255,255,255,0.92);
+        }
+
+        /* ── Front Page category cards ── */
+        .fp-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .fp-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.18s ease, box-shadow 0.18s ease;
+        }
+        .fp-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(28,25,23,0.1);
+        }
+        .fp-card-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .fp-card-count {
+            background: var(--cat-color, var(--accent));
+            color: #fff;
+            font-size: 0.55rem;
+            padding: 0.1rem 0.4rem;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+        .fp-card-summary {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: var(--ink-light);
+            flex: 1;
+            margin-bottom: 1.25rem;
+        }
+        .fp-card-cta {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+        }
+
+        /* ── Article grid (category pages) ── */
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .article-card {
+            background: #fff;
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--cat-color, var(--accent));
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .article-meta {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--cat-color, var(--accent));
+            margin-bottom: 0.65rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+        .article-meta .date {
+            color: var(--muted);
+            font-weight: 400;
+        }
+        .article-headline {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.05rem;
+            font-weight: 400;
+            line-height: 1.35;
+            color: var(--ink);
+            margin-bottom: 0.85rem;
+        }
+        .article-summary {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 300;
+            line-height: 1.7;
+            color: var(--ink-light);
+            flex: 1;
+            margin-bottom: 1.1rem;
+        }
+        .article-read {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink);
+            text-decoration: none;
+            border-bottom: 1px solid var(--rule);
+            padding-bottom: 1px;
+            display: inline-block;
+            transition: border-color 0.15s;
+        }
+        .article-read:hover { border-color: var(--ink); }
+
+        /* ── Page header (category pages) ── */
+        .page-header {
+            border-bottom: 1px solid var(--rule);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+        .back-link {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        .back-link:hover { color: var(--accent); }
+        .page-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 2.75rem;
+            font-weight: 300;
+            letter-spacing: 0.02em;
+            color: var(--ink);
+            margin-bottom: 0.35rem;
+        }
+        .page-count {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.7rem;
+            color: var(--muted);
+            letter-spacing: 0.05em;
+        }
+
+        /* ── Footer ── */
+        .site-footer {
+            background: var(--ink);
+            color: rgba(255,255,255,0.35);
+            padding: 2rem;
+            text-align: center;
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            letter-spacing: 0.08em;
+            margin-top: 4rem;
+            border-top: 3px solid var(--accent);
+        }
+        .site-footer .footer-name {
+            color: rgba(255,255,255,0.6);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            font-size: 0.7rem;
+        }
+        .site-footer .footer-sources { margin-bottom: 0.5rem; }
+
+        /* ── Divider ── */
+        .ruled { border: none; border-top: 1px solid var(--rule); margin: 2rem 0; }
+
+        /* ── Status badge ── */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            background: #EEFAF2;
+            color: #2D6A4F;
+            font-family: 'Jost', sans-serif;
+            font-size: 0.62rem;
+            font-weight: 500;
+            letter-spacing: 0.06em;
+            padding: 0.25rem 0.65rem;
+            border-radius: 2px;
+        }
+        .status-dot {
+            width: 5px; height: 5px;
+            background: #2D6A4F;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        /* ── Paywall badge ── */
+        .paywall-badge {
+            font-size: 0.55rem;
+            color: var(--muted);
+            border: 1px solid var(--rule);
+            padding: 0.1rem 0.35rem;
+            border-radius: 2px;
+        }
+
+        /* ── Empty state ── */
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 3rem;
+            background: var(--parchment);
+            border: 1px solid var(--rule);
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.1rem;
+            color: var(--muted);
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 900px) {
+            .fp-grid, .article-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .fp-grid, .article-grid { grid-template-columns: 1fr; }
+            .masthead { font-size: 1.5rem; }
+            body { padding-top: 170px !important; }
+        }
+
+    body { padding-top: 120px; }
+    @media (max-width: 600px) { body { padding-top: 140px; } }
+  </style>
 </head>
 <body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="masthead">SoCal Industrial Journal</a>
+    <div class="masthead-sub">Friday, May 15, 2026 &nbsp;·&nbsp; Rolling 72-Hour Brief</div>
+  </div>
+  <nav class="site-nav">
+    <a href="index.html" class="site-nav-link" style="">Front Page</a>
+    <a href="economics.html" style="" class="site-nav-link">Economics</a><a href="industries.html" style="" class="site-nav-link">Industries</a><a href="business.html" style="" class="site-nav-link">Business</a><a href="tech.html" style="" class="site-nav-link">Tech</a><a href="politics.html" style="" class="site-nav-link">Politics</a><a href="supply-chain.html" style="color:#fff; border-bottom-color:var(--accent);" class="site-nav-link">Supply</a><a href="local-deals.html" style="" class="site-nav-link">Local</a>
+  </nav>
+</header>
 
-  <div style="position: fixed; top: 0; left: 0; right: 0; background: #000; color: #fff; z-index: 1000; border-bottom: 3px solid #c8102e; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <div style="text-align: center; padding: 1.5rem 2rem 1rem;">
-      <a href="index.html" style="text-decoration: none; color: inherit;">
-        <div style="font-family: 'Playfair Display', Georgia, serif; font-size: 2rem; font-weight: 400; letter-spacing: -0.02em; margin-bottom: 0.5rem;">SoCal Industrial Journal</div>
-      </a>
-      <div style="font-size: 0.7rem; color: #999; letter-spacing: 0.15em; text-transform: uppercase;">Friday, May 15, 2026 • Rolling 72-Hour Brief</div>
-    </div>
+<main style="max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem;">
+
+  <div class="page-header">
+    <a href="index.html" class="back-link">← Front Page</a>
+    <h1 class="page-title">◍ Supply Chain & Logistics</h1>
+    <p class="page-count">9 stories from the past 72 hours</p>
+  </div>
+
+  <div class="article-grid">
+    <div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>Bloomberg / Marketplace</span>
+    <span class="date">· May 14, 2026</span>
     
-    <div style="background: #fff; border-top: 1px solid #333; padding: 0.75rem 2rem; display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-      <a href="index.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Front Page</a>
-      <a href="economics.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Economics</a>
-        <a href="industries.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Industries</a>
-        <a href="business.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Business</a>
-        <a href="tech.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Tech</a>
-        <a href="politics.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Politics</a>
-        <a href="supply-chain.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Supply Chain</a>
-        <a href="local-deals.html" style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #666; text-decoration: none;">Local Deals</a>
-    </div>
   </div>
-
-<div style="max-width: 900px; margin: 0 auto; padding: 2rem;">
-  
-  <div style="margin-bottom: 3rem;">
-    <a href="index.html" style="font-family: -apple-system, sans-serif; font-size: 0.8rem; color: #795548; text-decoration: none; margin-bottom: 1rem; display: inline-block;">← Back to Front Page</a>
-    <h1 style="font-family: 'Playfair Display', Georgia, serif; font-size: 2.5rem; font-weight: 400; color: #000; margin-bottom: 0.5rem;">📦 Supply Chain & Logistics</h1>
-    <p style="font-size: 0.95rem; color: #666;">9 stories</p>
+  <h3 class="article-headline">New Sales and Inventory Numbers Reflect Cautious Consumers and Retailers</h3>
+  <p class="article-summary">New retail sales and wholesale inventory data show consumers growing more cautious as inflation accelerates, with the nominal retail sales increase reflecting higher prices rather than more units sold. Some wholesalers are building inventories in anticipation of further fuel cost increases, while demand for big-ticket items such as cars and furniture is softening. Supply chain management experts noted wholesalers are front-loading purchases ahead of back-to-school and holiday seasons to lock in current prices before further inflation.</p>
+  <div>
+    <a href="https://www.marketplace.org/story/2026/05/14/consumers-retailers-grow-cautious-as-inflation-climbs" target="_blank" class="article-read">Read full story</a>
   </div>
-
-  
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #795548; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #795548;">Bloomberg / Marketplace</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 14, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">New Sales and Inventory Numbers Reflect Cautious Consumers and Retailers</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        New retail sales and wholesale inventory data show consumers growing more cautious as inflation accelerates, with the nominal retail sales increase reflecting higher prices rather than more units sold. Some wholesalers are building inventories in anticipation of further fuel cost increases, while demand for big-ticket items such as cars and furniture is softening. Supply chain management experts noted wholesalers are front-loading purchases ahead of back-to-school and holiday seasons to lock in current prices before further inflation.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.marketplace.org/story/2026/05/14/consumers-retailers-grow-cautious-as-inflation-climbs" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #795548; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #795548;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 14, 2026</span>
-        <span style="background: #fff5f5; color: #795548; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Hapag-Lloyd Q1 2026 Loss: Strait of Hormuz Chaos and Weak Freight Rates Hit Shipping</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Hapag-Lloyd reported a Q1 2026 net loss of €219 million ($257 million), compared to a profit of €446 million in Q1 2025, as lower freight rates and the effective closure of the Strait of Hormuz disrupted global shipping operations. Average freight rates fell 9.5% year-over-year to $1,330 per TEU, and hundreds of commercial vessels carrying up to 20,000 seafarers remained unable to transit the Strait since the U.S. and Israel began attacks on Iran in late February 2026. Brent crude prices nearly doubled during the quarter, ending March at $118.35 per barrel, while low-sulfur bunker fuel prices surged more than 80% from year-end 2025 levels. The company maintained its full-year 2026 EBITDA guidance of $1.1 billion to $3.1 billion but warned the outlook remains subject to 'considerable uncertainty.'
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/news/newsletters/2026-05-13/container-shipping-demand" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #795548; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #795548; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #795548;">Bloomberg/AP</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 13, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">US and China Seek to Repair Damage from Tariff War That Sent Trade Into a Freefall</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        President Trump arrived in Beijing on May 13, 2026, for a summit with President Xi Jinping aimed at stabilizing the U.S.-China trade relationship after a tumultuous year. U.S. tariffs on Chinese goods currently stand at approximately 48%, even after coming down from triple-digit levels briefly hit in 2025; China's share of U.S. trade has fallen from over 13% in 2016 to 6.4% last year. Many American companies have shifted production to Vietnam and India, while Chinese manufacturers have scrambled to find customers in Europe and Southeast Asia. Factory owners in China expressed hopes for at least incremental improvement, though prospects for a return to pre-tariff trade volumes are considered slim.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.baltimoresun.com/2026/05/13/us-china-trump-exports/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #795548; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #795548;">Bloomberg</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 12, 2026</span>
-        <span style="background: #fff5f5; color: #795548; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">US to Release New Data on Global Oil Reserves, Hormuz Shipments Quarterly</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        The U.S. Energy Information Administration announced it will begin releasing new quarterly data on global strategic reserves and petroleum and LNG flows through key shipping choke points, beginning Wednesday. The new energy security datasets are designed to track how the war in Iran has upended global energy supply and altered key assumptions about oil markets. The report will provide indicators of how Strait of Hormuz disruptions are affecting global supply chains.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.bloomberg.com/news/articles/2026-05-12/us-to-unveil-new-data-spotlighting-hormuz-and-global-reserves" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #795548; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #795548; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #795548;">Commercial Carrier Journal</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 11, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Q1 2026 Freight Spending Up Sharply on Tight Capacity; West Region Diesel Hit $6.60/Gallon in March</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Total freight volumes in Q1 2026 were roughly flat quarter-over-quarter, but freight spending surged sharply as tighter capacity lifted costs through fuel surcharges and rate increases. The West region saw diesel prices hit $6.60 per gallon in late March — the highest of any EIA region — driving spending 8.5% higher quarter-over-quarter and 20.5% year-over-year despite only modest volume growth. The Midwest was the quarter's standout performer with shipments rising 5.4% sequentially and 9.5% year-over-year, though the region also saw the steepest spending surge at 19.6% sequentially. A weak used truck market limited fleet foreclosures and driver pool expansion, with ATA chief economist Bob Costello noting: 'This is a market being reshaped by supply, not demand.'
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.ccjdigital.com/business/article/15824843/rising-fuel-costs-and-tight-capacity-drive-q1-2026-freight-spending" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #795548; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #795548;">Logistics Viewpoints</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 8, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Strait of Hormuz Disruptions Force Fundamental Shift in Energy Logistics Network Design</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Geopolitical instability in the Strait of Hormuz — which handles roughly 20% of the world's oil and liquefied natural gas — is forcing a fundamental shift in energy logistics, moving the industry away from lowest-cost network design toward a risk-adjusted model. Repeated disruptions have transformed infrastructure planning around pipelines, storage terminals, and alternative routing, with companies building redundancy into their energy supply chains. Diesel prices have been highly sensitive to Hormuz developments, complicating freight rate signals across all transportation modes and reinforcing the need for fuel cost and risk management strategies for logistics operators. The shift is affecting both domestic U.S. energy logistics and global shipping routes serving U.S. importers.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://logisticsviewpoints.com/2026/05/08/supply-chain-and-logistics-news-week-of-may-7th-2026/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #795548; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #795548;">GlobeSt</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 5, 2026</span>
-        <span style="background: #fff5f5; color: #795548; padding: 0.15rem 0.4rem; font-family: -apple-system, sans-serif; font-size: 0.6rem; border-radius: 2px; border: 1px solid #ffe0e0; margin-left: 0.5rem;">🔒</span>
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Amazon Expands Into Full-Scale Third-Party Logistics Services</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        Amazon officially launched Amazon Supply Chain Services (ASCS), decoupling its logistics infrastructure from its retail marketplace to operate as a standalone service for all businesses. The platform opens Amazon's multimodal freight, automated warehousing, and last-mile parcel delivery networks to companies regardless of whether they sell on Amazon, similar to the trajectory of Amazon Web Services. Major early adopters include Procter & Gamble, 3M, and Lands' End, who are using the service to move raw materials through finished products. Amazon currently moves 13 billion items annually and is offering 96.4% on-time delivery rates, positioning ASCS as a direct competitor to traditional 3PLs and carriers like FedEx and UPS.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.globest.com/2026/05/05/amazon-expands-into-full-scale-third-party-logistics-services/" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        <a href="mailto:Brendan.ridge@jll.com" style="font-family: -apple-system, sans-serif; color: #795548; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem;">Request access →</a>
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #795548; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #795548;">Semafor</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• February 20, 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">Port of Long Beach Commits $3.2 Billion 10-Year Capital Plan, Targeting Triple On-Dock Rail Capacity</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        New Port of Long Beach CEO Noel Hacegaba greenlit a $3.2 billion, 10-year capital spending plan — the largest of any North American port — forecasting that U.S. import volumes will continue growing faster than the overall economy despite tariff pressures. Approximately $2 billion of the investment is dedicated to rail infrastructure, with a goal of tripling on-dock rail capacity and reducing ship-to-train container transfer time from four days to 24 hours. Hacegaba and Brookfield are also exploring building what would be the world's first conventional, net-zero container terminal at the port. The port expects to double its import volume by 2050.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.semafor.com/article/02/20/2026/why-the-port-of-long-beach-is-betting-that-us-imports-will-continue-to-grow" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-    <div style="background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #795548; padding: 2rem; margin-bottom: 1.5rem;">
-      <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #795548;">FreightWaves</span>
-        <span style="font-family: -apple-system, sans-serif; font-size: 0.7rem; color: #999;">• May 2026</span>
-        
-      </div>
-      
-      <h3 style="font-family: Georgia, serif; font-size: 1.75rem; font-weight: 700; line-height: 1.3; margin: 0 0 1rem; color: #000;">FreightWaves May 2026 State of the Industry: U.S. Manufacturing Returns to Expansion, Intermodal Growth Strong</h3>
-      
-      <p style="font-family: Georgia, serif; font-size: 1rem; line-height: 1.7; color: #333; margin: 0 0 1.25rem;">
-        FreightWaves' May 2026 State of the Industry white paper reports that U.S. manufacturing activity has returned to expansion, supporting flatbed, rail, and LTL demand despite broader economic mixed signals. Tight truckload conditions and attractive rate spreads are driving strong domestic intermodal growth, supported by improved service levels and available container capacity. Retail and consumer spending continue to hold up even as inflation and energy costs pressure sentiment, helping sustain freight volumes in the near term. Diesel prices remain highly sensitive to geopolitical developments — particularly the Iran conflict — complicating rate signals and reinforcing the need for cost and risk management strategies.
-      </p>
-      
-      <div style="display: flex; align-items: center;">
-        <a href="https://www.freightwaves.com/news/white-paper-state-of-the-industry-may-2026" target="_blank" style="font-family: -apple-system, sans-serif; color: #000; text-decoration: none; font-weight: 500; font-size: 0.85rem; border-bottom: 1px solid #000; padding-bottom: 2px;">Read full story</a>
-        
-      </div>
-    </div>
-
-  <div style="background: #000; color: #666; padding: 2rem; text-align: center; font-family: -apple-system, sans-serif; font-size: 0.75rem; border-top: 3px solid #c8102e; margin-top: 3rem;">
-    <div style="margin-bottom: 0.5rem; color: #999;">SoCal Industrial Journal</div>
-    <div style="margin-bottom: 0.75rem;">Bloomberg • Wall Street Journal • Green Street • Connect CRE • BisNow • CoStar • GlobeSt</div>
-    <div style="font-size: 0.7rem; color: #555;">Rolling 72-hour window • Updates every 2 hours</div>
-  </div>
-
 </div>
+<div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Hapag-Lloyd Q1 2026 Loss: Strait of Hormuz Chaos and Weak Freight Rates Hit Shipping</h3>
+  <p class="article-summary">Hapag-Lloyd reported a Q1 2026 net loss of €219 million ($257 million), compared to a profit of €446 million in Q1 2025, as lower freight rates and the effective closure of the Strait of Hormuz disrupted global shipping operations. Average freight rates fell 9.5% year-over-year to $1,330 per TEU, and hundreds of commercial vessels carrying up to 20,000 seafarers remained unable to transit the Strait since the U.S. and Israel began attacks on Iran in late February 2026. Brent crude prices nearly doubled during the quarter, ending March at $118.35 per barrel, while low-sulfur bunker fuel prices surged more than 80% from year-end 2025 levels. The company maintained its full-year 2026 EBITDA guidance of $1.1 billion to $3.1 billion but warned the outlook remains subject to 'considerable uncertainty.'</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/newsletters/2026-05-13/container-shipping-demand" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>Bloomberg/AP</span>
+    <span class="date">· May 13, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">US and China Seek to Repair Damage from Tariff War That Sent Trade Into a Freefall</h3>
+  <p class="article-summary">President Trump arrived in Beijing on May 13, 2026, for a summit with President Xi Jinping aimed at stabilizing the U.S.-China trade relationship after a tumultuous year. U.S. tariffs on Chinese goods currently stand at approximately 48%, even after coming down from triple-digit levels briefly hit in 2025; China's share of U.S. trade has fallen from over 13% in 2016 to 6.4% last year. Many American companies have shifted production to Vietnam and India, while Chinese manufacturers have scrambled to find customers in Europe and Southeast Asia. Factory owners in China expressed hopes for at least incremental improvement, though prospects for a return to pre-tariff trade volumes are considered slim.</p>
+  <div>
+    <a href="https://www.baltimoresun.com/2026/05/13/us-china-trump-exports/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 12, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">US to Release New Data on Global Oil Reserves, Hormuz Shipments Quarterly</h3>
+  <p class="article-summary">The U.S. Energy Information Administration announced it will begin releasing new quarterly data on global strategic reserves and petroleum and LNG flows through key shipping choke points, beginning Wednesday. The new energy security datasets are designed to track how the war in Iran has upended global energy supply and altered key assumptions about oil markets. The report will provide indicators of how Strait of Hormuz disruptions are affecting global supply chains.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-12/us-to-unveil-new-data-spotlighting-hormuz-and-global-reserves" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>Commercial Carrier Journal</span>
+    <span class="date">· May 11, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Q1 2026 Freight Spending Up Sharply on Tight Capacity; West Region Diesel Hit $6.60/Gallon in March</h3>
+  <p class="article-summary">Total freight volumes in Q1 2026 were roughly flat quarter-over-quarter, but freight spending surged sharply as tighter capacity lifted costs through fuel surcharges and rate increases. The West region saw diesel prices hit $6.60 per gallon in late March — the highest of any EIA region — driving spending 8.5% higher quarter-over-quarter and 20.5% year-over-year despite only modest volume growth. The Midwest was the quarter's standout performer with shipments rising 5.4% sequentially and 9.5% year-over-year, though the region also saw the steepest spending surge at 19.6% sequentially. A weak used truck market limited fleet foreclosures and driver pool expansion, with ATA chief economist Bob Costello noting: 'This is a market being reshaped by supply, not demand.'</p>
+  <div>
+    <a href="https://www.ccjdigital.com/business/article/15824843/rising-fuel-costs-and-tight-capacity-drive-q1-2026-freight-spending" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>Logistics Viewpoints</span>
+    <span class="date">· May 8, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Strait of Hormuz Disruptions Force Fundamental Shift in Energy Logistics Network Design</h3>
+  <p class="article-summary">Geopolitical instability in the Strait of Hormuz — which handles roughly 20% of the world's oil and liquefied natural gas — is forcing a fundamental shift in energy logistics, moving the industry away from lowest-cost network design toward a risk-adjusted model. Repeated disruptions have transformed infrastructure planning around pipelines, storage terminals, and alternative routing, with companies building redundancy into their energy supply chains. Diesel prices have been highly sensitive to Hormuz developments, complicating freight rate signals across all transportation modes and reinforcing the need for fuel cost and risk management strategies for logistics operators. The shift is affecting both domestic U.S. energy logistics and global shipping routes serving U.S. importers.</p>
+  <div>
+    <a href="https://logisticsviewpoints.com/2026/05/08/supply-chain-and-logistics-news-week-of-may-7th-2026/" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>GlobeSt</span>
+    <span class="date">· May 5, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Amazon Expands Into Full-Scale Third-Party Logistics Services</h3>
+  <p class="article-summary">Amazon officially launched Amazon Supply Chain Services (ASCS), decoupling its logistics infrastructure from its retail marketplace to operate as a standalone service for all businesses. The platform opens Amazon's multimodal freight, automated warehousing, and last-mile parcel delivery networks to companies regardless of whether they sell on Amazon, similar to the trajectory of Amazon Web Services. Major early adopters include Procter & Gamble, 3M, and Lands' End, who are using the service to move raw materials through finished products. Amazon currently moves 13 billion items annually and is offering 96.4% on-time delivery rates, positioning ASCS as a direct competitor to traditional 3PLs and carriers like FedEx and UPS.</p>
+  <div>
+    <a href="https://www.globest.com/2026/05/05/amazon-expands-into-full-scale-third-party-logistics-services/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com" style="font-family:'Jost',sans-serif;font-size:0.62rem;color:var(--muted);text-decoration:none;letter-spacing:0.05em;">Request access →</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>Semafor</span>
+    <span class="date">· February 20, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Port of Long Beach Commits $3.2 Billion 10-Year Capital Plan, Targeting Triple On-Dock Rail Capacity</h3>
+  <p class="article-summary">New Port of Long Beach CEO Noel Hacegaba greenlit a $3.2 billion, 10-year capital spending plan — the largest of any North American port — forecasting that U.S. import volumes will continue growing faster than the overall economy despite tariff pressures. Approximately $2 billion of the investment is dedicated to rail infrastructure, with a goal of tripling on-dock rail capacity and reducing ship-to-train container transfer time from four days to 24 hours. Hacegaba and Brookfield are also exploring building what would be the world's first conventional, net-zero container terminal at the port. The port expects to double its import volume by 2050.</p>
+  <div>
+    <a href="https://www.semafor.com/article/02/20/2026/why-the-port-of-long-beach-is-betting-that-us-imports-will-continue-to-grow" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+<div class="article-card" style="--cat-color:#4E6B5E;">
+  <div class="article-meta">
+    <span>FreightWaves</span>
+    <span class="date">· May 2026</span>
+    
+  </div>
+  <h3 class="article-headline">FreightWaves May 2026 State of the Industry: U.S. Manufacturing Returns to Expansion, Intermodal Growth Strong</h3>
+  <p class="article-summary">FreightWaves' May 2026 State of the Industry white paper reports that U.S. manufacturing activity has returned to expansion, supporting flatbed, rail, and LTL demand despite broader economic mixed signals. Tight truckload conditions and attractive rate spreads are driving strong domestic intermodal growth, supported by improved service levels and available container capacity. Retail and consumer spending continue to hold up even as inflation and energy costs pressure sentiment, helping sustain freight volumes in the near term. Diesel prices remain highly sensitive to geopolitical developments — particularly the Iran conflict — complicating rate signals and reinforcing the need for cost and risk management strategies.</p>
+  <div>
+    <a href="https://www.freightwaves.com/news/white-paper-state-of-the-industry-may-2026" target="_blank" class="article-read">Read full story</a>
+  </div>
+</div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-name">SoCal Industrial Journal</div>
+  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt</div>
+  <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
+</footer>
+
 </body>
 </html>
