@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T05:28:07.829629Z",
+  "last_updated": "2026-05-16T05:44:01.443204Z",
   "articles": [
     {
       "headline": "Oil Holds Gain With Iran's Exports Strained as Conflict Drags On",
@@ -1236,6 +1236,30 @@
       "id": "e0135d4a08d1",
       "added_at": "2026-05-16T05:28:07.824176Z",
       "timestamp": "2026-05-16T05:28:07.824176Z"
+    },
+    {
+      "headline": "Xi and Trump Map Out a New Framework",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 15, 2026",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-15/xi-and-trump-map-out-a-new-framework",
+      "summary": "President Trump concluded his visit to Beijing with Xi Jinping, announcing deals and a new strategic framework for the US-China economic relationship. The summit addressed a range of economic and geopolitical issues including trade tensions, tariff levels, semiconductors, and AI. The current US-China trade status quo is set to expire in November, creating urgency around the talks. Analysts noted that while the optics were positive, major sticking points remained unresolved.",
+      "category": "politics",
+      "id": "e16c7704eeed",
+      "added_at": "2026-05-16T05:44:01.437674Z",
+      "timestamp": "2026-05-16T05:44:01.437674Z"
+    },
+    {
+      "headline": "ITS Logistics May Port/Rail Ramp Freight Index: Strait of Hormuz Closure Sends Fuel Shock Through Supply Chains",
+      "source": "Connect CRE",
+      "source_type": "free",
+      "date": "May 14, 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/05/14/3295091/0/en/ITS-Logistics-May-Port-Rail-Ramp-Freight-Index-Strait-of-Hormuz-Closure-Sends-Fuel-Shock-Through-Supply-Chains.html",
+      "summary": "ITS Logistics released its May Port/Rail Ramp Freight Index reporting elevated status across Atlantic and Gulf port regions, with container termination challenges at key West Coast gateways. The ongoing closure of the Strait of Hormuz is pushing fuel costs higher, with retail diesel reaching $5.639 per gallon as of May 11\u2014a jump of nearly 29 cents since the end of April. FTR Transportation Intelligence reported spot market rates approached all-time highs during the week of May 8, driven by fuel cost pass-through and tightening capacity. The Commercial Vehicle Safety Alliance's annual International Roadcheck began May 12, with an out-of-service rate of 31.4% further tightening trucking capacity.",
+      "category": "supply-chain",
+      "id": "04f148bb97d9",
+      "added_at": "2026-05-16T05:44:01.437674Z",
+      "timestamp": "2026-05-16T05:44:01.437674Z"
     }
   ],
   "settings": {
