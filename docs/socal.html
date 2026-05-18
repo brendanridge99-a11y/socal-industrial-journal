@@ -552,17 +552,40 @@
     <a href="economy.html" style="" class="site-nav-link">Economy</a><a href="industries.html" style="" class="site-nav-link">Industries</a><a href="logistics.html" style="" class="site-nav-link">Logistics</a><a href="policy.html" style="" class="site-nav-link">Policy</a><a href="socal.html" style="color:#fff; border-bottom-color:var(--accent);" class="site-nav-link">SoCal</a>
   </nav>
 </header>
-
+<div class="submarket-bar" style="--cat-color:#7A6040;">
+  <span class="submarket-label">Filter by submarket</span>
+  <button class="submarket-btn active" data-sm="all" onclick="filterSM(this)" style="--cat-color:#7A6040;">All <span class="submarket-count">(1)</span></button><button class="submarket-btn" data-sm="los-angeles" onclick="filterSM(this)" style="--cat-color:#7A6040;">Los Angeles <span class="submarket-count">(1)</span></button>
+</div>
 
 <main style="max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem;">
 
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
     <h1 class="page-title">◑ SoCal</h1>
-    <p class="page-count">0 stories · no clusters</p>
+    <p class="page-count">1 story · no clusters</p>
   </div>
 
-  <div style="grid-column:1/-1;text-align:center;padding:3rem;background:var(--parchment);border:1px solid var(--rule);font-family:'Cormorant Garamond',Georgia,serif;font-size:1.1rem;color:var(--muted);">No stories in this category yet — check back soon.</div>
+  <div class="cat-summary-banner" style="--cat-color:#7A6040;">
+  <p class="cat-summary-text">There are no SoCal industrial articles from the past 72 hours to summarize. The Ford Bronco article covers European automotive manufacturing and is not relevant to SoCal industrial real estate. No editorial summary can be published without sourced regional market intelligence.</p>
+</div>
+<div class="section-label">Top Stories</div>
+<div class="article-grid">
+  <div class="top-article-card" data-submarket="los-angeles" style="--cat-color:#7A6040;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 18, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span><span class="overflow-badge">via Industries</span>
+  </div>
+  <h3 class="top-article-headline">Ford Bets on Bronco SUV to Revive Flagging European Sales</h3>
+  <p class="article-summary">Ford Motor Co. announced plans to revive its struggling European passenger car business by building a compact Bronco SUV at its Valencia, Spain plant starting in 2028, as part of a product offensive involving five new European models by 2029. Ford will also introduce smaller electric and combustion-engine vehicles for Europe to compete with an influx of less expensive Chinese brands. Ford Pro's paid software subscriptions grew 30% year-over-year to 879,000 in Q1 2026, with gross margins above 50%, reflecting the company's pivot toward software-and-services revenue. Ford also called on the EU to align emissions regulations with consumer demand and available charging infrastructure.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-18/ford-bets-on-bronco-suv-to-revive-flagging-european-sales" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Ford%20Bets%20on%20Bronco%20SUV%20to%20Revive%20Flagging%20European%20Sales&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AFord Bets on Bronco SUV to Revive Flagging European Sales%0Ahttps://www.bloomberg.com/news/articles/2026-05-18/ford-bets-on-bronco-suv-to-revive-flagging-european-sales%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+  
+</div>
+</div>
+
 
 </main>
 
@@ -572,6 +595,34 @@
   <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
 </footer>
 
-
+<script>
+function filterSM(btn) {
+  document.querySelectorAll('.submarket-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const sm = btn.dataset.sm;
+  const cards = document.querySelectorAll('[data-submarket]');
+  cards.forEach(card => {
+    if (sm === 'all') {
+      card.classList.remove('sm-hidden');
+    } else {
+      const cardSMs = card.dataset.submarket.split(' ');
+      if (cardSMs.includes(sm) || cardSMs.includes('all')) {
+        card.classList.remove('sm-hidden');
+      } else {
+        card.classList.add('sm-hidden');
+      }
+    }
+  });
+  document.querySelectorAll('.article-grid, .fp-grid').forEach(grid => {
+    const visible = [...grid.querySelectorAll('[data-submarket]')]
+      .filter(c => !c.classList.contains('sm-hidden'));
+    const label = grid.previousElementSibling;
+    if (label && label.classList.contains('section-label')) {
+      label.style.display = visible.length ? '' : 'none';
+    }
+    grid.style.display = visible.length ? '' : 'none';
+  });
+}
+</script>
 </body>
 </html>

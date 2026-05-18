@@ -1,54 +1,6 @@
 {
-  "last_updated": "2026-05-18T12:54:34.786501Z",
+  "last_updated": "2026-05-18T16:44:13.388384Z",
   "articles": [
-    {
-      "headline": "From Bad to Worse: The Federal Reserve's May Inflation Forecast Is Terrible News for Stock Investors",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.fool.com/investing/2026/05/15/from-bad-to-worse-the-federal-reserves-may-inflati/",
-      "summary": "The Federal Reserve Bank of Cleveland updated its May inflation nowcast to 4.2% CPI year-over-year, which would be the highest reading since April 2023. April CPI already came in at 3.8%, driven by gas prices averaging $4.50 per gallon nationally \u2014 up roughly 50% since the US-Iran conflict began February 28 and closed the Strait of Hormuz to commercial vessels. A Cleveland Fed CEO survey found manufacturing and services sector leaders expect inflation to average 3.7% over the next 12 months, up from 3.1% in the prior survey. Incoming Fed Chair Kevin Warsh inherits the rate-setting challenge with his first FOMC decision set for June 16-17.",
-      "category": "economics",
-      "id": "b3cfa220440f",
-      "added_at": "2026-05-15T16:11:04.006261Z",
-      "timestamp": "2026-05-15T16:11:04.006261Z"
-    },
-    {
-      "headline": "Blackstone's Data Center REIT Raises $1.75 Billion in IPO to Buy Data Centers",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 13, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-13/blackstone-reit-raises-1-75-billion-in-ipo-to-buy-data-centers",
-      "summary": "Blackstone Digital Infrastructure Trust (BXDC) completed its US IPO on May 14 on the NYSE, pricing 87.5 million shares at $20 each to raise $1.75 billion, with underwriters holding a 30-day option to lift total proceeds to $2 billion. The REIT will focus on acquiring newly constructed, stabilized data centers valued between $250 million and $1.5 billion, occupied by investment-grade hyperscale tenants on long-term leases, targeting yields of 5.75% to 7%. Blackstone has identified approximately $25 billion in potential near-term data center purchases in Northern Virginia, Ohio, Phoenix, Maryland, and Austin. Nick Pell, former president and CIO of Blackstone's Link Logistics industrial REIT arm, was appointed CEO of the new entity.",
-      "category": "industries",
-      "id": "188283f195d5",
-      "added_at": "2026-05-15T16:11:04.006261Z",
-      "timestamp": "2026-05-15T16:11:04.006261Z"
-    },
-    {
-      "headline": "Texas People & Companies, May 15, 2026",
-      "source": "Connect CRE",
-      "source_type": "free",
-      "date": "May 15, 2026",
-      "url": "https://www.connectcre.com/stories/texas-people-companies-may-15-2026/",
-      "summary": "Stream Realty Partners broke ground on Northfield Logistics Center, a Class A industrial development at 4330 Northfield Lane in Houston's infill Northwest submarket. The project will deliver more than 300,000 square feet of Class A distribution space. Rosenberger Construction is serving as the general contractor and Seeberger Architecture is the project architect. No tenant has been announced for the project.",
-      "category": "industries",
-      "id": "74c13718e4a8",
-      "added_at": "2026-05-15T16:11:04.006261Z",
-      "timestamp": "2026-05-15T16:11:04.006261Z"
-    },
-    {
-      "headline": "CBRE Arranges $30.9 Million Sale of Treasure Coast Commerce Center Portfolio in Stuart, Florida",
-      "source": "Connect CRE",
-      "source_type": "free",
-      "date": "May 15, 2026",
-      "url": "https://www.connectcre.com/stories/florida-people-companies-may-15-2026/",
-      "summary": "CBRE arranged the $30.9 million sale of the Treasure Coast Commerce Center Portfolio, a seven-building, multitenant industrial portfolio totaling 153,198 square feet in Stuart, Florida. CBRE represented both the seller, Ted Glasrud Associates, Inc., and the buyer, NorthBridge Partners, in the transaction. No lease terms or vacancy details for the portfolio were disclosed. The deal reflects continued investor demand for multitenant industrial product in secondary Florida markets.",
-      "category": "industries",
-      "id": "5822543bd6c0",
-      "added_at": "2026-05-15T16:11:04.006261Z",
-      "timestamp": "2026-05-15T16:11:04.006261Z"
-    },
     {
       "headline": "US Industrial Production Rises by Most in Over a Year",
       "source": "Bloomberg",
@@ -580,6 +532,166 @@
       "id": "df19219ff978",
       "added_at": "2026-05-18T12:54:34.774164Z",
       "timestamp": "2026-05-18T12:54:34.774164Z"
+    },
+    {
+      "headline": "G-7 Finance Chiefs Confront Bond Selloff as Inflation Risks Dominate Talks",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/bond-ructions-gatecrash-talks-by-g-7-on-skewed-world-economy",
+      "summary": "G-7 finance ministers meeting in Paris were confronted by a deepening global bond selloff driven by investor fears over oil-fueled inflation tied to the ongoing US-Iran conflict and the Strait of Hormuz closure. Talks meant to address structural economic imbalances \u2014 including the US budget deficit and China's weak consumption \u2014 were overshadowed by spiking yields across sovereign debt markets. French Finance Minister Roland Lescure told Bloomberg Television that the bond market is \"correcting, but I wouldn't go as far as to say it's collapsing.\" The 30-year US yield was the most elevated since 2007 and German 30-year debt hit its loftiest level in 15 years.",
+      "category": "economy",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "62493c4ebe5e",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
+    },
+    {
+      "headline": "Global Bond Yields at Multiyear Highs on Mounting Inflation Risk",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-17/japan-10-year-yield-jumps-on-global-inflation-angst-as-oil-rises",
+      "summary": "Global bond yields hovered near multiyear highs on Monday as rising energy prices stoked inflation concerns, with 30-year US yields hitting their highest level since 2007. Japanese government bonds notched the biggest losses, with the 30-year yield surging to its highest since that maturity was first sold in 1999. The selloff followed Friday's rout, when the S&P 500 dropped more than 1% as global yields jumped. The US 10-year Treasury yield climbed to approximately 4.63%, its highest since January 2025, as ongoing deadlock over the Iran conflict and Strait of Hormuz closure continued to fuel inflation expectations.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "cb725be696f6",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
+    },
+    {
+      "headline": "Bond Rout Deepens as Rising Oil Prices Stoke Inflation Fears",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-18/bond-rout-deepens-as-rising-oil-prices-stoke-inflation-fears",
+      "summary": "A rout in global bonds intensified on May 18 as the deadlock over the Iran war pushed Brent crude above $111 a barrel and deepened inflation fears, with stocks extending their slide. WTI crude oil futures climbed back toward $107 per barrel as uncertainty deepened over US-Iran negotiations aimed at reopening the key Strait of Hormuz. Traders are now fully pricing in one rate hike by the Federal Reserve by March next year, with more than a 50% chance that interest rates will rise before the end of 2026. The latest US CPI and PPI reports indicated the energy price shock is feeding into broader US inflation, prompting markets to rule out any Fed rate cuts this year.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "8f30a046feb1",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
+    },
+    {
+      "headline": "Yield Surge Puts Logic Behind Stocks Rally to the Test",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-18/yield-surge-puts-logic-behind-stocks-rally-to-the-test",
+      "summary": "Bloomberg's Markets Daily newsletter on May 18 reported signs that even a surge in bond yields may not be enough to derail the stock rally built on AI optimism. The S&P 500 dropped more than 1% on Friday as global yields jumped, and markets looked weak again overnight. Index futures pared losses in the European trading session as the bond selloff eased. Investors are monitoring the upcoming FOMC meeting minutes and flash US PMI data for further direction on monetary policy.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "0ff9d7e2213f",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
+    },
+    {
+      "headline": "Strategists Say Soaring Japanese Bond Yields Show Fiscal Worries",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/strategists-say-soaring-japanese-bond-yields-show-fiscal-worries",
+      "summary": "Japanese government bonds sold off sharply on Monday, sending yields to record highs as rising oil prices fueled inflation fears, with the 10-year yield rising to approximately 2.80%. Producer prices in Japan increased 4.9% in April, accelerating sharply from 2.9% in March and surpassing market forecasts, amid intensifying cost pressures following the surge in energy prices tied to the Strait of Hormuz crisis. Bank of Japan board member Kazuyuki Masu called for policy rates to be raised as soon as possible, warning of increasingly persistent inflation risks stemming from the conflict. Bloomberg strategists noted the selloff reflects deepening fiscal concerns beyond just energy inflation.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "86424d3eb929",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
+    },
+    {
+      "headline": "Gold Holds Decline as Hormuz Quagmire Keeps Inflation Fears High",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-17/gold-holds-decline-as-hormuz-quagmire-keeps-inflation-fear-high",
+      "summary": "Gold held a decline on May 18 as a lack of progress in reopening the Strait of Hormuz continued to fan inflation concerns that have sent bond markets tumbling. The Strait has been largely closed since the US and Israel launched strikes against Iran on February 28, 2026, blocking roughly 20% of the world's seaborne oil trade. Trump warned Iran to 'get moving' after departing China without securing meaningful progress toward ending the conflict or reopening the strait. Energy infrastructure across the Persian Gulf came under renewed attack over the weekend, including a nuclear facility in the UAE, adding to supply disruption fears.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "86360302ee15",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
+    },
+    {
+      "headline": "NextEra to Buy Dominion for $67 Billion to Form Power Giant",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/nextera-to-buy-dominion-for-67-billion-to-form-power-giant",
+      "summary": "NextEra Energy Inc. agreed to pay approximately $67 billion in stock for Dominion Energy Inc. in the biggest power acquisition ever, creating a giant utility extending from Florida to the data center corridor in Virginia. The deal would give NextEra a swathe of electricity assets across Virginia and the Carolinas and position it as a dominant utility in a region struggling to meet surging demand from newly built artificial intelligence facilities. The combined company would serve approximately 10 million utility customer accounts, own 110 gigawatts of generation, and become the world leader in renewables and battery storage. The deal is expected to close in 12 to 18 months, pending approval from the Federal Energy Regulatory Commission, state regulators, and the Justice Department.",
+      "category": "economy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "ad13b0576a6e",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
+    },
+    {
+      "headline": "Ford Bets on Bronco SUV to Revive Flagging European Sales",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/ford-bets-on-bronco-suv-to-revive-flagging-european-sales",
+      "summary": "Ford Motor Co. announced plans to revive its struggling European passenger car business by building a compact Bronco SUV at its Valencia, Spain plant starting in 2028, as part of a product offensive involving five new European models by 2029. Ford will also introduce smaller electric and combustion-engine vehicles for Europe to compete with an influx of less expensive Chinese brands. Ford Pro's paid software subscriptions grew 30% year-over-year to 879,000 in Q1 2026, with gross margins above 50%, reflecting the company's pivot toward software-and-services revenue. Ford also called on the EU to align emissions regulations with consumer demand and available charging infrastructure.",
+      "category": "socal",
+      "secondary_categories": [],
+      "id": "cea1bcf5a235_loc",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "industries"
+    },
+    {
+      "headline": "Ford Bets on Bronco SUV to Revive Flagging European Sales",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/ford-bets-on-bronco-suv-to-revive-flagging-european-sales",
+      "summary": "Ford Motor Co. announced plans to revive its struggling European passenger car business by building a compact Bronco SUV at its Valencia, Spain plant starting in 2028, as part of a product offensive involving five new European models by 2029. Ford will also introduce smaller electric and combustion-engine vehicles for Europe to compete with an influx of less expensive Chinese brands. Ford Pro's paid software subscriptions grew 30% year-over-year to 879,000 in Q1 2026, with gross margins above 50%, reflecting the company's pivot toward software-and-services revenue. Ford also called on the EU to align emissions regulations with consumer demand and available charging infrastructure.",
+      "category": "industries",
+      "secondary_categories": [],
+      "id": "cea1bcf5a235",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
+    },
+    {
+      "headline": "Bond Selloff Latest: G7 Finance Ministers Discuss Debt-Market Moves",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-18/bond-selloff-latest-g7-finance-ministers-discuss-debt-market-moves",
+      "summary": "Bloomberg's May 18 newsletter tracked the G7 finance ministers' emergency bond market discussions in Paris as an alarming global bond selloff unfolded alongside their scheduled agenda. The gathering followed a bond market selloff triggered by fears of inflation stemming from the Iran war and the prolonged Strait of Hormuz closure. French Finance Minister Roland Lescure described the bond market as undergoing a correction rather than a collapse, while noting that public debt is no longer an irrelevant policy topic. Ministers shared views on the economic situation alongside France's broader agenda of addressing US fiscal deficits, China's trade surpluses, and European underinvestment.",
+      "category": "economy",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "d2ec57b03369",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
+    },
+    {
+      "headline": "More than 5,100 freight-related layoffs hit US supply chain sector",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 18, 2026",
+      "url": "https://www.freightwaves.com/news/more-than-5100-freight-related-layoffs-hit-us-supply-chain-sector",
+      "summary": "A wave of freight-related layoffs and facility closures has swept across the U.S., with more than 5,183 workers affected by shutdowns, restructurings, and contract losses tied to the logistics, manufacturing, and transportation sectors. The layoffs span at least 20 states and include warehouse operators, manufacturers, trucking companies, automotive suppliers, and food logistics providers. Major employers including FreshRealm, GEODIS, Ryder, and DSV announced mass layoffs as companies cut costs and consolidated operations. California-based FreshRealm, a ready-to-eat meal supplier for brands including Blue Apron, filed for Chapter 11 bankruptcy and announced layoffs impacting more than 1,000 workers nationwide after disruptions tied to a 2025 listeria outbreak.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "aeb18133650f",
+      "added_at": "2026-05-18T16:44:13.332275Z",
+      "timestamp": "2026-05-18T16:44:13.332275Z"
     }
   ],
   "settings": {
