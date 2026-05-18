@@ -1,28 +1,28 @@
 {
-  "harvested_at": "2026-05-18T20:00:15.784Z",
+  "harvested_at": "2026-05-18T22:00:15.790Z",
   "elapsed_seconds": 4,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 72,
+  "articles_count": 75,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 10,
+      "count": 9,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 3,
+      "count": 4,
       "total": 40,
       "error": null
     },
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 6,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 1,
+      "count": 2,
       "total": 10,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 16,
+      "count": 17,
       "total": 17,
       "error": null
     },
@@ -181,11 +181,11 @@
       "description": "Companies tied to transportation, warehousing, manufacturing and food logistics announced more than 5,000 layoffs stretching from California to Pennsylvania. The post More than 5,100 freight-related layoffs hit US supply chain sector appeared first on FreightWaves ."
     },
     {
-      "headline": "Florida theft ring accused of moving $7 million in stolen goods across multiple states",
-      "url": "https://www.freightwaves.com/news/florida-theft-ring-accused-of-moving-7-million-in-stolen-goods-across-multiple-states",
-      "source": "FreightWaves",
-      "raw_date": "Sun, 17 May 2026 18:48:49 +0000",
-      "description": "Authorities in Florida arrested 14 suspects tied to what investigators describe as a highly organized theft network responsible for millions in stolen merchandise. Detectives say the group operated across multiple states while using logistics, resale operations, and coordinated theft methods that re"
+      "headline": "Software vendor offers proposal to establish detention, demurrage accountability",
+      "url": "https://joc.com/article/software-vendor-offers-proposal-to-establish-detention-demurrage-accountability-6222721",
+      "source": "Journal of Commerce",
+      "raw_date": "Mon, 18 May 2026 20:12:17 GMT",
+      "description": "The BCO technology provider, in a bid to avoid costly dispute resolution, has identified 20 use cases under which shippers, consignees and carriers can agree to be held responsible for container storage."
     },
     {
       "headline": "Guangzhou begins work on $2 billion fifth development phase at Nansha port",
@@ -207,6 +207,13 @@
       "source": "Journal of Commerce",
       "raw_date": "Mon, 18 May 2026 15:00:16 GMT",
       "description": "Trucking industry attorneys say last week’s decision by the Supreme Court is likely to intensify scrutiny of carrier selection practices and insurance coverage."
+    },
+    {
+      "headline": "US and China to establish trade board, tout agriculture commitments",
+      "url": "https://www.supplychaindive.com/news/us-and-china-to-establish-trade-board-tout-agriculture-commitments/820508/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Mon, 18 May 2026 13:11:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/aHfzkbK4Xn6guoYGsB7WBppk5LF34XszAqxPSzwc_AE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjc2MTI2Nzk5LmpwZw==.webp\"/></div></figure><p>The two countries will use the board to manage bilateral trade for certain"
     },
     {
       "headline": "NAM calls for making the USMCA even more manufacturing friendly",
@@ -237,13 +244,6 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/s-a33ROYgENbYNjLtjeDlYEZLBaDnOPZEKVL_rtL9Ic/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Vbmlvbl9QYWNpZmljLU5vcmZvbGtfU291dGhlcm5fTG9jb21vdGl2ZXNfLmpwZw==.webp\"/></div></figure><p>Competitors such as BNSF, CPKC and CSX say Uni"
     },
     {
-      "headline": "Parcel costs are moving faster than your audits can catch them",
-      "url": "https://www.supplychaindive.com/spons/parcel-costs-are-moving-faster-than-your-audits-can-catch-them/819928/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Mon, 18 May 2026 05:00:00 -0400",
-      "description": "<p>Carrier pricing moves in real time now. Is your parcel team keeping up?</p>"
-    },
-    {
       "headline": "Product brands and the Hormuz crisis: an inventory problem",
       "url": "https://www.supplychaindive.com/spons/product-brands-and-the-hormuz-crisis-an-inventory-problem/820053/",
       "source": "Supply Chain Dive",
@@ -251,11 +251,25 @@
       "description": "<p>Brands have an inventory problem, and Hormuz made it expensive.</p>"
     },
     {
+      "headline": "Parcel costs are moving faster than your audits can catch them",
+      "url": "https://www.supplychaindive.com/spons/parcel-costs-are-moving-faster-than-your-audits-can-catch-them/819928/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Mon, 18 May 2026 05:00:00 -0400",
+      "description": "<p>Carrier pricing moves in real time now. Is your parcel team keeping up?</p>"
+    },
+    {
       "headline": "Parcel express services evolve as market fragmentation accelerates",
-      "url": "https://www.dcvelocity.com/parcel-express-services-evolve-as-market-fragmentation-accelerates",
+      "url": "https://www.dcvelocity.com/transportation/parcel-express-services-evolve-as-market-fragmentation-accelerates",
       "source": "DC Velocity",
       "raw_date": "Mon, 18 May 2026 15:10:07 +0000",
       "description": "Andy Dyer, chief executive officer of transportation management specialist AFS , which manages some $3 billion in parcel spend annually for its customers, has seen the parcel carrier market go through numerous disruptions, evolutions, and reinventions over his more than 30 years in the business. Yet"
+    },
+    {
+      "headline": "Brentwood mansion with Oscar-winning history hits the market",
+      "url": "https://therealdeal.com/la/2026/05/18/modern-brentwood-manse-seeks-buyer-for-nearly-17-million/",
+      "source": "The Real Deal",
+      "raw_date": "Mon, 18 May 2026 21:58:56 +0000",
+      "description": "A Brentwood home with a Hollywood pedigree and architectural acclaim is heading to market.&#160; The nearly 9,000-square-foot manse at 645 Tuallitan Road has been listed for just under $16.5 million, Mansion Global reported.&#160; The home was built in 1992 and commissioned by Oscar-winning screenwr"
     },
     {
       "headline": "Nearly 100 units, 3.5K sf retail to rise across from new Apple Mid-City campus",
@@ -263,6 +277,13 @@
       "source": "The Real Deal",
       "raw_date": "Mon, 18 May 2026 18:26:00 +0000",
       "description": "A mixed-use residential development is slated to rise across the street from Apple’s forthcoming office complex in Mid-City, bordering the edge of Culver City.&#160; An application filed with the Los Angeles Department of City Planning calls for replacing existing small commercial and residential bu"
+    },
+    {
+      "headline": "Gigi Hadid’s Guest in Residence Brand Leases Second NYC Store at 1061 Madison Avenue",
+      "url": "https://commercialobserver.com/2026/05/gigi-hadid-guest-in-residence-lease-1061-madison-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 20:21:10 +0000",
+      "description": "Guest in Residence, supermodel Gigi Hadid’s luxury cashmere knitwear brand, has leased a 3,550-square-foot retail space at 1061 Madison Avenue on Manhattan’s Upper East Side, Commercial Observer has learned. The five-story retail and residential building between West 80th and West 81st streets will "
     },
     {
       "headline": "New TSCG President Nichole Popovics on What to Expect at ICSC",
@@ -384,11 +405,11 @@
       "description": "BEY03F is the first wolf known to venture into Sequoia National Park in more than a century — after making similarly historic visits to Los Angeles and Inyo counties."
     },
     {
-      "headline": "San Diego police swarm Islamic center amid reports of active shooter",
+      "headline": "5 dead, including teen gunmen, following attack at Islamic Center of San Diego, police say",
       "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-police-swarm-islamic-center-amid-reports-of-active-shooter",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 19:35:20 GMT",
-      "description": "San Diego police Monday swarmed an Islamic center and mosque amid reports of an active shooter in the area."
+      "description": "Police in San Diego swarmed a local Islamic center after reports of an active shooter. Five people were killed, including two suspected gunmen."
     },
     {
       "headline": "Homeless people on Skid Row were paid to register to vote, feds charge",
@@ -398,11 +419,11 @@
       "description": "Federal prosecutors in Los Angeles announced a case Monday against a woman suspected of paying people to sign voter registration forms."
     },
     {
-      "headline": "Wind-driven fire triggers evacuations in Simi Valley, at least 1 home burned",
+      "headline": "Wind-driven fire triggers evacuations in Simi Valley; at least 1 home burned",
       "url": "https://www.latimes.com/california/story/2026-05-18/simi-valley-fire",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 18:13:00 GMT",
-      "description": "A fire was burning in Simi Valley Monday morning."
+      "description": "A brush fire in Simi Valley has moved into a neighborhood and burned at least one home and another structure."
     },
     {
       "headline": "Artists, community come together to welcome World Cup to Inglewood with murals and more",
@@ -426,6 +447,13 @@
       "description": "A kidnapping suspect was arrested Monday morning after a chase with police that ended with gunfire, according to Santa Monica police."
     },
     {
+      "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
+      "url": "https://www.latimes.com/california/story/2026-05-18/crowds-yosemite-visitors-worry-high-season-will-be-disaster",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
+    },
+    {
       "headline": "19 Legionella bacteria infections linked to Kaiser Bay Area hospital",
       "url": "https://www.latimes.com/california/story/2026-05-18/19-cases-of-legionella-infection-linked-to-kaiser-bay-area-hospital",
       "source": "Los Angeles Times",
@@ -447,18 +475,11 @@
       "description": "Some see fan-generated election campaign videos as a harbinger of how artificial intelligence could reshape political messaging across the country."
     },
     {
-      "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
-      "url": "https://www.latimes.com/california/story/2026-05-18/crowds-yosemite-visitors-worry-high-season-will-be-disaster",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
-    },
-    {
       "headline": "L.A.&#x27;s 100 most problematic rental properties spotlighted in new city database",
       "url": "https://www.latimes.com/california/story/2026-05-18/l-a-s-100-most-problematic-rental-properties-spotlighted-in-database",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "A new dashboard released by City Controller Kenneth Mejia shows the 100 L.A. properties with the most housing violations."
+      "description": "A new dashboard released by City Controller Kenneth Mejia shows the 100 L.A. properties with the most housing violation complaints."
     },
     {
       "headline": "Santa Rosa Island fire burns more than 10,000 acres, threatening rare plants and animals",
