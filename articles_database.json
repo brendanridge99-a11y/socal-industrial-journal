@@ -1,54 +1,6 @@
 {
-  "last_updated": "2026-05-18T06:00:03.483987Z",
+  "last_updated": "2026-05-18T12:54:34.786501Z",
   "articles": [
-    {
-      "headline": "Greer: US, China Willing to Continue Trade Truce",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-15/greer-us-china-willing-to-continue-trade-truce-video",
-      "summary": "U.S. Trade Representative Jamieson Greer, speaking exclusively to Bloomberg on the sidelines of the Trump-Xi summit in Beijing, signaled cautious optimism that US-China trade relations are stabilizing. Greer cited progress on agriculture purchases and rare earth supplies, though tariffs and supply chain issues remain unresolved. He stated the U.S. expects China to commit to 'double-digit billion' agricultural purchases per year over the next three years. The two presidents are anticipated to extend the one-year trade war pause agreed to in South Korea in October 2025.",
-      "category": "politics",
-      "id": "02699eaf2298",
-      "added_at": "2026-05-15T10:03:24.161292Z",
-      "timestamp": "2026-05-15T10:03:24.161292Z"
-    },
-    {
-      "headline": "US Expects Dramatic Agricultural Purchases by China, Greer Says",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-15/us-expects-dramatic-agricultural-purchases-by-china-greer-says",
-      "summary": "U.S. Trade Representative Jamieson Greer told Bloomberg Television that the U.S. anticipates China will commit to billions in American agricultural purchases as the Trump-Xi summit in Beijing concludes. Greer specifically referenced 'double-digit billion' annual aggregate agricultural purchases \u2014 not just soybeans \u2014 over a three-year period. The average U.S. tariff on Chinese goods currently stands at 47.5% following the South Korea summit, up from 3.1% before Trump's first term, per the Peterson Institute for International Economics. Two-way goods trade between the U.S. and China totaled approximately $415 billion in 2025, down sharply from a $690 billion peak in 2022.",
-      "category": "politics",
-      "id": "5bd5e90392d2",
-      "added_at": "2026-05-15T10:03:24.161292Z",
-      "timestamp": "2026-05-15T10:03:24.161292Z"
-    },
-    {
-      "headline": "Kevin Warsh Confirmed New Fed Chair as Inflation Kicks Higher, Complicating the Central Bank's Path",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 14, 2026",
-      "url": "https://finance.yahoo.com/economy/policy/article/kevin-warsh-confirmed-new-fed-chair-as-inflation-kicks-higher-complicating-the-central-banks-path-164303609.html",
-      "summary": "Kevin Warsh was confirmed by the U.S. Senate in a 54-45 vote \u2014 the most divisive in Fed history \u2014 to replace Jerome Powell, whose chair term expires May 15, 2026. The Consumer Price Index rose 3.8% year-over-year in April, up from 3.3% in March, with energy prices accounting for 40% of the increase. Wholesale PPI surged 6.0% annually versus expectations of 4.9%, raising the prospect of rate hikes rather than cuts. The Federal Reserve has held its benchmark Federal Funds Rate steady at 3.50%\u20133.75% for its past three meetings, and J.P. Morgan strategists' base case is now for rates to remain steady through the end of 2026.",
-      "category": "economics",
-      "id": "19bad1a5c207",
-      "added_at": "2026-05-15T10:03:24.161292Z",
-      "timestamp": "2026-05-15T10:03:24.161292Z"
-    },
-    {
-      "headline": "New York People and Company News, Week of May 15, 2026",
-      "source": "Connect CRE",
-      "source_type": "free",
-      "date": "May 15, 2026",
-      "url": "https://www.connectcre.com/stories/new-york-people-and-company-news-week-of-may-15-2026/",
-      "summary": "Latham & Watkins LLP announced that Marco Caffuzzi has joined its New York office as a partner in the Real Estate Practice, bringing extensive experience in real estate financings, restructurings, joint ventures, and large-scale development transactions; he joins from Skadden, Arps. Avison Young made five strategic hires in New York City, including Christian Stanton and Libby Hodes focused on retail, two executive directors for office tenant representation, and a director on the Tri-State Investment Sales team. CRH, a leading building materials provider, appointed Aylwyn Bryan as CFO.",
-      "category": "industries",
-      "id": "18f77e182dcb",
-      "added_at": "2026-05-15T10:03:24.161292Z",
-      "timestamp": "2026-05-15T10:03:24.161292Z"
-    },
     {
       "headline": "From Bad to Worse: The Federal Reserve's May Inflation Forecast Is Terrible News for Stock Investors",
       "source": "Wall Street Journal",
@@ -615,6 +567,19 @@
       "id": "b19ff549fd8e",
       "added_at": "2026-05-18T06:00:03.410780Z",
       "timestamp": "2026-05-18T06:00:03.410780Z"
+    },
+    {
+      "headline": "Stock Market Today (May 18, 2026): Stock Futures Down After Record-Setting Week",
+      "source": "TheStreet",
+      "source_type": "free",
+      "date": "May 18, 2026",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-may-18-2026-updates",
+      "summary": "U.S. stock futures fell Monday morning as investors monitored the U.S.-Iran conflict and prepared for Nvidia and Target earnings later in the week. West Texas Intermediate crude rose 0.85% to $106.30 a barrel, while Brent crude gained 0.89% to $110.20 a barrel. The S&P 500 and Nasdaq had hit fresh record highs the prior week, while the Dow briefly reclaimed the 50,000 level. Iran sent an amended set of ceasefire terms to the Trump administration via Pakistani mediators while President Trump warned the \"clock is ticking.\"",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "df19219ff978",
+      "added_at": "2026-05-18T12:54:34.774164Z",
+      "timestamp": "2026-05-18T12:54:34.774164Z"
     }
   ],
   "settings": {
