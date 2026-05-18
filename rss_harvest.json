@@ -1,21 +1,21 @@
 {
-  "harvested_at": "2026-05-18T18:06:45.357Z",
-  "elapsed_seconds": 3,
-  "feeds_attempted": 31,
-  "feeds_successful": 13,
-  "articles_count": 54,
+  "harvested_at": "2026-05-18T20:00:15.784Z",
+  "elapsed_seconds": 4,
+  "feeds_attempted": 16,
+  "feeds_successful": 14,
+  "articles_count": 72,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 9,
+      "count": 10,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 2,
+      "count": 3,
       "total": 40,
       "error": null
     },
@@ -28,9 +28,10 @@
     },
     {
       "source": "DC Velocity",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "success": true,
+      "count": 1,
+      "total": 30,
+      "error": null
     },
     {
       "source": "Pacific Maritime",
@@ -42,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 0,
+      "count": 1,
       "total": 10,
       "error": null
     },
@@ -55,20 +56,15 @@
     },
     {
       "source": "GlobeSt",
-      "success": false,
+      "success": true,
       "count": 0,
-      "error": "HTTP 404"
-    },
-    {
-      "source": "BisNow",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "total": 0,
+      "error": null
     },
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 10,
+      "count": 16,
       "total": 17,
       "error": null
     },
@@ -80,34 +76,22 @@
       "error": null
     },
     {
-      "source": "Industry Week",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 404"
-    },
-    {
       "source": "Modern Materials Handling",
       "success": false,
       "count": 0,
       "error": "Empty response"
     },
     {
-      "source": "Food Logistics",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 404"
-    },
-    {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 0,
-      "total": 94,
+      "count": 17,
+      "total": 97,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 5,
+      "count": 6,
       "total": 10,
       "error": null
     },
@@ -120,10 +104,9 @@
     },
     {
       "source": "San Diego Business Journal",
-      "success": true,
-      "count": 10,
-      "total": 10,
-      "error": null
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "source": "IE Business Daily",
@@ -131,78 +114,6 @@
       "count": 2,
       "total": 6,
       "error": null
-    },
-    {
-      "source": "Daily Bulletin",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "The Press-Enterprise",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 404"
-    },
-    {
-      "source": "The Sun",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "Redlands Daily Facts",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "Los Angeles Daily News",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "Press-Telegram",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "Daily Breeze",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "San Gabriel Valley Tribune",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "Pasadena Star-News",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "Whittier Daily News",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "Orange County Register",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
-    },
-    {
-      "source": "San Diego Union-Tribune",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
     }
   ],
   "articles": [
@@ -233,6 +144,13 @@
       "source": "FreightWaves",
       "raw_date": "Mon, 18 May 2026 16:24:46 +0000",
       "description": "Union Pacific filed a complaint with federal regulators alleging that BNSF Railway’s cancellation of certain reciprocal switching rates has significantly increased costs for grain shippers. The post Merger markup: BNSF hiked grain train charges as much as 472%, UP says in complaint appeared first on"
+    },
+    {
+      "headline": "Could new Zim offer start bidding war?",
+      "url": "https://www.freightwaves.com/news/could-new-zim-offer-start-bidding-war",
+      "source": "FreightWaves",
+      "raw_date": "Mon, 18 May 2026 16:17:00 +0000",
+      "description": "An investor’s surprise bid for ZIM Integrated Shipping Services would sweeten the buy price and keep the liner under Israeli control. The post Could new Zim offer start bidding war? appeared first on FreightWaves ."
     },
     {
       "headline": "Labor Dept. jumps in on the push for driver English language proficiency",
@@ -268,6 +186,13 @@
       "source": "FreightWaves",
       "raw_date": "Sun, 17 May 2026 18:48:49 +0000",
       "description": "Authorities in Florida arrested 14 suspects tied to what investigators describe as a highly organized theft network responsible for millions in stolen merchandise. Detectives say the group operated across multiple states while using logistics, resale operations, and coordinated theft methods that re"
+    },
+    {
+      "headline": "Guangzhou begins work on $2 billion fifth development phase at Nansha port",
+      "url": "https://joc.com/article/guangzhou-begins-work-on-2-billion-fifth-development-phase-at-nansha-port-6222684",
+      "source": "Journal of Commerce",
+      "raw_date": "Mon, 18 May 2026 18:31:14 GMT",
+      "description": "Main construction started Friday and includes the development of four berths capable of handling ships of more than 21,000 TEUs, plus 15 berths for regional feeder vessels."
     },
     {
       "headline": "AD Ports to expand Europe, Asia footprints with MBS Logistics takeover",
@@ -324,6 +249,62 @@
       "source": "Supply Chain Dive",
       "raw_date": "Mon, 18 May 2026 05:00:00 -0400",
       "description": "<p>Brands have an inventory problem, and Hormuz made it expensive.</p>"
+    },
+    {
+      "headline": "Parcel express services evolve as market fragmentation accelerates",
+      "url": "https://www.dcvelocity.com/parcel-express-services-evolve-as-market-fragmentation-accelerates",
+      "source": "DC Velocity",
+      "raw_date": "Mon, 18 May 2026 15:10:07 +0000",
+      "description": "Andy Dyer, chief executive officer of transportation management specialist AFS , which manages some $3 billion in parcel spend annually for its customers, has seen the parcel carrier market go through numerous disruptions, evolutions, and reinventions over his more than 30 years in the business. Yet"
+    },
+    {
+      "headline": "Nearly 100 units, 3.5K sf retail to rise across from new Apple Mid-City campus",
+      "url": "https://therealdeal.com/la/2026/05/18/apartments-retail-planned-near-apples-new-mid-city-home/",
+      "source": "The Real Deal",
+      "raw_date": "Mon, 18 May 2026 18:26:00 +0000",
+      "description": "A mixed-use residential development is slated to rise across the street from Apple’s forthcoming office complex in Mid-City, bordering the edge of Culver City.&#160; An application filed with the Los Angeles Department of City Planning calls for replacing existing small commercial and residential bu"
+    },
+    {
+      "headline": "New TSCG President Nichole Popovics on What to Expect at ICSC",
+      "url": "https://commercialobserver.com/2026/05/tscg-president-nichole-popovics-icsc/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 19:41:58 +0000",
+      "description": "Nichole Popovics, the freshly minted president of retail-focused real estate brokerage TSCG, got off the plane at Las Vegas’ Harry Reid International Airport at 8:30 a.m. on Monday and wasted no time heading straight to her scheduled meeting with Commercial Observer at the Conrad Las Vegas at Resort"
+    },
+    {
+      "headline": "Tech Firm Profound Inks 30K-SF Deal at GFP’s 5-9 Union Square West",
+      "url": "https://commercialobserver.com/2026/05/profound-lease-gfp-5-9-union-square-west/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 18:50:43 +0000",
+      "description": "Marketing intelligence platform Profound has leased 30,000 square feet at GFP Real Estate’s 5-9 Union Square West, Commercial Observer has learned. The lease spans two full floors of the eight-story building, according to tenant broker Buchbinder &#38; Warren Realty Group. Asking rent was $75 per sq"
+    },
+    {
+      "headline": "Accounting Firm Prosperity Partners Signs 24K-SF Lease at 575 Madison Avenue",
+      "url": "https://commercialobserver.com/2026/05/prosperity-partners-lease-575-madison-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 18:44:26 +0000",
+      "description": "An accounting and business consulting firm is relocating its offices to Midtown’s 575 Madison Avenue. The Chicago-based Prosperity Partners took 24,426 square feet on the entire ​​11th floor of the Steinberg &#38; Pokoik-owned, 25-story office tower between East 56th and East 57th streets, according"
+    },
+    {
+      "headline": "MAG Partners Hires Andrew Staniforth as Co-Head of Development",
+      "url": "https://commercialobserver.com/2026/05/mag-partners-hires-andrew-staniforth-co-head-development/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 18:35:21 +0000",
+      "description": "MaryAnne Gilmartin’s MAG Partners has hired Andrew Staniforth as co-head of development, Commercial Observer has learned. Staniforth will lead development across MAG’s portfolio in New York City and other major markets alongside fellow co-head Aida Stoddard, who joined the development firm in 2023. "
+    },
+    {
+      "headline": "Industrial Realty Group, Sachem Capital Merge to Form $3.4B Industrial REIT",
+      "url": "https://commercialobserver.com/2026/05/industrial-realty-group-sachem-capital-merge-form-reit/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 18:15:36 +0000",
+      "description": "One of the largest private owners of U.S. industrial real estate is merging with a public mortgage trust. Industrial Realty Group (IRG) and Sachem Capital have agreed to form IRG Realty Trust, a $3.4 billion publicly traded real estate investment trust (REIT) that leverages acquisitions and portfoli"
+    },
+    {
+      "headline": "The World Cup in the New York Area Isn’t the Boon Hotels Had Hoped For",
+      "url": "https://commercialobserver.com/2026/05/world-cup-new-york-hotels/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 18:13:36 +0000",
+      "description": "On May 11, New York Mayor Zohran Mamdani dribbled a soccer ball through a sea of excited children before misfiring at the goal on an asphalt road in front of PS 32 in the Bronx. The mayor was on hand that Monday to promote Soccer Streets, a city program that would temporarily close roadways in [&#82"
     },
     {
       "headline": "First LIRR Strike Since 1994 Hits NYC CRE Industry",
@@ -396,6 +377,132 @@
       "description": "It wasn’t supposed to go like this. When Saks Fifth Avenue agreed in July 2024 to buy Neiman Marcus for $2.65 billion to create Saks Global, a new $7 billion luxury retail behemoth, the conventional thinking was that senior executives at the two firms — once enemies, now family — would find a way to"
     },
     {
+      "headline": "For the first time in a century, a gray wolf entered Sequoia National Park. She&#x27;s traveled hundreds of miles to get there",
+      "url": "https://www.latimes.com/environment/story/2026-05-18/wolf-enters-sequoia-national-park-for-first-time-in-century-bey03f",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 19:40:49 GMT",
+      "description": "BEY03F is the first wolf known to venture into Sequoia National Park in more than a century — after making similarly historic visits to Los Angeles and Inyo counties."
+    },
+    {
+      "headline": "San Diego police swarm Islamic center amid reports of active shooter",
+      "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-police-swarm-islamic-center-amid-reports-of-active-shooter",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 19:35:20 GMT",
+      "description": "San Diego police Monday swarmed an Islamic center and mosque amid reports of an active shooter in the area."
+    },
+    {
+      "headline": "Homeless people on Skid Row were paid to register to vote, feds charge",
+      "url": "https://www.latimes.com/california/story/2026-05-18/skid-row-voter-charges",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 18:41:19 GMT",
+      "description": "Federal prosecutors in Los Angeles announced a case Monday against a woman suspected of paying people to sign voter registration forms."
+    },
+    {
+      "headline": "Wind-driven fire triggers evacuations in Simi Valley, at least 1 home burned",
+      "url": "https://www.latimes.com/california/story/2026-05-18/simi-valley-fire",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 18:13:00 GMT",
+      "description": "A fire was burning in Simi Valley Monday morning."
+    },
+    {
+      "headline": "Artists, community come together to welcome World Cup to Inglewood with murals and more",
+      "url": "https://www.latimes.com/sports/story/2026-05-18/world-cup-murals-inglewood-sofi-stadium-community-day",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 17:19:56 GMT",
+      "description": "Several Los Angeles-based artists have been taking part in public events to create artwork celebrating community and welcoming the World Cup to Inglewood."
+    },
+    {
+      "headline": "Commentary: Spencer Pratt, like Donald Trump, is a product of the reality TV industrial complex",
+      "url": "https://www.latimes.com/california/story/2026-05-18/spencer-pratt-trump-reality-tv-industrial-complex",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 17:08:10 GMT",
+      "description": "Spencer Pratt, like President Trump before him, is a political product of the reality-TV industrial complex. And like Trump in 2016, he has no experience in public office."
+    },
+    {
+      "headline": "Santa Monica kidnapping suspect arrested after police shooting",
+      "url": "https://www.latimes.com/california/story/2026-05-18/santa-monica-shooting-kidnapping-pursuit",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 16:23:47 GMT",
+      "description": "A kidnapping suspect was arrested Monday morning after a chase with police that ended with gunfire, according to Santa Monica police."
+    },
+    {
+      "headline": "19 Legionella bacteria infections linked to Kaiser Bay Area hospital",
+      "url": "https://www.latimes.com/california/story/2026-05-18/19-cases-of-legionella-infection-linked-to-kaiser-bay-area-hospital",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "The 19 infections were linked to Kaiser's medical center in Santa Clara. Most of those who fell sick are recovering at home, Kaiser said in a statement last week."
+    },
+    {
+      "headline": "Tech leaders funding Matt Mahan&#x27;s campaign for California governor say it&#x27;s not about tech",
+      "url": "https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "San José Mayor Matt Mahan's campaign for governor has been bankrolled by tech titans. Critics say he will cater to their interests as governor, but several of his backers said their support for him has nothing to do with tech policy."
+    },
+    {
+      "headline": "AI has invaded the L.A. mayor&#x27;s race. Some fear it&#x27;s just the beginning",
+      "url": "https://www.latimes.com/california/story/2026-05-18/ai-has-invaded-la-mayors-race-some-fear-its-just-beginning",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "Some see fan-generated election campaign videos as a harbinger of how artificial intelligence could reshape political messaging across the country."
+    },
+    {
+      "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
+      "url": "https://www.latimes.com/california/story/2026-05-18/crowds-yosemite-visitors-worry-high-season-will-be-disaster",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
+    },
+    {
+      "headline": "L.A.&#x27;s 100 most problematic rental properties spotlighted in new city database",
+      "url": "https://www.latimes.com/california/story/2026-05-18/l-a-s-100-most-problematic-rental-properties-spotlighted-in-database",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "A new dashboard released by City Controller Kenneth Mejia shows the 100 L.A. properties with the most housing violations."
+    },
+    {
+      "headline": "Santa Rosa Island fire burns more than 10,000 acres, threatening rare plants and animals",
+      "url": "https://www.latimes.com/california/story/2026-05-17/santa-rosa-island-fire-burns-more-than-10-000-acres-threatening-rare-plants-animals",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 04:51:03 GMT",
+      "description": "A human-caused fire spread to more than 10,000 acres on Sunday night, destroying two structures and forcing the evacuation of 11 people."
+    },
+    {
+      "headline": "Pedro Pascal goes undercover for &#x27;Star Wars&#x27; surprise at Disneyland",
+      "url": "https://www.latimes.com/entertainment-arts/story/2026-05-17/pedro-pascal-goes-undercover-for-star-wars-surprise-at-disneyland",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 00:50:39 GMT",
+      "description": "Pedro Pascal surprised fans with an undercover appearance as \"The Mandalorian\" at Disneyland on Saturday."
+    },
+    {
+      "headline": "Bittersweet Pride: Joy at the Long Beach parade, outrage over canceled festival",
+      "url": "https://www.latimes.com/california/story/2026-05-17/long-beach-pride-joyful-parade-meets-outrage-over-canceled-festival",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 17 May 2026 21:47:40 GMT",
+      "description": "Hundreds celebrated at the Long Beach Pride parade, but the weekend was overshadowed by the abrupt, last-minute cancellation of the popular decades-old festival."
+    },
+    {
+      "headline": "Feds say they thwarted alleged terror plot targeting L.A. Jewish institution",
+      "url": "https://www.latimes.com/california/story/2026-05-17/iraqi-national-charged-la-terror-plot",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 17 May 2026 21:07:27 GMT",
+      "description": "Federal authorities say they have disrupted a multi-city terror plot that included an L.A. Jewish center, arresting an Iraqi national with alleged ties to Kata'ib Hizballah."
+    },
+    {
+      "headline": "Tustin police arrest man accused of fatally shooting ex-girlfriend before fleeing to Mexico",
+      "url": "https://www.latimes.com/california/story/2026-05-17/tustin-man-accused-of-killing-ex-fleeing-to-mexico-is-arrested",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 17 May 2026 21:07:19 GMT",
+      "description": "Tustin police arrested 47-year-old Juan Marquez after he allegedly shot his ex-girlfriend, a mother of three, and fled across the U.S.-Mexico border."
+    },
+    {
+      "headline": "Seis personas murieron en centros de detención del ICE en California mientras deportaciones de Trump se disparaban",
+      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/inspeccion-centros-de-detencion-ice/",
+      "source": "CalMatters",
+      "raw_date": "Mon, 18 May 2026 19:02:49 +0000",
+      "description": "La represión migratoria del gobierno de Trump incrementó la población en los centros de detención de inmigrantes de California. En un informe, los investigadores estatales describieron la saturación de los recursos médicos en dichos centros."
+    },
+    {
       "headline": "Funcionarios de Trump imponen a California la mayor congelación de fondos de Medicaid de la historia",
       "url": "https://calmatters.org/calmatters-en-espanol/2026/05/trump-california-congelacion-de-fondos-de-medicaid/",
       "source": "CalMatters",
@@ -429,6 +536,27 @@
       "source": "CalMatters",
       "raw_date": "Mon, 18 May 2026 12:00:00 +0000",
       "description": "Transitional kindergarten came with an unanticipated downside; it’s making childcare less affordable for many CA families. That can be fixed."
+    },
+    {
+      "headline": "At the Milken Institute Global Conference",
+      "url": "https://labusinessjournal.com/featured/at-the-milken-institute-global-conference/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 18:24:48 +0000",
+      "description": "At a moment when volatility has become a permanent feature of the global economy, the Milken Institute’s 29th annual Global Conference unfolded less like a celebration of capital markets and more like a high-level stress test of them. Over the four days, executives, sovereign wealth leaders, policym"
+    },
+    {
+      "headline": "Santa Monica Airport – Grounded Future?",
+      "url": "https://labusinessjournal.com/featured/santa-monica-airport-grounded-future/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 18:12:52 +0000",
+      "description": "Scores of businesses at Santa Monica Airport have launched a campaign to head off the planned closure of the airfield at the end of 2028. Flight schools, aircraft maintenance shops, nonprofit organizations and even a business incubator would all be displaced if the century-old airport closes. Most b"
+    },
+    {
+      "headline": "Atara Bounces Back with FDA",
+      "url": "https://labusinessjournal.com/featured/atara-bounces-back-with-fda/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 18:10:09 +0000",
+      "description": "The share price of Thousand Oaks-based immunotherapy company Atara Biotherapeutics nearly doubled on May 7 after a welcome dose of positive news. The company reported that the U.S. Food and Drug Administration has laid out a path for resubmission of Atara’s cell therapy drug candidate that the agenc"
     },
     {
       "headline": "Valley Financial Adviser Joins National RIA",
@@ -478,97 +606,6 @@
       "source": "Los Angeles Business Journal",
       "raw_date": "Mon, 18 May 2026 07:18:15 +0000",
       "description": "Since expanding into 12 neighborhoods early this year, The LA Local took another step ahead last month by adding Long Beach Post and Long Beach Business Journal into its portfolio. Founded on the mission to expand hyper-local news coverage, The LA Local has raised more than $19 million in philanthro"
-    },
-    {
-      "headline": "SAG, WGA Land New Labor Deals",
-      "url": "https://labusinessjournal.com/media/sag-wga-land-new-labor-deals/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 07:13:52 +0000",
-      "description": "Three years after their two historic strikes, the Screen Actors Guild-American Federation of Television and Radio Artists and Writers Guild of America West are leading L.A.’s creative community by sealing long-term deals amid a challenging entertainment industry. The SAG-AFTRA board approved last Mo"
-    },
-    {
-      "headline": "Q1 Airports Passenger Traffic Flat",
-      "url": "https://labusinessjournal.com/featured/q1-airports-passenger-traffic-flat/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 07:01:38 +0000",
-      "description": "Cumulative passenger traffic at the four airports serving Los Angeles County came in flat during the first quarter of the year. According to data released by the airport governing authorities, roughly 20.17 million passengers traveled through Los Angeles International, Ontario International, Hollywo"
-    },
-    {
-      "headline": "OpEd: L.A. Is Paying the Cost of Cheap Politics",
-      "url": "https://labusinessjournal.com/commentary/oped-l-a-is-paying-the-cost-of-cheap-politics/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 07:01:27 +0000",
-      "description": "There are few ideas in modern politics more intoxicating to the economically illiterate than the perpetual raising of the minimum wage. It is, after all, the perfect applause line for a politician who prefers sentiment to substance: stand before a microphone, puff one’s chest with theatrical compass"
-    },
-    {
-      "headline": "Luxury Real Estate Is Emerging as Its Own Asset Class",
-      "url": "https://www.sdbj.com/branded-content/luxury-real-estate-is-emerging-as-its-own-asset-class/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=luxury-real-estate-is-emerging-as-its-own-asset-class",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 17:10:47 +0000",
-      "description": "Luxury residential real estate is increasingly behaving less like traditional housing and more like a distinct global asset class. Historically, housing markets moved largely in tandem with mortgage rates, local employment trends, and consumer affordability. Today, however, the ultra-luxury segment "
-    },
-    {
-      "headline": "SERVANT LEADERS CELEBRATED",
-      "url": "https://www.sdbj.com/leadership/servant-leaders-celebrated/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=servant-leaders-celebrated",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:01:14 +0000",
-      "description": "The San Diego Business Journal held its 2026 CEO of the Year Awards ceremony April 29. The event honored top chief executives from across a variety of industries and company sizes, including a Lifetime Achievement Award for Blanchard CEO Ken Blanchard – a pioneer in the servant leadership movement. "
-    },
-    {
-      "headline": "Axos Hits $1B in Small Biz Deposits",
-      "url": "https://www.sdbj.com/finance/banks/axos-hits-1b-in-small-biz-deposits/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=axos-hits-1b-in-small-biz-deposits",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:57 +0000",
-      "description": "SAN DIEGO – More than two decades after its founding, Axos Bank (NYSE: AX) rea- ched a 10-figure milestone. The digital banking and financial services provider announced in early May that it surpassed $1 billion in small business deposits from its more than 40,000 small business customers across the"
-    },
-    {
-      "headline": "Food Bank CEO Growing Organization to Meet Growing Needs",
-      "url": "https://www.sdbj.com/nonprofits/food-bank-ceo-growing-organization-to-meet-growing-needs/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=food-bank-ceo-growing-organization-to-meet-growing-needs",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:53 +0000",
-      "description": "As CEO of the Jacobs &#38; Cushman San Diego Food Bank, Casey Castillo oversees a $113.6 million organization with more than $100 million in net assets, directing 90% of expenses to program services. In 2025, the Food Bank distributed 52.9 million pounds of food and supplies — equivalent to more tha"
-    },
-    {
-      "headline": "SD Symphony Marches to Beat of Its Own Drum",
-      "url": "https://www.sdbj.com/entertainment-2/sd-symphony-marches-to-beat-of-its-own-drum/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sd-symphony-marches-to-beat-of-its-own-drum",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:50 +0000",
-      "description": "SAN DIEGO – When San Diego Symphony President and CEO Martha Gilmer sets foot in the recording booth, she feels something special. “Sitting and listening to the playbacks, I am just in awe of what this orchestra can do,” she said. The Symphony’s resonance is not just musical. Founded in 1910, the Sy"
-    },
-    {
-      "headline": "EDC’s Mark Cafferty Positions San Diego as a Global Economic Force",
-      "url": "https://www.sdbj.com/nonprofits/edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:47 +0000",
-      "description": "Mark Cafferty tied for the CEO of the Year Award in the Business Nonprofit Category. As president and CEO of San Diego Regional Economic Development Corporation (EDC), Cafferty sits at the center of a unique partnership of business, trade, community and education leaders who have reinvented the regi"
-    },
-    {
-      "headline": "Serial Company Builder Challenges Business as Usual",
-      "url": "https://www.sdbj.com/defense/serial-company-builder-challenges-business-as-usual/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=serial-company-builder-challenges-business-as-usual",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:45 +0000",
-      "description": "Dan Magy is CEO of the Year in the Private Medium Company Category. Magy is an experienced company builder, having founded four VC-backed hardware and Artificial Intelligence companies. He founded Citadel Defense in 2015, specializing in Counter-Unmanned Aerial System (C-UAS) technologies, which was"
-    },
-    {
-      "headline": "Gifford Leading Splitero’s Transformative HEI Solution for Homeowners",
-      "url": "https://www.sdbj.com/finance/gifford-leading-spliteros-transformative-hei-solution-for-homeowners/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gifford-leading-spliteros-transformative-hei-solution-for-homeowners",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:43 +0000",
-      "description": "Michael Gifford is a seasoned PropTech and FinTech veteran, bringing nearly 20 years of experience and a vast professional network to his role as CEO and co-founder of Splitero – an innovative home equity investment (HEI) company. Under Gifford’s leadership, Splitero has been defined by rapid growth"
-    },
-    {
-      "headline": "Palomar CEO’s String of Successes Right from the Start",
-      "url": "https://www.sdbj.com/insurance/palomar-ceos-string-of-successes-right-from-the-start/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=palomar-ceos-string-of-successes-right-from-the-start",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:29 +0000",
-      "description": "David “Mac” Armstrong’s career path began in investment banking and private equity and ultimately led to insurance where today he leads Palomar Holdings, Inc., a specialty insurer that focuses on underserved markets, including earthquake, inland marine and casualty insurance. Armstrong founded Palom"
-    },
-    {
-      "headline": "Greupner Advances the Padres on the Business Playing Field",
-      "url": "https://www.sdbj.com/sports-2/greupner-advances-the-padres-on-the-business-playing-field/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=greupner-advances-the-padres-on-the-business-playing-field",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:27 +0000",
-      "description": "Erik Greupner is CEO of the Year in the Large Private Company Category. Greupner oversees the San Diego Padres’ operations and leads the growth and development of the club’s business and culture. 2026 marks his 16th season in San Diego after joining the club in December 2010. During his tenure as CE"
     },
     {
       "headline": "Kaiser Permanente provides MD’s to High Desert hospital",
