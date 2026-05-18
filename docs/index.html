@@ -155,9 +155,9 @@
         }
         .fp-card-summary {
             font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.2rem;
+            font-size: 1.15rem;
             font-weight: 400;
-            line-height: 1.6;
+            line-height: 1.7;
             color: var(--ink-light);
             flex: 1;
             margin-bottom: 1.25rem;
@@ -336,7 +336,7 @@
             color: var(--ink);
         }
 
-        /* ── Top Articles section ── */
+        /* ── Section labels ── */
         .section-label {
             font-family: 'Jost', sans-serif;
             font-size: 0.68rem;
@@ -379,13 +379,105 @@
             color: var(--ink);
             margin-bottom: 0.85rem;
         }
-
-        /* ── All stories divider ── */
         .all-stories-divider {
             margin: 2.5rem 0 1.5rem;
         }
 
-        /* ── Cluster card ── */
+        /* ── Cross-category tags ── */
+        .cross-cat-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            margin-top: 0.75rem;
+        }
+        .cross-cat-tag {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            border: 1px solid var(--rule);
+            padding: 0.15rem 0.45rem;
+            border-radius: 2px;
+            text-decoration: none;
+            transition: color 0.15s, border-color 0.15s;
+        }
+        .cross-cat-tag:hover {
+            color: var(--ink);
+            border-color: var(--ink-light);
+        }
+        .cross-cat-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            color: var(--muted);
+            letter-spacing: 0.06em;
+            align-self: center;
+        }
+
+        /* ── Overflow indicator (SoCal tab) ── */
+        .overflow-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--muted);
+            border: 1px dashed var(--rule);
+            padding: 0.12rem 0.4rem;
+            border-radius: 2px;
+            margin-left: 0.4rem;
+        }
+
+        /* ── Submarket filter bar ── */
+        .submarket-bar {
+            background: var(--parchment);
+            border-bottom: 1px solid var(--rule);
+            padding: 0.75rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        .submarket-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-right: 0.5rem;
+        }
+        .submarket-btn {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 500;
+            letter-spacing: 0.06em;
+            color: var(--ink-light);
+            background: #fff;
+            border: 1px solid var(--rule);
+            padding: 0.35rem 0.85rem;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .submarket-btn:hover {
+            border-color: var(--cat-color, var(--accent));
+            color: var(--cat-color, var(--accent));
+        }
+        .submarket-btn.active {
+            background: var(--cat-color, var(--accent));
+            border-color: var(--cat-color, var(--accent));
+            color: #fff;
+        }
+        .submarket-count {
+            font-size: 0.6rem;
+            opacity: 0.75;
+            margin-left: 0.2rem;
+        }
+        .sm-hidden { display: none !important; }
+
+        /* ── Cluster cards ── */
         .cluster-sources {
             display: flex;
             flex-wrap: wrap;
@@ -434,15 +526,6 @@
             display: inline-block;
             margin-left: auto;
         }
-            grid-column: 1 / -1;
-            text-align: center;
-            padding: 3rem;
-            background: var(--parchment);
-            border: 1px solid var(--rule);
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.1rem;
-            color: var(--muted);
-        }
 
         /* ── Responsive ── */
         @media (max-width: 900px) {
@@ -466,7 +549,7 @@
   </div>
   <nav class="site-nav">
     <a href="index.html" class="site-nav-link" style="color:#fff; border-bottom-color:var(--accent);">Front Page</a>
-    <a href="economics.html" style="" class="site-nav-link">Economics</a><a href="supply-chain.html" style="" class="site-nav-link">Logistics</a><a href="industries.html" style="" class="site-nav-link">Industrial</a><a href="politics.html" style="" class="site-nav-link">Politics</a><a href="business.html" style="" class="site-nav-link">Business</a><a href="tech.html" style="" class="site-nav-link">Tech</a><a href="local-deals.html" style="" class="site-nav-link">Local</a>
+    <a href="economy.html" style="" class="site-nav-link">Economy</a><a href="industries.html" style="" class="site-nav-link">Industries</a><a href="logistics.html" style="" class="site-nav-link">Logistics</a><a href="policy.html" style="" class="site-nav-link">Policy</a><a href="socal.html" style="" class="site-nav-link">SoCal</a>
   </nav>
 </header>
 
@@ -475,69 +558,53 @@
   <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; margin-bottom:2rem; padding-bottom:1rem; border-bottom:1px solid var(--rule);">
     <h1 style="font-family:'Cormorant Garamond',Georgia,serif; font-size:1.35rem; font-weight:300; letter-spacing:0.04em; color:var(--ink);">Today's Briefing</h1>
     <div style="display:flex; align-items:center; gap:1rem; flex-wrap:wrap;">
-      <span style="font-family:'Jost',sans-serif; font-size:0.7rem; color:var(--muted);">50 stories · 6 sections</span>
+      <span style="font-family:'Jost',sans-serif; font-size:0.7rem; color:var(--muted);">51 stories · 4 sections</span>
       <span class="status-badge"><span class="status-dot"></span>Updated 0m ago</span>
     </div>
   </div>
 
   <div class="bottom-line">
   <div class="bottom-line-label">The Bottom Line</div>
-  <p class="bottom-line-text">Surging inflation, spiking Treasury yields, and a global bond selloff are tightening financial conditions just as Hormuz-driven fuel and freight costs accelerate supply chain stress, forcing businesses to absorb compounding cost shocks while the Fed prepares to raise rates rather than cut them.</p>
+  <p class="bottom-line-text">The Strait of Hormuz closure, accelerating inflation, and rising tariff enforcement are hitting industrial operators simultaneously. Companies are racing to build inventory, and that urgency is filling warehouse space fast.</p>
 </div>
 
   <div class="fp-grid">
-    <a href="economics.html" class="fp-card" style="--cat-color:#7C5C3E;">
+    <a href="economy.html" class="fp-card" style="--cat-color:#7C5C3E;">
   <div class="fp-card-label">
-    <span>◈ Economics</span>
+    <span>◈ Economy</span>
     <span class="fp-card-count">19</span>
   </div>
-  <p class="fp-card-summary">The U.S. economy faces a stagflationary pressure point, with inflation accelerating toward 6%, Treasury yields surging, a global bond selloff underway, and incoming Fed Chair Kevin Warsh inheriting a rate path that markets now expect will lead to hikes rather than cuts.</p>
-  <div class="fp-card-cta">View all stories →</div>
-</a>
-<a href="supply-chain.html" class="fp-card" style="--cat-color:#4E6B5E;">
-  <div class="fp-card-label">
-    <span>◍ Supply Chain & Logistics</span>
-    <span class="fp-card-count">7</span>
-  </div>
-  <p class="fp-card-summary">The closure of the Strait of Hormuz has sent fuel costs surging, freight rates climbing, and companies racing to stockpile inventory, creating widespread stress across global supply chains amid deep uncertainty over how long disruptions will last.</p>
+  <p class="fp-card-summary">Inflation is accelerating sharply, complicating the new Fed chair's policy path. Bond yields hit their highest levels in nearly a year this week. Markets are now pricing a rate hike as more likely than a cut.</p>
   <div class="fp-card-cta">View all stories →</div>
 </a>
 <a href="industries.html" class="fp-card" style="--cat-color:#3D6B5E;">
   <div class="fp-card-label">
-    <span>◉ Industrial</span>
+    <span>◆ Industries</span>
+    <span class="fp-card-count">15</span>
+  </div>
+  <p class="fp-card-summary">Amazon launched 30-minute delivery, pressuring last-mile warehouse demand further. Small-bay industrial vacancy remains below 5% nationally. AI tools are reshaping supply chain operations for industrial tenants.</p>
+  <div class="fp-card-cta">View all stories →</div>
+</a>
+<a href="logistics.html" class="fp-card" style="--cat-color:#4E6B5E;">
+  <div class="fp-card-label">
+    <span>◍ Logistics</span>
     <span class="fp-card-count">7</span>
   </div>
-  <p class="fp-card-summary">Industrial demand remains structurally supported, with small-bay and infill product leading on occupancy, private capital actively deploying into Southeast markets, and data center infrastructure emerging as a distinct but adjacent investment category drawing significant institutional attention.</p>
+  <p class="fp-card-summary">Supply chains are under severe stress from the Strait of Hormuz closure. Fuel costs, spot rates, and carrier capacity are all tightening fast. Companies are racing to build inventory, driving urgent demand for warehouse space.</p>
   <div class="fp-card-cta">View all stories →</div>
 </a>
-<a href="politics.html" class="fp-card" style="--cat-color:#8B4A3A;">
+<a href="policy.html" class="fp-card" style="--cat-color:#8B4A3A;">
   <div class="fp-card-label">
-    <span>◐ Politics</span>
-    <span class="fp-card-count">6</span>
+    <span>◐ Policy</span>
+    <span class="fp-card-count">7</span>
   </div>
-  <p class="fp-card-summary">US-China relations are stabilizing through diplomatic engagement and trade talks, while domestic policy debates over tariffs, housing legislation, and customs enforcement continue to shape the economic and political landscape.</p>
-  <div class="fp-card-cta">View all stories →</div>
-</a>
-<a href="business.html" class="fp-card" style="--cat-color:#4A5F82;">
-  <div class="fp-card-label">
-    <span>◆ Business</span>
-    <span class="fp-card-count">6</span>
-  </div>
-  <p class="fp-card-summary">Global business is navigating a turbulent environment marked by persistent inflation, shifting consumer behavior, trade realignments, surging energy and AI-driven infrastructure demand, and widespread corporate restructuring as companies adapt to evolving cost pressures and market conditions.</p>
-  <div class="fp-card-cta">View all stories →</div>
-</a>
-<a href="tech.html" class="fp-card" style="--cat-color:#6B4F7A;">
-  <div class="fp-card-label">
-    <span>◎ Tech</span>
-    <span class="fp-card-count">2</span>
-  </div>
-  <p class="fp-card-summary">AI is being rapidly deployed across industrial and enterprise sectors to automate complex operational decisions, though adoption rates vary significantly depending on how much industries require explainability, auditability, and reliability from automated systems before committing to full implementation.</p>
+  <p class="fp-card-summary">Trade policy remains unsettled despite a cautious US-China truce extension. Tariff refunds are flowing, but customs enforcement is intensifying sharply. Quartz import tariffs now threaten supply chains for California distributors.</p>
   <div class="fp-card-cta">View all stories →</div>
 </a>
 
   </div>
 
-  <p style="font-family:'Jost',sans-serif;font-size:0.8rem;color:var(--muted);text-align:center;margin:2rem 0;">Local Deals & Developments has no stories yet — check back soon.</p>
+  <p style="font-family:'Jost',sans-serif;font-size:0.8rem;color:var(--muted);text-align:center;margin:2rem 0;">SoCal has no stories yet — check back soon.</p>
 
 </main>
 

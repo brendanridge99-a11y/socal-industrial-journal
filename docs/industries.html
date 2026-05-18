@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Industrial | SoCal Industrial Journal</title>
+  <title>Industries | SoCal Industrial Journal</title>
   <meta http-equiv="refresh" content="7200">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -155,9 +155,9 @@
         }
         .fp-card-summary {
             font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.2rem;
+            font-size: 1.15rem;
             font-weight: 400;
-            line-height: 1.6;
+            line-height: 1.7;
             color: var(--ink-light);
             flex: 1;
             margin-bottom: 1.25rem;
@@ -336,7 +336,7 @@
             color: var(--ink);
         }
 
-        /* ── Top Articles section ── */
+        /* ── Section labels ── */
         .section-label {
             font-family: 'Jost', sans-serif;
             font-size: 0.68rem;
@@ -379,13 +379,105 @@
             color: var(--ink);
             margin-bottom: 0.85rem;
         }
-
-        /* ── All stories divider ── */
         .all-stories-divider {
             margin: 2.5rem 0 1.5rem;
         }
 
-        /* ── Cluster card ── */
+        /* ── Cross-category tags ── */
+        .cross-cat-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            margin-top: 0.75rem;
+        }
+        .cross-cat-tag {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            border: 1px solid var(--rule);
+            padding: 0.15rem 0.45rem;
+            border-radius: 2px;
+            text-decoration: none;
+            transition: color 0.15s, border-color 0.15s;
+        }
+        .cross-cat-tag:hover {
+            color: var(--ink);
+            border-color: var(--ink-light);
+        }
+        .cross-cat-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.6rem;
+            color: var(--muted);
+            letter-spacing: 0.06em;
+            align-self: center;
+        }
+
+        /* ── Overflow indicator (SoCal tab) ── */
+        .overflow-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--muted);
+            border: 1px dashed var(--rule);
+            padding: 0.12rem 0.4rem;
+            border-radius: 2px;
+            margin-left: 0.4rem;
+        }
+
+        /* ── Submarket filter bar ── */
+        .submarket-bar {
+            background: var(--parchment);
+            border-bottom: 1px solid var(--rule);
+            padding: 0.75rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        .submarket-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-right: 0.5rem;
+        }
+        .submarket-btn {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 500;
+            letter-spacing: 0.06em;
+            color: var(--ink-light);
+            background: #fff;
+            border: 1px solid var(--rule);
+            padding: 0.35rem 0.85rem;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .submarket-btn:hover {
+            border-color: var(--cat-color, var(--accent));
+            color: var(--cat-color, var(--accent));
+        }
+        .submarket-btn.active {
+            background: var(--cat-color, var(--accent));
+            border-color: var(--cat-color, var(--accent));
+            color: #fff;
+        }
+        .submarket-count {
+            font-size: 0.6rem;
+            opacity: 0.75;
+            margin-left: 0.2rem;
+        }
+        .sm-hidden { display: none !important; }
+
+        /* ── Cluster cards ── */
         .cluster-sources {
             display: flex;
             flex-wrap: wrap;
@@ -434,15 +526,6 @@
             display: inline-block;
             margin-left: auto;
         }
-            grid-column: 1 / -1;
-            text-align: center;
-            padding: 3rem;
-            background: var(--parchment);
-            border: 1px solid var(--rule);
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.1rem;
-            color: var(--muted);
-        }
 
         /* ── Responsive ── */
         @media (max-width: 900px) {
@@ -466,22 +549,21 @@
   </div>
   <nav class="site-nav">
     <a href="index.html" class="site-nav-link" style="">Front Page</a>
-    <a href="economics.html" style="" class="site-nav-link">Economics</a><a href="supply-chain.html" style="" class="site-nav-link">Logistics</a><a href="industries.html" style="color:#fff; border-bottom-color:var(--accent);" class="site-nav-link">Industrial</a><a href="politics.html" style="" class="site-nav-link">Politics</a><a href="business.html" style="" class="site-nav-link">Business</a><a href="tech.html" style="" class="site-nav-link">Tech</a><a href="local-deals.html" style="" class="site-nav-link">Local</a>
+    <a href="economy.html" style="" class="site-nav-link">Economy</a><a href="industries.html" style="color:#fff; border-bottom-color:var(--accent);" class="site-nav-link">Industries</a><a href="logistics.html" style="" class="site-nav-link">Logistics</a><a href="policy.html" style="" class="site-nav-link">Policy</a><a href="socal.html" style="" class="site-nav-link">SoCal</a>
   </nav>
 </header>
+
 
 <main style="max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem;">
 
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
-    <h1 class="page-title">◉ Industrial</h1>
-    <p class="page-count">7 stories · 1 clusters</p>
+    <h1 class="page-title">◆ Industries</h1>
+    <p class="page-count">15 stories · 1 clusters</p>
   </div>
 
   <div class="cat-summary-banner" style="--cat-color:#3D6B5E;">
-  <p class="cat-summary-text">**Industrial Sector Digest | May 13–15, 2026**
-
-Industrial real estate remains a focal point for capital deployment, with private investors and institutional players alike signaling conviction in the sector. Small-bay and infill product continues to outperform, posting sub-5% vacancy. Florida attracted over $90 million across multiple transactions. Groundbreakings and strategic hires signal sustained development appetite. Separately, Blackstone's $1.75 billion data center REIT IPO underscores growing institutional interest in digital infrastructure as an adjacent industrial asset class.</p>
+  <p class="cat-summary-text">Small-bay industrial vacancy sits below 5%; investor capital continues flowing into multitenant and infill product. Amazon's 30-minute delivery expansion is intensifying demand for dense, last-mile warehouse infrastructure. Watch Blackstone's $1.75 billion data center REIT as it begins deploying capital across its $25 billion target pipeline.</p>
 </div>
 <div class="section-label">Top Stories</div>
 <div class="article-grid">
@@ -491,34 +573,36 @@ Industrial real estate remains a focal point for capital deployment, with privat
     <span class="date">May 14, 2026</span>
   </div>
   <h3 class="top-article-headline">Blackstone's BXDC Data Center REIT Raises $1.75B in NYSE IPO</h3>
-  <p class="article-summary">Blackstone Digital Infrastructure Trust (BXDC) completed its NYSE IPO on May 14, raising $1.75 billion by selling 87.5 million shares at $20 per share, with underwriters holding a 30-day option to increase total proceeds to $2 billion. The REIT, structured as a 'blind pool' with no assets yet acquired, will target newly constructed, stabilized data centers valued between $250 million and $1.5 billion, occupied by investment-grade hyperscale tenants on long-term leases at yields of 5.75% to 7%. Blackstone has identified approximately $25 billion in potential near-term acquisitions in Northern Virginia, Ohio, Phoenix, Maryland, and Austin. Nick Pell, former president and CIO of Blackstone's Link Logistics industrial REIT, was named CEO of the new entity.</p>
+  <p class="article-summary">Blackstone Digital Infrastructure Trust (BXDC) completed its NYSE IPO on May 14, raising $1.75 billion by selling 87.5 million shares at $20 per share, with underwriters holding a 30-day option to increase total proceeds to $2 billion. The REIT, structured as a blind pool with no assets yet acquired, will target newly constructed, stabilized data centers valued between $250 million and $1.5 billion, occupied by investment-grade hyperscale tenants on long-term leases at yields of 5.75% to 7%. Blackstone has identified approximately $25 billion in potential near-term acquisitions across Northern Virginia, Ohio, Phoenix, Maryland, and Austin. Nick Pell, former president and CIO of Blackstone's Link Logistics industrial REIT, was named CEO of the new entity.</p>
   <div class="cluster-sources"><span class="cluster-sources-label">Coverage</span><a href="https://www.bloomberg.com/news/articles/2026-05-13/blackstone-reit-raises-1-75-billion-in-ipo-to-buy-data-centers" target="_blank" class="cluster-source-link">Bloomberg 🔒</a><span class="cluster-source-sep">·</span><a href="https://www.bisnow.com/national/news/data-center/blackstones-data-center-reit-raises-175b-in-debut-as-share-prices-fall-134583" target="_blank" class="cluster-source-link">BisNow</a><span class="cluster-badge">2 sources</span></div>
 </div>
 <div class="top-article-card" style="--cat-color:#3D6B5E;">
   <span class="top-badge">Top Story</span>
   <div class="article-meta">
-    <span>CoStar</span>
-    <span class="date">· May 14, 2026</span>
+    <span>Bloomberg</span>
+    <span class="date">· May 15, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="top-article-headline">Betting on Continued Industrial Demand, Redfearn Capital Closes Pair of Deals Across Florida Totaling $60M</h3>
-  <p class="article-summary">Redfearn Capital closed two industrial deals in South Florida and Jacksonville totaling $60 million, in what the firm described as a vote of confidence in Florida's industrial market. The transactions represent the new group's entry into the Florida industrial investment space. No specific property addresses or tenant details were disclosed in publicly available information. The deals signal continued private capital appetite for industrial assets in the Southeast despite broader market uncertainty.</p>
+  <h3 class="top-article-headline">Starbucks Announces Third Round of U.S. Layoffs, 300 Corporate Employees Cut</h3>
+  <p class="article-summary">Starbucks announced it will lay off 300 U.S. corporate employees in its third round of job cuts as part of its ongoing turnaround strategy under CEO Brian Niccol. The coffee giant is also closing some regional support offices, with combined severance costs and office space reassessment expected to result in $400 million in restructuring charges. Starbucks expects to record $280 million in noncash charges tied to asset impairments and $120 million in cash charges related to the layoffs. This follows an earlier round that cut 1,100 jobs and another that eliminated 900 nonretail positions as part of a $1 billion restructuring plan.</p>
   <div>
-    <a href="https://www.costar.com/article/1989049024/betting-on-continued-industrial-demand-real-estate-group-closes-pair-of-deals-across-florida" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Betting%20on%20Continued%20Industrial%20Demand,%20Redfearn%20Capital%20Clo&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ABetting on Continued Industrial Demand, Redfearn Capital Closes Pair of Deals Across Florida Totaling $60M%0Ahttps://www.costar.com/article/1989049024/betting-on-continued-industrial-demand-real-estate-group-closes-pair-of-deals-across-florida%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+    <a href="https://www.bloomberg.com" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Starbucks%20Announces%20Third%20Round%20of%20U.S.%20Layoffs,%20300%20Corpora&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AStarbucks Announces Third Round of U.S. Layoffs, 300 Corporate Employees Cut%0Ahttps://www.bloomberg.com%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
+  
 </div>
 <div class="top-article-card" style="--cat-color:#3D6B5E;">
   <span class="top-badge">Top Story</span>
   <div class="article-meta">
-    <span>CoStar</span>
-    <span class="date">· May 15, 2026</span>
+    <span>Bloomberg</span>
+    <span class="date">· May 16, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="top-article-headline">Westmount Hires Industrial Veteran; SRS Expands National Retail Team; CenterSquare Adds AI Director</h3>
-  <p class="article-summary">Westmount Realty Capital appointed Mike Demperio as director of development in Atlanta, bringing over five decades of industrial real estate experience and more than 100 million square feet of industrial projects across the country valued at over $4 billion. Demperio previously served as EVP at CRG and held roles at CBRE where he launched the firm's Global Logistics practice. SRS Real Estate Partners added Neill Kelly and Benjamin Gould to its national retail team to bolster restructuring and dispositions capability. CenterSquare Investment Management also appointed Doug Carpenter as its new director and head of data strategy and artificial intelligence.</p>
+  <h3 class="top-article-headline">Starbucks Plans First Corporate Tech Office in India to Cut Costs</h3>
+  <p class="article-summary">Starbucks Corp. announced plans to open a technology office in India as part of a broader initiative to cut $2 billion in costs. The new hub is slated for the company's fiscal year 2027, which begins in October, according to an internal message seen by Bloomberg News. The India location will be Starbucks' first corporate office in the country, and the company expects to begin recruiting once a site is selected later this year.</p>
   <div>
-    <a href="https://www.costar.com/article/924503917/westmount-hires-industrial-veteran-srs-expands-national-retail-team-centersquare-adds-ai-director" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Westmount%20Hires%20Industrial%20Veteran;%20SRS%20Expands%20National%20Ret&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AWestmount Hires Industrial Veteran; SRS Expands National Retail Team; CenterSquare Adds AI Director%0Ahttps://www.costar.com/article/924503917/westmount-hires-industrial-veteran-srs-expands-national-retail-team-centersquare-adds-ai-director%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-16/starbucks-to-open-first-corporate-office-in-india-for-tech-jobs" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Starbucks%20Plans%20First%20Corporate%20Tech%20Office%20in%20India%20to%20Cut%20&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AStarbucks Plans First Corporate Tech Office in India to Cut Costs%0Ahttps://www.bloomberg.com/news/articles/2026-05-16/starbucks-to-open-first-corporate-office-in-india-for-tech-jobs%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
+  
 </div>
 </div>
 <div class="all-stories-divider">
@@ -526,6 +610,84 @@ Industrial real estate remains a focal point for capital deployment, with privat
 </div>
 <div class="article-grid">
   <div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 16, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">NextEra Energy Is Said to Be in Talks to Acquire Dominion</h3>
+  <p class="article-summary">NextEra Energy Inc. is in discussions to acquire Dominion Energy Inc. in a mostly stock deal, according to a person familiar with the matter. A transaction could be announced as soon as Monday, though no agreement has been reached and talks could still end without one. The combined company would have an enterprise value of approximately $400 billion including debt. The deal is driven by surging electricity demand from AI data centers, industrial reshoring, and electrification, and would expand NextEra's reach into the PJM Interconnection grid, which extends from Washington to Chicago and encompasses Northern Virginia's data center cluster.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-16/nextera-energy-is-said-to-be-in-talks-to-acquire-dominion-energy" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20NextEra%20Energy%20Is%20Said%20to%20Be%20in%20Talks%20to%20Acquire%20Dominion&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ANextEra Energy Is Said to Be in Talks to Acquire Dominion%0Ahttps://www.bloomberg.com/news/articles/2026-05-16/nextera-energy-is-said-to-be-in-talks-to-acquire-dominion-energy%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+  
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Amazon Rolls Out 30-Minute Delivery on Thousands of Groceries and Essentials</h3>
+  <p class="article-summary">Amazon launched a 30-minute delivery service covering thousands of grocery and everyday essentials items, expanding its ultra-fast fulfillment capabilities to a broader product set beyond its existing same-day offerings. The service relies on Amazon's network of urban micro-fulfillment nodes and delivery infrastructure. The rollout follows Amazon's May 4 launch of Amazon Supply Chain Services (ASCS), which opened its full logistics network to third-party businesses. The 30-minute delivery expansion intensifies pressure on traditional grocery retailers and last-mile delivery providers, and requires continued investment in dense, last-mile warehouse infrastructure.</p>
+  <div>
+    <a href="https://www.wsj.com/business/retail/amazon-30-minute-delivery-groceries-essentials" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Amazon%20Rolls%20Out%2030-Minute%20Delivery%20on%20Thousands%20of%20Grocerie&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AAmazon Rolls Out 30-Minute Delivery on Thousands of Groceries and Essentials%0Ahttps://www.wsj.com/business/retail/amazon-30-minute-delivery-groceries-essentials%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+  
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Wall Street Journal</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">project44 Launches Autopilot to Cut Freight Costs, Improve Data Quality, Optimize Inventory Levels, and Accelerate Cash Flow</h3>
+  <p class="article-summary">Supply chain visibility platform project44 launched 'Autopilot,' an AI-driven tool designed to autonomously cut freight costs, improve shipment data quality, optimize inventory levels, and accelerate cash flow for shippers and logistics operators. The system uses machine learning to make automated decisions across freight procurement, routing, and inventory positioning without requiring manual intervention from supply chain teams. The launch comes as shippers face elevated freight costs due to oil price spikes from the Strait of Hormuz closure and continued tariff-related supply chain disruptions. project44 positions Autopilot as a response to the growing complexity of operating supply chains in a volatile trade and energy environment.</p>
+  <div>
+    <a href="https://www.wsj.com/tech/project44-autopilot-freight-ai" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20project44%20Launches%20Autopilot%20to%20Cut%20Freight%20Costs,%20Improve%20D&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0Aproject44 Launches Autopilot to Cut Freight Costs, Improve Data Quality, Optimize Inventory Levels, and Accelerate Cash Flow%0Ahttps://www.wsj.com/tech/project44-autopilot-freight-ai%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+  
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Betting on Continued Industrial Demand, Redfearn Capital Closes Pair of Deals Across Florida Totaling $60M</h3>
+  <p class="article-summary">Redfearn Capital closed two industrial deals in South Florida and Jacksonville totaling $60 million, in what the firm described as a vote of confidence in Florida's industrial market. The transactions represent the new group's entry into the Florida industrial investment space. No specific property addresses or tenant details were disclosed in publicly available information. The deals signal continued private capital appetite for industrial assets in the Southeast despite broader market uncertainty.</p>
+  <div>
+    <a href="https://www.costar.com/article/1989049024/betting-on-continued-industrial-demand-real-estate-group-closes-pair-of-deals-across-florida" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Betting%20on%20Continued%20Industrial%20Demand,%20Redfearn%20Capital%20Clo&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ABetting on Continued Industrial Demand, Redfearn Capital Closes Pair of Deals Across Florida Totaling $60M%0Ahttps://www.costar.com/article/1989049024/betting-on-continued-industrial-demand-real-estate-group-closes-pair-of-deals-across-florida%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+  
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Bloomberg</span>
+    <span class="date">· May 14, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Boeing Wins 200-Jet Plane Order From China, Trump Says</h3>
+  <p class="article-summary">President Trump announced that China agreed to purchase 200 Boeing commercial jets, marking Boeing's first major aircraft sale to China in nearly a decade, coming out of Trump's summit with President Xi Jinping in Beijing. Trump stated China reserved the right to buy up to 750 aircraft total, though neither the Chinese government nor Boeing issued a confirming statement. Boeing CEO Kelly Ortberg accompanied Trump on the trip; analysts had expected an order of up to 500 aircraft. Boeing shares fell 4.73% on Thursday following the announcement, which fell short of Jefferies' estimate of a 500-plane deal.</p>
+  <div>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-14/boeing-wins-200-jet-plane-order-from-china-trump-says" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Boeing%20Wins%20200-Jet%20Plane%20Order%20From%20China,%20Trump%20Says&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ABoeing Wins 200-Jet Plane Order From China, Trump Says%0Ahttps://www.bloomberg.com/news/articles/2026-05-14/boeing-wins-200-jet-plane-order-from-china-trump-says%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+  
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>CoStar</span>
+    <span class="date">· May 15, 2026</span>
+    <span class="paywall-badge">🔒 Subscriber</span>
+  </div>
+  <h3 class="article-headline">Westmount Hires Industrial Veteran; SRS Expands National Retail Team; CenterSquare Adds AI Director</h3>
+  <p class="article-summary">Westmount Realty Capital appointed Mike Demperio as director of development in Atlanta, bringing over five decades of industrial real estate experience and more than 100 million square feet of industrial projects across the country valued at over $4 billion. Demperio previously served as EVP at CRG and held roles at CBRE where he launched the firm's Global Logistics practice. SRS Real Estate Partners added Neill Kelly and Benjamin Gould to its national retail team to bolster restructuring and dispositions capability. CenterSquare Investment Management also appointed Doug Carpenter as its new director and head of data strategy and artificial intelligence.</p>
+  <div>
+    <a href="https://www.costar.com/article/924503917/westmount-hires-industrial-veteran-srs-expands-national-retail-team-centersquare-adds-ai-director" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Westmount%20Hires%20Industrial%20Veteran;%20SRS%20Expands%20National%20Ret&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AWestmount Hires Industrial Veteran; SRS Expands National Retail Team; CenterSquare Adds AI Director%0Ahttps://www.costar.com/article/924503917/westmount-hires-industrial-veteran-srs-expands-national-retail-team-centersquare-adds-ai-director%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+  </div>
+  
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
   <div class="article-meta">
     <span>Connect CRE</span>
     <span class="date">· May 15, 2026</span>
@@ -536,6 +698,7 @@ Industrial real estate remains a focal point for capital deployment, with privat
   <div>
     <a href="https://www.connectcre.com/stories/new-york-people-and-company-news-week-of-may-15-2026/" target="_blank" class="article-read">Read full story</a>
   </div>
+  
 </div>
 <div class="article-card" style="--cat-color:#3D6B5E;">
   <div class="article-meta">
@@ -548,6 +711,7 @@ Industrial real estate remains a focal point for capital deployment, with privat
   <div>
     <a href="https://www.connectcre.com/stories/texas-people-companies-may-15-2026/" target="_blank" class="article-read">Read full story</a>
   </div>
+  
 </div>
 <div class="article-card" style="--cat-color:#3D6B5E;">
   <div class="article-meta">
@@ -560,6 +724,33 @@ Industrial real estate remains a focal point for capital deployment, with privat
   <div>
     <a href="https://www.connectcre.com/stories/florida-people-companies-may-15-2026/" target="_blank" class="article-read">Read full story</a>
   </div>
+  
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 15, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Retail Q1 2026: Low Availability and Construction Slow Absorption</h3>
+  <p class="article-summary">Q1 2026 retail market reports from CBRE, JLL, Newmark, and others showed negative net absorption across nearly all tracked reports, driven by a wave of store closures from multiple bankruptcy filings adding available space to the market. Consumer sentiment was negatively affected by lingering inflation, uncertainty about the job market, and the impact of the Iran conflict on fuel costs, per Newmark analysts, though retail sales and consumer spending remained in positive territory. Sun Belt markets outpaced the rest of the country in retail metrics driven by population growth, and JLL noted that for the remainder of 2026, performance will depend more on which markets a portfolio is in than on national averages.</p>
+  <div>
+    <a href="https://www.connectcre.com/stories/retail-q1-low-availability-and-construction-slow-absorption/" target="_blank" class="article-read">Read full story</a>
+  </div>
+  
+</div>
+<div class="article-card" style="--cat-color:#3D6B5E;">
+  <div class="article-meta">
+    <span>Connect CRE</span>
+    <span class="date">· May 15, 2026</span>
+    
+  </div>
+  <h3 class="article-headline">Connect CRE: AI and CRE — Industry Moving Cautiously, Prioritizing Explainability and Auditability</h3>
+  <p class="article-summary">A joint study by First American Data and DealGround found that AI adoption in commercial real estate is proceeding cautiously, with firms prioritizing explainability, provenance, and defensible outputs over full automation. The study noted that many CRE workflows depend on fragmented historical data, unstructured documents, and legacy systems where small inaccuracies can create significant operational or financial consequences. AI and automation were identified as the leading catalysts for change in corporate real estate portfolio management, but actual implementation remains a work in progress. The study concluded that the market is 'pressure-testing whether current AI systems can consistently produce reliable, auditable outputs.'</p>
+  <div>
+    <a href="https://www.connectcre.com/national_topper/comfort-and-trust-may-18-2026/" target="_blank" class="article-read">Read full story</a>
+  </div>
+  
 </div>
 <div class="article-card" style="--cat-color:#3D6B5E;">
   <div class="article-meta">
@@ -572,6 +763,7 @@ Industrial real estate remains a focal point for capital deployment, with privat
   <div>
     <a href="https://www.globest.com/2026/05/14/small-bay-now-dominates-industrial-and-it-will-stay-that-way/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Small%20Bay%20Now%20Dominates%20Industrial%20and%20It%20Will%20Stay%20That%20Way&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ASmall Bay Now Dominates Industrial and It Will Stay That Way%0Ahttps://www.globest.com/2026/05/14/small-bay-now-dominates-industrial-and-it-will-stay-that-way/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
+  
 </div>
 </div>
 
@@ -582,6 +774,7 @@ Industrial real estate remains a focal point for capital deployment, with privat
   <div class="footer-sources">Sourced from 37 national, trade, and regional publications &nbsp;·&nbsp; <a href="sources.html" style="color:rgba(255,255,255,0.5);text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.25);">View source directory →</a></div>
   <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
 </footer>
+
 
 </body>
 </html>
