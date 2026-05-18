@@ -1,0 +1,588 @@
+{
+  "harvested_at": "2026-05-18T18:06:45.357Z",
+  "elapsed_seconds": 3,
+  "feeds_attempted": 31,
+  "feeds_successful": 13,
+  "articles_count": 54,
+  "feed_status": [
+    {
+      "source": "FreightWaves",
+      "success": true,
+      "count": 9,
+      "total": 50,
+      "error": null
+    },
+    {
+      "source": "Journal of Commerce",
+      "success": true,
+      "count": 2,
+      "total": 40,
+      "error": null
+    },
+    {
+      "source": "Supply Chain Dive",
+      "success": true,
+      "count": 6,
+      "total": 10,
+      "error": null
+    },
+    {
+      "source": "DC Velocity",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "source": "Pacific Maritime",
+      "success": true,
+      "count": 0,
+      "total": 0,
+      "error": null
+    },
+    {
+      "source": "The Real Deal",
+      "success": true,
+      "count": 0,
+      "total": 10,
+      "error": null
+    },
+    {
+      "source": "Connect CRE",
+      "success": true,
+      "count": 0,
+      "total": 0,
+      "error": null
+    },
+    {
+      "source": "GlobeSt",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "source": "BisNow",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "source": "Commercial Observer",
+      "success": true,
+      "count": 10,
+      "total": 17,
+      "error": null
+    },
+    {
+      "source": "Propmodo",
+      "success": true,
+      "count": 0,
+      "total": 0,
+      "error": null
+    },
+    {
+      "source": "Industry Week",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "source": "Modern Materials Handling",
+      "success": false,
+      "count": 0,
+      "error": "Empty response"
+    },
+    {
+      "source": "Food Logistics",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "source": "Los Angeles Times",
+      "success": true,
+      "count": 0,
+      "total": 94,
+      "error": null
+    },
+    {
+      "source": "CalMatters",
+      "success": true,
+      "count": 5,
+      "total": 10,
+      "error": null
+    },
+    {
+      "source": "Los Angeles Business Journal",
+      "success": true,
+      "count": 10,
+      "total": 10,
+      "error": null
+    },
+    {
+      "source": "San Diego Business Journal",
+      "success": true,
+      "count": 10,
+      "total": 10,
+      "error": null
+    },
+    {
+      "source": "IE Business Daily",
+      "success": true,
+      "count": 2,
+      "total": 6,
+      "error": null
+    },
+    {
+      "source": "Daily Bulletin",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "The Press-Enterprise",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "source": "The Sun",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "Redlands Daily Facts",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "Los Angeles Daily News",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "Press-Telegram",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "Daily Breeze",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "San Gabriel Valley Tribune",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "Pasadena Star-News",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "Whittier Daily News",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "Orange County Register",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "San Diego Union-Tribune",
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
+    }
+  ],
+  "articles": [
+    {
+      "headline": "Transportation bill sets $240B for major modes",
+      "url": "https://www.freightwaves.com/news/transportation-bill-sets-240b-for-major-modes",
+      "source": "FreightWaves",
+      "raw_date": "Mon, 18 May 2026 17:12:02 +0000",
+      "description": "The House released massive surface transportation reauthorization legislation that sets federal spending for infrastructure and services across a range of modes. The post Transportation bill sets $240B for major modes appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Cargo theft dips in Q1, but fraud schemes surge, report says",
+      "url": "https://www.freightwaves.com/news/cargo-theft-dips-in-q1-but-fraud-schemes-surge-report-says",
+      "source": "FreightWaves",
+      "raw_date": "Mon, 18 May 2026 16:44:21 +0000",
+      "description": "Cargo thieves are relying less on physical break-ins and more on fraud-based tactics, with deceptive pickup scams climbing sharply in the first quarter, Overhaul says. The post Cargo theft dips in Q1, but fraud schemes surge, report says appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Will the BUILD America 250 Act be the next capacity squeeze",
+      "url": "https://www.freightwaves.com/news/will-the-build-america-250-act-be-the-next-capacity-squeeze",
+      "source": "FreightWaves",
+      "raw_date": "Mon, 18 May 2026 16:42:21 +0000",
+      "description": "The BUILD America 250 Act changes broker qualification rules, overhauls the DataQs violation dispute process, and puts a federal clock on hair drug testing. Here is what those three provisions mean for brokers, motor carriers, insurance renewals and driver capacity The post Will the BUILD America 25"
+    },
+    {
+      "headline": "Merger markup: BNSF hiked grain train charges as much as 472%, UP says in complaint",
+      "url": "https://www.freightwaves.com/news/merger-markup-bnsf-hiked-grain-train-charges-as-much-as-472-up-says-in-complaint",
+      "source": "FreightWaves",
+      "raw_date": "Mon, 18 May 2026 16:24:46 +0000",
+      "description": "Union Pacific filed a complaint with federal regulators alleging that BNSF Railway’s cancellation of certain reciprocal switching rates has significantly increased costs for grain shippers. The post Merger markup: BNSF hiked grain train charges as much as 472%, UP says in complaint appeared first on"
+    },
+    {
+      "headline": "Labor Dept. jumps in on the push for driver English language proficiency",
+      "url": "https://www.freightwaves.com/news/labor-dept-jumps-in-on-the-push-for-driver-english-language-proficiency",
+      "source": "FreightWaves",
+      "raw_date": "Mon, 18 May 2026 15:03:59 +0000",
+      "description": "The federal government’s push on English language proficiency for drivers now has the Department of Labor in the mix. The post Labor Dept. jumps in on the push for driver English language proficiency appeared first on FreightWaves ."
+    },
+    {
+      "headline": "This autonomous ship mooring system really sucks – and that’s a good thing",
+      "url": "https://www.freightwaves.com/news/this-autonomous-ship-mooring-system-really-sucks-and-thats-a-good-thing",
+      "source": "FreightWaves",
+      "raw_date": "Mon, 18 May 2026 13:57:28 +0000",
+      "description": "The biggest port in northern China is using an autonomous vacuum berthing system that secures a container ship in 30 seconds. The post This autonomous ship mooring system really sucks – and that’s a good thing appeared first on FreightWaves ."
+    },
+    {
+      "headline": "BUILD America 250 Act hands AV trucks a fed framework",
+      "url": "https://www.freightwaves.com/news/build-america-250-act-hands-av-trucks-a-fed-framework",
+      "source": "FreightWaves",
+      "raw_date": "Mon, 18 May 2026 13:27:42 +0000",
+      "description": "The BUILD America 250 Act creates the first federal framework for autonomous commercial trucks. It is not a green light. DOT has 2 years to write the safety standard; the liability question stays in front of a jury; and the bill funds retraining for drivers in the cab today. The post BUILD America 2"
+    },
+    {
+      "headline": "More than 5,100 freight-related layoffs hit US supply chain sector",
+      "url": "https://www.freightwaves.com/news/more-than-5100-freight-related-layoffs-hit-us-supply-chain-sector",
+      "source": "FreightWaves",
+      "raw_date": "Mon, 18 May 2026 11:00:00 +0000",
+      "description": "Companies tied to transportation, warehousing, manufacturing and food logistics announced more than 5,000 layoffs stretching from California to Pennsylvania. The post More than 5,100 freight-related layoffs hit US supply chain sector appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Florida theft ring accused of moving $7 million in stolen goods across multiple states",
+      "url": "https://www.freightwaves.com/news/florida-theft-ring-accused-of-moving-7-million-in-stolen-goods-across-multiple-states",
+      "source": "FreightWaves",
+      "raw_date": "Sun, 17 May 2026 18:48:49 +0000",
+      "description": "Authorities in Florida arrested 14 suspects tied to what investigators describe as a highly organized theft network responsible for millions in stolen merchandise. Detectives say the group operated across multiple states while using logistics, resale operations, and coordinated theft methods that re"
+    },
+    {
+      "headline": "AD Ports to expand Europe, Asia footprints with MBS Logistics takeover",
+      "url": "https://joc.com/article/ad-ports-to-expand-europe-asia-footprints-with-mbs-logistics-takeover-6222582",
+      "source": "Journal of Commerce",
+      "raw_date": "Mon, 18 May 2026 15:47:14 GMT",
+      "description": "The Abu Dhabi group is following its larger Dubai-based neighbor DP World in growing its end-to-end reach across the container shipping sector."
+    },
+    {
+      "headline": "‘Montgomery’ ruling likely to raise pressure on trucking insurance, broker vetting",
+      "url": "https://joc.com/article/montgomery-ruling-likely-to-raise-pressure-on-trucking-insurance-broker-vetting-6222536",
+      "source": "Journal of Commerce",
+      "raw_date": "Mon, 18 May 2026 15:00:16 GMT",
+      "description": "Trucking industry attorneys say last week’s decision by the Supreme Court is likely to intensify scrutiny of carrier selection practices and insurance coverage."
+    },
+    {
+      "headline": "NAM calls for making the USMCA even more manufacturing friendly",
+      "url": "https://www.supplychaindive.com/news/nam-calls-for-making-the-usmca-even-more-manufacturing-friendly/820481/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Mon, 18 May 2026 11:09:05 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/Da5WdH8ZX-Q7Iv5Kwcdt2krx9LfaSjhQFINbvAxqrd8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk2NTMwNDIxX3FDYm5qemkuanBn.webp\"/></div></figure><p>The &ldquo;most pro-U.S. manufacturing trade agreement in history&"
+    },
+    {
+      "headline": "USPS to align dimensional pricing closer to FedEx, UPS",
+      "url": "https://www.supplychaindive.com/news/usps-to-align-dimensional-pricing-closer-to-fedex-ups/820305/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Mon, 18 May 2026 11:02:26 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/e2IXKBbdhfpT7IL7BzkezqikXqx47Pghty7VFKEyKt0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjY3NDQwMDU2LmpwZw==.webp\"/></div></figure><p>The agency plans to round up any fraction of an inch for several of its se"
+    },
+    {
+      "headline": "Port of Los Angeles sees April volume jump despite Iran war shadow",
+      "url": "https://www.supplychaindive.com/news/port-of-los-angeles-sees-april-volume-jump-despite-iran-war-shadow/820399/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Mon, 18 May 2026 10:43:55 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/cveyiKekbknrvDJXTjwMkJ3MyUNwmlEfGdAQT65l5ck/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDYzOTAxMjMxX0hFZnNpUGIuanBn.webp\"/></div></figure><p>Spring and summer goods are arriving at the port, with back-to-sch"
+    },
+    {
+      "headline": "UP, NS merger: What other railroads are saying",
+      "url": "https://www.supplychaindive.com/news/up-ns-merger-what-other-railroads-are-saying/820011/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Mon, 18 May 2026 07:48:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/s-a33ROYgENbYNjLtjeDlYEZLBaDnOPZEKVL_rtL9Ic/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Vbmlvbl9QYWNpZmljLU5vcmZvbGtfU291dGhlcm5fTG9jb21vdGl2ZXNfLmpwZw==.webp\"/></div></figure><p>Competitors such as BNSF, CPKC and CSX say Uni"
+    },
+    {
+      "headline": "Parcel costs are moving faster than your audits can catch them",
+      "url": "https://www.supplychaindive.com/spons/parcel-costs-are-moving-faster-than-your-audits-can-catch-them/819928/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Mon, 18 May 2026 05:00:00 -0400",
+      "description": "<p>Carrier pricing moves in real time now. Is your parcel team keeping up?</p>"
+    },
+    {
+      "headline": "Product brands and the Hormuz crisis: an inventory problem",
+      "url": "https://www.supplychaindive.com/spons/product-brands-and-the-hormuz-crisis-an-inventory-problem/820053/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Mon, 18 May 2026 05:00:00 -0400",
+      "description": "<p>Brands have an inventory problem, and Hormuz made it expensive.</p>"
+    },
+    {
+      "headline": "First LIRR Strike Since 1994 Hits NYC CRE Industry",
+      "url": "https://commercialobserver.com/2026/05/lirr-strike-commercial-real-estate/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 17:49:56 +0000",
+      "description": "The first Long Island Rail Road (LIRR) strike in more than 30 years has added a new obstacle for a New York City commercial real estate industry that has faced a series of challenges in recent years, forcing many to work from home. LIRR workers from five unions went on strike at midnight Saturday mo"
+    },
+    {
+      "headline": "Law Firm Fox Rothschild Moving to Another Related Ross Building in West Palm",
+      "url": "https://commercialobserver.com/2026/05/fox-rothschild-west-palm-beach-15-cityplace-related-ross/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 17:33:17 +0000",
+      "description": "Law firm Fox Rothschild will relocate from one Related Ross-owned office building to another in Downtown West Palm Beach, Fla. The firm signed a 17,250-square-foot lease at the 15 CityPlace office development, which remains under construction, according to Related Ross. The deal is for 10 years. The"
+    },
+    {
+      "headline": "Designer Daniel Romualdez Moves to 6K SF at Joseph P. Day’s 10 East 40th Street",
+      "url": "https://commercialobserver.com/2026/05/daniel-romualdez-lease-10-east-40th-street/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 16:31:12 +0000",
+      "description": "Interior architect and designer Daniel Romualdez is taking his renowned firm to Midtown’s Mercantile Building. Romualdez’s design firm, Daniel Romualdez Architect P.C., has leased 5,670 square feet at the 10 East 40th Street office tower, according to tenant broker Lee &#38; Associates NYC. The 48-s"
+    },
+    {
+      "headline": "Southern Land Company Launches Mortgage Division",
+      "url": "https://commercialobserver.com/2026/05/southern-land-company-mortgage-division/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 16:08:37 +0000",
+      "description": "Forty years after its founding as a Tennessee developer, Southern Land Company is writing a new chapter. The Nashville-based development firm has launched an in-house mortgage division, SLC Lending, aimed at complimenting its homebuilding and sales operations, Commercial Observer can first report. T"
+    },
+    {
+      "headline": "BD Hotels Sells Chambers Hotel to Canadian Investment Firm for $66.2M",
+      "url": "https://commercialobserver.com/2026/05/bd-hotels-13-15-west-56th-street-hennick-company-sale/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 15:29:53 +0000",
+      "description": "Richard Born’s BD Hotels has sold the shuttered Chambers Hotel Central Park South, according to property records made public Monday. Toronto-based investment firm Hennick &#38; Company bought the 16-story property at 13-15 West 56th Street in Midtown for $66.2 million, records show. BD Hotels bought"
+    },
+    {
+      "headline": "Barings Refis Williamsburg Wharf With $374M Loan",
+      "url": "https://commercialobserver.com/2026/05/barings-naftali-access-industries-williamsburg-brooklyn-wharf/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 15:12:41 +0000",
+      "description": "A joint venture between Naftali Group and Access Industries has landed a $374.35 million loan to refinance a master-planned residential development along the Williamsburg waterfront in Brooklyn, Commercial Observer can first report. Barings supplied the loan for the first phase of the sponsorship’s "
+    },
+    {
+      "headline": "Merchants Capital, New York City Provide $42M for Brooklyn Affordable Housing",
+      "url": "https://commercialobserver.com/2026/05/merchants-capital-new-york-city-42m-brooklyn-affordable-housing/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 14:50:12 +0000",
+      "description": "Tredway has secured $41.5 million in acquisition and construction financing to purchase and renovate Restore Housing, a 138-unit affordable apartment complex in Brooklyn that opened more than 40 years ago, Commercial Observer can first report. Merchants Capital provided the acquisition and construct"
+    },
+    {
+      "headline": "As ICSC Kicks Off, Retail Is Buying What Proptech Is Selling",
+      "url": "https://commercialobserver.com/2026/05/icsc-proptech/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 13:44:36 +0000",
+      "description": "This week the annual ICSC Las Vegas will draw thousands of retail real estate professionals to share the latest about the marketplaces and spaces where people shop, dine, work, play and gather, as the organization behind the event likes to say. This year ICSC+PropTech will be prominently featured th"
+    },
+    {
+      "headline": "Dollar Stores Have Been On a Tear — Here’s What Could Spoil the Party",
+      "url": "https://commercialobserver.com/2026/05/dollar-stores-2026-gas-prices-general-five-below/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 12:17:33 +0000",
+      "description": "In uncertain times, Americans across income brackets flock to cheaper shopping options, and dollar store profits soar. Or at least that’s how it’s usually gone — including as recently as 2025 and into this year. That could soon change. After earlier earnings dips resulting from inflation, e-commerce"
+    },
+    {
+      "headline": "Saks Global’s Fire Sale Might Help It Out of Bankruptcy — But Kill the Business",
+      "url": "https://commercialobserver.com/2026/05/saks-globals-bankruptcy-richard-baker/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 18 May 2026 10:30:21 +0000",
+      "description": "It wasn’t supposed to go like this. When Saks Fifth Avenue agreed in July 2024 to buy Neiman Marcus for $2.65 billion to create Saks Global, a new $7 billion luxury retail behemoth, the conventional thinking was that senior executives at the two firms — once enemies, now family — would find a way to"
+    },
+    {
+      "headline": "Funcionarios de Trump imponen a California la mayor congelación de fondos de Medicaid de la historia",
+      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/trump-california-congelacion-de-fondos-de-medicaid/",
+      "source": "CalMatters",
+      "raw_date": "Mon, 18 May 2026 18:05:13 +0000",
+      "description": "La administración Trump suspendió 1,100 millones de dólares en fondos de Medicaid de California por denuncias de fraude, lo que amenaza la atención domiciliaria de 900,000 personas mayores y personas con discapacidad."
+    },
+    {
+      "headline": "We made him drive 9,000 miles to talk to CA voters",
+      "url": "https://calmatters.org/newsletter/california-election-votingmatters-interview/",
+      "source": "CalMatters",
+      "raw_date": "Mon, 18 May 2026 13:00:00 +0000",
+      "description": "Remember talking to people with civility about politics — even on contentious issues? Meet the CalMatters guy who has made that happen dozens of times. CalMatters’ director of partnerships, Dan Hu, has been traveling across the state to talk with Californians about the upcoming election. His VotingM"
+    },
+    {
+      "headline": "California’s ‘groundbreaking’ fast food council lacks a leader, hasn’t met in over a year",
+      "url": "https://calmatters.org/economy/2026/05/fast-food-council-no-chairperson/",
+      "source": "CalMatters",
+      "raw_date": "Mon, 18 May 2026 12:00:00 +0000",
+      "description": "Fast food workers, council members call on Newsom to appoint a chairperson so the council can meet again."
+    },
+    {
+      "headline": "$6 gas and refinery fears collide with California’s climate ambitions",
+      "url": "https://calmatters.org/environment/climate-change/2026/05/carbon-market-free-permit-california/",
+      "source": "CalMatters",
+      "raw_date": "Mon, 18 May 2026 12:00:00 +0000",
+      "description": "California is considering handing oil refineries and other major polluters billions of dollars in free emission allowances just as the state says carbon reductions need to come faster than ever. In the last six months, two refineries have closed and gas prices have topped an average of $6 a gallon a"
+    },
+    {
+      "headline": "Newsom boosted transitional kindergarten and put preschool out of reach for many California families",
+      "url": "https://calmatters.org/commentary/2026/05/transitional-kindergarten-newsom-preschools-california/",
+      "source": "CalMatters",
+      "raw_date": "Mon, 18 May 2026 12:00:00 +0000",
+      "description": "Transitional kindergarten came with an unanticipated downside; it’s making childcare less affordable for many CA families. That can be fixed."
+    },
+    {
+      "headline": "Valley Financial Adviser Joins National RIA",
+      "url": "https://labusinessjournal.com/finance/valley-financial-adviser-joins-national-ria/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 18:04:09 +0000",
+      "description": "A national registered financial advisory firm on an acquisition spree has snapped up Thousand Oaks-based Eagleson Arndt Financial Advisors. In the last year, Mercer Advisors brought 18 firms under its wing, including two in the Los Angeles area, where it manages $3.2 billion in client assets of its "
+    },
+    {
+      "headline": "Avem Takes Stake in Valley Aircraft Parts Maker",
+      "url": "https://labusinessjournal.com/finance/avem-takes-stake-in-valley-aircraft-parts-maker/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 17:12:54 +0000",
+      "description": "A Sun Valley-based precision manufacturing firm with deep ties to the aerospace and defense industry has scored local private equity backing. Precision Aircraft Machining Co. Inc., or Pamco, has been acquired by Avem Partners, a private equity firm based in Manhattan Beach, with additional capital s"
+    },
+    {
+      "headline": "CBB Folds in Bay-Area Lender",
+      "url": "https://labusinessjournal.com/finance/cbb-folds-in-bay-area-lender/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 17:05:53 +0000",
+      "description": "Citizens Business Bank’s latest growth deal is its biggest acquisition yet, sending the Ontario-based lender’s total assets above $20 billion. Last month, the regional bank closed a merger with the Bay Area’s Heritage Bank of Commerce, extending its reach into the last Californian market it hadn’t t"
+    },
+    {
+      "headline": "L.A. Rising: Nonprofit’s Mission to Build",
+      "url": "https://labusinessjournal.com/special-reports/l-a-rising-nonprofits-mission-to-build/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 16:27:35 +0000",
+      "description": "Community Corp. of Santa Monica, a nonprofit that builds and manages affordable housing, is the force behind several projects on the Westside. That includes Jubilo Village, a 95-unit project located at the site of a church. Executive Director Tara Barauskas sat down with the Business Journal to disc"
+    },
+    {
+      "headline": "LABJ Insider: Calling All ‘Indispensables’",
+      "url": "https://labusinessjournal.com/commentary/columns/labj-insider-calling-all-indispensables/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 07:25:33 +0000",
+      "description": "Welcome back to another week of the Los Angeles Business Journal, executives and entrepreneurs. As we’ve previously announced, the team here is excited about a new editorial product – The Indispensables – that we’re planning this summer. Many of you executives reading this of course know how we regu"
+    },
+    {
+      "headline": "Disney’s Infinity Vision Revealed",
+      "url": "https://labusinessjournal.com/media/disneys-infinity-vision-revealed/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 07:22:20 +0000",
+      "description": "The Walt Disney Co. is taking on Imax Corp. with Infinity Vision, a new theater certification for premium large format screens. The Burbank-based entertainment giant made the announcement in April at CinemaCon 2026 in Las Vegas, the largest annual event for the motion picture theater business across"
+    },
+    {
+      "headline": "LA Local Expands Footprint in Long Beach",
+      "url": "https://labusinessjournal.com/media/la-local-expands-footprint-in-long-beach/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 07:18:15 +0000",
+      "description": "Since expanding into 12 neighborhoods early this year, The LA Local took another step ahead last month by adding Long Beach Post and Long Beach Business Journal into its portfolio. Founded on the mission to expand hyper-local news coverage, The LA Local has raised more than $19 million in philanthro"
+    },
+    {
+      "headline": "SAG, WGA Land New Labor Deals",
+      "url": "https://labusinessjournal.com/media/sag-wga-land-new-labor-deals/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 07:13:52 +0000",
+      "description": "Three years after their two historic strikes, the Screen Actors Guild-American Federation of Television and Radio Artists and Writers Guild of America West are leading L.A.’s creative community by sealing long-term deals amid a challenging entertainment industry. The SAG-AFTRA board approved last Mo"
+    },
+    {
+      "headline": "Q1 Airports Passenger Traffic Flat",
+      "url": "https://labusinessjournal.com/featured/q1-airports-passenger-traffic-flat/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 07:01:38 +0000",
+      "description": "Cumulative passenger traffic at the four airports serving Los Angeles County came in flat during the first quarter of the year. According to data released by the airport governing authorities, roughly 20.17 million passengers traveled through Los Angeles International, Ontario International, Hollywo"
+    },
+    {
+      "headline": "OpEd: L.A. Is Paying the Cost of Cheap Politics",
+      "url": "https://labusinessjournal.com/commentary/oped-l-a-is-paying-the-cost-of-cheap-politics/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 18 May 2026 07:01:27 +0000",
+      "description": "There are few ideas in modern politics more intoxicating to the economically illiterate than the perpetual raising of the minimum wage. It is, after all, the perfect applause line for a politician who prefers sentiment to substance: stand before a microphone, puff one’s chest with theatrical compass"
+    },
+    {
+      "headline": "Luxury Real Estate Is Emerging as Its Own Asset Class",
+      "url": "https://www.sdbj.com/branded-content/luxury-real-estate-is-emerging-as-its-own-asset-class/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=luxury-real-estate-is-emerging-as-its-own-asset-class",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 17:10:47 +0000",
+      "description": "Luxury residential real estate is increasingly behaving less like traditional housing and more like a distinct global asset class. Historically, housing markets moved largely in tandem with mortgage rates, local employment trends, and consumer affordability. Today, however, the ultra-luxury segment "
+    },
+    {
+      "headline": "SERVANT LEADERS CELEBRATED",
+      "url": "https://www.sdbj.com/leadership/servant-leaders-celebrated/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=servant-leaders-celebrated",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:01:14 +0000",
+      "description": "The San Diego Business Journal held its 2026 CEO of the Year Awards ceremony April 29. The event honored top chief executives from across a variety of industries and company sizes, including a Lifetime Achievement Award for Blanchard CEO Ken Blanchard – a pioneer in the servant leadership movement. "
+    },
+    {
+      "headline": "Axos Hits $1B in Small Biz Deposits",
+      "url": "https://www.sdbj.com/finance/banks/axos-hits-1b-in-small-biz-deposits/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=axos-hits-1b-in-small-biz-deposits",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:57 +0000",
+      "description": "SAN DIEGO – More than two decades after its founding, Axos Bank (NYSE: AX) rea- ched a 10-figure milestone. The digital banking and financial services provider announced in early May that it surpassed $1 billion in small business deposits from its more than 40,000 small business customers across the"
+    },
+    {
+      "headline": "Food Bank CEO Growing Organization to Meet Growing Needs",
+      "url": "https://www.sdbj.com/nonprofits/food-bank-ceo-growing-organization-to-meet-growing-needs/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=food-bank-ceo-growing-organization-to-meet-growing-needs",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:53 +0000",
+      "description": "As CEO of the Jacobs &#38; Cushman San Diego Food Bank, Casey Castillo oversees a $113.6 million organization with more than $100 million in net assets, directing 90% of expenses to program services. In 2025, the Food Bank distributed 52.9 million pounds of food and supplies — equivalent to more tha"
+    },
+    {
+      "headline": "SD Symphony Marches to Beat of Its Own Drum",
+      "url": "https://www.sdbj.com/entertainment-2/sd-symphony-marches-to-beat-of-its-own-drum/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sd-symphony-marches-to-beat-of-its-own-drum",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:50 +0000",
+      "description": "SAN DIEGO – When San Diego Symphony President and CEO Martha Gilmer sets foot in the recording booth, she feels something special. “Sitting and listening to the playbacks, I am just in awe of what this orchestra can do,” she said. The Symphony’s resonance is not just musical. Founded in 1910, the Sy"
+    },
+    {
+      "headline": "EDC’s Mark Cafferty Positions San Diego as a Global Economic Force",
+      "url": "https://www.sdbj.com/nonprofits/edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:47 +0000",
+      "description": "Mark Cafferty tied for the CEO of the Year Award in the Business Nonprofit Category. As president and CEO of San Diego Regional Economic Development Corporation (EDC), Cafferty sits at the center of a unique partnership of business, trade, community and education leaders who have reinvented the regi"
+    },
+    {
+      "headline": "Serial Company Builder Challenges Business as Usual",
+      "url": "https://www.sdbj.com/defense/serial-company-builder-challenges-business-as-usual/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=serial-company-builder-challenges-business-as-usual",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:45 +0000",
+      "description": "Dan Magy is CEO of the Year in the Private Medium Company Category. Magy is an experienced company builder, having founded four VC-backed hardware and Artificial Intelligence companies. He founded Citadel Defense in 2015, specializing in Counter-Unmanned Aerial System (C-UAS) technologies, which was"
+    },
+    {
+      "headline": "Gifford Leading Splitero’s Transformative HEI Solution for Homeowners",
+      "url": "https://www.sdbj.com/finance/gifford-leading-spliteros-transformative-hei-solution-for-homeowners/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gifford-leading-spliteros-transformative-hei-solution-for-homeowners",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:43 +0000",
+      "description": "Michael Gifford is a seasoned PropTech and FinTech veteran, bringing nearly 20 years of experience and a vast professional network to his role as CEO and co-founder of Splitero – an innovative home equity investment (HEI) company. Under Gifford’s leadership, Splitero has been defined by rapid growth"
+    },
+    {
+      "headline": "Palomar CEO’s String of Successes Right from the Start",
+      "url": "https://www.sdbj.com/insurance/palomar-ceos-string-of-successes-right-from-the-start/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=palomar-ceos-string-of-successes-right-from-the-start",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:29 +0000",
+      "description": "David “Mac” Armstrong’s career path began in investment banking and private equity and ultimately led to insurance where today he leads Palomar Holdings, Inc., a specialty insurer that focuses on underserved markets, including earthquake, inland marine and casualty insurance. Armstrong founded Palom"
+    },
+    {
+      "headline": "Greupner Advances the Padres on the Business Playing Field",
+      "url": "https://www.sdbj.com/sports-2/greupner-advances-the-padres-on-the-business-playing-field/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=greupner-advances-the-padres-on-the-business-playing-field",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:27 +0000",
+      "description": "Erik Greupner is CEO of the Year in the Large Private Company Category. Greupner oversees the San Diego Padres’ operations and leads the growth and development of the club’s business and culture. 2026 marks his 16th season in San Diego after joining the club in December 2010. During his tenure as CE"
+    },
+    {
+      "headline": "Kaiser Permanente provides MD’s to High Desert hospital",
+      "url": "https://iebusinessdaily.com/kaiser-permanente-provides-mds-to-high-desert-hospital/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kaiser-permanente-provides-mds-to-high-desert-hospital",
+      "source": "IE Business Daily",
+      "raw_date": "Mon, 18 May 2026 11:11:34 +0000",
+      "description": "A High Desert hospital is accepting patients covered by Kaiser-Permanente health insurance. Kaiser Permanente San Bernardino County has agreed to provide physicians from 7 a.m. to 7 p.m. daily at Providence St. Mary Medical Center in Apple Valley, according to a statement released by the medical ins"
+    },
+    {
+      "headline": "Jurupa Valley industrial property sold",
+      "url": "https://iebusinessdaily.com/jurupa-valley-industrial-property-sold/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jurupa-valley-industrial-property-sold",
+      "source": "IE Business Daily",
+      "raw_date": "Mon, 18 May 2026 10:35:52 +0000",
+      "description": "A 68-acre site in Jurupa Valley zoned for industrial development has been sold. Bridge Logistics Properties, a national real estate investment management company, bought the property for an undisclosed sum, according to a company statement. Information about the seller also was not released. The par"
+    }
+  ]
+}
