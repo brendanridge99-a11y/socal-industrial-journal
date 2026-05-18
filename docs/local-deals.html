@@ -384,6 +384,56 @@
         .all-stories-divider {
             margin: 2.5rem 0 1.5rem;
         }
+
+        /* ── Cluster card ── */
+        .cluster-sources {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--rule);
+        }
+        .cluster-sources-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-right: 0.25rem;
+        }
+        .cluster-source-link {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 500;
+            color: var(--cat-color, var(--accent));
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+            padding-bottom: 1px;
+        }
+        .cluster-source-link:hover {
+            border-bottom-color: var(--cat-color, var(--accent));
+        }
+        .cluster-source-sep {
+            color: var(--rule);
+            font-size: 0.65rem;
+        }
+        .cluster-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #fff;
+            background: var(--cat-color, var(--accent));
+            padding: 0.15rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: auto;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -425,35 +475,16 @@
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
     <h1 class="page-title">◑ Local Deals & Developments</h1>
-    <p class="page-count">1 story from the past 72 hours</p>
+    <p class="page-count">0 stories · no clusters</p>
   </div>
 
-  <div class="cat-summary-banner" style="--cat-color:#7A6040;">
-  <p class="cat-summary-text">Rexford Industrial Realty's new CEO Laura Clark outlined a strategy prioritizing infill Southern California warehouse ownership over new development across the Inland Empire, Los Angeles, and Orange County markets. In personnel moves, Transwestern Development hired former Alere Property Group CIO Clark Neuhoff as West Coast Industrial Regional Partner in Newport Beach; Continental Development Corporation appointed Robert Peddicord as EVP for its 2.5-million-square-foot South Bay portfolio; and Marcus & Millichap named Michael Puline national retail division director.</p>
-</div>
-<div class="section-label">Top Stories</div>
-<div class="article-grid">
-  <div class="top-article-card" style="--cat-color:#7A6040;">
-  <span class="top-badge">Top Story</span>
-  <div class="article-meta">
-    <span>Connect CRE</span>
-    <span class="date">· May 14, 2026</span>
-    
-  </div>
-  <h3 class="top-article-headline">California People and Company News, Week of May 15, 2026</h3>
-  <p class="article-summary">Transwestern Development hired Clark Neuhoff as Regional Partner for its West Coast Industrial Team, based in Newport Beach, CA, where he will source and execute institutional industrial development projects across the West Coast. Neuhoff previously served as CIO at Alere Property Group and was placed through executive search firm RETS Associates. Continental Development Corporation (CDC), one of the largest South Bay real estate developers with over 2 million square feet along the Rosecrans Corridor and 500,000 square feet of medical office in Torrance, appointed Robert Peddicord as EVP overseeing property management and leasing. Marcus & Millichap named Michael Puline as senior managing director and national director of its retail division; Puline previously led national retailer strategy for a $9 billion, 19-million-square-foot retail portfolio at a Blackstone portfolio company.</p>
-  <div>
-    <a href="https://www.connectcre.com/stories/california-people-and-company-news-week-of-may-15-2026/" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-</div>
-
+  <div class="empty-state">No stories in this category yet — check back soon.</div>
 
 </main>
 
 <footer class="site-footer">
   <div class="footer-name">SoCal Industrial Journal</div>
-  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt</div>
+  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Reuters &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt &nbsp;·&nbsp; Supply Chain Dive &nbsp;·&nbsp; LA Times &nbsp;·&nbsp; OC Register &nbsp;·&nbsp; SD Union-Tribune &nbsp;·&nbsp; Press-Enterprise &nbsp;·&nbsp; Daily Bulletin &nbsp;·&nbsp; LA Daily News &nbsp;·&nbsp; Press-Telegram &nbsp;·&nbsp; SGV Tribune &nbsp;·&nbsp; The Sun &nbsp;·&nbsp; Daily Breeze &nbsp;·&nbsp; Redlands Daily Facts &nbsp;·&nbsp; Pasadena Star-News &nbsp;·&nbsp; Whittier Daily News &nbsp;·&nbsp; SD Business Journal &nbsp;·&nbsp; IE Business Daily</div>
   <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
 </footer>
 

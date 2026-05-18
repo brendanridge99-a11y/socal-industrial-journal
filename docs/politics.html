@@ -384,6 +384,56 @@
         .all-stories-divider {
             margin: 2.5rem 0 1.5rem;
         }
+
+        /* ── Cluster card ── */
+        .cluster-sources {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--rule);
+        }
+        .cluster-sources-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-right: 0.25rem;
+        }
+        .cluster-source-link {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 500;
+            color: var(--cat-color, var(--accent));
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+            padding-bottom: 1px;
+        }
+        .cluster-source-link:hover {
+            border-bottom-color: var(--cat-color, var(--accent));
+        }
+        .cluster-source-sep {
+            color: var(--rule);
+            font-size: 0.65rem;
+        }
+        .cluster-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #fff;
+            background: var(--cat-color, var(--accent));
+            padding: 0.15rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: auto;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -425,11 +475,13 @@
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
     <h1 class="page-title">◐ Politics</h1>
-    <p class="page-count">7 stories from the past 72 hours</p>
+    <p class="page-count">6 stories · 1 clusters</p>
   </div>
 
   <div class="cat-summary-banner" style="--cat-color:#8B4A3A;">
-  <p class="cat-summary-text">**US-China relations dominated the past 72 hours.** The Trump-Xi Beijing summit concluded with China agreeing to purchase U.S. oil and 200 Boeing aircraft, alongside a three-year "strategic stability" framework. The existing trade truce holds, with average U.S. tariffs on Chinese goods remaining at 47.5%. Domestically, tariff refunds began processing following the Supreme Court's February ruling, while a major aluminum customs fraud settlement signaled intensified federal enforcement of trade compliance.</p>
+  <p class="cat-summary-text">**US-China Relations Dominate the Week**
+
+The Trump-Xi Beijing summit defined the past 72 hours. The two leaders extended their October 2025 trade truce, agreed on a three-year "strategic stability" framework, and announced deals covering Boeing aircraft, U.S. oil, and agricultural purchases. Tariffs remain elevated at 47.5%. Domestically, tariff refund processing began following the Supreme Court's IEEPA ruling, while a major $549.5M customs fraud settlement signaled intensified federal trade enforcement.</p>
 </div>
 <div class="section-label">Top Stories</div>
 <div class="article-grid">
@@ -449,6 +501,15 @@
 <div class="top-article-card" style="--cat-color:#8B4A3A;">
   <span class="top-badge">Top Story</span>
   <div class="article-meta">
+    <span class="date">May 15, 2026</span>
+  </div>
+  <h3 class="top-article-headline">Trump and Xi Agree on Strategic Framework, Boeing Deal After Beijing Summit</h3>
+  <p class="article-summary">President Trump concluded a two-day summit with President Xi Jinping in Beijing on May 15, with China agreeing to purchase U.S. oil and 200 Boeing aircraft. The two leaders established a 'strategic stability' framework to govern the bilateral relationship for three years, and Trump invited Xi to the White House for a visit on September 24. The existing one-year trade truce set in October 2025 remains in place, with average U.S. tariffs on Chinese goods currently at 47.5%, while that status quo is set to expire in November. Analysts noted that major sticking points on trade, semiconductors, and AI remained unresolved despite positive optics from the summit.</p>
+  <div class="cluster-sources"><span class="cluster-sources-label">Coverage</span><a href="https://www.wsj.com/" target="_blank" class="cluster-source-link">Wall Street Journal 🔒</a><span class="cluster-source-sep">·</span><a href="https://www.bloomberg.com/news/newsletters/2026-05-15/xi-and-trump-map-out-a-new-framework" target="_blank" class="cluster-source-link">Bloomberg 🔒</a><span class="cluster-badge">2 sources</span></div>
+</div>
+<div class="top-article-card" style="--cat-color:#8B4A3A;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta">
     <span>Bloomberg</span>
     <span class="date">· May 15, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
@@ -459,19 +520,6 @@
     <a href="https://www.bloomberg.com/news/videos/2026-05-15/greer-us-china-willing-to-continue-trade-truce-video" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Greer:%20US,%20China%20Willing%20to%20Continue%20Trade%20Truce&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AGreer: US, China Willing to Continue Trade Truce%0Ahttps://www.bloomberg.com/news/videos/2026-05-15/greer-us-china-willing-to-continue-trade-truce-video%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
-<div class="top-article-card" style="--cat-color:#8B4A3A;">
-  <span class="top-badge">Top Story</span>
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="top-article-headline">US Expects Dramatic Agricultural Purchases by China, Greer Says</h3>
-  <p class="article-summary">U.S. Trade Representative Jamieson Greer told Bloomberg Television that the U.S. anticipates China will commit to billions in American agricultural purchases as the Trump-Xi summit in Beijing concludes. Greer specifically referenced 'double-digit billion' annual aggregate agricultural purchases — not just soybeans — over a three-year period. The average U.S. tariff on Chinese goods currently stands at 47.5% following the South Korea summit, up from 3.1% before Trump's first term, per the Peterson Institute for International Economics. Two-way goods trade between the U.S. and China totaled approximately $415 billion in 2025, down sharply from a $690 billion peak in 2022.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-15/us-expects-dramatic-agricultural-purchases-by-china-greer-says" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Expects%20Dramatic%20Agricultural%20Purchases%20by%20China,%20Greer%20S&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Expects Dramatic Agricultural Purchases by China, Greer Says%0Ahttps://www.bloomberg.com/news/articles/2026-05-15/us-expects-dramatic-agricultural-purchases-by-china-greer-says%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
 </div>
 <div class="all-stories-divider">
   <div class="section-label">All Stories</div>
@@ -479,14 +527,14 @@
 <div class="article-grid">
   <div class="article-card" style="--cat-color:#8B4A3A;">
   <div class="article-meta">
-    <span>Wall Street Journal</span>
+    <span>Bloomberg</span>
     <span class="date">· May 15, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
   </div>
-  <h3 class="article-headline">Trump-Xi Summit Concludes: China Agrees to Buy U.S. Oil and 200 Boeing Aircraft; 'Strategic Stability' Framework Set for Three Years</h3>
-  <p class="article-summary">President Trump concluded his two-day Beijing summit with President Xi Jinping on May 15, with Trump announcing China agreed to purchase U.S. oil and 200 Boeing aircraft. Xi and Trump agreed to a 'strategic stability' framework to govern the bilateral relationship for the next three years, though no major formal trade agreements were announced before Trump departed. The two leaders agreed that the Strait of Hormuz must remain open for global energy flows and invited Xi for a White House visit on September 24; the one-year trade truce set in October 2025 remains in place, with average U.S. tariffs on Chinese goods at 47.5%.</p>
+  <h3 class="article-headline">US Expects Dramatic Agricultural Purchases by China, Greer Says</h3>
+  <p class="article-summary">U.S. Trade Representative Jamieson Greer told Bloomberg Television that the U.S. anticipates China will commit to billions in American agricultural purchases as the Trump-Xi summit in Beijing concludes. Greer specifically referenced 'double-digit billion' annual aggregate agricultural purchases — not just soybeans — over a three-year period. The average U.S. tariff on Chinese goods currently stands at 47.5% following the South Korea summit, up from 3.1% before Trump's first term, per the Peterson Institute for International Economics. Two-way goods trade between the U.S. and China totaled approximately $415 billion in 2025, down sharply from a $690 billion peak in 2022.</p>
   <div>
-    <a href="https://www.wsj.com/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Trump-Xi%20Summit%20Concludes:%20China%20Agrees%20to%20Buy%20U.S.%20Oil%20and%20&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ATrump-Xi Summit Concludes: China Agrees to Buy U.S. Oil and 200 Boeing Aircraft; 'Strategic Stability' Framework Set for Three Years%0Ahttps://www.wsj.com/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
+    <a href="https://www.bloomberg.com/news/articles/2026-05-15/us-expects-dramatic-agricultural-purchases-by-china-greer-says" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Expects%20Dramatic%20Agricultural%20Purchases%20by%20China,%20Greer%20S&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Expects Dramatic Agricultural Purchases by China, Greer Says%0Ahttps://www.bloomberg.com/news/articles/2026-05-15/us-expects-dramatic-agricultural-purchases-by-china-greer-says%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#8B4A3A;">
@@ -499,18 +547,6 @@
   <p class="article-summary">Perfectus Aluminum Inc. and affiliated companies agreed to pay $549.5 million to settle False Claims Act allegations that they evaded customs duties on aluminum imports, in one of the largest customs fraud settlements in US history. The case involved allegations of tariff evasion through misclassification of aluminum products to avoid anti-dumping and countervailing duties. The settlement signals intensified federal enforcement of customs compliance as part of the broader crackdown on tariff evasion following the Supreme Court's ruling on IEEPA tariffs. Importers, freight brokers, and 3PLs are expected to face heightened customs scrutiny as a result of the case.</p>
   <div>
     <a href="https://www.wsj.com/business/perfectus-aluminum-customs-duties-settlement" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Perfectus%20Aluminum%20and%20Related%20Companies%20Agree%20to%20Pay%20$549.5&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0APerfectus Aluminum and Related Companies Agree to Pay $549.5M to Settle False Claims Act Allegations Relating to Evaded Customs Duties%0Ahttps://www.wsj.com/business/perfectus-aluminum-customs-duties-settlement%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#8B4A3A;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
-  </div>
-  <h3 class="article-headline">Xi and Trump Map Out a New Framework</h3>
-  <p class="article-summary">President Trump concluded his visit to Beijing with Xi Jinping, announcing deals and a new strategic framework for the US-China economic relationship. The summit addressed a range of economic and geopolitical issues including trade tensions, tariff levels, semiconductors, and AI. The current US-China trade status quo is set to expire in November, creating urgency around the talks. Analysts noted that while the optics were positive, major sticking points remained unresolved.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/newsletters/2026-05-15/xi-and-trump-map-out-a-new-framework" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Xi%20and%20Trump%20Map%20Out%20a%20New%20Framework&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AXi and Trump Map Out a New Framework%0Ahttps://www.bloomberg.com/news/newsletters/2026-05-15/xi-and-trump-map-out-a-new-framework%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#8B4A3A;">
@@ -531,7 +567,7 @@
 
 <footer class="site-footer">
   <div class="footer-name">SoCal Industrial Journal</div>
-  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt</div>
+  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Reuters &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt &nbsp;·&nbsp; Supply Chain Dive &nbsp;·&nbsp; LA Times &nbsp;·&nbsp; OC Register &nbsp;·&nbsp; SD Union-Tribune &nbsp;·&nbsp; Press-Enterprise &nbsp;·&nbsp; Daily Bulletin &nbsp;·&nbsp; LA Daily News &nbsp;·&nbsp; Press-Telegram &nbsp;·&nbsp; SGV Tribune &nbsp;·&nbsp; The Sun &nbsp;·&nbsp; Daily Breeze &nbsp;·&nbsp; Redlands Daily Facts &nbsp;·&nbsp; Pasadena Star-News &nbsp;·&nbsp; Whittier Daily News &nbsp;·&nbsp; SD Business Journal &nbsp;·&nbsp; IE Business Daily</div>
   <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
 </footer>
 

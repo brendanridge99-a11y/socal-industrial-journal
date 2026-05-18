@@ -384,6 +384,56 @@
         .all-stories-divider {
             margin: 2.5rem 0 1.5rem;
         }
+
+        /* ── Cluster card ── */
+        .cluster-sources {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--rule);
+        }
+        .cluster-sources-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-right: 0.25rem;
+        }
+        .cluster-source-link {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 500;
+            color: var(--cat-color, var(--accent));
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+            padding-bottom: 1px;
+        }
+        .cluster-source-link:hover {
+            border-bottom-color: var(--cat-color, var(--accent));
+        }
+        .cluster-source-sep {
+            color: var(--rule);
+            font-size: 0.65rem;
+        }
+        .cluster-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #fff;
+            background: var(--cat-color, var(--accent));
+            padding: 0.15rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: auto;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -425,13 +475,13 @@
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
     <h1 class="page-title">◎ Tech</h1>
-    <p class="page-count">4 stories from the past 72 hours</p>
+    <p class="page-count">2 stories · no clusters</p>
   </div>
 
   <div class="cat-summary-banner" style="--cat-color:#6B4F7A;">
-  <p class="cat-summary-text">**Tech Briefing | Past 72 Hours**
+  <p class="cat-summary-text">**AI Automation vs. AI Caution Define the Week's Tech Narrative**
 
-AI infrastructure investment dominated the period. Cerebras' blockbuster IPO signals sustained capital market enthusiasm for AI hardware, while data center demand continues reshaping real estate and power markets nationwide. Simultaneously, enterprise AI adoption remains uneven — real estate and commercial sectors are proceeding cautiously, prioritizing auditability over automation. Supply chain AI is advancing more aggressively. The overarching theme: AI buildout accelerates at the infrastructure layer while practical enterprise deployment lags.</p>
+The dominant theme across 72 hours is a tension between AI deployment and AI restraint. project44's Autopilot represents aggressive autonomous decision-making embedded directly into supply chain operations, driven by real-world cost pressures from energy and trade disruptions. Simultaneously, commercial real estate is deliberately slowing AI adoption, demanding explainability and auditability before committing. Across sectors, the central question is identical: when does automation earn operational trust?</p>
 </div>
 <div class="section-label">Top Stories</div>
 <div class="article-grid">
@@ -461,43 +511,14 @@ AI infrastructure investment dominated the period. Cerebras' blockbuster IPO sig
     <a href="https://www.connectcre.com/national_topper/comfort-and-trust-may-18-2026/" target="_blank" class="article-read">Read full story</a>
   </div>
 </div>
-<div class="top-article-card" style="--cat-color:#6B4F7A;">
-  <span class="top-badge">Top Story</span>
-  <div class="article-meta">
-    <span>BisNow</span>
-    <span class="date">· May 13, 2026</span>
-    
-  </div>
-  <h3 class="top-article-headline">Texas Might Soon Have More Data Centers, But Investors Still Prefer Northern Virginia</h3>
-  <p class="article-summary">JLL projected this year that Texas will surpass Virginia as the leading state for data center development by 2030 as AI mega-projects gravitate toward markets with more land and power capacity. Northern Virginia maintained a 0.5% data center vacancy rate at end-2025 after absorbing more than 1 gigawatt of capacity in 2025, and retains the highest rental rates of any data center market nationally, per CBRE. Speakers at Bisnow's national Data Center Investment Conference and Expo noted that Ashburn cannot compete with West Texas on megawatts but will maintain higher unit rents and lower vacancy, making it a superior investment on a per-unit basis. The Manhattan-sized AI campuses driving the current boom require power capacity and land that Northern Virginia fundamentally cannot provide.</p>
-  <div>
-    <a href="https://www.bisnow.com/washington-dc/news/data-center-development/northern-virginia-no-longer-top-target-big-data-center-projects-but-still-winning-other-ways-134556" target="_blank" class="article-read">Read full story</a>
-  </div>
 </div>
-</div>
-<div class="all-stories-divider">
-  <div class="section-label">All Stories</div>
-</div>
-<div class="article-grid">
-  <div class="article-card" style="--cat-color:#6B4F7A;">
-  <div class="article-meta">
-    <span>BisNow</span>
-    <span class="date">· May 12, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Who Has the Power? Industrial and Data Centers Battle for Gigawatts</h3>
-  <p class="article-summary">Data center construction and the AI boom are creating a structural competition with industrial/logistics users for electrical grid capacity, with data centers projected to reach 12% of national electricity demand by 2028, up from just over 4% in 2023. CBRE research shows tech and data center occupiers accounted for the largest share of manufacturing leasing in Q1 2026, driving a significant jump in manufacturing leasing from the prior year. Companies supporting the data center supply chain — including prefabrication contractors, component manufacturers, and maintenance operators — are leasing industrial space at growing rates, which Prologis described as a new structural driver within logistics real estate demand. Columbus, Ohio recorded 13 million square feet of net industrial absorption in 2025, trailing only Dallas and Phoenix, driven by data center growth and a major chip fabrication project.</p>
-  <div>
-    <a href="https://www.bisnow.com/national/news/industrial/data-center-supply-chain-boosting-industrial-leasing-and-development-134509" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-</div>
+
 
 </main>
 
 <footer class="site-footer">
   <div class="footer-name">SoCal Industrial Journal</div>
-  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt</div>
+  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Reuters &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt &nbsp;·&nbsp; Supply Chain Dive &nbsp;·&nbsp; LA Times &nbsp;·&nbsp; OC Register &nbsp;·&nbsp; SD Union-Tribune &nbsp;·&nbsp; Press-Enterprise &nbsp;·&nbsp; Daily Bulletin &nbsp;·&nbsp; LA Daily News &nbsp;·&nbsp; Press-Telegram &nbsp;·&nbsp; SGV Tribune &nbsp;·&nbsp; The Sun &nbsp;·&nbsp; Daily Breeze &nbsp;·&nbsp; Redlands Daily Facts &nbsp;·&nbsp; Pasadena Star-News &nbsp;·&nbsp; Whittier Daily News &nbsp;·&nbsp; SD Business Journal &nbsp;·&nbsp; IE Business Daily</div>
   <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
 </footer>
 

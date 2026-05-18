@@ -384,6 +384,56 @@
         .all-stories-divider {
             margin: 2.5rem 0 1.5rem;
         }
+
+        /* ── Cluster card ── */
+        .cluster-sources {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--rule);
+        }
+        .cluster-sources-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-right: 0.25rem;
+        }
+        .cluster-source-link {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 500;
+            color: var(--cat-color, var(--accent));
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+            padding-bottom: 1px;
+        }
+        .cluster-source-link:hover {
+            border-bottom-color: var(--cat-color, var(--accent));
+        }
+        .cluster-source-sep {
+            color: var(--rule);
+            font-size: 0.65rem;
+        }
+        .cluster-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #fff;
+            background: var(--cat-color, var(--accent));
+            padding: 0.15rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: auto;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -425,26 +475,24 @@
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
     <h1 class="page-title">◉ Industrial</h1>
-    <p class="page-count">10 stories from the past 72 hours</p>
+    <p class="page-count">7 stories · 1 clusters</p>
   </div>
 
   <div class="cat-summary-banner" style="--cat-color:#3D6B5E;">
-  <p class="cat-summary-text">Industrial real estate activity over the past 72 hours reflects a bifurcated market: institutional capital remains aggressive—Blackstone's €2.3B French portfolio acquisition, BGO/Greenlaw's Georgia warehouse buy, and Redfearn Capital's $60M Florida deals signal sustained demand—while new development starts are down 25% versus historical averages. Small-bay and infill product continues outperforming, with sub-5% vacancy. Office-to-industrial conversions are emerging as a notable supply strategy, exemplified by Foundry Commercial's 1.9M-square-foot Dallas-Fort Worth redevelopment pipeline.</p>
+  <p class="cat-summary-text">**Industrial – 72-Hour Briefing**
+
+Industrial investment activity remained active across Florida and Texas, with Redfearn Capital closing $60M in Florida deals, CBRE brokering a $30.9M multitenant portfolio sale in Stuart, and Stream Realty breaking ground on 300,000 SF in Houston. Small-bay and infill product continues to outperform, with sub-5% vacancy rates. Talent movement accelerated, with Westmount landing a seasoned industrial veteran. Blackstone's $1.75B data center REIT IPO signals institutional capital rotating toward digital infrastructure adjacencies.</p>
 </div>
 <div class="section-label">Top Stories</div>
 <div class="article-grid">
   <div class="top-article-card" style="--cat-color:#3D6B5E;">
   <span class="top-badge">Top Story</span>
   <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 13, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
+    <span class="date">May 14, 2026</span>
   </div>
-  <h3 class="top-article-headline">Blackstone's Data Center REIT Raises $1.75 Billion in IPO to Buy Data Centers</h3>
-  <p class="article-summary">Blackstone Digital Infrastructure Trust (BXDC) completed its US IPO on May 14 on the NYSE, pricing 87.5 million shares at $20 each to raise $1.75 billion, with underwriters holding a 30-day option to lift total proceeds to $2 billion. The REIT will focus on acquiring newly constructed, stabilized data centers valued between $250 million and $1.5 billion, occupied by investment-grade hyperscale tenants on long-term leases, targeting yields of 5.75% to 7%. Blackstone has identified approximately $25 billion in potential near-term data center purchases in Northern Virginia, Ohio, Phoenix, Maryland, and Austin. Nick Pell, former president and CIO of Blackstone's Link Logistics industrial REIT arm, was appointed CEO of the new entity.</p>
-  <div>
-    <a href="https://www.bloomberg.com/news/articles/2026-05-13/blackstone-reit-raises-1-75-billion-in-ipo-to-buy-data-centers" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Blackstone's%20Data%20Center%20REIT%20Raises%20$1.75%20Billion%20in%20IPO%20to&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0ABlackstone's Data Center REIT Raises $1.75 Billion in IPO to Buy Data Centers%0Ahttps://www.bloomberg.com/news/articles/2026-05-13/blackstone-reit-raises-1-75-billion-in-ipo-to-buy-data-centers%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
+  <h3 class="top-article-headline">Blackstone's BXDC Data Center REIT Raises $1.75B in NYSE IPO</h3>
+  <p class="article-summary">Blackstone Digital Infrastructure Trust (BXDC) completed its NYSE IPO on May 14, raising $1.75 billion by selling 87.5 million shares at $20 per share, with underwriters holding a 30-day option to increase total proceeds to $2 billion. The REIT, structured as a 'blind pool' with no assets yet acquired, will target newly constructed, stabilized data centers valued between $250 million and $1.5 billion, occupied by investment-grade hyperscale tenants on long-term leases at yields of 5.75% to 7%. Blackstone has identified approximately $25 billion in potential near-term acquisitions in Northern Virginia, Ohio, Phoenix, Maryland, and Austin. Nick Pell, former president and CIO of Blackstone's Link Logistics industrial REIT, was named CEO of the new entity.</p>
+  <div class="cluster-sources"><span class="cluster-sources-label">Coverage</span><a href="https://www.bloomberg.com/news/articles/2026-05-13/blackstone-reit-raises-1-75-billion-in-ipo-to-buy-data-centers" target="_blank" class="cluster-source-link">Bloomberg 🔒</a><span class="cluster-source-sep">·</span><a href="https://www.bisnow.com/national/news/data-center/blackstones-data-center-reit-raises-175b-in-debut-as-share-prices-fall-134583" target="_blank" class="cluster-source-link">BisNow</a><span class="cluster-badge">2 sources</span></div>
 </div>
 <div class="top-article-card" style="--cat-color:#3D6B5E;">
   <span class="top-badge">Top Story</span>
@@ -515,42 +563,6 @@
 </div>
 <div class="article-card" style="--cat-color:#3D6B5E;">
   <div class="article-meta">
-    <span>Connect CRE</span>
-    <span class="date">· May 14, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Webinar: Distress Cycle Evolves as $520B of Maturities Looms</h3>
-  <p class="article-summary">With roughly $52 billion of maturing commercial real estate debt considered at-risk out of $520 billion coming due in 2026, industry leaders reported that CRE distress is expanding beyond the office sector. Andrew Hundertmark, Vice Chairman at Argentic Services, told the Connect CRE webinar that office distress has decreased while more multifamily and hospitality distress is arriving. LNR Partners' Randall Rosen said major metro office markets — with Chicago cited specifically — continue to struggle significantly. The panel discussed evolving strategies for lenders and special servicers navigating the active distress environment.</p>
-  <div>
-    <a href="https://www.connectcre.com/stories/webinar-distress-cycle-evolves-as-520b-of-maturities-looms/" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#3D6B5E;">
-  <div class="article-meta">
-    <span>Connect CRE</span>
-    <span class="date">· May 14, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Return to Lender: Week of May 14, 2026</h3>
-  <p class="article-summary">Connect CRE's weekly CMBS distress tracker reports multiple loans entering special servicing, including the $64.5 million Summit Place Wisconsin loan (CD 2016-CD3 & JPMDB 2017-C5) after the borrower indicated it would no longer fund operating shortfalls. A prominent Houston Galleria-area office tower at 3000 Post Oak Blvd faces foreclosure after its $80 million loan matured vacant. The Decoration & Design Building in New York moved to special servicing upon hitting its May 2026 maturity date on a CGCMT-securitized loan. The Seattle Bravern office complex — formerly leased to Microsoft — had a court-approved sale overseen by Eastdil Secured following a $304 million mortgage default.</p>
-  <div>
-    <a href="https://www.connectcre.com/stories/return-to-lender-week-of-may-14-2026/" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#3D6B5E;">
-  <div class="article-meta">
-    <span>BisNow</span>
-    <span class="date">· May 14, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Blackstone's Data Center REIT Hits Its $1.75B Initial Target In Debut</h3>
-  <p class="article-summary">Blackstone Digital Infrastructure Trust raised $1.75 billion in its NYSE debut on May 14, selling 87.5 million shares at $20 per share, with underwriters holding a 30-day option to lift total proceeds to $2 billion. The REIT is a 'blind pool' with no assets yet identified, targeting acquisition of newly built data centers occupied by hyperscalers valued between $250 million and $1.5 billion. Blackstone has identified approximately $25 billion in potential near-term data center purchases in Northern Virginia, Ohio, Phoenix, Maryland, and Austin.</p>
-  <div>
-    <a href="https://www.bisnow.com/national/news/data-center/blackstones-data-center-reit-raises-175b-in-debut-as-share-prices-fall-134583" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#3D6B5E;">
-  <div class="article-meta">
     <span>GlobeSt</span>
     <span class="date">· May 14, 2026</span>
     <span class="paywall-badge">🔒 Subscriber</span>
@@ -567,7 +579,7 @@
 
 <footer class="site-footer">
   <div class="footer-name">SoCal Industrial Journal</div>
-  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt</div>
+  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Reuters &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt &nbsp;·&nbsp; Supply Chain Dive &nbsp;·&nbsp; LA Times &nbsp;·&nbsp; OC Register &nbsp;·&nbsp; SD Union-Tribune &nbsp;·&nbsp; Press-Enterprise &nbsp;·&nbsp; Daily Bulletin &nbsp;·&nbsp; LA Daily News &nbsp;·&nbsp; Press-Telegram &nbsp;·&nbsp; SGV Tribune &nbsp;·&nbsp; The Sun &nbsp;·&nbsp; Daily Breeze &nbsp;·&nbsp; Redlands Daily Facts &nbsp;·&nbsp; Pasadena Star-News &nbsp;·&nbsp; Whittier Daily News &nbsp;·&nbsp; SD Business Journal &nbsp;·&nbsp; IE Business Daily</div>
   <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
 </footer>
 

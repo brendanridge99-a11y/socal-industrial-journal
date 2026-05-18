@@ -384,6 +384,56 @@
         .all-stories-divider {
             margin: 2.5rem 0 1.5rem;
         }
+
+        /* ── Cluster card ── */
+        .cluster-sources {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--rule);
+        }
+        .cluster-sources-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-right: 0.25rem;
+        }
+        .cluster-source-link {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 500;
+            color: var(--cat-color, var(--accent));
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+            padding-bottom: 1px;
+        }
+        .cluster-source-link:hover {
+            border-bottom-color: var(--cat-color, var(--accent));
+        }
+        .cluster-source-sep {
+            color: var(--rule);
+            font-size: 0.65rem;
+        }
+        .cluster-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #fff;
+            background: var(--cat-color, var(--accent));
+            padding: 0.15rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: auto;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -425,11 +475,11 @@
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
     <h1 class="page-title">◈ Economics</h1>
-    <p class="page-count">21 stories from the past 72 hours</p>
+    <p class="page-count">19 stories · 1 clusters</p>
   </div>
 
   <div class="cat-summary-banner" style="--cat-color:#7C5C3E;">
-  <p class="cat-summary-text">**Inflation surged to the forefront this week as the dominant macro theme.** April CPI hit 3.8% year-over-year, PPI jumped 6.0% annually, and import prices rose 4.2% — all multi-year highs driven primarily by the Strait of Hormuz closure pushing energy costs up 60% since February. Markets repriced aggressively: Treasury yields spiked, rate-cut expectations collapsed, and traders now price a 50%+ probability of a Fed *hike* by December. Kevin Warsh was confirmed as Fed Chair amid the turbulence.</p>
+  <p class="cat-summary-text">**Inflation Dominated the Week.** April CPI hit 3.8% and PPI surged 6.0%, with professional forecasters projecting Q2 inflation reaching 6% — driven by the Strait of Hormuz closure pushing oil above $109 and gas past $4.50 nationally. Bond markets sold off sharply, with 30-year Treasury yields topping 5%. Fed funds futures shifted from pricing cuts to a December hike. Kevin Warsh was confirmed as Fed Chair, inheriting the most challenging inflation environment since 2022. Industrial production and retail sales offered the week's few bright spots.</p>
 </div>
 <div class="section-label">Top Stories</div>
 <div class="article-grid">
@@ -526,16 +576,13 @@
   </div>
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
+  
   <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 15, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span>
+    <span class="date">May 15, 2026</span>
   </div>
-  <h3 class="article-headline">US Industrial Production Rises by Most in Over a Year</h3>
-  <p class="article-summary">U.S. industrial production posted its largest gain in over a year, according to Federal Reserve data released May 15. The report covers output at factories, mines, and utilities, following a March decline of 0.5% attributed to the Iran war's impact on factory and utility output. The data was featured as a top headline on Bloomberg's homepage on May 15, 2026, alongside reporting on the Xi-Trump summit framework.</p>
-  <div>
-    <a href="https://www.bloomberg.com/" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Industrial%20Production%20Rises%20by%20Most%20in%20Over%20a%20Year&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Industrial Production Rises by Most in Over a Year%0Ahttps://www.bloomberg.com/%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
+  <h3 class="article-headline">US Industrial Production Surges 0.7% in April, Strongest Gain in 14 Months</h3>
+  <p class="article-summary">U.S. industrial production rose 0.7% in April 2026, the largest monthly gain in 14 months, according to the Federal Reserve's G.17 report released May 15. The result significantly exceeded the consensus estimate of 0.3%, following a March decline of 0.5% attributed to the Iran war's impact on factory and utility output. Manufacturing output, which comprises approximately 78% of total industrial production, climbed 0.6%, beating forecasts of 0.2%, while utilities output jumped 1.9% and mining output edged down 0.1%. Capacity utilization rose to 76.1%, remaining 3.3 percentage points below its long-run average.</p>
+  <div class="cluster-sources"><span class="cluster-sources-label">Coverage</span><a href="https://www.bloomberg.com/" target="_blank" class="cluster-source-link">Bloomberg 🔒</a><span class="cluster-source-sep">·</span><a href="https://www.federalreserve.gov/releases/g17/" target="_blank" class="cluster-source-link">Federal Reserve / Bloomberg</a><span class="cluster-badge">2 sources</span></div>
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
   <div class="article-meta">
@@ -571,18 +618,6 @@
   <p class="article-summary">Bloomberg's Retail Monitor reported that US retail sales data this week showed surface-level strength in consumer spending, but that rising oil prices above $105 per barrel and surging bond yields are creating a worrisome undercurrent for forward consumer demand. Producer price data released this week showed costs accelerating at the fastest pace since 2022, signaling potential margin compression for retailers and goods distributors. The inflation pressures stem from the combined effect of the Strait of Hormuz closure and ongoing tariff-related cost pass-through still working through supply chains. Analysts noted the combination of high gas prices—nationally averaging $4.50 per gallon—and tightening financial conditions presents a risk to the consumer spending outlook in the coming months.</p>
   <div>
     <a href="https://www.bloomberg.com/news/newsletters/2026-05-15/us-shopping-data-retail-monitor" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20US%20Shopping%20Data%20Is%20Good,%20But%20Something%20Worrisome%20Is%20Lurking&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AUS Shopping Data Is Good, But Something Worrisome Is Lurking%0Ahttps://www.bloomberg.com/news/newsletters/2026-05-15/us-shopping-data-retail-monitor%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
-    <span>Bloomberg</span>
-    <span class="date">· May 14, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">Treasury Yields Little Changed as April Import and Export Prices Soar Above Wall Street Expectations</h3>
-  <p class="article-summary">April import prices jumped 1.9% month-over-month — a full percentage point above March's move and well above the 0.9% consensus — pushing the 12-month rate to 4.2%, the most since October 2022. Fuels and lubricants surged 16.3% while petroleum products rose 19%, driven by the Iran war's impact on energy supply. The producer price index rose 1.4% in April, the biggest monthly increase since March 2022, with the annual rate reaching 6%. Core CPI came in at 2.8% annually, keeping the Fed on hold as newly confirmed Chair Kevin Warsh faces mounting inflation pressure from both the Iran conflict and tariffs.</p>
-  <div>
-    <a href="https://www.cnbc.com/2026/05/14/treasury-yields-energy-inflation-fed.html" target="_blank" class="article-read">Read full story</a>
   </div>
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
@@ -671,18 +706,6 @@
 </div>
 <div class="article-card" style="--cat-color:#7C5C3E;">
   <div class="article-meta">
-    <span>Federal Reserve / Bloomberg</span>
-    <span class="date">· May 15, 2026</span>
-    
-  </div>
-  <h3 class="article-headline">US Industrial Production Rose 0.7% in April, Strongest Gain in 14 Months</h3>
-  <p class="article-summary">The Federal Reserve released its G.17 report on May 15, showing US industrial production increased 0.7% in April 2026, the largest monthly gain in 14 months and well above the consensus estimate of 0.3%. Manufacturing output, which accounts for approximately 78% of total industrial production, rose 0.6%, beating forecasts of 0.2%. Capacity utilization moved up to 76.1%, still 3.3 percentage points below its long-run average. Utilities output increased 1.9%, while mining output edged down 0.1%.</p>
-  <div>
-    <a href="https://www.federalreserve.gov/releases/g17/" target="_blank" class="article-read">Read full story</a>
-  </div>
-</div>
-<div class="article-card" style="--cat-color:#7C5C3E;">
-  <div class="article-meta">
     <span>Federal Reserve Bank of New York / Bloomberg</span>
     <span class="date">· May 15, 2026</span>
     
@@ -699,7 +722,7 @@
 
 <footer class="site-footer">
   <div class="footer-name">SoCal Industrial Journal</div>
-  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt</div>
+  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Reuters &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt &nbsp;·&nbsp; Supply Chain Dive &nbsp;·&nbsp; LA Times &nbsp;·&nbsp; OC Register &nbsp;·&nbsp; SD Union-Tribune &nbsp;·&nbsp; Press-Enterprise &nbsp;·&nbsp; Daily Bulletin &nbsp;·&nbsp; LA Daily News &nbsp;·&nbsp; Press-Telegram &nbsp;·&nbsp; SGV Tribune &nbsp;·&nbsp; The Sun &nbsp;·&nbsp; Daily Breeze &nbsp;·&nbsp; Redlands Daily Facts &nbsp;·&nbsp; Pasadena Star-News &nbsp;·&nbsp; Whittier Daily News &nbsp;·&nbsp; SD Business Journal &nbsp;·&nbsp; IE Business Daily</div>
   <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
 </footer>
 

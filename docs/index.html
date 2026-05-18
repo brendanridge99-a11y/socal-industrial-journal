@@ -384,6 +384,56 @@
         .all-stories-divider {
             margin: 2.5rem 0 1.5rem;
         }
+
+        /* ── Cluster card ── */
+        .cluster-sources {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--rule);
+        }
+        .cluster-sources-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-right: 0.25rem;
+        }
+        .cluster-source-link {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 500;
+            color: var(--cat-color, var(--accent));
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+            padding-bottom: 1px;
+        }
+        .cluster-source-link:hover {
+            border-bottom-color: var(--cat-color, var(--accent));
+        }
+        .cluster-source-sep {
+            color: var(--rule);
+            font-size: 0.65rem;
+        }
+        .cluster-badge {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #fff;
+            background: var(--cat-color, var(--accent));
+            padding: 0.15rem 0.5rem;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: auto;
+        }
             grid-column: 1 / -1;
             text-align: center;
             padding: 3rem;
@@ -425,23 +475,23 @@
   <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; margin-bottom:2rem; padding-bottom:1rem; border-bottom:1px solid var(--rule);">
     <h1 style="font-family:'Cormorant Garamond',Georgia,serif; font-size:1.35rem; font-weight:300; letter-spacing:0.04em; color:var(--ink);">Today's Briefing</h1>
     <div style="display:flex; align-items:center; gap:1rem; flex-wrap:wrap;">
-      <span style="font-family:'Jost',sans-serif; font-size:0.7rem; color:var(--muted);">56 stories · 7 sections</span>
-      <span class="status-badge"><span class="status-dot"></span>Updated 0m ago</span>
+      <span style="font-family:'Jost',sans-serif; font-size:0.7rem; color:var(--muted);">50 stories · 6 sections</span>
+      <span class="status-badge"><span class="status-dot"></span>Updated 1m ago</span>
     </div>
   </div>
 
   <div class="bottom-line">
   <div class="bottom-line-label">The Bottom Line</div>
-  <p class="bottom-line-text">The Strait of Hormuz closure is the dominant macro force: spiking fuel costs and freight rates are accelerating inventory stockpiling, pushing PPI to 6% and CPI to 3.8%, pricing in Fed rate hikes, and tightening capital markets precisely as industrial demand remains resilient but development financing grows costlier.</p>
+  <p class="bottom-line-text">The Strait of Hormuz closure is the defining macro shock of the moment, simultaneously spiking energy costs, disrupting global supply chains, and reigniting inflation fears that are pushing Treasury yields higher and forcing markets to reprice the interest rate outlook from cuts to potential hikes.</p>
 </div>
 
   <div class="fp-grid">
     <a href="economics.html" class="fp-card" style="--cat-color:#7C5C3E;">
   <div class="fp-card-label">
     <span>◈ Economics</span>
-    <span class="fp-card-count">21</span>
+    <span class="fp-card-count">19</span>
   </div>
-  <p class="fp-card-summary">The U.S. economy is navigating a significant inflation surge—driven by an energy shock from the Iran-war closure of the Strait of Hormuz—that has pushed CPI to 3.8% and PPI to 6% annually, prompted markets to price in Fed rate hikes, and triggered a global bond selloff despite resilient consumer spending and strong industrial output.</p>
+  <p class="fp-card-summary">The U.S. economy faces a destabilizing inflation surge driven by an energy shock from the Strait of Hormuz closure, pushing Treasury yields sharply higher, rattling global markets, and forcing incoming Fed Chair Kevin Warsh to confront the prospect of rate hikes rather than cuts.</p>
   <div class="fp-card-cta">View all stories →</div>
 </a>
 <a href="supply-chain.html" class="fp-card" style="--cat-color:#4E6B5E;">
@@ -449,23 +499,23 @@
     <span>◍ Supply Chain & Logistics</span>
     <span class="fp-card-count">7</span>
   </div>
-  <p class="fp-card-summary">The closure of the Strait of Hormuz has sent fuel costs surging, disrupted global shipping, and driven businesses to accelerate inventory stockpiling, while rising freight rates, tightening trucking capacity, and cautious consumer demand are collectively straining supply chains worldwide.</p>
+  <p class="fp-card-summary">The closure of the Strait of Hormuz has sent fuel costs surging, tightened shipping capacity, and prompted businesses globally to accelerate inventory stockpiling, while softening consumer demand and rising freight costs are compounding pressure across supply chains.</p>
   <div class="fp-card-cta">View all stories →</div>
 </a>
 <a href="industries.html" class="fp-card" style="--cat-color:#3D6B5E;">
   <div class="fp-card-label">
     <span>◉ Industrial</span>
-    <span class="fp-card-count">10</span>
+    <span class="fp-card-count">7</span>
   </div>
-  <p class="fp-card-summary">Industrial real estate remains in active demand—particularly for small-bay, last-mile, and data center-adjacent product—even as new development starts decline sharply and capital selectively rotates toward stabilized assets amid elevated construction costs and broader CRE distress pressures.</p>
+  <p class="fp-card-summary">Industrial demand remains structurally supported, with small-bay and infill product posting sub-5% vacancy, private capital continuing to deploy into Southeast markets, and data center infrastructure emerging as a distinct and rapidly scaling institutional asset class within the broader industrial landscape.</p>
   <div class="fp-card-cta">View all stories →</div>
 </a>
 <a href="politics.html" class="fp-card" style="--cat-color:#8B4A3A;">
   <div class="fp-card-label">
     <span>◐ Politics</span>
-    <span class="fp-card-count">7</span>
+    <span class="fp-card-count">6</span>
   </div>
-  <p class="fp-card-summary">US-China relations are the dominant geopolitical story, with Trump and Xi concluding a Beijing summit that produced broad frameworks on trade and strategic stability, while tariffs remain elevated and major structural tensions persist.</p>
+  <p class="fp-card-summary">US-China relations are at a pivotal juncture as Trump and Xi conclude a Beijing summit with a new strategic framework, while domestically, tariff policy and trade enforcement continue to reshape economic conditions.</p>
   <div class="fp-card-cta">View all stories →</div>
 </a>
 <a href="business.html" class="fp-card" style="--cat-color:#4A5F82;">
@@ -473,35 +523,27 @@
     <span>◆ Business</span>
     <span class="fp-card-count">6</span>
   </div>
-  <p class="fp-card-summary">Corporate America is navigating a period of simultaneous expansion and contraction, with major investments in logistics, energy, and aerospace infrastructure running alongside significant workforce reductions and retail market softness.</p>
+  <p class="fp-card-summary">The business environment is marked by retail sector stress and consumer uncertainty, aggressive corporate cost-cutting and restructuring, surging energy infrastructure dealmaking driven by AI and electrification demand, and intensifying competition in fast delivery logistics.</p>
   <div class="fp-card-cta">View all stories →</div>
 </a>
 <a href="tech.html" class="fp-card" style="--cat-color:#6B4F7A;">
   <div class="fp-card-label">
     <span>◎ Tech</span>
-    <span class="fp-card-count">4</span>
+    <span class="fp-card-count">2</span>
   </div>
-  <p class="fp-card-summary">AI infrastructure investment is accelerating rapidly, but adoption across industries remains uneven, with enthusiasm from capital markets contrasting against cautious, incremental implementation by enterprise users grappling with data quality, reliability, and governance concerns.</p>
-  <div class="fp-card-cta">View all stories →</div>
-</a>
-<a href="local-deals.html" class="fp-card" style="--cat-color:#7A6040;">
-  <div class="fp-card-label">
-    <span>◑ Local Deals & Developments</span>
-    <span class="fp-card-count">1</span>
-  </div>
-  <p class="fp-card-summary">Rexford Industrial Realty's new CEO Laura Clark is steering the Southern California-focused industrial REIT away from large-scale new development, prioritizing hard-to-replicate infill warehouse locations across the Inland Empire, Los Angeles, and Orange County markets.</p>
+  <p class="fp-card-summary">AI is being rapidly embedded into complex, high-stakes operational workflows across industries, but adoption is uneven, with some sectors deploying autonomous decision-making aggressively while others proceed cautiously, prioritizing reliability and auditability amid ongoing macroeconomic and geopolitical volatility.</p>
   <div class="fp-card-cta">View all stories →</div>
 </a>
 
   </div>
 
-  
+  <p style="font-family:'Jost',sans-serif;font-size:0.8rem;color:var(--muted);text-align:center;margin:2rem 0;">Local Deals & Developments has no stories yet — check back soon.</p>
 
 </main>
 
 <footer class="site-footer">
   <div class="footer-name">SoCal Industrial Journal</div>
-  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt</div>
+  <div class="footer-sources">Bloomberg &nbsp;·&nbsp; Reuters &nbsp;·&nbsp; Wall Street Journal &nbsp;·&nbsp; Green Street &nbsp;·&nbsp; Connect CRE &nbsp;·&nbsp; BisNow &nbsp;·&nbsp; CoStar &nbsp;·&nbsp; GlobeSt &nbsp;·&nbsp; Supply Chain Dive &nbsp;·&nbsp; LA Times &nbsp;·&nbsp; OC Register &nbsp;·&nbsp; SD Union-Tribune &nbsp;·&nbsp; Press-Enterprise &nbsp;·&nbsp; Daily Bulletin &nbsp;·&nbsp; LA Daily News &nbsp;·&nbsp; Press-Telegram &nbsp;·&nbsp; SGV Tribune &nbsp;·&nbsp; The Sun &nbsp;·&nbsp; Daily Breeze &nbsp;·&nbsp; Redlands Daily Facts &nbsp;·&nbsp; Pasadena Star-News &nbsp;·&nbsp; Whittier Daily News &nbsp;·&nbsp; SD Business Journal &nbsp;·&nbsp; IE Business Daily</div>
   <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours &nbsp;·&nbsp; Summaries refreshed daily</div>
 </footer>
 
