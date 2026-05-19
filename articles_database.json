@@ -1,30 +1,6 @@
 {
-  "last_updated": "2026-05-19T11:51:29.664630Z",
+  "last_updated": "2026-05-19T18:33:39.311438Z",
   "articles": [
-    {
-      "headline": "NextEra Energy Is Said to Be in Talks to Acquire Dominion",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 16, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/nextera-energy-is-said-to-be-in-talks-to-acquire-dominion-energy",
-      "summary": "NextEra Energy Inc. is in discussions to acquire Dominion Energy Inc. in a mostly stock deal, according to a person familiar with the matter. A transaction could be announced as soon as Monday, though no agreement has been reached and talks could still end without one. The combined company would have an enterprise value of approximately $400 billion including debt. The deal is driven by surging electricity demand from AI data centers, industrial reshoring, and electrification, and would expand NextEra's reach into the PJM Interconnection grid, which extends from Washington to Chicago and encompasses Northern Virginia's data center cluster.",
-      "category": "business",
-      "id": "2c551ef9ebe8",
-      "added_at": "2026-05-16T15:40:44.672326Z",
-      "timestamp": "2026-05-16T15:40:44.672326Z"
-    },
-    {
-      "headline": "Boeing Wins 200-Jet Plane Order From China, Trump Says",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 14, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/boeing-wins-200-jet-plane-order-from-china-trump-says",
-      "summary": "President Trump announced that China agreed to purchase 200 Boeing commercial jets, marking Boeing's first major aircraft sale to China in nearly a decade, coming out of Trump's summit with President Xi Jinping in Beijing. Trump stated China reserved the right to buy up to 750 aircraft total, though neither the Chinese government nor Boeing issued a confirming statement. Boeing CEO Kelly Ortberg accompanied Trump on the trip; analysts had expected an order of up to 500 aircraft. Boeing shares fell 4.73% on Thursday following the announcement, which fell short of Jefferies' estimate of a 500-plane deal.",
-      "category": "business",
-      "id": "402f723f2918",
-      "added_at": "2026-05-16T15:40:44.672326Z",
-      "timestamp": "2026-05-16T15:40:44.672326Z"
-    },
     {
       "headline": "Brent Crude Rises Above $109 Per Barrel as Strait of Hormuz Remains Effectively Closed",
       "source": "Bloomberg / Trading Economics",
@@ -1488,6 +1464,456 @@
       "id": "2635478d4523",
       "added_at": "2026-05-19T11:51:29.633435Z",
       "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "item_index": 1,
+      "headline": "$217 Million Just Hit the Table for Trucking Safety and CDL Development \u2014 Here's Who Can Apply and What It Means for Your Operation",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/217-million-just-hit-the-table-for-trucking-safety-and-cdl-development-heres-who-can-apply-and-what-it-means-for-your-operation",
+      "summary": "U.S. Transportation Secretary Sean P. Duffy announced on May 18 that the Federal Motor Carrier Safety Administration is deploying $217 million across four grant programs targeting trucking safety enforcement, CDL program modernization, and technology deployment at roadside inspections. The funding represents a significant federal investment in commercial driver pipeline development and enforcement infrastructure. Motor carriers and CDL training programs are among the eligible applicants under the initiative.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "018a0c56774c",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 2,
+      "headline": "Benchmark diesel down, futures market starts to tick upward",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/benchmark-diesel-down-futures-market-starts-to-tick-upward",
+      "summary": "The benchmark price of diesel used for most fuel surcharge calculations declined in the latest weekly reading, according to FreightWaves. Despite the spot price drop, futures markets began moving upward during the same period. The divergence between current benchmark prices and forward-looking futures pricing signals potential near-term movement in carrier fuel surcharge rates.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "48f2aade4509",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 3,
+      "headline": "Same Repair. Same Truck. Higher Invoice. Here Is the Number Behind What You Are Paying at the Parts Counter Right Now.",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/same-repair-same-truck-higher-invoice-here-is-the-number-behind-what-you-are-paying-at-the-parts-counter-right-now",
+      "summary": "On October 17, 2025, President Trump signed a proclamation under Section 232 of the Trade Expansion Act of 1962, imposing a 25% tariff on imported medium and heavy-duty trucks and truck parts covering Class 3 through Class 8 vehicles, engines, and transmissions. The tariff has directly increased maintenance and repair costs for fleet operators purchasing parts at the counter. Trucking companies are absorbing higher per-unit parts costs on identical repairs compared to pre-tariff invoices.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "b9634f507b82",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 4,
+      "headline": "13,273 Trucks Got Parked During Blitz Week. If Your Violation Is Wrong, You Have a Real Way to Fight It.",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/13273-trucks-got-parked-during-blitz-week-if-your-violation-is-wrong-you-have-a-real-way-to-fight-it",
+      "summary": "The 2026 CVSA International Roadcheck ran May 12 through 14, with extended blitz-week enforcement spanning May 10 through 17. By the conclusion of the full enforcement period, 13,273 trucks were placed out of service, a figure larger than what the three-day Roadcheck event alone produced. The enforcement action represents a significant temporary reduction in available commercial truck capacity across affected corridors.",
+      "category": "logistics",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "4931fe198697",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 5,
+      "headline": "BNSF ops chief out after just five months",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/bnsf-ops-chief-out-after-just-five-months",
+      "summary": "BNSF Railway has replaced its chief operating officer after Matt Garland held the position for only five months, according to FreightWaves. A new operations chief has taken over at the Class I railroad. No reason for Garland's departure was provided in the report.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "b8f9403467b2",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 6,
+      "headline": "Bankruptcy court approves STG Logistics reorganization plan",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/bankruptcy-court-approves-stg-logistics-reorganization-plan",
+      "summary": "A federal bankruptcy court in New Jersey has approved the reorganization plan submitted by STG Logistics, according to FreightWaves. The court approval allows the logistics company to proceed with restructuring its operations and obligations under the plan. STG Logistics had been operating under bankruptcy protection prior to the court's ruling.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "ca6a5a9c1221",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 7,
+      "headline": "Roadcheck Week, Supreme Court ruling tighten US freight capacity",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/roadcheck-week-supreme-court-ruling-tighten-us-freight-capacity",
+      "summary": "EASE Logistics reports that a combination of Roadcheck Week enforcement activity, insurance-related concerns stemming from a recent Supreme Court ruling, and seasonal freight demand are placing concurrent pressure on U.S. freight capacity. The factors are expected to sustain tightening conditions through the remainder of 2026. The Supreme Court ruling referenced relates to broker liability, which is affecting carrier availability and insurance underwriting in the spot market.",
+      "category": "logistics",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "2011a910baa4",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 8,
+      "headline": "Is peak season here? Trans-Pacific rates level in latest week",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/is-peak-season-here-trans-pacific-rates-level-in-latest-week",
+      "summary": "Trans-Pacific ocean freight rates held steady in the latest weekly reading as the market approaches peak season, according to FreightWaves. Current rate levels reflect elevated fuel-cost baselines, with further shifts anticipated as seasonal cargo demand and fleet capacity management come into play. Liner operators are monitoring whether traditional peak season volume materializes to push rates higher.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "ed3222383602",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 9,
+      "headline": "Maersk back in the Red Sea: Drewry",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/maersk-back-in-the-red-sea-drewry",
+      "summary": "Shipping consultant Drewry reports that Maersk has resumed transits through the Suez Canal-Red Sea route, leading a growing number of major carriers returning to the corridor. The move signals renewed confidence among brand-name vessel operators in the security conditions along the route. An increase in Red Sea transits by major liners could reduce transit times and affect global container supply chain routing patterns.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "dc761d41272b",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 10,
+      "headline": "Target names former Walmart executive as chief supply chain officer",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/target-names-former-walmart-executive-as-chief-supply-chain-officer",
+      "summary": "Target has hired Jeff England, a former Walmart executive most recently at QXO, as its new chief supply chain officer, according to FreightWaves. England will oversee Target's supply chain and logistics operations in the new role. The appointment represents a significant leadership change at one of the largest U.S. mass-market retailers.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "38e6112e3366",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 11,
+      "headline": "New research: Tariffs didn't raise costs. They raised the execution standard.",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.freightwaves.com/news/new-research-tariffs-didnt-raise-costs-they-raised-the-execution-standard",
+      "summary": "New research cited by FreightWaves finds that the tariff environment that emerged in 2025 restructured U.S. trade by introducing duty brackets that did not exist in 2024, applying effective rates across multiple layered policies. The new rate structures collapsed cost predictability for importers managing large numbers of tariff line entries. The research frames the tariff impact less as a direct cost increase and more as a heightened operational and compliance execution requirement for trade professionals.",
+      "category": "policy",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "0a327b262f03",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 14,
+      "headline": "Senate approves Kloster for seat on Surface Transportation Board",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://joc.com/article/senate-approves-kloster-for-seat-on-surface-transportation-board-6223667",
+      "summary": "The U.S. Senate has confirmed Richard Kloster to a seat on the Surface Transportation Board, according to the Journal of Commerce. Kloster joins the STB at a critical juncture as the agency reviews the proposed $85 billion merger of Union Pacific and Norfolk Southern. The proposed combination would be the largest U.S. rail transaction in nearly three decades.",
+      "category": "socal",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "9efdf547744b_loc",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "policy"
+    },
+    {
+      "item_index": 14,
+      "headline": "Senate approves Kloster for seat on Surface Transportation Board",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://joc.com/article/senate-approves-kloster-for-seat-on-surface-transportation-board-6223667",
+      "summary": "The U.S. Senate has confirmed Richard Kloster to a seat on the Surface Transportation Board, according to the Journal of Commerce. Kloster joins the STB at a critical juncture as the agency reviews the proposed $85 billion merger of Union Pacific and Norfolk Southern. The proposed combination would be the largest U.S. rail transaction in nearly three decades.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "9efdf547744b",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 15,
+      "headline": "Ocean carriers face growing order book nearing 40% of in-service fleet",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://joc.com/article/ocean-carriers-face-growing-order-book-nearing-40-of-in-service-fleet-6223671",
+      "summary": "The ocean carrier industry faces an order book approaching 40% of the current in-service fleet, according to the Journal of Commerce. Liner executives contend that the surplus tonnage can be absorbed through a combination of vessel management practices, trade imbalances, increased scrapping activity, and continued geopolitical disruptions affecting route utilization. The scale of the pending capacity additions poses a structural challenge to freight rate sustainability across major trade lanes.",
+      "category": "socal",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "6e5309f3f19d_loc",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "logistics"
+    },
+    {
+      "item_index": 15,
+      "headline": "Ocean carriers face growing order book nearing 40% of in-service fleet",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://joc.com/article/ocean-carriers-face-growing-order-book-nearing-40-of-in-service-fleet-6223671",
+      "summary": "The ocean carrier industry faces an order book approaching 40% of the current in-service fleet, according to the Journal of Commerce. Liner executives contend that the surplus tonnage can be absorbed through a combination of vessel management practices, trade imbalances, increased scrapping activity, and continued geopolitical disruptions affecting route utilization. The scale of the pending capacity additions poses a structural challenge to freight rate sustainability across major trade lanes.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "6e5309f3f19d",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 16,
+      "headline": "Mondel\u0113z taps AI for distribution centers to cut costs",
+      "source": "Supply Chain Dive",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.supplychaindive.com/news/mondelez-taps-ai-for-distribution-centers-to-cut-costs/820067/",
+      "summary": "Mondel\u0113z International is deploying artificial intelligence tools across its distribution centers with the objective of reducing operating costs, according to Supply Chain Dive. The snack and confectionery company is applying AI to distribution center operations as part of a broader cost-management initiative. The implementation reflects a growing adoption of AI-driven logistics optimization among large consumer packaged goods manufacturers.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "e20c2b8e8c1b",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 17,
+      "headline": "Producer prices jump to 3-year high, spurred by war shortages",
+      "source": "Supply Chain Dive",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.supplychaindive.com/news/producer-prices-jump-to-3-year-high-spurred-by-war-shortages/820389/",
+      "summary": "U.S. producer prices have risen to a three-year high, driven in part by supply shortages tied to the Iran war's impact on oil markets, according to Supply Chain Dive. The increase reflects upstream cost pressures working through supply chains as energy prices respond to geopolitical disruption. Elevated producer prices signal potential downstream cost increases for goods manufactured and distributed through industrial supply chains.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "b4d6e30b317c",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 18,
+      "headline": "DavidsTea sets up US fulfillment after de minimis' end raises shipping hurdles",
+      "source": "Supply Chain Dive",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.supplychaindive.com/news/davidstea-sets-up-us-fulfillment-after-de-minimis-end-raises-shipping-hurd/819746/",
+      "summary": "DavidsTea is establishing U.S.-based fulfillment operations following the end of the de minimis trade exemption, which CEO Sarah Segal said caused unpredictable delivery times and lower U.S. sales for the Canada-based tea company. The elimination of the de minimis rule raised cross-border shipping costs and complications for the direct-to-consumer retailer. Setting up domestic U.S. fulfillment is the company's operational response to the changed trade environment.",
+      "category": "industries",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "35c37cb7dd9a",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 20,
+      "headline": "DC labor gets an AI boost",
+      "source": "DC Velocity",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.dcvelocity.com/technology/dc-labor-gets-an-ai-boost",
+      "summary": "Warehouse managers in 2026 are increasingly turning to artificial intelligence tools to address challenges in storage, throughput, and fulfillment management amid elevated business uncertainty, according to DC Velocity. Geopolitical developments and tariff policy changes are cited as factors capable of triggering sudden demand surges that strain distribution center operations. AI-driven labor and workflow management systems are being positioned as solutions to improve operational flexibility under volatile conditions.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "80d2d5d081c0",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 1,
+      "headline": "Locus Robotics acquires Nexera Robotics",
+      "source": "DC Velocity",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.dcvelocity.com/editorial/featured/locus-robotics-acquires-nexera-robotics",
+      "summary": "Locus Robotics, a warehouse automation and autonomous mobile robot (AMR) company, has acquired Nexera Robotics, a Vancouver-based developer of advanced robotic grasping technology. Financial terms of the deal were not disclosed. The acquisition expands Locus Robotics' capabilities in warehouse automation with the addition of Nexera's grasping technology.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "0991500dce09",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 3,
+      "headline": "Santa Monica Airport \u2013 Grounded Future?",
+      "source": "Los Angeles Business Journal",
+      "source_type": "free",
+      "date": "May 18, 2026",
+      "url": "https://labusinessjournal.com/featured/santa-monica-airport-grounded-future/",
+      "summary": "Businesses operating at Santa Monica Airport have launched a campaign opposing the planned closure of the airfield at the end of 2028. Tenants affected include flight schools, aircraft maintenance shops, nonprofit organizations, and a business incubator. The campaign seeks to head off the shutdown, which would displace scores of commercial operators currently based at the airport.",
+      "category": "socal",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "7ed402402367",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z",
+      "submarkets": [
+        "los-angeles"
+      ]
+    },
+    {
+      "item_index": 12,
+      "headline": "Retail market stays up, defying economic headwinds",
+      "source": "IE Business Daily",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://iebusinessdaily.com/retail-market-stays-up-defying-economic-headwinds/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=retail-market-stays-up-defying-economic-headwinds",
+      "summary": "U.S. retail sales rose for the seventh consecutive month in April, according to the National Retail Federation, despite high gas prices and inflation. Nationwide sales, excluding automobile and gasoline transactions, increased 0.34 percent from March. The consecutive monthly gains signal continued consumer spending activity across the retail sector.",
+      "category": "economy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "6bdd490da45c",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "headline": "Long Bond Yields Climb to 17-Year High as Investors React to Inflation Concerns",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/us-long-bond-yield-hits-highest-since-2007-on-inflation-concern",
+      "summary": "Yields on the US Treasury's longest-dated bond rose to the highest level in almost two decades as investor concern over accelerating inflation fueled a selloff across global debt markets. The 30-year yield rose as much as seven basis points to 5.19% on Tuesday, reaching a level last seen on the eve of the 2007 global financial crisis. Bond markets across Europe and Asia also fell, while the selloff spilled over into US equity markets. Oil holding above $100 and no signs of an end to the Iran conflict drove the yield surge, amid concern that elevated energy costs are increasing the chances the next Federal Reserve move will be a hike, not a cut.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "5bedf35dcbdb",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "headline": "Bond Yields Near Two-Decade High Open Rift Among Investors",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/us-yields-flirting-with-2007-highs-entice-and-divide-investors",
+      "summary": "A surge in longer-maturity US Treasury yields is testing the resolve of global bond investors torn between locking in rates near the highest levels in decades and the risk of an even greater selloff. With Treasury 30-year yields near the highest since 2007, a Goldman Sachs team sees some emerging value but urges caution. Barclays and Citigroup strategists are warning clients yields may breach 5.5%, levels last seen in 2004. The head of BlackRock's research unit is recommending investors reduce their exposure to developed-market government bonds, including Treasuries, in favor of equities.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "b51f03939db7",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "headline": "Citi Says 5.5% May Be Next Focus for 30-Year Treasury Yield",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/citi-says-5-5-may-be-next-key-level-for-30-year-treasury-yield",
+      "summary": "Bond traders are zeroing in on 5.5% as the new benchmark level for 30-year US Treasury yields as inflation concerns ripple across markets, according to Citigroup. Citigroup's London-based macro rates strategist Jim McCormick said the focus is likely to shift to this level after long-end yields climbed to 5.16% this week, approaching the highest since 2007. The last time 30-year yields hit 5.5% was 22 years ago. The move reflects sustained inflation fears tied to the ongoing Iran war and elevated energy costs.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "65c2cd87ed4b",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "headline": "Global Inflation Weighs on G-7 as Higher Bond Yields Persist",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/global-inflation-weighs-on-g-7-as-higher-bond-yields-persist",
+      "summary": "Global finance chiefs gathering in Paris for a two-day G-7 meeting are coming to terms with the reality that a consumer-price shock is looking likely to endure. On the second day of Group of Seven discussions, the aftermath of a bond-market readjustment factoring in more inflation has raised the burden of proof needed to keep borrowing costs unchanged. The prospect of higher interest rates is looming, with associated stress to growth and budget deficits. Finance ministers and central bankers are preoccupied with another day of spiking yields driven by investor concerns about consumer prices.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "71765eb401c8",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "headline": "Bond Yield Surge Poses Threat to Asia's AI-Fueled Stock Rally",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/bond-yield-surge-poses-threat-to-asia-s-ai-fueled-stock-rally",
+      "summary": "Rising US bond yields pose a threat to Asia's stock rally, as growing inflation fears offset ongoing optimism over benefits from the artificial intelligence boom. Over the past five years, the MSCI Asia Pacific Index has fallen in 16 of the 19 weeks when the US 10-year Treasury yield rose by 20 basis points or more, losing 1.6% on average, according to Bloomberg data. Last week followed that pattern as yields surged on Iran war inflation concerns. The risk-off dynamic in global markets is creating fresh headwinds for capital flows into emerging Asian equities.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "c448364636b8",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "headline": "NY's LIRR Resumes Train Service After Labor Deal to End Strike",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/ny-s-lirr-resumes-train-service-after-labor-deal-to-end-strike",
+      "summary": "The Long Island Rail Road resumed initial service after the Metropolitan Transportation Authority and several labor unions reached a tentative deal to end a three-day strike. The first LIRR trains began running at noon on Tuesday on four of the commuter rail's branches, with the MTA expecting full operations by the evening. The tentative deal between the MTA and five unions on wage increases was announced by New York Governor Kathy Hochul late Monday. The strike was the first LIRR walkout since a two-day strike in 1994, involving 3,500 engineers, signalmen, and electrical workers.",
+      "category": "policy",
+      "secondary_categories": [],
+      "id": "d72fa0307b28",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "headline": "New York's LIRR Trains Set to Restart Tuesday After Strike Deal",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/mta-lirr-unions-reach-potential-agreement-to-end-strikes",
+      "summary": "New York City's transit system and Long Island Rail Road workers reached a potential labor agreement, ending a historic strike that suspended service on the largest commuter rail line in the US. The tentative deal between the MTA and five unions on wage increases was announced by Governor Kathy Hochul late Monday. The MTA had warned that union demands would require fare increases and set a difficult precedent for negotiations with other transit unions. The deal still requires ratification by rank-and-file members of the five unions that went on strike.",
+      "category": "policy",
+      "secondary_categories": [],
+      "id": "51074c0c2ccd",
+      "added_at": "2026-05-19T18:33:39.257010Z",
+      "timestamp": "2026-05-19T18:33:39.257010Z"
     }
   ],
   "settings": {
