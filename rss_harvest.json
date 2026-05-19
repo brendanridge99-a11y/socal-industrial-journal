@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-19T10:00:10.111Z",
-  "elapsed_seconds": 4.7,
+  "harvested_at": "2026-05-19T12:00:05.693Z",
+  "elapsed_seconds": 2.6,
   "feeds_attempted": 16,
-  "feeds_successful": 14,
-  "articles_count": 74,
+  "feeds_successful": 15,
+  "articles_count": 87,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 9,
+      "count": 10,
       "total": 50,
       "error": null
     },
@@ -22,7 +22,7 @@
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 7,
+      "count": 5,
       "total": 10,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 17,
+      "count": 18,
       "total": 97,
       "error": null
     },
@@ -104,19 +104,27 @@
     },
     {
       "source": "San Diego Business Journal",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "success": true,
+      "count": 10,
+      "total": 10,
+      "error": null
     },
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 2,
+      "count": 5,
       "total": 6,
       "error": null
     }
   ],
   "articles": [
+    {
+      "headline": "SCOTUS broker liability ruling a tailwind for Samsara’s safety platform",
+      "url": "https://www.freightwaves.com/news/scotus-broker-liability-ruling-a-tailwind-for-samsaras-safety-platform",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 11:32:58 +0000",
+      "description": "Provably safer trucking capacity will fetch a premium on the market. The post SCOTUS broker liability ruling a tailwind for Samsara’s safety platform appeared first on FreightWaves ."
+    },
     {
       "headline": "Transportation bill sets $240B for major modes",
       "url": "https://www.freightwaves.com/news/transportation-bill-sets-240b-for-major-modes",
@@ -244,20 +252,6 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/s-a33ROYgENbYNjLtjeDlYEZLBaDnOPZEKVL_rtL9Ic/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Vbmlvbl9QYWNpZmljLU5vcmZvbGtfU291dGhlcm5fTG9jb21vdGl2ZXNfLmpwZw==.webp\"/></div></figure><p>Competitors such as BNSF, CPKC and CSX say Uni"
     },
     {
-      "headline": "Product brands and the Hormuz crisis: an inventory problem",
-      "url": "https://www.supplychaindive.com/spons/product-brands-and-the-hormuz-crisis-an-inventory-problem/820053/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Mon, 18 May 2026 05:00:00 -0400",
-      "description": "<p>Brands have an inventory problem, and Hormuz made it expensive.</p>"
-    },
-    {
-      "headline": "Parcel costs are moving faster than your audits can catch them",
-      "url": "https://www.supplychaindive.com/spons/parcel-costs-are-moving-faster-than-your-audits-can-catch-them/819928/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Mon, 18 May 2026 05:00:00 -0400",
-      "description": "<p>Carrier pricing moves in real time now. Is your parcel team keeping up?</p>"
-    },
-    {
       "headline": "Parcel express services evolve as market fragmentation accelerates",
       "url": "https://www.dcvelocity.com/transportation/parcel-express-services-evolve-as-market-fragmentation-accelerates",
       "source": "DC Velocity",
@@ -284,6 +278,13 @@
       "source": "The Real Deal",
       "raw_date": "Mon, 18 May 2026 18:26:00 +0000",
       "description": "A mixed-use residential development is slated to rise across the street from Apple’s forthcoming office complex in Mid-City, bordering the edge of Culver City.&#160; An application filed with the Los Angeles Department of City Planning calls for replacing existing small commercial and residential bu"
+    },
+    {
+      "headline": "New York City’s Higher-End Retail Deserts, and How to Fill Them",
+      "url": "https://commercialobserver.com/2026/05/new-york-city-retail-deserts-tenants-2026/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 10:30:19 +0000",
+      "description": "Walking through the area near Brooklyn’s Windsor Terrace/Kensington border, one is confronted by blocks filled with high-rise residential buildings, many built before World War II, some constructed just after. Throughout the main Ocean Parkway thoroughfare and onto many of the connecting cross stree"
     },
     {
       "headline": "Gigi Hadid’s Guest in Residence Brand Leases Second NYC Store at 1061 Madison Avenue",
@@ -398,11 +399,46 @@
       "description": "In uncertain times, Americans across income brackets flock to cheaper shopping options, and dollar store profits soar. Or at least that’s how it’s usually gone — including as recently as 2025 and into this year. That could soon change. After earlier earnings dips resulting from inflation, e-commerce"
     },
     {
-      "headline": "Saks Global’s Fire Sale Might Help It Out of Bankruptcy — But Kill the Business",
-      "url": "https://commercialobserver.com/2026/05/saks-globals-bankruptcy-richard-baker/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 10:30:21 +0000",
-      "description": "It wasn’t supposed to go like this. When Saks Fifth Avenue agreed in July 2024 to buy Neiman Marcus for $2.65 billion to create Saks Global, a new $7 billion luxury retail behemoth, the conventional thinking was that senior executives at the two firms — once enemies, now family — would find a way to"
+      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
+      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
+    },
+    {
+      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
+      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
+    },
+    {
+      "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
+      "url": "https://www.latimes.com/california/story/2026-05-19/spencer-pratt-followers-make-la-great-again",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "Pratt's loudest fans loathe modern-day L.A., and that should chill all other Angelenos. These haters would be his primary constituents and populate his brain trust if he wins."
+    },
+    {
+      "headline": "Forced treatment and jail: Spencer Pratt&#x27;s pledges to end homelessness stir up mayor&#x27;s race",
+      "url": "https://www.latimes.com/california/story/2026-05-19/forced-treatment-jail-spencer-pratts-pledges-to-end-homelessness-roil-mayors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
+    },
+    {
+      "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
+      "url": "https://www.latimes.com/environment/story/2026-05-19/cherry-season-record-warmth",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
+    },
+    {
+      "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
+      "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
     },
     {
       "headline": "What we know about the high-schooler accused of attacking San Diego Islamic Center",
@@ -487,41 +523,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 16:23:47 GMT",
       "description": "A kidnapping suspect was arrested Monday morning after a chase with police that ended with gunfire, according to Santa Monica police."
-    },
-    {
-      "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
-      "url": "https://www.latimes.com/california/story/2026-05-18/crowds-yosemite-visitors-worry-high-season-will-be-disaster",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
-    },
-    {
-      "headline": "19 Legionella bacteria infections linked to Kaiser Bay Area hospital",
-      "url": "https://www.latimes.com/california/story/2026-05-18/19-cases-of-legionella-infection-linked-to-kaiser-bay-area-hospital",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "The 19 infections were linked to Kaiser's medical center in Santa Clara. Most of those who fell sick are recovering at home, Kaiser said in a statement last week."
-    },
-    {
-      "headline": "Tech leaders funding Matt Mahan&#x27;s campaign for California governor say it&#x27;s not about tech",
-      "url": "https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "San José Mayor Matt Mahan's campaign for governor has been bankrolled by tech titans. Critics say he will cater to their interests as governor, but several of his backers said their support for him has nothing to do with tech policy."
-    },
-    {
-      "headline": "AI has invaded the L.A. mayor&#x27;s race. Some fear it&#x27;s just the beginning",
-      "url": "https://www.latimes.com/california/story/2026-05-18/ai-has-invaded-la-mayors-race-some-fear-its-just-beginning",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "Some see fan-generated election campaign videos as a harbinger of how artificial intelligence could reshape political messaging across the country."
-    },
-    {
-      "headline": "L.A.&#x27;s 100 most problematic rental properties spotlighted in new city database",
-      "url": "https://www.latimes.com/california/story/2026-05-18/l-a-s-100-most-problematic-rental-properties-spotlighted-in-database",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "A new dashboard released by City Controller Kenneth Mejia shows the 100 L.A. properties with the most housing violation complaints."
     },
     {
       "headline": "Nancy Pelosi puts thumb on the scale in race for her successor. Here’s who she endorsed",
@@ -620,6 +621,97 @@
       "source": "Los Angeles Business Journal",
       "raw_date": "Mon, 18 May 2026 16:27:35 +0000",
       "description": "Community Corp. of Santa Monica, a nonprofit that builds and manages affordable housing, is the force behind several projects on the Westside. That includes Jubilo Village, a 95-unit project located at the site of a church. Executive Director Tara Barauskas sat down with the Business Journal to disc"
+    },
+    {
+      "headline": "Luxury Real Estate Is Emerging as Its Own Asset Class",
+      "url": "https://www.sdbj.com/branded-content/luxury-real-estate-is-emerging-as-its-own-asset-class/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=luxury-real-estate-is-emerging-as-its-own-asset-class",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 17:10:47 +0000",
+      "description": "Luxury residential real estate is increasingly behaving less like traditional housing and more like a distinct global asset class. Historically, housing markets moved largely in tandem with mortgage rates, local employment trends, and consumer affordability. Today, however, the ultra-luxury segment "
+    },
+    {
+      "headline": "SERVANT LEADERS CELEBRATED",
+      "url": "https://www.sdbj.com/leadership/servant-leaders-celebrated/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=servant-leaders-celebrated",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:01:14 +0000",
+      "description": "The San Diego Business Journal held its 2026 CEO of the Year Awards ceremony April 29. The event honored top chief executives from across a variety of industries and company sizes, including a Lifetime Achievement Award for Blanchard CEO Ken Blanchard – a pioneer in the servant leadership movement. "
+    },
+    {
+      "headline": "Axos Hits $1B in Small Biz Deposits",
+      "url": "https://www.sdbj.com/finance/banks/axos-hits-1b-in-small-biz-deposits/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=axos-hits-1b-in-small-biz-deposits",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:57 +0000",
+      "description": "SAN DIEGO – More than two decades after its founding, Axos Bank (NYSE: AX) rea- ched a 10-figure milestone. The digital banking and financial services provider announced in early May that it surpassed $1 billion in small business deposits from its more than 40,000 small business customers across the"
+    },
+    {
+      "headline": "Food Bank CEO Growing Organization to Meet Growing Needs",
+      "url": "https://www.sdbj.com/nonprofits/food-bank-ceo-growing-organization-to-meet-growing-needs/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=food-bank-ceo-growing-organization-to-meet-growing-needs",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:53 +0000",
+      "description": "As CEO of the Jacobs &#38; Cushman San Diego Food Bank, Casey Castillo oversees a $113.6 million organization with more than $100 million in net assets, directing 90% of expenses to program services. In 2025, the Food Bank distributed 52.9 million pounds of food and supplies — equivalent to more tha"
+    },
+    {
+      "headline": "SD Symphony Marches to Beat of Its Own Drum",
+      "url": "https://www.sdbj.com/entertainment-2/sd-symphony-marches-to-beat-of-its-own-drum/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sd-symphony-marches-to-beat-of-its-own-drum",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:50 +0000",
+      "description": "SAN DIEGO – When San Diego Symphony President and CEO Martha Gilmer sets foot in the recording booth, she feels something special. “Sitting and listening to the playbacks, I am just in awe of what this orchestra can do,” she said. The Symphony’s resonance is not just musical. Founded in 1910, the Sy"
+    },
+    {
+      "headline": "EDC’s Mark Cafferty Positions San Diego as a Global Economic Force",
+      "url": "https://www.sdbj.com/nonprofits/edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:47 +0000",
+      "description": "Mark Cafferty tied for the CEO of the Year Award in the Business Nonprofit Category. As president and CEO of San Diego Regional Economic Development Corporation (EDC), Cafferty sits at the center of a unique partnership of business, trade, community and education leaders who have reinvented the regi"
+    },
+    {
+      "headline": "Serial Company Builder Challenges Business as Usual",
+      "url": "https://www.sdbj.com/defense/serial-company-builder-challenges-business-as-usual/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=serial-company-builder-challenges-business-as-usual",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:45 +0000",
+      "description": "Dan Magy is CEO of the Year in the Private Medium Company Category. Magy is an experienced company builder, having founded four VC-backed hardware and Artificial Intelligence companies. He founded Citadel Defense in 2015, specializing in Counter-Unmanned Aerial System (C-UAS) technologies, which was"
+    },
+    {
+      "headline": "Gifford Leading Splitero’s Transformative HEI Solution for Homeowners",
+      "url": "https://www.sdbj.com/finance/gifford-leading-spliteros-transformative-hei-solution-for-homeowners/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gifford-leading-spliteros-transformative-hei-solution-for-homeowners",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:43 +0000",
+      "description": "Michael Gifford is a seasoned PropTech and FinTech veteran, bringing nearly 20 years of experience and a vast professional network to his role as CEO and co-founder of Splitero – an innovative home equity investment (HEI) company. Under Gifford’s leadership, Splitero has been defined by rapid growth"
+    },
+    {
+      "headline": "Palomar CEO’s String of Successes Right from the Start",
+      "url": "https://www.sdbj.com/insurance/palomar-ceos-string-of-successes-right-from-the-start/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=palomar-ceos-string-of-successes-right-from-the-start",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:29 +0000",
+      "description": "David “Mac” Armstrong’s career path began in investment banking and private equity and ultimately led to insurance where today he leads Palomar Holdings, Inc., a specialty insurer that focuses on underserved markets, including earthquake, inland marine and casualty insurance. Armstrong founded Palom"
+    },
+    {
+      "headline": "Greupner Advances the Padres on the Business Playing Field",
+      "url": "https://www.sdbj.com/sports-2/greupner-advances-the-padres-on-the-business-playing-field/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=greupner-advances-the-padres-on-the-business-playing-field",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:27 +0000",
+      "description": "Erik Greupner is CEO of the Year in the Large Private Company Category. Greupner oversees the San Diego Padres’ operations and leads the growth and development of the club’s business and culture. 2026 marks his 16th season in San Diego after joining the club in December 2010. During his tenure as CE"
+    },
+    {
+      "headline": "Retail market stays up, defying economic headwinds",
+      "url": "https://iebusinessdaily.com/retail-market-stays-up-defying-economic-headwinds/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=retail-market-stays-up-defying-economic-headwinds",
+      "source": "IE Business Daily",
+      "raw_date": "Tue, 19 May 2026 10:42:40 +0000",
+      "description": "Despite high gas prices and inflation, U.S. retail sales rose for the seventh consecutive month in April, according the National Retail Federation. Nationwide sales, not counting automobile and gasoline transactions, were up 0.34 percent from March and up 5.7 compared with April 2025, the federation"
+    },
+    {
+      "headline": "State housing market has solid first quarter",
+      "url": "https://iebusinessdaily.com/state-housing-market-has-solid-first-quarter/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=state-housing-market-has-solid-first-quarter",
+      "source": "IE Business Daily",
+      "raw_date": "Tue, 19 May 2026 10:40:42 +0000",
+      "description": "Housing affordability improved statewide during the first quarter of 2026, posting gains quarter-over-quarter and year-over-year. Twenty two percent of California’s households could afford the median price of a single-family home &#8211; $843,390 &#8211; during the first three months of this year, u"
+    },
+    {
+      "headline": "Player-Coach Approach for The Strykers Going Forward",
+      "url": "https://iebusinessdaily.com/player-coach-approach-for-the-strykers-going-forward/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=player-coach-approach-for-the-strykers-going-forward",
+      "source": "IE Business Daily",
+      "raw_date": "Tue, 19 May 2026 10:00:35 +0000",
+      "description": "Rober Palmer (Berto), a longtime standout defensive player in the Major Arena Soccer League (MASL soccer) and former team captain, will be playing dual roles going forward as both player and head coach. The player-coach at one time was not that unusual; the NFL, NBA, and Major League Baseball all ha"
     },
     {
       "headline": "Kaiser Permanente provides MD’s to High Desert hospital",
