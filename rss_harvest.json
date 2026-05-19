@@ -1,28 +1,28 @@
 {
-  "harvested_at": "2026-05-19T18:00:05.865Z",
-  "elapsed_seconds": 2.7,
+  "harvested_at": "2026-05-19T20:00:07.165Z",
+  "elapsed_seconds": 4.1,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 96,
+  "articles_count": 87,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 18,
+      "count": 13,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 4,
+      "count": 6,
       "total": 40,
       "error": null
     },
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 5,
+      "count": 4,
       "total": 10,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 24,
+      "count": 23,
       "total": 99,
       "error": null
     },
@@ -98,14 +98,14 @@
     {
       "source": "Los Angeles Business Journal",
       "success": true,
-      "count": 7,
+      "count": 4,
       "total": 10,
       "error": null
     },
     {
       "source": "San Diego Business Journal",
       "success": true,
-      "count": 5,
+      "count": 4,
       "total": 10,
       "error": null
     },
@@ -210,39 +210,18 @@
       "description": "Provably safer trucking capacity will fetch a premium on the market. The post SCOTUS broker liability ruling a tailwind for Samsara’s safety platform appeared first on FreightWaves ."
     },
     {
-      "headline": "Transportation bill sets $240B for major modes",
-      "url": "https://www.freightwaves.com/news/transportation-bill-sets-240b-for-major-modes",
-      "source": "FreightWaves",
-      "raw_date": "Mon, 18 May 2026 17:12:02 +0000",
-      "description": "The House released massive surface transportation reauthorization legislation that sets federal spending for infrastructure and services across a range of modes. The post Transportation bill sets $240B for major modes appeared first on FreightWaves ."
+      "headline": "Bankruptcy court approves STG Logistics’ exit from Chapter 11",
+      "url": "https://joc.com/article/bankruptcy-court-approves-stg-logistics-exit-from-chapter-11-6224183",
+      "source": "Journal of Commerce",
+      "raw_date": "Tue, 19 May 2026 18:49:17 GMT",
+      "description": "But court filings show that even after restructuring, the company is likely to operate with thin margins and a relatively modest cash cushion."
     },
     {
-      "headline": "Cargo theft dips in Q1, but fraud schemes surge, report says",
-      "url": "https://www.freightwaves.com/news/cargo-theft-dips-in-q1-but-fraud-schemes-surge-report-says",
-      "source": "FreightWaves",
-      "raw_date": "Mon, 18 May 2026 16:44:21 +0000",
-      "description": "Cargo thieves are relying less on physical break-ins and more on fraud-based tactics, with deceptive pickup scams climbing sharply in the first quarter, Overhaul says. The post Cargo theft dips in Q1, but fraud schemes surge, report says appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Will the BUILD America 250 Act be the next capacity squeeze",
-      "url": "https://www.freightwaves.com/news/will-the-build-america-250-act-be-the-next-capacity-squeeze",
-      "source": "FreightWaves",
-      "raw_date": "Mon, 18 May 2026 16:42:21 +0000",
-      "description": "The BUILD America 250 Act changes broker qualification rules, overhauls the DataQs violation dispute process, and puts a federal clock on hair drug testing. Here is what those three provisions mean for brokers, motor carriers, insurance renewals and driver capacity The post Will the BUILD America 25"
-    },
-    {
-      "headline": "Merger markup: BNSF hiked grain train charges as much as 472%, UP says in complaint",
-      "url": "https://www.freightwaves.com/news/merger-markup-bnsf-hiked-grain-train-charges-as-much-as-472-up-says-in-complaint",
-      "source": "FreightWaves",
-      "raw_date": "Mon, 18 May 2026 16:24:46 +0000",
-      "description": "Union Pacific filed a complaint with federal regulators alleging that BNSF Railway’s cancellation of certain reciprocal switching rates has significantly increased costs for grain shippers. The post Merger markup: BNSF hiked grain train charges as much as 472%, UP says in complaint appeared first on"
-    },
-    {
-      "headline": "Could new Zim offer start bidding war?",
-      "url": "https://www.freightwaves.com/news/could-new-zim-offer-start-bidding-war",
-      "source": "FreightWaves",
-      "raw_date": "Mon, 18 May 2026 16:17:00 +0000",
-      "description": "An investor’s surprise bid for ZIM Integrated Shipping Services would sweeten the buy price and keep the liner under Israeli control. The post Could new Zim offer start bidding war? appeared first on FreightWaves ."
+      "headline": "WiseTech joins partner program of container shipping digital standards group",
+      "url": "https://joc.com/article/wisetech-joins-partner-program-of-container-shipping-digital-standards-group-6223775",
+      "source": "Journal of Commerce",
+      "raw_date": "Tue, 19 May 2026 18:15:18 GMT",
+      "description": "The largest forwarding software provider globally adds heft to DCSA’s push to drive electronic standards in the ocean freight industry."
     },
     {
       "headline": "Senate approves Kloster for seat on Surface Transportation Board",
@@ -301,13 +280,6 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/3TdlWd5qgsi1Q3H1BnGksZRjTLeRTO7M-jT5iWq4FxU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTUzODc3NTE1LmpwZw==.webp\"/></div></figure><p>Jeff England, who worked to improve inventory availability at&nbsp;QXO, wi"
     },
     {
-      "headline": "US and China to establish trade board, tout agriculture commitments",
-      "url": "https://www.supplychaindive.com/news/us-and-china-to-establish-trade-board-tout-agriculture-commitments/820508/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Mon, 18 May 2026 13:11:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/aHfzkbK4Xn6guoYGsB7WBppk5LF34XszAqxPSzwc_AE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjc2MTI2Nzk5LmpwZw==.webp\"/></div></figure><p>The two countries will use the board to manage bilateral trade for certain"
-    },
-    {
       "headline": "DC labor gets an AI boost",
       "url": "https://www.dcvelocity.com/technology/dc-labor-gets-an-ai-boost",
       "source": "DC Velocity",
@@ -341,6 +313,34 @@
       "source": "The Real Deal",
       "raw_date": "Mon, 18 May 2026 18:26:00 +0000",
       "description": "A mixed-use residential development is slated to rise across the street from Apple’s forthcoming office complex in Mid-City, bordering the edge of Culver City.&#160; An application filed with the Los Angeles Department of City Planning calls for replacing existing small commercial and residential bu"
+    },
+    {
+      "headline": "Harbor Associates-Led Venture Buys SoCal Industrial Park for $81M",
+      "url": "https://commercialobserver.com/2026/05/harbor-associates-california-industrial/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 19:25:46 +0000",
+      "description": "A small-bay industrial campus in Southern California has traded hands for about $289 a square foot as smaller warehouse properties outperform larger assets in the top logistics and manufacturing market in the U.S. Harbor Associates, in a joint venture with investment management firm Farallon Capital"
+    },
+    {
+      "headline": "Robotics Firms Möbius, Alquist Ink 10K SF of New Leases at Brooklyn’s Industry City",
+      "url": "https://commercialobserver.com/2026/05/mobius-alquist-leases-industry-city/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 19:23:38 +0000",
+      "description": "Two robotics firms are moving their programming to Industry City in Brooklyn’s Sunset Park neighborhood. Möbius Industries, which uses artificial intelligence to transform urban waste into raw materials, took the largest amount of space with a three-year, 7,000-square-foot deal in the industrial-tur"
+    },
+    {
+      "headline": "Broadway Theater Owner Shubert Organization Takes 14K SF at GFP’s 520 Eighth Avenue",
+      "url": "https://commercialobserver.com/2026/05/shubert-organization-lease-gfp-520-eighth-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 19:20:01 +0000",
+      "description": "The Shubert Organization, the largest owner of Broadway theaters in New York City, is taking center stage at 520 Eighth Avenue in Midtown. Shubert, which owns historic theaters such as the Imperial Theatre, has signed an 11-year lease for a newly outfitted, 14,480-square-foot office on the tower’s 1"
+    },
+    {
+      "headline": "Carmel Partners Seals Acquisition of UWS Multifamily Portfolio Minority Stake",
+      "url": "https://commercialobserver.com/2026/05/carmel-partners-metlife-uws-newmark/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 18:28:52 +0000",
+      "description": "Carmel Partners has officially closed on its acquisition of a 49 percent stake in a five-building multifamily portfolio on the Upper West Side, Commercial Observer has learned. The firm purchased the stake from MetLife. UDR, a Colorado-based, publicly traded real estate investment trust and the majo"
     },
     {
       "headline": "North American Development Group Lands $106M to Build Boca Raton Rental",
@@ -378,11 +378,11 @@
       "description": "The surprise retail category bouncing hardest into American hearts is the trampoline park. At least that was one of the primary takeaways from a new entertainment report that JLL unveiled at ICSC in Las Vegas Tuesday morning. The key data point was that there are more than 350 trampoline parks and k"
     },
     {
-      "headline": "CRE Firm Ally Bridge Group Signs 6K-SF Deal at Rudin’s 560 Lexington Avenue",
+      "headline": "Ally Bridge Group Signs 6K-SF Deal at Rudin’s 560 Lexington Avenue",
       "url": "https://commercialobserver.com/2026/05/ally-bridge-group-lease-rudin-560-lexington-avenue/",
       "source": "Commercial Observer",
       "raw_date": "Tue, 19 May 2026 16:20:41 +0000",
-      "description": "A real estate investment firm with a healthcare and life sciences focus has signed a lease at 560 Lexington Avenue in Midtown East, Commercial Observer has learned. Ally Bridge Group, which finances and supports life sciences, medical technology and biopharmaceutical companies, has signed a deal for"
+      "description": "An investment firm with a healthcare and life sciences focus has signed a lease at 560 Lexington Avenue in Midtown East, Commercial Observer has learned. Ally Bridge Group, which finances and supports life sciences, medical technology and biopharmaceutical companies, has signed a deal for 6,440 squa"
     },
     {
       "headline": "AI Is in the Office in New York, and Other Observations",
@@ -434,32 +434,18 @@
       "description": "Proptech startup Rely announced Tuesday that it has raised $4.5 million in seed funding to scale its artificial intelligence-native platform for multifamily transaction diligence. 2048 Ventures led the round with Range Ventures and Better Tomorrow Ventures participating. Rely plans to use the new fu"
     },
     {
-      "headline": "New York City’s Higher-End Retail Deserts, and How to Fill Them",
-      "url": "https://commercialobserver.com/2026/05/new-york-city-retail-deserts-tenants-2026/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 10:30:19 +0000",
-      "description": "Walking through the area near Brooklyn’s Windsor Terrace/Kensington border, one is confronted by blocks filled with high-rise residential buildings, many built before World War II, some constructed just after. Throughout the main Ocean Parkway thoroughfare and onto many of the connecting cross stree"
+      "headline": "Influencer, lawyer and surf coach charged in plot to kill L.A. boy band member",
+      "url": "https://www.latimes.com/california/story/2026-05-19/los-angeles-boy-band-member-murder-plot-case",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 19:32:54 GMT",
+      "description": "A Miami attorney, his influencer daughter and a Hawaiian surf instructor were charged Tuesday in a plot to kill singer Jack Avery in a custody dispute, sources told The Times."
     },
     {
-      "headline": "Gigi Hadid’s Guest in Residence Brand Leases Second NYC Store at 1061 Madison Avenue",
-      "url": "https://commercialobserver.com/2026/05/gigi-hadid-guest-in-residence-lease-1061-madison-avenue/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 20:21:10 +0000",
-      "description": "Guest in Residence, supermodel Gigi Hadid’s luxury cashmere knitwear brand, has leased a 3,550-square-foot retail space at 1061 Madison Avenue on Manhattan’s Upper East Side, Commercial Observer has learned. The five-story retail and residential building between West 80th and West 81st streets will "
-    },
-    {
-      "headline": "New TSCG President Nichole Popovics on What to Expect at ICSC",
-      "url": "https://commercialobserver.com/2026/05/tscg-president-nichole-popovics-icsc/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 19:41:58 +0000",
-      "description": "Nichole Popovics, the freshly minted president of retail-focused real estate brokerage TSCG, got off the plane at Las Vegas’ Harry Reid International Airport at 8:30 a.m. on Monday and wasted no time heading straight to her scheduled meeting with Commercial Observer at the Conrad Las Vegas at Resort"
-    },
-    {
-      "headline": "Tech Firm Profound Inks 30K-SF Deal at GFP’s 5-9 Union Square West",
-      "url": "https://commercialobserver.com/2026/05/profound-lease-gfp-5-9-union-square-west/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 18:50:43 +0000",
-      "description": "Marketing intelligence platform Profound has leased 30,000 square feet at GFP Real Estate’s 5-9 Union Square West, Commercial Observer has learned. The lease spans two full floors of the eight-story building, according to tenant broker Buchbinder &#38; Warren Realty Group. Asking rent was $75 per sq"
+      "headline": "Hilton and Becerra lead in a tightening race in final weeks of California governor&#x27;s campaign, poll shows",
+      "url": "https://www.latimes.com/california/story/2026-05-19/hilton-becerra-in-tightening-race-in-final-weeks-of-california-governors-campaign",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 18:03:38 GMT",
+      "description": "Despite handwringing among Democrats about being shut out of the governor's race, a new poll by the state party suggests the two candidates most likely to emerge after the June primary are Republican Steve Hilton and Democrat Xavier Becerra."
     },
     {
       "headline": "Photos: Strong winds fuel Sandy fire in Simi Valley",
@@ -497,7 +483,7 @@
       "description": "A wind-driven fire that broke out in Ventura County Monday morning stalled overnight, allowing some residents to return home."
     },
     {
-      "headline": "Humans are killing California Joshua trees. Can fungi save them?",
+      "headline": "California&#x27;s Joshua trees are disappearing. There&#x27;s hope these fungi can help them",
       "url": "https://www.latimes.com/california/story/2026-05-19/joshua-tree-disappearing-project-wants-to-save-it",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 12:00:00 GMT",
@@ -525,18 +511,18 @@
       "description": "Pratt's loudest fans loathe modern-day L.A., and that should chill all other Angelenos. These haters would be his primary constituents and populate his brain trust if he wins."
     },
     {
-      "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
-      "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
-    },
-    {
       "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
       "url": "https://www.latimes.com/environment/story/2026-05-19/cherry-season-record-warmth",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
       "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
+    },
+    {
+      "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
+      "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
     },
     {
       "headline": "Forced treatment and jail: Spencer Pratt&#x27;s pledges to end homelessness stir up mayor&#x27;s race",
@@ -546,7 +532,7 @@
       "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
     },
     {
-      "headline": "What we know about the pair accused of attacking San Diego Islamic Center, killing 3",
+      "headline": "Suspects charged San Diego Islamic Center wearing armor, firing on multiple people, witnesses say",
       "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-islamic-center-shooting-suspects-what-we-know",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 05:30:25 GMT",
@@ -607,27 +593,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 18:13:00 GMT",
       "description": "A brush fire in Simi Valley has moved toward the communities that straddle the Ventura and Los Angeles county border."
-    },
-    {
-      "headline": "Artists, community come together to welcome World Cup to Inglewood with murals and more",
-      "url": "https://www.latimes.com/sports/story/2026-05-18/world-cup-murals-inglewood-sofi-stadium-community-day",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 17:19:56 GMT",
-      "description": "Several Los Angeles-based artists have been taking part in public events to create artwork celebrating community and welcoming the World Cup to Inglewood."
-    },
-    {
-      "headline": "Commentary: Spencer Pratt, like Donald Trump, is a product of the reality TV industrial complex",
-      "url": "https://www.latimes.com/california/story/2026-05-18/spencer-pratt-trump-reality-tv-industrial-complex",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 17:08:10 GMT",
-      "description": "Spencer Pratt, like President Trump before him, is a political product of the reality-TV industrial complex. And like Trump in 2016, he has no experience in public office."
-    },
-    {
-      "headline": "Santa Monica kidnapping suspect arrested after police shooting",
-      "url": "https://www.latimes.com/california/story/2026-05-18/santa-monica-shooting-kidnapping-pursuit",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 16:23:47 GMT",
-      "description": "A kidnapping suspect was arrested Monday morning after a chase with police that ended with gunfire, according to Santa Monica police."
     },
     {
       "headline": "$6 gas intensifies clash between climate and cost of living",
@@ -714,27 +679,6 @@
       "description": "A national registered financial advisory firm on an acquisition spree has snapped up Thousand Oaks-based Eagleson Arndt Financial Advisors. In the last year, Mercer Advisors brought 18 firms under its wing, including two in the Los Angeles area, where it manages $3.2 billion in client assets of its "
     },
     {
-      "headline": "Avem Takes Stake in Valley Aircraft Parts Maker",
-      "url": "https://labusinessjournal.com/finance/avem-takes-stake-in-valley-aircraft-parts-maker/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 17:12:54 +0000",
-      "description": "A Sun Valley-based precision manufacturing firm with deep ties to the aerospace and defense industry has scored local private equity backing. Precision Aircraft Machining Co. Inc., or Pamco, has been acquired by Avem Partners, a private equity firm based in Manhattan Beach, with additional capital s"
-    },
-    {
-      "headline": "CBB Folds in Bay-Area Lender",
-      "url": "https://labusinessjournal.com/finance/cbb-folds-in-bay-area-lender/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 17:05:53 +0000",
-      "description": "Citizens Business Bank’s latest growth deal is its biggest acquisition yet, sending the Ontario-based lender’s total assets above $20 billion. Last month, the regional bank closed a merger with the Bay Area’s Heritage Bank of Commerce, extending its reach into the last Californian market it hadn’t t"
-    },
-    {
-      "headline": "L.A. Rising: Nonprofit’s Mission to Build",
-      "url": "https://labusinessjournal.com/special-reports/l-a-rising-nonprofits-mission-to-build/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 16:27:35 +0000",
-      "description": "Community Corp. of Santa Monica, a nonprofit that builds and manages affordable housing, is the force behind several projects on the Westside. That includes Jubilo Village, a 95-unit project located at the site of a church. Executive Director Tara Barauskas sat down with the Business Journal to disc"
-    },
-    {
       "headline": "A Model for Churches ‘Struggling’ to Keep Buildings",
       "url": "https://www.sdbj.com/real-estate/residential/a-model-for-churches-struggling-to-keep-buildings/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=a-model-for-churches-struggling-to-keep-buildings",
       "source": "San Diego Business Journal",
@@ -761,13 +705,6 @@
       "source": "San Diego Business Journal",
       "raw_date": "Tue, 19 May 2026 12:00:47 +0000",
       "description": "SAN DIEGO – Netradyne is on the road to becoming a global company. The fleet safety technology leader announced its acquisition this month of Dutch fleet intelligence and connected mobility company Moove Connected Mobility, expanding Netradyne’s market further into Europe. Moove Connected Mobility w"
-    },
-    {
-      "headline": "Luxury Real Estate Is Emerging as Its Own Asset Class",
-      "url": "https://www.sdbj.com/branded-content/luxury-real-estate-is-emerging-as-its-own-asset-class/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=luxury-real-estate-is-emerging-as-its-own-asset-class",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 17:10:47 +0000",
-      "description": "Luxury residential real estate is increasingly behaving less like traditional housing and more like a distinct global asset class. Historically, housing markets moved largely in tandem with mortgage rates, local employment trends, and consumer affordability. Today, however, the ultra-luxury segment "
     },
     {
       "headline": "Retail market stays up, defying economic headwinds",
