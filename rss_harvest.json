@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-19T20:00:07.165Z",
-  "elapsed_seconds": 4.1,
+  "harvested_at": "2026-05-19T22:00:06.094Z",
+  "elapsed_seconds": 3.1,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 87,
+  "articles_count": 88,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 2,
+      "count": 4,
       "total": 30,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 3,
+      "count": 6,
       "total": 10,
       "error": null
     },
@@ -84,21 +84,21 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 23,
-      "total": 99,
+      "count": 21,
+      "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 8,
+      "count": 10,
       "total": 10,
       "error": null
     },
     {
       "source": "Los Angeles Business Journal",
       "success": true,
-      "count": 4,
+      "count": 0,
       "total": 10,
       "error": null
     },
@@ -210,6 +210,13 @@
       "description": "Provably safer trucking capacity will fetch a premium on the market. The post SCOTUS broker liability ruling a tailwind for Samsara’s safety platform appeared first on FreightWaves ."
     },
     {
+      "headline": "US ports outline spending goals in push to reshore crane making",
+      "url": "https://joc.com/article/us-ports-outline-spending-goals-in-push-to-reshore-crane-making-6224217",
+      "source": "Journal of Commerce",
+      "raw_date": "Tue, 19 May 2026 20:20:15 GMT",
+      "description": "Port and terminal operators are looking to spend $6.7 billion over the next five years to install cranes and other equipment, an industry survey shows, as Washington is asked to help reshore manufacturing."
+    },
+    {
       "headline": "Bankruptcy court approves STG Logistics’ exit from Chapter 11",
       "url": "https://joc.com/article/bankruptcy-court-approves-stg-logistics-exit-from-chapter-11-6224183",
       "source": "Journal of Commerce",
@@ -235,7 +242,7 @@
       "url": "https://joc.com/article/ocean-carriers-face-growing-order-book-nearing-40-of-in-service-fleet-6223671",
       "source": "Journal of Commerce",
       "raw_date": "Tue, 19 May 2026 16:01:14 GMT",
-      "description": "Yet liner executives insist that much of the surplus tonnage can be absorbed by a combination of vessel management, trade imbalances, increased scrapping, and the ongoing effects of geopolitical disruptions."
+      "description": "Yet liner executives insist that much of the surplus tonnage can be absorbed by a combination of vessel management, trade imbalances, increased scrapping and the ongoing effects of geopolitical disruptions."
     },
     {
       "headline": "Software vendor offers proposal to establish detention, demurrage accountability",
@@ -243,13 +250,6 @@
       "source": "Journal of Commerce",
       "raw_date": "Mon, 18 May 2026 20:12:17 GMT",
       "description": "The BCO technology provider, in a bid to avoid costly dispute resolution, has identified 20 use cases under which shippers, consignees and carriers can agree to be held responsible for container storage."
-    },
-    {
-      "headline": "Guangzhou begins work on $2 billion fifth development phase at Nansha port",
-      "url": "https://joc.com/article/guangzhou-begins-work-on-2-billion-fifth-development-phase-at-nansha-port-6222684",
-      "source": "Journal of Commerce",
-      "raw_date": "Mon, 18 May 2026 18:31:14 GMT",
-      "description": "Main construction started Friday and includes the development of four berths capable of handling ships of more than 21,000 TEUs, plus 15 berths for regional feeder vessels."
     },
     {
       "headline": "Mondelēz taps AI for distribution centers to cut costs",
@@ -280,6 +280,20 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/3TdlWd5qgsi1Q3H1BnGksZRjTLeRTO7M-jT5iWq4FxU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTUzODc3NTE1LmpwZw==.webp\"/></div></figure><p>Jeff England, who worked to improve inventory availability at&nbsp;QXO, wi"
     },
     {
+      "headline": "Users’ intent is crucial for building good AI agents, Manhattan says",
+      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/users-intent-is-crucial-for-building-good-ai-agents-manhattan-says",
+      "source": "DC Velocity",
+      "raw_date": "Tue, 19 May 2026 20:37:16 +0000",
+      "description": "Supply chain organizations in 2026 are seeing a fast rollout of agentic artificial intelligence (AI) tools, but the future of enterprise software will include both IQ (an intelligence quotient) and EQ (an emotional quotient), combining the power of predictive AI with the “contextual intelligence” of"
+    },
+    {
+      "headline": "Manhattan Associates launches marketplace of AI agents",
+      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/manhattan-associates-launches-marketplace-of-ai-agents",
+      "source": "DC Velocity",
+      "raw_date": "Tue, 19 May 2026 20:36:35 +0000",
+      "description": "In a move to accelerate the development of artificial intelligence (AI) agents for supply chain workflows, software vendor Manhattan Associates today launched a platform where customers, developers, and partners of Manhattan’s products can share agentic AI solutions with each other. The “Manhattan M"
+    },
+    {
       "headline": "DC labor gets an AI boost",
       "url": "https://www.dcvelocity.com/technology/dc-labor-gets-an-ai-boost",
       "source": "DC Velocity",
@@ -292,6 +306,34 @@
       "source": "DC Velocity",
       "raw_date": "Tue, 19 May 2026 12:30:02 +0000",
       "description": "Warehouse automation and autonomous mobile robot (AMR) company Locus Robotics has acquired Nexera Robotics , a Vancouver-based developer of advanced robotic grasping technology, the companies said today. Financial terms of the deal were not disclosed. Nexera will be wholly owned and operated by Locu"
+    },
+    {
+      "headline": "Relevant Group slims down affordable housing plans in Westlake",
+      "url": "https://therealdeal.com/la/2026/05/19/relevant-group-slims-down-affordable-housing-plans/",
+      "source": "The Real Deal",
+      "raw_date": "Tue, 19 May 2026 21:11:12 +0000",
+      "description": "Relevant Group modified its plans for an affordable housing complex west of the 110 freeway in Westlake.&#160; The Los Angeles-based firm filed a new application to construct a five-story building at 1316 Linwood Avenue designed to serve lower income residents, Urbanize Los Angeles reported. Afforda"
+    },
+    {
+      "headline": "Oceanwide Plaza buyer loses city’s favor, confirmation hearing pushed again",
+      "url": "https://therealdeal.com/la/2026/05/19/oceanwide-plaza-proposed-purchase-faces-more-pushback/",
+      "source": "The Real Deal",
+      "raw_date": "Tue, 19 May 2026 20:32:34 +0000",
+      "description": "The hearing that could seal the fate of Oceanwide Plaza has been pushed, again, and is now scheduled for July.&#160; Last time, the City of Los Angeles wanted more time. Now, new court documents reveal it is against the proposed $470 million purchaser: Dr. Kali Chaudhuri’s KPC Group and Lendlease.&#"
+    },
+    {
+      "headline": "WeHo penthouse trades for $23M in this year’s record condo deal for LA County",
+      "url": "https://therealdeal.com/la/2026/05/19/west-hollywood-penthouse-sets-2026-condo-record/",
+      "source": "The Real Deal",
+      "raw_date": "Tue, 19 May 2026 19:30:00 +0000",
+      "description": "West Hollywood’s 8899 Beverly Boulevard property just bested itself to notch a new condominium record for 2026 in Los Angeles County with the trade of a penthouse unit. The sale of Penthouse West for $23 million, or $3,150 per square foot, tops an $18.8 million, off-market deal done in April at the "
+    },
+    {
+      "headline": "Harbor Associates, Farallon JV grabs OC industrial campus for $81M",
+      "url": "https://therealdeal.com/la/2026/05/19/yorba-linda-industrial-campus-sells-for-81-million/",
+      "source": "The Real Deal",
+      "raw_date": "Tue, 19 May 2026 18:39:24 +0000",
+      "description": "An Orange County industrial park has traded hands for more than $80 million as Greater Los Angeles’ industrial market fights to achieve post-pandemic stability.&#160; A joint venture between Harbor Associates and Farallon Capital Management acquired the Yorba Linda Commerce Center at 3910 Prospect A"
     },
     {
       "headline": "Everything’s coming up roses: Flower wholesaler plants roots in Commerce with $34M acquisition",
@@ -308,11 +350,25 @@
       "description": "A Brentwood home with a Hollywood pedigree and architectural acclaim is heading to market.&#160; The nearly 9,000-square-foot manse at 645 Tuallitan Road has been listed for just under $16.5 million, Mansion Global reported.&#160; The home was built in 1992 and commissioned by Oscar-winning screenwr"
     },
     {
-      "headline": "Nearly 100 units, 3.5K sf retail to rise across from new Apple Mid-City campus",
-      "url": "https://therealdeal.com/la/2026/05/18/apartments-retail-planned-near-apples-new-mid-city-home/",
-      "source": "The Real Deal",
-      "raw_date": "Mon, 18 May 2026 18:26:00 +0000",
-      "description": "A mixed-use residential development is slated to rise across the street from Apple’s forthcoming office complex in Mid-City, bordering the edge of Culver City.&#160; An application filed with the Los Angeles Department of City Planning calls for replacing existing small commercial and residential bu"
+      "headline": "Benchmark Buys Upper West Side Apartment Building From Heller for $42M",
+      "url": "https://commercialobserver.com/2026/05/benchmark-buys-698-west-end-avenue-heller/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 21:06:10 +0000",
+      "description": "Benchmark Real Estate Group is taking a prewar apartment building on Manhattan’s Upper West Side off the Heller Organization’s hands. The New York-based Benchmark purchased the 90-unit, 15-story building at 698 West End Avenue for $42 million, according to property records made public Tuesday. Helle"
+    },
+    {
+      "headline": "AI Marketing Platform Hightouch Takes 18K SF at 275 Seventh Avenue",
+      "url": "https://commercialobserver.com/2026/05/hightouch-lease-275-seventh-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 20:44:10 +0000",
+      "description": "Hightouch, a data and artificial intelligence agent platform for marketing, has relocated to 275 Seventh Avenue in Midtown South. The San Francisco-based firm’s new 18,000-square-foot lease takes over the entire 21st floor of the 28-story Chelsea office building. The Art Deco tower, located between "
+    },
+    {
+      "headline": "Arixa Capital Lends $28M on Hawaii Build-for-Sale Luxury Homes",
+      "url": "https://commercialobserver.com/2026/05/arixa-capital-hawaii-build-for-sale-luxury-homes/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 20:11:37 +0000",
+      "description": "Aloah! West Point Investment Corporation has secured $27.6 million of construction financing to build a single-family home development within theMauna Kea Resort on Hawaii’s Big Island. Arixa Capital provided the loan for West Point’s Hapuna Estates project, consisting of seven for-sale luxury singl"
     },
     {
       "headline": "Harbor Associates-Led Venture Buys SoCal Industrial Park for $81M",
@@ -413,25 +469,18 @@
       "description": "The words “Can you change this?” might have more than normal resonance in a bank these days. In the last decade, somewhere between 22 million and 36 million square feet of bank branches closed nationwide, an amount of space potentially larger than the entire Cincinnati office market, according to Be"
     },
     {
-      "headline": "ICSC Panel: Keep Your Eyes Wide Open With AI",
-      "url": "https://commercialobserver.com/2026/05/icsc-panel-keep-your-eyes-wide-open-with-ai/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 13:26:19 +0000",
-      "description": "From the stage at an overflowing conference room at The Wynn in Las Vegas, Ethan Chernofsky, chief marketing officer of Placer.ai, made a declaration that might bruise some egos when it comes to their AI expertise and usage: “You’re not an early adopter anymore.” Not that there’s anything wrong with"
+      "headline": "Report finds no failures in Altadena fire evacuations. Critics decry lack of accountability",
+      "url": "https://www.latimes.com/california/story/2026-05-19/altadena-evacuation-report-accountability",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 20:57:50 GMT",
+      "description": "A report by a consultant looked into L.A. County firefighting commanders' decision-making during the Eaton fire and concluded evacuation alerts were handled properly, even as residents say they were left in the dark."
     },
     {
-      "headline": "My New $100 Mortgage Company — Just in Time for NY’s Tax on $1M All-Cash Home Buys",
-      "url": "https://commercialobserver.com/2026/05/new-york-all-cash-tax-workaround/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 13:23:18 +0000",
-      "description": "New York lawmakers are reportedly considering a new 1 percent tax on all-cash home purchases over $1 million. The proposal is designed to raise revenue and help close New York City’s budget gap. Under the plan, buyers who pay cash would be penalized simply because they are not obtaining financing. S"
-    },
-    {
-      "headline": "Multifamily Deal Diligence Platform Rely Raises $4.5M in Seed Round",
-      "url": "https://commercialobserver.com/2026/05/multifamily-deal-diligence-rely-fundraise/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 13:00:52 +0000",
-      "description": "Proptech startup Rely announced Tuesday that it has raised $4.5 million in seed funding to scale its artificial intelligence-native platform for multifamily transaction diligence. 2048 Ventures led the round with Range Ventures and Better Tomorrow Ventures participating. Rely plans to use the new fu"
+      "headline": "Burglary suspect trapped in a wall is rescued after Salinas cops on coffee break hear his cries for help",
+      "url": "https://www.latimes.com/california/story/2026-05-19/burglary-suspect-trapped-in-wall-is-rescued-after-salinas-cops-on-coffee-break-hear-his-cries-for-help",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 20:24:56 GMT",
+      "description": "A man fell off a movie theater roof in Salinas into a wall space and was trapped there for 10 hours before being rescued, according to authorities."
     },
     {
       "headline": "Influencer, lawyer and surf coach charged in plot to kill L.A. boy band member",
@@ -490,18 +539,18 @@
       "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
     },
     {
-      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
-      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
-    },
-    {
       "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
       "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
       "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
+    },
+    {
+      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
+      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
     },
     {
       "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
@@ -518,13 +567,6 @@
       "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
     },
     {
-      "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
-      "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
-    },
-    {
       "headline": "Forced treatment and jail: Spencer Pratt&#x27;s pledges to end homelessness stir up mayor&#x27;s race",
       "url": "https://www.latimes.com/california/story/2026-05-19/forced-treatment-jail-spencer-pratts-pledges-to-end-homelessness-roil-mayors-race",
       "source": "Los Angeles Times",
@@ -532,7 +574,14 @@
       "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
     },
     {
-      "headline": "Suspects charged San Diego Islamic Center wearing armor, firing on multiple people, witnesses say",
+      "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
+      "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
+    },
+    {
+      "headline": "San Diego Islamic Center suspects were self-radicalized, left manifesto behind, officials say",
       "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-islamic-center-shooting-suspects-what-we-know",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 05:30:25 GMT",
@@ -567,32 +616,25 @@
       "description": "A wildfire sparked by the flare of a shipwrecked mariner has burned around one-fourth of Santa Rosa Island and marks what officials called the largest blaze recorded on the island in modern history."
     },
     {
-      "headline": "A gray wolf has entered Sequoia National Park for the first time in a century",
-      "url": "https://www.latimes.com/environment/story/2026-05-18/wolf-enters-sequoia-national-park-for-first-time-in-century-bey03f",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 19:40:49 GMT",
-      "description": "BEY03F is the first wolf known to venture into Sequoia National Park in more than a century — after making similarly historic visits to Los Angeles and Inyo counties."
+      "headline": "¿Te mudas a California con un arma? Es posible que tengas que tomar un curso de cuatro horas",
+      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/california-armas-seguridad/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 21:48:46 +0000",
+      "description": "¿Quieres comprar un arma en California? Es posible que los legisladores te pidan que reserves cuatro horas y que lleves munición para el campo de tiro."
     },
     {
-      "headline": "5 dead, including teen gunmen, at San Diego Islamic Center; hate motive probed",
-      "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-police-swarm-islamic-center-amid-reports-of-active-shooter",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 19:35:20 GMT",
-      "description": "Police in San Diego swarmed a local Islamic center after reports of an active shooter. Five people were killed, including two suspected gunmen."
+      "headline": "Colegios comunitarios de California toman medidas contra estudiantes falsos que roban ayuda financiera",
+      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/colegios-comunitarios-de-california-estudiantes-falsos/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 21:39:14 +0000",
+      "description": "Tras un aumento repentino de solicitudes fraudulentas en los colegios comunitarios de California, los responsables de las instituciones educativas afirman que están mejorando en la detección y prevención del fraude, aunque este sigue ocurriendo."
     },
     {
-      "headline": "Homeless people on Skid Row were paid to register to vote, feds charge",
-      "url": "https://www.latimes.com/california/story/2026-05-18/skid-row-voter-charges",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 18:41:19 GMT",
-      "description": "Federal prosecutors in Los Angeles announced a case Monday against a woman suspected of paying people to sign voter registration forms."
-    },
-    {
-      "headline": "Sandy fire spreads, prompting evacuation warnings in L.A. County",
-      "url": "https://www.latimes.com/california/story/2026-05-18/simi-valley-fire",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 18:13:00 GMT",
-      "description": "A brush fire in Simi Valley has moved toward the communities that straddle the Ventura and Los Angeles county border."
+      "headline": "Nancy Pelosi inclina la balanza en la carrera por su sucesor",
+      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/nancy-pelosi-sucesor-congreso/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 20:59:04 +0000",
+      "description": "El respaldo de Pelosi podría relegar a Chan al segundo lugar, detrás del senador Scott Wiener, quien lidera con una ventaja de dos dígitos, y por delante del emprendedor tecnológico Saikat Chakrabarti, que financia su propia campaña."
     },
     {
       "headline": "$6 gas intensifies clash between climate and cost of living",
@@ -630,53 +672,18 @@
       "description": "After a spike in fraudulent applications to California’s community colleges, school officials say they are getting better at detecting and preventing fraud, though it still happens."
     },
     {
+      "headline": "Hilton and Becerra lead in new California governor poll. Steyer trails but isn’t out",
+      "url": "https://calmatters.org/commentary/2026/05/governor-poll-hilton-becerra-california/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
+      "description": "In a Democratic poll during the last weeks of campaigning, most trending candidates for governor show support in the single digits."
+    },
+    {
       "headline": "Nancy Pelosi puts thumb on the scale in race for her successor. Here’s who she endorsed",
       "url": "https://calmatters.org/politics/2026/05/pelosi-wiener-congress-endorsement/",
       "source": "CalMatters",
       "raw_date": "Mon, 18 May 2026 22:51:29 +0000",
       "description": "Pelosi’s endorsement could push Chan into second place behind Sen. Scott Wiener, who is leading by double digits, ahead of self-funding tech entrepreneur Saikat Chakrabarti."
-    },
-    {
-      "headline": "Seis personas murieron en centros de detención del ICE en California mientras deportaciones de Trump se disparaban",
-      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/inspeccion-centros-de-detencion-ice/",
-      "source": "CalMatters",
-      "raw_date": "Mon, 18 May 2026 19:02:49 +0000",
-      "description": "La represión migratoria del gobierno de Trump incrementó la población en los centros de detención de inmigrantes de California. En un informe, los investigadores estatales describieron la saturación de los recursos médicos en dichos centros."
-    },
-    {
-      "headline": "Funcionarios de Trump imponen a California la mayor congelación de fondos de Medicaid de la historia",
-      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/trump-california-congelacion-de-fondos-de-medicaid/",
-      "source": "CalMatters",
-      "raw_date": "Mon, 18 May 2026 18:05:13 +0000",
-      "description": "La administración Trump suspendió 1,100 millones de dólares en fondos de Medicaid de California por denuncias de fraude, lo que amenaza la atención domiciliaria de 900,000 personas mayores y personas con discapacidad."
-    },
-    {
-      "headline": "At the Milken Institute Global Conference",
-      "url": "https://labusinessjournal.com/featured/at-the-milken-institute-global-conference/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 18:24:48 +0000",
-      "description": "At a moment when volatility has become a permanent feature of the global economy, the Milken Institute’s 29th annual Global Conference unfolded less like a celebration of capital markets and more like a high-level stress test of them. Over the four days, executives, sovereign wealth leaders, policym"
-    },
-    {
-      "headline": "Santa Monica Airport – Grounded Future?",
-      "url": "https://labusinessjournal.com/featured/santa-monica-airport-grounded-future/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 18:12:52 +0000",
-      "description": "Scores of businesses at Santa Monica Airport have launched a campaign to head off the planned closure of the airfield at the end of 2028. Flight schools, aircraft maintenance shops, nonprofit organizations and even a business incubator would all be displaced if the century-old airport closes. Most b"
-    },
-    {
-      "headline": "Atara Bounces Back with FDA",
-      "url": "https://labusinessjournal.com/featured/atara-bounces-back-with-fda/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 18:10:09 +0000",
-      "description": "The share price of Thousand Oaks-based immunotherapy company Atara Biotherapeutics nearly doubled on May 7 after a welcome dose of positive news. The company reported that the U.S. Food and Drug Administration has laid out a path for resubmission of Atara’s cell therapy drug candidate that the agenc"
-    },
-    {
-      "headline": "Valley Financial Adviser Joins National RIA",
-      "url": "https://labusinessjournal.com/finance/valley-financial-adviser-joins-national-ria/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 18:04:09 +0000",
-      "description": "A national registered financial advisory firm on an acquisition spree has snapped up Thousand Oaks-based Eagleson Arndt Financial Advisors. In the last year, Mercer Advisors brought 18 firms under its wing, including two in the Los Angeles area, where it manages $3.2 billion in client assets of its "
     },
     {
       "headline": "A Model for Churches ‘Struggling’ to Keep Buildings",
