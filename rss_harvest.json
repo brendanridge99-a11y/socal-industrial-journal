@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-19T12:00:05.693Z",
-  "elapsed_seconds": 2.6,
+  "harvested_at": "2026-05-19T14:00:07.132Z",
+  "elapsed_seconds": 3.8,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 87,
+  "articles_count": 89,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 10,
+      "count": 11,
       "total": 50,
       "error": null
     },
@@ -22,14 +22,14 @@
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 5,
+      "count": 4,
       "total": 10,
       "error": null
     },
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 1,
+      "count": 2,
       "total": 30,
       "error": null
     },
@@ -84,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 18,
-      "total": 97,
+      "count": 19,
+      "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 7,
+      "count": 9,
       "total": 10,
       "error": null
     },
@@ -112,12 +112,26 @@
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 5,
+      "count": 3,
       "total": 6,
       "error": null
     }
   ],
   "articles": [
+    {
+      "headline": "New research: Tariffs didn’t raise costs. They raised the execution standard.",
+      "url": "https://www.freightwaves.com/news/new-research-tariffs-didnt-raise-costs-they-raised-the-execution-standard",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 13:00:00 +0000",
+      "description": "The tariff environment that emerged in 2025 restructured modern U.S. trade. Duty brackets that didn&#8217;t exist in 2024 suddenly held tens of thousands of entries. Effective rates layered across multiple policies collapsed cost predictability almost overnight. What followed wasn&#8217;t a return t"
+    },
+    {
+      "headline": "Carrier vetting 101. Spoiler: It’s not about safety.",
+      "url": "https://www.freightwaves.com/news/carrier-vetting-101-spoiler-its-not-about-safety",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 12:52:27 +0000",
+      "description": "Safe isn’t always exposure-free or risk-free. Compliant isn’t always safe. What “safety” means doesn’t matter. A carrier can be all three of those things on paper and still bury everyone who touched the load in exposure. This is a working primer on how risk professionals actually vet, qualify and sc"
+    },
     {
       "headline": "SCOTUS broker liability ruling a tailwind for Samsara’s safety platform",
       "url": "https://www.freightwaves.com/news/scotus-broker-liability-ruling-a-tailwind-for-samsaras-safety-platform",
@@ -182,13 +196,6 @@
       "description": "The BUILD America 250 Act creates the first federal framework for autonomous commercial trucks. It is not a green light. DOT has 2 years to write the safety standard; the liability question stays in front of a jury; and the bill funds retraining for drivers in the cab today. The post BUILD America 2"
     },
     {
-      "headline": "More than 5,100 freight-related layoffs hit US supply chain sector",
-      "url": "https://www.freightwaves.com/news/more-than-5100-freight-related-layoffs-hit-us-supply-chain-sector",
-      "source": "FreightWaves",
-      "raw_date": "Mon, 18 May 2026 11:00:00 +0000",
-      "description": "Companies tied to transportation, warehousing, manufacturing and food logistics announced more than 5,000 layoffs stretching from California to Pennsylvania. The post More than 5,100 freight-related layoffs hit US supply chain sector appeared first on FreightWaves ."
-    },
-    {
       "headline": "Software vendor offers proposal to establish detention, demurrage accountability",
       "url": "https://joc.com/article/software-vendor-offers-proposal-to-establish-detention-demurrage-accountability-6222721",
       "source": "Journal of Commerce",
@@ -245,11 +252,11 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/cveyiKekbknrvDJXTjwMkJ3MyUNwmlEfGdAQT65l5ck/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDYzOTAxMjMxX0hFZnNpUGIuanBn.webp\"/></div></figure><p>Spring and summer goods are arriving at the port, with back-to-sch"
     },
     {
-      "headline": "UP, NS merger: What other railroads are saying",
-      "url": "https://www.supplychaindive.com/news/up-ns-merger-what-other-railroads-are-saying/820011/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Mon, 18 May 2026 07:48:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/s-a33ROYgENbYNjLtjeDlYEZLBaDnOPZEKVL_rtL9Ic/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Vbmlvbl9QYWNpZmljLU5vcmZvbGtfU291dGhlcm5fTG9jb21vdGl2ZXNfLmpwZw==.webp\"/></div></figure><p>Competitors such as BNSF, CPKC and CSX say Uni"
+      "headline": "Locus Robotics acquires Nexera Robotics",
+      "url": "https://www.dcvelocity.com/editorial/featured/locus-robotics-acquires-nexera-robotics",
+      "source": "DC Velocity",
+      "raw_date": "Tue, 19 May 2026 12:30:02 +0000",
+      "description": "Warehouse automation and autonomous mobile robot (AMR) company Locus Robotics has acquired Nexera Robotics , a Vancouver-based developer of advanced robotic grasping technology, the companies said today. Financial terms of the deal were not disclosed. Nexera will be wholly owned and operated by Locu"
     },
     {
       "headline": "Parcel express services evolve as market fragmentation accelerates",
@@ -278,6 +285,27 @@
       "source": "The Real Deal",
       "raw_date": "Mon, 18 May 2026 18:26:00 +0000",
       "description": "A mixed-use residential development is slated to rise across the street from Apple’s forthcoming office complex in Mid-City, bordering the edge of Culver City.&#160; An application filed with the Los Angeles Department of City Planning calls for replacing existing small commercial and residential bu"
+    },
+    {
+      "headline": "ICSC Panel: Keep Your Eyes Wide Open with AI",
+      "url": "https://commercialobserver.com/2026/05/icsc-panel-keep-your-eyes-wide-open-with-ai/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 13:26:19 +0000",
+      "description": "From the stage at an overflowing conference room at The Wynn in Las Vegas, Ethan Chernofsky, chief marketing officer of Placer.ai, made a declaration that might bruise some egos when it comes to their AI expertise and usage: “You’re not an early adopter anymore.” Not that there’s anything wrong with"
+    },
+    {
+      "headline": "My New $100 Mortgage Company — Just in Time for NY’s Tax on $1M All-Cash Home Buys",
+      "url": "https://commercialobserver.com/2026/05/new-york-all-cash-tax-workaround/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 13:23:18 +0000",
+      "description": "New York lawmakers are reportedly considering a new 1 percent tax on all-cash home purchases over $1 million. The proposal is designed to raise revenue and help close New York City’s budget gap. Under the plan, buyers who pay cash would be penalized simply because they are not obtaining financing. S"
+    },
+    {
+      "headline": "Multifamily Deal Diligence Platform Rely Raises $4.5M in Seed Round",
+      "url": "https://commercialobserver.com/2026/05/multifamily-deal-diligence-rely-fundraise/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 13:00:52 +0000",
+      "description": "Proptech startup Rely announced Tuesday that it has raised $4.5 million in seed funding to scale its artificial intelligence-native platform for multifamily transaction diligence. 2048 Ventures led the round with Range Ventures and Better Tomorrow Ventures participating. Rely plans to use the new fu"
     },
     {
       "headline": "New York City’s Higher-End Retail Deserts, and How to Fill Them",
@@ -378,32 +406,11 @@
       "description": "A joint venture between Naftali Group and Access Industries has landed a $374.35 million loan to refinance a master-planned residential development along the Williamsburg waterfront in Brooklyn, Commercial Observer can first report. Barings supplied the loan for the first phase of the sponsorship’s "
     },
     {
-      "headline": "Merchants Capital, New York City Provide $42M for Brooklyn Affordable Housing",
-      "url": "https://commercialobserver.com/2026/05/merchants-capital-new-york-city-42m-brooklyn-affordable-housing/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 14:50:12 +0000",
-      "description": "Tredway has secured $41.5 million in acquisition and construction financing to purchase and renovate Restore Housing, a 138-unit affordable apartment complex in Brooklyn that opened more than 40 years ago, Commercial Observer can first report. Merchants Capital provided the acquisition and construct"
-    },
-    {
-      "headline": "As ICSC Kicks Off, Retail Is Buying What Proptech Is Selling",
-      "url": "https://commercialobserver.com/2026/05/icsc-proptech/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 13:44:36 +0000",
-      "description": "This week the annual ICSC Las Vegas will draw thousands of retail real estate professionals to share the latest about the marketplaces and spaces where people shop, dine, work, play and gather, as the organization behind the event likes to say. This year ICSC+PropTech will be prominently featured th"
-    },
-    {
-      "headline": "Dollar Stores Have Been On a Tear — Here’s What Could Spoil the Party",
-      "url": "https://commercialobserver.com/2026/05/dollar-stores-2026-gas-prices-general-five-below/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 12:17:33 +0000",
-      "description": "In uncertain times, Americans across income brackets flock to cheaper shopping options, and dollar store profits soar. Or at least that’s how it’s usually gone — including as recently as 2025 and into this year. That could soon change. After earlier earnings dips resulting from inflation, e-commerce"
-    },
-    {
-      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
-      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
+      "headline": "Humans are killing California Joshua trees. Can fungi save them?",
+      "url": "https://www.latimes.com/california/story/2026-05-19/joshua-tree-disappearing-project-wants-to-save-it",
       "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
+      "raw_date": "Tue, 19 May 2026 12:00:00 GMT",
+      "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
     },
     {
       "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
@@ -411,6 +418,20 @@
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
       "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
+    },
+    {
+      "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
+      "url": "https://www.latimes.com/environment/story/2026-05-19/cherry-season-record-warmth",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
+    },
+    {
+      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
+      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
     },
     {
       "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
@@ -427,13 +448,6 @@
       "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
     },
     {
-      "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
-      "url": "https://www.latimes.com/environment/story/2026-05-19/cherry-season-record-warmth",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
-    },
-    {
       "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
       "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
       "source": "Los Angeles Times",
@@ -441,7 +455,7 @@
       "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
     },
     {
-      "headline": "What we know about the high-schooler accused of attacking San Diego Islamic Center",
+      "headline": "What we know about the teens accused of attacking San Diego Islamic Center, killing 3",
       "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-islamic-center-shooting-suspects-what-we-know",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 05:30:25 GMT",
@@ -525,6 +539,41 @@
       "description": "A kidnapping suspect was arrested Monday morning after a chase with police that ended with gunfire, according to Santa Monica police."
     },
     {
+      "headline": "$6 gas intensifies clash between climate and cost of living",
+      "url": "https://calmatters.org/newsletter/gas-prices-cap-and-invest/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 13:00:00 +0000",
+      "description": "For many Californians, unseasonal winds and grass fires in May are reminders that climate change is intensifying extreme weather. But as gas prices continue to rise, a long-running debate in the Capitol is reigniting: Can California consumers afford the state’s nation-leading climate agenda? As CalM"
+    },
+    {
+      "headline": "Moving to California with a gun? You might have to take a four-hour course",
+      "url": "https://calmatters.org/politics/2026/05/california-gun-safety-training-bill/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 12:10:00 +0000",
+      "description": "Want to buy a gun in California? Lawmakers may have you set aside four hours — and bring ammo for the range"
+    },
+    {
+      "headline": "Gavin Newsom’s last budget still would leave California’s finances wobbly",
+      "url": "https://calmatters.org/commentary/2026/05/newsom-last-california-budget-wobbly/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
+      "description": "A \"wall of debt,\" a raid on reserves and AI stock gains mean California's budget temporarily balances this year and next, but structural deficits remain."
+    },
+    {
+      "headline": "California’s best chance for enough water in the future is to bolster local supplies today",
+      "url": "https://calmatters.org/commentary/2026/05/water-supply-california-future-local/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
+      "description": "The state can’t rely on snowmelt or transporting water long distances for future needs because climate change has altered precipitation."
+    },
+    {
+      "headline": "California community colleges crack down on fake students stealing financial aid",
+      "url": "https://calmatters.org/education/2026/05/financial-aid-fraud-california/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
+      "description": "After a spike in fraudulent applications to California’s community colleges, school officials say they are getting better at detecting and preventing fraud, though it still happens."
+    },
+    {
       "headline": "Nancy Pelosi puts thumb on the scale in race for her successor. Here’s who she endorsed",
       "url": "https://calmatters.org/politics/2026/05/pelosi-wiener-congress-endorsement/",
       "source": "CalMatters",
@@ -551,27 +600,6 @@
       "source": "CalMatters",
       "raw_date": "Mon, 18 May 2026 13:00:00 +0000",
       "description": "Remember talking to people with civility about politics — even on contentious issues? Meet the CalMatters guy who has made that happen dozens of times. CalMatters’ director of partnerships, Dan Hu, has been traveling across the state to talk with Californians about the upcoming election. His VotingM"
-    },
-    {
-      "headline": "California’s ‘groundbreaking’ fast food council lacks a leader, hasn’t met in over a year",
-      "url": "https://calmatters.org/economy/2026/05/fast-food-council-no-chairperson/",
-      "source": "CalMatters",
-      "raw_date": "Mon, 18 May 2026 12:00:00 +0000",
-      "description": "Fast food workers, council members call on Newsom to appoint a chairperson so the council can meet again."
-    },
-    {
-      "headline": "$6 gas and refinery fears collide with California’s climate ambitions",
-      "url": "https://calmatters.org/environment/climate-change/2026/05/carbon-market-free-permit-california/",
-      "source": "CalMatters",
-      "raw_date": "Mon, 18 May 2026 12:00:00 +0000",
-      "description": "California is considering handing oil refineries and other major polluters billions of dollars in free emission allowances just as the state says carbon reductions need to come faster than ever. In the last six months, two refineries have closed and gas prices have topped an average of $6 a gallon a"
-    },
-    {
-      "headline": "Newsom boosted transitional kindergarten and put preschool out of reach for many California families",
-      "url": "https://calmatters.org/commentary/2026/05/transitional-kindergarten-newsom-preschools-california/",
-      "source": "CalMatters",
-      "raw_date": "Mon, 18 May 2026 12:00:00 +0000",
-      "description": "Transitional kindergarten came with an unanticipated downside; it’s making childcare less affordable for many CA families. That can be fixed."
     },
     {
       "headline": "At the Milken Institute Global Conference",
@@ -623,6 +651,34 @@
       "description": "Community Corp. of Santa Monica, a nonprofit that builds and manages affordable housing, is the force behind several projects on the Westside. That includes Jubilo Village, a 95-unit project located at the site of a church. Executive Director Tara Barauskas sat down with the Business Journal to disc"
     },
     {
+      "headline": "A Model for Churches ‘Struggling’ to Keep Buildings",
+      "url": "https://www.sdbj.com/real-estate/residential/a-model-for-churches-struggling-to-keep-buildings/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=a-model-for-churches-struggling-to-keep-buildings",
+      "source": "San Diego Business Journal",
+      "raw_date": "Tue, 19 May 2026 12:01:13 +0000",
+      "description": "SAN DIEGO – Puritan Reformed Presbyterian Church and Haragan Properties have turned vacant church property into a Paradise Hills housing development meant to serve as a model for other churches. “I would really hope that other neighborhood churches would consider this before they fold up and have to"
+    },
+    {
+      "headline": "Ambient Communities Upscales Vista Housing Project",
+      "url": "https://www.sdbj.com/real-estate/apartments/ambient-communities-upscales-vista-housing-project/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ambient-communities-upscales-vista-housing-project",
+      "source": "San Diego Business Journal",
+      "raw_date": "Tue, 19 May 2026 12:00:56 +0000",
+      "description": "VISTA – Ambient Communities is planning to break ground later this year on Caserra, a $60 million Vista apartment complex that will have 141 apartments on the site of a former office building that has been demolished. The project at 1070 South Santa Fe Ave. won city approval earlier this month. “We’"
+    },
+    {
+      "headline": "SDBJ Insider",
+      "url": "https://www.sdbj.com/sdbj-insider/sdbj-insider-178/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sdbj-insider-178",
+      "source": "San Diego Business Journal",
+      "raw_date": "Tue, 19 May 2026 12:00:49 +0000",
+      "description": "San Diego is getting revved up for its inaugural NASCAR event June 19-21 at Naval Base Coronado. Last week the Business Journal reported on Qualcomm’s partnership with the racing body, which officially names the 16-turn, 3.4-mile track on the base “Qualcomm Circuit San Diego.” On May 13, Sycuan Casi"
+    },
+    {
+      "headline": "Netradyne Further Expands European Presence",
+      "url": "https://www.sdbj.com/technology/netradyne-further-expands-european-presence/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=netradyne-further-expands-european-presence",
+      "source": "San Diego Business Journal",
+      "raw_date": "Tue, 19 May 2026 12:00:47 +0000",
+      "description": "SAN DIEGO – Netradyne is on the road to becoming a global company. The fleet safety technology leader announced its acquisition this month of Dutch fleet intelligence and connected mobility company Moove Connected Mobility, expanding Netradyne’s market further into Europe. Moove Connected Mobility w"
+    },
+    {
       "headline": "Luxury Real Estate Is Emerging as Its Own Asset Class",
       "url": "https://www.sdbj.com/branded-content/luxury-real-estate-is-emerging-as-its-own-asset-class/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=luxury-real-estate-is-emerging-as-its-own-asset-class",
       "source": "San Diego Business Journal",
@@ -665,34 +721,6 @@
       "description": "Mark Cafferty tied for the CEO of the Year Award in the Business Nonprofit Category. As president and CEO of San Diego Regional Economic Development Corporation (EDC), Cafferty sits at the center of a unique partnership of business, trade, community and education leaders who have reinvented the regi"
     },
     {
-      "headline": "Serial Company Builder Challenges Business as Usual",
-      "url": "https://www.sdbj.com/defense/serial-company-builder-challenges-business-as-usual/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=serial-company-builder-challenges-business-as-usual",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:45 +0000",
-      "description": "Dan Magy is CEO of the Year in the Private Medium Company Category. Magy is an experienced company builder, having founded four VC-backed hardware and Artificial Intelligence companies. He founded Citadel Defense in 2015, specializing in Counter-Unmanned Aerial System (C-UAS) technologies, which was"
-    },
-    {
-      "headline": "Gifford Leading Splitero’s Transformative HEI Solution for Homeowners",
-      "url": "https://www.sdbj.com/finance/gifford-leading-spliteros-transformative-hei-solution-for-homeowners/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gifford-leading-spliteros-transformative-hei-solution-for-homeowners",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:43 +0000",
-      "description": "Michael Gifford is a seasoned PropTech and FinTech veteran, bringing nearly 20 years of experience and a vast professional network to his role as CEO and co-founder of Splitero – an innovative home equity investment (HEI) company. Under Gifford’s leadership, Splitero has been defined by rapid growth"
-    },
-    {
-      "headline": "Palomar CEO’s String of Successes Right from the Start",
-      "url": "https://www.sdbj.com/insurance/palomar-ceos-string-of-successes-right-from-the-start/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=palomar-ceos-string-of-successes-right-from-the-start",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:29 +0000",
-      "description": "David “Mac” Armstrong’s career path began in investment banking and private equity and ultimately led to insurance where today he leads Palomar Holdings, Inc., a specialty insurer that focuses on underserved markets, including earthquake, inland marine and casualty insurance. Armstrong founded Palom"
-    },
-    {
-      "headline": "Greupner Advances the Padres on the Business Playing Field",
-      "url": "https://www.sdbj.com/sports-2/greupner-advances-the-padres-on-the-business-playing-field/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=greupner-advances-the-padres-on-the-business-playing-field",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:27 +0000",
-      "description": "Erik Greupner is CEO of the Year in the Large Private Company Category. Greupner oversees the San Diego Padres’ operations and leads the growth and development of the club’s business and culture. 2026 marks his 16th season in San Diego after joining the club in December 2010. During his tenure as CE"
-    },
-    {
       "headline": "Retail market stays up, defying economic headwinds",
       "url": "https://iebusinessdaily.com/retail-market-stays-up-defying-economic-headwinds/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=retail-market-stays-up-defying-economic-headwinds",
       "source": "IE Business Daily",
@@ -712,20 +740,6 @@
       "source": "IE Business Daily",
       "raw_date": "Tue, 19 May 2026 10:00:35 +0000",
       "description": "Rober Palmer (Berto), a longtime standout defensive player in the Major Arena Soccer League (MASL soccer) and former team captain, will be playing dual roles going forward as both player and head coach. The player-coach at one time was not that unusual; the NFL, NBA, and Major League Baseball all ha"
-    },
-    {
-      "headline": "Kaiser Permanente provides MD’s to High Desert hospital",
-      "url": "https://iebusinessdaily.com/kaiser-permanente-provides-mds-to-high-desert-hospital/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kaiser-permanente-provides-mds-to-high-desert-hospital",
-      "source": "IE Business Daily",
-      "raw_date": "Mon, 18 May 2026 11:11:34 +0000",
-      "description": "A High Desert hospital is accepting patients covered by Kaiser-Permanente health insurance. Kaiser Permanente San Bernardino County has agreed to provide physicians from 7 a.m. to 7 p.m. daily at Providence St. Mary Medical Center in Apple Valley, according to a statement released by the medical ins"
-    },
-    {
-      "headline": "Jurupa Valley industrial property sold",
-      "url": "https://iebusinessdaily.com/jurupa-valley-industrial-property-sold/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jurupa-valley-industrial-property-sold",
-      "source": "IE Business Daily",
-      "raw_date": "Mon, 18 May 2026 10:35:52 +0000",
-      "description": "A 68-acre site in Jurupa Valley zoned for industrial development has been sold. Bridge Logistics Properties, a national real estate investment management company, bought the property for an undisclosed sum, according to a company statement. Information about the seller also was not released. The par"
     }
   ]
 }
