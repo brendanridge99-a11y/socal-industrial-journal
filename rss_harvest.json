@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-19T00:00:15.888Z",
-  "elapsed_seconds": 4.1,
+  "harvested_at": "2026-05-19T01:24:33.924Z",
+  "elapsed_seconds": 3.7,
   "feeds_attempted": 16,
-  "feeds_successful": 14,
-  "articles_count": 75,
+  "feeds_successful": 15,
+  "articles_count": 87,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 15,
+      "count": 17,
       "total": 97,
       "error": null
     },
@@ -104,9 +104,10 @@
     },
     {
       "source": "San Diego Business Journal",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "success": true,
+      "count": 10,
+      "total": 10,
+      "error": null
     },
     {
       "source": "IE Business Daily",
@@ -405,8 +406,22 @@
       "description": "It wasn’t supposed to go like this. When Saks Fifth Avenue agreed in July 2024 to buy Neiman Marcus for $2.65 billion to create Saks Global, a new $7 billion luxury retail behemoth, the conventional thinking was that senior executives at the two firms — once enemies, now family — would find a way to"
     },
     {
+      "headline": "Mark Fuhrman, LAPD detective known for O.J. Simpson trial, dies at 74",
+      "url": "https://www.latimes.com/california/story/2026-05-18/mark-fuhrman-lapd-detective-o-j-simpson-trial-dies",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 00:56:37 GMT",
+      "description": "Mark Fuhrman, the lead case detective known for his investigation of the 1994 murders of Nicole Brown Simpson and Ron Goldman, died on May 12, authorities in Kootenai County, Idaho, confirmed."
+    },
+    {
+      "headline": "Francesco Caballero is determined to keep his family circus legacy afloat",
+      "url": "https://www.latimes.com/delos/story/2026-05-18/francesco-caballero-circus-family-juggling-mexican-american-legacy-california",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 00:22:12 GMT",
+      "description": "As part of a five-generation circus family, 13-year-old Francesco Caballero dreams of competing worldwide. But first, he'll have to get through his school talent show."
+    },
+    {
       "headline": "Largest fire ever recorded on Santa Rosa Island endangers &#x27;gem of California coast&#x27;",
-      "url": "https://www.latimes.com/california/story/2026-05-18/largest-fire-ever-recorded-burns-santa-cruz-island-endangering-gem-of-california-coast",
+      "url": "https://www.latimes.com/california/story/2026-05-18/largest-fire-ever-recorded-burns-santa-rosa-island-endangering-gem-of-california-coast",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 22:22:57 GMT",
       "description": "A wildfire sparked by the flare of a shipwrecked mariner has burned nearly a fifth of Santa Rosa Island and marks what officials called the largest blaze recorded on the island in modern history."
@@ -627,6 +642,76 @@
       "source": "Los Angeles Business Journal",
       "raw_date": "Mon, 18 May 2026 07:20:38 +0000",
       "description": "MELANIE RONEN Partner; Chair, Employment Stradley Ronon Stevens &#38; Young, LLP As partner and chair of Stradley Ronon’s Employment Practice and a driving force behind the firm’s West Coast expansion, Melanie Ronen exemplifies inspirational leadership in both the legal profession and her broader Ca"
+    },
+    {
+      "headline": "Luxury Real Estate Is Emerging as Its Own Asset Class",
+      "url": "https://www.sdbj.com/branded-content/luxury-real-estate-is-emerging-as-its-own-asset-class/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=luxury-real-estate-is-emerging-as-its-own-asset-class",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 17:10:47 +0000",
+      "description": "Luxury residential real estate is increasingly behaving less like traditional housing and more like a distinct global asset class. Historically, housing markets moved largely in tandem with mortgage rates, local employment trends, and consumer affordability. Today, however, the ultra-luxury segment "
+    },
+    {
+      "headline": "SERVANT LEADERS CELEBRATED",
+      "url": "https://www.sdbj.com/leadership/servant-leaders-celebrated/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=servant-leaders-celebrated",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:01:14 +0000",
+      "description": "The San Diego Business Journal held its 2026 CEO of the Year Awards ceremony April 29. The event honored top chief executives from across a variety of industries and company sizes, including a Lifetime Achievement Award for Blanchard CEO Ken Blanchard – a pioneer in the servant leadership movement. "
+    },
+    {
+      "headline": "Axos Hits $1B in Small Biz Deposits",
+      "url": "https://www.sdbj.com/finance/banks/axos-hits-1b-in-small-biz-deposits/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=axos-hits-1b-in-small-biz-deposits",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:57 +0000",
+      "description": "SAN DIEGO – More than two decades after its founding, Axos Bank (NYSE: AX) rea- ched a 10-figure milestone. The digital banking and financial services provider announced in early May that it surpassed $1 billion in small business deposits from its more than 40,000 small business customers across the"
+    },
+    {
+      "headline": "Food Bank CEO Growing Organization to Meet Growing Needs",
+      "url": "https://www.sdbj.com/nonprofits/food-bank-ceo-growing-organization-to-meet-growing-needs/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=food-bank-ceo-growing-organization-to-meet-growing-needs",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:53 +0000",
+      "description": "As CEO of the Jacobs &#38; Cushman San Diego Food Bank, Casey Castillo oversees a $113.6 million organization with more than $100 million in net assets, directing 90% of expenses to program services. In 2025, the Food Bank distributed 52.9 million pounds of food and supplies — equivalent to more tha"
+    },
+    {
+      "headline": "SD Symphony Marches to Beat of Its Own Drum",
+      "url": "https://www.sdbj.com/entertainment-2/sd-symphony-marches-to-beat-of-its-own-drum/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sd-symphony-marches-to-beat-of-its-own-drum",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:50 +0000",
+      "description": "SAN DIEGO – When San Diego Symphony President and CEO Martha Gilmer sets foot in the recording booth, she feels something special. “Sitting and listening to the playbacks, I am just in awe of what this orchestra can do,” she said. The Symphony’s resonance is not just musical. Founded in 1910, the Sy"
+    },
+    {
+      "headline": "EDC’s Mark Cafferty Positions San Diego as a Global Economic Force",
+      "url": "https://www.sdbj.com/nonprofits/edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:47 +0000",
+      "description": "Mark Cafferty tied for the CEO of the Year Award in the Business Nonprofit Category. As president and CEO of San Diego Regional Economic Development Corporation (EDC), Cafferty sits at the center of a unique partnership of business, trade, community and education leaders who have reinvented the regi"
+    },
+    {
+      "headline": "Serial Company Builder Challenges Business as Usual",
+      "url": "https://www.sdbj.com/defense/serial-company-builder-challenges-business-as-usual/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=serial-company-builder-challenges-business-as-usual",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:45 +0000",
+      "description": "Dan Magy is CEO of the Year in the Private Medium Company Category. Magy is an experienced company builder, having founded four VC-backed hardware and Artificial Intelligence companies. He founded Citadel Defense in 2015, specializing in Counter-Unmanned Aerial System (C-UAS) technologies, which was"
+    },
+    {
+      "headline": "Gifford Leading Splitero’s Transformative HEI Solution for Homeowners",
+      "url": "https://www.sdbj.com/finance/gifford-leading-spliteros-transformative-hei-solution-for-homeowners/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gifford-leading-spliteros-transformative-hei-solution-for-homeowners",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:43 +0000",
+      "description": "Michael Gifford is a seasoned PropTech and FinTech veteran, bringing nearly 20 years of experience and a vast professional network to his role as CEO and co-founder of Splitero – an innovative home equity investment (HEI) company. Under Gifford’s leadership, Splitero has been defined by rapid growth"
+    },
+    {
+      "headline": "Palomar CEO’s String of Successes Right from the Start",
+      "url": "https://www.sdbj.com/insurance/palomar-ceos-string-of-successes-right-from-the-start/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=palomar-ceos-string-of-successes-right-from-the-start",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:29 +0000",
+      "description": "David “Mac” Armstrong’s career path began in investment banking and private equity and ultimately led to insurance where today he leads Palomar Holdings, Inc., a specialty insurer that focuses on underserved markets, including earthquake, inland marine and casualty insurance. Armstrong founded Palom"
+    },
+    {
+      "headline": "Greupner Advances the Padres on the Business Playing Field",
+      "url": "https://www.sdbj.com/sports-2/greupner-advances-the-padres-on-the-business-playing-field/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=greupner-advances-the-padres-on-the-business-playing-field",
+      "source": "San Diego Business Journal",
+      "raw_date": "Mon, 18 May 2026 12:00:27 +0000",
+      "description": "Erik Greupner is CEO of the Year in the Large Private Company Category. Greupner oversees the San Diego Padres’ operations and leads the growth and development of the club’s business and culture. 2026 marks his 16th season in San Diego after joining the club in December 2010. During his tenure as CE"
     },
     {
       "headline": "Kaiser Permanente provides MD’s to High Desert hospital",
