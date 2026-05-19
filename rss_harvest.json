@@ -1,6 +1,6 @@
 {
-  "harvested_at": "2026-05-18T22:00:15.790Z",
-  "elapsed_seconds": 4,
+  "harvested_at": "2026-05-19T00:00:15.888Z",
+  "elapsed_seconds": 4.1,
   "feeds_attempted": 16,
   "feeds_successful": 14,
   "articles_count": 75,
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 2,
+      "count": 3,
       "total": 10,
       "error": null
     },
@@ -84,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 17,
+      "count": 15,
       "total": 97,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 6,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -265,6 +265,13 @@
       "description": "Andy Dyer, chief executive officer of transportation management specialist AFS , which manages some $3 billion in parcel spend annually for its customers, has seen the parcel carrier market go through numerous disruptions, evolutions, and reinventions over his more than 30 years in the business. Yet"
     },
     {
+      "headline": "Everything’s coming up roses: Flower wholesaler plants roots in Commerce with $34M acquisition",
+      "url": "https://therealdeal.com/la/2026/05/18/los-angeles-flower-seller-acquires-commerce-warehouse/",
+      "source": "The Real Deal",
+      "raw_date": "Mon, 18 May 2026 22:30:00 +0000",
+      "description": "Spring has sprung in Los Angeles’ industrial corridor as a local importer and wholesaler of fresh-cut flowers plants deeper roots in the region in a larger warehouse.&#160;&#160; Holland Flower Market acquired a 91,010-square-foot facility at 5555 East Slauson Avenue in Commerce for $34.1 million, H"
+    },
+    {
       "headline": "Brentwood mansion with Oscar-winning history hits the market",
       "url": "https://therealdeal.com/la/2026/05/18/modern-brentwood-manse-seeks-buyer-for-nearly-17-million/",
       "source": "The Real Deal",
@@ -398,14 +405,21 @@
       "description": "It wasn’t supposed to go like this. When Saks Fifth Avenue agreed in July 2024 to buy Neiman Marcus for $2.65 billion to create Saks Global, a new $7 billion luxury retail behemoth, the conventional thinking was that senior executives at the two firms — once enemies, now family — would find a way to"
     },
     {
-      "headline": "For the first time in a century, a gray wolf entered Sequoia National Park. She&#x27;s traveled hundreds of miles to get there",
+      "headline": "Largest fire ever recorded on Santa Rosa Island endangers &#x27;gem of California coast&#x27;",
+      "url": "https://www.latimes.com/california/story/2026-05-18/largest-fire-ever-recorded-burns-santa-cruz-island-endangering-gem-of-california-coast",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 22:22:57 GMT",
+      "description": "A wildfire sparked by the flare of a shipwrecked mariner has burned nearly a fifth of Santa Rosa Island and marks what officials called the largest blaze recorded on the island in modern history."
+    },
+    {
+      "headline": "A gray wolf has entered Sequoia National Park for the first time in a century",
       "url": "https://www.latimes.com/environment/story/2026-05-18/wolf-enters-sequoia-national-park-for-first-time-in-century-bey03f",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 19:40:49 GMT",
       "description": "BEY03F is the first wolf known to venture into Sequoia National Park in more than a century — after making similarly historic visits to Los Angeles and Inyo counties."
     },
     {
-      "headline": "5 dead, including teen gunmen, following attack at Islamic Center of San Diego, police say",
+      "headline": "5 dead, including teen gunmen, at San Diego Islamic Center; hate motive probed",
       "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-police-swarm-islamic-center-amid-reports-of-active-shooter",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 19:35:20 GMT",
@@ -496,25 +510,11 @@
       "description": "Pedro Pascal surprised fans with an undercover appearance as \"The Mandalorian\" at Disneyland on Saturday."
     },
     {
-      "headline": "Bittersweet Pride: Joy at the Long Beach parade, outrage over canceled festival",
-      "url": "https://www.latimes.com/california/story/2026-05-17/long-beach-pride-joyful-parade-meets-outrage-over-canceled-festival",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 17 May 2026 21:47:40 GMT",
-      "description": "Hundreds celebrated at the Long Beach Pride parade, but the weekend was overshadowed by the abrupt, last-minute cancellation of the popular decades-old festival."
-    },
-    {
-      "headline": "Feds say they thwarted alleged terror plot targeting L.A. Jewish institution",
-      "url": "https://www.latimes.com/california/story/2026-05-17/iraqi-national-charged-la-terror-plot",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 17 May 2026 21:07:27 GMT",
-      "description": "Federal authorities say they have disrupted a multi-city terror plot that included an L.A. Jewish center, arresting an Iraqi national with alleged ties to Kata'ib Hizballah."
-    },
-    {
-      "headline": "Tustin police arrest man accused of fatally shooting ex-girlfriend before fleeing to Mexico",
-      "url": "https://www.latimes.com/california/story/2026-05-17/tustin-man-accused-of-killing-ex-fleeing-to-mexico-is-arrested",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 17 May 2026 21:07:19 GMT",
-      "description": "Tustin police arrested 47-year-old Juan Marquez after he allegedly shot his ex-girlfriend, a mother of three, and fled across the U.S.-Mexico border."
+      "headline": "Nancy Pelosi puts thumb on the scale in race for her successor. Here’s who she endorsed",
+      "url": "https://calmatters.org/politics/2026/05/pelosi-wiener-congress-endorsement/",
+      "source": "CalMatters",
+      "raw_date": "Mon, 18 May 2026 22:51:29 +0000",
+      "description": "Pelosi’s endorsement could push Chan into second place behind Sen. Scott Wiener, who is leading by double digits, ahead of self-funding tech entrepreneur Saikat Chakrabarti."
     },
     {
       "headline": "Seis personas murieron en centros de detención del ICE en California mientras deportaciones de Trump se disparaban",
@@ -622,11 +622,11 @@
       "description": "The Walt Disney Co. is taking on Imax Corp. with Infinity Vision, a new theater certification for premium large format screens. The Burbank-based entertainment giant made the announcement in April at CinemaCon 2026 in Las Vegas, the largest annual event for the motion picture theater business across"
     },
     {
-      "headline": "LA Local Expands Footprint in Long Beach",
-      "url": "https://labusinessjournal.com/media/la-local-expands-footprint-in-long-beach/",
+      "headline": "Women of Influence: Attorneys 2026 &#8211; Melanie Ronen",
+      "url": "https://labusinessjournal.com/custom-content/women-of-influence-attorneys-2026-melanie-ronen/",
       "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 07:18:15 +0000",
-      "description": "Since expanding into 12 neighborhoods early this year, The LA Local took another step ahead last month by adding Long Beach Post and Long Beach Business Journal into its portfolio. Founded on the mission to expand hyper-local news coverage, The LA Local has raised more than $19 million in philanthro"
+      "raw_date": "Mon, 18 May 2026 07:20:38 +0000",
+      "description": "MELANIE RONEN Partner; Chair, Employment Stradley Ronon Stevens &#38; Young, LLP As partner and chair of Stradley Ronon’s Employment Practice and a driving force behind the firm’s West Coast expansion, Melanie Ronen exemplifies inspirational leadership in both the legal profession and her broader Ca"
     },
     {
       "headline": "Kaiser Permanente provides MD’s to High Desert hospital",
