@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-19T08:00:10.373Z",
-  "elapsed_seconds": 4.3,
+  "harvested_at": "2026-05-19T10:00:10.111Z",
+  "elapsed_seconds": 4.7,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 77,
+  "articles_count": 74,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -98,7 +98,7 @@
     {
       "source": "Los Angeles Business Journal",
       "success": true,
-      "count": 10,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -489,18 +489,18 @@
       "description": "A kidnapping suspect was arrested Monday morning after a chase with police that ended with gunfire, according to Santa Monica police."
     },
     {
+      "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
+      "url": "https://www.latimes.com/california/story/2026-05-18/crowds-yosemite-visitors-worry-high-season-will-be-disaster",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
+    },
+    {
       "headline": "19 Legionella bacteria infections linked to Kaiser Bay Area hospital",
       "url": "https://www.latimes.com/california/story/2026-05-18/19-cases-of-legionella-infection-linked-to-kaiser-bay-area-hospital",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
       "description": "The 19 infections were linked to Kaiser's medical center in Santa Clara. Most of those who fell sick are recovering at home, Kaiser said in a statement last week."
-    },
-    {
-      "headline": "AI has invaded the L.A. mayor&#x27;s race. Some fear it&#x27;s just the beginning",
-      "url": "https://www.latimes.com/california/story/2026-05-18/ai-has-invaded-la-mayors-race-some-fear-its-just-beginning",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "Some see fan-generated election campaign videos as a harbinger of how artificial intelligence could reshape political messaging across the country."
     },
     {
       "headline": "Tech leaders funding Matt Mahan&#x27;s campaign for California governor say it&#x27;s not about tech",
@@ -510,11 +510,11 @@
       "description": "San José Mayor Matt Mahan's campaign for governor has been bankrolled by tech titans. Critics say he will cater to their interests as governor, but several of his backers said their support for him has nothing to do with tech policy."
     },
     {
-      "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
-      "url": "https://www.latimes.com/california/story/2026-05-18/crowds-yosemite-visitors-worry-high-season-will-be-disaster",
+      "headline": "AI has invaded the L.A. mayor&#x27;s race. Some fear it&#x27;s just the beginning",
+      "url": "https://www.latimes.com/california/story/2026-05-18/ai-has-invaded-la-mayors-race-some-fear-its-just-beginning",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
+      "description": "Some see fan-generated election campaign videos as a harbinger of how artificial intelligence could reshape political messaging across the country."
     },
     {
       "headline": "L.A.&#x27;s 100 most problematic rental properties spotlighted in new city database",
@@ -620,27 +620,6 @@
       "source": "Los Angeles Business Journal",
       "raw_date": "Mon, 18 May 2026 16:27:35 +0000",
       "description": "Community Corp. of Santa Monica, a nonprofit that builds and manages affordable housing, is the force behind several projects on the Westside. That includes Jubilo Village, a 95-unit project located at the site of a church. Executive Director Tara Barauskas sat down with the Business Journal to disc"
-    },
-    {
-      "headline": "LABJ Insider: Calling All ‘Indispensables’",
-      "url": "https://labusinessjournal.com/commentary/columns/labj-insider-calling-all-indispensables/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 07:25:33 +0000",
-      "description": "Welcome back to another week of the Los Angeles Business Journal, executives and entrepreneurs. As we’ve previously announced, the team here is excited about a new editorial product – The Indispensables – that we’re planning this summer. Many of you executives reading this of course know how we regu"
-    },
-    {
-      "headline": "Disney’s Infinity Vision Revealed",
-      "url": "https://labusinessjournal.com/media/disneys-infinity-vision-revealed/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 07:22:20 +0000",
-      "description": "The Walt Disney Co. is taking on Imax Corp. with Infinity Vision, a new theater certification for premium large format screens. The Burbank-based entertainment giant made the announcement in April at CinemaCon 2026 in Las Vegas, the largest annual event for the motion picture theater business across"
-    },
-    {
-      "headline": "Women of Influence: Attorneys 2026 &#8211; Melanie Ronen",
-      "url": "https://labusinessjournal.com/custom-content/women-of-influence-attorneys-2026-melanie-ronen/",
-      "source": "Los Angeles Business Journal",
-      "raw_date": "Mon, 18 May 2026 07:20:38 +0000",
-      "description": "MELANIE RONEN Partner; Chair, Employment Stradley Ronon Stevens &#38; Young, LLP As partner and chair of Stradley Ronon’s Employment Practice and a driving force behind the firm’s West Coast expansion, Melanie Ronen exemplifies inspirational leadership in both the legal profession and her broader Ca"
     },
     {
       "headline": "Kaiser Permanente provides MD’s to High Desert hospital",
