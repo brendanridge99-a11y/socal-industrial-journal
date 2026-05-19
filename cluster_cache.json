@@ -42,5 +42,13 @@
   "cluster_cca922ec6548_e69dfba2c34a": {
     "headline": "LIRR Strike Enters Fourth Day as 250,000 Commuters Face Disruptions",
     "summary": "The Long Island Rail Road strike extended into its fourth day Monday, marking the first work stoppage on the nation's busiest commuter railroad in over 30 years. Roughly 3,500 engineers, signalmen and electrical workers walked off the job Saturday after negotiations between the Metropolitan Transportation Authority and a five-union coalition collapsed over wages and healthcare premiums. The shutdown has affected more than 250,000 daily commuters, straining roads and alternative transit options across the region during the first weekday of the strike. The National Mediation Board summoned parties to negotiations in Manhattan, where talks continued slowly into Monday evening."
+  },
+  "cluster_5e0c2d02f88b_ca14af94dd58": {
+    "headline": "Kevin Warsh Sworn In as Fed Chair at White House Friday",
+    "summary": "Kevin Warsh will be sworn in as the Federal Reserve's 17th chair by President Donald Trump on Friday during a White House ceremony, succeeding Jerome Powell, who has served in a temporary capacity since his official term ended last week. The U.S. Senate confirmed Warsh earlier in May on a 54-45 vote, the slimmest confirmation margin ever recorded for a Fed chair. Warsh assumes leadership of the central bank amid elevated inflation driven by war-related energy price shocks tied to the Iran war and rising long-term Treasury yields."
+  },
+  "cluster_01909f5b4326_5de274517b80": {
+    "headline": "Google and Blackstone Launch $25B AI Cloud Joint Venture in U.S.",
+    "summary": "Google and Blackstone are forming a new U.S.-based artificial intelligence cloud company, with Blackstone contributing an initial $5 billion in equity to hold a majority stake in the venture. The total investment is valued at $25 billion including leverage, positioning the company to compete with firms like CoreWeave. The venture will offer compute-as-a-service using Google Cloud's Tensor Processing Units (TPUs), along with data center capacity, operations, and networking infrastructure. The first 500 megawatts of data center power is expected to come online by 2027, with the venture to be led by veteran Google executive Benjamin Treynor Sloss."
   }
 }

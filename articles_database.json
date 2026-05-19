@@ -1,306 +1,6 @@
 {
-  "last_updated": "2026-05-18T23:53:21.825471Z",
+  "last_updated": "2026-05-19T11:51:29.664630Z",
   "articles": [
-    {
-      "headline": "Inflation and Fed Policy Are on Collision Course, Page Says",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-15/inflation-fed-policy-on-collision-course-page-says-video",
-      "summary": "T. Rowe Price CIO S\u00e9bastien Page stated on Bloomberg Surveillance that the primary risk in financial markets is a 'collision course between inflation and Fed policy.' This comes as Jerome Powell's term as Fed Chair ended May 15, with the U.S. Senate confirming Kevin Warsh as his successor. Warsh is viewed as more open to rate cuts, but persistent inflation data has made near-term Fed rate cuts unlikely.",
-      "category": "economics",
-      "id": "b1bfa651ec3e",
-      "added_at": "2026-05-16T04:08:26.115984Z",
-      "timestamp": "2026-05-16T04:08:26.115984Z"
-    },
-    {
-      "headline": "Inflation Rate Projected to Hit 6% in the Second Quarter, Top Economic Forecasters Say",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html",
-      "summary": "The Survey of Professional Forecasters \u2014 a blue-ribbon group polled each quarter by the Federal Reserve Bank of Philadelphia \u2014 projected consumer price inflation to hit 6% in Q2 2026. The projection comes amid an ongoing energy price shock tied to geopolitical conflict and persistent supply disruptions. The forecast reinforces growing concerns that inflationary pressures are becoming more entrenched, complicating the Federal Reserve's efforts to guide inflation back to its 2% target.",
-      "category": "economics",
-      "id": "3d3321cc848a",
-      "added_at": "2026-05-16T04:08:26.115984Z",
-      "timestamp": "2026-05-16T04:08:26.115984Z"
-    },
-    {
-      "headline": "U.S. Retail Sales Rise in April Despite Inflation and Higher Energy Costs",
-      "source": "Bloomberg / U.S. Census Bureau",
-      "source_type": "free",
-      "date": "May 14, 2026",
-      "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
-      "summary": "The U.S. Census Bureau's Advance Monthly Retail Trade Survey for April 2026 showed retail and food services sales of $757.1 billion, up 0.5% from March and up 4.9% from April 2025. Retail trade sales were up 5.2% year-over-year, and nonstore retailers\u2014the e-commerce proxy\u2014rose 11.1% from a year ago. Total sales for the February\u2013April 2026 period were up 4.4% from the same period a year ago, while food services and drinking places were up 2.7% from April 2025.",
-      "category": "economics",
-      "id": "f9509bd55fab",
-      "added_at": "2026-05-16T04:18:03.047850Z",
-      "timestamp": "2026-05-16T04:18:03.047850Z"
-    },
-    {
-      "headline": "New Sales and Inventory Numbers Reflect Cautious Consumers and Retailers",
-      "source": "Bloomberg / Marketplace",
-      "source_type": "free",
-      "date": "May 14, 2026",
-      "url": "https://www.marketplace.org/story/2026/05/14/consumers-retailers-grow-cautious-as-inflation-climbs",
-      "summary": "New retail sales and wholesale inventory data show consumers growing more cautious as inflation accelerates, with the nominal retail sales increase reflecting higher prices rather than more units sold. Some wholesalers are building inventories in anticipation of further fuel cost increases, while demand for big-ticket items such as cars and furniture is softening. Supply chain management experts noted wholesalers are front-loading purchases ahead of back-to-school and holiday seasons to lock in current prices before further inflation.",
-      "category": "supply-chain",
-      "id": "cf70957d6a40",
-      "added_at": "2026-05-16T04:18:03.047850Z",
-      "timestamp": "2026-05-16T04:18:03.047850Z"
-    },
-    {
-      "headline": "Retail Q1 2026: Low Availability and Construction Slow Absorption",
-      "source": "Connect CRE",
-      "source_type": "free",
-      "date": "May 15, 2026",
-      "url": "https://www.connectcre.com/stories/retail-q1-low-availability-and-construction-slow-absorption/",
-      "summary": "Q1 2026 retail market reports from CBRE, JLL, Newmark, and others showed negative net absorption across nearly all tracked reports, driven by a wave of store closures from multiple bankruptcy filings adding available space to the market. Consumer sentiment was negatively affected by lingering inflation, uncertainty about the job market, and the impact of the Iran conflict on fuel costs, per Newmark analysts, though retail sales and consumer spending remained in positive territory. Sun Belt markets outpaced the rest of the country in retail metrics driven by population growth, and JLL noted that for the remainder of 2026, performance will depend more on which markets a portfolio is in than on national averages.",
-      "category": "business",
-      "id": "4ec1ce35b0e0",
-      "added_at": "2026-05-16T04:18:03.047850Z",
-      "timestamp": "2026-05-16T04:18:03.047850Z"
-    },
-    {
-      "headline": "House Cuts Build-To-Rent Ban From Latest Bill, Targets Vote Next Week",
-      "source": "BisNow",
-      "source_type": "free",
-      "date": "May 14, 2026",
-      "url": "https://www.bisnow.com/national/news/build-to-rent/",
-      "summary": "The House removed a ban on build-to-rent housing from its latest legislative package and is targeting a vote the following week on the modified bill, after President Trump publicly pushed House members to pass a housing bill that had included a forced-sale provision for BTR properties. The real estate lobby had sounded the alarm over the forced-sale provision in the original bill, arguing it would chill investment in single-family rental development. The modified bill's passage timeline remains uncertain pending negotiations among House members.",
-      "category": "politics",
-      "id": "e8363ba12871",
-      "added_at": "2026-05-16T04:18:03.047850Z",
-      "timestamp": "2026-05-16T04:18:03.047850Z"
-    },
-    {
-      "headline": "Hapag-Lloyd Q1 2026 Loss: Strait of Hormuz Chaos and Weak Freight Rates Hit Shipping",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 14, 2026",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-05-13/container-shipping-demand",
-      "summary": "Hapag-Lloyd reported a Q1 2026 net loss of \u20ac219 million ($257 million), compared to a profit of \u20ac446 million in Q1 2025, as lower freight rates and the effective closure of the Strait of Hormuz disrupted global shipping operations. Average freight rates fell 9.5% year-over-year to $1,330 per TEU, and hundreds of commercial vessels carrying up to 20,000 seafarers remained unable to transit the Strait since the U.S. and Israel began attacks on Iran in late February 2026. Brent crude prices nearly doubled during the quarter, ending March at $118.35 per barrel, while low-sulfur bunker fuel prices surged more than 80% from year-end 2025 levels. The company maintained its full-year 2026 EBITDA guidance of $1.1 billion to $3.1 billion but warned the outlook remains subject to 'considerable uncertainty.'",
-      "category": "supply-chain",
-      "id": "d1d318c18713",
-      "added_at": "2026-05-16T04:35:41.954501Z",
-      "timestamp": "2026-05-16T04:35:41.954501Z"
-    },
-    {
-      "headline": "Traders Now See Next Fed Interest Rate Move as a Hike Following Inflation Surge",
-      "source": "CNBC",
-      "source_type": "free",
-      "date": "May 15, 2026",
-      "url": "https://www.cnbc.com/amp/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html",
-      "summary": "Following a week of hotter-than-expected inflation readings, fed funds futures traders are now pricing in a Federal Reserve interest rate hike as soon as December 2026, the first time in the current cycle markets have priced in a hike rather than a cut. A December hike carries a nearly 51% probability, January a 60% probability, and March better than 71%, per CME Group's FedWatch tool. The Survey of Professional Forecasters released Friday projects Q2 consumer price inflation to hit 6%, a dramatic revision from the prior 2.7% estimate, driven largely by energy prices tied to the Iran conflict and the Strait of Hormuz. Incoming Fed Chair Kevin Warsh, confirmed by the Senate Wednesday, inherits an increasingly complicated inflation picture as GDP growth is simultaneously revised down to 2.2% for the full year.",
-      "category": "economics",
-      "id": "3d5656183d35",
-      "added_at": "2026-05-16T04:54:21.293965Z",
-      "timestamp": "2026-05-16T04:54:21.293965Z"
-    },
-    {
-      "headline": "Treasury Yields Surge as Inflation Data Points to Tricky Rates Path for New Fed Chair Warsh",
-      "source": "CNBC",
-      "source_type": "free",
-      "date": "May 15, 2026",
-      "url": "https://www.cnbc.com/2026/05/15/treasury-yields-surge-as-inflation-data-points-to-tricky-rates-path.html",
-      "summary": "U.S. Treasury yields spiked Friday following a week of elevated inflation data, with the 10-year note surging nearly 14 basis points to 4.595% and the 30-year bond jumping to just over 5.1%, its highest level since May 2025. The 2-year yield rose close to 9 basis points to 4.079%. Import prices rose 1.9% in April and 4.2% on a 12-month basis \u2014 the largest annual gain since October 2022 \u2014 while export prices surged 8.8%, the highest since September 2022, as Middle East conflict keeps energy prices elevated. West Texas Intermediate crude rose to $104.39 per barrel, up $3.22, after the Trump-Xi summit concluded with little to show on energy diplomacy.",
-      "category": "economics",
-      "id": "dcb8c8421ec8",
-      "added_at": "2026-05-16T04:54:21.293965Z",
-      "timestamp": "2026-05-16T04:54:21.293965Z"
-    },
-    {
-      "headline": "Bonds, Stocks and Precious Metals Slump as Inflation Fears Mount, Silver Falls 7%",
-      "source": "CNBC",
-      "source_type": "free",
-      "date": "May 15, 2026",
-      "url": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html",
-      "summary": "Global government bonds, precious metals, and international stocks sold off Friday as inflation fears intensified and President Trump concluded a three-day visit to China with no meaningful agreement on energy or trade. The U.S. 10-year Treasury yield hit its highest level in nearly a year at 4.544%, while money markets priced in a near-zero chance of any Fed rate cuts this year and a 50% chance of a December hike, per CME FedWatch. Silver fell 7% on the session. The combination of Iran war energy shocks, ongoing tariff uncertainty, and political upheaval in the U.K. weighed on cross-asset sentiment globally.",
-      "category": "economics",
-      "id": "63256dcd157d",
-      "added_at": "2026-05-16T04:54:21.293965Z",
-      "timestamp": "2026-05-16T04:54:21.293965Z"
-    },
-    {
-      "headline": "Global Bond Selloff Worsens as Rising Oil Prices Spook Investors",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst",
-      "summary": "Global government bond markets fell sharply on May 15, with US 10-year Treasury yields rising 12 basis points to 4.6% and 30-year yields approaching 5.12%\u2014the highest since 2007\u2014as Brent crude climbed past $107 per barrel amid an unresolved Strait of Hormuz standoff following the Iran war. The selloff was compounded by back-to-back US government reports showing consumer and wholesale prices accelerating at the fastest pace since 2022, with traders now pricing a near two-thirds probability of a Fed rate hike in December. Incoming Fed Chair Kevin Warsh, narrowly confirmed by the Senate this week, faces the selloff as his first major test. The S&P 500 fell more than 1% on Friday, pulling back from a recent rally, while gas prices nationally held above $4.50 per gallon\u2014up 51% since the Iran war began.",
-      "category": "economics",
-      "id": "8ea3de03d67d",
-      "added_at": "2026-05-16T05:07:35.004986Z",
-      "timestamp": "2026-05-16T05:07:35.004986Z"
-    },
-    {
-      "headline": "Companies Are Getting Tariff Refunds. Here's What They Plan to Do With the Money.",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.wsj.com/economy/trade/tariff-refunds-companies-plans",
-      "summary": "The US Customs and Border Protection began processing the first wave of electronic tariff refunds on May 12, returning billions of dollars to importers who paid levies later struck down by the Supreme Court in February 2026. CBP said about 15% of submitted claims were rejected due to incorrect information or ineligible shipments. Major companies including General Motors said they expect hundreds of millions of dollars in refunds; Citi analysis found Walmart is owed approximately $10 billion, Target $2 billion, and Nike $1 billion. Companies have stated plans to use refunds to pay down debt, rehire workers, restock inventory, or potentially lower prices, while consumers are not directly eligible for refunds.",
-      "category": "politics",
-      "id": "d2f4c3f8059a",
-      "added_at": "2026-05-16T05:07:35.004986Z",
-      "timestamp": "2026-05-16T05:07:35.004986Z"
-    },
-    {
-      "headline": "The New Route Around Hormuz Involves a Massive Convoy of Trucks",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.wsj.com/business/logistics/hormuz-truck-convoy-route",
-      "summary": "With the Strait of Hormuz closed following the outbreak of war in Iran, shippers and logistics operators have developed an alternative overland route using massive truck convoys to move energy and cargo around the conflict zone. The closure of the strait has driven Brent crude above $107 per barrel, up more than 10% this week alone, creating severe cost pressure across global supply chains. Trump-Xi summit talks in Beijing this week failed to produce breakthroughs on reopening the strait, with China calling for rapid reopening but no concrete agreement reached. The alternative convoy route adds significant transit time and cost compared to the standard maritime passage.",
-      "category": "supply-chain",
-      "id": "afe32825d063",
-      "added_at": "2026-05-16T05:07:35.004986Z",
-      "timestamp": "2026-05-16T05:07:35.004986Z"
-    },
-    {
-      "headline": "US Shopping Data Is Good, But Something Worrisome Is Lurking",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-05-15/us-shopping-data-retail-monitor",
-      "summary": "Bloomberg's Retail Monitor reported that US retail sales data this week showed surface-level strength in consumer spending, but that rising oil prices above $105 per barrel and surging bond yields are creating a worrisome undercurrent for forward consumer demand. Producer price data released this week showed costs accelerating at the fastest pace since 2022, signaling potential margin compression for retailers and goods distributors. The inflation pressures stem from the combined effect of the Strait of Hormuz closure and ongoing tariff-related cost pass-through still working through supply chains. Analysts noted the combination of high gas prices\u2014nationally averaging $4.50 per gallon\u2014and tightening financial conditions presents a risk to the consumer spending outlook in the coming months.",
-      "category": "economics",
-      "id": "500d7702d4ef",
-      "added_at": "2026-05-16T05:07:35.004986Z",
-      "timestamp": "2026-05-16T05:07:35.004986Z"
-    },
-    {
-      "headline": "Supreme Court Rules Unanimously: Freight Broker C.H. Robinson Faces Negligent Hiring Lawsuit",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.wsj.com/business/logistics/supreme-court-ch-robinson-freight-broker-negligent-hiring",
-      "summary": "The US Supreme Court ruled unanimously this week that freight broker C.H. Robinson can face a state-law negligent hiring lawsuit from plaintiff Shawn Montgomery, rejecting the argument that federal law shields brokers from such claims. The ruling found that plaintiffs can bring state-law negligent hiring claims against freight brokers, removing a key legal protection the industry had relied upon. Industry analysts noted the ruling is expected to raise insurance premiums across the brokerage sector, tighten carrier vetting standards, and increase barriers to entry for new brokers. Over time, tighter carrier qualification standards are expected to reduce available capacity and place upward pressure on freight rates.",
-      "category": "supply-chain",
-      "id": "3336a62b7f7d",
-      "added_at": "2026-05-16T05:07:35.004986Z",
-      "timestamp": "2026-05-16T05:07:35.004986Z"
-    },
-    {
-      "headline": "Perfectus Aluminum and Related Companies Agree to Pay $549.5M to Settle False Claims Act Allegations Relating to Evaded Customs Duties",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.wsj.com/business/perfectus-aluminum-customs-duties-settlement",
-      "summary": "Perfectus Aluminum Inc. and affiliated companies agreed to pay $549.5 million to settle False Claims Act allegations that they evaded customs duties on aluminum imports, in one of the largest customs fraud settlements in US history. The case involved allegations of tariff evasion through misclassification of aluminum products to avoid anti-dumping and countervailing duties. The settlement signals intensified federal enforcement of customs compliance as part of the broader crackdown on tariff evasion following the Supreme Court's ruling on IEEPA tariffs. Importers, freight brokers, and 3PLs are expected to face heightened customs scrutiny as a result of the case.",
-      "category": "politics",
-      "id": "7e426588b57f",
-      "added_at": "2026-05-16T05:07:35.004986Z",
-      "timestamp": "2026-05-16T05:07:35.004986Z"
-    },
-    {
-      "headline": "Amazon Rolls Out 30-Minute Delivery on Thousands of Groceries and Essentials",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.wsj.com/business/retail/amazon-30-minute-delivery-groceries-essentials",
-      "summary": "Amazon launched a 30-minute delivery service covering thousands of grocery and everyday essentials items, expanding its ultra-fast fulfillment capabilities to a broader product set beyond its existing same-day offerings. The service relies on Amazon's network of urban micro-fulfillment nodes and delivery infrastructure. The rollout follows Amazon's May 4 launch of Amazon Supply Chain Services (ASCS), which opened its full logistics network to third-party businesses. The 30-minute delivery expansion intensifies pressure on traditional grocery retailers and last-mile delivery providers, and requires continued investment in dense, last-mile warehouse infrastructure.",
-      "category": "business",
-      "id": "781a07bcf49f",
-      "added_at": "2026-05-16T05:07:35.004986Z",
-      "timestamp": "2026-05-16T05:07:35.004986Z"
-    },
-    {
-      "headline": "project44 Launches Autopilot to Cut Freight Costs, Improve Data Quality, Optimize Inventory Levels, and Accelerate Cash Flow",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.wsj.com/tech/project44-autopilot-freight-ai",
-      "summary": "Supply chain visibility platform project44 launched 'Autopilot,' an AI-driven tool designed to autonomously cut freight costs, improve shipment data quality, optimize inventory levels, and accelerate cash flow for shippers and logistics operators. The system uses machine learning to make automated decisions across freight procurement, routing, and inventory positioning without requiring manual intervention from supply chain teams. The launch comes as shippers face elevated freight costs due to oil price spikes from the Strait of Hormuz closure and continued tariff-related supply chain disruptions. project44 positions Autopilot as a response to the growing complexity of operating supply chains in a volatile trade and energy environment.",
-      "category": "tech",
-      "id": "97f6b969efad",
-      "added_at": "2026-05-16T05:07:35.004986Z",
-      "timestamp": "2026-05-16T05:07:35.004986Z"
-    },
-    {
-      "headline": "The Energy Crisis Is Becoming a Currency Crisis in Asia's Emerging Markets",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 14, 2026",
-      "url": "https://www.bloomberg.com/opinion/articles/2026-05-14/the-energy-crisis-is-becoming-a-currency-crisis-in-asia-s-emerging-markets",
-      "summary": "Bloomberg Opinion reports that the Iran conflict-driven energy price shock is spreading into a currency crisis across Asian emerging markets, with major energy importers including the Philippine peso, South Korean won, Thai baht, and Egyptian pound among the worst-performing currencies since the start of the U.S.-Israel conflict with Iran. The supply-side energy shock has spread into food systems, financial markets, and regional economies, raising concerns about stagflation. India has asked the U.S. to extend its waiver on Russian oil cargo sales beyond the May 16 expiry date. The disruption is affecting global shipping routes, container costs, and supply chain reliability.",
-      "category": "economics",
-      "id": "6e871f50ba43",
-      "added_at": "2026-05-16T05:28:07.824176Z",
-      "timestamp": "2026-05-16T05:28:07.824176Z"
-    },
-    {
-      "headline": "Construction Material Costs Rose 6.2% Through April, Pressuring CRE Projects",
-      "source": "CoStar",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.credaily.com/",
-      "summary": "Construction material costs rose 6.2% through April 2026, with energy, steel, and lumber prices climbing and pressuring commercial real estate development projects across the country. As of April 2026, steel, aluminum, and copper items carry a 50% tariff, with derivatives at 25% and industrial/electrical equipment incorporating those materials facing a 15% tariff. Associated Builders and Contractors data shows nonresidential construction input prices surged at a 12.6% annualized rate during the first two months of 2026, the fastest pace since the supply chain disruptions of early 2022. The industry needs approximately 349,000 net new workers in 2026 beyond normal hiring levels to maintain supply-demand equilibrium, with the shortage described as structural rather than cyclical.",
-      "category": "economics",
-      "id": "5925c1e93e03",
-      "added_at": "2026-05-16T05:28:07.824176Z",
-      "timestamp": "2026-05-16T05:28:07.824176Z"
-    },
-    {
-      "headline": "Starbucks Announces Third Round of U.S. Layoffs, 300 Corporate Employees Cut",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.bloomberg.com",
-      "summary": "Starbucks announced it will lay off 300 U.S. corporate employees in its third round of job cuts as part of its ongoing turnaround strategy under CEO Brian Niccol. The coffee giant is also closing some regional support offices, with combined severance costs and office space reassessment expected to result in $400 million in restructuring charges. Starbucks expects to record $280 million in noncash charges tied to asset impairments and $120 million in cash charges related to the layoffs. This follows an earlier round that cut 1,100 jobs and another that eliminated 900 nonretail positions as part of a $1 billion restructuring plan.",
-      "category": "business",
-      "id": "e0135d4a08d1",
-      "added_at": "2026-05-16T05:28:07.824176Z",
-      "timestamp": "2026-05-16T05:28:07.824176Z"
-    },
-    {
-      "headline": "Xi and Trump Map Out a New Framework",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 15, 2026",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-05-15/xi-and-trump-map-out-a-new-framework",
-      "summary": "President Trump concluded his visit to Beijing with Xi Jinping, announcing deals and a new strategic framework for the US-China economic relationship. The summit addressed a range of economic and geopolitical issues including trade tensions, tariff levels, semiconductors, and AI. The current US-China trade status quo is set to expire in November, creating urgency around the talks. Analysts noted that while the optics were positive, major sticking points remained unresolved.",
-      "category": "politics",
-      "id": "e16c7704eeed",
-      "added_at": "2026-05-16T05:44:01.437674Z",
-      "timestamp": "2026-05-16T05:44:01.437674Z"
-    },
-    {
-      "headline": "ITS Logistics May Port/Rail Ramp Freight Index: Strait of Hormuz Closure Sends Fuel Shock Through Supply Chains",
-      "source": "Connect CRE",
-      "source_type": "free",
-      "date": "May 14, 2026",
-      "url": "https://www.globenewswire.com/news-release/2026/05/14/3295091/0/en/ITS-Logistics-May-Port-Rail-Ramp-Freight-Index-Strait-of-Hormuz-Closure-Sends-Fuel-Shock-Through-Supply-Chains.html",
-      "summary": "ITS Logistics released its May Port/Rail Ramp Freight Index reporting elevated status across Atlantic and Gulf port regions, with container termination challenges at key West Coast gateways. The ongoing closure of the Strait of Hormuz is pushing fuel costs higher, with retail diesel reaching $5.639 per gallon as of May 11\u2014a jump of nearly 29 cents since the end of April. FTR Transportation Intelligence reported spot market rates approached all-time highs during the week of May 8, driven by fuel cost pass-through and tightening capacity. The Commercial Vehicle Safety Alliance's annual International Roadcheck began May 12, with an out-of-service rate of 31.4% further tightening trucking capacity.",
-      "category": "supply-chain",
-      "id": "04f148bb97d9",
-      "added_at": "2026-05-16T05:44:01.437674Z",
-      "timestamp": "2026-05-16T05:44:01.437674Z"
-    },
-    {
-      "headline": "Starbucks Plans First Corporate Tech Office in India to Cut Costs",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 16, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/starbucks-to-open-first-corporate-office-in-india-for-tech-jobs",
-      "summary": "Starbucks Corp. announced plans to open a technology office in India as part of a broader initiative to cut $2 billion in costs. The new hub is slated for the company's fiscal year 2027, which begins in October, according to an internal message seen by Bloomberg News. The India location will be Starbucks' first corporate office in the country, and the company expects to begin recruiting once a site is selected later this year.",
-      "category": "business",
-      "id": "9ae3f5f2a923",
-      "added_at": "2026-05-16T07:34:30.655145Z",
-      "timestamp": "2026-05-16T07:34:30.655145Z"
-    },
-    {
-      "headline": "Fed Names Powell Chair Pro Tempore Until Warsh Sworn In",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 16, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-15/fed-says-powell-will-be-chair-pro-tempore-until-warsh-sworn-in",
-      "summary": "The Federal Reserve named Jerome Powell as temporary chair of the Board of Governors until his successor Kevin Warsh is officially sworn in, according to a central bank statement released Friday. Some board members issued a statement opposing the action, saying 'we do not support an unlimited timeframe for temporary chair designation.' The transition marks a leadership change at the Fed as Warsh prepares to assume the role of Federal Reserve Chair.",
-      "category": "economics",
-      "id": "23faec958c54",
-      "added_at": "2026-05-16T07:34:30.655145Z",
-      "timestamp": "2026-05-16T07:34:30.655145Z"
-    },
     {
       "headline": "NextEra Energy Is Said to Be in Talks to Acquire Dominion",
       "source": "Bloomberg",
@@ -1565,6 +1265,229 @@
       "id": "174c5f42589b",
       "added_at": "2026-05-18T23:53:21.769973Z",
       "timestamp": "2026-05-18T23:53:21.769973Z"
+    },
+    {
+      "item_index": 2,
+      "headline": "Everything's coming up roses: Flower wholesaler plants roots in Commerce with $34M acquisition",
+      "source": "The Real Deal",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://therealdeal.com/la/2026/05/18/los-angeles-flower-seller-acquires-commerce-warehouse/",
+      "summary": "Holland Flower Market, a local importer and wholesaler of fresh-cut flowers, acquired a 91,010-square-foot industrial facility at 5555 East [address truncated in feed] in Commerce, California for $34 million. The acquisition represents an expansion of the company's footprint in the Los Angeles industrial corridor. The buyer is described as a local operator deepening its presence in the region with the larger warehouse.",
+      "category": "socal",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "c680d244f8bb",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z",
+      "submarkets": [
+        "los-angeles"
+      ]
+    },
+    {
+      "item_index": 9,
+      "headline": "At the Milken Institute Global Conference",
+      "source": "Los Angeles Business Journal",
+      "source_type": "free",
+      "date": "May 18, 2026",
+      "url": "https://labusinessjournal.com/featured/at-the-milken-institute-global-conference/",
+      "summary": "The Milken Institute held its 29th annual Global Conference in Los Angeles amid persistent global economic volatility. The four-day event drew senior capital markets participants and functioned as a stress test of current economic conditions rather than a celebration of markets. Topics reportedly centered on navigating instability across global financial and business environments.",
+      "category": "socal",
+      "secondary_categories": [],
+      "id": "d48d3268f17e_loc",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "economy"
+    },
+    {
+      "item_index": 9,
+      "headline": "At the Milken Institute Global Conference",
+      "source": "Los Angeles Business Journal",
+      "source_type": "free",
+      "date": "May 18, 2026",
+      "url": "https://labusinessjournal.com/featured/at-the-milken-institute-global-conference/",
+      "summary": "The Milken Institute held its 29th annual Global Conference in Los Angeles amid persistent global economic volatility. The four-day event drew senior capital markets participants and functioned as a stress test of current economic conditions rather than a celebration of markets. Topics reportedly centered on navigating instability across global financial and business environments.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "d48d3268f17e",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "item_index": 13,
+      "headline": "CBB Folds in Bay-Area Lender",
+      "source": "Los Angeles Business Journal",
+      "source_type": "free",
+      "date": "May 18, 2026",
+      "url": "https://labusinessjournal.com/finance/cbb-folds-in-bay-area-lender/",
+      "summary": "Ontario, California-based Citizens Business Bank completed a merger with Bay Area-based Heritage Bank of Commerce, pushing the regional lender's total assets above $20 billion. The deal represents Citizens Business Bank's largest acquisition to date. The merger extends the bank's geographic footprint into the Bay Area.",
+      "category": "socal",
+      "secondary_categories": [
+        "socal"
+      ],
+      "id": "f4f11b8b40a0_loc",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z",
+      "submarkets": [
+        "inland-empire",
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "economy"
+    },
+    {
+      "item_index": 13,
+      "headline": "CBB Folds in Bay-Area Lender",
+      "source": "Los Angeles Business Journal",
+      "source_type": "free",
+      "date": "May 18, 2026",
+      "url": "https://labusinessjournal.com/finance/cbb-folds-in-bay-area-lender/",
+      "summary": "Ontario, California-based Citizens Business Bank completed a merger with Bay Area-based Heritage Bank of Commerce, pushing the regional lender's total assets above $20 billion. The deal represents Citizens Business Bank's largest acquisition to date. The merger extends the bank's geographic footprint into the Bay Area.",
+      "category": "economy",
+      "secondary_categories": [
+        "socal"
+      ],
+      "id": "f4f11b8b40a0",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "headline": "Economic Outlook at Risk of Further Deterioration, OECD Says",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/economic-outlook-at-risk-of-further-deterioration-oecd-says",
+      "summary": "OECD Secretary General Mathias Cormann, speaking on the sidelines of a Group of Seven meeting, said risks to the global economy have worsened as the conflict in the Middle East drags on. Cormann told Bloomberg Television that the ongoing war is 'putting downward pressure on growth and upward pressure on inflation.' He said the OECD provided an initial assessment in March and will revise it in the coming weeks. The comments came as G7 finance chiefs gathered to address a new economic reality shaped by energy disruption and rising bond yields.",
+      "category": "economy",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "5fdbe9c63125",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "headline": "EU Races to Finalize US Trade Deal to Avoid More Trump Tariffs",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/eu-races-to-finalize-us-trade-deal-to-avoid-more-trump-tariffs",
+      "summary": "European Union officials met Tuesday in an effort to finalize legislation for the bloc's trade deal with the US, with failure to reach agreement risking the EU missing President Trump's July 4 deadline to have the accord in place. Trump previously threatened to hike tariffs on European auto imports to 25% from 15% because the EU had not moved quickly enough to implement the deal, which was signed nearly a year ago. The disagreement threatens to send transatlantic relations to a new low and trigger a fresh round of tariff escalation. The European Commission has said it maintains options to protect the bloc's interests if Trump follows through on the tariff threat.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics",
+        "economy"
+      ],
+      "id": "e9e15bd9e5b7",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "headline": "Google, Blackstone to Create AI Cloud Company With In-House Chips",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/google-to-create-ai-cloud-business-with-blackstone-wsj-says",
+      "summary": "Alphabet's Google agreed to create an artificial intelligence cloud business with Blackstone Inc., aiming to compete with companies like CoreWeave in a burgeoning market. The project will rely on an initial $5 billion in equity capital from Blackstone, which will become the majority owner, with the total investment worth $25 billion including leverage. The joint venture will provide data center capacity, operations, networking, and Google Cloud's Tensor Processing Units as a compute-as-a-service offering, with the first 500 megawatts of power expected online by 2027. The venture will be led by Benjamin Treynor Sloss, a veteran Google executive.",
+      "category": "economy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "01909f5b4326",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "headline": "Trump to Swear In Warsh as Fed Chair on Friday, White House Confirms",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/trump-to-swear-in-warsh-as-fed-chair-on-friday-white-house-says",
+      "summary": "Kevin Warsh will be sworn in as Federal Reserve chair by President Donald Trump on Friday during a ceremony at the White House, a White House official confirmed. Warsh will become the central bank's 17th leader, succeeding Jerome Powell, who has been serving in a temporary capacity after his official term ended last week. The US Senate confirmed Warsh earlier this month on a 54-45 vote, the slimmest confirmation margin ever for a Fed chair. Warsh takes the helm as the Fed faces elevated inflation driven by war-related energy price shocks and rising long-term Treasury yields.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "5e0c2d02f88b",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "headline": "Extended Oil Shock Spells Higher, Sticky Inflation",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-18/extended-oil-shock-spells-higher-sticky-inflation-video",
+      "summary": "Bloomberg Television aired an analysis segment with Yelena Shulyatyeva, Senior US Economist at The Conference Board, examining the implications of a prolonged oil shock for inflation expectations. Shulyatyeva discussed the disconnect between inflation priced into 10-year Treasury yields and near-term market pricing for price rises. The analysis addressed whether elevated inflation is set to persist for an extended period or whether 10-year yields have moved beyond fundamentals. The segment aired as new Federal Reserve Chair Kevin Warsh prepares to take office amid back-to-back hot inflation data.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "8e4c8c009004",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "headline": "Google and Blackstone to Create New AI Cloud Company",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 18, 2026",
+      "url": "https://www.wsj.com/tech/ai/google-and-blackstone-to-create-new-ai-cloud-company-0e35b91f",
+      "summary": "Google and Blackstone plan to launch a new U.S.-based artificial intelligence cloud company using Google's specialized Tensor Processing Unit (TPU) chips, the Wall Street Journal reported, citing sources. Blackstone, the world's largest alternative asset manager, will contribute an initial $5 billion in equity and hold a majority stake in the unnamed venture. Including leverage, the total investment value is expected to reach $25 billion. The venture aims to compete with companies like CoreWeave, with plans to bring 500 megawatts of data center capacity online in 2027.",
+      "category": "economy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "5de274517b80",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "headline": "Home Depot Reports Q1 Fiscal 2026 Results; Reaffirms Full-Year Guidance",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.wsj.com/business/retail/home-depot-earnings-q1-2026",
+      "summary": "Home Depot reported Q1 fiscal 2026 sales of $41.8 billion, up 4.8% from the same period a year earlier, beating analyst consensus estimates of approximately $41.5 billion. Net earnings were $3.3 billion, or $3.30 per diluted share, compared with $3.4 billion, or $3.45 per diluted share, in Q1 fiscal 2025; adjusted EPS came in at $3.43 versus $3.56 a year prior. Comparable sales increased 0.6% company-wide, with U.S. comps up 0.4%. The company reaffirmed its full-year fiscal 2026 guidance, calling for total sales growth of 2.5% to 4.5% and adjusted EPS growth of up to 4%.",
+      "category": "industries",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "9e68fd24fc2b",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "headline": "Treasury Yields Near One-Year Highs as US-Iran Deal Uncertainty Persists",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 19, 2026",
+      "url": "https://www.wsj.com/markets/bonds/treasury-yields-iran-deal-inflation-2026",
+      "summary": "The yield on the 10-year U.S. Treasury note hovered around 4.6% on Tuesday, pausing near one-year highs as renewed optimism surrounding a potential U.S.-Iran agreement eased some inflation concerns. President Trump said he suspended a planned strike on Iran after appeals from Saudi Arabia, Qatar, and the UAE, citing continued prospects for a deal. The 30-year Treasury bond yield remained elevated near 5.13%, and markets currently expect the Federal Reserve to leave the fed funds rate unchanged through year-end, though the implied probability of an additional 25 basis point rate hike has risen to approximately 40%. Investors are also awaiting the latest FOMC minutes and flash U.S. PMI data for additional clues on monetary policy and economic activity.",
+      "category": "economy",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "c634b10642ea",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
+    },
+    {
+      "headline": "2026 Strait of Hormuz Crisis \u2014 Wikipedia",
+      "source": "Wikipedia",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "summary": "Major container shipping companies including Maersk, CMA CGM, and Hapag-Lloyd suspended transits through the Strait of Hormuz and related routes including the Red Sea following the U.S.-Israeli conflict with Iran that began February 28. Brent crude oil prices surpassed $100 per barrel on March 8 and peaked at $126 per barrel, representing the largest monthly oil price increase on record. Iran on May 5 established the Persian Gulf Strait Authority to regulate maritime transit, and on May 13 an Indian-flagged cargo ship was struck by a projectile off the coast of Oman, indicating continued hostilities despite a temporary ceasefire. Houthi-controlled Yemen also resumed attacks on Red Sea commercial shipping, rerouting Suez Canal traffic around Africa's Cape of Good Hope.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy",
+        "policy"
+      ],
+      "id": "2635478d4523",
+      "added_at": "2026-05-19T11:51:29.633435Z",
+      "timestamp": "2026-05-19T11:51:29.633435Z"
     }
   ],
   "settings": {
