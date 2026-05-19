@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-19T16:00:08.503Z",
-  "elapsed_seconds": 5.4,
+  "harvested_at": "2026-05-19T18:00:05.865Z",
+  "elapsed_seconds": 2.7,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 92,
+  "articles_count": 96,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 14,
+      "count": 18,
       "total": 50,
       "error": null
     },
@@ -22,7 +22,7 @@
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 7,
+      "count": 5,
       "total": 10,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 22,
+      "count": 24,
       "total": 99,
       "error": null
     },
@@ -118,6 +118,41 @@
     }
   ],
   "articles": [
+    {
+      "headline": "$217 Million Just Hit the Table for Trucking Safety and CDL Development — Here’s Who Can Apply and What It Means for Your Operation",
+      "url": "https://www.freightwaves.com/news/217-million-just-hit-the-table-for-trucking-safety-and-cdl-development-heres-who-can-apply-and-what-it-means-for-your-operation",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 17:12:39 +0000",
+      "description": "On Monday, May 18, U.S. Transportation Secretary Sean P. Duffy announced that FMCSA is deploying $217 million across four grant programs targeting trucking safety enforcement, CDL program modernization, technology deployment at roadside inspections, and career training for military veterans entering"
+    },
+    {
+      "headline": "Benchmark diesel down, futures market starts to tick upward",
+      "url": "https://www.freightwaves.com/news/benchmark-diesel-down-futures-market-starts-to-tick-upward",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 17:01:46 +0000",
+      "description": "The benchmark price of diesel used fo most fuel surcharges declined this week. The post Benchmark diesel down, futures market starts to tick upward appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Same Repair. Same Truck. Higher Invoice. Here Is the Number Behind What You Are Paying at the Parts Counter Right Now.",
+      "url": "https://www.freightwaves.com/news/same-repair-same-truck-higher-invoice-here-is-the-number-behind-what-you-are-paying-at-the-parts-counter-right-now",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 16:55:50 +0000",
+      "description": "On October 17, 2025, President Trump signed a proclamation under Section 232 of the Trade Expansion Act of 1962, imposing a 25% tariff on imported medium and heavy-duty trucks and truck parts — Class 3 through Class 8 vehicles, engines, transmissions, tires, chassis components. It took effect Novemb"
+    },
+    {
+      "headline": "13,273 Trucks Got Parked During Blitz Week. If Your Violation Is Wrong, You Have a Real Way to Fight It.",
+      "url": "https://www.freightwaves.com/news/13273-trucks-got-parked-during-blitz-week-if-your-violation-is-wrong-you-have-a-real-way-to-fight-it",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 16:39:06 +0000",
+      "description": "The 2026 CVSA International Roadcheck ran May 12 through 14 — but enforcement didn&#8217;t stop there. Blitz week ran May 10 through 17, and by the time it closed out, the numbers were more significant than what the three-day event alone produced: 38,926 inspections. 69,446 violations. 13,273 out-of"
+    },
+    {
+      "headline": "BNSF ops chief out after just five months",
+      "url": "https://www.freightwaves.com/news/bnsf-ops-chief-out-after-just-five-months",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 15:14:00 +0000",
+      "description": "BNSF has a new operations chief after Matt Garland lasted just five months as COO. The post BNSF ops chief out after just five months appeared first on FreightWaves ."
+    },
     {
       "headline": "Bankruptcy court approves STG Logistics reorganization plan",
       "url": "https://www.freightwaves.com/news/bankruptcy-court-approves-stg-logistics-reorganization-plan",
@@ -210,11 +245,18 @@
       "description": "An investor’s surprise bid for ZIM Integrated Shipping Services would sweeten the buy price and keep the liner under Israeli control. The post Could new Zim offer start bidding war? appeared first on FreightWaves ."
     },
     {
-      "headline": "Labor Dept. jumps in on the push for driver English language proficiency",
-      "url": "https://www.freightwaves.com/news/labor-dept-jumps-in-on-the-push-for-driver-english-language-proficiency",
-      "source": "FreightWaves",
-      "raw_date": "Mon, 18 May 2026 15:03:59 +0000",
-      "description": "The federal government’s push on English language proficiency for drivers now has the Department of Labor in the mix. The post Labor Dept. jumps in on the push for driver English language proficiency appeared first on FreightWaves ."
+      "headline": "Senate approves Kloster for seat on Surface Transportation Board",
+      "url": "https://joc.com/article/senate-approves-kloster-for-seat-on-surface-transportation-board-6223667",
+      "source": "Journal of Commerce",
+      "raw_date": "Tue, 19 May 2026 16:41:14 GMT",
+      "description": "Richard Kloster joins the STB at an important time for the agency as it reviews the proposed $85 billion merger of Union Pacific and Norfolk Southern, which would be the largest US rail transaction in nearly three decades."
+    },
+    {
+      "headline": "Ocean carriers face growing order book nearing 40% of in-service fleet",
+      "url": "https://joc.com/article/ocean-carriers-face-growing-order-book-nearing-40-of-in-service-fleet-6223671",
+      "source": "Journal of Commerce",
+      "raw_date": "Tue, 19 May 2026 16:01:14 GMT",
+      "description": "Yet liner executives insist that much of the surplus tonnage can be absorbed by a combination of vessel management, trade imbalances, increased scrapping, and the ongoing effects of geopolitical disruptions."
     },
     {
       "headline": "Software vendor offers proposal to establish detention, demurrage accountability",
@@ -231,18 +273,11 @@
       "description": "Main construction started Friday and includes the development of four berths capable of handling ships of more than 21,000 TEUs, plus 15 berths for regional feeder vessels."
     },
     {
-      "headline": "AD Ports to expand Europe, Asia footprints with MBS Logistics takeover",
-      "url": "https://joc.com/article/ad-ports-to-expand-europe-asia-footprints-with-mbs-logistics-takeover-6222582",
-      "source": "Journal of Commerce",
-      "raw_date": "Mon, 18 May 2026 15:47:14 GMT",
-      "description": "The Abu Dhabi group is following its larger Dubai-based neighbor DP World in growing its end-to-end reach across the container shipping sector."
-    },
-    {
-      "headline": "‘Montgomery’ ruling likely to raise pressure on trucking insurance, broker vetting",
-      "url": "https://joc.com/article/montgomery-ruling-likely-to-raise-pressure-on-trucking-insurance-broker-vetting-6222536",
-      "source": "Journal of Commerce",
-      "raw_date": "Mon, 18 May 2026 15:00:16 GMT",
-      "description": "Trucking industry attorneys say last week’s decision by the Supreme Court is likely to intensify scrutiny of carrier selection practices and insurance coverage."
+      "headline": "Mondelēz taps AI for distribution centers to cut costs",
+      "url": "https://www.supplychaindive.com/news/mondelez-taps-ai-for-distribution-centers-to-cut-costs/820067/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Tue, 19 May 2026 13:30:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/HEHkjGkcTUeTBDpLs32ddwbRxjfG5B1R6k2E4T7SxDU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg5NDQ3NDUzLmpwZw==.webp\"/></div></figure><p>The snack and confectionery manufacturer plans to bring in-house more manu"
     },
     {
       "headline": "Producer prices jump to 3-year high, spurred by war shortages",
@@ -273,25 +308,11 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/aHfzkbK4Xn6guoYGsB7WBppk5LF34XszAqxPSzwc_AE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjc2MTI2Nzk5LmpwZw==.webp\"/></div></figure><p>The two countries will use the board to manage bilateral trade for certain"
     },
     {
-      "headline": "NAM calls for making the USMCA even more manufacturing friendly",
-      "url": "https://www.supplychaindive.com/news/nam-calls-for-making-the-usmca-even-more-manufacturing-friendly/820481/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Mon, 18 May 2026 11:09:05 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/Da5WdH8ZX-Q7Iv5Kwcdt2krx9LfaSjhQFINbvAxqrd8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk2NTMwNDIxX3FDYm5qemkuanBn.webp\"/></div></figure><p>The &ldquo;most pro-U.S. manufacturing trade agreement in history&"
-    },
-    {
-      "headline": "USPS to align dimensional pricing closer to FedEx, UPS",
-      "url": "https://www.supplychaindive.com/news/usps-to-align-dimensional-pricing-closer-to-fedex-ups/820305/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Mon, 18 May 2026 11:02:26 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/e2IXKBbdhfpT7IL7BzkezqikXqx47Pghty7VFKEyKt0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjY3NDQwMDU2LmpwZw==.webp\"/></div></figure><p>The agency plans to round up any fraction of an inch for several of its se"
-    },
-    {
-      "headline": "Port of Los Angeles sees April volume jump despite Iran war shadow",
-      "url": "https://www.supplychaindive.com/news/port-of-los-angeles-sees-april-volume-jump-despite-iran-war-shadow/820399/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Mon, 18 May 2026 10:43:55 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/cveyiKekbknrvDJXTjwMkJ3MyUNwmlEfGdAQT65l5ck/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDYzOTAxMjMxX0hFZnNpUGIuanBn.webp\"/></div></figure><p>Spring and summer goods are arriving at the port, with back-to-sch"
+      "headline": "DC labor gets an AI boost",
+      "url": "https://www.dcvelocity.com/technology/dc-labor-gets-an-ai-boost",
+      "source": "DC Velocity",
+      "raw_date": "Tue, 19 May 2026 16:37:52 +0000",
+      "description": "Warehouse managers in 2026 face steep challenges in managing storage, throughput, and fulfillment in a business climate that’s rife with uncertainty. On any given day, geopolitical developments or changes in tariff policy can trigger a surge in the amount of inventory that needs to be stored or ship"
     },
     {
       "headline": "Locus Robotics acquires Nexera Robotics",
@@ -299,13 +320,6 @@
       "source": "DC Velocity",
       "raw_date": "Tue, 19 May 2026 12:30:02 +0000",
       "description": "Warehouse automation and autonomous mobile robot (AMR) company Locus Robotics has acquired Nexera Robotics , a Vancouver-based developer of advanced robotic grasping technology, the companies said today. Financial terms of the deal were not disclosed. Nexera will be wholly owned and operated by Locu"
-    },
-    {
-      "headline": "Parcel express services evolve as market fragmentation accelerates",
-      "url": "https://www.dcvelocity.com/transportation/parcel-express-services-evolve-as-market-fragmentation-accelerates",
-      "source": "DC Velocity",
-      "raw_date": "Mon, 18 May 2026 15:10:07 +0000",
-      "description": "Andy Dyer, chief executive officer of transportation management specialist AFS , which manages some $3 billion in parcel spend annually for its customers, has seen the parcel carrier market go through numerous disruptions, evolutions, and reinventions over his more than 30 years in the business. Yet"
     },
     {
       "headline": "Everything’s coming up roses: Flower wholesaler plants roots in Commerce with $34M acquisition",
@@ -329,6 +343,62 @@
       "description": "A mixed-use residential development is slated to rise across the street from Apple’s forthcoming office complex in Mid-City, bordering the edge of Culver City.&#160; An application filed with the Los Angeles Department of City Planning calls for replacing existing small commercial and residential bu"
     },
     {
+      "headline": "North American Development Group Lands $106M to Build Boca Raton Rental",
+      "url": "https://commercialobserver.com/2026/05/north-american-development-group-nuvo-midtown-boca/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 17:52:59 +0000",
+      "description": "North American Development Group (NADG) scored a $105.5 million construction loan for a multifamily development in Boca Raton, Fla., property records show. U.S. Bank, acting as administrative agent for a group of lenders, provided the financing for the 294-unit Nuvo Midtown Boca. The project will in"
+    },
+    {
+      "headline": "U.K. Collectibles Brand House of Spells to Open in 20K SF at 234 West 42nd Street",
+      "url": "https://commercialobserver.com/2026/05/house-of-spells-lease-234-west-42nd-street/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 17:31:42 +0000",
+      "description": "The British are invading Times Square with a roughly 20,000-square-foot lease for the first U.S. outpost of collectibles brand House of Spells, Commercial Observer has learned. House of Spells, a U.K.-based vendor selling merchandise from franchises such as Harry Potter, Lord of the Rings and Game o"
+    },
+    {
+      "headline": "Hudson Bay Capital Provides $129M to Develop Luxury Apartments in Houston",
+      "url": "https://commercialobserver.com/2026/05/hudson-bay-capital-luxury-apartments-houston/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 17:10:11 +0000",
+      "description": "One of the most exclusive neighborhoods in Houston is getting some new luxury apartments. Sade Real Estate has secured $128.5 million to finance the development of the Arno, a 168-unit luxury residential community in Houston’s River Oaks neighborhood, a wealthy enclave just outside downtown, accordi"
+    },
+    {
+      "headline": "KKR Provides $80M Refi on Pittsburgh Apartments",
+      "url": "https://commercialobserver.com/2026/05/kkr-pittsburgh-apartments/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 17:08:53 +0000",
+      "description": "Corebridge Real Estate Investors has landed an $80 million loan to refinance a multifamily property in Pittsburgh, Commercial Observer has learned, KKR supplied the floating-rate, interest-only loan for Corebridge’s 377-unit Brewers Block apartment complex in Pittsburgh’s “Robotics Row” district. Th"
+    },
+    {
+      "headline": "Here Come the Trampoline Parks: JLL Report at ICSC",
+      "url": "https://commercialobserver.com/2026/05/trampoline-parks-growth-2026/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 17:00:31 +0000",
+      "description": "The surprise retail category bouncing hardest into American hearts is the trampoline park. At least that was one of the primary takeaways from a new entertainment report that JLL unveiled at ICSC in Las Vegas Tuesday morning. The key data point was that there are more than 350 trampoline parks and k"
+    },
+    {
+      "headline": "CRE Firm Ally Bridge Group Signs 6K-SF Deal at Rudin’s 560 Lexington Avenue",
+      "url": "https://commercialobserver.com/2026/05/ally-bridge-group-lease-rudin-560-lexington-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 16:20:41 +0000",
+      "description": "A real estate investment firm with a healthcare and life sciences focus has signed a lease at 560 Lexington Avenue in Midtown East, Commercial Observer has learned. Ally Bridge Group, which finances and supports life sciences, medical technology and biopharmaceutical companies, has signed a deal for"
+    },
+    {
+      "headline": "AI Is in the Office in New York, and Other Observations",
+      "url": "https://commercialobserver.com/2026/05/ai-office-leasing-new-york-event/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 16:15:11 +0000",
+      "description": "Artificial intelligence firms are filling office buildings at an accelerated pace recently, but that doesn’t bring much comfort to landlords and brokers tracking layoffs in the tech industry thanks to machine learning taking the jobs of the programmers who made it. The troublesome topic came up seve"
+    },
+    {
+      "headline": "Ed Hogan Has Quietly Shaped Much of How New Yorkers Shop",
+      "url": "https://commercialobserver.com/2026/05/ed-hogan-fifth-avenue-retail-jvp/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 16:00:34 +0000",
+      "description": "With the eye of an architect but the instincts of a retail professional, Ed Hogan has helped transform some of the dingiest crevices of New York City into highly sought-after locations and kept one of the toniest corridors in the five boroughs an elevated shopping destination. But, now, after helpin"
+    },
+    {
       "headline": "Building Equity Management Buys Historic Nolita Retail Building for $45M",
       "url": "https://commercialobserver.com/2026/05/nolita-236-bowery-sale-building-equity-management/",
       "source": "Commercial Observer",
@@ -343,7 +413,7 @@
       "description": "The words “Can you change this?” might have more than normal resonance in a bank these days. In the last decade, somewhere between 22 million and 36 million square feet of bank branches closed nationwide, an amount of space potentially larger than the entire Cincinnati office market, according to Be"
     },
     {
-      "headline": "ICSC Panel: Keep Your Eyes Wide Open with AI",
+      "headline": "ICSC Panel: Keep Your Eyes Wide Open With AI",
       "url": "https://commercialobserver.com/2026/05/icsc-panel-keep-your-eyes-wide-open-with-ai/",
       "source": "Commercial Observer",
       "raw_date": "Tue, 19 May 2026 13:26:19 +0000",
@@ -392,60 +462,18 @@
       "description": "Marketing intelligence platform Profound has leased 30,000 square feet at GFP Real Estate’s 5-9 Union Square West, Commercial Observer has learned. The lease spans two full floors of the eight-story building, according to tenant broker Buchbinder &#38; Warren Realty Group. Asking rent was $75 per sq"
     },
     {
-      "headline": "Accounting Firm Prosperity Partners Signs 24K-SF Lease at 575 Madison Avenue",
-      "url": "https://commercialobserver.com/2026/05/prosperity-partners-lease-575-madison-avenue/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 18:44:26 +0000",
-      "description": "An accounting and business consulting firm is relocating its offices to Midtown’s 575 Madison Avenue. The Chicago-based Prosperity Partners took 24,426 square feet on the entire ​​11th floor of the Steinberg &#38; Pokoik-owned, 25-story office tower between East 56th and East 57th streets, according"
+      "headline": "Photos: Strong winds fuel Sandy fire in Simi Valley",
+      "url": "https://www.latimes.com/california/story/2026-05-19/photos-strong-winds-fuel-sandy-fire-in-simi-valley",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 16:40:06 GMT",
+      "description": "The Sandy fire started in windy conditions and spread into part of a Simi Valley neighborhood at the foot of a brush-covered hillside."
     },
     {
-      "headline": "MAG Partners Hires Andrew Staniforth as Co-Head of Development",
-      "url": "https://commercialobserver.com/2026/05/mag-partners-hires-andrew-staniforth-co-head-development/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 18:35:21 +0000",
-      "description": "MaryAnne Gilmartin’s MAG Partners has hired Andrew Staniforth as co-head of development, Commercial Observer has learned. Staniforth will lead development across MAG’s portfolio in New York City and other major markets alongside fellow co-head Aida Stoddard, who joined the development firm in 2023. "
-    },
-    {
-      "headline": "Industrial Realty Group, Sachem Capital Merge to Form $3.4B Industrial REIT",
-      "url": "https://commercialobserver.com/2026/05/industrial-realty-group-sachem-capital-merge-form-reit/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 18:15:36 +0000",
-      "description": "One of the largest private owners of U.S. industrial real estate is merging with a public mortgage trust. Industrial Realty Group (IRG) and Sachem Capital have agreed to form IRG Realty Trust, a $3.4 billion publicly traded real estate investment trust (REIT) that leverages acquisitions and portfoli"
-    },
-    {
-      "headline": "The World Cup in the New York Area Isn’t the Boon Hotels Had Hoped For",
-      "url": "https://commercialobserver.com/2026/05/world-cup-new-york-hotels/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 18:13:36 +0000",
-      "description": "On May 11, New York Mayor Zohran Mamdani dribbled a soccer ball through a sea of excited children before misfiring at the goal on an asphalt road in front of PS 32 in the Bronx. The mayor was on hand that Monday to promote Soccer Streets, a city program that would temporarily close roadways in [&#82"
-    },
-    {
-      "headline": "First LIRR Strike Since 1994 Hits NYC CRE Industry",
-      "url": "https://commercialobserver.com/2026/05/lirr-strike-commercial-real-estate/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 17:49:56 +0000",
-      "description": "The first Long Island Rail Road (LIRR) strike in more than 30 years has added a new obstacle for a New York City commercial real estate industry that has faced a series of challenges in recent years, forcing many to work from home. LIRR workers from five unions went on strike at midnight Saturday mo"
-    },
-    {
-      "headline": "Law Firm Fox Rothschild Moving to Another Related Ross Building in West Palm",
-      "url": "https://commercialobserver.com/2026/05/fox-rothschild-west-palm-beach-15-cityplace-related-ross/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 17:33:17 +0000",
-      "description": "Law firm Fox Rothschild will relocate from one Related Ross-owned office building to another in Downtown West Palm Beach, Fla. The firm signed a 17,250-square-foot lease at the 15 CityPlace office development, which remains under construction, according to Related Ross. The deal is for 10 years. The"
-    },
-    {
-      "headline": "Designer Daniel Romualdez Moves to 6K SF at Joseph P. Day’s 10 East 40th Street",
-      "url": "https://commercialobserver.com/2026/05/daniel-romualdez-lease-10-east-40th-street/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 16:31:12 +0000",
-      "description": "Interior architect and designer Daniel Romualdez is taking his renowned firm to Midtown’s Mercantile Building. Romualdez’s design firm, Daniel Romualdez Architect P.C., has leased 5,670 square feet at the 10 East 40th Street office tower, according to tenant broker Lee &#38; Associates NYC. The 48-s"
-    },
-    {
-      "headline": "Southern Land Company Launches Mortgage Division",
-      "url": "https://commercialobserver.com/2026/05/southern-land-company-mortgage-division/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 16:08:37 +0000",
-      "description": "Forty years after its founding as a Tennessee developer, Southern Land Company is writing a new chapter. The Nashville-based development firm has launched an in-house mortgage division, SLC Lending, aimed at complimenting its homebuilding and sales operations, Commercial Observer can first report. T"
+      "headline": "Tennis great Billie Jean King graduates from Cal State L.A. 65 years after enrolling",
+      "url": "https://www.latimes.com/sports/story/2026-05-19/billie-jean-king-graduates-from-cal-state-los-angeles-65-years-after-enrolling",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 16:26:16 GMT",
+      "description": "Billie Jean King, 82, received her bachelor's degree in history from the same school she attended more than 60 years ago and also gave a commencement speech."
     },
     {
       "headline": "Man dies after car plunges 500 feet off Highway 1 cliff onto beach",
@@ -462,7 +490,7 @@
       "description": "The Islamic Center of San Diego is mourning three people killed in Monday's attack, including a security guard praised by police for his actions."
     },
     {
-      "headline": "Sandy fire growth stalls overnight, evacuation warnings lifting in Ventura County",
+      "headline": "Sandy fire growth stalls overnight, containment climbs to 5%",
       "url": "https://www.latimes.com/california/story/2026-05-19/sandy-fire-evacuations",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 14:14:32 GMT",
@@ -476,18 +504,18 @@
       "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
     },
     {
-      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
-      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
-    },
-    {
       "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
       "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
       "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
+    },
+    {
+      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
+      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
     },
     {
       "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
@@ -497,11 +525,11 @@
       "description": "Pratt's loudest fans loathe modern-day L.A., and that should chill all other Angelenos. These haters would be his primary constituents and populate his brain trust if he wins."
     },
     {
-      "headline": "Forced treatment and jail: Spencer Pratt&#x27;s pledges to end homelessness stir up mayor&#x27;s race",
-      "url": "https://www.latimes.com/california/story/2026-05-19/forced-treatment-jail-spencer-pratts-pledges-to-end-homelessness-roil-mayors-race",
+      "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
+      "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
+      "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
     },
     {
       "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
@@ -511,18 +539,18 @@
       "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
     },
     {
-      "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
-      "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
+      "headline": "Forced treatment and jail: Spencer Pratt&#x27;s pledges to end homelessness stir up mayor&#x27;s race",
+      "url": "https://www.latimes.com/california/story/2026-05-19/forced-treatment-jail-spencer-pratts-pledges-to-end-homelessness-roil-mayors-race",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
+      "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
     },
     {
-      "headline": "What we know about the teens accused of attacking San Diego Islamic Center, killing 3",
+      "headline": "What we know about the pair accused of attacking San Diego Islamic Center, killing 3",
       "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-islamic-center-shooting-suspects-what-we-know",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 05:30:25 GMT",
-      "description": "Clark and a second suspect, both in their late teens, opened fire at the center Monday morning, police said. They were found minutes later dead of self-inflicted gunshot wounds, according to authorities."
+      "description": "Two people ages 17 and 18 opened fire at the center Monday morning, police said. They were found minutes later dead of self-inflicted gunshot wounds, according to authorities."
     },
     {
       "headline": "Federal agents raid homes of Ventura County immigration activists",
