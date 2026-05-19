@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-19T14:00:07.132Z",
-  "elapsed_seconds": 3.8,
+  "harvested_at": "2026-05-19T16:00:08.503Z",
+  "elapsed_seconds": 5.4,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 89,
+  "articles_count": 92,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 11,
+      "count": 14,
       "total": 50,
       "error": null
     },
@@ -22,7 +22,7 @@
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 4,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -84,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 19,
-      "total": 98,
+      "count": 22,
+      "total": 99,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 9,
+      "count": 8,
       "total": 10,
       "error": null
     },
@@ -105,7 +105,7 @@
     {
       "source": "San Diego Business Journal",
       "success": true,
-      "count": 10,
+      "count": 5,
       "total": 10,
       "error": null
     },
@@ -118,6 +118,41 @@
     }
   ],
   "articles": [
+    {
+      "headline": "Bankruptcy court approves STG Logistics reorganization plan",
+      "url": "https://www.freightwaves.com/news/bankruptcy-court-approves-stg-logistics-reorganization-plan",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 15:13:33 +0000",
+      "description": "A federal bankruptcy court in New Jersey has approved STG Logistics’ reorganization plan. The post Bankruptcy court approves STG Logistics reorganization plan appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Roadcheck Week, Supreme Court ruling tighten US freight capacity",
+      "url": "https://www.freightwaves.com/news/roadcheck-week-supreme-court-ruling-tighten-us-freight-capacity",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 14:59:55 +0000",
+      "description": "A mix of trucking enforcement activity, insurance concerns and seasonal freight demand could keep pressure on freight capacity through 2026, EASE Logistics says. The post Roadcheck Week, Supreme Court ruling tighten US freight capacity appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Is peak season here? Trans-Pacific rates level in latest week",
+      "url": "https://www.freightwaves.com/news/is-peak-season-here-trans-pacific-rates-level-in-latest-week",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 14:40:47 +0000",
+      "description": "As the peak season nears, freight rates are expected to shift from their currently high fuel-cost baselines due to seasonal demand and fleet capacity management. The post Is peak season here? Trans-Pacific rates level in latest week appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Maersk back in the Red Sea: Drewry",
+      "url": "https://www.freightwaves.com/news/maersk-back-in-the-red-sea-drewry",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 14:31:00 +0000",
+      "description": "Maersk led a growing stream of brand-name vessels transiting the Suez Canal-Red Sea route, says consultant Drewry. The post Maersk back in the Red Sea: Drewry appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Target names former Walmart executive as chief supply chain officer",
+      "url": "https://www.freightwaves.com/news/target-names-former-walmart-executive-as-chief-supply-chain-officer",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 14:10:54 +0000",
+      "description": "Target has recruited ex-Walmart exec Jeff England away from QXO to be its next chief supply chain officer. The post Target names former Walmart executive as chief supply chain officer appeared first on FreightWaves ."
+    },
     {
       "headline": "New research: Tariffs didn’t raise costs. They raised the execution standard.",
       "url": "https://www.freightwaves.com/news/new-research-tariffs-didnt-raise-costs-they-raised-the-execution-standard",
@@ -182,20 +217,6 @@
       "description": "The federal government’s push on English language proficiency for drivers now has the Department of Labor in the mix. The post Labor Dept. jumps in on the push for driver English language proficiency appeared first on FreightWaves ."
     },
     {
-      "headline": "This autonomous ship mooring system really sucks – and that’s a good thing",
-      "url": "https://www.freightwaves.com/news/this-autonomous-ship-mooring-system-really-sucks-and-thats-a-good-thing",
-      "source": "FreightWaves",
-      "raw_date": "Mon, 18 May 2026 13:57:28 +0000",
-      "description": "The biggest port in northern China is using an autonomous vacuum berthing system that secures a container ship in 30 seconds. The post This autonomous ship mooring system really sucks – and that’s a good thing appeared first on FreightWaves ."
-    },
-    {
-      "headline": "BUILD America 250 Act hands AV trucks a fed framework",
-      "url": "https://www.freightwaves.com/news/build-america-250-act-hands-av-trucks-a-fed-framework",
-      "source": "FreightWaves",
-      "raw_date": "Mon, 18 May 2026 13:27:42 +0000",
-      "description": "The BUILD America 250 Act creates the first federal framework for autonomous commercial trucks. It is not a green light. DOT has 2 years to write the safety standard; the liability question stays in front of a jury; and the bill funds retraining for drivers in the cab today. The post BUILD America 2"
-    },
-    {
       "headline": "Software vendor offers proposal to establish detention, demurrage accountability",
       "url": "https://joc.com/article/software-vendor-offers-proposal-to-establish-detention-demurrage-accountability-6222721",
       "source": "Journal of Commerce",
@@ -222,6 +243,27 @@
       "source": "Journal of Commerce",
       "raw_date": "Mon, 18 May 2026 15:00:16 GMT",
       "description": "Trucking industry attorneys say last week’s decision by the Supreme Court is likely to intensify scrutiny of carrier selection practices and insurance coverage."
+    },
+    {
+      "headline": "Producer prices jump to 3-year high, spurred by war shortages",
+      "url": "https://www.supplychaindive.com/news/producer-prices-jump-to-3-year-high-spurred-by-war-shortages/820389/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Tue, 19 May 2026 10:16:27 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/oxr2CblOQuErIhX32OAovoXnLTq3v5os7TdXVkxecG4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDg2MDcxMzAyLmpwZw==.webp\"/></div></figure><p>As the Iran war upped oil prices, transportation and warehousing costs ros"
+    },
+    {
+      "headline": "DavidsTea sets up US fulfillment after de minimis’ end raises shipping hurdles",
+      "url": "https://www.supplychaindive.com/news/davidstea-sets-up-us-fulfillment-after-de-minimis-end-raises-shipping-hurd/819746/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Tue, 19 May 2026 10:08:13 -0400",
+      "description": "<p>The tea company faced unpredictable delivery times and lower sales in the U.S. without the trade rule exemption, CEO Sarah Segal said.</p>"
+    },
+    {
+      "headline": "Target taps former Walmart exec as supply chain, logistics chief",
+      "url": "https://www.supplychaindive.com/news/target-taps-former-walmart-exec-as-supply-chain-logistics-chief/820586/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Tue, 19 May 2026 07:52:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/3TdlWd5qgsi1Q3H1BnGksZRjTLeRTO7M-jT5iWq4FxU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTUzODc3NTE1LmpwZw==.webp\"/></div></figure><p>Jeff England, who worked to improve inventory availability at&nbsp;QXO, wi"
     },
     {
       "headline": "US and China to establish trade board, tout agriculture commitments",
@@ -285,6 +327,20 @@
       "source": "The Real Deal",
       "raw_date": "Mon, 18 May 2026 18:26:00 +0000",
       "description": "A mixed-use residential development is slated to rise across the street from Apple’s forthcoming office complex in Mid-City, bordering the edge of Culver City.&#160; An application filed with the Los Angeles Department of City Planning calls for replacing existing small commercial and residential bu"
+    },
+    {
+      "headline": "Building Equity Management Buys Historic Nolita Retail Building for $45M",
+      "url": "https://commercialobserver.com/2026/05/nolita-236-bowery-sale-building-equity-management/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 15:41:47 +0000",
+      "description": "A mainstay storefront in Manhattan’s Nolita neighborhood has sold for $44.98 million, according to city records made public Monday. The four-story retail building, located at 236 Bowery, is between Prince and Stanton streets, opposite the New Museum. The selling entity, 236 Bowery, is a limited liab"
+    },
+    {
+      "headline": "Developers Are Tackling a Wave of Conversions of Mundane Buildings",
+      "url": "https://commercialobserver.com/2026/05/redeveloping-bank-branches-net-leased/",
+      "source": "Commercial Observer",
+      "raw_date": "Tue, 19 May 2026 15:22:11 +0000",
+      "description": "The words “Can you change this?” might have more than normal resonance in a bank these days. In the last decade, somewhere between 22 million and 36 million square feet of bank branches closed nationwide, an amount of space potentially larger than the entire Cincinnati office market, according to Be"
     },
     {
       "headline": "ICSC Panel: Keep Your Eyes Wide Open with AI",
@@ -392,18 +448,25 @@
       "description": "Forty years after its founding as a Tennessee developer, Southern Land Company is writing a new chapter. The Nashville-based development firm has launched an in-house mortgage division, SLC Lending, aimed at complimenting its homebuilding and sales operations, Commercial Observer can first report. T"
     },
     {
-      "headline": "BD Hotels Sells Chambers Hotel to Canadian Investment Firm for $66.2M",
-      "url": "https://commercialobserver.com/2026/05/bd-hotels-13-15-west-56th-street-hennick-company-sale/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 15:29:53 +0000",
-      "description": "Richard Born’s BD Hotels has sold the shuttered Chambers Hotel Central Park South, according to property records made public Monday. Toronto-based investment firm Hennick &#38; Company bought the 16-story property at 13-15 West 56th Street in Midtown for $66.2 million, records show. BD Hotels bought"
+      "headline": "Man dies after car plunges 500 feet off Highway 1 cliff onto beach",
+      "url": "https://www.latimes.com/california/story/2026-05-19/highway-1-cliff-car-over-edge",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 15:10:48 GMT",
+      "description": "A man died after his car fell nearly 500 feet off a Highway 1 cliff near Santa Cruz on Monday, according to authorities."
     },
     {
-      "headline": "Barings Refis Williamsburg Wharf With $374M Loan",
-      "url": "https://commercialobserver.com/2026/05/barings-naftali-access-industries-williamsburg-brooklyn-wharf/",
-      "source": "Commercial Observer",
-      "raw_date": "Mon, 18 May 2026 15:12:41 +0000",
-      "description": "A joint venture between Naftali Group and Access Industries has landed a $374.35 million loan to refinance a master-planned residential development along the Williamsburg waterfront in Brooklyn, Commercial Observer can first report. Barings supplied the loan for the first phase of the sponsorship’s "
+      "headline": "Security guard&#x27;s &#x27;heroic&#x27; actions saved others in San Diego mosque attack, officials say",
+      "url": "https://www.latimes.com/california/story/2026-05-19/san-diego-mosque-attack-security-guards-heroic-actions-saved-others-officials-say",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 14:35:55 GMT",
+      "description": "The Islamic Center of San Diego is mourning three people killed in Monday's attack, including a security guard praised by police for his actions."
+    },
+    {
+      "headline": "Sandy fire growth stalls overnight, evacuation warnings lifting in Ventura County",
+      "url": "https://www.latimes.com/california/story/2026-05-19/sandy-fire-evacuations",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 14:14:32 GMT",
+      "description": "A wind-driven fire that broke out in Ventura County Monday morning stalled overnight, allowing some residents to return home."
     },
     {
       "headline": "Humans are killing California Joshua trees. Can fungi save them?",
@@ -413,25 +476,18 @@
       "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
     },
     {
-      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
-      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
-    },
-    {
-      "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
-      "url": "https://www.latimes.com/environment/story/2026-05-19/cherry-season-record-warmth",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
-    },
-    {
       "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
       "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
       "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
+    },
+    {
+      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
+      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
     },
     {
       "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
@@ -446,6 +502,13 @@
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
       "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
+    },
+    {
+      "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
+      "url": "https://www.latimes.com/environment/story/2026-05-19/cherry-season-record-warmth",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
     },
     {
       "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
@@ -595,13 +658,6 @@
       "description": "La administración Trump suspendió 1,100 millones de dólares en fondos de Medicaid de California por denuncias de fraude, lo que amenaza la atención domiciliaria de 900,000 personas mayores y personas con discapacidad."
     },
     {
-      "headline": "We made him drive 9,000 miles to talk to CA voters",
-      "url": "https://calmatters.org/newsletter/california-election-votingmatters-interview/",
-      "source": "CalMatters",
-      "raw_date": "Mon, 18 May 2026 13:00:00 +0000",
-      "description": "Remember talking to people with civility about politics — even on contentious issues? Meet the CalMatters guy who has made that happen dozens of times. CalMatters’ director of partnerships, Dan Hu, has been traveling across the state to talk with Californians about the upcoming election. His VotingM"
-    },
-    {
       "headline": "At the Milken Institute Global Conference",
       "url": "https://labusinessjournal.com/featured/at-the-milken-institute-global-conference/",
       "source": "Los Angeles Business Journal",
@@ -684,41 +740,6 @@
       "source": "San Diego Business Journal",
       "raw_date": "Mon, 18 May 2026 17:10:47 +0000",
       "description": "Luxury residential real estate is increasingly behaving less like traditional housing and more like a distinct global asset class. Historically, housing markets moved largely in tandem with mortgage rates, local employment trends, and consumer affordability. Today, however, the ultra-luxury segment "
-    },
-    {
-      "headline": "SERVANT LEADERS CELEBRATED",
-      "url": "https://www.sdbj.com/leadership/servant-leaders-celebrated/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=servant-leaders-celebrated",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:01:14 +0000",
-      "description": "The San Diego Business Journal held its 2026 CEO of the Year Awards ceremony April 29. The event honored top chief executives from across a variety of industries and company sizes, including a Lifetime Achievement Award for Blanchard CEO Ken Blanchard – a pioneer in the servant leadership movement. "
-    },
-    {
-      "headline": "Axos Hits $1B in Small Biz Deposits",
-      "url": "https://www.sdbj.com/finance/banks/axos-hits-1b-in-small-biz-deposits/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=axos-hits-1b-in-small-biz-deposits",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:57 +0000",
-      "description": "SAN DIEGO – More than two decades after its founding, Axos Bank (NYSE: AX) rea- ched a 10-figure milestone. The digital banking and financial services provider announced in early May that it surpassed $1 billion in small business deposits from its more than 40,000 small business customers across the"
-    },
-    {
-      "headline": "Food Bank CEO Growing Organization to Meet Growing Needs",
-      "url": "https://www.sdbj.com/nonprofits/food-bank-ceo-growing-organization-to-meet-growing-needs/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=food-bank-ceo-growing-organization-to-meet-growing-needs",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:53 +0000",
-      "description": "As CEO of the Jacobs &#38; Cushman San Diego Food Bank, Casey Castillo oversees a $113.6 million organization with more than $100 million in net assets, directing 90% of expenses to program services. In 2025, the Food Bank distributed 52.9 million pounds of food and supplies — equivalent to more tha"
-    },
-    {
-      "headline": "SD Symphony Marches to Beat of Its Own Drum",
-      "url": "https://www.sdbj.com/entertainment-2/sd-symphony-marches-to-beat-of-its-own-drum/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sd-symphony-marches-to-beat-of-its-own-drum",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:50 +0000",
-      "description": "SAN DIEGO – When San Diego Symphony President and CEO Martha Gilmer sets foot in the recording booth, she feels something special. “Sitting and listening to the playbacks, I am just in awe of what this orchestra can do,” she said. The Symphony’s resonance is not just musical. Founded in 1910, the Sy"
-    },
-    {
-      "headline": "EDC’s Mark Cafferty Positions San Diego as a Global Economic Force",
-      "url": "https://www.sdbj.com/nonprofits/edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=edcs-mark-cafferty-positions-san-diego-as-a-global-economic-force",
-      "source": "San Diego Business Journal",
-      "raw_date": "Mon, 18 May 2026 12:00:47 +0000",
-      "description": "Mark Cafferty tied for the CEO of the Year Award in the Business Nonprofit Category. As president and CEO of San Diego Regional Economic Development Corporation (EDC), Cafferty sits at the center of a unique partnership of business, trade, community and education leaders who have reinvented the regi"
     },
     {
       "headline": "Retail market stays up, defying economic headwinds",
