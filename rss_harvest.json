@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-19T06:00:12.727Z",
-  "elapsed_seconds": 4.2,
+  "harvested_at": "2026-05-19T08:00:10.373Z",
+  "elapsed_seconds": 4.3,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 78,
+  "articles_count": 77,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 18,
+      "count": 17,
       "total": 97,
       "error": null
     },
@@ -437,7 +437,7 @@
       "url": "https://www.latimes.com/california/story/2026-05-18/largest-fire-ever-recorded-burns-santa-rosa-island-endangering-gem-of-california-coast",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 22:22:57 GMT",
-      "description": "A wildfire sparked by the flare of a shipwrecked mariner has burned nearly a fifth of Santa Rosa Island and marks what officials called the largest blaze recorded on the island in modern history."
+      "description": "A wildfire sparked by the flare of a shipwrecked mariner has burned around one-fourth of Santa Rosa Island and marks what officials called the largest blaze recorded on the island in modern history."
     },
     {
       "headline": "A gray wolf has entered Sequoia National Park for the first time in a century",
@@ -489,25 +489,11 @@
       "description": "A kidnapping suspect was arrested Monday morning after a chase with police that ended with gunfire, according to Santa Monica police."
     },
     {
-      "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
-      "url": "https://www.latimes.com/california/story/2026-05-18/crowds-yosemite-visitors-worry-high-season-will-be-disaster",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
-    },
-    {
       "headline": "19 Legionella bacteria infections linked to Kaiser Bay Area hospital",
       "url": "https://www.latimes.com/california/story/2026-05-18/19-cases-of-legionella-infection-linked-to-kaiser-bay-area-hospital",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
       "description": "The 19 infections were linked to Kaiser's medical center in Santa Clara. Most of those who fell sick are recovering at home, Kaiser said in a statement last week."
-    },
-    {
-      "headline": "Tech leaders funding Matt Mahan&#x27;s campaign for California governor say it&#x27;s not about tech",
-      "url": "https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "San José Mayor Matt Mahan's campaign for governor has been bankrolled by tech titans. Critics say he will cater to their interests as governor, but several of his backers said their support for him has nothing to do with tech policy."
     },
     {
       "headline": "AI has invaded the L.A. mayor&#x27;s race. Some fear it&#x27;s just the beginning",
@@ -517,18 +503,25 @@
       "description": "Some see fan-generated election campaign videos as a harbinger of how artificial intelligence could reshape political messaging across the country."
     },
     {
+      "headline": "Tech leaders funding Matt Mahan&#x27;s campaign for California governor say it&#x27;s not about tech",
+      "url": "https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "San José Mayor Matt Mahan's campaign for governor has been bankrolled by tech titans. Critics say he will cater to their interests as governor, but several of his backers said their support for him has nothing to do with tech policy."
+    },
+    {
+      "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
+      "url": "https://www.latimes.com/california/story/2026-05-18/crowds-yosemite-visitors-worry-high-season-will-be-disaster",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
+    },
+    {
       "headline": "L.A.&#x27;s 100 most problematic rental properties spotlighted in new city database",
       "url": "https://www.latimes.com/california/story/2026-05-18/l-a-s-100-most-problematic-rental-properties-spotlighted-in-database",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
       "description": "A new dashboard released by City Controller Kenneth Mejia shows the 100 L.A. properties with the most housing violation complaints."
-    },
-    {
-      "headline": "Santa Rosa Island fire burns more than 10,000 acres, threatening rare plants and animals",
-      "url": "https://www.latimes.com/california/story/2026-05-17/santa-rosa-island-fire-burns-more-than-10-000-acres-threatening-rare-plants-animals",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 04:51:03 GMT",
-      "description": "A human-caused fire spread to more than 10,000 acres on Sunday night, destroying two structures and forcing the evacuation of 11 people."
     },
     {
       "headline": "Nancy Pelosi puts thumb on the scale in race for her successor. Here’s who she endorsed",
