@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-19T04:00:12.975Z",
+  "harvested_at": "2026-05-19T06:00:12.727Z",
   "elapsed_seconds": 4.2,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 77,
+  "articles_count": 78,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 17,
+      "count": 18,
       "total": 97,
       "error": null
     },
@@ -405,6 +405,13 @@
       "description": "It wasn’t supposed to go like this. When Saks Fifth Avenue agreed in July 2024 to buy Neiman Marcus for $2.65 billion to create Saks Global, a new $7 billion luxury retail behemoth, the conventional thinking was that senior executives at the two firms — once enemies, now family — would find a way to"
     },
     {
+      "headline": "What we know about the high-schooler accused of attacking San Diego Islamic Center",
+      "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-islamic-center-shooting-suspects-what-we-know",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 05:30:25 GMT",
+      "description": "Clark and a second suspect, both in their late teens, opened fire at the center Monday morning, police said. They were found minutes later dead of self-inflicted gunshot wounds, according to authorities."
+    },
+    {
       "headline": "Federal agents raid homes of Ventura County immigration activists",
       "url": "https://www.latimes.com/california/story/2026-05-18/federal-agents-raid-homes-of-ventura-county-immigration-activists",
       "source": "Los Angeles Times",
@@ -482,18 +489,18 @@
       "description": "A kidnapping suspect was arrested Monday morning after a chase with police that ended with gunfire, according to Santa Monica police."
     },
     {
-      "headline": "L.A.&#x27;s 100 most problematic rental properties spotlighted in new city database",
-      "url": "https://www.latimes.com/california/story/2026-05-18/l-a-s-100-most-problematic-rental-properties-spotlighted-in-database",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "A new dashboard released by City Controller Kenneth Mejia shows the 100 L.A. properties with the most housing violation complaints."
-    },
-    {
       "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
       "url": "https://www.latimes.com/california/story/2026-05-18/crowds-yosemite-visitors-worry-high-season-will-be-disaster",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
       "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
+    },
+    {
+      "headline": "19 Legionella bacteria infections linked to Kaiser Bay Area hospital",
+      "url": "https://www.latimes.com/california/story/2026-05-18/19-cases-of-legionella-infection-linked-to-kaiser-bay-area-hospital",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "The 19 infections were linked to Kaiser's medical center in Santa Clara. Most of those who fell sick are recovering at home, Kaiser said in a statement last week."
     },
     {
       "headline": "Tech leaders funding Matt Mahan&#x27;s campaign for California governor say it&#x27;s not about tech",
@@ -510,11 +517,11 @@
       "description": "Some see fan-generated election campaign videos as a harbinger of how artificial intelligence could reshape political messaging across the country."
     },
     {
-      "headline": "19 Legionella bacteria infections linked to Kaiser Bay Area hospital",
-      "url": "https://www.latimes.com/california/story/2026-05-18/19-cases-of-legionella-infection-linked-to-kaiser-bay-area-hospital",
+      "headline": "L.A.&#x27;s 100 most problematic rental properties spotlighted in new city database",
+      "url": "https://www.latimes.com/california/story/2026-05-18/l-a-s-100-most-problematic-rental-properties-spotlighted-in-database",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "The 19 infections were linked to Kaiser's medical center in Santa Clara. Most of those who fell sick are recovering at home, Kaiser said in a statement last week."
+      "description": "A new dashboard released by City Controller Kenneth Mejia shows the 100 L.A. properties with the most housing violation complaints."
     },
     {
       "headline": "Santa Rosa Island fire burns more than 10,000 acres, threatening rare plants and animals",
