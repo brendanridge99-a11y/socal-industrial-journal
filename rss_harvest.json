@@ -1,6 +1,6 @@
 {
-  "harvested_at": "2026-05-19T02:00:12.534Z",
-  "elapsed_seconds": 4.3,
+  "harvested_at": "2026-05-19T04:00:12.975Z",
+  "elapsed_seconds": 4.2,
   "feeds_attempted": 16,
   "feeds_successful": 14,
   "articles_count": 77,
@@ -405,6 +405,13 @@
       "description": "It wasn’t supposed to go like this. When Saks Fifth Avenue agreed in July 2024 to buy Neiman Marcus for $2.65 billion to create Saks Global, a new $7 billion luxury retail behemoth, the conventional thinking was that senior executives at the two firms — once enemies, now family — would find a way to"
     },
     {
+      "headline": "Federal agents raid homes of Ventura County immigration activists",
+      "url": "https://www.latimes.com/california/story/2026-05-18/federal-agents-raid-homes-of-ventura-county-immigration-activists",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 02:32:24 GMT",
+      "description": "Federal agents searched the homes of immigrant rights activists in an early morning raid that activists allege was retaliatory and part of an ongoing harassment campaign for their work patrolling and monitoring immigration operations in Ventura County."
+    },
+    {
       "headline": "Mark Fuhrman, LAPD detective known for O.J. Simpson trial, dies at 74",
       "url": "https://www.latimes.com/california/story/2026-05-18/mark-fuhrman-lapd-detective-o-j-simpson-trial-dies",
       "source": "Los Angeles Times",
@@ -447,11 +454,11 @@
       "description": "Federal prosecutors in Los Angeles announced a case Monday against a woman suspected of paying people to sign voter registration forms."
     },
     {
-      "headline": "Wind-driven fire triggers evacuations in Simi Valley; at least 1 home burned",
+      "headline": "Sandy fire spreads, prompting evacuation warnings in L.A. County",
       "url": "https://www.latimes.com/california/story/2026-05-18/simi-valley-fire",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 18:13:00 GMT",
-      "description": "A brush fire in Simi Valley has moved into a neighborhood and burned at least one home and another structure."
+      "description": "A brush fire in Simi Valley has moved toward the communities that straddle the Ventura and Los Angeles county border."
     },
     {
       "headline": "Artists, community come together to welcome World Cup to Inglewood with murals and more",
@@ -475,25 +482,11 @@
       "description": "A kidnapping suspect was arrested Monday morning after a chase with police that ended with gunfire, according to Santa Monica police."
     },
     {
-      "headline": "19 Legionella bacteria infections linked to Kaiser Bay Area hospital",
-      "url": "https://www.latimes.com/california/story/2026-05-18/19-cases-of-legionella-infection-linked-to-kaiser-bay-area-hospital",
+      "headline": "L.A.&#x27;s 100 most problematic rental properties spotlighted in new city database",
+      "url": "https://www.latimes.com/california/story/2026-05-18/l-a-s-100-most-problematic-rental-properties-spotlighted-in-database",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "The 19 infections were linked to Kaiser's medical center in Santa Clara. Most of those who fell sick are recovering at home, Kaiser said in a statement last week."
-    },
-    {
-      "headline": "AI has invaded the L.A. mayor&#x27;s race. Some fear it&#x27;s just the beginning",
-      "url": "https://www.latimes.com/california/story/2026-05-18/ai-has-invaded-la-mayors-race-some-fear-its-just-beginning",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "Some see fan-generated election campaign videos as a harbinger of how artificial intelligence could reshape political messaging across the country."
-    },
-    {
-      "headline": "Tech leaders funding Matt Mahan&#x27;s campaign for California governor say it&#x27;s not about tech",
-      "url": "https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "San José Mayor Matt Mahan's campaign for governor has been bankrolled by tech titans. Critics say he will cater to their interests as governor, but several of his backers said their support for him has nothing to do with tech policy."
+      "description": "A new dashboard released by City Controller Kenneth Mejia shows the 100 L.A. properties with the most housing violation complaints."
     },
     {
       "headline": "As crowds build at Yosemite, visitors worry the high season will be a disaster",
@@ -503,11 +496,25 @@
       "description": "Parking lots filled up fast — the lot at Curry Village was full by 8 a.m. — and cars were stashed in every unmarked flat spot their owners thought they could get away with."
     },
     {
-      "headline": "L.A.&#x27;s 100 most problematic rental properties spotlighted in new city database",
-      "url": "https://www.latimes.com/california/story/2026-05-18/l-a-s-100-most-problematic-rental-properties-spotlighted-in-database",
+      "headline": "Tech leaders funding Matt Mahan&#x27;s campaign for California governor say it&#x27;s not about tech",
+      "url": "https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
-      "description": "A new dashboard released by City Controller Kenneth Mejia shows the 100 L.A. properties with the most housing violation complaints."
+      "description": "San José Mayor Matt Mahan's campaign for governor has been bankrolled by tech titans. Critics say he will cater to their interests as governor, but several of his backers said their support for him has nothing to do with tech policy."
+    },
+    {
+      "headline": "AI has invaded the L.A. mayor&#x27;s race. Some fear it&#x27;s just the beginning",
+      "url": "https://www.latimes.com/california/story/2026-05-18/ai-has-invaded-la-mayors-race-some-fear-its-just-beginning",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "Some see fan-generated election campaign videos as a harbinger of how artificial intelligence could reshape political messaging across the country."
+    },
+    {
+      "headline": "19 Legionella bacteria infections linked to Kaiser Bay Area hospital",
+      "url": "https://www.latimes.com/california/story/2026-05-18/19-cases-of-legionella-infection-linked-to-kaiser-bay-area-hospital",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 18 May 2026 10:00:00 GMT",
+      "description": "The 19 infections were linked to Kaiser's medical center in Santa Clara. Most of those who fell sick are recovering at home, Kaiser said in a statement last week."
     },
     {
       "headline": "Santa Rosa Island fire burns more than 10,000 acres, threatening rare plants and animals",
@@ -515,13 +522,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Mon, 18 May 2026 04:51:03 GMT",
       "description": "A human-caused fire spread to more than 10,000 acres on Sunday night, destroying two structures and forcing the evacuation of 11 people."
-    },
-    {
-      "headline": "Pedro Pascal goes undercover for &#x27;Star Wars&#x27; surprise at Disneyland",
-      "url": "https://www.latimes.com/entertainment-arts/story/2026-05-17/pedro-pascal-goes-undercover-for-star-wars-surprise-at-disneyland",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 00:50:39 GMT",
-      "description": "Pedro Pascal surprised fans with an undercover appearance as \"The Mandalorian\" at Disneyland on Saturday."
     },
     {
       "headline": "Nancy Pelosi puts thumb on the scale in race for her successor. Here’s who she endorsed",
