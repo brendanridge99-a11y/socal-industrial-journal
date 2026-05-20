@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-20T10:00:59.781Z",
-  "elapsed_seconds": 2.8,
+  "harvested_at": "2026-05-20T12:01:01.582Z",
+  "elapsed_seconds": 3.1,
   "feeds_attempted": 16,
-  "feeds_successful": 14,
-  "articles_count": 87,
+  "feeds_successful": 13,
+  "articles_count": 91,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 15,
+      "count": 18,
       "total": 50,
       "error": null
     },
@@ -70,10 +70,9 @@
     },
     {
       "source": "Propmodo",
-      "success": true,
+      "success": false,
       "count": 0,
-      "total": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "source": "Modern Materials Handling",
@@ -85,7 +84,7 @@
       "source": "Los Angeles Times",
       "success": true,
       "count": 22,
-      "total": 99,
+      "total": 98,
       "error": null
     },
     {
@@ -111,12 +110,33 @@
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 3,
+      "count": 4,
       "total": 6,
       "error": null
     }
   ],
   "articles": [
+    {
+      "headline": "Inside Volvo’s new 13-Liter D13 engine for 2027",
+      "url": "https://www.freightwaves.com/news/new-volvo-d13-engine-2027",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
+      "description": "Volvo Trucks revealed its redesigned D13 engine for 2027 EPA standards, cutting nitrogen oxide emissions 83% without sacrificing power or reliability The post Inside Volvo&#8217;s new 13-Liter D13 engine for 2027 appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Why the freight industry needs Certified Fraud Compliance Officers",
+      "url": "https://www.freightwaves.com/news/why-the-freight-industry-needs-certified-fraud-compliance-officers",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 11:09:55 +0000",
+      "description": "Banks learned years ago that fraud prevention requires more than instinct or technology alone. They built compliance roles, documented procedures, and repeatable verification processes designed to reduce risk and stand up in court. FreightWaves believes the transportation industry is now entering th"
+    },
+    {
+      "headline": "Autonomous trucking moves to the Midwest with Einride’s Ohio deployment",
+      "url": "https://www.freightwaves.com/news/autonomous-trucking-einride-ohio",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 11:00:00 +0000",
+      "description": "Autonomous trucking is expanding beyond the Sun Belt and into Ohio. Einride and EASE Logistics announced Monday the deployment of SAE Level 4 (L4) autonomous electric trucks in a proof-of-concept service. The trucks will operate between EASE Logistics warehouses in Marysville, Ohio. The deployment i"
+    },
     {
       "headline": "SCOTUS to trigger truckload rate run to $5.00 per mile?",
       "url": "https://www.freightwaves.com/news/scotus-to-trigger-truckload-rate-run-to-5-00-per-mile",
@@ -482,6 +502,48 @@
       "description": "With the eye of an architect but the instincts of a retail professional, Ed Hogan has helped transform some of the dingiest crevices of New York City into highly sought-after locations and kept one of the toniest corridors in the five boroughs an elevated shopping destination. But, now, after helpin"
     },
     {
+      "headline": "With homes still charred lots, Palisades fire survivors find solace in temple reopening",
+      "url": "https://www.latimes.com/lifestyle/story/2026-05-20/kehillat-israel-reopens-in-pacific-palisades-after-fire",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "Kehillat Israel, closed since the Palisades fire, reopened last week, welcoming its congregation, which includes 230 families who lost their homes and an additional 250 families who were displaced."
+    },
+    {
+      "headline": "Screens would be banned until 2nd grade under draft LAUSD plan",
+      "url": "https://www.latimes.com/california/story/2026-05-20/screens-would-be-banned-until-2nd-grade-under-draft-lausd-plan",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "The L.A. school board got its first look Tuesday at a draft policy that limits student screen time — and that will affect how teachers manage instruction."
+    },
+    {
+      "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
+      "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "Victor Glover, who grew up in the Inland Empire, is now the only pilot to have flown NASA's Orion capsule."
+    },
+    {
+      "headline": "Santa Rosa Island fire burns through rare Torrey pine grove. But there&#x27;s hope for the endangered tree",
+      "url": "https://www.latimes.com/california/story/2026-05-20/santa-rosa-island-fire-burns-through-rare-torrey-pine-grove",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including a grove of critically endangered Torrey pine trees. Initial damage assessments provided hope."
+    },
+    {
+      "headline": "Immigrant rights advocates rally for more state healthcare funding, criticize Newsom",
+      "url": "https://www.latimes.com/california/story/2026-05-20/immigration-advocates-rally-for-more-state-healthcare-funding-criticize-newsom-two-groups-rally-at-capitol-to-push-for-more-healthcare-funding",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "Human rights advocates on Tuesday rallied outside the California Capitol to push back on Gov. Gavin Newsom's proposed budget plan to reduce state-sponsored healthcare coverage for undocumented immigrants."
+    },
+    {
+      "headline": "L.A.&#x27;s democratic socialists look to boost their clout in City Hall",
+      "url": "https://www.latimes.com/california/story/2026-05-20/la-democratic-socialists-look-to-boost-their-clout-in-city-hall",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
+    },
+    {
       "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
       "url": "https://www.latimes.com/california/story/2026-05-19/mom-of-boys-killed-by-rebecca-grossman-i-see-it-in-my-nightmares",
       "source": "Los Angeles Times",
@@ -594,46 +656,18 @@
       "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
     },
     {
-      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
-      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
+      "headline": "Even while courting moderates on voter ID, GOP leaders still push debunked fraud narrative",
+      "url": "https://calmatters.org/politics/elections/2026/05/gop-continues-voter-fraud-narrative/",
+      "source": "CalMatters",
+      "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
+      "description": "While GOP lawmakers try to convince moderates that a voter ID requirement is a \"common sense\" idea, they continue to push President Donald Trump's debunked fraud narrative."
     },
     {
-      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
-      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
-    },
-    {
-      "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
-      "url": "https://www.latimes.com/california/story/2026-05-19/spencer-pratt-followers-make-la-great-again",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Pratt's loudest fans loathe modern-day L.A., and that should chill all other Angelenos. These haters would be his primary constituents and populate his brain trust if he wins."
-    },
-    {
-      "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
-      "url": "https://www.latimes.com/environment/story/2026-05-19/cherry-season-record-warmth",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
-    },
-    {
-      "headline": "Forced treatment and jail: Spencer Pratt&#x27;s pledges to end homelessness stir up mayor&#x27;s race",
-      "url": "https://www.latimes.com/california/story/2026-05-19/forced-treatment-jail-spencer-pratts-pledges-to-end-homelessness-roil-mayors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
-    },
-    {
-      "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
-      "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
+      "headline": "What are they trying to hide? California lawmakers kill lobbying transparency bills",
+      "url": "https://calmatters.org/politics/2026/05/secret-capitol-lobbying-letters/",
+      "source": "CalMatters",
+      "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
+      "description": "Good government groups backed legislation that sought to make every lobbyist letter public and online. Those proposals appear dead for the year."
     },
     {
       "headline": "Can you trust that post about Tom Steyer? How paid influencers are flooding into the governor’s race",
@@ -685,13 +719,6 @@
       "description": "A \"wall of debt,\" a raid on reserves and AI stock gains mean California's budget temporarily balances this year and next, but structural deficits remain."
     },
     {
-      "headline": "California’s best chance for enough water in the future is to bolster local supplies today",
-      "url": "https://calmatters.org/commentary/2026/05/water-supply-california-future-local/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
-      "description": "The state can’t rely on snowmelt or transporting water long distances for future needs because climate change has altered precipitation."
-    },
-    {
       "headline": "California community colleges crack down on fake students stealing financial aid",
       "url": "https://calmatters.org/education/2026/05/financial-aid-fraud-california/",
       "source": "CalMatters",
@@ -699,11 +726,18 @@
       "description": "After a spike in fraudulent applications to California’s community colleges, school officials say they are getting better at detecting and preventing fraud, though it still happens."
     },
     {
-      "headline": "Hilton and Becerra lead in new California governor poll. Steyer trails but isn’t out",
-      "url": "https://calmatters.org/commentary/2026/05/governor-poll-hilton-becerra-california/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
-      "description": "In a Democratic poll during the last weeks of campaigning, most trending candidates for governor show support in the single digits."
+      "headline": "CSUSB holds commencement",
+      "url": "https://iebusinessdaily.com/csusb-holds-commencement/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=csusb-holds-commencement",
+      "source": "IE Business Daily",
+      "raw_date": "Wed, 20 May 2026 10:57:20 +0000",
+      "description": "Cal State San Bernardino honored more than 3,100 graduates during two days of ceremonies at the Toyota Arena in Ontario. Students in the College of Social and Behavioral Sciences received their degrees May 15, followed the next day by the College of Arts and Letters, the James R. Watson and Judy Rod"
+    },
+    {
+      "headline": "State median home price climbs",
+      "url": "https://iebusinessdaily.com/state-median-home-price-climbs/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=state-median-home-price-climbs",
+      "source": "IE Business Daily",
+      "raw_date": "Wed, 20 May 2026 10:00:08 +0000",
+      "description": "California’s median home price reached a record high in April, helped by lower mortgage rates and more sales in high-end neighborhoods. The median home price reached $914,810 last month, a 2.9 percent increase from March and up slightly year-over-year, the California Association of Realtor reported."
     },
     {
       "headline": "Retail market stays up, defying economic headwinds",
@@ -718,13 +752,6 @@
       "source": "IE Business Daily",
       "raw_date": "Tue, 19 May 2026 10:40:42 +0000",
       "description": "Housing affordability improved statewide during the first quarter of 2026, posting gains quarter-over-quarter and year-over-year. Twenty two percent of California’s households could afford the median price of a single-family home &#8211; $843,390 &#8211; during the first three months of this year, u"
-    },
-    {
-      "headline": "Player-Coach Approach for The Strykers Going Forward",
-      "url": "https://iebusinessdaily.com/player-coach-approach-for-the-strykers-going-forward/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=player-coach-approach-for-the-strykers-going-forward",
-      "source": "IE Business Daily",
-      "raw_date": "Tue, 19 May 2026 10:00:35 +0000",
-      "description": "Rober Palmer (Berto), a longtime standout defensive player in the Major Arena Soccer League (MASL soccer) and former team captain, will be playing dual roles going forward as both player and head coach. The player-coach at one time was not that unusual; the NFL, NBA, and Major League Baseball all ha"
     }
   ]
 }
