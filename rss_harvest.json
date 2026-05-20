@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-20T04:00:05.216Z",
-  "elapsed_seconds": 2.4,
+  "harvested_at": "2026-05-20T06:00:59.952Z",
+  "elapsed_seconds": 2.9,
   "feeds_attempted": 16,
-  "feeds_successful": 15,
-  "articles_count": 93,
+  "feeds_successful": 14,
+  "articles_count": 88,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 24,
+      "count": 23,
       "total": 99,
       "error": null
     },
@@ -104,10 +104,9 @@
     },
     {
       "source": "San Diego Business Journal",
-      "success": true,
-      "count": 4,
-      "total": 10,
-      "error": null
+      "success": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "source": "IE Business Daily",
@@ -364,6 +363,13 @@
       "description": "An Orange County industrial park has traded hands for more than $80 million as Greater Los Angeles’ industrial market fights to achieve post-pandemic stability.&#160; A joint venture between Harbor Associates and Farallon Capital Management acquired the Yorba Linda Commerce Center at 3910 Prospect A"
     },
     {
+      "headline": "25 Kent Offers Companies A Cutting-Edge Office Experience Along The Williamsburg Waterfront",
+      "url": "https://commercialobserver.com/2026/05/25-kent-offers-companies-a-cutting-edge-office-experience-along-the-williamsburg-waterfront/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 04:00:30 +0000",
+      "description": "As creative and technology companies, especially those working with artificial intelligence (AI), have increasingly been taking larger blocks of space throughout New York City, many have found it more appealing to young talent to make their home across the East River from Manhattan. 25 Kent is a new"
+    },
+    {
       "headline": "Benchmark Buys Upper West Side Apartment Building From Heller for $42M",
       "url": "https://commercialobserver.com/2026/05/benchmark-buys-698-west-end-avenue-heller/",
       "source": "Commercial Observer",
@@ -476,13 +482,6 @@
       "description": "A mainstay storefront in Manhattan’s Nolita neighborhood has sold for $44.98 million, according to city records made public Monday. The four-story retail building, located at 236 Bowery, is between Prince and Stanton streets, opposite the New Museum. The selling entity, 236 Bowery, is a limited liab"
     },
     {
-      "headline": "Developers Are Tackling a Wave of Conversions of Mundane Buildings",
-      "url": "https://commercialobserver.com/2026/05/redeveloping-bank-branches-net-leased/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 15:22:11 +0000",
-      "description": "The words “Can you change this?” might have more than normal resonance in a bank these days. In the last decade, somewhere between 22 million and 36 million square feet of bank branches closed nationwide, an amount of space potentially larger than the entire Cincinnati office market, according to Be"
-    },
-    {
       "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
       "url": "https://www.latimes.com/california/story/2026-05-19/mom-of-boys-killed-by-rebecca-grossman-i-see-it-in-my-nightmares",
       "source": "Los Angeles Times",
@@ -581,7 +580,7 @@
       "description": "The Islamic Center of San Diego is mourning three people killed in Monday's attack, including a security guard praised by police for his actions."
     },
     {
-      "headline": "Sandy fire growth stalls as crews scramble to combat new SoCal blazes",
+      "headline": "Crews continue aggressive fight against Sandy fire, other SoCal blazes",
       "url": "https://www.latimes.com/california/story/2026-05-19/sandy-fire-evacuations",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 14:14:32 GMT",
@@ -593,6 +592,27 @@
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 12:00:00 GMT",
       "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
+    },
+    {
+      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
+      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
+    },
+    {
+      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
+      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
+    },
+    {
+      "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
+      "url": "https://www.latimes.com/california/story/2026-05-19/spencer-pratt-followers-make-la-great-again",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "Pratt's loudest fans loathe modern-day L.A., and that should chill all other Angelenos. These haters would be his primary constituents and populate his brain trust if he wins."
     },
     {
       "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
@@ -609,27 +629,6 @@
       "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
     },
     {
-      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
-      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
-    },
-    {
-      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
-      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
-    },
-    {
-      "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
-      "url": "https://www.latimes.com/california/story/2026-05-19/spencer-pratt-followers-make-la-great-again",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Pratt's loudest fans loathe modern-day L.A., and that should chill all other Angelenos. These haters would be his primary constituents and populate his brain trust if he wins."
-    },
-    {
       "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
       "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
       "source": "Los Angeles Times",
@@ -642,13 +641,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 05:30:25 GMT",
       "description": "Two people ages 17 and 18 opened fire at the center Monday morning, police said. They were found minutes later dead of self-inflicted gunshot wounds, according to authorities."
-    },
-    {
-      "headline": "Federal agents raid homes of Ventura County immigration activists",
-      "url": "https://www.latimes.com/california/story/2026-05-18/federal-agents-raid-homes-of-ventura-county-immigration-activists",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 02:32:24 GMT",
-      "description": "Federal agents searched the homes of immigrant rights activists in an early morning raid that activists allege was retaliatory and part of an ongoing harassment campaign for their work patrolling and monitoring immigration operations in Ventura County."
     },
     {
       "headline": "Can you trust that post about Tom Steyer? How paid influencers are flooding into the governor’s race",
@@ -719,34 +711,6 @@
       "source": "CalMatters",
       "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
       "description": "In a Democratic poll during the last weeks of campaigning, most trending candidates for governor show support in the single digits."
-    },
-    {
-      "headline": "A Model for Churches ‘Struggling’ to Keep Buildings",
-      "url": "https://www.sdbj.com/real-estate/residential/a-model-for-churches-struggling-to-keep-buildings/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=a-model-for-churches-struggling-to-keep-buildings",
-      "source": "San Diego Business Journal",
-      "raw_date": "Tue, 19 May 2026 12:01:13 +0000",
-      "description": "SAN DIEGO – Puritan Reformed Presbyterian Church and Haragan Properties have turned vacant church property into a Paradise Hills housing development meant to serve as a model for other churches. “I would really hope that other neighborhood churches would consider this before they fold up and have to"
-    },
-    {
-      "headline": "Ambient Communities Upscales Vista Housing Project",
-      "url": "https://www.sdbj.com/real-estate/apartments/ambient-communities-upscales-vista-housing-project/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ambient-communities-upscales-vista-housing-project",
-      "source": "San Diego Business Journal",
-      "raw_date": "Tue, 19 May 2026 12:00:56 +0000",
-      "description": "VISTA – Ambient Communities is planning to break ground later this year on Caserra, a $60 million Vista apartment complex that will have 141 apartments on the site of a former office building that has been demolished. The project at 1070 South Santa Fe Ave. won city approval earlier this month. “We’"
-    },
-    {
-      "headline": "SDBJ Insider",
-      "url": "https://www.sdbj.com/sdbj-insider/sdbj-insider-178/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sdbj-insider-178",
-      "source": "San Diego Business Journal",
-      "raw_date": "Tue, 19 May 2026 12:00:49 +0000",
-      "description": "San Diego is getting revved up for its inaugural NASCAR event June 19-21 at Naval Base Coronado. Last week the Business Journal reported on Qualcomm’s partnership with the racing body, which officially names the 16-turn, 3.4-mile track on the base “Qualcomm Circuit San Diego.” On May 13, Sycuan Casi"
-    },
-    {
-      "headline": "Netradyne Further Expands European Presence",
-      "url": "https://www.sdbj.com/technology/netradyne-further-expands-european-presence/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=netradyne-further-expands-european-presence",
-      "source": "San Diego Business Journal",
-      "raw_date": "Tue, 19 May 2026 12:00:47 +0000",
-      "description": "SAN DIEGO – Netradyne is on the road to becoming a global company. The fleet safety technology leader announced its acquisition this month of Dutch fleet intelligence and connected mobility company Moove Connected Mobility, expanding Netradyne’s market further into Europe. Moove Connected Mobility w"
     },
     {
       "headline": "Retail market stays up, defying economic headwinds",
