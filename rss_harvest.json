@@ -1,28 +1,28 @@
 {
-  "harvested_at": "2026-05-20T16:01:01.059Z",
-  "elapsed_seconds": 2.9,
+  "harvested_at": "2026-05-20T18:00:59.677Z",
+  "elapsed_seconds": 2.7,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 90,
+  "articles_count": 87,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 17,
+      "count": 16,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 6,
+      "count": 7,
       "total": 40,
       "error": null
     },
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 10,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 23,
+      "count": 21,
       "total": 98,
       "error": null
     },
@@ -118,11 +118,46 @@
   ],
   "articles": [
     {
+      "headline": "Fleetworthy debuts connected fleet ecosystem, mobile app at Austin roadshow",
+      "url": "https://www.freightwaves.com/news/fleetworthy-debuts-connected-fleet-ecosystem-mobile-app-at-austin-roadshow",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 17:32:47 +0000",
+      "description": "Fleetworthy introduced a connected fleet management platform and mobile app during its customer roadshow on Tuesday in Austin, Texas. The post Fleetworthy debuts connected fleet ecosystem, mobile app at Austin roadshow appeared first on FreightWaves ."
+    },
+    {
+      "headline": "RXO sees TL spot market surge further in Q2",
+      "url": "https://www.freightwaves.com/news/rxo-sees-tl-spot-market-surge-further-in-q2",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 17:26:50 +0000",
+      "description": "Freight broker RXO is seeing better-than-expected spot market trends in the second quarter. The post RXO sees TL spot market surge further in Q2 appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Formula 1 experiments with freight rail",
+      "url": "https://www.freightwaves.com/news/formula-1-experiments-with-freight-rail",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 17:06:38 +0000",
+      "description": "Global logistics provider DHL provides the logistics support that makes Formula 1 races possible around the world. Traditionally relying on air, ocean and road transport, DHL has now moved the first F1 shipment between race locations by rail. The post Formula 1 experiments with freight rail appeared"
+    },
+    {
+      "headline": "A top FMCSA official faces a post-Montgomery world at Freight Fraud event",
+      "url": "https://www.freightwaves.com/news/a-top-fmcsa-official-faces-a-post-montgomery-world-at-freight-fraud-event",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 16:34:21 +0000",
+      "description": "Jesse Elison, a top FMCSA official, talked a post-Montgomery world at a Cleveland event. The post A top FMCSA official faces a post-Montgomery world at Freight Fraud event appeared first on FreightWaves ."
+    },
+    {
       "headline": "Quarterly loss for Zim ahead of Hapag-Lloyd takeover",
       "url": "https://www.freightwaves.com/news/quarterly-loss-for-zim-ahead-of-hapag-lloyd-takeover",
       "source": "FreightWaves",
       "raw_date": "Wed, 20 May 2026 14:59:16 +0000",
       "description": "Ahead of a takeover by Hapag-Lloyd, Zim earnings were hit by a softer freight rate environment and weaker demand. The post Quarterly loss for Zim ahead of Hapag-Lloyd takeover appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Truck dwell holds, rail up at LA-Long Beach",
+      "url": "https://www.freightwaves.com/news/truck-dwell-holds-rail-up-at-la-long-beach",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 14:18:00 +0000",
+      "description": "Southern California ports saw broadly steady container dwell in April across truck and rail. The post Truck dwell holds, rail up at LA-Long Beach appeared first on FreightWaves ."
     },
     {
       "headline": "Tariff Stacking Is Rewiring Supply Chain Execution",
@@ -195,46 +230,11 @@
       "description": "The 2026 CVSA International Roadcheck ran May 12 through 14 — but enforcement didn&#8217;t stop there. Blitz week ran May 10 through 17, and by the time it closed out, the numbers were more significant than what the three-day event alone produced: 38,926 inspections. 69,446 violations. 13,273 out-of"
     },
     {
-      "headline": "BNSF ops chief out after just five months",
-      "url": "https://www.freightwaves.com/news/bnsf-ops-chief-out-after-just-five-months",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 15:14:00 +0000",
-      "description": "BNSF has a new operations chief after Matt Garland lasted just five months as COO. The post BNSF ops chief out after just five months appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Bankruptcy court approves STG Logistics reorganization plan",
-      "url": "https://www.freightwaves.com/news/bankruptcy-court-approves-stg-logistics-reorganization-plan",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 15:13:33 +0000",
-      "description": "A federal bankruptcy court in New Jersey has approved STG Logistics’ reorganization plan. The post Bankruptcy court approves STG Logistics reorganization plan appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Roadcheck Week, Supreme Court ruling tighten US freight capacity",
-      "url": "https://www.freightwaves.com/news/roadcheck-week-supreme-court-ruling-tighten-us-freight-capacity",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 14:59:55 +0000",
-      "description": "A mix of trucking enforcement activity, insurance concerns and seasonal freight demand could keep pressure on freight capacity through 2026, EASE Logistics says. The post Roadcheck Week, Supreme Court ruling tighten US freight capacity appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Is peak season here? Trans-Pacific rates level in latest week",
-      "url": "https://www.freightwaves.com/news/is-peak-season-here-trans-pacific-rates-level-in-latest-week",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 14:40:47 +0000",
-      "description": "As the peak season nears, freight rates are expected to shift from their currently high fuel-cost baselines due to seasonal demand and fleet capacity management. The post Is peak season here? Trans-Pacific rates level in latest week appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Maersk back in the Red Sea: Drewry",
-      "url": "https://www.freightwaves.com/news/maersk-back-in-the-red-sea-drewry",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 14:31:00 +0000",
-      "description": "Maersk led a growing stream of brand-name vessels transiting the Suez Canal-Red Sea route, says consultant Drewry. The post Maersk back in the Red Sea: Drewry appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Target names former Walmart executive as chief supply chain officer",
-      "url": "https://www.freightwaves.com/news/target-names-former-walmart-executive-as-chief-supply-chain-officer",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 14:10:54 +0000",
-      "description": "Target has recruited ex-Walmart exec Jeff England away from QXO to be its next chief supply chain officer. The post Target names former Walmart executive as chief supply chain officer appeared first on FreightWaves ."
+      "headline": "Spot rate surge may signal early peak season on trans-Pacific",
+      "url": "https://joc.com/article/spot-rate-surge-may-signal-early-peak-season-on-trans-pacific-6224734",
+      "source": "Journal of Commerce",
+      "raw_date": "Wed, 20 May 2026 17:57:15 GMT",
+      "description": "The underlying strength of that peak is unclear, however, with blank sailings, fuel-linked surcharges and a changeover in annual service contracts all putting upward pressure on spot and FAK rates."
     },
     {
       "headline": "Hapag-Lloyd scales up biofuel transport services with forwarder partners",
@@ -279,6 +279,13 @@
       "description": "Yet liner executives insist that much of the surplus tonnage can be absorbed by a combination of vessel management, trade imbalances, increased scrapping and the ongoing effects of geopolitical disruptions."
     },
     {
+      "headline": "Muted peak season expected as ocean shippers delay contract signing",
+      "url": "https://www.supplychaindive.com/news/muted-peak-season-expected-as-ocean-shippers-delay-contract-signing/820397/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Wed, 20 May 2026 12:06:42 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/n91zTUxXVsYoAHw6FMcaLfP0imTWJ8TCCYKIf5lZ6NA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjU4NzExNDUxXzEuanBn.webp\"/></div></figure><p>Despite market uncertainty, some shippers like Bob&rsquo;s Discount Furnit"
+    },
+    {
       "headline": "Havertys Furniture battles rising fuel costs across supply chain",
       "url": "https://www.supplychaindive.com/news/havertys-furniture-battles-rising-fuel-costs-across-supply-chain/820299/",
       "source": "Supply Chain Dive",
@@ -305,20 +312,6 @@
       "source": "Supply Chain Dive",
       "raw_date": "Tue, 19 May 2026 13:30:00 -0400",
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/HEHkjGkcTUeTBDpLs32ddwbRxjfG5B1R6k2E4T7SxDU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg5NDQ3NDUzLmpwZw==.webp\"/></div></figure><p>The snack and confectionery manufacturer plans to bring more manufacturing"
-    },
-    {
-      "headline": "Producer prices jump to 3-year high, spurred by war shortages",
-      "url": "https://www.supplychaindive.com/news/producer-prices-jump-to-3-year-high-spurred-by-war-shortages/820389/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Tue, 19 May 2026 10:16:27 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/oxr2CblOQuErIhX32OAovoXnLTq3v5os7TdXVkxecG4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDg2MDcxMzAyLmpwZw==.webp\"/></div></figure><p>As the Iran war upped oil prices, transportation and warehousing costs ros"
-    },
-    {
-      "headline": "DavidsTea sets up US fulfillment after de minimis’ end raises shipping hurdles",
-      "url": "https://www.supplychaindive.com/news/davidstea-sets-up-us-fulfillment-after-de-minimis-end-raises-shipping-hurd/819746/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Tue, 19 May 2026 10:08:13 -0400",
-      "description": "<p>The tea company faced unpredictable delivery times and lower sales in the U.S. without the trade rule exemption, CEO Sarah Segal said.</p>"
     },
     {
       "headline": "Gartner: Just 1/3 of CPOs are confident they can redesign roles for AI",
@@ -396,6 +389,41 @@
       "source": "The Real Deal",
       "raw_date": "Tue, 19 May 2026 18:39:24 +0000",
       "description": "An Orange County industrial park has traded hands for more than $80 million as Greater Los Angeles’ industrial market fights to achieve post-pandemic stability.&#160; A joint venture between Harbor Associates and Farallon Capital Management acquired the Yorba Linda Commerce Center at 3910 Prospect A"
+    },
+    {
+      "headline": "Law Firm Kirkland &#038; Ellis Grows to 183K SF at Elecor Properties’ 900 Third Avenue",
+      "url": "https://commercialobserver.com/2026/05/kirkland-ellis-lease-expansion-elecor-900-third-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 17:58:22 +0000",
+      "description": "Less than a year after arriving at 900 Third Avenue, Chicago-based law firm Kirkland &#38; Ellis has upped its footprint by nearly 40 percent. The law firm’s 52,089-square-foot expansion at the Midtown East office tower was revealed in Savills’ Wednesday report on law firm leasing in the first quart"
+    },
+    {
+      "headline": "Retailer Marshalls Opens 31K-SF Store at Liberty Bklyn",
+      "url": "https://commercialobserver.com/2026/05/marshalls-retail-lease-liberty-bklyn/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 17:28:20 +0000",
+      "description": "Marshalls has taken up a 10-year tenancy at Liberty Bklyn. The off-price retailer secured 31,470 square feet of ground-floor space at Madison Capital and Salmar Properties’ 850 Third Avenue in Sunset Park, Brooklyn, according to a Wednesday announcement from the landlords. The transaction leaves the"
+    },
+    {
+      "headline": "Law Firm Willkie Farr &#038; Gallagher Expands to 368K SF at 787 Seventh Avenue",
+      "url": "https://commercialobserver.com/2026/05/willkie-farr-gallagher-lease-expansion-787-seventh-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 17:22:26 +0000",
+      "description": "Law firm Willkie Farr &#38; Gallagher has added 53,000 square feet to its already massive headquarters in Midtown. The global litigation firm will grow from 315,000 square feet to 368,000 square feet at CommonWealth Partners’ 787 Seventh Avenue, according to a first-quarter office report from Savill"
+    },
+    {
+      "headline": "CIBC, Citizens Bank Provide $108M Construction Loan for Fairfax Apartment Complex",
+      "url": "https://commercialobserver.com/2026/05/cibc-citizens-bank-108m-construction-loan-fairfax-apartment/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 16:22:05 +0000",
+      "description": "Insight Property Group has secured $107.7 million in construction financing to build Hunter’s Branch, a 452-unit multifamily community in the Vienna neighborhood of Fairfax, Va. CIBC and Citizens Bank provided the non-recourse construction financing for a development that is expected to cost $174.6 "
+    },
+    {
+      "headline": "Goldman Sachs Provides $40M Refinancing of Five-Property Self-Storage Portfolio",
+      "url": "https://commercialobserver.com/2026/05/goldman-sachs-40m-refinancing-self-storage-portfolio/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 16:04:00 +0000",
+      "description": "William Warren Group has secured $40.2 million to refinance a five-property self-storage portfolio of more than 4,000 units in five states, according to a release. Goldman Sachs provided the debt, structured as five-year, non-recourse permanent financing, while a Talonvest Capital team led by Eric S"
     },
     {
       "headline": "Scion Group, Ares Management Buy U.S. Student Housing Portfolio for $910M",
@@ -482,46 +510,18 @@
       "description": "North American Development Group (NADG) scored a $105.5 million construction loan for a multifamily development in Boca Raton, Fla., property records show. U.S. Bank, acting as administrative agent for a group of lenders, provided the financing for the 294-unit Nuvo Midtown Boca. The project will in"
     },
     {
-      "headline": "U.K. Collectibles Brand House of Spells to Open in 20K SF at 234 West 42nd Street",
-      "url": "https://commercialobserver.com/2026/05/house-of-spells-lease-234-west-42nd-street/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 17:31:42 +0000",
-      "description": "The British are invading Times Square with a roughly 20,000-square-foot lease for the first U.S. outpost of collectibles brand House of Spells, Commercial Observer has learned. House of Spells, a U.K.-based vendor selling merchandise from franchises such as Harry Potter, Lord of the Rings and Game o"
-    },
-    {
-      "headline": "Hudson Bay Capital Provides $129M to Develop Luxury Apartments in Houston",
-      "url": "https://commercialobserver.com/2026/05/hudson-bay-capital-luxury-apartments-houston/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 17:10:11 +0000",
-      "description": "One of the most exclusive neighborhoods in Houston is getting some new luxury apartments. Sade Real Estate has secured $128.5 million to finance the development of the Arno, a 168-unit luxury residential community in Houston’s River Oaks neighborhood, a wealthy enclave just outside downtown, accordi"
-    },
-    {
-      "headline": "KKR Provides $80M Refi on Pittsburgh Apartments",
-      "url": "https://commercialobserver.com/2026/05/kkr-pittsburgh-apartments/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 17:08:53 +0000",
-      "description": "Corebridge Real Estate Investors has landed an $80 million loan to refinance a multifamily property in Pittsburgh, Commercial Observer has learned, KKR supplied the floating-rate, interest-only loan for Corebridge’s 377-unit Brewers Block apartment complex in Pittsburgh’s “Robotics Row” district. Th"
-    },
-    {
-      "headline": "Here Come the Trampoline Parks: JLL Report at ICSC",
-      "url": "https://commercialobserver.com/2026/05/trampoline-parks-growth-2026/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 17:00:31 +0000",
-      "description": "The surprise retail category bouncing hardest into American hearts is the trampoline park. At least that was one of the primary takeaways from a new entertainment report that JLL unveiled at ICSC in Las Vegas Tuesday morning. The key data point was that there are more than 350 trampoline parks and k"
-    },
-    {
-      "headline": "Ally Bridge Group Signs 6K-SF Deal at Rudin’s 560 Lexington Avenue",
-      "url": "https://commercialobserver.com/2026/05/ally-bridge-group-lease-rudin-560-lexington-avenue/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 16:20:41 +0000",
-      "description": "An investment firm with a healthcare and life sciences focus has signed a lease at 560 Lexington Avenue in Midtown East, Commercial Observer has learned. Ally Bridge Group, which finances and supports life sciences, medical technology and biopharmaceutical companies, has signed a deal for 6,440 squa"
+      "headline": "Santa Monica Pier area among the dirtiest beaches for 10th year in a row in Beach Report Card",
+      "url": "https://www.latimes.com/california/story/2026-05-20/santa-monica-pier-dirtiest-beaches-10th-year-beach-report-card",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 17:00:00 GMT",
+      "description": "Environmental nonprofit Heal the Bay and the city of Santa Monica are teaming up to investigate and find solutions for the pier's poor water quality."
     },
     {
       "headline": "Trump signals support for Pratt in L.A. mayoral election: &#x27;I&#x27;d like to see him do well&#x27;",
       "url": "https://www.latimes.com/california/story/2026-05-20/trump-signals-support-for-pratt-in-la-mayoral-election-id-like-to-see-him-do-well",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 15:22:32 GMT",
-      "description": "Trump didn't make a formal endorsement, but the his comments were the first the president has made publicly on the L.A. mayor's race."
+      "description": "Trump didn't make a formal endorsement, but his comments were the first the president has made publicly on the L.A. mayor's race."
     },
     {
       "headline": "San Diego attackers&#x27; hate manifesto targeted many groups, sought &#x27;destruction of political system,&#x27; sources say",
@@ -545,13 +545,6 @@
       "description": "Human rights advocates on Tuesday rallied outside the California Capitol to push back on Gov. Gavin Newsom's proposed budget plan to reduce state-sponsored healthcare coverage for undocumented immigrants."
     },
     {
-      "headline": "L.A.&#x27;s democratic socialists look to boost their clout in City Hall",
-      "url": "https://www.latimes.com/california/story/2026-05-20/la-democratic-socialists-look-to-boost-their-clout-in-city-hall",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
-    },
-    {
       "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
       "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
       "source": "Los Angeles Times",
@@ -563,7 +556,7 @@
       "url": "https://www.latimes.com/california/story/2026-05-20/santa-rosa-island-fire-burns-through-rare-torrey-pine-grove",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including a grove of critically endangered Torrey pine trees. Initial damage assessments provided hope."
+      "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including reaching a grove of critically endangered Torrey pine trees. But there is reason for hope."
     },
     {
       "headline": "With homes still charred lots, Palisades fire survivors find solace in temple reopening",
@@ -571,6 +564,13 @@
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
       "description": "Kehillat Israel, closed since the Palisades fire, reopened last week, welcoming its congregation, which includes 230 families who lost their homes and an additional 250 families who were displaced."
+    },
+    {
+      "headline": "L.A.&#x27;s democratic socialists look to boost their clout in City Hall",
+      "url": "https://www.latimes.com/california/story/2026-05-20/la-democratic-socialists-look-to-boost-their-clout-in-city-hall",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
     },
     {
       "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
@@ -655,27 +655,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 16:26:16 GMT",
       "description": "Billie Jean King, 82, received her bachelor's degree in history from the same school she attended more than 60 years ago and also gave a commencement speech."
-    },
-    {
-      "headline": "Man dies after car plunges 500 feet off Highway 1 cliff onto beach",
-      "url": "https://www.latimes.com/california/story/2026-05-19/highway-1-cliff-car-over-edge",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 15:10:48 GMT",
-      "description": "A man died after his car fell nearly 500 feet off a Highway 1 cliff near Santa Cruz on Monday, according to authorities."
-    },
-    {
-      "headline": "Security guard&#x27;s &#x27;heroic&#x27; actions saved others in San Diego mosque attack, officials say",
-      "url": "https://www.latimes.com/california/story/2026-05-19/san-diego-mosque-attack-security-guards-heroic-actions-saved-others-officials-say",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 14:35:55 GMT",
-      "description": "The Islamic Center of San Diego is mourning three people killed in Monday's attack, including a security guard praised by police for his actions."
-    },
-    {
-      "headline": "Crews continue aggressive fight against Sandy fire, other SoCal blazes",
-      "url": "https://www.latimes.com/california/story/2026-05-19/sandy-fire-evacuations",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 14:14:32 GMT",
-      "description": "A wind-driven fire that broke out in Ventura County Monday morning stalled overnight, allowing some residents to return home."
     },
     {
       "headline": "Does that influencer really like Tom Steyer?",
