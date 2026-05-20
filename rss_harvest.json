@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-20T06:00:59.952Z",
-  "elapsed_seconds": 2.9,
+  "harvested_at": "2026-05-20T08:00:59.602Z",
+  "elapsed_seconds": 2.7,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 88,
+  "articles_count": 87,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 23,
+      "count": 22,
       "total": 99,
       "error": null
     },
@@ -594,18 +594,18 @@
       "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
     },
     {
-      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
-      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
-    },
-    {
       "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
       "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
       "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
+    },
+    {
+      "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
+      "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
     },
     {
       "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
@@ -634,13 +634,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
       "description": "The challenge for LAUSD is continuing progress that has won acclaim, despite the absence of Supt. Alberto Carvalho and his top two academic administrators."
-    },
-    {
-      "headline": "San Diego Islamic Center suspects were self-radicalized, left manifesto behind, officials say",
-      "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-islamic-center-shooting-suspects-what-we-know",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 05:30:25 GMT",
-      "description": "Two people ages 17 and 18 opened fire at the center Monday morning, police said. They were found minutes later dead of self-inflicted gunshot wounds, according to authorities."
     },
     {
       "headline": "Can you trust that post about Tom Steyer? How paid influencers are flooding into the governor’s race",
