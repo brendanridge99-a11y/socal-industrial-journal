@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-20T20:01:00.185Z",
-  "elapsed_seconds": 3.2,
+  "harvested_at": "2026-05-20T22:00:59.714Z",
+  "elapsed_seconds": 2.8,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 86,
+  "articles_count": 90,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -15,7 +15,7 @@
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 8,
+      "count": 6,
       "total": 40,
       "error": null
     },
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 6,
+      "count": 8,
       "total": 30,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 5,
+      "count": 9,
       "total": 10,
       "error": null
     },
@@ -258,20 +258,6 @@
       "description": "Port and terminal operators are looking to spend $6.7 billion over the next five years to install cranes and other equipment, an industry survey shows, as Washington is asked to help reshore manufacturing."
     },
     {
-      "headline": "Bankruptcy court approves STG Logistics’ exit from Chapter 11",
-      "url": "https://joc.com/article/bankruptcy-court-approves-stg-logistics-exit-from-chapter-11-6224183",
-      "source": "Journal of Commerce",
-      "raw_date": "Tue, 19 May 2026 18:49:17 GMT",
-      "description": "But court filings show that even after restructuring, the company is likely to operate with thin margins and a relatively modest cash cushion."
-    },
-    {
-      "headline": "WiseTech joins partner program of container shipping digital standards group",
-      "url": "https://joc.com/article/wisetech-joins-partner-program-of-container-shipping-digital-standards-group-6223775",
-      "source": "Journal of Commerce",
-      "raw_date": "Tue, 19 May 2026 18:15:18 GMT",
-      "description": "The largest forwarding software provider globally adds heft to DCSA’s push to drive electronic standards in the ocean freight industry."
-    },
-    {
       "headline": "EU lawmakers back US trade pact with built-in safeguards",
       "url": "https://www.supplychaindive.com/news/eu-lawmakers-back-us-trade-pact-with-built-in-safeguards/820749/",
       "source": "Supply Chain Dive",
@@ -305,6 +291,20 @@
       "source": "Supply Chain Dive",
       "raw_date": "Wed, 20 May 2026 07:37:00 -0400",
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/cfXdCQdvEAsO4Pvb_TBv-7soSJ23symzNyWPfTkCoq0/g:nowe:0:88/c:4031:2277/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUctMTM3NC5qcGc=.webp\"/></div></figure><p>The retailer has made efforts to trim its product mix over the last two yea"
+    },
+    {
+      "headline": "Google expert: AI is redefining tech jobs",
+      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/google-expert-ai-is-redefining-tech-jobs",
+      "source": "DC Velocity",
+      "raw_date": "Wed, 20 May 2026 20:48:54 +0000",
+      "description": "Technology and search giant Google and its parent company Alphabet Inc. are known for their constant search for major—not minor—disruptive tech ideas in web and cloud markets. Company executives often refer to their standard for success as achieving not just a 10% increase in business growth, but sc"
+    },
+    {
+      "headline": "Manhattan tool explains the “why” behind agentic AI decisions",
+      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/manhattan-tool-explains-the-why-behind-agentic-ai-decisions",
+      "source": "DC Velocity",
+      "raw_date": "Wed, 20 May 2026 20:02:02 +0000",
+      "description": "Artificial intelligence (AI) agents hold strong promise for helping logistics professionals make better decisions by analyzing massive data sets at lighting speed, but one thing slowing the spread of the technology is that many people are not willing to blindly trust its results. To address user ske"
     },
     {
       "headline": "Olympic goalie shares team-building lessons",
@@ -349,6 +349,48 @@
       "description": "In a move to accelerate the development of artificial intelligence (AI) agents for supply chain workflows, software vendor Manhattan Associates today launched a platform where customers, developers, and partners of Manhattan’s products can share agentic AI solutions with each other. The “Manhattan M"
     },
     {
+      "headline": "Los Feliz home floated for demolition to give way to affordable apartment project",
+      "url": "https://therealdeal.com/la/2026/05/20/affordable-housing-coming-to-single-family-site-in-los-feliz/",
+      "source": "The Real Deal",
+      "raw_date": "Wed, 20 May 2026 21:30:00 +0000",
+      "description": "A single-family home in Los Feliz is poised to give way to an affordable housing building.&#160; An application filed with the Los Angeles Department of City Planning outlines a proposal to demolish an existing house at 1756 North Serrano Avenue and replace it with a six-story structure featuring 40"
+    },
+    {
+      "headline": "YIMBY movement split on who should be CA’s next governor",
+      "url": "https://therealdeal.com/la/2026/05/20/yimby-movement-split-on-california-governor-endorsement/",
+      "source": "The Real Deal",
+      "raw_date": "Wed, 20 May 2026 21:23:16 +0000",
+      "description": "Across political parties, the leading candidates in California’s crowded gubernatorial race have put solving the state’s housing crisis at the center of their campaigns. As the issue has risen in importance, so has an endorsement from the YIMBYs (short for yes, in my backyard). Over the last decade,"
+    },
+    {
+      "headline": "“He’s a character”: LA mayoral hopeful Spencer Pratt nabs nod from Trump",
+      "url": "https://therealdeal.com/la/2026/05/20/donald-trump-wants-spencer-pratt-to-do-well-in-mayoral-race/",
+      "source": "The Real Deal",
+      "raw_date": "Wed, 20 May 2026 20:15:00 +0000",
+      "description": "President Donald Trump said he’d like to see Spencer Pratt “do well” in the election as Los Angeles’ mayoral race heats up. The president is the latest to offer support for Pratt, who has garnered notable real estate donors in his time campaigning for Los Angeles mayor. Compass&#8217; Tracy Tutor, l"
+    },
+    {
+      "headline": "LA County’s post-fire rent gouging ban goes up in smoke",
+      "url": "https://therealdeal.com/la/2026/05/20/los-angeles-county-rent-gouging-ban-ending-soon/",
+      "source": "The Real Deal",
+      "raw_date": "Wed, 20 May 2026 20:00:00 +0000",
+      "description": "Los Angeles County landlords will soon get more pricing power in a rental market still reeling from the January 2025 fires. On Tuesday, the Los Angeles County Board of Supervisors fell short of the necessary votes to extend emergency anti-price gouging protections that capped rent increases after th"
+    },
+    {
+      "headline": "Film producer Joe Roth nabs quick close on $21M Beverly Hills mid-century modern",
+      "url": "https://therealdeal.com/la/2026/05/20/joe-roth-sells-off-beverly-hills-mid-century-modern/",
+      "source": "The Real Deal",
+      "raw_date": "Wed, 20 May 2026 19:51:18 +0000",
+      "description": "It was a quick close for big-shot film producer Joe Roth and his Beverly Hills pad. Roth’s now former home at 713 North Hillcrest Road led last week’s homes to go into contract in Los Angeles County, with its nearly $22 million asking price, according to the Eklund Weekly Luxury Report Los Angeles. "
+    },
+    {
+      "headline": "Onni’s $400M loan finds itself in special servicing again",
+      "url": "https://therealdeal.com/la/2026/05/20/onnis-400-million-loan-in-special-servicing/",
+      "source": "The Real Deal",
+      "raw_date": "Wed, 20 May 2026 19:00:32 +0000",
+      "description": "Onni Group’s $408 million loan on Wilshire Courtyard is in special servicing, according to Morningstar Credit. Onni owes about $384 million on the around 1-million-square-foot Miracle Mile office complex at 5700 to 5750 Wilshire Boulevard. Servicer commentary dated early May noted the loan moved due"
+    },
+    {
       "headline": "Northridge single-family home poised for townhome transformation",
       "url": "https://therealdeal.com/la/2026/05/19/single-family-home-lot-in-northridge-proposed-for-townhomes/",
       "source": "The Real Deal",
@@ -370,25 +412,25 @@
       "description": "The hearing that could seal the fate of Oceanwide Plaza has been pushed, again, and is now scheduled for July.&#160; Last time, the City of Los Angeles wanted more time. Now, new court documents reveal it is against the proposed $470 million purchaser: Dr. Kali Chaudhuri’s KPC Group and Lendlease.&#"
     },
     {
-      "headline": "WeHo penthouse trades for $23M in this year’s record condo deal for LA County",
-      "url": "https://therealdeal.com/la/2026/05/19/west-hollywood-penthouse-sets-2026-condo-record/",
-      "source": "The Real Deal",
-      "raw_date": "Tue, 19 May 2026 19:30:00 +0000",
-      "description": "West Hollywood’s 8899 Beverly Boulevard property just bested itself to notch a new condominium record for 2026 in Los Angeles County with the trade of a penthouse unit. The sale of Penthouse West for $23 million, or $3,150 per square foot, tops an $18.8 million, off-market deal done in April at the "
+      "headline": "State of California Secures 20K-SF Office at 1180 Avenue of the Americas",
+      "url": "https://commercialobserver.com/2026/05/state-of-california-lease-office-1180-avenue-of-the-americas/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 21:38:45 +0000",
+      "description": "The State of California has leased 20,000 square feet of office space at 1180 Avenue of the Americas, Commercial Observer has learned. The deal appears to mark a relocation of the California Franchise Tax Board’s Manhattan field office. The tenant previously occupied an office at the nearby 1212 Ave"
     },
     {
-      "headline": "Harbor Associates, Farallon JV grabs OC industrial campus for $81M",
-      "url": "https://therealdeal.com/la/2026/05/19/yorba-linda-industrial-campus-sells-for-81-million/",
-      "source": "The Real Deal",
-      "raw_date": "Tue, 19 May 2026 18:39:24 +0000",
-      "description": "An Orange County industrial park has traded hands for more than $80 million as Greater Los Angeles’ industrial market fights to achieve post-pandemic stability.&#160; A joint venture between Harbor Associates and Farallon Capital Management acquired the Yorba Linda Commerce Center at 3910 Prospect A"
+      "headline": "Shirley Aninias School Signs 23K-SF Lease at 30 Wall Street",
+      "url": "https://commercialobserver.com/2026/05/shirley-aninias-school-lease-30-wall-street/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 21:33:04 +0000",
+      "description": "The Shirley Aninias School (SAS), a private special education program for children, has signed the largest lease to date at a Financial District office building. SAS, which was founded in 2022 and provides academics and therapies for neurodiverse students ages 4 to 13, inked a 15-year deal for 23,00"
     },
     {
       "headline": "Trump Administration Selects Development Team for $8B Penn Station Rebuild",
       "url": "https://commercialobserver.com/2026/05/penn-station-trump-8b-halmar-redevelopment/",
       "source": "Commercial Observer",
       "raw_date": "Wed, 20 May 2026 19:40:35 +0000",
-      "description": "At an $8 billion price tag, the Trump administration has a mostly formed plan to revamp Pennsylvania Station that keeps Madison Square Garden in place. Amtrak and the U.S. Department of Transportation (USDOT) announced Wednesday after a Senate hearing that it had selected a master developer entity c"
+      "description": "At an $8 billion price tag, the Trump administration has a mostly formed plan to revamp Midtown&#8217;s Pennsylvania Station that keeps Madison Square Garden in place. Amtrak and the U.S. Department of Transportation (USDOT) announced Wednesday after a Senate hearing that it had selected a master de"
     },
     {
       "headline": "CBRE’s Scott Schnuckel On Why Retail Is Back in Favor",
@@ -489,18 +531,18 @@
       "description": "Benchmark Real Estate Group is taking a prewar apartment building on Manhattan’s Upper West Side off the Heller Organization’s hands. The New York-based Benchmark purchased the 90-unit, 15-story building at 698 West End Avenue for $42 million, according to property records made public Tuesday. Helle"
     },
     {
-      "headline": "AI Marketing Platform Hightouch Takes 18K SF at 275 Seventh Avenue",
-      "url": "https://commercialobserver.com/2026/05/hightouch-lease-275-seventh-avenue/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 20:44:10 +0000",
-      "description": "Hightouch, a data and artificial intelligence agent platform for marketing, has relocated to 275 Seventh Avenue in Midtown South. The San Francisco-based firm’s new 18,000-square-foot lease takes over the entire 21st floor of the 28-story Chelsea office building. The Art Deco tower, located between "
+      "headline": "Mayoral candidate Raman unveils rebuilding plan for Pacific Palisades",
+      "url": "https://www.latimes.com/environment/story/2026-05-20/mayoral-candidate-raman-unveils-rebuilding-plan-for-pacific-palisades",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 20:30:03 GMT",
+      "description": "Raman is weighing in on an issue that has defined her two rivals: Pratt, whose home burned in the Palisades fire, and Bass, whose handling of the disaster has become a liability."
     },
     {
-      "headline": "Arixa Capital Lends $28M on Hawaii Build-for-Sale Luxury Homes",
-      "url": "https://commercialobserver.com/2026/05/arixa-capital-hawaii-build-for-sale-luxury-homes/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 20:11:37 +0000",
-      "description": "Aloha! West Point Investment Corporation has secured $27.6 million of construction financing to build a single-family home development within theMauna Kea Resort on Hawaii’s Big Island. Arixa Capital provided the loan for West Point’s Hapuna Estates project, consisting of seven for-sale luxury singl"
+      "headline": "4-year-old found dead in vehicle in Valley Village",
+      "url": "https://www.latimes.com/california/story/2026-05-20/4-year-old-found-dead-in-vehicle-in-valley-village",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 20:08:56 GMT",
+      "description": "The Los Angeles Police Department is investigating the death of a 4-year-old girl who was apparently left inside a hot vehicle in Valley Village."
     },
     {
       "headline": "California doctor ran nation&#x27;s &#x27;largest Botox fraud scheme,&#x27; filing $45 million in claims for lush lifestyle",
@@ -531,11 +573,11 @@
       "description": "Trump didn't make a formal endorsement, but his comments were the first the president has made publicly on the L.A. mayor's race."
     },
     {
-      "headline": "San Diego attackers&#x27; hate manifesto targeted many groups, sought &#x27;destruction of political system,&#x27; sources say",
+      "headline": "Social media, manifesto of San Diego mosque shooters rooted in white nationalism",
       "url": "https://www.latimes.com/california/story/2026-05-20/san-diego-attack-manifesto",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 15:08:06 GMT",
-      "description": "An Anti-Defamation League analysis of the manifesto referenced \"the great replacement theory,\" the belief that white people are being replaced in their countries by non-white immigrants."
+      "description": "The Times reviewed social media accounts believed to be used by one of the San Diego Islamic Center shooters that idolized school shootings, the white nationalism movement and neo-Nazi terrorism and were flush with memes from the online far-right extremist community. Here is what we found."
     },
     {
       "headline": "Immigrant rights advocates rally for more state healthcare funding, criticize Newsom",
@@ -559,6 +601,13 @@
       "description": "Kehillat Israel, closed since the Palisades fire, reopened last week, welcoming its congregation, which includes 230 families who lost their homes and an additional 250 families who were displaced."
     },
     {
+      "headline": "Screens would be banned until 2nd grade under draft LAUSD plan",
+      "url": "https://www.latimes.com/california/story/2026-05-20/screens-would-be-banned-until-2nd-grade-under-draft-lausd-plan",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "The L.A. school board got its first look Tuesday at a draft policy that limits student screen time — and that will affect how teachers manage instruction."
+    },
+    {
       "headline": "Fire tearing through Santa Rosa Island reaches critically endangered trees",
       "url": "https://www.latimes.com/california/story/2026-05-20/santa-rosa-island-fire-burns-through-rare-torrey-pine-grove",
       "source": "Los Angeles Times",
@@ -571,13 +620,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
       "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
-    },
-    {
-      "headline": "Screens would be banned until 2nd grade under draft LAUSD plan",
-      "url": "https://www.latimes.com/california/story/2026-05-20/screens-would-be-banned-until-2nd-grade-under-draft-lausd-plan",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "The L.A. school board got its first look Tuesday at a draft policy that limits student screen time — and that will affect how teachers manage instruction."
     },
     {
       "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
@@ -634,20 +676,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 20:24:56 GMT",
       "description": "A man fell off a movie theater roof in Salinas into a wall space and was trapped there for 10 hours before being rescued, according to authorities."
-    },
-    {
-      "headline": "Influencer, lawyer and surf coach charged in plot to kill L.A. boy band member",
-      "url": "https://www.latimes.com/california/story/2026-05-19/los-angeles-boy-band-member-murder-plot-case",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 19:32:54 GMT",
-      "description": "A Miami attorney, his influencer daughter and a Hawaiian surf instructor were charged Tuesday in a plot to kill singer Jack Avery over a custody dispute."
-    },
-    {
-      "headline": "Hilton and Becerra lead in a tightening race in final weeks of California governor&#x27;s campaign, poll shows",
-      "url": "https://www.latimes.com/california/story/2026-05-19/hilton-becerra-in-tightening-race-in-final-weeks-of-california-governors-campaign",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 18:03:38 GMT",
-      "description": "Despite handwringing among Democrats about being shut out of the governor's race, a new poll by the state party suggests the two candidates most likely to emerge after the June primary are Republican Steve Hilton and Democrat Xavier Becerra."
     },
     {
       "headline": "Does that influencer really like Tom Steyer?",
