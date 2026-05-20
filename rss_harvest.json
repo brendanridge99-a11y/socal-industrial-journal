@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-20T02:00:05.667Z",
-  "elapsed_seconds": 2.8,
+  "harvested_at": "2026-05-20T04:00:05.216Z",
+  "elapsed_seconds": 2.4,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 94,
+  "articles_count": 93,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 25,
+      "count": 24,
       "total": 99,
       "error": null
     },
@@ -483,6 +483,13 @@
       "description": "The words “Can you change this?” might have more than normal resonance in a bank these days. In the last decade, somewhere between 22 million and 36 million square feet of bank branches closed nationwide, an amount of space potentially larger than the entire Cincinnati office market, according to Be"
     },
     {
+      "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
+      "url": "https://www.latimes.com/california/story/2026-05-19/mom-of-boys-killed-by-rebecca-grossman-i-see-it-in-my-nightmares",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 02:08:53 GMT",
+      "description": "A tearful Nancy Iskander told jurors that she was crossing a road when she saw her two older sons disappear as a white speeding Mercedes plowed through the crosswalk."
+    },
+    {
       "headline": "Two inmates plotted a jailhouse beating. A guard helped them &#x27;handle it&#x27;",
       "url": "https://www.latimes.com/california/story/2026-05-19/two-inmates-plotted-jailhouse-beating-guard-helped-them-handle-it",
       "source": "Los Angeles Times",
@@ -494,10 +501,10 @@
       "url": "https://www.latimes.com/california/story/2026-05-19/5-injuries-reported-as-bain-verona-fires-burn-in-riverside-county",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 00:53:46 GMT",
-      "description": "The Bain fire ignited in the Jurupa Valley on Tuesday, prompting evacuation orders and injuring four people. The blaze grew to 900 acres by 5 p.m. and firefighting aircraft were briefly grounded due to civilian drones spotted flying in the area."
+      "description": "The Bain fire ignited in the Jurupa Valley on Tuesday, prompting evacuation orders and injuring four people. The blaze grew to 900 acres by 5 p.m., and firefighting aircraft were briefly grounded due to civilian drones spotted flying in the area."
     },
     {
-      "headline": "Girl, 12, was injured in alleged bullying incident. That wasn&#x27;t what caused her death, M.E. says",
+      "headline": "Girl, 12, was hit in the head at school. That wasn&#x27;t what caused her death, M.E. says",
       "url": "https://www.latimes.com/california/story/2026-05-19/girl-hit-in-head-with-water-bottle-at-school-death-ruled-natural",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 23:52:50 GMT",
@@ -588,6 +595,20 @@
       "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
     },
     {
+      "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
+      "url": "https://www.latimes.com/environment/story/2026-05-19/cherry-season-record-warmth",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
+    },
+    {
+      "headline": "Forced treatment and jail: Spencer Pratt&#x27;s pledges to end homelessness stir up mayor&#x27;s race",
+      "url": "https://www.latimes.com/california/story/2026-05-19/forced-treatment-jail-spencer-pratts-pledges-to-end-homelessness-roil-mayors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
+    },
+    {
       "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
       "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
       "source": "Los Angeles Times",
@@ -609,20 +630,6 @@
       "description": "Pratt's loudest fans loathe modern-day L.A., and that should chill all other Angelenos. These haters would be his primary constituents and populate his brain trust if he wins."
     },
     {
-      "headline": "For the first time, a warm winter just wiped out SoCal&#x27;s little-known cherry harvest",
-      "url": "https://www.latimes.com/environment/story/2026-05-19/cherry-season-record-warmth",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "May is usually cherry-picking season in parts of Southern California. But Leona Valley orchards has announced there are none to pick because it's been so warm."
-    },
-    {
-      "headline": "Forced treatment and jail: Spencer Pratt&#x27;s pledges to end homelessness stir up mayor&#x27;s race",
-      "url": "https://www.latimes.com/california/story/2026-05-19/forced-treatment-jail-spencer-pratts-pledges-to-end-homelessness-roil-mayors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "Los Angeles mayoral candidate Spencer Pratt wants to use arrests and mandatory drug and addiction treatment to clear the streets, but some expert said he would face huge legal, financial and practical hurdles in doing so."
-    },
-    {
       "headline": "Top LAUSD academic chiefs leaving as test scores rise and FBI raid sidelines Carvalho",
       "url": "https://www.latimes.com/california/story/2026-05-19/top-lausd-academic-chiefs-leave-test-scores-rise-fbi-investigation-carvalho-leave",
       "source": "Los Angeles Times",
@@ -642,20 +649,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 02:32:24 GMT",
       "description": "Federal agents searched the homes of immigrant rights activists in an early morning raid that activists allege was retaliatory and part of an ongoing harassment campaign for their work patrolling and monitoring immigration operations in Ventura County."
-    },
-    {
-      "headline": "Mark Fuhrman, LAPD detective known for O.J. Simpson trial, dies at 74",
-      "url": "https://www.latimes.com/california/story/2026-05-18/mark-fuhrman-lapd-detective-o-j-simpson-trial-dies",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 00:56:37 GMT",
-      "description": "Mark Fuhrman, the lead case detective known for his investigation of the 1994 murders of Nicole Brown Simpson and Ron Goldman, died on May 12, authorities in Kootenai County, Idaho, confirmed."
-    },
-    {
-      "headline": "Francesco Caballero is determined to keep his family circus legacy afloat",
-      "url": "https://www.latimes.com/delos/story/2026-05-18/francesco-caballero-circus-family-juggling-mexican-american-legacy-california",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 00:22:12 GMT",
-      "description": "As part of a five-generation circus family, 13-year-old Francesco Caballero dreams of competing worldwide. But first, he'll have to get through his school talent show."
     },
     {
       "headline": "Can you trust that post about Tom Steyer? How paid influencers are flooding into the governor’s race",
