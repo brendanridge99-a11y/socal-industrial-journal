@@ -1,28 +1,28 @@
 {
-  "harvested_at": "2026-05-20T12:01:01.582Z",
-  "elapsed_seconds": 3.1,
+  "harvested_at": "2026-05-20T14:00:59.967Z",
+  "elapsed_seconds": 2.4,
   "feeds_attempted": 16,
   "feeds_successful": 13,
-  "articles_count": 91,
+  "articles_count": 87,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 18,
+      "count": 17,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 5,
+      "count": 6,
       "total": 40,
       "error": null
     },
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 4,
+      "count": 3,
       "total": 10,
       "error": null
     },
@@ -83,7 +83,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 22,
+      "count": 21,
       "total": 98,
       "error": null
     },
@@ -110,7 +110,7 @@
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 4,
+      "count": 2,
       "total": 6,
       "error": null
     }
@@ -236,11 +236,11 @@
       "description": "Safe isn’t always exposure-free or risk-free. Compliant isn’t always safe. What “safety” means doesn’t matter. A carrier can be all three of those things on paper and still bury everyone who touched the load in exposure. This is a working primer on how risk professionals actually vet, qualify and sc"
     },
     {
-      "headline": "SCOTUS broker liability ruling a tailwind for Samsara’s safety platform",
-      "url": "https://www.freightwaves.com/news/scotus-broker-liability-ruling-a-tailwind-for-samsaras-safety-platform",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 11:32:58 +0000",
-      "description": "Provably safer trucking capacity will fetch a premium on the market. The post SCOTUS broker liability ruling a tailwind for Samsara’s safety platform appeared first on FreightWaves ."
+      "headline": "Hapag-Lloyd scales up biofuel transport services with forwarder partners",
+      "url": "https://joc.com/article/hapag-lloyd-scales-up-biofuel-transport-services-with-forwarder-partners-6224574",
+      "source": "Journal of Commerce",
+      "raw_date": "Wed, 20 May 2026 13:42:17 GMT",
+      "description": "Collaboration with global forwarders is allowing the carrier and its customers to significantly reduce carbon footprints in the difficult-to-monitor area of Scope 3 emissions."
     },
     {
       "headline": "US ports outline spending goals in push to reshore crane making",
@@ -297,13 +297,6 @@
       "source": "Supply Chain Dive",
       "raw_date": "Tue, 19 May 2026 10:08:13 -0400",
       "description": "<p>The tea company faced unpredictable delivery times and lower sales in the U.S. without the trade rule exemption, CEO Sarah Segal said.</p>"
-    },
-    {
-      "headline": "Target taps former Walmart exec as supply chain, logistics chief",
-      "url": "https://www.supplychaindive.com/news/target-taps-former-walmart-exec-as-supply-chain-logistics-chief/820586/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Tue, 19 May 2026 07:52:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/3TdlWd5qgsi1Q3H1BnGksZRjTLeRTO7M-jT5iWq4FxU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTUzODc3NTE1LmpwZw==.webp\"/></div></figure><p>Jeff England, who worked to improve inventory availability at&nbsp;QXO, wi"
     },
     {
       "headline": "Gartner: Just 1/3 of CPOs are confident they can redesign roles for AI",
@@ -415,7 +408,7 @@
       "url": "https://commercialobserver.com/2026/05/arixa-capital-hawaii-build-for-sale-luxury-homes/",
       "source": "Commercial Observer",
       "raw_date": "Tue, 19 May 2026 20:11:37 +0000",
-      "description": "Aloah! West Point Investment Corporation has secured $27.6 million of construction financing to build a single-family home development within theMauna Kea Resort on Hawaii’s Big Island. Arixa Capital provided the loan for West Point’s Hapuna Estates project, consisting of seven for-sale luxury singl"
+      "description": "Aloha! West Point Investment Corporation has secured $27.6 million of construction financing to build a single-family home development within theMauna Kea Resort on Hawaii’s Big Island. Arixa Capital provided the loan for West Point’s Hapuna Estates project, consisting of seven for-sale luxury singl"
     },
     {
       "headline": "Harbor Associates-Led Venture Buys SoCal Industrial Park for $81M",
@@ -502,6 +495,13 @@
       "description": "With the eye of an architect but the instincts of a retail professional, Ed Hogan has helped transform some of the dingiest crevices of New York City into highly sought-after locations and kept one of the toniest corridors in the five boroughs an elevated shopping destination. But, now, after helpin"
     },
     {
+      "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
+      "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "Victor Glover, who grew up in the Inland Empire, is now the only pilot to have flown NASA's Orion capsule."
+    },
+    {
       "headline": "With homes still charred lots, Palisades fire survivors find solace in temple reopening",
       "url": "https://www.latimes.com/lifestyle/story/2026-05-20/kehillat-israel-reopens-in-pacific-palisades-after-fire",
       "source": "Los Angeles Times",
@@ -516,20 +516,6 @@
       "description": "The L.A. school board got its first look Tuesday at a draft policy that limits student screen time — and that will affect how teachers manage instruction."
     },
     {
-      "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
-      "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "Victor Glover, who grew up in the Inland Empire, is now the only pilot to have flown NASA's Orion capsule."
-    },
-    {
-      "headline": "Santa Rosa Island fire burns through rare Torrey pine grove. But there&#x27;s hope for the endangered tree",
-      "url": "https://www.latimes.com/california/story/2026-05-20/santa-rosa-island-fire-burns-through-rare-torrey-pine-grove",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including a grove of critically endangered Torrey pine trees. Initial damage assessments provided hope."
-    },
-    {
       "headline": "Immigrant rights advocates rally for more state healthcare funding, criticize Newsom",
       "url": "https://www.latimes.com/california/story/2026-05-20/immigration-advocates-rally-for-more-state-healthcare-funding-criticize-newsom-two-groups-rally-at-capitol-to-push-for-more-healthcare-funding",
       "source": "Los Angeles Times",
@@ -542,6 +528,13 @@
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
       "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
+    },
+    {
+      "headline": "Fire tearing through Santa Rosa Island reaches critically endangered trees",
+      "url": "https://www.latimes.com/california/story/2026-05-20/santa-rosa-island-fire-burns-through-rare-torrey-pine-grove",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including a grove of critically endangered Torrey pine trees. Initial damage assessments provided hope."
     },
     {
       "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
@@ -649,11 +642,11 @@
       "description": "A wind-driven fire that broke out in Ventura County Monday morning stalled overnight, allowing some residents to return home."
     },
     {
-      "headline": "California&#x27;s Joshua trees are disappearing. There&#x27;s hope these fungi can help them",
-      "url": "https://www.latimes.com/california/story/2026-05-19/joshua-tree-disappearing-project-wants-to-save-it",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 12:00:00 GMT",
-      "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
+      "headline": "Does that influencer really like Tom Steyer?",
+      "url": "https://calmatters.org/newsletter/california-governor-influencers/",
+      "source": "CalMatters",
+      "raw_date": "Wed, 20 May 2026 13:00:00 +0000",
+      "description": "It can start subtly enough: One day a social media influencer you follow — the one who talks about politics, recommends beauty products or shares internet memes — posts a TikTok or Instagram Reel saying they like a candidate for California governor.&#160; You don’t think much of it and you go on doo"
     },
     {
       "headline": "Even while courting moderates on voter ID, GOP leaders still push debunked fraud narrative",
@@ -668,6 +661,13 @@
       "source": "CalMatters",
       "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
       "description": "Good government groups backed legislation that sought to make every lobbyist letter public and online. Those proposals appear dead for the year."
+    },
+    {
+      "headline": "How California’s Voter Guide published a candidate’s antisemitic conspiracy theories",
+      "url": "https://calmatters.org/commentary/2026/05/antisemitic-rant-voter-guide-california/",
+      "source": "CalMatters",
+      "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
+      "description": "One of the 61 gubernatorial candidates ranted about Israel and Jewish people instead of describing himself. Did the state have to publish it?"
     },
     {
       "headline": "Can you trust that post about Tom Steyer? How paid influencers are flooding into the governor’s race",
@@ -712,20 +712,6 @@
       "description": "Want to buy a gun in California? Lawmakers may have you set aside four hours — and bring ammo for the range"
     },
     {
-      "headline": "Gavin Newsom’s last budget still would leave California’s finances wobbly",
-      "url": "https://calmatters.org/commentary/2026/05/newsom-last-california-budget-wobbly/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
-      "description": "A \"wall of debt,\" a raid on reserves and AI stock gains mean California's budget temporarily balances this year and next, but structural deficits remain."
-    },
-    {
-      "headline": "California community colleges crack down on fake students stealing financial aid",
-      "url": "https://calmatters.org/education/2026/05/financial-aid-fraud-california/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
-      "description": "After a spike in fraudulent applications to California’s community colleges, school officials say they are getting better at detecting and preventing fraud, though it still happens."
-    },
-    {
       "headline": "CSUSB holds commencement",
       "url": "https://iebusinessdaily.com/csusb-holds-commencement/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=csusb-holds-commencement",
       "source": "IE Business Daily",
@@ -738,20 +724,6 @@
       "source": "IE Business Daily",
       "raw_date": "Wed, 20 May 2026 10:00:08 +0000",
       "description": "California’s median home price reached a record high in April, helped by lower mortgage rates and more sales in high-end neighborhoods. The median home price reached $914,810 last month, a 2.9 percent increase from March and up slightly year-over-year, the California Association of Realtor reported."
-    },
-    {
-      "headline": "Retail market stays up, defying economic headwinds",
-      "url": "https://iebusinessdaily.com/retail-market-stays-up-defying-economic-headwinds/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=retail-market-stays-up-defying-economic-headwinds",
-      "source": "IE Business Daily",
-      "raw_date": "Tue, 19 May 2026 10:42:40 +0000",
-      "description": "Despite high gas prices and inflation, U.S. retail sales rose for the seventh consecutive month in April, according the National Retail Federation. Nationwide sales, not counting automobile and gasoline transactions, were up 0.34 percent from March and up 5.7 compared with April 2025, the federation"
-    },
-    {
-      "headline": "State housing market has solid first quarter",
-      "url": "https://iebusinessdaily.com/state-housing-market-has-solid-first-quarter/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=state-housing-market-has-solid-first-quarter",
-      "source": "IE Business Daily",
-      "raw_date": "Tue, 19 May 2026 10:40:42 +0000",
-      "description": "Housing affordability improved statewide during the first quarter of 2026, posting gains quarter-over-quarter and year-over-year. Twenty two percent of California’s households could afford the median price of a single-family home &#8211; $843,390 &#8211; during the first three months of this year, u"
     }
   ]
 }
