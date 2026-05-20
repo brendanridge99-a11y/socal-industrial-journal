@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-20T14:00:59.967Z",
-  "elapsed_seconds": 2.4,
+  "harvested_at": "2026-05-20T16:01:01.059Z",
+  "elapsed_seconds": 2.9,
   "feeds_attempted": 16,
-  "feeds_successful": 13,
-  "articles_count": 87,
+  "feeds_successful": 14,
+  "articles_count": 90,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -22,14 +22,14 @@
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 3,
+      "count": 6,
       "total": 10,
       "error": null
     },
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 7,
+      "count": 6,
       "total": 30,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 4,
+      "count": 5,
       "total": 10,
       "error": null
     },
@@ -70,9 +70,10 @@
     },
     {
       "source": "Propmodo",
-      "success": false,
+      "success": true,
       "count": 0,
-      "error": "HTTP 404"
+      "total": 0,
+      "error": null
     },
     {
       "source": "Modern Materials Handling",
@@ -83,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 21,
+      "count": 23,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 10,
+      "count": 8,
       "total": 10,
       "error": null
     },
@@ -116,6 +117,20 @@
     }
   ],
   "articles": [
+    {
+      "headline": "Quarterly loss for Zim ahead of Hapag-Lloyd takeover",
+      "url": "https://www.freightwaves.com/news/quarterly-loss-for-zim-ahead-of-hapag-lloyd-takeover",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 14:59:16 +0000",
+      "description": "Ahead of a takeover by Hapag-Lloyd, Zim earnings were hit by a softer freight rate environment and weaker demand. The post Quarterly loss for Zim ahead of Hapag-Lloyd takeover appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Tariff Stacking Is Rewiring Supply Chain Execution",
+      "url": "https://www.freightwaves.com/news/tariff-stacking-is-rewiring-supply-chain-execution",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 14:09:01 +0000",
+      "description": "Infios' analysis of millions of U.S. customs entries reveals how tariff stacking transformed supply chain execution in 2025. The post Tariff Stacking Is Rewiring Supply Chain Execution appeared first on FreightWaves ."
+    },
     {
       "headline": "Inside Volvo’s new 13-Liter D13 engine for 2027",
       "url": "https://www.freightwaves.com/news/new-volvo-d13-engine-2027",
@@ -222,20 +237,6 @@
       "description": "Target has recruited ex-Walmart exec Jeff England away from QXO to be its next chief supply chain officer. The post Target names former Walmart executive as chief supply chain officer appeared first on FreightWaves ."
     },
     {
-      "headline": "New research: Tariffs didn’t raise costs. They raised the execution standard.",
-      "url": "https://www.freightwaves.com/news/new-research-tariffs-didnt-raise-costs-they-raised-the-execution-standard",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 13:00:00 +0000",
-      "description": "The tariff environment that emerged in 2025 restructured modern U.S. trade. Duty brackets that didn&#8217;t exist in 2024 suddenly held tens of thousands of entries. Effective rates layered across multiple policies collapsed cost predictability almost overnight. What followed wasn&#8217;t a return t"
-    },
-    {
-      "headline": "Carrier vetting 101. Spoiler: It’s not about safety.",
-      "url": "https://www.freightwaves.com/news/carrier-vetting-101-spoiler-its-not-about-safety",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 12:52:27 +0000",
-      "description": "Safe isn’t always exposure-free or risk-free. Compliant isn’t always safe. What “safety” means doesn’t matter. A carrier can be all three of those things on paper and still bury everyone who touched the load in exposure. This is a working primer on how risk professionals actually vet, qualify and sc"
-    },
-    {
       "headline": "Hapag-Lloyd scales up biofuel transport services with forwarder partners",
       "url": "https://joc.com/article/hapag-lloyd-scales-up-biofuel-transport-services-with-forwarder-partners-6224574",
       "source": "Journal of Commerce",
@@ -278,11 +279,32 @@
       "description": "Yet liner executives insist that much of the surplus tonnage can be absorbed by a combination of vessel management, trade imbalances, increased scrapping and the ongoing effects of geopolitical disruptions."
     },
     {
+      "headline": "Havertys Furniture battles rising fuel costs across supply chain",
+      "url": "https://www.supplychaindive.com/news/havertys-furniture-battles-rising-fuel-costs-across-supply-chain/820299/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Wed, 20 May 2026 10:58:31 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/6ObwmB7Kl4WdG2teylCK-r8MrA9heYayo7UIEQRplik/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTkwNDQ2NDg3LmpwZw==.webp\"/></div></figure><p>The retailer is facing elevated vendor input costs and higher delivery fle"
+    },
+    {
+      "headline": "FedEx board approves trucking business spinoff",
+      "url": "https://www.supplychaindive.com/news/fedex-board-approves-trucking-business-spinoff/820379/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Wed, 20 May 2026 10:54:00 -0400",
+      "description": "<p>A new stand-alone FedEx Freight may resemble a start-up, but the LTL carrier is far from it, experts say.&nbsp;</p>"
+    },
+    {
+      "headline": "Under Armour reaches 25% SKU reduction goal",
+      "url": "https://www.supplychaindive.com/news/under-armour-reaches-25-sku-reduction-goal/820387/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Wed, 20 May 2026 07:37:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/cfXdCQdvEAsO4Pvb_TBv-7soSJ23symzNyWPfTkCoq0/g:nowe:0:88/c:4031:2277/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUctMTM3NC5qcGc=.webp\"/></div></figure><p>The retailer has made efforts to trim its product mix over the last two yea"
+    },
+    {
       "headline": "Mondelēz taps AI for distribution centers to cut costs",
       "url": "https://www.supplychaindive.com/news/mondelez-taps-ai-for-distribution-centers-to-cut-costs/820067/",
       "source": "Supply Chain Dive",
       "raw_date": "Tue, 19 May 2026 13:30:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/HEHkjGkcTUeTBDpLs32ddwbRxjfG5B1R6k2E4T7SxDU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg5NDQ3NDUzLmpwZw==.webp\"/></div></figure><p>The snack and confectionery manufacturer plans to bring in-house more manu"
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/HEHkjGkcTUeTBDpLs32ddwbRxjfG5B1R6k2E4T7SxDU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg5NDQ3NDUzLmpwZw==.webp\"/></div></figure><p>The snack and confectionery manufacturer plans to bring more manufacturing"
     },
     {
       "headline": "Producer prices jump to 3-year high, spurred by war shortages",
@@ -341,11 +363,11 @@
       "description": "Warehouse managers in 2026 face steep challenges in managing storage, throughput, and fulfillment in a business climate that’s rife with uncertainty. On any given day, geopolitical developments or changes in tariff policy can trigger a surge in the amount of inventory that needs to be stored or ship"
     },
     {
-      "headline": "Locus Robotics acquires Nexera Robotics",
-      "url": "https://www.dcvelocity.com/editorial/featured/locus-robotics-acquires-nexera-robotics",
-      "source": "DC Velocity",
-      "raw_date": "Tue, 19 May 2026 12:30:02 +0000",
-      "description": "Warehouse automation and autonomous mobile robot (AMR) company Locus Robotics has acquired Nexera Robotics , a Vancouver-based developer of advanced robotic grasping technology, the companies said today. Financial terms of the deal were not disclosed. Nexera will be wholly owned and operated by Locu"
+      "headline": "Northridge single-family home poised for townhome transformation",
+      "url": "https://therealdeal.com/la/2026/05/19/single-family-home-lot-in-northridge-proposed-for-townhomes/",
+      "source": "The Real Deal",
+      "raw_date": "Tue, 19 May 2026 23:02:45 +0000",
+      "description": "As Los Angeles races towards its state-mandated housing goals, developers have been looking to build on every available inch, including single-family home lots. One standalone residence in Northridge dating back to the 1940s could be the next to give way to more housing.&#160; Two applications recen"
     },
     {
       "headline": "Relevant Group slims down affordable housing plans in Westlake",
@@ -374,6 +396,20 @@
       "source": "The Real Deal",
       "raw_date": "Tue, 19 May 2026 18:39:24 +0000",
       "description": "An Orange County industrial park has traded hands for more than $80 million as Greater Los Angeles’ industrial market fights to achieve post-pandemic stability.&#160; A joint venture between Harbor Associates and Farallon Capital Management acquired the Yorba Linda Commerce Center at 3910 Prospect A"
+    },
+    {
+      "headline": "Scion Group, Ares Management Buy U.S. Student Housing Portfolio for $910M",
+      "url": "https://commercialobserver.com/2026/05/scion-group-ares-management-buy-us-student-housing-portfolio/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 15:38:11 +0000",
+      "description": "The biggest student housing portfolio deal of the year is now on the books. Student housing owner and operator the Scion Group and private equity giant Ares Management have acquired a 12-property housing portfolio in the U.S. for $910 million, according to a Wednesday announcement from the seller. H"
+    },
+    {
+      "headline": "Peachtree Supplies $45M C-PACE Loan for Florida Senior Housing Project",
+      "url": "https://commercialobserver.com/2026/05/peachtree-florida-senior-housing-project/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 15:03:45 +0000",
+      "description": "The Fellowship Family, a 48-year-old senior living operator, has secured $44.5 million of Commercial Property Assessed Clean Energy (C-PACE) debt for the development of a senior housing community in northern Florida, Commercial Observer has learned. Peachtree Group originated the 30-year C-PACE loan"
     },
     {
       "headline": "The Plan: 212 West 72nd Street Goes Modern on Historic Upper West Side",
@@ -481,32 +517,18 @@
       "description": "An investment firm with a healthcare and life sciences focus has signed a lease at 560 Lexington Avenue in Midtown East, Commercial Observer has learned. Ally Bridge Group, which finances and supports life sciences, medical technology and biopharmaceutical companies, has signed a deal for 6,440 squa"
     },
     {
-      "headline": "AI Is in the Office in New York, and Other Observations",
-      "url": "https://commercialobserver.com/2026/05/ai-office-leasing-new-york-event/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 16:15:11 +0000",
-      "description": "Artificial intelligence firms are filling office buildings at an accelerated pace recently, but that doesn’t bring much comfort to landlords and brokers tracking layoffs in the tech industry thanks to machine learning taking the jobs of the programmers who made it. The troublesome topic came up seve"
-    },
-    {
-      "headline": "Ed Hogan Has Quietly Shaped Much of How New Yorkers Shop",
-      "url": "https://commercialobserver.com/2026/05/ed-hogan-fifth-avenue-retail-jvp/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 16:00:34 +0000",
-      "description": "With the eye of an architect but the instincts of a retail professional, Ed Hogan has helped transform some of the dingiest crevices of New York City into highly sought-after locations and kept one of the toniest corridors in the five boroughs an elevated shopping destination. But, now, after helpin"
-    },
-    {
-      "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
-      "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
+      "headline": "Trump signals support for Pratt in L.A. mayoral election: &#x27;I&#x27;d like to see him do well&#x27;",
+      "url": "https://www.latimes.com/california/story/2026-05-20/trump-signals-support-for-pratt-in-la-mayoral-election-id-like-to-see-him-do-well",
       "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "Victor Glover, who grew up in the Inland Empire, is now the only pilot to have flown NASA's Orion capsule."
+      "raw_date": "Wed, 20 May 2026 15:22:32 GMT",
+      "description": "Trump didn't make a formal endorsement, but the his comments were the first the president has made publicly on the L.A. mayor's race."
     },
     {
-      "headline": "With homes still charred lots, Palisades fire survivors find solace in temple reopening",
-      "url": "https://www.latimes.com/lifestyle/story/2026-05-20/kehillat-israel-reopens-in-pacific-palisades-after-fire",
+      "headline": "San Diego attackers&#x27; hate manifesto targeted many groups, sought &#x27;destruction of political system,&#x27; sources say",
+      "url": "https://www.latimes.com/california/story/2026-05-20/san-diego-attack-manifesto",
       "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "Kehillat Israel, closed since the Palisades fire, reopened last week, welcoming its congregation, which includes 230 families who lost their homes and an additional 250 families who were displaced."
+      "raw_date": "Wed, 20 May 2026 15:08:06 GMT",
+      "description": "An Anti-Defamation League analysis of the manifesto referenced \"the great replacement theory,\" the belief that white people are being replaced in their countries by non-white immigrants."
     },
     {
       "headline": "Screens would be banned until 2nd grade under draft LAUSD plan",
@@ -530,11 +552,25 @@
       "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
     },
     {
+      "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
+      "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "Victor Glover, who grew up in the Inland Empire, is now the only pilot to have flown NASA's Orion capsule."
+    },
+    {
       "headline": "Fire tearing through Santa Rosa Island reaches critically endangered trees",
       "url": "https://www.latimes.com/california/story/2026-05-20/santa-rosa-island-fire-burns-through-rare-torrey-pine-grove",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
       "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including a grove of critically endangered Torrey pine trees. Initial damage assessments provided hope."
+    },
+    {
+      "headline": "With homes still charred lots, Palisades fire survivors find solace in temple reopening",
+      "url": "https://www.latimes.com/lifestyle/story/2026-05-20/kehillat-israel-reopens-in-pacific-palisades-after-fire",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "Kehillat Israel, closed since the Palisades fire, reopened last week, welcoming its congregation, which includes 230 families who lost their homes and an additional 250 families who were displaced."
     },
     {
       "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
@@ -696,20 +732,6 @@
       "source": "CalMatters",
       "raw_date": "Tue, 19 May 2026 20:59:04 +0000",
       "description": "El respaldo de Pelosi podría relegar a Chan al segundo lugar, detrás del senador Scott Wiener, quien lidera con una ventaja de dos dígitos, y por delante del emprendedor tecnológico Saikat Chakrabarti, que financia su propia campaña."
-    },
-    {
-      "headline": "$6 gas intensifies clash between climate and cost of living",
-      "url": "https://calmatters.org/newsletter/gas-prices-cap-and-invest/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 13:00:00 +0000",
-      "description": "For many Californians, unseasonal winds and grass fires in May are reminders that climate change is intensifying extreme weather. But as gas prices continue to rise, a long-running debate in the Capitol is reigniting: Can California consumers afford the state’s nation-leading climate agenda? As CalM"
-    },
-    {
-      "headline": "Moving to California with a gun? You might have to take a four-hour course",
-      "url": "https://calmatters.org/politics/2026/05/california-gun-safety-training-bill/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 12:10:00 +0000",
-      "description": "Want to buy a gun in California? Lawmakers may have you set aside four hours — and bring ammo for the range"
     },
     {
       "headline": "CSUSB holds commencement",
