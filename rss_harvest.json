@@ -1,6 +1,6 @@
 {
-  "harvested_at": "2026-05-20T08:00:59.602Z",
-  "elapsed_seconds": 2.7,
+  "harvested_at": "2026-05-20T10:00:59.781Z",
+  "elapsed_seconds": 2.8,
   "feeds_attempted": 16,
   "feeds_successful": 14,
   "articles_count": 87,
@@ -363,6 +363,13 @@
       "description": "An Orange County industrial park has traded hands for more than $80 million as Greater Los Angeles’ industrial market fights to achieve post-pandemic stability.&#160; A joint venture between Harbor Associates and Farallon Capital Management acquired the Yorba Linda Commerce Center at 3910 Prospect A"
     },
     {
+      "headline": "The Plan: 212 West 72nd Street Goes Modern on Historic Upper West Side",
+      "url": "https://commercialobserver.com/2026/05/the-plan-212-west-72nd-street-upper-west-side/",
+      "source": "Commercial Observer",
+      "raw_date": "Wed, 20 May 2026 10:00:21 +0000",
+      "description": "An abundance of natural light? Check. Iconic New York City views? Check. Amenities that leave little to be desired? Check. Already nearly 90 percent sold, Centurion Property Investors’ 106-condominium 212 West 72nd Street at the corner of 72nd Street and Broadway on Manhattan’s Upper West Side is th"
+    },
+    {
       "headline": "25 Kent Offers Companies A Cutting-Edge Office Experience Along The Williamsburg Waterfront",
       "url": "https://commercialobserver.com/2026/05/25-kent-offers-companies-a-cutting-edge-office-experience-along-the-williamsburg-waterfront/",
       "source": "Commercial Observer",
@@ -473,13 +480,6 @@
       "source": "Commercial Observer",
       "raw_date": "Tue, 19 May 2026 16:00:34 +0000",
       "description": "With the eye of an architect but the instincts of a retail professional, Ed Hogan has helped transform some of the dingiest crevices of New York City into highly sought-after locations and kept one of the toniest corridors in the five boroughs an elevated shopping destination. But, now, after helpin"
-    },
-    {
-      "headline": "Building Equity Management Buys Historic Nolita Retail Building for $45M",
-      "url": "https://commercialobserver.com/2026/05/nolita-236-bowery-sale-building-equity-management/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 15:41:47 +0000",
-      "description": "A mainstay storefront in Manhattan’s Nolita neighborhood has sold for $44.98 million, according to city records made public Monday. The four-story retail building, located at 236 Bowery, is between Prince and Stanton streets, opposite the New Museum. The selling entity, 236 Bowery, is a limited liab"
     },
     {
       "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
@@ -594,18 +594,18 @@
       "description": "The Joshua tree has been featured in poetry and music and represented a burning bush in the latest episode of \"Euphoria.\" A small group of scientists hope the key to unlocking its long-term survival is buried in the sand."
     },
     {
-      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
-      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
-      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
-    },
-    {
       "headline": "Billionaire Tom Steyer&#x27;s $192.4-million self-funded California gubernatorial bid shatters records",
       "url": "https://www.latimes.com/california/story/2026-05-19/tom-steyer-shatters-self-funding-record-in-california-governors-race",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
       "description": "Billionaire Tom Steyer shatters spending record in California governor's race -- and may be the first successful self-funder"
+    },
+    {
+      "headline": "City Council progressives snub Raman, endorse Bass in L.A. mayor&#x27;s race",
+      "url": "https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 10:00:00 GMT",
+      "description": "The endorsements by Hernandez, Jurado and Soto-Martínez are aimed at denting left-wing support for Nithya Raman, who polls show is battling Spencer Pratt for a runoff spot against Mayor Bass."
     },
     {
       "headline": "Arellano: Spencer Pratt&#x27;s Make L.A. Great Again acolytes and their dark vision of the city",
