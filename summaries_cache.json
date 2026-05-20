@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-20",
   "summaries": {
-    "economy": "Global bond yields hit multiyear highs on war-driven inflation fears. The Fed is now expected to hold rates or hike before year-end. US industrial production posted its strongest monthly gain in 14 months.",
-    "economy_long": "Energy inflation from the Strait of Hormuz closure is tightening financial conditions globally. The 30-year Treasury yield has reached 5.16%, with markets now pricing a rate hike before year-end. Watch incoming FOMC minutes, flash US PMI data, and new Fed Chair Warsh's first policy signals.",
-    "industries": "Freight layoffs and retail bankruptcies signal widespread operational stress. Samsung's labor dispute threatens semiconductor supply chains globally. Amazon and Walmart are expanding last-mile delivery infrastructure into rural markets.",
-    "industries_long": "Industrial sectors are under simultaneous pressure from freight layoffs, retail bankruptcies, and supply chain restructuring. AI data center demand and defense contracting are emerging as primary growth anchors across energy and manufacturing. Watch Samsung's labor dispute closely \u2014 a strike would elevate chip prices and disrupt technology supply chains globally.",
-    "logistics": "Hormuz closure is driving fuel surcharges and global supply chain disruption. Companies are racing to build safety stock, straining warehouse demand. Cargo fraud schemes are rising sharply even as physical theft declines.",
-    "logistics_long": "Global logistics faces severe disruption as the Strait of Hormuz remains largely closed. The Iran war has spiked Brent crude above $110, triggering fuel surcharges from Amazon, FedEx, and USPS. Watch White House-Iran negotiations \u2014 any deal reopening Hormuz would immediately reset freight costs and shipping routes.",
-    "policy": "Trade policy is shifting fast across tariffs, agriculture, and freight regulation. Federal transportation funding and trucking rules face major legislative overhaul. California fuel costs and supply chain pressures add operational strain for industrial users.",
-    "policy_long": "Trade and transportation policy are in simultaneous flux across tariffs, infrastructure, and freight regulation. The Trump-Xi summit, Section 122 tariff litigation, and the BUILD America 250 Act are each reshaping operating conditions. Watch Trump's final decision on quartz tariffs and the Federal Circuit's Section 122 ruling for near-term cost impacts.",
-    "socal": "Acquisition activity in SoCal industrial remains active across multiple submarkets. IRG is taking a $3.4 billion industrial portfolio public via REIT conversion. Port of Los Angeles posted April volume gains despite ongoing Middle East disruptions.",
-    "socal_long": "Capital is actively deploying into SoCal industrial, from Jurupa Valley land to Commerce warehouses. IRG's $3.4B REIT launch signals institutional confidence in mission-critical industrial assets. Watch the Port of LA: April volume gains amid Middle East disruption define near-term demand.",
-    "bottom_line": "The Hormuz closure is driving oil above $109, stoking inflation, and forcing a global inventory buildup that is straining warehouse capacity. Bond yields are surging in response, tightening the financial conditions that underpin industrial investment and REIT formation. SoCal industrial activity continues, but the cost of doing business is rising on every front simultaneously."
+    "economy": null,
+    "economy_long": null,
+    "industries": null,
+    "industries_long": null,
+    "logistics": null,
+    "logistics_long": null,
+    "policy": null,
+    "policy_long": null,
+    "socal": null,
+    "socal_long": null,
+    "bottom_line": null
   }
 }
