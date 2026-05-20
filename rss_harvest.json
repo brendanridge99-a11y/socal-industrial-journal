@@ -1,21 +1,21 @@
 {
-  "harvested_at": "2026-05-19T22:00:06.094Z",
-  "elapsed_seconds": 3.1,
+  "harvested_at": "2026-05-20T00:00:05.691Z",
+  "elapsed_seconds": 2.5,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 88,
+  "articles_count": 90,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 13,
+      "count": 14,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 40,
       "error": null
     },
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 4,
+      "count": 5,
       "total": 30,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 10,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 21,
+      "count": 23,
       "total": 98,
       "error": null
     },
@@ -118,6 +118,13 @@
     }
   ],
   "articles": [
+    {
+      "headline": "Post-Montgomery, focus grows on fate of 3PL insurance premiums",
+      "url": "https://www.freightwaves.com/news/post-montgomery-focus-grows-on-fate-of-3pl-insurance-premiums",
+      "source": "FreightWaves",
+      "raw_date": "Tue, 19 May 2026 22:27:37 +0000",
+      "description": "The Montgomery decision has brought a rapid spotlight on what brokers are going to pay for insurance. The post Post-Montgomery, focus grows on fate of 3PL insurance premiums appeared first on FreightWaves ."
+    },
     {
       "headline": "$217 Million Just Hit the Table for Trucking Safety and CDL Development — Here’s Who Can Apply and What It Means for Your Operation",
       "url": "https://www.freightwaves.com/news/217-million-just-hit-the-table-for-trucking-safety-and-cdl-development-heres-who-can-apply-and-what-it-means-for-your-operation",
@@ -245,13 +252,6 @@
       "description": "Yet liner executives insist that much of the surplus tonnage can be absorbed by a combination of vessel management, trade imbalances, increased scrapping and the ongoing effects of geopolitical disruptions."
     },
     {
-      "headline": "Software vendor offers proposal to establish detention, demurrage accountability",
-      "url": "https://joc.com/article/software-vendor-offers-proposal-to-establish-detention-demurrage-accountability-6222721",
-      "source": "Journal of Commerce",
-      "raw_date": "Mon, 18 May 2026 20:12:17 GMT",
-      "description": "The BCO technology provider, in a bid to avoid costly dispute resolution, has identified 20 use cases under which shippers, consignees and carriers can agree to be held responsible for container storage."
-    },
-    {
       "headline": "Mondelēz taps AI for distribution centers to cut costs",
       "url": "https://www.supplychaindive.com/news/mondelez-taps-ai-for-distribution-centers-to-cut-costs/820067/",
       "source": "Supply Chain Dive",
@@ -278,6 +278,13 @@
       "source": "Supply Chain Dive",
       "raw_date": "Tue, 19 May 2026 07:52:00 -0400",
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/3TdlWd5qgsi1Q3H1BnGksZRjTLeRTO7M-jT5iWq4FxU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTUzODc3NTE1LmpwZw==.webp\"/></div></figure><p>Jeff England, who worked to improve inventory availability at&nbsp;QXO, wi"
+    },
+    {
+      "headline": "Blue Yonder launches AI agent testing system",
+      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/blue-yonder-launches-ai-agent-testing-system",
+      "source": "DC Velocity",
+      "raw_date": "Tue, 19 May 2026 22:12:37 +0000",
+      "description": "In a move to accelerate the development of specialized AI agents for the autonomous supply chain, tech firm Blue Yonder on Monday said it had launched a platform that teaches AI models how to perform high-value tasks at the level of supply chain subject matter experts. Built in collaboration with ch"
     },
     {
       "headline": "Users’ intent is crucial for building good AI agents, Manhattan says",
@@ -341,13 +348,6 @@
       "source": "The Real Deal",
       "raw_date": "Mon, 18 May 2026 22:30:00 +0000",
       "description": "Spring has sprung in Los Angeles’ industrial corridor as a local importer and wholesaler of fresh-cut flowers plants deeper roots in the region in a larger warehouse.&#160;&#160; Holland Flower Market acquired a 91,010-square-foot facility at 5555 East Slauson Avenue in Commerce for $34.1 million, H"
-    },
-    {
-      "headline": "Brentwood mansion with Oscar-winning history hits the market",
-      "url": "https://therealdeal.com/la/2026/05/18/modern-brentwood-manse-seeks-buyer-for-nearly-17-million/",
-      "source": "The Real Deal",
-      "raw_date": "Mon, 18 May 2026 21:58:56 +0000",
-      "description": "A Brentwood home with a Hollywood pedigree and architectural acclaim is heading to market.&#160; The nearly 9,000-square-foot manse at 645 Tuallitan Road has been listed for just under $16.5 million, Mansion Global reported.&#160; The home was built in 1992 and commissioned by Oscar-winning screenwr"
     },
     {
       "headline": "Benchmark Buys Upper West Side Apartment Building From Heller for $42M",
@@ -469,6 +469,20 @@
       "description": "The words “Can you change this?” might have more than normal resonance in a bank these days. In the last decade, somewhere between 22 million and 36 million square feet of bank branches closed nationwide, an amount of space potentially larger than the entire Cincinnati office market, according to Be"
     },
     {
+      "headline": "In deal with business leaders, $30 minimum wage for L.A. hotel and airport workers will be delayed",
+      "url": "https://www.latimes.com/california/story/2026-05-19/in-deal-with-business-leaders-30-minimum-wage-for-la-hotel-airport-workers-will-be-delayed",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 23:28:29 GMT",
+      "description": "The minimum wage will still increase to $25 in July and continue in increments until reaching $30 in January 2030."
+    },
+    {
+      "headline": "California, other states sue over new Trump limits on loans for nurses, PAs, therapists",
+      "url": "https://www.latimes.com/politics/story/2026-05-19/california-other-states-sue-over-new-trump-limits-on-loans-for-nurses-pas-therapists",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 21:54:08 GMT",
+      "description": "California and other Democratic-led states are suing the Trump administration over new limits on federal borrowing by students in healthcare fields."
+    },
+    {
       "headline": "Report finds no failures in Altadena fire evacuations. Critics decry lack of accountability",
       "url": "https://www.latimes.com/california/story/2026-05-19/altadena-evacuation-report-accountability",
       "source": "Los Angeles Times",
@@ -487,7 +501,7 @@
       "url": "https://www.latimes.com/california/story/2026-05-19/los-angeles-boy-band-member-murder-plot-case",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 19:32:54 GMT",
-      "description": "A Miami attorney, his influencer daughter and a Hawaiian surf instructor were charged Tuesday in a plot to kill singer Jack Avery in a custody dispute, sources told The Times."
+      "description": "A Miami attorney, his influencer daughter and a Hawaiian surf instructor were charged Tuesday in a plot to kill singer Jack Avery over a custody dispute."
     },
     {
       "headline": "Hilton and Becerra lead in a tightening race in final weeks of California governor&#x27;s campaign, poll shows",
@@ -525,7 +539,7 @@
       "description": "The Islamic Center of San Diego is mourning three people killed in Monday's attack, including a security guard praised by police for his actions."
     },
     {
-      "headline": "Sandy fire growth stalls overnight, containment climbs to 5%",
+      "headline": "Sandy fire growth stalls as crews scramble to combat new SoCal blazes",
       "url": "https://www.latimes.com/california/story/2026-05-19/sandy-fire-evacuations",
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 14:14:32 GMT",
@@ -616,6 +630,13 @@
       "description": "A wildfire sparked by the flare of a shipwrecked mariner has burned around one-fourth of Santa Rosa Island and marks what officials called the largest blaze recorded on the island in modern history."
     },
     {
+      "headline": "Can you trust that post about Tom Steyer? How paid influencers are flooding into the governor’s race",
+      "url": "https://calmatters.org/politics/2026/05/california-governor-race-influencers/",
+      "source": "CalMatters",
+      "raw_date": "Tue, 19 May 2026 22:12:10 +0000",
+      "description": "Billionaire Tom Steyer is paying influencers to boost his California governor campaign. Some didn't disclose it. A state law offers little accountability."
+    },
+    {
       "headline": "¿Te mudas a California con un arma? Es posible que tengas que tomar un curso de cuatro horas",
       "url": "https://calmatters.org/calmatters-en-espanol/2026/05/california-armas-seguridad/",
       "source": "CalMatters",
@@ -677,13 +698,6 @@
       "source": "CalMatters",
       "raw_date": "Tue, 19 May 2026 12:00:00 +0000",
       "description": "In a Democratic poll during the last weeks of campaigning, most trending candidates for governor show support in the single digits."
-    },
-    {
-      "headline": "Nancy Pelosi puts thumb on the scale in race for her successor. Here’s who she endorsed",
-      "url": "https://calmatters.org/politics/2026/05/pelosi-wiener-congress-endorsement/",
-      "source": "CalMatters",
-      "raw_date": "Mon, 18 May 2026 22:51:29 +0000",
-      "description": "Pelosi’s endorsement could push Chan into second place behind Sen. Scott Wiener, who is leading by double digits, ahead of self-funding tech entrepreneur Saikat Chakrabarti."
     },
     {
       "headline": "A Model for Churches ‘Struggling’ to Keep Buildings",
