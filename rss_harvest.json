@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-20T00:00:05.691Z",
-  "elapsed_seconds": 2.5,
+  "harvested_at": "2026-05-20T02:00:05.667Z",
+  "elapsed_seconds": 2.8,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 90,
+  "articles_count": 94,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 14,
+      "count": 15,
       "total": 50,
       "error": null
     },
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 5,
+      "count": 7,
       "total": 30,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 5,
+      "count": 4,
       "total": 10,
       "error": null
     },
@@ -84,8 +84,8 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 23,
-      "total": 98,
+      "count": 25,
+      "total": 99,
       "error": null
     },
     {
@@ -118,6 +118,13 @@
     }
   ],
   "articles": [
+    {
+      "headline": "SCOTUS to trigger truckload rate run to $5.00 per mile?",
+      "url": "https://www.freightwaves.com/news/scotus-to-trigger-truckload-rate-run-to-5-00-per-mile",
+      "source": "FreightWaves",
+      "raw_date": "Wed, 20 May 2026 00:54:20 +0000",
+      "description": "Spot rates hit $3.55 a mile yesterday — a clear signal that capacity is not flowing in to relieve the tightness we saw during road check week. And we&#8217;re heading into Memorial Day, which historically creates a surge as shippers push product out ahead of the holiday and carriers take time off wi"
+    },
     {
       "headline": "Post-Montgomery, focus grows on fate of 3PL insurance premiums",
       "url": "https://www.freightwaves.com/news/post-montgomery-focus-grows-on-fate-of-3pl-insurance-premiums",
@@ -280,6 +287,20 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/3TdlWd5qgsi1Q3H1BnGksZRjTLeRTO7M-jT5iWq4FxU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTUzODc3NTE1LmpwZw==.webp\"/></div></figure><p>Jeff England, who worked to improve inventory availability at&nbsp;QXO, wi"
     },
     {
+      "headline": "Gartner: Just 1/3 of CPOs are confident they can redesign roles for AI",
+      "url": "https://www.dcvelocity.com/finance-strategy/procurement/gartner-just-1-3-of-cpos-are-confident-they-can-redesign-roles-for-ai",
+      "source": "DC Velocity",
+      "raw_date": "Wed, 20 May 2026 00:41:35 +0000",
+      "description": "Only 36% of chief procurement officers (CPOs) are very confident in their ability to redesign roles and processes around AI, according to a survey from analyst group Gartner, Inc. And likewise, individual AI productivity gains are not yet translating to broader team or enterprise outcomes. The resul"
+    },
+    {
+      "headline": "Noatum Logistics’ parent company acquires German 3PL for $81 million",
+      "url": "https://www.dcvelocity.com/supply-chain/other-services/global-logistics/noatum-logistics-parent-company-acquires-german-3pl-for-81-million",
+      "source": "DC Velocity",
+      "raw_date": "Tue, 19 May 2026 22:22:46 +0000",
+      "description": "The parent company of Kansas-based 3PL Noatum Logistics has acquired MBS Logistics , a Germany-based global integrated logistics services provider, for $81 million, saying the deal represents a significant step in its strategy to enhance operational scale, manage larger volumes, and expand its globa"
+    },
+    {
       "headline": "Blue Yonder launches AI agent testing system",
       "url": "https://www.dcvelocity.com/technology/artificial-intelligence/blue-yonder-launches-ai-agent-testing-system",
       "source": "DC Velocity",
@@ -341,13 +362,6 @@
       "source": "The Real Deal",
       "raw_date": "Tue, 19 May 2026 18:39:24 +0000",
       "description": "An Orange County industrial park has traded hands for more than $80 million as Greater Los Angeles’ industrial market fights to achieve post-pandemic stability.&#160; A joint venture between Harbor Associates and Farallon Capital Management acquired the Yorba Linda Commerce Center at 3910 Prospect A"
-    },
-    {
-      "headline": "Everything’s coming up roses: Flower wholesaler plants roots in Commerce with $34M acquisition",
-      "url": "https://therealdeal.com/la/2026/05/18/los-angeles-flower-seller-acquires-commerce-warehouse/",
-      "source": "The Real Deal",
-      "raw_date": "Mon, 18 May 2026 22:30:00 +0000",
-      "description": "Spring has sprung in Los Angeles’ industrial corridor as a local importer and wholesaler of fresh-cut flowers plants deeper roots in the region in a larger warehouse.&#160;&#160; Holland Flower Market acquired a 91,010-square-foot facility at 5555 East Slauson Avenue in Commerce for $34.1 million, H"
     },
     {
       "headline": "Benchmark Buys Upper West Side Apartment Building From Heller for $42M",
@@ -467,6 +481,27 @@
       "source": "Commercial Observer",
       "raw_date": "Tue, 19 May 2026 15:22:11 +0000",
       "description": "The words “Can you change this?” might have more than normal resonance in a bank these days. In the last decade, somewhere between 22 million and 36 million square feet of bank branches closed nationwide, an amount of space potentially larger than the entire Cincinnati office market, according to Be"
+    },
+    {
+      "headline": "Two inmates plotted a jailhouse beating. A guard helped them &#x27;handle it&#x27;",
+      "url": "https://www.latimes.com/california/story/2026-05-19/two-inmates-plotted-jailhouse-beating-guard-helped-them-handle-it",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 01:32:42 GMT",
+      "description": "A Santa Clara County correctional officer will spend 45 days in jail after helping two inmates carry out an attack against another inmate, then conspiring with them to cover it up."
+    },
+    {
+      "headline": "Bain fire injures 4 in Riverside County; civilian drones interfere with firefighting aircraft",
+      "url": "https://www.latimes.com/california/story/2026-05-19/5-injuries-reported-as-bain-verona-fires-burn-in-riverside-county",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 00:53:46 GMT",
+      "description": "The Bain fire ignited in the Jurupa Valley on Tuesday, prompting evacuation orders and injuring four people. The blaze grew to 900 acres by 5 p.m. and firefighting aircraft were briefly grounded due to civilian drones spotted flying in the area."
+    },
+    {
+      "headline": "Girl, 12, was injured in alleged bullying incident. That wasn&#x27;t what caused her death, M.E. says",
+      "url": "https://www.latimes.com/california/story/2026-05-19/girl-hit-in-head-with-water-bottle-at-school-death-ruled-natural",
+      "source": "Los Angeles Times",
+      "raw_date": "Tue, 19 May 2026 23:52:50 GMT",
+      "description": "Khimberly, 12, died days after she was hit in the head with a water bottle during an alleged bullying incident at school. The L.A. County medical examiner determined that her death was caused by an underlying medical condition."
     },
     {
       "headline": "In deal with business leaders, $30 minimum wage for L.A. hotel and airport workers will be delayed",
@@ -621,13 +656,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Tue, 19 May 2026 00:22:12 GMT",
       "description": "As part of a five-generation circus family, 13-year-old Francesco Caballero dreams of competing worldwide. But first, he'll have to get through his school talent show."
-    },
-    {
-      "headline": "Largest fire ever recorded on Santa Rosa Island endangers &#x27;gem of California coast&#x27;",
-      "url": "https://www.latimes.com/california/story/2026-05-18/largest-fire-ever-recorded-burns-santa-rosa-island-endangering-gem-of-california-coast",
-      "source": "Los Angeles Times",
-      "raw_date": "Mon, 18 May 2026 22:22:57 GMT",
-      "description": "A wildfire sparked by the flare of a shipwrecked mariner has burned around one-fourth of Santa Rosa Island and marks what officials called the largest blaze recorded on the island in modern history."
     },
     {
       "headline": "Can you trust that post about Tom Steyer? How paid influencers are flooding into the governor’s race",
