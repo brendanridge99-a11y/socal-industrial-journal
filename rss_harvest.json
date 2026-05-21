@@ -1,28 +1,28 @@
 {
-  "harvested_at": "2026-05-21T16:00:56.590Z",
-  "elapsed_seconds": 2.5,
+  "harvested_at": "2026-05-21T18:00:55.942Z",
+  "elapsed_seconds": 1.9,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 85,
+  "articles_count": 82,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 15,
+      "count": 12,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 6,
+      "count": 7,
       "total": 40,
       "error": null
     },
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 6,
+      "count": 4,
       "total": 10,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 7,
+      "count": 9,
       "total": 10,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 21,
+      "count": 19,
       "total": 98,
       "error": null
     },
@@ -111,7 +111,7 @@
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 1,
+      "count": 2,
       "total": 6,
       "error": null
     }
@@ -202,25 +202,11 @@
       "description": "Jesse Elison, a top FMCSA official, talked a post-Montgomery world at a Cleveland event. The post A top FMCSA official faces a post-Montgomery world at Freight Fraud event appeared first on FreightWaves ."
     },
     {
-      "headline": "Quarterly loss for Zim ahead of Hapag-Lloyd takeover",
-      "url": "https://www.freightwaves.com/news/quarterly-loss-for-zim-ahead-of-hapag-lloyd-takeover",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 14:59:16 +0000",
-      "description": "Ahead of a takeover by Hapag-Lloyd, Zim earnings were hit by a softer freight rate environment and weaker demand. The post Quarterly loss for Zim ahead of Hapag-Lloyd takeover appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Truck dwell holds, rail up at LA-Long Beach",
-      "url": "https://www.freightwaves.com/news/truck-dwell-holds-rail-up-at-la-long-beach",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 14:18:00 +0000",
-      "description": "Southern California ports saw broadly steady container dwell in April across truck and rail. The post Truck dwell holds, rail up at LA-Long Beach appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Tariff Stacking Is Rewiring Supply Chain Execution",
-      "url": "https://www.freightwaves.com/news/tariff-stacking-is-rewiring-supply-chain-execution",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 14:09:01 +0000",
-      "description": "Infios' analysis of millions of U.S. customs entries reveals how tariff stacking transformed supply chain execution in 2025. The post Tariff Stacking Is Rewiring Supply Chain Execution appeared first on FreightWaves ."
+      "headline": "Evolution of ocean capacity linked to varied dynamics of trade needs",
+      "url": "https://joc.com/article/evolution-of-ocean-capacity-linked-to-varied-dynamics-of-trade-needs-6225347",
+      "source": "Journal of Commerce",
+      "raw_date": "Thu, 21 May 2026 16:10:15 GMT",
+      "description": "The alignment between demand and the supply of capacity has individual dynamics across each trade lane and different consequences for the newbuild, second-hand and charter markets, writes Jeremy Masters."
     },
     {
       "headline": "‘Dummy permits’ could overcome last-mile snafus for project cargoes",
@@ -293,20 +279,6 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/n91zTUxXVsYoAHw6FMcaLfP0imTWJ8TCCYKIf5lZ6NA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjU4NzExNDUxXzEuanBn.webp\"/></div></figure><p>Despite market uncertainty, some shippers like Bob&rsquo;s Discount Furnit"
     },
     {
-      "headline": "Havertys Furniture battles rising fuel costs across supply chain",
-      "url": "https://www.supplychaindive.com/news/havertys-furniture-battles-rising-fuel-costs-across-supply-chain/820299/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Wed, 20 May 2026 10:58:31 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/6ObwmB7Kl4WdG2teylCK-r8MrA9heYayo7UIEQRplik/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTkwNDQ2NDg3LmpwZw==.webp\"/></div></figure><p>The retailer is facing elevated vendor input costs and higher delivery fle"
-    },
-    {
-      "headline": "FedEx board approves trucking business spinoff",
-      "url": "https://www.supplychaindive.com/news/fedex-board-approves-trucking-business-spinoff/820379/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Wed, 20 May 2026 10:54:00 -0400",
-      "description": "<p>A new stand-alone FedEx Freight may resemble a start-up, but the LTL carrier is far from it, experts say.&nbsp;</p>"
-    },
-    {
       "headline": "Up, up, and (put)away",
       "url": "https://www.dcvelocity.com/material-handling/up-up-and-put-away",
       "source": "DC Velocity",
@@ -347,6 +319,20 @@
       "source": "DC Velocity",
       "raw_date": "Wed, 20 May 2026 19:59:04 +0000",
       "description": "As a member of the “Miracle on Ice” hockey team that defied expectations by beating their mighty Russian rivals to score Olympic gold medals in 1980, Jim Craig has learned some critical lessons about the mindset required to meet difficult goals. And many of those lessons can be adopted for other pur"
+    },
+    {
+      "headline": "LA County brings Palisades, Eaton fire recovery efforts under one roof with new agency",
+      "url": "https://therealdeal.com/la/2026/05/21/new-los-angeles-county-agency-to-centralize-rebuild-work/",
+      "source": "The Real Deal",
+      "raw_date": "Thu, 21 May 2026 17:09:45 +0000",
+      "description": "Los Angeles County is formalizing its long-term wildfire recovery apparatus with a new agency tasked with cutting through the bureaucracy that often slows down rebuilding after major disasters. On Tuesday, the Los Angeles County Board of Supervisors voted unanimously to establish the Los Angeles Cou"
+    },
+    {
+      "headline": "Kirman courts new crowd, international buyers at Privé Malibu",
+      "url": "https://therealdeal.com/la/2026/05/21/aaron-kirman-talks-prive-malibu-los-angeles-condo-market/",
+      "source": "The Real Deal",
+      "raw_date": "Thu, 21 May 2026 16:25:06 +0000",
+      "description": "Aaron Kirman’s Christie’s International Real Estate Southern California is testing the breadth of demand for coastal condo living, with the brokerage zeroing in on locals previously priced out of the market and international buyers as prospects for the recently opened Privé Malibu. Kirman, along wit"
     },
     {
       "headline": "Abandoned Baldwin Park school slated for more than 100 townhomes",
@@ -396,6 +382,27 @@
       "source": "The Real Deal",
       "raw_date": "Wed, 20 May 2026 19:00:32 +0000",
       "description": "Onni Group’s $408 million loan on Wilshire Courtyard is in special servicing, according to Morningstar Credit. Onni owes about $384 million on the around 1-million-square-foot Miracle Mile office complex at 5700 to 5750 Wilshire Boulevard. Servicer commentary dated early May noted the loan moved due"
+    },
+    {
+      "headline": "Design Firm GKV Architects Signs 6K-SF Lease at AmTrustRE’s 360 Lexington Avenue",
+      "url": "https://commercialobserver.com/2026/05/gkv-architects-lease-amtrustre-360-lexington-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 17:06:49 +0000",
+      "description": "An architecture and interior design firm is relocating to an AmTrustRE-owned building in Midtown East. GKV Architects, which has worked with AmTrustRE on several of its buildings, signed a 5,754-square-foot lease on part of the 14th floor of 360 Lexington Avenue, which AmTrustRE acquired in 2024, ac"
+    },
+    {
+      "headline": "Publix Buys Another South Florida Retail Center",
+      "url": "https://commercialobserver.com/2026/05/publix-fountains-of-boynton-shopping-center/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 16:45:21 +0000",
+      "description": "Publix has bought yet another retail center in South Florida. The grocer paid $78 million for a 178,726-square-foot, open-air property, where it’s the main tenant, west of Boynton Beach, Fla., property records show. Called Fountains of Boynton Shopping Center, the 21-acre property sits adjacent to S"
+    },
+    {
+      "headline": "Marcus &#038; Millichap Expands to 41K SF at AmTrustRE’s 260 Madison Avenue",
+      "url": "https://commercialobserver.com/2026/05/marcus-millichap-lease-expansion-amtrustre-260-madison-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 16:16:26 +0000",
+      "description": "Marcus &#38; Millichap is expanding and extending at AmTrustRE’s 260 Madison Avenue in Midtown. The California-based real estate advisory firm added 5,000 square feet to its existing 36,000-square-foot space at the 22-story office building near Grand Central Terminal, bringing it to a total of 41,00"
     },
     {
       "headline": "Hudson Companies Hires Isaac Henderson as Principal, Co-Head of Development",
@@ -496,27 +503,6 @@
       "description": "Less than a year after arriving at 900 Third Avenue, Chicago-based law firm Kirkland &#38; Ellis has upped its footprint once again. The law firm’s 52,089-square-foot expansion at the Midtown East office tower was revealed in Savills’ Wednesday report on law firm leasing in the first quarter of 2026"
     },
     {
-      "headline": "Retailer Marshalls Opens 31K-SF Store at Liberty Bklyn",
-      "url": "https://commercialobserver.com/2026/05/marshalls-retail-lease-liberty-bklyn/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 17:28:20 +0000",
-      "description": "Marshalls has taken up a 10-year tenancy at Liberty Bklyn. The off-price retailer secured 31,470 square feet of ground-floor space at Madison Capital and Salmar Properties’ 850 Third Avenue in Sunset Park, Brooklyn, according to a Wednesday announcement from the landlords. The transaction leaves the"
-    },
-    {
-      "headline": "Law Firm Willkie Farr &#038; Gallagher Expands to 368K SF at 787 Seventh Avenue",
-      "url": "https://commercialobserver.com/2026/05/willkie-farr-gallagher-lease-expansion-787-seventh-avenue/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 17:22:26 +0000",
-      "description": "Law firm Willkie Farr &#38; Gallagher has added 53,000 square feet to its already massive headquarters in Midtown. The global litigation firm will grow from 315,000 square feet to 368,000 square feet at CommonWealth Partners’ 787 Seventh Avenue, according to a first-quarter office report from Savill"
-    },
-    {
-      "headline": "CIBC, Citizens Bank Provide $108M Construction Loan for Fairfax Apartment Complex",
-      "url": "https://commercialobserver.com/2026/05/cibc-citizens-bank-108m-construction-loan-fairfax-apartment/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 16:22:05 +0000",
-      "description": "Insight Property Group has secured $107.7 million in construction financing to build Hunter’s Branch, a 452-unit multifamily community in the Vienna neighborhood of Fairfax, Va. CIBC and Citizens Bank provided the non-recourse construction financing for a development that is expected to cost $174.6 "
-    },
-    {
       "headline": "Multiple wildfires trigger unhealthy air quality alert in Southern California",
       "url": "https://www.latimes.com/california/story/2026-05-21/socal-wildfire-smoke-advisory",
       "source": "Los Angeles Times",
@@ -536,13 +522,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
       "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
-    },
-    {
-      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
-      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
     },
     {
       "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
@@ -566,6 +545,13 @@
       "description": "With less than two weeks before the primary election, Steve Hilton is leading in the polls for governor, and Los Angeles mayoral hopeful Spencer Pratt is making the city's progressive class sweat."
     },
     {
+      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
+      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
+    },
+    {
       "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
       "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
       "source": "Los Angeles Times",
@@ -573,11 +559,11 @@
       "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working class character by investment capital. Now, some investors are welcomed for building what the community needs."
     },
     {
-      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
-      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
+      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
+      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
+      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
     },
     {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
@@ -650,20 +636,6 @@
       "description": "Environmental nonprofit Heal the Bay and the city of Santa Monica are teaming up to investigate and find solutions for the pier's poor water quality."
     },
     {
-      "headline": "Trump signals support for Pratt in L.A. mayoral election: &#x27;I&#x27;d like to see him do well&#x27;",
-      "url": "https://www.latimes.com/california/story/2026-05-20/trump-signals-support-for-pratt-in-la-mayoral-election-id-like-to-see-him-do-well",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 15:22:32 GMT",
-      "description": "Trump didn't make a formal endorsement, but his comments were the first the president has made publicly on the L.A. mayor's race."
-    },
-    {
-      "headline": "Social media, manifesto of San Diego mosque shooters rooted in white nationalism",
-      "url": "https://www.latimes.com/california/story/2026-05-20/san-diego-attack-manifesto",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 15:08:06 GMT",
-      "description": "The Times reviewed social media accounts believed to be used by one of the San Diego Islamic Center shooters that idolized school shootings, white nationalism and neo-Nazi terrorism and were flush with memes from the online far-right extremist community. Here is what we found."
-    },
-    {
       "headline": "They used to battle in CA elections. Now, they back the same candidate",
       "url": "https://calmatters.org/newsletter/superintendent-california-election-endorsements/",
       "source": "CalMatters",
@@ -704,6 +676,13 @@
       "source": "CalMatters",
       "raw_date": "Wed, 20 May 2026 22:14:21 +0000",
       "description": "En una encuesta demócrata realizada durante las últimas semanas de campaña, la mayoría de los candidatos a gobernador que marcan tendencia muestran un apoyo de un solo dígito."
+    },
+    {
+      "headline": "Global Oil Disruption and Regional Economic Resilience",
+      "url": "https://iebusinessdaily.com/global-oil-disruption-and-regional-economic-resilience/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=global-oil-disruption-and-regional-economic-resilience",
+      "source": "IE Business Daily",
+      "raw_date": "Thu, 21 May 2026 16:02:49 +0000",
+      "description": "Welcome to another episode of the &#8220;Professionals of the Inland Empire&#8221; podcast hosted by John Tulac. This week, Economist Jay Prag sits down to discuss the economic ripple effects of global events, particularly the conflict involving Iran and the Strait of Hormuz, on businesses of variou"
     },
     {
       "headline": "Victorville homeless rate drops",
