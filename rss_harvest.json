@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-21T10:01:03.567Z",
-  "elapsed_seconds": 2.7,
+  "harvested_at": "2026-05-21T12:01:04.863Z",
+  "elapsed_seconds": 2.6,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 75,
+  "articles_count": 78,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 15,
+      "count": 14,
       "total": 17,
       "error": null
     },
@@ -84,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 18,
+      "count": 19,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 5,
+      "count": 8,
       "total": 10,
       "error": null
     },
@@ -461,11 +461,53 @@
       "description": "The Fellowship Family, a 48-year-old senior living operator, has secured $44.5 million of Commercial Property Assessed Clean Energy (C-PACE) debt for the development of a senior housing community in northern Florida, Commercial Observer has learned. Peachtree Group originated the 30-year C-PACE loan"
     },
     {
-      "headline": "The Plan: 212 West 72nd Street Goes Modern on Historic Upper West Side",
-      "url": "https://commercialobserver.com/2026/05/the-plan-212-west-72nd-street-upper-west-side/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 10:00:21 +0000",
-      "description": "An abundance of natural light? Check. Iconic New York City views? Check. Amenities that leave little to be desired? Check. Already nearly 90 percent sold, Centurion Property Investors’ 106-condominium 212 West 72nd Street at the corner of 72nd Street and Broadway on Manhattan’s Upper West Side is th"
+      "headline": "This L.A. bookstore is leading a revolt against &#x27;greedy landlords&#x27;",
+      "url": "https://www.latimes.com/entertainment-arts/books/story/2026-05-21/read-books-eagle-rock-rent-hike-protests",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
+    },
+    {
+      "headline": "Spencer Pratt&#x27;s unlikely journey from reality TV villain to L.A. mayoral candidate",
+      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "L.A. has never seen a mayoral candidate like Pratt, a scathing critic of City Hall who sees its streets as a dystopian hellscape menaced by drug-addicted zombies."
+    },
+    {
+      "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
+      "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
+    },
+    {
+      "headline": "Arellano: Steve Hilton and Spencer Pratt need Latinos, not Trump",
+      "url": "https://www.latimes.com/california/story/2026-05-21/steve-hilton-spencer-pratt-latino-support-trump",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "With less than two weeks before the primary election, Steve Hilton is leading in the polls for governor, and Los Angeles mayoral hopeful Spencer Pratt is making the city's progressive class sweat."
+    },
+    {
+      "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
+      "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working class character by investment capital. Now, some investors are welcomed for building what the community needs."
+    },
+    {
+      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
+      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
+    },
+    {
+      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
+      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
     },
     {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
@@ -552,46 +594,25 @@
       "description": "The Times reviewed social media accounts believed to be used by one of the San Diego Islamic Center shooters that idolized school shootings, white nationalism and neo-Nazi terrorism and were flush with memes from the online far-right extremist community. Here is what we found."
     },
     {
-      "headline": "With homes still charred lots, Palisades fire survivors find solace in temple reopening",
-      "url": "https://www.latimes.com/lifestyle/story/2026-05-20/kehillat-israel-reopens-in-pacific-palisades-after-fire",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "Kehillat Israel, closed since the Palisades fire, reopened last week, welcoming its congregation, which includes 230 families who lost their homes and an additional 250 families who were displaced."
+      "headline": "With so many candidates and options in California, when’s the right time to vote?",
+      "url": "https://calmatters.org/commentary/2026/05/time-to-vote-california-elections/",
+      "source": "CalMatters",
+      "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
+      "description": "Some in the Democratic Party urged voters to wait to see if any Democratic candidates bow out of the race. But how long is too long to wait?"
     },
     {
-      "headline": "Screens would be banned until 2nd grade under draft LAUSD plan",
-      "url": "https://www.latimes.com/california/story/2026-05-20/screens-would-be-banned-until-2nd-grade-under-draft-lausd-plan",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "The L.A. school board got its first look Tuesday at a draft policy that limits student screen time — and that will affect how teachers manage instruction."
+      "headline": "‘Feels like erasure’: Why Native American students may be undercounted by 90% in California schools",
+      "url": "https://calmatters.org/education/k-12-education/2026/05/native-american-students-california-2/",
+      "source": "CalMatters",
+      "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
+      "description": "Native American students who also identify as another race, such as Black, white or Asian, are counted as “two or more races,” not Native American."
     },
     {
-      "headline": "Fire tearing through Santa Rosa Island reaches critically endangered trees",
-      "url": "https://www.latimes.com/california/story/2026-05-20/santa-rosa-island-fire-burns-through-rare-torrey-pine-grove",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including reaching a grove of critically endangered Torrey pine trees. But there is reason for hope."
-    },
-    {
-      "headline": "L.A.&#x27;s democratic socialists look to boost their clout in City Hall",
-      "url": "https://www.latimes.com/california/story/2026-05-20/la-democratic-socialists-look-to-boost-their-clout-in-city-hall",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
-    },
-    {
-      "headline": "Immigrant rights advocates rally for more state healthcare funding, criticize Newsom",
-      "url": "https://www.latimes.com/california/story/2026-05-20/immigration-advocates-rally-for-more-state-healthcare-funding-criticize-newsom-two-groups-rally-at-capitol-to-push-for-more-healthcare-funding",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "Human rights advocates on Tuesday rallied outside the California Capitol to push back on Gov. Gavin Newsom's proposed budget plan to reduce state-sponsored healthcare coverage for undocumented immigrants."
-    },
-    {
-      "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
-      "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "Victor Glover, who grew up in the Inland Empire, is now the only pilot to have flown NASA's Orion capsule."
+      "headline": "National Democrats said they’d stay out of this California race. Then they picked a side",
+      "url": "https://calmatters.org/politics/2026/05/central-valley-congress-dccc/",
+      "source": "CalMatters",
+      "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
+      "description": "In the Central Valley, Democratic officials are betting that a candidate running to the middle will woo enough swing voters to topple incumbent Republican Rep. David Valadao."
     },
     {
       "headline": "Hilton y Becerra lideran nueva encuesta para gobernador de California. Steyer va detrás, pero no está fuera",
@@ -629,18 +650,18 @@
       "description": "One of the 61 gubernatorial candidates ranted about Israel and Jewish people instead of describing himself. Did the state have to publish it?"
     },
     {
+      "headline": "Victorville homeless rate drops",
+      "url": "https://iebusinessdaily.com/victorville-homeless-rate-drops/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=victorville-homeless-rate-drops",
+      "source": "IE Business Daily",
+      "raw_date": "Thu, 21 May 2026 10:48:52 +0000",
+      "description": "Victorville’s unsheltered homeless population fell 68 percent during the past two years, while its total homeless population dropped 28 percent in that time, according to the 2026 San Bernardino County Point-In-Time Count. The High Desert city’s overall homeless count, which includes unsheltered per"
+    },
+    {
       "headline": "CSUSB holds commencement",
       "url": "https://iebusinessdaily.com/csusb-holds-commencement/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=csusb-holds-commencement",
       "source": "IE Business Daily",
       "raw_date": "Wed, 20 May 2026 10:57:20 +0000",
       "description": "Cal State San Bernardino honored more than 3,100 graduates during two days of ceremonies at the Toyota Arena in Ontario. Students in the College of Social and Behavioral Sciences received their degrees May 15, followed the next day by the College of Arts and Letters, the James R. Watson and Judy Rod"
-    },
-    {
-      "headline": "State median home price climbs",
-      "url": "https://iebusinessdaily.com/state-median-home-price-climbs/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=state-median-home-price-climbs",
-      "source": "IE Business Daily",
-      "raw_date": "Wed, 20 May 2026 10:00:08 +0000",
-      "description": "California’s median home price reached a record high in April, helped by lower mortgage rates and more sales in high-end neighborhoods. The median home price reached $914,810 last month, a 2.9 percent increase from March and up slightly year-over-year, the California Association of Realtor reported."
     }
   ]
 }
