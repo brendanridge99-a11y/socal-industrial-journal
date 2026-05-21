@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-21T02:00:59.911Z",
-  "elapsed_seconds": 3,
+  "harvested_at": "2026-05-21T04:00:59.110Z",
+  "elapsed_seconds": 2.2,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 78,
+  "articles_count": 76,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 13,
+      "count": 12,
       "total": 50,
       "error": null
     },
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 30,
       "error": null
     },
@@ -202,13 +202,6 @@
       "description": "Autonomous trucking is expanding beyond the Sun Belt and into Ohio. Einride and EASE Logistics announced Monday the deployment of SAE Level 4 (L4) autonomous electric trucks in a proof-of-concept service. The trucks will operate between EASE Logistics warehouses in Marysville, Ohio. The deployment i"
     },
     {
-      "headline": "SCOTUS to trigger truckload rate run to $5.00 per mile?",
-      "url": "https://www.freightwaves.com/news/scotus-to-trigger-truckload-rate-run-to-5-00-per-mile",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 00:54:20 +0000",
-      "description": "Spot rates hit $3.55 a mile yesterday — a clear signal that capacity is not flowing in to relieve the tightness we saw during road check week. And we&#8217;re heading into Memorial Day, which historically creates a surge as shippers push product out ahead of the holiday and carriers take time off wi"
-    },
-    {
       "headline": "US move against container makers is latest entry in logistics battle with China",
       "url": "https://joc.com/article/us-move-against-container-makers-is-latest-entry-in-logistics-battle-with-china-6224758",
       "source": "Journal of Commerce",
@@ -312,13 +305,6 @@
       "source": "DC Velocity",
       "raw_date": "Wed, 20 May 2026 19:59:04 +0000",
       "description": "As a member of the “Miracle on Ice” hockey team that defied expectations by beating their mighty Russian rivals to score Olympic gold medals in 1980, Jim Craig has learned some critical lessons about the mindset required to meet difficult goals. And many of those lessons can be adopted for other pur"
-    },
-    {
-      "headline": "Gartner: Just 1/3 of CPOs are confident they can redesign roles for AI",
-      "url": "https://www.dcvelocity.com/finance-strategy/procurement/gartner-just-1-3-of-cpos-are-confident-they-can-redesign-roles-for-ai",
-      "source": "DC Velocity",
-      "raw_date": "Wed, 20 May 2026 00:41:35 +0000",
-      "description": "Only 36% of chief procurement officers (CPOs) are very confident in their ability to redesign roles and processes around AI, according to a survey from analyst group Gartner, Inc. And likewise, individual AI productivity gains are not yet translating to broader team or enterprise outcomes. The resul"
     },
     {
       "headline": "Abandoned Baldwin Park school slated for more than 100 townhomes",
@@ -482,11 +468,25 @@
       "description": "As creative and technology companies, especially those working with artificial intelligence (AI), have increasingly been taking larger blocks of space throughout New York City, many have found it more appealing to young talent to make their home across the East River from Manhattan. 25 Kent is a new"
     },
     {
+      "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
+      "url": "https://www.latimes.com/california/story/2026-05-20/scam-fake-tom-selleck-socal-couple-found-dead",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 02:58:07 GMT",
+      "description": "A Coachella Valley woman slain along with her husband last week may have been scammed by a person claiming to be actor Tom Selleck, according to media reports."
+    },
+    {
+      "headline": "Mayoral candidate Spencer Pratt hosts South L.A. block party on Bass&#x27; old turf",
+      "url": "https://www.latimes.com/california/story/2026-05-20/pratt-south-la-appearance",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 02:41:41 GMT",
+      "description": "Mayoral hopeful Spencer Pratt campaigned Wednesday in a South Los Angeles neighborhood that Mayor Karen Bass represented when she was in Congress."
+    },
+    {
       "headline": "7 nabbed in crackdown as home burglaries surge in the Valley",
       "url": "https://www.latimes.com/california/story/2026-05-20/cackdown-on-residential-burglary-surge-in-san-fernando-valley",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 23:51:42 GMT",
-      "description": "Seven people have been charged in connection to a surge in residential burglaries in the San Fernando Valley carried out by \"brazen, calculated and predatory\" crews of thieves, authorities said."
+      "description": "Seven people have been charged in connection with a surge in residential burglaries in the San Fernando Valley carried out by \"brazen, calculated and predatory\" crews of thieves, authorities said."
     },
     {
       "headline": "AI-written books at Barnes & Noble? CEO clarifies statement that stirred calls for boycott",
@@ -599,20 +599,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 02:08:53 GMT",
       "description": "A tearful Nancy Iskander told jurors that she was crossing a road when she saw her two older sons disappear as a white speeding Mercedes plowed through the crosswalk."
-    },
-    {
-      "headline": "Two inmates plotted a jailhouse beating. A guard helped them &#x27;handle it&#x27;",
-      "url": "https://www.latimes.com/california/story/2026-05-19/two-inmates-plotted-jailhouse-beating-guard-helped-them-handle-it",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 01:32:42 GMT",
-      "description": "A Santa Clara County correctional officer will spend 45 days in jail after helping two inmates carry out an attack against another inmate, then conspiring with them to cover it up."
-    },
-    {
-      "headline": "Bain fire injures 4 in Riverside County; civilian drones interfere with firefighting aircraft",
-      "url": "https://www.latimes.com/california/story/2026-05-19/5-injuries-reported-as-bain-verona-fires-burn-in-riverside-county",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 00:53:46 GMT",
-      "description": "The Bain fire ignited in the Jurupa Valley on Tuesday, prompting evacuation orders and injuring four people. The blaze grew to 900 acres by 5 p.m., and firefighting aircraft were briefly grounded due to civilian drones spotted flying in the area."
     },
     {
       "headline": "Hilton y Becerra lideran nueva encuesta para gobernador de California. Steyer va detrás, pero no está fuera",
