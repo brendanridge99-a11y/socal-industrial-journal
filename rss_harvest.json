@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-21T04:00:59.110Z",
-  "elapsed_seconds": 2.2,
+  "harvested_at": "2026-05-21T06:01:05.402Z",
+  "elapsed_seconds": 2.9,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 76,
+  "articles_count": 74,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 16,
+      "count": 15,
       "total": 17,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 19,
+      "count": 18,
       "total": 98,
       "error": null
     },
@@ -461,13 +461,6 @@
       "description": "An abundance of natural light? Check. Iconic New York City views? Check. Amenities that leave little to be desired? Check. Already nearly 90 percent sold, Centurion Property Investors’ 106-condominium 212 West 72nd Street at the corner of 72nd Street and Broadway on Manhattan’s Upper West Side is th"
     },
     {
-      "headline": "25 Kent Offers Companies A Cutting-Edge Office Experience Along The Williamsburg Waterfront",
-      "url": "https://commercialobserver.com/2026/05/25-kent-offers-companies-a-cutting-edge-office-experience-along-the-williamsburg-waterfront/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 04:00:30 +0000",
-      "description": "As creative and technology companies, especially those working with artificial intelligence (AI), have increasingly been taking larger blocks of space throughout New York City, many have found it more appealing to young talent to make their home across the East River from Manhattan. 25 Kent is a new"
-    },
-    {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
       "url": "https://www.latimes.com/california/story/2026-05-20/scam-fake-tom-selleck-socal-couple-found-dead",
       "source": "Los Angeles Times",
@@ -524,7 +517,7 @@
       "description": "Prosecutors allege the Glendale-based doctor submitted more than $45 million in fraudulent Medicare claims for Botox injections, using the payments to fund a lavish lifestyle."
     },
     {
-      "headline": "Containment grows on Sandy fire, others across Southern California",
+      "headline": "Containment grows on Sandy fire, other SoCal blazes. But shifting winds pose challenge",
       "url": "https://www.latimes.com/california/story/2026-05-20/socal-fire-containment-acres",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 18:03:33 GMT",
@@ -549,7 +542,7 @@
       "url": "https://www.latimes.com/california/story/2026-05-20/san-diego-attack-manifesto",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 15:08:06 GMT",
-      "description": "The Times reviewed social media accounts believed to be used by one of the San Diego Islamic Center shooters that idolized school shootings, the white nationalism movement and neo-Nazi terrorism and were flush with memes from the online far-right extremist community. Here is what we found."
+      "description": "The Times reviewed social media accounts believed to be used by one of the San Diego Islamic Center shooters that idolized school shootings, white nationalism and neo-Nazi terrorism and were flush with memes from the online far-right extremist community. Here is what we found."
     },
     {
       "headline": "Immigrant rights advocates rally for more state healthcare funding, criticize Newsom",
@@ -592,13 +585,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
       "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including reaching a grove of critically endangered Torrey pine trees. But there is reason for hope."
-    },
-    {
-      "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
-      "url": "https://www.latimes.com/california/story/2026-05-19/mom-of-boys-killed-by-rebecca-grossman-i-see-it-in-my-nightmares",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 02:08:53 GMT",
-      "description": "A tearful Nancy Iskander told jurors that she was crossing a road when she saw her two older sons disappear as a white speeding Mercedes plowed through the crosswalk."
     },
     {
       "headline": "Hilton y Becerra lideran nueva encuesta para gobernador de California. Steyer va detrás, pero no está fuera",
