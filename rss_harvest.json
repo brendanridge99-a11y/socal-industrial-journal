@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-21T00:00:59.492Z",
-  "elapsed_seconds": 2.6,
+  "harvested_at": "2026-05-21T02:00:59.911Z",
+  "elapsed_seconds": 3,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 83,
+  "articles_count": 78,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 14,
+      "count": 13,
       "total": 50,
       "error": null
     },
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 7,
+      "count": 6,
       "total": 30,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 8,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -84,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 20,
-      "total": 97,
+      "count": 19,
+      "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 10,
       "error": null
     },
@@ -209,13 +209,6 @@
       "description": "Spot rates hit $3.55 a mile yesterday — a clear signal that capacity is not flowing in to relieve the tightness we saw during road check week. And we&#8217;re heading into Memorial Day, which historically creates a surge as shippers push product out ahead of the holiday and carriers take time off wi"
     },
     {
-      "headline": "Post-Montgomery, focus grows on fate of 3PL insurance premiums",
-      "url": "https://www.freightwaves.com/news/post-montgomery-focus-grows-on-fate-of-3pl-insurance-premiums",
-      "source": "FreightWaves",
-      "raw_date": "Tue, 19 May 2026 22:27:37 +0000",
-      "description": "The Montgomery decision has brought a rapid spotlight on what brokers are going to pay for insurance. The post Post-Montgomery, focus grows on fate of 3PL insurance premiums appeared first on FreightWaves ."
-    },
-    {
       "headline": "US move against container makers is latest entry in logistics battle with China",
       "url": "https://joc.com/article/us-move-against-container-makers-is-latest-entry-in-logistics-battle-with-china-6224758",
       "source": "Journal of Commerce",
@@ -286,6 +279,13 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/cfXdCQdvEAsO4Pvb_TBv-7soSJ23symzNyWPfTkCoq0/g:nowe:0:88/c:4031:2277/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUctMTM3NC5qcGc=.webp\"/></div></figure><p>The retailer has made efforts to trim its product mix over the last two yea"
     },
     {
+      "headline": "Krzyzewski shares leadership lessons honed on the basketball court",
+      "url": "https://www.dcvelocity.com/finance-strategy/krzyzewski-shares-leadership-lessons-learned-on-the-basketball-court",
+      "source": "DC Velocity",
+      "raw_date": "Thu, 21 May 2026 01:35:12 +0000",
+      "description": "At the age of 79, the legendary Duke University basketball coach Mike Krzyzewski now walks a bit gingerly thanks to his two artificial hips, two artificial knees, and an artificial ankle. But his wit and his desire to win still drive the philosophies of leadership that he shared in remarks from a ke"
+    },
+    {
       "headline": "Insurance cost increases outpace consumer inflation, trucking industry report shows",
       "url": "https://www.dcvelocity.com/editorial/featured/insurance-cost-increases-outpace-consumer-inflation-trucking-industry-report-shows",
       "source": "DC Velocity",
@@ -296,7 +296,7 @@
       "headline": "Google expert: AI is redefining tech jobs",
       "url": "https://www.dcvelocity.com/technology/artificial-intelligence/google-expert-ai-is-redefining-tech-jobs",
       "source": "DC Velocity",
-      "raw_date": "Wed, 20 May 2026 20:48:54 +0000",
+      "raw_date": "Wed, 20 May 2026 20:46:00 +0000",
       "description": "Technology and search giant Google and its parent company Alphabet Inc. are known for their constant search for major—not minor—disruptive tech ideas in web and cloud markets. Company executives often refer to their standard for success as achieving not just a 10% increase in business growth, but sc"
     },
     {
@@ -319,20 +319,6 @@
       "source": "DC Velocity",
       "raw_date": "Wed, 20 May 2026 00:41:35 +0000",
       "description": "Only 36% of chief procurement officers (CPOs) are very confident in their ability to redesign roles and processes around AI, according to a survey from analyst group Gartner, Inc. And likewise, individual AI productivity gains are not yet translating to broader team or enterprise outcomes. The resul"
-    },
-    {
-      "headline": "Noatum Logistics’ parent company acquires German 3PL for $81 million",
-      "url": "https://www.dcvelocity.com/supply-chain/other-services/global-logistics/noatum-logistics-parent-company-acquires-german-3pl-for-81-million",
-      "source": "DC Velocity",
-      "raw_date": "Tue, 19 May 2026 22:22:46 +0000",
-      "description": "The parent company of Kansas-based 3PL Noatum Logistics has acquired MBS Logistics , a Germany-based global integrated logistics services provider, for $81 million, saying the deal represents a significant step in its strategy to enhance operational scale, manage larger volumes, and expand its globa"
-    },
-    {
-      "headline": "Blue Yonder launches AI agent testing system",
-      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/blue-yonder-launches-ai-agent-testing-system",
-      "source": "DC Velocity",
-      "raw_date": "Tue, 19 May 2026 22:12:37 +0000",
-      "description": "In a move to accelerate the development of specialized AI agents for the autonomous supply chain, tech firm Blue Yonder on Monday said it had launched a platform that teaches AI models how to perform high-value tasks at the level of supply chain subject matter experts. Built in collaboration with ch"
     },
     {
       "headline": "Abandoned Baldwin Park school slated for more than 100 townhomes",
@@ -382,13 +368,6 @@
       "source": "The Real Deal",
       "raw_date": "Wed, 20 May 2026 19:00:32 +0000",
       "description": "Onni Group’s $408 million loan on Wilshire Courtyard is in special servicing, according to Morningstar Credit. Onni owes about $384 million on the around 1-million-square-foot Miracle Mile office complex at 5700 to 5750 Wilshire Boulevard. Servicer commentary dated early May noted the loan moved due"
-    },
-    {
-      "headline": "Northridge single-family home poised for townhome transformation",
-      "url": "https://therealdeal.com/la/2026/05/19/single-family-home-lot-in-northridge-proposed-for-townhomes/",
-      "source": "The Real Deal",
-      "raw_date": "Tue, 19 May 2026 23:02:45 +0000",
-      "description": "As Los Angeles races towards its state-mandated housing goals, developers have been looking to build on every available inch, including single-family home lots. One standalone residence in Northridge dating back to the 1940s could be the next to give way to more housing.&#160; Two applications recen"
     },
     {
       "headline": "State of California Secures 20K-SF Office at 1180 Avenue of the Americas",
@@ -501,6 +480,13 @@
       "source": "Commercial Observer",
       "raw_date": "Wed, 20 May 2026 04:00:30 +0000",
       "description": "As creative and technology companies, especially those working with artificial intelligence (AI), have increasingly been taking larger blocks of space throughout New York City, many have found it more appealing to young talent to make their home across the East River from Manhattan. 25 Kent is a new"
+    },
+    {
+      "headline": "7 nabbed in crackdown as home burglaries surge in the Valley",
+      "url": "https://www.latimes.com/california/story/2026-05-20/cackdown-on-residential-burglary-surge-in-san-fernando-valley",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 23:51:42 GMT",
+      "description": "Seven people have been charged in connection to a surge in residential burglaries in the San Fernando Valley carried out by \"brazen, calculated and predatory\" crews of thieves, authorities said."
     },
     {
       "headline": "AI-written books at Barnes & Noble? CEO clarifies statement that stirred calls for boycott",
@@ -629,20 +615,6 @@
       "description": "The Bain fire ignited in the Jurupa Valley on Tuesday, prompting evacuation orders and injuring four people. The blaze grew to 900 acres by 5 p.m., and firefighting aircraft were briefly grounded due to civilian drones spotted flying in the area."
     },
     {
-      "headline": "Girl, 12, was hit in the head at school. That wasn&#x27;t what caused her death, M.E. says",
-      "url": "https://www.latimes.com/california/story/2026-05-19/girl-hit-in-head-with-water-bottle-at-school-death-ruled-natural",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 23:52:50 GMT",
-      "description": "Khimberly, 12, died days after she was hit in the head with a water bottle during an alleged bullying incident at school. The L.A. County medical examiner determined that her death was caused by an underlying medical condition."
-    },
-    {
-      "headline": "In deal with business leaders, $30 minimum wage for L.A. hotel and airport workers will be delayed",
-      "url": "https://www.latimes.com/california/story/2026-05-19/in-deal-with-business-leaders-30-minimum-wage-for-la-hotel-airport-workers-will-be-delayed",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 23:28:29 GMT",
-      "description": "The minimum wage will still increase to $25 in July and continue in increments until reaching $30 in January 2030."
-    },
-    {
       "headline": "Hilton y Becerra lideran nueva encuesta para gobernador de California. Steyer va detrás, pero no está fuera",
       "url": "https://calmatters.org/calmatters-en-espanol/2026/05/hilton-y-becerra-lideran-encuesta/",
       "source": "CalMatters",
@@ -676,13 +648,6 @@
       "source": "CalMatters",
       "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
       "description": "One of the 61 gubernatorial candidates ranted about Israel and Jewish people instead of describing himself. Did the state have to publish it?"
-    },
-    {
-      "headline": "Can you trust that post about Tom Steyer? How paid influencers are flooding into the governor’s race",
-      "url": "https://calmatters.org/politics/2026/05/california-governor-race-influencers/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 22:12:10 +0000",
-      "description": "Billionaire Tom Steyer is paying influencers to boost his California governor campaign. Some didn't disclose it. A state law offers little accountability."
     },
     {
       "headline": "CSUSB holds commencement",
