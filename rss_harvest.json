@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-21T14:01:03.043Z",
-  "elapsed_seconds": 3.6,
+  "harvested_at": "2026-05-21T16:00:56.590Z",
+  "elapsed_seconds": 2.5,
   "feeds_attempted": 16,
-  "feeds_successful": 13,
-  "articles_count": 78,
+  "feeds_successful": 14,
+  "articles_count": 85,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 12,
+      "count": 15,
       "total": 50,
       "error": null
     },
@@ -22,14 +22,14 @@
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 4,
+      "count": 6,
       "total": 10,
       "error": null
     },
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 5,
+      "count": 6,
       "total": 30,
       "error": null
     },
@@ -64,33 +64,34 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 16,
+      "count": 17,
       "total": 17,
       "error": null
     },
     {
       "source": "Propmodo",
-      "success": false,
+      "success": true,
       "count": 0,
-      "error": "HTTP 404"
+      "total": 0,
+      "error": null
     },
     {
       "source": "Modern Materials Handling",
       "success": false,
       "count": 0,
-      "error": "Empty response"
+      "error": "HTTP 403"
     },
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 20,
+      "count": 21,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 7,
+      "count": 6,
       "total": 10,
       "error": null
     },
@@ -116,6 +117,27 @@
     }
   ],
   "articles": [
+    {
+      "headline": "UP CEO confident rail merger application checks all the STB’s boxes",
+      "url": "https://www.freightwaves.com/news/up-ceo-confident-rail-merger-application-checks-all-the-stbs-boxes",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 15:52:28 +0000",
+      "description": "The CEO of Union Pacific said he is confident the revised UP-Norfolk Southern merger application will be accepted by the Surface Transportation Board. The post UP CEO confident rail merger application checks all the STB’s boxes appeared first on FreightWaves ."
+    },
+    {
+      "headline": "FreightWaves announces 2026 Fraud Fighters Award winners",
+      "url": "https://www.freightwaves.com/news/freightwaves-announces-2026-fraud-fighters-award-winners",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 14:50:06 +0000",
+      "description": "FreightWaves awarded two categories of winners: Logistics Operations and Solution Providers. The post FreightWaves announces 2026 Fraud Fighters Award winners appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Target moves to elevate supply chain operations, inventory reliability",
+      "url": "https://www.freightwaves.com/news/target-moves-to-elevate-supply-chain-operations-inventory-reliability",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 14:08:05 +0000",
+      "description": "Target has made it a strategic priority to improve supply chain operations so it can avoid out-of-stock situations and reduce costs. The post Target moves to elevate supply chain operations, inventory reliability appeared first on FreightWaves ."
+    },
     {
       "headline": "OmniTrax tabs Hoskins to lead transload",
       "url": "https://www.freightwaves.com/news/omnitrax-tabs-hoskins-to-lead-transload",
@@ -201,6 +223,13 @@
       "description": "Infios' analysis of millions of U.S. customs entries reveals how tariff stacking transformed supply chain execution in 2025. The post Tariff Stacking Is Rewiring Supply Chain Execution appeared first on FreightWaves ."
     },
     {
+      "headline": "‘Dummy permits’ could overcome last-mile snafus for project cargoes",
+      "url": "https://joc.com/article/dummy-permits-could-overcome-last-mile-snafus-for-project-cargoes-6225300",
+      "source": "Journal of Commerce",
+      "raw_date": "Thu, 21 May 2026 14:50:15 GMT",
+      "description": "Project shippers in the US are being encouraged to test the robustness of bridge strength and state permitting feasibility up to a year in advance of major cargo moves."
+    },
+    {
       "headline": "CU Lines’ network expansion gives fresh capacity influx into Middle East trades",
       "url": "https://joc.com/article/cu-lines-network-expansion-gives-fresh-capacity-influx-into-middle-east-trades-6225202",
       "source": "Journal of Commerce",
@@ -236,11 +265,18 @@
       "description": "The underlying strength of that peak is unclear, however, with blank sailings, fuel-linked surcharges and a changeover in annual service contracts all putting upward pressure on spot and FAK rates."
     },
     {
-      "headline": "Hapag-Lloyd scales up biofuel transport services with forwarder partners",
-      "url": "https://joc.com/article/hapag-lloyd-scales-up-biofuel-transport-services-with-forwarder-partners-6224574",
-      "source": "Journal of Commerce",
-      "raw_date": "Wed, 20 May 2026 13:42:17 GMT",
-      "description": "Collaboration with global forwarders is allowing the carrier and its customers to significantly reduce carbon footprints in the difficult-to-monitor area of Scope 3 emissions."
+      "headline": "Matson reports air-to-ocean freight conversions amid Iran war",
+      "url": "https://www.supplychaindive.com/news/matson-reports-air-to-ocean-freight-conversions-amid-iran-war/820506/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Thu, 21 May 2026 11:11:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/kGEQkjwd2YGOHpA2SmN-KteVWK5VQp8nJR8GBFDb4IE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTg4NTA0MjIyLmpwZw==.webp\"/></div></figure><p>The U.S.-based ocean carrier benefited from elevated freight costs and red"
+    },
+    {
+      "headline": "Danone to close plant-based dairy facility in New Jersey",
+      "url": "https://www.supplychaindive.com/news/danone-to-close-plant-based-dairy-facility-in-new-jersey/820390/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Thu, 21 May 2026 08:46:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/vFSPShZASlHDPFQtLpczBXgeJNh4BAShx1lsi69DB5o/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01NDUzMzE5NzYuanBn.webp\"/></div></figure><p>The Silk and So Delicious manufacturer said 114 workers will be laid off and p"
     },
     {
       "headline": "EU lawmakers back US trade pact with built-in safeguards",
@@ -269,6 +305,13 @@
       "source": "Supply Chain Dive",
       "raw_date": "Wed, 20 May 2026 10:54:00 -0400",
       "description": "<p>A new stand-alone FedEx Freight may resemble a start-up, but the LTL carrier is far from it, experts say.&nbsp;</p>"
+    },
+    {
+      "headline": "Up, up, and (put)away",
+      "url": "https://www.dcvelocity.com/material-handling/up-up-and-put-away",
+      "source": "DC Velocity",
+      "raw_date": "Thu, 21 May 2026 15:15:11 +0000",
+      "description": "Warehouses and distribution centers are under continual pressure to handle more of everything: more inventory, more stock-keeping units (SKUs), more orders, more shipments. But adding on to existing buildings to accommodate growing demand isn’t always feasible or cost-effective. Instead, many facili"
     },
     {
       "headline": "Krzyzewski shares leadership lessons honed on the basketball court",
@@ -353,6 +396,34 @@
       "source": "The Real Deal",
       "raw_date": "Wed, 20 May 2026 19:00:32 +0000",
       "description": "Onni Group’s $408 million loan on Wilshire Courtyard is in special servicing, according to Morningstar Credit. Onni owes about $384 million on the around 1-million-square-foot Miracle Mile office complex at 5700 to 5750 Wilshire Boulevard. Servicer commentary dated early May noted the loan moved due"
+    },
+    {
+      "headline": "Hudson Companies Hires Isaac Henderson as Principal, Co-Head of Development",
+      "url": "https://commercialobserver.com/2026/05/hudson-companies-hires-isaac-henderson-principal-co-head-development/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 15:54:01 +0000",
+      "description": "Real estate developer the Hudson Companies has hired Isaac Henderson, formerly a managing director at Rockefeller Group, as a principal and its co-head of development, Commercial Observer has learned. In his new role, Henderson will work alongside fellow principal and co-head Ellen Kackmann and over"
+    },
+    {
+      "headline": "Arbor Realty Trust Lends $125M on Chicago Apartments Acquisition",
+      "url": "https://commercialobserver.com/2026/05/arbor-realty-trust-chicago-apartments-ohare-airport/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 15:51:11 +0000",
+      "description": "R.I.G. Capital has sealed $125.3 million of acquisition financing for the purchase of a 1,115-unit multifamily complex near Chicago’s O’Hare International Airport. Arbor Realty Trust supplied the loan for the developer’s $167 million acquisition of Pavilion Apartments in Chicago’s O’Hare neighborhoo"
+    },
+    {
+      "headline": "Rich Maroko Runs Perhaps the Most Powerful U.S. Union in the Hotel Trades Council",
+      "url": "https://commercialobserver.com/2026/05/rich-maroko-hotels-union-contract-2026/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 15:29:27 +0000",
+      "description": "A union representing 40,000 hotel workers — not auto workers, airline pilots or teachers — has become one of the most powerful labor organizations in the United States. How so? The Hotel &#38; Gaming Trades Council (HTC) has championed New York legislation that protected members while weakening thei"
+    },
+    {
+      "headline": "Dwight Capital Provides $114M HUD Loan for Milwaukee Office-to-Resi Conversion",
+      "url": "https://commercialobserver.com/2026/05/dwight-capital-hud-loan-milwaukee-office-to-resi-conversion/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 14:57:35 +0000",
+      "description": "A joint venture between Klein Development and MOS R.E. has sealed $114 million of U.S. Department of Housing and Urban Development (HUD)-backed debt for the conversion of a Milwaukee office tower into luxury apartments, Commercial Observer has learned. Dwight Capital closed the HUD 221(d)(4) substan"
     },
     {
       "headline": "JLL Promotes Angela Gentry to New York-Area Vice Chairman of Leasing",
@@ -446,25 +517,11 @@
       "description": "Insight Property Group has secured $107.7 million in construction financing to build Hunter’s Branch, a 452-unit multifamily community in the Vienna neighborhood of Fairfax, Va. CIBC and Citizens Bank provided the non-recourse construction financing for a development that is expected to cost $174.6 "
     },
     {
-      "headline": "Goldman Sachs Provides $40M Refinancing of Five-Property Self-Storage Portfolio",
-      "url": "https://commercialobserver.com/2026/05/goldman-sachs-40m-refinancing-self-storage-portfolio/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 16:04:00 +0000",
-      "description": "William Warren Group has secured $40.2 million to refinance a five-property self-storage portfolio of more than 4,000 units in five states, according to a release. Goldman Sachs provided the debt, structured as five-year, non-recourse permanent financing, while a Talonvest Capital team led by Eric S"
-    },
-    {
-      "headline": "Scion Group, Ares Management Buy U.S. Student Housing Portfolio for $910M",
-      "url": "https://commercialobserver.com/2026/05/scion-group-ares-management-buy-us-student-housing-portfolio/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 15:38:11 +0000",
-      "description": "The biggest student housing portfolio deal of the year is now on the books. Student housing owner and operator the Scion Group and private equity giant Ares Management have acquired a 12-property housing portfolio in the U.S. for $910 million, according to a Wednesday announcement from the seller. H"
-    },
-    {
-      "headline": "Peachtree Supplies $45M C-PACE Loan for Florida Senior Housing Project",
-      "url": "https://commercialobserver.com/2026/05/peachtree-florida-senior-housing-project/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 15:03:45 +0000",
-      "description": "The Fellowship Family, a 48-year-old senior living operator, has secured $44.5 million of Commercial Property Assessed Clean Energy (C-PACE) debt for the development of a senior housing community in northern Florida, Commercial Observer has learned. Peachtree Group originated the 30-year C-PACE loan"
+      "headline": "Multiple wildfires trigger unhealthy air quality alert in Southern California",
+      "url": "https://www.latimes.com/california/story/2026-05-21/socal-wildfire-smoke-advisory",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 15:45:23 GMT",
+      "description": "Wildfire smoke from several fires has triggered a smoke advisory for wide swaths of Southern California until Thursday evening, according to officials."
     },
     {
       "headline": "Immigrants launch hunger strike, decry inhumane conditions at SoCal ICE detention facility",
@@ -516,11 +573,11 @@
       "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working class character by investment capital. Now, some investors are welcomed for building what the community needs."
     },
     {
-      "headline": "Spencer Pratt&#x27;s unlikely journey from reality TV villain to L.A. mayoral candidate",
+      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
       "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "L.A. has never seen a mayoral candidate like Pratt, a scathing critic of City Hall who sees its streets as a dystopian hellscape menaced by drug-addicted zombies."
+      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
     },
     {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
@@ -647,13 +704,6 @@
       "source": "CalMatters",
       "raw_date": "Wed, 20 May 2026 22:14:21 +0000",
       "description": "En una encuesta demócrata realizada durante las últimas semanas de campaña, la mayoría de los candidatos a gobernador que marcan tendencia muestran un apoyo de un solo dígito."
-    },
-    {
-      "headline": "Does that influencer really like Tom Steyer?",
-      "url": "https://calmatters.org/newsletter/california-governor-influencers/",
-      "source": "CalMatters",
-      "raw_date": "Wed, 20 May 2026 13:00:00 +0000",
-      "description": "It can start subtly enough: One day a social media influencer you follow — the one who talks about politics, recommends beauty products or shares internet memes — posts a TikTok or Instagram Reel saying they like a candidate for California governor.&#160; You don’t think much of it and you go on doo"
     },
     {
       "headline": "Victorville homeless rate drops",
