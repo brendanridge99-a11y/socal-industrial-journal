@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-21T08:01:03.387Z",
-  "elapsed_seconds": 2.5,
+  "harvested_at": "2026-05-21T10:01:03.567Z",
+  "elapsed_seconds": 2.7,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 74,
+  "articles_count": 75,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 12,
+      "count": 13,
       "total": 50,
       "error": null
     },
@@ -117,6 +117,13 @@
     }
   ],
   "articles": [
+    {
+      "headline": "Another CA truck crash and two dead kids on Highway 99",
+      "url": "https://www.freightwaves.com/news/another-ca-truck-crash-and-two-dead-kids-on-highway-99",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 09:55:00 +0000",
+      "description": "A Freightliner Cascadia operated by Amritsar Trans Inc., a five-truck carrier out of Manteca, California, rear-ended three vehicles on Highway 99 near Lodi on May 19, 2026, killing two young men. The driver fled on foot. The carrier sits inside a web of 267 carriers clustered across residential addr"
+    },
     {
       "headline": "Rail on a roll as ag, metals, chemicals lead traffic",
       "url": "https://www.freightwaves.com/news/rail-on-a-roll-as-ag-metals-chemicals-lead-traffic",
@@ -545,20 +552,6 @@
       "description": "The Times reviewed social media accounts believed to be used by one of the San Diego Islamic Center shooters that idolized school shootings, white nationalism and neo-Nazi terrorism and were flush with memes from the online far-right extremist community. Here is what we found."
     },
     {
-      "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
-      "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "Victor Glover, who grew up in the Inland Empire, is now the only pilot to have flown NASA's Orion capsule."
-    },
-    {
-      "headline": "Immigrant rights advocates rally for more state healthcare funding, criticize Newsom",
-      "url": "https://www.latimes.com/california/story/2026-05-20/immigration-advocates-rally-for-more-state-healthcare-funding-criticize-newsom-two-groups-rally-at-capitol-to-push-for-more-healthcare-funding",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "Human rights advocates on Tuesday rallied outside the California Capitol to push back on Gov. Gavin Newsom's proposed budget plan to reduce state-sponsored healthcare coverage for undocumented immigrants."
-    },
-    {
       "headline": "With homes still charred lots, Palisades fire survivors find solace in temple reopening",
       "url": "https://www.latimes.com/lifestyle/story/2026-05-20/kehillat-israel-reopens-in-pacific-palisades-after-fire",
       "source": "Los Angeles Times",
@@ -573,6 +566,13 @@
       "description": "The L.A. school board got its first look Tuesday at a draft policy that limits student screen time — and that will affect how teachers manage instruction."
     },
     {
+      "headline": "Fire tearing through Santa Rosa Island reaches critically endangered trees",
+      "url": "https://www.latimes.com/california/story/2026-05-20/santa-rosa-island-fire-burns-through-rare-torrey-pine-grove",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including reaching a grove of critically endangered Torrey pine trees. But there is reason for hope."
+    },
+    {
       "headline": "L.A.&#x27;s democratic socialists look to boost their clout in City Hall",
       "url": "https://www.latimes.com/california/story/2026-05-20/la-democratic-socialists-look-to-boost-their-clout-in-city-hall",
       "source": "Los Angeles Times",
@@ -580,11 +580,18 @@
       "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
     },
     {
-      "headline": "Fire tearing through Santa Rosa Island reaches critically endangered trees",
-      "url": "https://www.latimes.com/california/story/2026-05-20/santa-rosa-island-fire-burns-through-rare-torrey-pine-grove",
+      "headline": "Immigrant rights advocates rally for more state healthcare funding, criticize Newsom",
+      "url": "https://www.latimes.com/california/story/2026-05-20/immigration-advocates-rally-for-more-state-healthcare-funding-criticize-newsom-two-groups-rally-at-capitol-to-push-for-more-healthcare-funding",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including reaching a grove of critically endangered Torrey pine trees. But there is reason for hope."
+      "description": "Human rights advocates on Tuesday rallied outside the California Capitol to push back on Gov. Gavin Newsom's proposed budget plan to reduce state-sponsored healthcare coverage for undocumented immigrants."
+    },
+    {
+      "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
+      "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "Victor Glover, who grew up in the Inland Empire, is now the only pilot to have flown NASA's Orion capsule."
     },
     {
       "headline": "Hilton y Becerra lideran nueva encuesta para gobernador de California. Steyer va detrás, pero no está fuera",
