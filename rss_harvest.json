@@ -1,6 +1,6 @@
 {
-  "harvested_at": "2026-05-21T06:01:05.402Z",
-  "elapsed_seconds": 2.9,
+  "harvested_at": "2026-05-21T08:01:03.387Z",
+  "elapsed_seconds": 2.5,
   "feeds_attempted": 16,
   "feeds_successful": 14,
   "articles_count": 74,
@@ -545,18 +545,18 @@
       "description": "The Times reviewed social media accounts believed to be used by one of the San Diego Islamic Center shooters that idolized school shootings, white nationalism and neo-Nazi terrorism and were flush with memes from the online far-right extremist community. Here is what we found."
     },
     {
-      "headline": "Immigrant rights advocates rally for more state healthcare funding, criticize Newsom",
-      "url": "https://www.latimes.com/california/story/2026-05-20/immigration-advocates-rally-for-more-state-healthcare-funding-criticize-newsom-two-groups-rally-at-capitol-to-push-for-more-healthcare-funding",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "Human rights advocates on Tuesday rallied outside the California Capitol to push back on Gov. Gavin Newsom's proposed budget plan to reduce state-sponsored healthcare coverage for undocumented immigrants."
-    },
-    {
       "headline": "How a SoCal native became one of NASA&#x27;s most valuable assets",
       "url": "https://www.latimes.com/science/story/2026-05-20/how-california-native-became-nasa-asset",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
       "description": "Victor Glover, who grew up in the Inland Empire, is now the only pilot to have flown NASA's Orion capsule."
+    },
+    {
+      "headline": "Immigrant rights advocates rally for more state healthcare funding, criticize Newsom",
+      "url": "https://www.latimes.com/california/story/2026-05-20/immigration-advocates-rally-for-more-state-healthcare-funding-criticize-newsom-two-groups-rally-at-capitol-to-push-for-more-healthcare-funding",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "Human rights advocates on Tuesday rallied outside the California Capitol to push back on Gov. Gavin Newsom's proposed budget plan to reduce state-sponsored healthcare coverage for undocumented immigrants."
     },
     {
       "headline": "With homes still charred lots, Palisades fire survivors find solace in temple reopening",
@@ -566,18 +566,18 @@
       "description": "Kehillat Israel, closed since the Palisades fire, reopened last week, welcoming its congregation, which includes 230 families who lost their homes and an additional 250 families who were displaced."
     },
     {
-      "headline": "L.A.&#x27;s democratic socialists look to boost their clout in City Hall",
-      "url": "https://www.latimes.com/california/story/2026-05-20/la-democratic-socialists-look-to-boost-their-clout-in-city-hall",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
-    },
-    {
       "headline": "Screens would be banned until 2nd grade under draft LAUSD plan",
       "url": "https://www.latimes.com/california/story/2026-05-20/screens-would-be-banned-until-2nd-grade-under-draft-lausd-plan",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
       "description": "The L.A. school board got its first look Tuesday at a draft policy that limits student screen time — and that will affect how teachers manage instruction."
+    },
+    {
+      "headline": "L.A.&#x27;s democratic socialists look to boost their clout in City Hall",
+      "url": "https://www.latimes.com/california/story/2026-05-20/la-democratic-socialists-look-to-boost-their-clout-in-city-hall",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
     },
     {
       "headline": "Fire tearing through Santa Rosa Island reaches critically endangered trees",
