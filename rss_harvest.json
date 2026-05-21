@@ -1,28 +1,28 @@
 {
-  "harvested_at": "2026-05-21T12:01:04.863Z",
-  "elapsed_seconds": 2.6,
+  "harvested_at": "2026-05-21T14:01:03.043Z",
+  "elapsed_seconds": 3.6,
   "feeds_attempted": 16,
-  "feeds_successful": 14,
+  "feeds_successful": 13,
   "articles_count": 78,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 13,
+      "count": 12,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 5,
+      "count": 6,
       "total": 40,
       "error": null
     },
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 5,
+      "count": 4,
       "total": 10,
       "error": null
     },
@@ -64,16 +64,15 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 14,
+      "count": 16,
       "total": 17,
       "error": null
     },
     {
       "source": "Propmodo",
-      "success": true,
+      "success": false,
       "count": 0,
-      "total": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "source": "Modern Materials Handling",
@@ -84,14 +83,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 19,
+      "count": 20,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 8,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -111,12 +110,26 @@
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 2,
+      "count": 1,
       "total": 6,
       "error": null
     }
   ],
   "articles": [
+    {
+      "headline": "OmniTrax tabs Hoskins to lead transload",
+      "url": "https://www.freightwaves.com/news/omnitrax-tabs-hoskins-to-lead-transload",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 13:57:53 +0000",
+      "description": "OmniTRAX appoints VP of transload to lead its network-wide expansion. The post OmniTrax tabs Hoskins to lead transload appeared first on FreightWaves ."
+    },
+    {
+      "headline": "DoJ indicts Chinese container makers on price-fixing charges",
+      "url": "https://www.freightwaves.com/news/doj-indicts-chinese-container-makers-on-price-fixing-charges",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 12:12:25 +0000",
+      "description": "The U.S. Justice Department has indicted four major Chinese shipping container manufacturers and seven executives in a global price-fixing conspiracy. The post DoJ indicts Chinese container makers on price-fixing charges appeared first on FreightWaves ."
+    },
     {
       "headline": "Another CA truck crash and two dead kids on Highway 99",
       "url": "https://www.freightwaves.com/news/another-ca-truck-crash-and-two-dead-kids-on-highway-99",
@@ -188,25 +201,11 @@
       "description": "Infios' analysis of millions of U.S. customs entries reveals how tariff stacking transformed supply chain execution in 2025. The post Tariff Stacking Is Rewiring Supply Chain Execution appeared first on FreightWaves ."
     },
     {
-      "headline": "Inside Volvo’s new 13-Liter D13 engine for 2027",
-      "url": "https://www.freightwaves.com/news/new-volvo-d13-engine-2027",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
-      "description": "Volvo Trucks revealed its redesigned D13 engine for 2027 EPA standards, cutting nitrogen oxide emissions 83% without sacrificing power or reliability The post Inside Volvo&#8217;s new 13-Liter D13 engine for 2027 appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Why the freight industry needs Certified Fraud Compliance Officers",
-      "url": "https://www.freightwaves.com/news/why-the-freight-industry-needs-certified-fraud-compliance-officers",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 11:09:55 +0000",
-      "description": "Banks learned years ago that fraud prevention requires more than instinct or technology alone. They built compliance roles, documented procedures, and repeatable verification processes designed to reduce risk and stand up in court. FreightWaves believes the transportation industry is now entering th"
-    },
-    {
-      "headline": "Autonomous trucking moves to the Midwest with Einride’s Ohio deployment",
-      "url": "https://www.freightwaves.com/news/autonomous-trucking-einride-ohio",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 11:00:00 +0000",
-      "description": "Autonomous trucking is expanding beyond the Sun Belt and into Ohio. Einride and EASE Logistics announced Monday the deployment of SAE Level 4 (L4) autonomous electric trucks in a proof-of-concept service. The trucks will operate between EASE Logistics warehouses in Marysville, Ohio. The deployment i"
+      "headline": "CU Lines’ network expansion gives fresh capacity influx into Middle East trades",
+      "url": "https://joc.com/article/cu-lines-network-expansion-gives-fresh-capacity-influx-into-middle-east-trades-6225202",
+      "source": "Journal of Commerce",
+      "raw_date": "Thu, 21 May 2026 13:10:16 GMT",
+      "description": "The Shanghai-based carrier has launched two new services connecting Asia to the Middle East as the Persian Gulf trade corridor presents strong green shoots of capacity demand amid ongoing mainline service disruptions."
     },
     {
       "headline": "US move against container makers is latest entry in logistics battle with China",
@@ -270,13 +269,6 @@
       "source": "Supply Chain Dive",
       "raw_date": "Wed, 20 May 2026 10:54:00 -0400",
       "description": "<p>A new stand-alone FedEx Freight may resemble a start-up, but the LTL carrier is far from it, experts say.&nbsp;</p>"
-    },
-    {
-      "headline": "Under Armour reaches 25% SKU reduction goal",
-      "url": "https://www.supplychaindive.com/news/under-armour-reaches-25-sku-reduction-goal/820387/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Wed, 20 May 2026 07:37:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/cfXdCQdvEAsO4Pvb_TBv-7soSJ23symzNyWPfTkCoq0/g:nowe:0:88/c:4031:2277/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUctMTM3NC5qcGc=.webp\"/></div></figure><p>The retailer has made efforts to trim its product mix over the last two yea"
     },
     {
       "headline": "Krzyzewski shares leadership lessons honed on the basketball court",
@@ -363,6 +355,20 @@
       "description": "Onni Group’s $408 million loan on Wilshire Courtyard is in special servicing, according to Morningstar Credit. Onni owes about $384 million on the around 1-million-square-foot Miracle Mile office complex at 5700 to 5750 Wilshire Boulevard. Servicer commentary dated early May noted the loan moved due"
     },
     {
+      "headline": "JLL Promotes Angela Gentry to New York-Area Vice Chairman of Leasing",
+      "url": "https://commercialobserver.com/2026/05/jll-promotes-angela-gentry-new-york-vice-chairman-leasing/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 13:17:14 +0000",
+      "description": "JLL has promoted Angela Gentry, an industry leader with over 20 years of experience, to vice chairman of leasing advisory for the firm’s New York tri-state region, Commercial Observer has learned. Gentry joined JLL in 2022, filling a role that was created specifically for her: executive managing dir"
+    },
+    {
+      "headline": "AvalonBay, Equity Residential Merge to Form $69B Multifamily Giant",
+      "url": "https://commercialobserver.com/2026/05/avalonbay-equity-residential-merge-multifamily/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 13:03:00 +0000",
+      "description": "AvalonBay and Equity Residential, two of the largest multifamily owners in the U.S., have merged to form one of the country’s largest real estate companies with a total enterprise value of roughly $69 billion, the companies announced Thursday. Once the all-stock merger is complete, the multifamily b"
+    },
+    {
       "headline": "State of California Secures 20K-SF Office at 1180 Avenue of the Americas",
       "url": "https://commercialobserver.com/2026/05/state-of-california-lease-office-1180-avenue-of-the-americas/",
       "source": "Commercial Observer",
@@ -412,11 +418,11 @@
       "description": "Employment litigation firm Jones Jones is relocating within Manhattan’s Financial District. The tenant signed a 10-year, nine-month lease spanning 5,311 square feet on part of the seventh floor of Gaedeke Group’s 44 Wall Street, according to tenant broker Lee &#38; Associates NYC. Lee &#38; Associat"
     },
     {
-      "headline": "Law Firm Kirkland &#038; Ellis Grows to 183K SF at Elecor Properties’ 900 Third Avenue",
+      "headline": "Law Firm Kirkland &#038; Ellis Grows to 309K SF at Elecor Properties’ 900 Third Avenue",
       "url": "https://commercialobserver.com/2026/05/kirkland-ellis-lease-expansion-elecor-900-third-avenue/",
       "source": "Commercial Observer",
       "raw_date": "Wed, 20 May 2026 17:58:22 +0000",
-      "description": "Less than a year after arriving at 900 Third Avenue, Chicago-based law firm Kirkland &#38; Ellis has upped its footprint by nearly 40 percent. The law firm’s 52,089-square-foot expansion at the Midtown East office tower was revealed in Savills’ Wednesday report on law firm leasing in the first quart"
+      "description": "Less than a year after arriving at 900 Third Avenue, Chicago-based law firm Kirkland &#38; Ellis has upped its footprint once again. The law firm’s 52,089-square-foot expansion at the Midtown East office tower was revealed in Savills’ Wednesday report on law firm leasing in the first quarter of 2026"
     },
     {
       "headline": "Retailer Marshalls Opens 31K-SF Store at Liberty Bklyn",
@@ -461,6 +467,13 @@
       "description": "The Fellowship Family, a 48-year-old senior living operator, has secured $44.5 million of Commercial Property Assessed Clean Energy (C-PACE) debt for the development of a senior housing community in northern Florida, Commercial Observer has learned. Peachtree Group originated the 30-year C-PACE loan"
     },
     {
+      "headline": "Immigrants launch hunger strike, decry inhumane conditions at SoCal ICE detention facility",
+      "url": "https://www.latimes.com/california/story/2026-05-21/immigrants-hunger-strike-inhumane-conditions-southern-california-detention-facility",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 12:00:00 GMT",
+      "description": "Immigrant detainees are on a hunger strike to call attention to complaints about medical neglect, mold, dirty water and a reduction of food rations."
+    },
+    {
       "headline": "This L.A. bookstore is leading a revolt against &#x27;greedy landlords&#x27;",
       "url": "https://www.latimes.com/entertainment-arts/books/story/2026-05-21/read-books-eagle-rock-rent-hike-protests",
       "source": "Los Angeles Times",
@@ -468,11 +481,11 @@
       "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
     },
     {
-      "headline": "Spencer Pratt&#x27;s unlikely journey from reality TV villain to L.A. mayoral candidate",
-      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
+      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
+      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "L.A. has never seen a mayoral candidate like Pratt, a scathing critic of City Hall who sees its streets as a dystopian hellscape menaced by drug-addicted zombies."
+      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
     },
     {
       "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
@@ -480,6 +493,13 @@
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
       "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
+    },
+    {
+      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
+      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
     },
     {
       "headline": "Arellano: Steve Hilton and Spencer Pratt need Latinos, not Trump",
@@ -496,18 +516,11 @@
       "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working class character by investment capital. Now, some investors are welcomed for building what the community needs."
     },
     {
-      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
-      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
+      "headline": "Spencer Pratt&#x27;s unlikely journey from reality TV villain to L.A. mayoral candidate",
+      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
-    },
-    {
-      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
-      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
+      "description": "L.A. has never seen a mayoral candidate like Pratt, a scathing critic of City Hall who sees its streets as a dystopian hellscape menaced by drug-addicted zombies."
     },
     {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
@@ -594,6 +607,20 @@
       "description": "The Times reviewed social media accounts believed to be used by one of the San Diego Islamic Center shooters that idolized school shootings, white nationalism and neo-Nazi terrorism and were flush with memes from the online far-right extremist community. Here is what we found."
     },
     {
+      "headline": "They used to battle in CA elections. Now, they back the same candidate",
+      "url": "https://calmatters.org/newsletter/superintendent-california-election-endorsements/",
+      "source": "CalMatters",
+      "raw_date": "Thu, 21 May 2026 13:00:00 +0000",
+      "description": "Which of these is least likely? Kendrick Lamar and Drake squashing their feud? Giants fans and Dodgers fans sharing high-fives?&#160; Or California charter schools endorsing the same candidate for superintendent as the state’s largest teachers’ union? If you remember the 2018 election, you’d probabl"
+    },
+    {
+      "headline": "Education is vital and costs California billions, so why aren’t candidates for governor talking about it?",
+      "url": "https://calmatters.org/commentary/2026/05/education-governor-candidates-california/",
+      "source": "CalMatters",
+      "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
+      "description": "The next governor will be directly responsible for statewide education leadership. Yet governor candidates haven't broached the subject."
+    },
+    {
       "headline": "With so many candidates and options in California, when’s the right time to vote?",
       "url": "https://calmatters.org/commentary/2026/05/time-to-vote-california-elections/",
       "source": "CalMatters",
@@ -629,39 +656,11 @@
       "description": "It can start subtly enough: One day a social media influencer you follow — the one who talks about politics, recommends beauty products or shares internet memes — posts a TikTok or Instagram Reel saying they like a candidate for California governor.&#160; You don’t think much of it and you go on doo"
     },
     {
-      "headline": "Even while courting moderates on voter ID, GOP leaders still push debunked fraud narrative",
-      "url": "https://calmatters.org/politics/elections/2026/05/gop-continues-voter-fraud-narrative/",
-      "source": "CalMatters",
-      "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
-      "description": "While GOP lawmakers try to convince moderates that a voter ID requirement is a \"common sense\" idea, they continue to push President Donald Trump's debunked fraud narrative."
-    },
-    {
-      "headline": "What are they trying to hide? California lawmakers kill lobbying transparency bills",
-      "url": "https://calmatters.org/politics/2026/05/secret-capitol-lobbying-letters/",
-      "source": "CalMatters",
-      "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
-      "description": "Good government groups backed legislation that sought to make every lobbyist letter public and online. Those proposals appear dead for the year."
-    },
-    {
-      "headline": "How California’s Voter Guide published a candidate’s antisemitic conspiracy theories",
-      "url": "https://calmatters.org/commentary/2026/05/antisemitic-rant-voter-guide-california/",
-      "source": "CalMatters",
-      "raw_date": "Wed, 20 May 2026 12:00:00 +0000",
-      "description": "One of the 61 gubernatorial candidates ranted about Israel and Jewish people instead of describing himself. Did the state have to publish it?"
-    },
-    {
       "headline": "Victorville homeless rate drops",
       "url": "https://iebusinessdaily.com/victorville-homeless-rate-drops/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=victorville-homeless-rate-drops",
       "source": "IE Business Daily",
       "raw_date": "Thu, 21 May 2026 10:48:52 +0000",
       "description": "Victorville’s unsheltered homeless population fell 68 percent during the past two years, while its total homeless population dropped 28 percent in that time, according to the 2026 San Bernardino County Point-In-Time Count. The High Desert city’s overall homeless count, which includes unsheltered per"
-    },
-    {
-      "headline": "CSUSB holds commencement",
-      "url": "https://iebusinessdaily.com/csusb-holds-commencement/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=csusb-holds-commencement",
-      "source": "IE Business Daily",
-      "raw_date": "Wed, 20 May 2026 10:57:20 +0000",
-      "description": "Cal State San Bernardino honored more than 3,100 graduates during two days of ceremonies at the Toyota Arena in Ontario. Students in the College of Social and Behavioral Sciences received their degrees May 15, followed the next day by the College of Arts and Letters, the James R. Watson and Judy Rod"
     }
   ]
 }
