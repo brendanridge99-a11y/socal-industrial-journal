@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-20T22:00:59.714Z",
-  "elapsed_seconds": 2.8,
+  "harvested_at": "2026-05-21T00:00:59.492Z",
+  "elapsed_seconds": 2.6,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 90,
+  "articles_count": 83,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -15,7 +15,7 @@
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 40,
       "error": null
     },
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 8,
+      "count": 7,
       "total": 30,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 9,
+      "count": 8,
       "total": 10,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 17,
+      "count": 16,
       "total": 17,
       "error": null
     },
@@ -84,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 21,
-      "total": 98,
+      "count": 20,
+      "total": 97,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 8,
+      "count": 6,
       "total": 10,
       "error": null
     },
@@ -251,13 +251,6 @@
       "description": "Collaboration with global forwarders is allowing the carrier and its customers to significantly reduce carbon footprints in the difficult-to-monitor area of Scope 3 emissions."
     },
     {
-      "headline": "US ports outline spending goals in push to reshore crane making",
-      "url": "https://joc.com/article/us-ports-outline-spending-goals-in-push-to-reshore-crane-making-6224217",
-      "source": "Journal of Commerce",
-      "raw_date": "Tue, 19 May 2026 20:20:15 GMT",
-      "description": "Port and terminal operators are looking to spend $6.7 billion over the next five years to install cranes and other equipment, an industry survey shows, as Washington is asked to help reshore manufacturing."
-    },
-    {
       "headline": "EU lawmakers back US trade pact with built-in safeguards",
       "url": "https://www.supplychaindive.com/news/eu-lawmakers-back-us-trade-pact-with-built-in-safeguards/820749/",
       "source": "Supply Chain Dive",
@@ -291,6 +284,13 @@
       "source": "Supply Chain Dive",
       "raw_date": "Wed, 20 May 2026 07:37:00 -0400",
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/cfXdCQdvEAsO4Pvb_TBv-7soSJ23symzNyWPfTkCoq0/g:nowe:0:88/c:4031:2277/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUctMTM3NC5qcGc=.webp\"/></div></figure><p>The retailer has made efforts to trim its product mix over the last two yea"
+    },
+    {
+      "headline": "Insurance cost increases outpace consumer inflation, trucking industry report shows",
+      "url": "https://www.dcvelocity.com/editorial/featured/insurance-cost-increases-outpace-consumer-inflation-trucking-industry-report-shows",
+      "source": "DC Velocity",
+      "raw_date": "Wed, 20 May 2026 22:03:27 +0000",
+      "description": "Trucking industry insurance costs are on the rise, with premiums outpacing consumer inflation by more than five percentage points, according to data from the American Transportation Research Institute (ATRI), released this week. ATRI’s report, Trucking’s Rising Insurance Costs: Issues and Opportunit"
     },
     {
       "headline": "Google expert: AI is redefining tech jobs",
@@ -335,18 +335,11 @@
       "description": "In a move to accelerate the development of specialized AI agents for the autonomous supply chain, tech firm Blue Yonder on Monday said it had launched a platform that teaches AI models how to perform high-value tasks at the level of supply chain subject matter experts. Built in collaboration with ch"
     },
     {
-      "headline": "Users’ intent is crucial for building good AI agents, Manhattan says",
-      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/users-intent-is-crucial-for-building-good-ai-agents-manhattan-says",
-      "source": "DC Velocity",
-      "raw_date": "Tue, 19 May 2026 20:37:16 +0000",
-      "description": "Supply chain organizations in 2026 are seeing a fast rollout of agentic artificial intelligence (AI) tools, but the future of enterprise software will include both IQ (an intelligence quotient) and EQ (an emotional quotient), combining the power of predictive AI with the “contextual intelligence” of"
-    },
-    {
-      "headline": "Manhattan Associates launches marketplace of AI agents",
-      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/manhattan-associates-launches-marketplace-of-ai-agents",
-      "source": "DC Velocity",
-      "raw_date": "Tue, 19 May 2026 20:36:35 +0000",
-      "description": "In a move to accelerate the development of artificial intelligence (AI) agents for supply chain workflows, software vendor Manhattan Associates today launched a platform where customers, developers, and partners of Manhattan’s products can share agentic AI solutions with each other. The “Manhattan M"
+      "headline": "Abandoned Baldwin Park school slated for more than 100 townhomes",
+      "url": "https://therealdeal.com/la/2026/05/20/storm-properties-proposes-townhomes-on-shuttered-school-site/",
+      "source": "The Real Deal",
+      "raw_date": "Wed, 20 May 2026 22:41:14 +0000",
+      "description": "A decommissioned school campus in Baldwin Park is poised for redevelopment into housing.&#160; Storm Properties is pursuing the construction of 104 townhomes at the former Florence Flanner School site at 1314 Le Borgne Avenue, Urbanize Los Angeles reported. The proposed development, currently in the"
     },
     {
       "headline": "Los Feliz home floated for demolition to give way to affordable apartment project",
@@ -398,20 +391,6 @@
       "description": "As Los Angeles races towards its state-mandated housing goals, developers have been looking to build on every available inch, including single-family home lots. One standalone residence in Northridge dating back to the 1940s could be the next to give way to more housing.&#160; Two applications recen"
     },
     {
-      "headline": "Relevant Group slims down affordable housing plans in Westlake",
-      "url": "https://therealdeal.com/la/2026/05/19/relevant-group-slims-down-affordable-housing-plans/",
-      "source": "The Real Deal",
-      "raw_date": "Tue, 19 May 2026 21:11:12 +0000",
-      "description": "Relevant Group modified its plans for an affordable housing complex west of the 110 freeway in Westlake.&#160; The Los Angeles-based firm filed a new application to construct a five-story building at 1316 Linwood Avenue designed to serve lower income residents, Urbanize Los Angeles reported. Afforda"
-    },
-    {
-      "headline": "Oceanwide Plaza buyer loses city’s favor, confirmation hearing pushed again",
-      "url": "https://therealdeal.com/la/2026/05/19/oceanwide-plaza-proposed-purchase-faces-more-pushback/",
-      "source": "The Real Deal",
-      "raw_date": "Tue, 19 May 2026 20:32:34 +0000",
-      "description": "The hearing that could seal the fate of Oceanwide Plaza has been pushed, again, and is now scheduled for July.&#160; Last time, the City of Los Angeles wanted more time. Now, new court documents reveal it is against the proposed $470 million purchaser: Dr. Kali Chaudhuri’s KPC Group and Lendlease.&#"
-    },
-    {
       "headline": "State of California Secures 20K-SF Office at 1180 Avenue of the Americas",
       "url": "https://commercialobserver.com/2026/05/state-of-california-lease-office-1180-avenue-of-the-americas/",
       "source": "Commercial Observer",
@@ -430,7 +409,7 @@
       "url": "https://commercialobserver.com/2026/05/penn-station-trump-8b-halmar-redevelopment/",
       "source": "Commercial Observer",
       "raw_date": "Wed, 20 May 2026 19:40:35 +0000",
-      "description": "At an $8 billion price tag, the Trump administration has a mostly formed plan to revamp Midtown&#8217;s Pennsylvania Station that keeps Madison Square Garden in place. Amtrak and the U.S. Department of Transportation (USDOT) announced Wednesday after a Senate hearing that it had selected a master de"
+      "description": "At an $8 billion price tag, the Trump administration has a mostly formed plan to revamp Pennsylvania Station that keeps Madison Square Garden in place. Amtrak and the U.S. Department of Transportation (USDOT) announced Wednesday after a Senate hearing that it had selected a master developer entity c"
     },
     {
       "headline": "CBRE’s Scott Schnuckel On Why Retail Is Back in Favor",
@@ -524,11 +503,18 @@
       "description": "As creative and technology companies, especially those working with artificial intelligence (AI), have increasingly been taking larger blocks of space throughout New York City, many have found it more appealing to young talent to make their home across the East River from Manhattan. 25 Kent is a new"
     },
     {
-      "headline": "Benchmark Buys Upper West Side Apartment Building From Heller for $42M",
-      "url": "https://commercialobserver.com/2026/05/benchmark-buys-698-west-end-avenue-heller/",
-      "source": "Commercial Observer",
-      "raw_date": "Tue, 19 May 2026 21:06:10 +0000",
-      "description": "Benchmark Real Estate Group is taking a prewar apartment building on Manhattan’s Upper West Side off the Heller Organization’s hands. The New York-based Benchmark purchased the 90-unit, 15-story building at 698 West End Avenue for $42 million, according to property records made public Tuesday. Helle"
+      "headline": "AI-written books at Barnes & Noble? CEO clarifies statement that stirred calls for boycott",
+      "url": "https://www.latimes.com/entertainment-arts/story/2026-05-20/barnes-noble-boycott-ceo-bookseller-store-will-sell-ai-written-books",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 23:30:53 GMT",
+      "description": "After Barnes & Noble CEO James Daunt said the store would stock AI-written books as long as they were labeled as such, calls to boycott the retailer circulated online. Now the bookseller is clarifying his stance."
+    },
+    {
+      "headline": "Fires ring Southern California and it&#x27;s only May. What&#x27;s going on?",
+      "url": "https://www.latimes.com/california/story/2026-05-20/california-early-fire-season-climate-change",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 22:28:02 GMT",
+      "description": "Multiple fires broke out over 48 hours in Southern California this week. What does that say about our fires this year?"
     },
     {
       "headline": "Mayoral candidate Raman unveils rebuilding plan for Pacific Palisades",
@@ -601,6 +587,13 @@
       "description": "Kehillat Israel, closed since the Palisades fire, reopened last week, welcoming its congregation, which includes 230 families who lost their homes and an additional 250 families who were displaced."
     },
     {
+      "headline": "L.A.&#x27;s democratic socialists look to boost their clout in City Hall",
+      "url": "https://www.latimes.com/california/story/2026-05-20/la-democratic-socialists-look-to-boost-their-clout-in-city-hall",
+      "source": "Los Angeles Times",
+      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
+      "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
+    },
+    {
       "headline": "Screens would be banned until 2nd grade under draft LAUSD plan",
       "url": "https://www.latimes.com/california/story/2026-05-20/screens-would-be-banned-until-2nd-grade-under-draft-lausd-plan",
       "source": "Los Angeles Times",
@@ -613,13 +606,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
       "description": "A massive wildfire has burned through nearly one-third of Santa Rosa Island, including reaching a grove of critically endangered Torrey pine trees. But there is reason for hope."
-    },
-    {
-      "headline": "L.A.&#x27;s democratic socialists look to boost their clout in City Hall",
-      "url": "https://www.latimes.com/california/story/2026-05-20/la-democratic-socialists-look-to-boost-their-clout-in-city-hall",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 10:00:00 GMT",
-      "description": "This year's elections could lead to six DSA-backed candidates on the L.A. City Council — and a socialist-backed city attorney. What would that mean for the city's future?"
     },
     {
       "headline": "&#x27;I see it in my nightmares.&#x27; Mom of boys killed in Westlake crosswalk testifies in civil case",
@@ -657,25 +643,11 @@
       "description": "The minimum wage will still increase to $25 in July and continue in increments until reaching $30 in January 2030."
     },
     {
-      "headline": "California, other states sue over new Trump limits on loans for nurses, PAs, therapists",
-      "url": "https://www.latimes.com/politics/story/2026-05-19/california-other-states-sue-over-new-trump-limits-on-loans-for-nurses-pas-therapists",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 21:54:08 GMT",
-      "description": "California and other Democratic-led states are suing the Trump administration over new limits on federal borrowing by students in healthcare fields."
-    },
-    {
-      "headline": "Report finds no failures in Altadena fire evacuations. Critics decry lack of accountability",
-      "url": "https://www.latimes.com/california/story/2026-05-19/altadena-evacuation-report-accountability",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 20:57:50 GMT",
-      "description": "A report by a consultant looked into L.A. County firefighting commanders' decision-making during the Eaton fire and concluded evacuation alerts were handled properly, even as residents say they were left in the dark."
-    },
-    {
-      "headline": "Burglary suspect trapped in a wall is rescued after Salinas cops on coffee break hear his cries for help",
-      "url": "https://www.latimes.com/california/story/2026-05-19/burglary-suspect-trapped-in-wall-is-rescued-after-salinas-cops-on-coffee-break-hear-his-cries-for-help",
-      "source": "Los Angeles Times",
-      "raw_date": "Tue, 19 May 2026 20:24:56 GMT",
-      "description": "A man fell off a movie theater roof in Salinas into a wall space and was trapped there for 10 hours before being rescued, according to authorities."
+      "headline": "Hilton y Becerra lideran nueva encuesta para gobernador de California. Steyer va detrás, pero no está fuera",
+      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/hilton-y-becerra-lideran-encuesta/",
+      "source": "CalMatters",
+      "raw_date": "Wed, 20 May 2026 22:14:21 +0000",
+      "description": "En una encuesta demócrata realizada durante las últimas semanas de campaña, la mayoría de los candidatos a gobernador que marcan tendencia muestran un apoyo de un solo dígito."
     },
     {
       "headline": "Does that influencer really like Tom Steyer?",
@@ -711,27 +683,6 @@
       "source": "CalMatters",
       "raw_date": "Tue, 19 May 2026 22:12:10 +0000",
       "description": "Billionaire Tom Steyer is paying influencers to boost his California governor campaign. Some didn't disclose it. A state law offers little accountability."
-    },
-    {
-      "headline": "¿Te mudas a California con un arma? Es posible que tengas que tomar un curso de cuatro horas",
-      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/california-armas-seguridad/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 21:48:46 +0000",
-      "description": "¿Quieres comprar un arma en California? Es posible que los legisladores te pidan que reserves cuatro horas y que lleves munición para el campo de tiro."
-    },
-    {
-      "headline": "Colegios comunitarios de California toman medidas contra estudiantes falsos que roban ayuda financiera",
-      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/colegios-comunitarios-de-california-estudiantes-falsos/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 21:39:14 +0000",
-      "description": "Tras un aumento repentino de solicitudes fraudulentas en los colegios comunitarios de California, los responsables de las instituciones educativas afirman que están mejorando en la detección y prevención del fraude, aunque este sigue ocurriendo."
-    },
-    {
-      "headline": "Nancy Pelosi inclina la balanza en la carrera por su sucesor",
-      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/nancy-pelosi-sucesor-congreso/",
-      "source": "CalMatters",
-      "raw_date": "Tue, 19 May 2026 20:59:04 +0000",
-      "description": "El respaldo de Pelosi podría relegar a Chan al segundo lugar, detrás del senador Scott Wiener, quien lidera con una ventaja de dos dígitos, y por delante del emprendedor tecnológico Saikat Chakrabarti, que financia su propia campaña."
     },
     {
       "headline": "CSUSB holds commencement",
