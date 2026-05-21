@@ -50,5 +50,29 @@
   "cluster_01909f5b4326_5de274517b80": {
     "headline": "Google and Blackstone Launch $25B AI Cloud Joint Venture in U.S.",
     "summary": "Google and Blackstone are forming a new U.S.-based artificial intelligence cloud company, with Blackstone contributing an initial $5 billion in equity to hold a majority stake in the venture. The total investment is valued at $25 billion including leverage, positioning the company to compete with firms like CoreWeave. The venture will offer compute-as-a-service using Google Cloud's Tensor Processing Units (TPUs), along with data center capacity, operations, and networking infrastructure. The first 500 megawatts of data center power is expected to come online by 2027, with the venture to be led by veteran Google executive Benjamin Treynor Sloss."
+  },
+  "cluster_51074c0c2ccd_cca922ec6548_d72fa0307b28_e69dfba2c34a": {
+    "headline": "LIRR Strike Ends After MTA, Five Unions Reach Tentative Deal",
+    "summary": "The Long Island Rail Road resumed partial service Tuesday at noon on four branches after the MTA and five unions reached a tentative agreement, ending a three-day strike. Approximately 3,500 engineers, signalmen, and electrical workers had walked off the job Saturday following a wage and healthcare premium dispute, marking the first LIRR work stoppage since a two-day strike in 1994. New York Governor Kathy Hochul announced the tentative deal late Monday after the National Mediation Board summoned parties to negotiations in Manhattan. The agreement on wage increases still requires ratification by rank-and-file union members, with the MTA expecting full operations to resume by Tuesday evening."
+  },
+  "cluster_927395d7bf78_e9e15bd9e5b7": {
+    "headline": "EU Parliament Backs US Trade Pact Amid Trump July 4 Deadline",
+    "summary": "European Union officials are racing to finalize a trade agreement with the United States ahead of President Trump's July 4 deadline. The European Parliament voted to support the pact, which includes built-in safeguard mechanisms governing tariff and trade flow conditions between the two blocs. Trump previously threatened to raise tariffs on European auto imports from 15% to 25%, citing the EU's slow implementation of the deal signed nearly a year ago. The European Commission has stated it retains options to protect the bloc's interests should Trump follow through on the tariff threat."
+  },
+  "cluster_2011a910baa4_4931fe198697": {
+    "headline": "13,273 Trucks Sidelined as Roadcheck, Supreme Court Ruling Tighten Freight Capacity",
+    "summary": "The 2026 CVSA International Roadcheck enforcement period, running May 10\u201317, resulted in 13,273 commercial trucks placed out of service across U.S. corridors. EASE Logistics reports that the enforcement action, combined with a recent Supreme Court ruling on broker liability and seasonal freight demand, is creating concurrent pressure on U.S. freight capacity. The Supreme Court ruling is affecting carrier availability and insurance underwriting in the spot market. These combined factors are expected to sustain tightening freight capacity conditions through the remainder of 2026."
+  },
+  "cluster_b2ca0c3e3ce2_ed3222383602": {
+    "headline": "Trans-Pacific Freight Rates Surge Amid Signs of Early Peak Season",
+    "summary": "Trans-Pacific ocean freight rates have surged in recent weeks, with spot and FAK rate increases prompting analysts to consider whether peak shipping season is arriving earlier than usual. Rate levels reflect elevated fuel-cost baselines, with fuel-linked surcharges and blank sailings contributing to upward pressure. The annual service contract changeover is also a factor influencing current pricing. Underlying demand drivers have not been fully established, and the strength of any peak season remains uncertain."
+  },
+  "cluster_38e6112e3366_df5693cb1b79": {
+    "headline": "Target Hires Ex-Walmart Executive Jeff England as Chief Supply Chain Officer",
+    "summary": "Target has appointed Jeff England, a former Walmart executive most recently with QXO, as its new chief supply chain officer. England will oversee Target's supply chain and logistics operations across the retailer's network. The hire is part of Target's broader strategic priority to improve supply chain performance, eliminate out-of-stock situations, and reduce operational costs. The appointment marks a significant leadership change at one of the largest U.S. mass-market retailers."
+  },
+  "cluster_05e6a91a4c06_56badb4dc4f0": {
+    "headline": "DOJ Indicts Four Chinese Container Makers on Price-Fixing Charges",
+    "summary": "The U.S. Department of Justice has indicted four major Chinese shipping container manufacturers and seven individual executives on charges of participating in a global price-fixing conspiracy. The indictments target some of the world's largest box manufacturers, though specific company names were not disclosed in available reporting. The action is part of a broader series of U.S. measures targeting Chinese dominance in logistics infrastructure, which has also included reciprocal port fees and tariffs on China-made port equipment."
   }
 }

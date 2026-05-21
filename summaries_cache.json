@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-20",
+  "date": "2026-05-21",
   "summaries": {
-    "economy": null,
-    "economy_long": null,
-    "industries": null,
-    "industries_long": null,
-    "logistics": null,
-    "logistics_long": null,
-    "policy": null,
-    "policy_long": null,
-    "socal": null,
-    "socal_long": null,
-    "bottom_line": null
+    "economy": "Bond yields hit multi-decade highs as inflation pressures intensify globally. The Fed's next move is increasingly debated as a potential hike. Producer prices reached a three-year high on war-driven energy costs.",
+    "economy_long": "30-year Treasury yields have climbed to 5.19%, the highest since 2007, amid accelerating inflation. War-driven oil above $100 per barrel is pushing producer prices to three-year highs and delaying Fed rate cuts. Incoming Fed Chair Kevin Warsh's first policy signals and FOMC minutes on rate-hike probability are the immediate focus.",
+    "industries": "Retail bankruptcies are mounting, with marine and pet supply operators restructuring. AI adoption is accelerating across distribution center labor and logistics operations. Major retailers are actively investing to strengthen supply chain and inventory reliability.",
+    "industries_long": "Retail bankruptcies and supply chain leadership changes are reshaping the industrial demand landscape. Walmart's fuel cost warnings and de minimis elimination are forcing domestic fulfillment realignment across sectors. Watch West Marine's 200-store footprint rationalization for near-term Southern California industrial vacancy signals.",
+    "logistics": "Global shipping disruptions are pressuring supply chains and elevating ocean freight costs. Domestic trucking capacity tightened following Roadcheck enforcement and a Supreme Court ruling. Trans-Pacific rates are rising as peak season approaches earlier than expected.",
+    "logistics_long": "Global logistics markets face simultaneous pressure from geopolitical disruption, tightening capacity, and rate volatility. The Strait of Hormuz closure, Roadcheck enforcement, and a Supreme Court broker-liability ruling are collectively squeezing freight capacity. Watch whether Maersk's Red Sea return signals durable route normalization or a premature move.",
+    "policy": "Trade policy remains unsettled across US-China, EU, and USMCA fronts. Tariffs on truck parts and containers are raising operational costs for carriers. Federal transportation funding and trucking safety enforcement are receiving significant new investment.",
+    "policy_long": "Trade policy, trucking regulation, and freight infrastructure are reshaping operational conditions across all modes. US-China tariff restoration, USMCA review uncertainty, and new Section 232 truck parts costs are compressing carrier margins. Watch the July 1 USMCA deadline and summer Section 301 conclusions for the next major cost structure reset.",
+    "socal": "Macro headwinds from inflation, rising yields, and fuel costs are pressuring the market. Demand for industrial space remains active, with notable acquisitions closing in Los Angeles. IRG's $3.4 billion REIT launch signals continued institutional conviction in SoCal industrial.",
+    "socal_long": "SoCal industrial demand remains active, with Commerce logging a $34M owner-user acquisition. Capital formation is accelerating as IRG Realty Trust launches with $2.9B in industrial assets. Watch IRG's REIT listing \u2014 it will test institutional appetite for mission-critical industrial exposure.",
+    "bottom_line": "War-driven energy costs are pushing inflation, freight rates, and operating expenses higher simultaneously. Capital markets are repricing risk upward in response \u2014 bond yields are near two-decade highs. Industrial operators face a tightening cost environment on every front at once."
   }
 }

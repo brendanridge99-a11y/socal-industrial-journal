@@ -1,794 +1,6 @@
 {
-  "last_updated": "2026-05-20T23:58:24.315480Z",
+  "last_updated": "2026-05-21T18:35:56.669290Z",
   "articles": [
-    {
-      "headline": "How a CEO and Trump Donor Is Weaponizing Tariffs Against His Rivals",
-      "source": "NPR",
-      "source_type": "free",
-      "date": "May 17, 2026",
-      "url": "https://www.npr.org/2026/05/17/nx-s1-5726366/ceo-trump-donor-quartz-kitchen-countertop-tariffs",
-      "summary": "Cambria, the top U.S. manufacturer of quartz countertops, has pursued a tariff petition that resulted in the U.S. International Trade Commission recommending tariffs of up to 40% on imported quartz slabs for a four-year period, plus import quotas. The recommendation now goes to President Trump for a final decision, with the trade commission expected to send recommendations to the president by Monday. MS International, a large California-based distributor of quartz and home-design materials claiming approximately $2.5 billion in annual sales, organized opposition to the petition, calling it an action by a small number of corporations pitted against thousands of fabricators, distributors, retailers, and American workers. Updated May 17, 2026.",
-      "category": "policy",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "b19ff549fd8e",
-      "added_at": "2026-05-18T06:00:03.410780Z",
-      "timestamp": "2026-05-18T06:00:03.410780Z"
-    },
-    {
-      "headline": "Stock Market Today (May 18, 2026): Stock Futures Down After Record-Setting Week",
-      "source": "TheStreet",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.thestreet.com/latest-news/stock-market-today-may-18-2026-updates",
-      "summary": "U.S. stock futures fell Monday morning as investors monitored the U.S.-Iran conflict and prepared for Nvidia and Target earnings later in the week. West Texas Intermediate crude rose 0.85% to $106.30 a barrel, while Brent crude gained 0.89% to $110.20 a barrel. The S&P 500 and Nasdaq had hit fresh record highs the prior week, while the Dow briefly reclaimed the 50,000 level. Iran sent an amended set of ceasefire terms to the Trump administration via Pakistani mediators while President Trump warned the \"clock is ticking.\"",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "df19219ff978",
-      "added_at": "2026-05-18T12:54:34.774164Z",
-      "timestamp": "2026-05-18T12:54:34.774164Z"
-    },
-    {
-      "headline": "G-7 Finance Chiefs Confront Bond Selloff as Inflation Risks Dominate Talks",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/bond-ructions-gatecrash-talks-by-g-7-on-skewed-world-economy",
-      "summary": "G-7 finance ministers meeting in Paris were confronted by a deepening global bond selloff driven by investor fears over oil-fueled inflation tied to the ongoing US-Iran conflict and the Strait of Hormuz closure. Talks meant to address structural economic imbalances \u2014 including the US budget deficit and China's weak consumption \u2014 were overshadowed by spiking yields across sovereign debt markets. French Finance Minister Roland Lescure told Bloomberg Television that the bond market is \"correcting, but I wouldn't go as far as to say it's collapsing.\" The 30-year US yield was the most elevated since 2007 and German 30-year debt hit its loftiest level in 15 years.",
-      "category": "economy",
-      "secondary_categories": [
-        "policy"
-      ],
-      "id": "62493c4ebe5e",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "headline": "Global Bond Yields at Multiyear Highs on Mounting Inflation Risk",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/japan-10-year-yield-jumps-on-global-inflation-angst-as-oil-rises",
-      "summary": "Global bond yields hovered near multiyear highs on Monday as rising energy prices stoked inflation concerns, with 30-year US yields hitting their highest level since 2007. Japanese government bonds notched the biggest losses, with the 30-year yield surging to its highest since that maturity was first sold in 1999. The selloff followed Friday's rout, when the S&P 500 dropped more than 1% as global yields jumped. The US 10-year Treasury yield climbed to approximately 4.63%, its highest since January 2025, as ongoing deadlock over the Iran conflict and Strait of Hormuz closure continued to fuel inflation expectations.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "cb725be696f6",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "headline": "Bond Rout Deepens as Rising Oil Prices Stoke Inflation Fears",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-05-18/bond-rout-deepens-as-rising-oil-prices-stoke-inflation-fears",
-      "summary": "A rout in global bonds intensified on May 18 as the deadlock over the Iran war pushed Brent crude above $111 a barrel and deepened inflation fears, with stocks extending their slide. WTI crude oil futures climbed back toward $107 per barrel as uncertainty deepened over US-Iran negotiations aimed at reopening the key Strait of Hormuz. Traders are now fully pricing in one rate hike by the Federal Reserve by March next year, with more than a 50% chance that interest rates will rise before the end of 2026. The latest US CPI and PPI reports indicated the energy price shock is feeding into broader US inflation, prompting markets to rule out any Fed rate cuts this year.",
-      "category": "economy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "8f30a046feb1",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "headline": "Yield Surge Puts Logic Behind Stocks Rally to the Test",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-05-18/yield-surge-puts-logic-behind-stocks-rally-to-the-test",
-      "summary": "Bloomberg's Markets Daily newsletter on May 18 reported signs that even a surge in bond yields may not be enough to derail the stock rally built on AI optimism. The S&P 500 dropped more than 1% on Friday as global yields jumped, and markets looked weak again overnight. Index futures pared losses in the European trading session as the bond selloff eased. Investors are monitoring the upcoming FOMC meeting minutes and flash US PMI data for further direction on monetary policy.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "0ff9d7e2213f",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "headline": "Strategists Say Soaring Japanese Bond Yields Show Fiscal Worries",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/strategists-say-soaring-japanese-bond-yields-show-fiscal-worries",
-      "summary": "Japanese government bonds sold off sharply on Monday, sending yields to record highs as rising oil prices fueled inflation fears, with the 10-year yield rising to approximately 2.80%. Producer prices in Japan increased 4.9% in April, accelerating sharply from 2.9% in March and surpassing market forecasts, amid intensifying cost pressures following the surge in energy prices tied to the Strait of Hormuz crisis. Bank of Japan board member Kazuyuki Masu called for policy rates to be raised as soon as possible, warning of increasingly persistent inflation risks stemming from the conflict. Bloomberg strategists noted the selloff reflects deepening fiscal concerns beyond just energy inflation.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "86424d3eb929",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "headline": "Gold Holds Decline as Hormuz Quagmire Keeps Inflation Fears High",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/gold-holds-decline-as-hormuz-quagmire-keeps-inflation-fear-high",
-      "summary": "Gold held a decline on May 18 as a lack of progress in reopening the Strait of Hormuz continued to fan inflation concerns that have sent bond markets tumbling. The Strait has been largely closed since the US and Israel launched strikes against Iran on February 28, 2026, blocking roughly 20% of the world's seaborne oil trade. Trump warned Iran to 'get moving' after departing China without securing meaningful progress toward ending the conflict or reopening the strait. Energy infrastructure across the Persian Gulf came under renewed attack over the weekend, including a nuclear facility in the UAE, adding to supply disruption fears.",
-      "category": "economy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "86360302ee15",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "headline": "NextEra to Buy Dominion for $67 Billion to Form Power Giant",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/nextera-to-buy-dominion-for-67-billion-to-form-power-giant",
-      "summary": "NextEra Energy Inc. agreed to pay approximately $67 billion in stock for Dominion Energy Inc. in the biggest power acquisition ever, creating a giant utility extending from Florida to the data center corridor in Virginia. The deal would give NextEra a swathe of electricity assets across Virginia and the Carolinas and position it as a dominant utility in a region struggling to meet surging demand from newly built artificial intelligence facilities. The combined company would serve approximately 10 million utility customer accounts, own 110 gigawatts of generation, and become the world leader in renewables and battery storage. The deal is expected to close in 12 to 18 months, pending approval from the Federal Energy Regulatory Commission, state regulators, and the Justice Department.",
-      "category": "economy",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "ad13b0576a6e",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "headline": "Ford Bets on Bronco SUV to Revive Flagging European Sales",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/ford-bets-on-bronco-suv-to-revive-flagging-european-sales",
-      "summary": "Ford Motor Co. announced plans to revive its struggling European passenger car business by building a compact Bronco SUV at its Valencia, Spain plant starting in 2028, as part of a product offensive involving five new European models by 2029. Ford will also introduce smaller electric and combustion-engine vehicles for Europe to compete with an influx of less expensive Chinese brands. Ford Pro's paid software subscriptions grew 30% year-over-year to 879,000 in Q1 2026, with gross margins above 50%, reflecting the company's pivot toward software-and-services revenue. Ford also called on the EU to align emissions regulations with consumer demand and available charging infrastructure.",
-      "category": "socal",
-      "secondary_categories": [],
-      "id": "cea1bcf5a235_loc",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z",
-      "submarkets": [
-        "los-angeles"
-      ],
-      "is_overflow": true,
-      "overflow_from": "industries"
-    },
-    {
-      "headline": "Ford Bets on Bronco SUV to Revive Flagging European Sales",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/ford-bets-on-bronco-suv-to-revive-flagging-european-sales",
-      "summary": "Ford Motor Co. announced plans to revive its struggling European passenger car business by building a compact Bronco SUV at its Valencia, Spain plant starting in 2028, as part of a product offensive involving five new European models by 2029. Ford will also introduce smaller electric and combustion-engine vehicles for Europe to compete with an influx of less expensive Chinese brands. Ford Pro's paid software subscriptions grew 30% year-over-year to 879,000 in Q1 2026, with gross margins above 50%, reflecting the company's pivot toward software-and-services revenue. Ford also called on the EU to align emissions regulations with consumer demand and available charging infrastructure.",
-      "category": "industries",
-      "secondary_categories": [],
-      "id": "cea1bcf5a235",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "headline": "Bond Selloff Latest: G7 Finance Ministers Discuss Debt-Market Moves",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-05-18/bond-selloff-latest-g7-finance-ministers-discuss-debt-market-moves",
-      "summary": "Bloomberg's May 18 newsletter tracked the G7 finance ministers' emergency bond market discussions in Paris as an alarming global bond selloff unfolded alongside their scheduled agenda. The gathering followed a bond market selloff triggered by fears of inflation stemming from the Iran war and the prolonged Strait of Hormuz closure. French Finance Minister Roland Lescure described the bond market as undergoing a correction rather than a collapse, while noting that public debt is no longer an irrelevant policy topic. Ministers shared views on the economic situation alongside France's broader agenda of addressing US fiscal deficits, China's trade surpluses, and European underinvestment.",
-      "category": "economy",
-      "secondary_categories": [
-        "policy"
-      ],
-      "id": "d2ec57b03369",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "headline": "More than 5,100 freight-related layoffs hit US supply chain sector",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.freightwaves.com/news/more-than-5100-freight-related-layoffs-hit-us-supply-chain-sector",
-      "summary": "A wave of freight-related layoffs and facility closures has swept across the U.S., with more than 5,183 workers affected by shutdowns, restructurings, and contract losses tied to the logistics, manufacturing, and transportation sectors. The layoffs span at least 20 states and include warehouse operators, manufacturers, trucking companies, automotive suppliers, and food logistics providers. Major employers including FreshRealm, GEODIS, Ryder, and DSV announced mass layoffs as companies cut costs and consolidated operations. California-based FreshRealm, a ready-to-eat meal supplier for brands including Blue Apron, filed for Chapter 11 bankruptcy and announced layoffs impacting more than 1,000 workers nationwide after disruptions tied to a 2025 listeria outbreak.",
-      "category": "industries",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "aeb18133650f",
-      "added_at": "2026-05-18T16:44:13.332275Z",
-      "timestamp": "2026-05-18T16:44:13.332275Z"
-    },
-    {
-      "item_index": 1,
-      "headline": "Transportation bill sets $240B for major modes",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.freightwaves.com/news/transportation-bill-sets-240b-for-major-modes",
-      "summary": "The House released a surface transportation reauthorization bill allocating $240 billion in federal spending across multiple transportation modes. The legislation covers infrastructure and services spanning a range of modal categories. The bill represents a major federal commitment to surface transportation funding as the current reauthorization period draws toward renewal.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "9e28de8ad3f6",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 2,
-      "headline": "Cargo theft dips in Q1, but fraud schemes surge, report says",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.freightwaves.com/news/cargo-theft-dips-in-q1-but-fraud-schemes-surge-report-says",
-      "summary": "Overall cargo theft declined in the first quarter, but fraud-based tactics rose sharply, according to a report by supply chain risk firm Overhaul. Deceptive pickup scams \u2014 in which thieves impersonate legitimate carriers to collect freight \u2014 climbed significantly during the period. Physical break-ins and traditional theft methods accounted for a smaller share of incidents as criminal networks shifted strategy.",
-      "category": "logistics",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "0dafc5e32e20",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 3,
-      "headline": "Will the BUILD America 250 Act be the next capacity squeeze",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.freightwaves.com/news/will-the-build-america-250-act-be-the-next-capacity-squeeze",
-      "summary": "The BUILD America 250 Act includes provisions that revise freight broker qualification requirements, overhaul the DataQs process for disputing safety violations, and establish a federal timeline for hair follicle drug testing of commercial drivers. The changes carry implications for broker licensing standards, motor carrier compliance obligations, and insurance renewal cycles. FreightWaves outlines how each of the three provisions could affect capacity and operational costs across the trucking and brokerage sectors.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "99e60bbf62d9",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 4,
-      "headline": "Merger markup: BNSF hiked grain train charges as much as 472%, UP says in complaint",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.freightwaves.com/news/merger-markup-bnsf-hiked-grain-train-charges-as-much-as-472-up-says-in-complaint",
-      "summary": "Union Pacific filed a formal complaint with federal regulators alleging that BNSF Railway cancelled certain reciprocal switching rates and replaced them with charges as much as 472% higher for grain shippers. UP contends the moves significantly increased shipping costs on affected routes. The complaint has been submitted to the Surface Transportation Board for review.",
-      "category": "logistics",
-      "secondary_categories": [
-        "policy"
-      ],
-      "id": "aea1c6398820",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 5,
-      "headline": "Labor Dept. jumps in on the push for driver English language proficiency",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.freightwaves.com/news/labor-dept-jumps-in-on-the-push-for-driver-english-language-proficiency",
-      "summary": "The U.S. Department of Labor has joined the federal government's push to enforce English language proficiency requirements for commercial truck drivers. The move adds a second federal agency to an effort that had previously been led by transportation regulators. The development signals a broadening of the enforcement framework around driver language standards.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "f5529c12fdcc",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 6,
-      "headline": "This autonomous ship mooring system really sucks \u2013 and that's a good thing",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.freightwaves.com/news/this-autonomous-ship-mooring-system-really-sucks-and-thats-a-good-thing",
-      "summary": "The largest port in northern China has deployed an autonomous vacuum-based berthing system capable of securing a container ship in approximately 30 seconds. The system uses suction technology to moor vessels without traditional line-handling crews. The deployment represents an operational automation advance at one of China's major container gateway ports.",
-      "category": "logistics",
-      "secondary_categories": [],
-      "id": "4c90091473a5",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 7,
-      "headline": "BUILD America 250 Act hands AV trucks a fed framework",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.freightwaves.com/news/build-america-250-act-hands-av-trucks-a-fed-framework",
-      "summary": "The BUILD America 250 Act establishes the first federal regulatory framework for autonomous commercial trucks, though it does not authorize immediate deployment. The Department of Transportation would have two years to develop safety standards under the legislation, and liability questions would remain subject to jury determination. The bill also includes funding for workforce retraining programs tied to the transition to autonomous trucking technology.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "46554e071e5c",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 8,
-      "headline": "Florida theft ring accused of moving $7 million in stolen goods across multiple states",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 17, 2026",
-      "url": "https://www.freightwaves.com/news/florida-theft-ring-accused-of-moving-7-million-in-stolen-goods-across-multiple-states",
-      "summary": "Florida authorities arrested 14 suspects allegedly linked to an organized theft network responsible for approximately $7 million in stolen merchandise. Investigators described the group as highly organized, operating across multiple states using logistics and resale networks to move stolen goods. The arrests were the result of a multi-jurisdictional investigation into commercial cargo and retail theft.",
-      "category": "logistics",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "8213c809a9e0",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 9,
-      "headline": "AD Ports to expand Europe, Asia footprints with MBS Logistics takeover",
-      "source": "Journal of Commerce",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://joc.com/article/ad-ports-to-expand-europe-asia-footprints-with-mbs-logistics-takeover-6222582",
-      "summary": "Abu Dhabi's AD Ports Group is acquiring MBS Logistics in a move designed to expand its presence in European and Asian markets. The deal follows a strategy similar to that of Dubai-based DP World, which has pursued end-to-end integration across the container shipping sector. The acquisition is intended to broaden AD Ports' reach beyond its core Middle East operations.",
-      "category": "logistics",
-      "secondary_categories": [],
-      "id": "6099c5db2204",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 10,
-      "headline": "'Montgomery' ruling likely to raise pressure on trucking insurance, broker vetting",
-      "source": "Journal of Commerce",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://joc.com/article/montgomery-ruling-likely-to-raise-pressure-on-trucking-insurance-broker-vetting-6222536",
-      "summary": "The U.S. Supreme Court's recent decision in the Montgomery case is expected to increase legal scrutiny of carrier selection practices and insurance coverage requirements in the trucking industry, according to attorneys who specialize in transportation law. The ruling is anticipated to raise the standard of due diligence freight brokers must apply when vetting motor carriers. Industry attorneys say the decision will likely affect both insurance renewal negotiations and broker liability exposure.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "65cf8e9b2149",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 11,
-      "headline": "NAM calls for making the USMCA even more manufacturing friendly",
-      "source": "Supply Chain Dive",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.supplychaindive.com/news/nam-calls-for-making-the-usmca-even-more-manufacturing-friendly/820481/",
-      "summary": "The National Association of Manufacturers has called on policymakers to strengthen the United States-Mexico-Canada Agreement to better support domestic manufacturing competitiveness. The NAM's recommendations focus on making the trade framework more favorable for U.S. producers ahead of the agreement's scheduled 2026 review. The group is seeking modifications that would reinforce reshoring trends and protect American manufacturing supply chains.",
-      "category": "policy",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "2b97cd1ee588",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 12,
-      "headline": "USPS to align dimensional pricing closer to FedEx, UPS",
-      "source": "Supply Chain Dive",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.supplychaindive.com/news/usps-to-align-dimensional-pricing-closer-to-fedex-ups/820305/",
-      "summary": "The U.S. Postal Service plans to revise its dimensional weight pricing methodology to more closely mirror the pricing structures used by FedEx and UPS. The change will affect how parcel rates are calculated based on package size relative to weight. The adjustment is expected to alter shipping cost calculations for e-commerce and parcel-heavy shippers that rely on USPS for last-mile delivery.",
-      "category": "socal",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "d8ef2913815b_loc",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z",
-      "submarkets": [
-        "los-angeles"
-      ],
-      "is_overflow": true,
-      "overflow_from": "industries"
-    },
-    {
-      "item_index": 12,
-      "headline": "USPS to align dimensional pricing closer to FedEx, UPS",
-      "source": "Supply Chain Dive",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.supplychaindive.com/news/usps-to-align-dimensional-pricing-closer-to-fedex-ups/820305/",
-      "summary": "The U.S. Postal Service plans to revise its dimensional weight pricing methodology to more closely mirror the pricing structures used by FedEx and UPS. The change will affect how parcel rates are calculated based on package size relative to weight. The adjustment is expected to alter shipping cost calculations for e-commerce and parcel-heavy shippers that rely on USPS for last-mile delivery.",
-      "category": "industries",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "d8ef2913815b",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 13,
-      "headline": "Port of Los Angeles sees April volume jump despite Iran war shadow",
-      "source": "Supply Chain Dive",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.supplychaindive.com/news/port-of-los-angeles-sees-april-volume-jump-despite-iran-war-shadow/820399/",
-      "summary": "The Port of Los Angeles recorded a year-over-year increase in container volume for April, despite uncertainties stemming from the conflict involving Iran. Spring and summer cargo volumes showed strength as shippers moved goods through the port. The volume gains came amid broader concerns about potential disruptions to global shipping routes related to Middle East tensions.",
-      "category": "socal",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "7f4251cc5ee1",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z",
-      "submarkets": [
-        "los-angeles"
-      ]
-    },
-    {
-      "item_index": 14,
-      "headline": "UP, NS merger: What other railroads are saying",
-      "source": "Supply Chain Dive",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.supplychaindive.com/news/up-ns-merger-what-other-railroads-are-saying/820011/",
-      "summary": "Competing railroads have begun publicly responding to the proposed merger between Union Pacific and Norfolk Southern, with reactions ranging from competitive concern to cautious support. The consolidation would create one of the largest rail networks in North America, spanning both coasts. Other Class I carriers are weighing in as the deal advances toward federal regulatory review.",
-      "category": "logistics",
-      "secondary_categories": [
-        "policy"
-      ],
-      "id": "4d574247b5d0",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 16,
-      "headline": "Product brands and the Hormuz crisis: an inventory problem",
-      "source": "Supply Chain Dive",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.supplychaindive.com/spons/product-brands-and-the-hormuz-crisis-an-inventory-problem/820053/",
-      "summary": "Consumer product brands are facing elevated inventory costs as the Strait of Hormuz crisis disrupts shipping routes and forces costly supply chain adjustments. The situation has complicated inventory management strategies for brands dependent on Middle East transit lanes. The crisis has made existing inventory imbalances more expensive to resolve as freight costs and transit times increase.",
-      "category": "logistics",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "d1f81eef1b78",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 4,
-      "headline": "$6 gas and refinery fears collide with California's climate ambitions",
-      "source": "CalMatters",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://calmatters.org/environment/climate-change/2026/05/carbon-market-free-permit-california/",
-      "summary": "California is considering providing oil refineries and other major polluters with billions of dollars in free emission allowances under its cap-and-trade program, even as the state says carbon reductions must accelerate. Two California refineries have closed in the last six months, contributing to gasoline prices reaching approximately $6 per gallon. The state faces competing pressures between maintaining fuel supply and refinery operations and meeting its climate reduction targets.",
-      "category": "policy",
-      "secondary_categories": [
-        "industries",
-        "economy"
-      ],
-      "id": "a3dd48d4a999",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "item_index": 7,
-      "headline": "Avem Takes Stake in Valley Aircraft Parts Maker",
-      "source": "Los Angeles Business Journal",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://labusinessjournal.com/finance/avem-takes-stake-in-valley-aircraft-parts-maker/",
-      "summary": "Sun Valley-based Precision Aircraft Machining Co. Inc. (Pamco), a precision manufacturing firm serving the aerospace and defense industry, has been acquired by Avem Partners, a private equity firm. The deal gives Avem a stake in a Southern California manufacturer with established ties to the aerospace and defense sectors. Financial terms of the transaction were not disclosed.",
-      "category": "socal",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "774860870144",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z",
-      "submarkets": [
-        "los-angeles"
-      ]
-    },
-    {
-      "item_index": 14,
-      "headline": "Q1 Airports Passenger Traffic Flat",
-      "source": "Los Angeles Business Journal",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://labusinessjournal.com/featured/q1-airports-passenger-traffic-flat/",
-      "summary": "Cumulative passenger traffic at the four airports serving Los Angeles County was essentially flat in the first quarter of 2026, according to data released by the governing airport authorities. Approximately 20.17 million passengers traveled through the Los Angeles-area airports during the quarter. The flat passenger figures reflect subdued air travel demand across the region's major commercial aviation hubs.",
-      "category": "socal",
-      "secondary_categories": [
-        "economy",
-        "logistics"
-      ],
-      "id": "ec21ba468d88",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z",
-      "submarkets": [
-        "los-angeles"
-      ]
-    },
-    {
-      "item_index": 12,
-      "headline": "Jurupa Valley industrial property sold",
-      "source": "IE Business Daily",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://iebusinessdaily.com/jurupa-valley-industrial-property-sold/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jurupa-valley-industrial-property-sold",
-      "summary": "Bridge Logistics Properties, a national real estate investment management company, has acquired a 68-acre industrial-zoned site in Jurupa Valley, California. The purchase price was not disclosed. The property is zoned for industrial development. No additional details regarding planned development or timeline were provided in the company statement.",
-      "category": "socal",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "f34e4ca7c541",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z",
-      "submarkets": [
-        "inland-empire"
-      ]
-    },
-    {
-      "headline": "US Long Bond Yield Hits Highest Since 2023 on Inflation Concern",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/us-long-bond-yield-hits-highest-since-2023-on-inflation-concern",
-      "summary": "Treasuries sold off Monday, pushing the 30-year yield to its highest level since October 2023, as investor concern over accelerating inflation fueled a global debt selloff. The 30-year yield rose as much as four basis points to 5.16% as oil prices extended gains after President Trump renewed pressure on Tehran to end the Iran war. The Strait of Hormuz remains closed, with no agreement in sight between the US and Iran. Markets are pricing in no Fed rate cuts this year and increasing bets on a potential rate hike before year-end.",
-      "category": "economy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "5e1686f316dd",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "US Futures Waver as Oil Prices Edge Lower, Chips Stocks Rally",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/us-futures-slip-as-inflation-worries-feed-risk-off-sentiment",
-      "summary": "US futures swung to slight gains in Monday pre-market trading, erasing overnight losses as oil prices retreated from an earlier surge. S&P 500 futures rose 0.2% and Nasdaq 100 contracts gained 0.6% as of 8:54 a.m. in New York, with top semiconductor stocks including Micron Technology and Nvidia advancing. West Texas Intermediate crude oil slipped approximately 1.9% to around $103 a barrel after Iran's Tasnim reported the US had proposed a temporary waiver on oil sanctions. President Trump on Sunday said the \"clock is ticking\" after Iranian drones targeted a nuclear power plant in the United Arab Emirates.",
-      "category": "economy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "f553effd3169",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Trump to Swear In Warsh as Fed Chair on Friday, White House Says",
-      "source": "Bloomberg Law",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://news.bloomberglaw.com/banking-law/trump-to-swear-in-warsh-as-fed-chair-on-friday-white-house-says",
-      "summary": "Kevin Warsh will be sworn in as Federal Reserve chair by President Donald Trump on Friday during a White House ceremony, according to a White House official. Warsh will become the central bank's 17th leader and succeed Jerome Powell, who has been serving in a temporary capacity since his official term ended the previous week. The US Senate confirmed Warsh earlier in May on a 54-45 vote, the slimmest confirmation margin ever recorded for a Fed chair. Warsh takes the helm as the central bank faces intensifying inflation driven by rising energy prices tied to the Iran war.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "ca14af94dd58",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Investors Flock to Commodity ETFs (DBC) as Iran War Fuels Energy Inflation",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/investors-flock-to-commodity-etfs-dbc-as-iran-war-fuels-energy-inflation",
-      "summary": "Investors are pouring money into commodities funds as the US-Iran war stokes inflation, according to Invesco. Traders last week added almost $86 million to the Invesco DB Commodity Index Tracking Fund \u2014 a cross-commodities ETF with a heavy weighting toward energy \u2014 in the largest daily inflow since 2022, per Bloomberg-compiled data. The move is part of a broader surge into commodity-linked products over the past week, echoing inflow patterns that followed Russia's invasion of Ukraine and the ensuing spike in oil and natural gas prices. Diesel and energy-weighted commodities are the primary beneficiaries of the allocation shift.",
-      "category": "economy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "6f8322c37aa9",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Iran Starts Bitcoin-Backed Ship Insurance for Hormuz Strait",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/iran-starts-bitcoin-backed-shipping-insurance-for-hormuz-strait",
-      "summary": "Iran has launched a Bitcoin-backed insurance service for Iranian shipping companies seeking to transit the Strait of Hormuz, the semi-official Fars news agency reported, citing documents from Iran's Ministry of Economy and Financial Affairs. The service, dubbed Hormuz Safe, provides Iranian shipping companies and cargo owners with what it describes as fast and verifiable digital insurance, according to a screenshot of the company's website shared by Fars. The agency did not provide a detailed breakdown of how the insurance functions or whether it is available to foreign shipping companies and vessels. The Strait of Hormuz has been largely closed amid the US-Iran conflict, choking global energy flows and driving oil prices sharply higher.",
-      "category": "logistics",
-      "secondary_categories": [
-        "economy"
-      ],
-      "id": "62e2031a1d61",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Samsung Strike?: Four Scenarios for the Chipmaker's Labor Dispute",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/samsung-strike-four-scenarios-for-the-chipmaker-s-labor-dispute",
-      "summary": "Samsung Electronics and its largest labor union are locked in talks to avert a strike at the world's largest memory chip maker, with the potential for significant disruption to semiconductor supply chains if a work stoppage proceeds. The dispute involves approximately 47,000 workers and centers on bonus distribution, according to reports. The talks come at a delicate moment for Samsung, which has been recording strong profits driven by red-hot demand for AI chips and faces fierce competition from SK Hynix and Micron Technology. A strike could further elevate already high chip prices and affect technology supply chains from smartphones to servers.",
-      "category": "industries",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "06ee62ae6f8a",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Ford in Talks to Supply Military Trucks in Europe, North America",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/ford-in-talks-to-supply-military-trucks-in-europe-north-america",
-      "summary": "Ford Motor Co. is in negotiations with defense departments in Europe and North America to supply pickup trucks and software to their armed forces, the automaker confirmed Monday in a blog post. The talks, which began last year, are described as \"productive\" but have not yet yielded a contract. Chief Executive Officer Jim Farley told analysts last month that Ford is in \"early discussions with the US government on some defense related needs.\" The move signals Ford's push into defense contracting as a new revenue stream amid the ongoing Iran conflict's effects on global auto and manufacturing demand.",
-      "category": "industries",
-      "secondary_categories": [],
-      "id": "e72f14a3bda4",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "White House Details Trump-Xi Summit Trade Commitments: China to Buy $17 Billion in U.S. Agricultural Goods Annually Through 2028",
-      "source": "Reuters",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.reuters.com/world/china/",
-      "summary": "The White House on Sunday released details of trade understandings reached during President Trump's two-day state visit to Beijing, saying China agreed to purchase at least $17 billion per year in U.S. agricultural products \u2014 including beef and poultry \u2014 for 2026, 2027, and 2028. China will restore market access for U.S. beef and resume poultry imports from states certified bird-flu-free by the USDA. The agreement builds on a prior soybean purchase commitment from October 2025, under which China agreed to buy 25 million metric tons annually for three years. China's imports of U.S. agricultural goods fell from a peak of $38 billion in 2022 to $8 billion in 2025, according to USDA data cited in Reuters reporting.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics",
-        "economy"
-      ],
-      "id": "27c99f3c1251",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Trump-Xi Summit Produced 'Modest' Commercial Commitments With Major Disputes Unresolved, Reuters Reports",
-      "source": "Reuters",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.reuters.com/world/us/",
-      "summary": "Reuters reporters Michael Martina, David Brunnstrom, David Lawder, and Mei Mei Chu reported that President Trump's Beijing summit with Xi Jinping produced modest commercial and trade commitments but no public Chinese commitment to help end the Iran war. Disputes over Beijing's trade practices, military posture, and technology access were described as largely unresolved. Both sides framed the outcomes as preliminary, with China's Ministry of Commerce calling for continued negotiations on tariff reductions and market access issues. The two leaders agreed to meet again in the U.S. in September.",
-      "category": "socal",
-      "secondary_categories": [
-        "policy",
-        "logistics"
-      ],
-      "id": "d92490c1af0a_loc",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z",
-      "submarkets": [
-        "los-angeles"
-      ],
-      "is_overflow": true,
-      "overflow_from": "economy"
-    },
-    {
-      "headline": "Trump-Xi Summit Produced 'Modest' Commercial Commitments With Major Disputes Unresolved, Reuters Reports",
-      "source": "Reuters",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.reuters.com/world/us/",
-      "summary": "Reuters reporters Michael Martina, David Brunnstrom, David Lawder, and Mei Mei Chu reported that President Trump's Beijing summit with Xi Jinping produced modest commercial and trade commitments but no public Chinese commitment to help end the Iran war. Disputes over Beijing's trade practices, military posture, and technology access were described as largely unresolved. Both sides framed the outcomes as preliminary, with China's Ministry of Commerce calling for continued negotiations on tariff reductions and market access issues. The two leaders agreed to meet again in the U.S. in September.",
-      "category": "economy",
-      "secondary_categories": [
-        "policy",
-        "logistics"
-      ],
-      "id": "d92490c1af0a",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Iran War, Hormuz Closure Drive Up Energy and Shipping Costs Across Airlines, Chemicals, Autos \u2014 Reuters",
-      "source": "Reuters",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.reuters.com/business/",
-      "summary": "Reuters reported that companies across multiple sectors have cited higher energy and shipping costs, supply-chain disruptions, production cuts, dividend suspensions, furloughs, fuel surcharges, and emergency government-assistance requests as a result of the ongoing Iran war and Strait of Hormuz closure. Airlines, chemicals, consumer goods, oil and gas, and automotive companies are among the hardest hit. Europe and Asia are described as especially exposed to higher oil prices and disrupted Middle East trade routes. The U.S. naval blockade of Iranian ports, in effect since April 13, has contributed to the virtual closure of a waterway that previously carried roughly 27% of the world's seaborne crude oil trade.",
-      "category": "logistics",
-      "secondary_categories": [
-        "economy",
-        "industries"
-      ],
-      "id": "5fed4e45d385",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "White House touts deals on soybeans and rare earths after Trump-Xi summit, while China talks up tariff cuts",
-      "source": "CNBC",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.cnbc.com/2026/05/18/us-china-announce-deals-after-trump-xi-summit.html",
-      "summary": "The White House released details of agreements reached at the Trump-Xi Beijing summit, including China's commitment to purchase at least $17 billion per year in U.S. agricultural products through 2028 and an initial order of 200 Boeing aircraft for Chinese airlines. The U.S. and China agreed to establish a Board of Trade and a Board of Investment to manage bilateral economic relations. China indicated reducing tariffs would be part of the plans, while the U.S. readout did not mention duties. Both sides characterized the summit outcomes as 'preliminary,' with further negotiations expected in coming weeks and months.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics",
-        "economy"
-      ],
-      "id": "0addadd38041",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "From a 'board of trade' to Boeing planes, what did Xi and Trump actually agree to?",
-      "source": "CNN",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.cnn.com/2026/05/18/china/xi-trump-trade-agreements-china-visit-intl-hnk",
-      "summary": "Following the Trump-Xi summit in Beijing, China agreed to purchase $17 billion annually in U.S. agricultural goods plus 25 million metric tons of soybeans \u2014 totaling roughly $27 billion per year \u2014 and to restore market access for U.S. beef and resume poultry imports. China also agreed to 'address U.S. concerns' over supply chain shortages of rare earths including yttrium, scandium, neodymium, and indium, though Beijing's statement did not explicitly confirm this. The White House cited China's initial purchase of 200 Boeing aircraft, which Boeing has not yet publicly confirmed; China confirmed only aircraft procurement arrangements.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics",
-        "industries"
-      ],
-      "id": "7e0df10e3e5d",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Fact Sheet: President Donald J. Trump Secures Historic Deals with China, Delivering for American Workers, Farmers, and Industry",
-      "source": "White House",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-secures-historic-deals-with-china-delivering-for-american-workers-farmers-and-industry/",
-      "summary": "The White House fact sheet details agreements from the Trump-Xi summit, including China's commitment to purchase at least $17 billion per year in U.S. agricultural products in 2026, 2027, and 2028. China approved an initial purchase of 200 American-made Boeing aircraft, the first Chinese commitment to Boeing aircraft since 2017. China will address U.S. concerns regarding supply chain shortages related to rare earths and critical minerals including yttrium, scandium, neodymium, and indium. The two countries established a U.S.-China Board of Trade and a U.S.-China Board of Investment as the 'cornerstone' of the agreement.",
-      "category": "policy",
-      "secondary_categories": [
-        "economy",
-        "logistics"
-      ],
-      "id": "a9587acb8fdd",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Trump-Xi summit: China agrees to boost trade for U.S. beef, poultry",
-      "source": "NBC News",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.nbcnews.com/world/asia/trump-xi-summit-china-agrees-boost-trade-us-beef-poultry-rcna345634",
-      "summary": "China agreed at the Trump-Xi summit to purchase $17 billion per year in U.S. agricultural products through 2028 and order 200 Boeing aircraft, a figure analysts described as fewer than expected, causing Boeing shares to fall. China also renewed market access for U.S. beef by restoring listings for more than 400 U.S. beef facilities and resumed poultry imports from states certified free of bird flu. The 'cornerstone' of the agreement is a board of trade mechanism that could allow tariff reductions on some $30 billion in non-sensitive goods. Analysts said Trump laid 'solid groundwork' but several issues remain unresolved, including Taiwan and Iran.",
-      "category": "policy",
-      "secondary_categories": [
-        "economy",
-        "industries"
-      ],
-      "id": "847e3e278977",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Appeals Court Keeps Section 122 Tariffs In Place (For Now): What Importers Need To Know",
-      "source": "Mondaq / Customs & International Trade Law Blog",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.mondaq.com/unitedstates/international-trade-investment/1788410/appeals-court-keeps-section-122-tariffs-in-place-for-now-what-importers-need-to-know",
-      "summary": "On May 7, 2026, the U.S. Court of International Trade ruled that the Trump Administration's 10% global tariffs imposed under Section 122 of the Trade Act of 1974 were unlawful, issuing a permanent injunction for three named plaintiffs \u2014 the State of Washington, Burlap & Barrel, and Basic Fun. On May 12, 2026, the U.S. Court of Appeals for the Federal Circuit entered an administrative stay, suspending the CIT's ruling while the appeal proceeds, meaning Section 122 tariffs remain in effect for all other importers. Importers paid an estimated $25 billion in Section 122 duties since February 24, 2026. The tariffs are currently set to expire July 24, 2026, but the administration may impose replacement tariffs under Section 301 or Section 232.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics",
-        "economy"
-      ],
-      "id": "119fd384347a",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
-    {
-      "headline": "Amazon and Walmart's $1 trillion battle to win rural America's shoppers",
-      "source": "The Mirror US",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.themirror.com/news/us-news/amazon-walmarts-1-trillion-battle-1842857",
-      "summary": "Amazon and Walmart are competing to serve rural U.S. consumers through expanded last-mile delivery infrastructure, a market analysts at Morgan Stanley estimate could generate up to $1 trillion in annual sales. Amazon is establishing small delivery hubs serving clusters of neighboring towns, with the goal of cutting delivery times from up to five days to under two days, according to Holly Sullivan, Amazon's vice president of worldwide economic development. Approximately 90% of Americans live within 10 miles of a Walmart location, and 45% of its full-service Supercenters are in areas with populations under 20,000, giving Walmart a proximity advantage. FedEx, UPS, and the U.S. Postal Service are simultaneously reducing or slowing deliveries to certain rural locations to cut costs.",
-      "category": "industries",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "cfc6d6935b88",
-      "added_at": "2026-05-18T18:24:03.236240Z",
-      "timestamp": "2026-05-18T18:24:03.236240Z"
-    },
     {
       "item_index": 1,
       "headline": "Could new Zim offer start bidding war?",
@@ -1842,6 +1054,579 @@
       "id": "51074c0c2ccd",
       "added_at": "2026-05-19T18:33:39.257010Z",
       "timestamp": "2026-05-19T18:33:39.257010Z"
+    },
+    {
+      "item_index": 1,
+      "headline": "UP CEO confident rail merger application checks all the STB's boxes",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/up-ceo-confident-rail-merger-application-checks-all-the-stbs-boxes",
+      "summary": "Union Pacific CEO expressed confidence that the revised UP-Norfolk Southern merger application meets all requirements set by the Surface Transportation Board. The application has been resubmitted following earlier review. No timeline for STB action was specified in the report.",
+      "category": "logistics",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "3f5fae804326",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 3,
+      "headline": "Target moves to elevate supply chain operations, inventory reliability",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/target-moves-to-elevate-supply-chain-operations-inventory-reliability",
+      "summary": "Target has identified supply chain improvement as a strategic priority, aiming to eliminate out-of-stock situations and reduce operational costs. The retailer is investing in supply chain operations to improve inventory reliability across its network. The initiative reflects ongoing efforts by major retailers to strengthen distribution and fulfillment capabilities.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "df5693cb1b79",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 5,
+      "headline": "DoJ indicts Chinese container makers on price-fixing charges",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/doj-indicts-chinese-container-makers-on-price-fixing-charges",
+      "summary": "The U.S. Department of Justice has indicted four major Chinese shipping container manufacturers and seven individual executives on charges related to a global price-fixing conspiracy. The indictments target some of the world's largest box manufacturers. The action follows other U.S. measures against Chinese logistics and port equipment firms, including reciprocal port fees and tariffs.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "05e6a91a4c06",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 6,
+      "headline": "Another CA truck crash and two dead kids on Highway 99",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/another-ca-truck-crash-and-two-dead-kids-on-highway-99",
+      "summary": "A Freightliner Cascadia operated by Amritsar Trans Inc., a five-truck carrier based in Manteca, California, rear-ended three vehicles on Highway 99 near Lodi on May 19, 2026, killing two young men. The driver fled the scene on foot following the collision. The carrier is described as operating within a broader web of compliance concerns.",
+      "category": "policy",
+      "secondary_categories": [
+        "socal"
+      ],
+      "id": "695812ac2306",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 7,
+      "headline": "Rail on a roll as ag, metals, chemicals lead traffic",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://www.freightwaves.com/news/rail-on-a-roll-as-ag-metals-chemicals-lead-traffic",
+      "summary": "U.S. rail freight volumes posted another positive week, with seven out of 10 commodity categories showing year-over-year improvement. Agricultural products, metals, and chemicals led traffic gains during the reporting period. The data reflects continued broad-based strength in rail freight demand.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "baf08d3ffec5",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 8,
+      "headline": "79 ELDs revoked since January. 12 more just hit the list.",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://www.freightwaves.com/news/79-elds-revoked-since-january-12-more-just-hit-the-list",
+      "summary": "The Federal Motor Carrier Safety Administration removed 12 additional electronic logging devices from its registered device list, bringing the total number of revocations to 79 since January 2025. The pace of removals is outstripping the rate at which new devices are being added to the registry. The trend raises questions about the agency's longer-term direction on ELD oversight.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "347103eadeff",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 10,
+      "headline": "RXO sees TL spot market surge further in Q2",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://www.freightwaves.com/news/rxo-sees-tl-spot-market-surge-further-in-q2",
+      "summary": "Freight broker RXO reported better-than-expected spot market conditions in the second quarter of 2026, with truckload spot rates surging beyond earlier projections. The company indicated that Q2 trends are tracking above internal forecasts. The development signals improving freight demand conditions in the broader truckload market.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "83195ba4d6c9",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 13,
+      "headline": "Evolution of ocean capacity linked to varied dynamics of trade needs",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://joc.com/article/evolution-of-ocean-capacity-linked-to-varied-dynamics-of-trade-needs-6225347",
+      "summary": "The alignment between ocean freight demand and vessel capacity supply varies significantly across individual trade lanes, according to an analysis by Jeremy Masters. These dynamics carry different consequences for the newbuild, second-hand, and charter vessel markets. The piece examines how trade-lane-specific conditions are shaping carrier capacity deployment decisions.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "5ed596f65f12",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 16,
+      "headline": "US move against container makers is latest entry in logistics battle with China",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://joc.com/article/us-move-against-container-makers-is-latest-entry-in-logistics-battle-with-china-6224758",
+      "summary": "The Justice Department's indictments against four major Chinese container manufacturers are the latest in a series of U.S. actions targeting Chinese dominance in logistics infrastructure. Prior measures have included reciprocal port fees and tariffs on China-made port equipment. The indictments allege a global price-fixing conspiracy involving the box manufacturers and multiple executives.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "56badb4dc4f0",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 17,
+      "headline": "Zim reports Q1 loss, with bunker impact expected to worsen in Q2",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://joc.com/article/zim-reports-q1-loss-with-bunker-impact-expected-to-worsen-in-q2-6224739",
+      "summary": "Zim Integrated Shipping Services reported a net loss in the first quarter of 2026, with CEO Eli Glickman citing war-driven oil price increases as a significant drag on results. Glickman warned that bunker fuel costs are expected to weigh more heavily on the company's financials in the second quarter. Zim declined to offer earnings guidance, citing the pending merger with Hapag-Lloyd.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "f21383e6e953",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 19,
+      "headline": "Spot rate surge may signal early peak season on trans-Pacific",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://joc.com/article/spot-rate-surge-may-signal-early-peak-season-on-trans-pacific-6224734",
+      "summary": "Trans-Pacific spot and FAK freight rates have surged, with some analysts suggesting the move may indicate an earlier-than-usual peak shipping season. The strength of any peak remains uncertain, with blank sailings, fuel-linked surcharges, and the annual service contract changeover all contributing to upward rate pressure. The underlying demand drivers have not been fully established.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "b2ca0c3e3ce2",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 20,
+      "headline": "Matson reports air-to-ocean freight conversions amid Iran war",
+      "source": "Supply Chain Dive",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.supplychaindive.com/news/matson-reports-air-to-ocean-freight-conversions-amid-iran-war/820506/",
+      "summary": "U.S.-based ocean carrier Matson reported observing a shift in shipper behavior, with customers converting air freight shipments to ocean freight amid the ongoing conflict involving Iran. The carrier linked the trend to disruptions and cost pressures affecting air cargo routing. Matson's comments provide insight into how the Iran conflict is influencing shipper modal decisions.",
+      "category": "logistics",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "125c6695761c",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 1,
+      "headline": "Danone to close plant-based dairy facility in New Jersey",
+      "source": "Supply Chain Dive",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.supplychaindive.com/news/danone-to-close-plant-based-dairy-facility-in-new-jersey/820390/",
+      "summary": "Danone announced plans to close a plant-based dairy manufacturing facility in New Jersey that produces its Silk and So Delicious brands. The closure represents a reduction in the company's North American manufacturing footprint for plant-based products. Danone has not disclosed the number of workers affected or a specific timeline for the shutdown.",
+      "category": "industries",
+      "secondary_categories": [],
+      "id": "2f4ac5efe40a",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 2,
+      "headline": "EU lawmakers back US trade pact with built-in safeguards",
+      "source": "Supply Chain Dive",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://www.supplychaindive.com/news/eu-lawmakers-back-us-trade-pact-with-built-in-safeguards/820749/",
+      "summary": "The European Parliament has voted to support a trade agreement with the United States that includes built-in safeguard mechanisms. The pact is designed to govern tariff and trade flow conditions between the EU and the U.S. Specific terms of the safeguards and the timeline for ratification were not detailed in the available description.",
+      "category": "policy",
+      "secondary_categories": [
+        "economy",
+        "logistics"
+      ],
+      "id": "927395d7bf78",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 3,
+      "headline": "Muted peak season expected as ocean shippers delay contract signing",
+      "source": "Supply Chain Dive",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://www.supplychaindive.com/news/muted-peak-season-expected-as-ocean-shippers-delay-contract-signing/820397/",
+      "summary": "Ocean shippers are delaying the signing of annual contracts amid market uncertainty, contributing to expectations of a muted peak shipping season. The hesitation reflects broader uncertainty about trade volumes and freight rate direction heading into the second half of the year. The delay in contract commitments signals that shippers are opting for flexibility over locked-in rates as conditions remain unpredictable.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "b7aa63b95a1e",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 4,
+      "headline": "Up, up, and (put)away",
+      "source": "DC Velocity",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.dcvelocity.com/material-handling/up-up-and-put-away",
+      "summary": "Warehouses and distribution centers are facing sustained pressure to accommodate growing inventory volumes, more SKUs, higher order counts, and increased shipments. Expanding existing building footprints is not always feasible, prompting operators to explore alternative strategies for capacity growth. The article examines approaches facilities are taking to maximize throughput within constrained physical footprints.",
+      "category": "industries",
+      "secondary_categories": [],
+      "id": "a98ff5f1d58a",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 6,
+      "headline": "Insurance cost increases outpace consumer inflation, trucking industry report shows",
+      "source": "DC Velocity",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://www.dcvelocity.com/editorial/featured/insurance-cost-increases-outpace-consumer-inflation-trucking-industry-report-shows",
+      "summary": "Trucking industry insurance premiums are rising at a rate more than five percentage points above consumer inflation, according to a new report from the American Transportation Research Institute (ATRI). The report, focused on trucking industry costs, highlights insurance as a growing financial burden for carriers. ATRI's data underscores the widening gap between general inflation and sector-specific cost pressures facing motor carriers.",
+      "category": "industries",
+      "secondary_categories": [
+        "economy",
+        "logistics"
+      ],
+      "id": "55de689ad8a4",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 10,
+      "headline": "LA County brings Palisades, Eaton fire recovery efforts under one roof with new agency",
+      "source": "The Real Deal",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://therealdeal.com/la/2026/05/21/new-los-angeles-county-agency-to-centralize-rebuild-work/",
+      "summary": "The Los Angeles County Board of Supervisors voted Tuesday to establish a new agency dedicated to coordinating long-term recovery efforts from the January 2025 Palisades and Eaton fires. The agency is designed to streamline the rebuilding process by consolidating bureaucratic functions that have historically slowed post-disaster reconstruction. The move formalizes the county's recovery apparatus as rebuilding efforts in affected communities continue.",
+      "category": "socal",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "e0f02aff4873",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z",
+      "submarkets": [
+        "los-angeles"
+      ]
+    },
+    {
+      "item_index": 16,
+      "headline": "LA County's post-fire rent gouging ban goes up in smoke",
+      "source": "The Real Deal",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://therealdeal.com/la/2026/05/20/los-angeles-county-rent-gouging-ban-ending-soon/",
+      "summary": "The Los Angeles County Board of Supervisors failed to secure the votes necessary to extend an emergency anti-price gouging ban on rents that was enacted following the January 2025 wildfires. The expiration of the ban will give landlords greater pricing flexibility in a rental market still affected by fire-related displacement. The vote outcome means tenant protections tied to the disaster declaration will lapse.",
+      "category": "socal",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "0f62f526b897",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z",
+      "submarkets": [
+        "los-angeles"
+      ]
+    },
+    {
+      "item_index": 18,
+      "headline": "Onni's $400M loan finds itself in special servicing again",
+      "source": "The Real Deal",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://therealdeal.com/la/2026/05/20/onnis-400-million-loan-in-special-servicing/",
+      "summary": "Onni Group's $408 million loan secured by Wilshire Courtyard has been transferred to special servicing, according to Morningstar Credit. The approximately one-million-square-foot Miracle Mile office complex is located at 5700 to 5750 Wilshire Boulevard in Los Angeles. Onni currently owes approximately $384 million on the loan, and the servicer has been engaged to manage the distressed debt situation.",
+      "category": "socal",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "d10e9bad399d",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z",
+      "submarkets": [
+        "los-angeles"
+      ]
+    },
+    {
+      "headline": "Fed Minutes Show More Officials Warned of Rate-Hike Scenario",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 20, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/fed-minutes-show-more-officials-warning-of-rate-hike-scenario",
+      "summary": "A majority of Federal Reserve officials warned the central bank would likely need to consider raising interest rates if inflation continued to run persistently above their 2% target, according to minutes of the April 28\u201329 FOMC meeting. Many officials called for the Fed to drop its easing bias and signal its next move could be a rate increase. The April meeting featured four dissenting votes \u2014 the most since 1992 \u2014 with three members objecting to language implying future cuts remain the base case. The minutes were released as incoming Fed Chair Kevin Warsh prepares to be sworn in, and markets are now pricing roughly a 39% probability of a rate hike by year-end.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "f43a6bebeab8",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "Bond Yield Spike: What It Means for Economies and Markets",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/bond-yield-spike-what-it-means-for-economies-and-markets",
+      "summary": "A prolonged period of elevated long-term bond yields is ramping up borrowing costs around the world, as investors demand more compensation for holding government debt following the Iran war's ignition of fresh inflation fears. Yields on 30-year US Treasuries have risen above 5% to the highest since 2007, while equivalent UK debt is yielding the most in almost three decades. The rate on 20-year Japanese bonds is the highest since 1996. The global bond selloff reflects compounding concerns over public debt levels, central bank rate paths, and sustained energy-driven inflation.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "060fea1bc5a8",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "Bond Yields Are Rising for Reasons Both Benign and Concerning",
+      "source": "Bloomberg Opinion",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/opinion/articles/2026-05-21/bond-yields-are-rising-for-reasons-both-benign-and-concerning",
+      "summary": "Bloomberg Opinion columnist and former New York Fed President Bill Dudley writes that yields on 10-year Treasury notes have risen nearly half a percentage point to just under 4.70% this week \u2014 the highest since January 2025. Dudley identifies three cyclical drivers: stronger-than-anticipated economic growth, sustained consumer spending despite energy and tariff shocks, and a surge in business investment led by AI infrastructure buildout. Expectations for monetary policy have shifted from rate cuts to potential increases, with prevailing market wisdom now pointing toward tightening rather than easing.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "bab2c04a05f2",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "Stock Market Today: Dow, S&P Live Updates for May 21",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/asian-stocks-to-rise-as-nvidia-whipsaws-on-results-markets-wrap",
+      "summary": "A US\u2013Iran standoff over key peace deal terms lifted oil prices on May 21, dragging down stocks and bonds on concern that a prolonged Strait of Hormuz closure could worsen energy disruptions and fuel inflation. While Tehran said the latest Washington proposal had partly bridged the gap between the two sides, a report that Iran plans to retain its near-weapons-grade uranium was seen as a potential setback. The S&P 500 erased its week-to-date gain, and US crude topped $101 per barrel, driving Treasury yields higher on fears the Fed will be forced to raise rates.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "f967e4d625ea",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "Repeat After Me, Stocks Are Not an Effective Inflation Hedge",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/repeat-after-me-stocks-are-not-an-effective-inflation-hedge",
+      "summary": "Bloomberg analysis reports that investors are piling into equities even as they anticipate rising inflation, a strategy Bloomberg argues is likely to backfire. Inflation is described as resurgent as the energy shock from the Iran war ripples through the global economy. The net percentage of respondents in Bank of America's Fund Manager Survey expecting higher inflation is back at its highest level since the pandemic. The piece urges investors to refocus on real economic quantities rather than nominal equity values.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "1f719b5d6a99",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "Latest Oil Market News and Analysis for May 21",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 20, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/latest-oil-market-news-and-analysis-for-may-21",
+      "summary": "Oil prices inched higher after plummeting on Wednesday, as President Trump said the US is in the \"final stages\" of negotiations with Iran. Brent crude was above $105 per barrel after sliding 5.6% the prior session, while West Texas Intermediate traded near $99. Trump's comments to reporters stoked hopes for a deal between Washington and Tehran that would see a near-term restart of energy flows through the Strait of Hormuz. Price volatility is directly tied to the status of peace negotiations and their potential effect on global oil supply.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "81bff65ce04a",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "Euro-Area Output Falls Sharply, Raising Risks for Growth and Inflation",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/eurozone-pmi",
+      "summary": "Business activity in the euro area shrank at the quickest pace in 2\u00bd years in May, adding to fears that the Iran war and accompanying surge in energy costs are dealing a severe blow to the economy. The Composite Purchasing Managers' Index compiled by S&P Global fell to 47.5 in May from 48.8 in April, holding below the 50-point expansion threshold for a second consecutive month. Bloomberg survey analysts had anticipated an unchanged reading. The sharper-than-expected contraction compounds inflation concerns and raises questions about the ECB's monetary policy path.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "d640401586ac",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "ICE Raids Did Lasting Damage to American Businesses",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/features/2026-05-21/ice-raids-inflicted-lasting-economic-damage-in-charlotte-data-show",
+      "summary": "Bloomberg's data-driven investigation finds that foot traffic and sales in a Charlotte, North Carolina immigrant business corridor remain depressed six months after the Department of Homeland Security's Operation Charlotte's Web deportation raids in November 2025. The analysis documents measurable, persistent economic decline in a one-mile stretch of Central Avenue filled with immigrant-owned businesses. The report is part of Bloomberg's broader coverage of the microeconomic consequences of federal immigration enforcement for bellwether firms. The findings illustrate how enforcement operations are creating lasting demand destruction in specific labor and consumer markets relevant to industrial tenant operating conditions.",
+      "category": "policy",
+      "secondary_categories": [
+        "industries",
+        "economy"
+      ],
+      "id": "b67d4025b71b",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "Anthropic Revenue Surges, Set to Post First Profit",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-first-profit",
+      "summary": "The Wall Street Journal was first to report that Anthropic has told investors it expects Q2 revenue of $10.9 billion \u2014 a 130% increase over Q1's $4.8 billion \u2014 which would surpass the company's total 2025 annual sales. The company projects an operating profit of $559 million for the June quarter, which would mark its first profitable quarter since founding in 2021. The figures were shared with investors as part of an ongoing funding round that could push Anthropic's valuation above OpenAI's. Anthropic does not expect sustained profitability throughout the full year due to substantial upcoming compute infrastructure spending.",
+      "category": "economy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "322c446e7834",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "Walmart Posts Strong Q1 Results But Cautious Guidance Rattles Investors",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/business/retail/walmart-q1-earnings-2026",
+      "summary": "Walmart reported Q1 FY27 net sales of $175.7 billion, topping the $174.8 billion analyst consensus, with e-commerce sales up 26% globally and Walmart U.S. comparable sales growth of 4.1%. The company reported adjusted EPS of $0.66, matching Wall Street forecasts, with net income of $5.33 billion. Executives left full-year FY27 guidance unchanged and warned that persistently high fuel costs \u2014 driven by the U.S.-Iran war's disruption of Strait of Hormuz tanker traffic \u2014 would increasingly pressure store prices and consumer spending in Q2. Walmart's stock fell approximately 7% on the day as investors reacted to the flat guidance and fuel cost warnings.",
+      "category": "socal",
+      "secondary_categories": [
+        "economy",
+        "logistics"
+      ],
+      "id": "fa3d13b1f261_loc",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "industries"
+    },
+    {
+      "headline": "Walmart Posts Strong Q1 Results But Cautious Guidance Rattles Investors",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/business/retail/walmart-q1-earnings-2026",
+      "summary": "Walmart reported Q1 FY27 net sales of $175.7 billion, topping the $174.8 billion analyst consensus, with e-commerce sales up 26% globally and Walmart U.S. comparable sales growth of 4.1%. The company reported adjusted EPS of $0.66, matching Wall Street forecasts, with net income of $5.33 billion. Executives left full-year FY27 guidance unchanged and warned that persistently high fuel costs \u2014 driven by the U.S.-Iran war's disruption of Strait of Hormuz tanker traffic \u2014 would increasingly pressure store prices and consumer spending in Q2. Walmart's stock fell approximately 7% on the day as investors reacted to the flat guidance and fuel cost warnings.",
+      "category": "industries",
+      "secondary_categories": [
+        "economy",
+        "logistics"
+      ],
+      "id": "fa3d13b1f261",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "SpaceX Is Aiming to Go Public on June 12, Setting the Stage for What Is Expected to Be the Biggest IPO of All Time",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/finance/stocks/spacex-ipo-june-12-nasdaq",
+      "summary": "The Wall Street Journal reported that SpaceX is targeting a June 12 Nasdaq listing under the ticker SPCX, with pricing expected June 11 and a formal roadshow beginning June 4. The company is seeking to raise approximately $75 billion at a valuation of roughly $1.75 trillion, which would make it the largest IPO on record, surpassing Saudi Aramco's 2019 debut. Goldman Sachs is leading the offering alongside Morgan Stanley, Bank of America, Citigroup, and JPMorgan. The S-1 prospectus, filed with the SEC in April, discloses combined SpaceX-xAI 2025 revenue of $18.67 billion following SpaceX's all-stock acquisition of xAI in February 2026.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "2e3cb253717f",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "West Marine Files for Chapter 11 Bankruptcy, Plans to Rationalize Its Store Footprint",
+      "source": "Wall Street Journal (WSJ Pro Bankruptcy)",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/pro/bankruptcy/west-marine-chapter-11",
+      "summary": "West Marine, the largest U.S. boating and marine supplies retailer, filed for Chapter 11 bankruptcy in the U.S. Bankruptcy Court for the District of Delaware on May 17, 2026. The company secured a Restructuring Support Agreement backed by 96.2% of its term loan lenders, 100% of its FILO lenders, and 93.9% of equity holders, with secured lenders also committing to new exit financing. West Marine's approximately 200 retail locations across 34 states and Puerto Rico will remain open during the restructuring, with the company stating it intends to 'optimize operations and rationalize its footprint.' The company's largest unsecured creditor is Garmin International at $8.57 million, followed by distribution logistics company Virtual Supply Inc. at $5.8 million. Portage Point Partners is serving as investment banker.",
+      "category": "industries",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "21065ecbf67c",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "CoStar World News for May 21",
+      "source": "CoStar",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.costar.com/article/1607588676/costar-world-news-for-may-21",
+      "summary": "CoStar's daily international news digest for May 21 covers global CRE investment trends. French non-traded REIT fundraising increased 10% year-over-year to \u20ac1.2 billion in Q1 2026, with diversified funds accounting for 72% of inflows; logistics and industrial captured 3% of total investment inflows. The roundup also includes German residential debt issuance, Toronto investment market data showing a $3.4 billion year-over-year gain in aggregate investment volume, and retail market analysis from a JLL report presented at ICSC's Las Vegas conference.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "1ef8bc907c7a",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "How The Wonderful Logistics Center Is Transforming California's Central Valley",
+      "source": "BisNow",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://www.bisnow.com/los-angeles/news/industrial/wonderful-logistics-center-wonderful-real-estate-studiob-134481",
+      "summary": "The Wonderful Company's Wonderful Logistics Center in Shafter, California is a 2,000-acre, fully entitled and master-planned logistics development featuring more than 17 million square feet of space currently in operation, with over 10,000 careers created since opening. Wonderful Real Estate, a division of The Wonderful Company, is developing three business parks totaling 1,865 acres in California's Central Valley, with multiple properties already leased or purchased by Fortune 500 companies. The article notes the U.S. industrial market posted 40 million square feet of net absorption in Q1 2026, its best quarterly result in three years, with tenants increasingly seeking newer warehouse products capable of supporting automation, AI systems, and higher power requirements. The article was produced in collaboration with BisNow's Studio B content studio.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "327d7f42eb6d",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "US-China Tariff Rates: Where Things Stand as of May 20, 2026",
+      "source": "China Briefing (Dezan Shira & Associates)",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://www.china-briefing.com/news/us-china-tariff-rates-2025/",
+      "summary": "China and the US appear to have agreed on terms for restoration of US tariffs on Chinese goods through Section 301 investigations, following the Trump-Xi summit in Beijing, though no extension to the one-year trade truce through November 2026 has been finalized. US Treasury Secretary Scott Bessent told Reuters on May 19 that he believes China will accept restoration of prior tariff rates 'as long as they don't go higher,' with the two Section 301 investigations set to conclude this summer. The effective tariff rate on many Chinese goods shipped to the US remains close to 30%, still the highest of any country, reflecting a 15% global tariff in effect since February 24, 2026 plus surviving Section 232 and Section 301 duties. Section 301 tariff exclusions for 178 products have been extended until November 10, 2026.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics",
+        "economy"
+      ],
+      "id": "78f4805334b0",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "headline": "Motor Carriers Game Out USMCA Futures Ahead of July 1 Deadline",
+      "source": "Transport Topics",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.ttnews.com/articles/decision-nears-usmca-review",
+      "summary": "Motor carriers across North America are adjusting investment and network decisions as the US-Mexico-Canada Agreement enters its first mandatory review ahead of a July 1 milestone, with initial US-Mexico talks starting the week of May 25. Carriers say prolonged uncertainty, not border disruption, risks chilling investment and capacity planning in an already fragile freight market. The three countries must decide by July 1 whether to extend USMCA for 16 years or begin annual reviews that could lead to expiration by 2036. TFI International Chairman Alain B\u00e9dard told analysts the uncertainty is too high to make major capital commitments until the agreement's future is clarified.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "e74e707cc7e6",
+      "added_at": "2026-05-21T18:35:56.594775Z",
+      "timestamp": "2026-05-21T18:35:56.594775Z"
     }
   ],
   "settings": {
