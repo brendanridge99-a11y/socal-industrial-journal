@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T18:35:56.669290Z",
+  "last_updated": "2026-05-21T23:45:38.558844Z",
   "articles": [
     {
       "item_index": 1,
@@ -1627,6 +1627,210 @@
       "id": "e74e707cc7e6",
       "added_at": "2026-05-21T18:35:56.594775Z",
       "timestamp": "2026-05-21T18:35:56.594775Z"
+    },
+    {
+      "item_index": 1,
+      "headline": "AAR slams \"hypocrisy\" as Trump-backed rail safety measure is included in transportation funding bill",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/aar-slams-hypocrisy-as-trump-backed-rail-safety-measure-is-included-in-transportation-funding-bill",
+      "summary": "The Association of American Railroads has criticized the inclusion of the Railway Safety Act in surface transportation funding legislation, calling the move hypocritical. The bill, which railroads have long opposed, gained traction after receiving backing from President Trump. The AAR's objection centers on the legislation being attached to broader surface transportation funding measures.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "ce88a664c018",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "item_index": 2,
+      "headline": "Broker liability ruling: Carriers, brokers, analysts weigh in",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/broker-liability-ruling-carriers-brokers-analysts-weigh-in",
+      "summary": "Industry participants are weighing in on the Supreme Court's landmark ruling on freight broker liability, with analysts and carriers largely viewing asset-based carriers as the primary beneficiaries. The ruling drew responses from brokers, carriers, and analysts across the freight industry. The decision is expected to reshape liability responsibilities within the freight brokerage sector.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "56a04e4a6623",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "item_index": 3,
+      "headline": "Georgia ports volumes hit by higher costs, softer market",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/georgia-ports-volumes-hit-by-higher-costs-softer-market",
+      "summary": "The Georgia Ports Authority reported that the Port of Savannah's latest container volume figures reflected the impact of higher operating costs and a softer market environment. The authority attributed the weaker results directly to those two factors in its release of the figures. The Port of Savannah is one of the largest container ports in the United States.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "f3901021ce54",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "item_index": 6,
+      "headline": "Walmart credits fast delivery, third-party marketplace for revenue gains",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/walmart-credits-fast-delivery-third-party-marketplace-for-revenue-gains",
+      "summary": "Walmart reported a 26% gain in e-commerce sales during the first quarter, attributing the growth to faster delivery speeds enabled by its supply chain system and expansion of its third-party marketplace. The retailer said increased delivery convenience was a key driver of the online sales performance. Walmart's logistics infrastructure has been a central component of its strategy to compete in the e-commerce sector.",
+      "category": "socal",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "112f18526953_loc",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "industries"
+    },
+    {
+      "item_index": 6,
+      "headline": "Walmart credits fast delivery, third-party marketplace for revenue gains",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/walmart-credits-fast-delivery-third-party-marketplace-for-revenue-gains",
+      "summary": "Walmart reported a 26% gain in e-commerce sales during the first quarter, attributing the growth to faster delivery speeds enabled by its supply chain system and expansion of its third-party marketplace. The retailer said increased delivery convenience was a key driver of the online sales performance. Walmart's logistics infrastructure has been a central component of its strategy to compete in the e-commerce sector.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "112f18526953",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "item_index": 11,
+      "headline": "ILWU chief slams 'foreign shipping companies' ahead of contract expiration",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://joc.com/article/ilwu-chief-slams-foreign-shipping-companies-ahead-of-contract-expiration-6225469",
+      "summary": "International Longshore and Warehouse Union President Bobby Olvera delivered a speech criticizing foreign shipping companies ahead of the ILWU's longshore contract expiration in 2028. Olvera's remarks were characterized as a warning shot directed at employers and cargo owners. The speech signals potential labor tension at West Coast ports as the contract deadline approaches.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "331aa16e31c7",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "item_index": 12,
+      "headline": "'Dummy permits' could overcome last-mile snafus for project cargoes",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://joc.com/article/dummy-permits-could-overcome-last-mile-snafus-for-project-cargoes-6225300",
+      "summary": "Project shippers in the U.S. are being encouraged to use so-called \"dummy permits\" to test bridge strength and state permitting feasibility up to a year before major cargo moves. The approach is intended to help shippers identify and resolve last-mile transportation obstacles in advance of actual shipments. The strategy addresses ongoing challenges in routing heavy or oversized project cargo through domestic infrastructure.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "0e8523bd46f0",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "item_index": 16,
+      "headline": "AvalonBay, Equity Residential Merging to Form $69B Multifamily Giant",
+      "source": "Commercial Observer",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://commercialobserver.com/2026/05/avalonbay-equity-residential-merge-multifamily/",
+      "summary": "AvalonBay Communities and Equity Residential announced a merger that will create a combined entity with a total enterprise value of approximately $69 billion, making it one of the largest real estate companies in the United States. The two firms rank among the country's largest multifamily owners. The combined company will hold a substantial national apartment portfolio spanning multiple major markets.",
+      "category": "economy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "b8e97305af4d",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "headline": "Treasury Yields Fall as Hopes Rise for End to US-Iran War",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/treasuries-erase-drop-on-signs-of-progress-toward-ending-war",
+      "summary": "US government bonds reversed an earlier decline to post gains as oil retreated on hopes that an agreement to end the US-Iran war will be reached soon. Treasury yields across maturities fell as much as three basis points intraday, with the 10-year note yield approaching 4.55% and extending its decline from a recent high above 4.68% \u2014 the highest since January 2025. The move tracked a drop in crude oil prices tied to diplomatic signals on a potential Strait of Hormuz reopening.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "47d97c66f4aa",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "headline": "War Weighs on Global Growth With Inflation Worries Intensifying",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/war-weighs-on-global-growth-with-inflation-worries-intensifying",
+      "summary": "The global economy is showing signs of waning momentum and mounting inflation pressures during its third month of a war-induced energy crunch. Purchasing manager surveys from Australia to Europe pointed to an intensifying ordeal for manufacturing and services companies in May. Factory activity as measured by S&P Global either slowed or contracted across all indexes released on Thursday, with the exception of the UK.",
+      "category": "economy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "0d9730e7b2af",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "headline": "Rising Recession Risk on Shut Strait of Hormuz: Evening Briefing Americas",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-21/rising-recession-risk-on-shut-strait-of-hormuz-evening-briefing-americas",
+      "summary": "Energy consultancy Rapidan Energy Group warned that continued closure of the Strait of Hormuz through summer raises the risk of a recession that may rival the global financial crisis. It has been nearly three months since the start of the Iran war and concomitant blockage of the strait, with energy prices spiking globally. Rapidan's warning centers on the August deadline as a critical threshold for when market conditions could deteriorate sharply.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "b3b0bb560504",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "headline": "AvalonBay, Equity Residential Said to Near Mega-REIT Tie Up",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/avalonbay-equity-residential-said-to-near-mega-reit-tie-up",
+      "summary": "AvalonBay Communities Inc. and Equity Residential are nearing a deal that would combine two of the largest apartment REITs by market value, according to people familiar with the matter. The terms under discussion would provide 2.793 shares of Equity Residential common stock \u2014 which closed Wednesday at $66.28 per share \u2014 for each share of AvalonBay stock. A transaction could be announced as soon as Thursday, according to the sources, who asked not to be identified as the information is confidential.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "ceb07e02f754",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "headline": "5 Manufacturers Announcing New US Production Facilities",
+      "source": "IndustryWeek",
+      "source_type": "free",
+      "date": "May 19, 2026",
+      "url": "https://www.industryweek.com/leadership/companies-executives/news/55378792/5-manufacturers-announcing-new-us-production-facilities",
+      "summary": "IndustryWeek compiled five recent U.S. manufacturing facility announcements, including Novartis confirming a new 56,200-square-foot active pharmaceutical ingredients facility in Morrisville, North Carolina, as part of its $23 billion U.S. manufacturing investment commitment. Whirlpool Corp. announced a $60 million investment to convert an existing Perrysburg, Ohio building\u2014previously used for solar panel manufacturing\u2014into its 11th U.S. factory, expected to produce appliance components and create 100 to 150 jobs. Additional manufacturers with new domestic facility investments were also profiled in the roundup, reflecting the ongoing trend of companies broadening U.S. production footprints.",
+      "category": "industries",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "7e980a7f62d5",
+      "added_at": "2026-05-21T23:45:38.532405Z",
+      "timestamp": "2026-05-21T23:45:38.532405Z"
     }
   ],
   "settings": {

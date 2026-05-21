@@ -74,5 +74,17 @@
   "cluster_05e6a91a4c06_56badb4dc4f0": {
     "headline": "DOJ Indicts Four Chinese Container Makers on Price-Fixing Charges",
     "summary": "The U.S. Department of Justice has indicted four major Chinese shipping container manufacturers and seven individual executives on charges of participating in a global price-fixing conspiracy. The indictments target some of the world's largest box manufacturers, though specific company names were not disclosed in available reporting. The action is part of a broader series of U.S. measures targeting Chinese dominance in logistics infrastructure, which has also included reciprocal port fees and tariffs on China-made port equipment."
+  },
+  "cluster_112f18526953_loc_fa3d13b1f261_loc": {
+    "headline": "Walmart Q1 Sales Hit $175.7B as E-Commerce Surges 26%",
+    "summary": "Walmart reported first-quarter FY27 net sales of $175.7 billion, exceeding the $174.8 billion analyst consensus, with adjusted EPS of $0.66 and net income of $5.33 billion. U.S. comparable sales grew 4.1%, while global e-commerce sales rose 26%, driven by faster delivery speeds and expansion of its third-party marketplace. The company left full-year FY27 guidance unchanged but warned that high fuel costs tied to Strait of Hormuz disruptions would pressure store prices and consumer spending in Q2. Walmart shares fell approximately 7% following the cautious outlook."
+  },
+  "cluster_112f18526953_fa3d13b1f261": {
+    "headline": "Walmart Q1 Sales Hit $175.7B as E-Commerce Surges 26%",
+    "summary": "Walmart reported Q1 FY27 net sales of $175.7 billion, exceeding the $174.8 billion analyst consensus, with adjusted EPS of $0.66 and net income of $5.33 billion. U.S. comparable sales grew 4.1%, while global e-commerce sales rose 26%, driven by faster delivery speeds and expansion of its third-party marketplace. The company left full-year FY27 guidance unchanged but warned that fuel costs tied to Strait of Hormuz disruptions would pressure store prices and consumer spending in Q2. Walmart shares fell approximately 7% following the cautious outlook."
+  },
+  "cluster_b8e97305af4d_ceb07e02f754": {
+    "headline": "AvalonBay and Equity Residential Merge to Form $69B Apartment REIT",
+    "summary": "AvalonBay Communities and Equity Residential announced a merger to create a combined entity with a total enterprise value of approximately $69 billion. Under the terms discussed, Equity Residential would issue 2.793 shares of its common stock for each share of AvalonBay stock; Equity Residential shares closed at $66.28 prior to the announcement. The combined company would rank among the largest real estate firms in the United States, holding a substantial national apartment portfolio across multiple major markets. The deal was expected to be announced as soon as Thursday, according to sources familiar with the matter."
   }
 }
