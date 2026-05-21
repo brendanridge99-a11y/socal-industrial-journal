@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-21T20:00:56.115Z",
+  "harvested_at": "2026-05-21T22:00:56.117Z",
   "elapsed_seconds": 2.1,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 81,
+  "articles_count": 75,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -15,7 +15,7 @@
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 7,
+      "count": 5,
       "total": 40,
       "error": null
     },
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 30,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 16,
+      "count": 13,
       "total": 17,
       "error": null
     },
@@ -117,6 +117,20 @@
     }
   ],
   "articles": [
+    {
+      "headline": "AAR slams “hypocrisy” as Trump-backed rail safety measure is included in transportation funding bill",
+      "url": "https://www.freightwaves.com/news/aar-slams-hypocrisy-as-trump-backed-rail-safety-measure-is-included-in-transportation-funding-bill",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 20:23:30 +0000",
+      "description": "The Railway Safety Act opposed by railroads rode Trump’s backing to be included in surface transportation funding legislation. The post AAR slams “hypocrisy” as Trump-backed rail safety measure is included in transportation funding bill appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Broker liability ruling: Carriers, brokers, analysts weigh in",
+      "url": "https://www.freightwaves.com/news/broker-liability-ruling-carriers-brokers-analysts-weigh-in",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 20:09:16 +0000",
+      "description": "Industry participants say asset-based carriers are likely the winners following the Supreme Court’s landmark ruling on freight broker liability. The post Broker liability ruling: Carriers, brokers, analysts weigh in appeared first on FreightWaves ."
+    },
     {
       "headline": "Georgia ports volumes hit by higher costs, softer market",
       "url": "https://www.freightwaves.com/news/georgia-ports-volumes-hit-by-higher-costs-softer-market",
@@ -195,18 +209,11 @@
       "description": "A Freightliner Cascadia operated by Amritsar Trans Inc., a five-truck carrier out of Manteca, California, rear-ended three vehicles on Highway 99 near Lodi on May 19, 2026, killing two young men. The driver fled on foot. The carrier sits inside a web of 267 carriers clustered across residential addr"
     },
     {
-      "headline": "Rail on a roll as ag, metals, chemicals lead traffic",
-      "url": "https://www.freightwaves.com/news/rail-on-a-roll-as-ag-metals-chemicals-lead-traffic",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 19:33:06 +0000",
-      "description": "Rail freight posted another positive week as seven out of 10 categories improved from a year ago. The post Rail on a roll as ag, metals, chemicals lead traffic appeared first on FreightWaves ."
-    },
-    {
-      "headline": "79 ELDs revoked since January. 12 more just hit the list.",
-      "url": "https://www.freightwaves.com/news/79-elds-revoked-since-january-12-more-just-hit-the-list",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 18:08:58 +0000",
-      "description": "FMCSA removed 12 more electronic logging devices from the registry today, bringing the total to 79 revocations since January 2025. The registered list is bleeding devices faster than the market is adding them. At this rate, the agency may be building a de facto third-party certification standard wit"
+      "headline": "NY-NJ maritime industry honors ILA’s McNamara",
+      "url": "https://joc.com/article/ny-nj-maritime-industry-honors-ilas-mcnamara-6225458",
+      "source": "Journal of Commerce",
+      "raw_date": "Thu, 21 May 2026 20:09:18 GMT",
+      "description": "James McNamara who joined the union as it faced tumult from containerization persisted at his job over four decades to help shape the modern International Longshoremen’s Association."
     },
     {
       "headline": "ILWU chief slams ‘foreign shipping companies’ ahead of contract expiration",
@@ -237,25 +244,11 @@
       "description": "The Shanghai-based carrier has launched two new services connecting Asia to the Middle East as the Persian Gulf trade corridor presents strong green shoots of capacity demand amid ongoing mainline service disruptions."
     },
     {
-      "headline": "US move against container makers is latest entry in logistics battle with China",
-      "url": "https://joc.com/article/us-move-against-container-makers-is-latest-entry-in-logistics-battle-with-china-6224758",
-      "source": "Journal of Commerce",
-      "raw_date": "Wed, 20 May 2026 19:32:14 GMT",
-      "description": "Justice Department indictments against four of the world’s biggest box manufacturers follow reciprocal port fees and tariffs on China-made port equipment."
-    },
-    {
-      "headline": "Zim reports Q1 loss, with bunker impact expected to worsen in Q2",
-      "url": "https://joc.com/article/zim-reports-q1-loss-with-bunker-impact-expected-to-worsen-in-q2-6224739",
-      "source": "Journal of Commerce",
-      "raw_date": "Wed, 20 May 2026 18:38:14 GMT",
-      "description": "CEO Eli Glickman did not offer earnings guidance due to the pending merger with Hapag-Lloyd, but said the war-driven surge in oil prices will likely drag Zim’s results down further in the second quarter."
-    },
-    {
-      "headline": "UK government scraps proposed fuel duty increase in relief move for truckers",
-      "url": "https://joc.com/article/uk-government-scraps-proposed-fuel-duty-increase-in-relief-move-for-truckers-6224735",
-      "source": "Journal of Commerce",
-      "raw_date": "Wed, 20 May 2026 18:07:14 GMT",
-      "description": "The decision comes as wholesale diesel prices in Britain have increased 40% in the last month and logistics businesses are finding it difficult to manage ever-increasing cost pressures."
+      "headline": "Procurement leaders urge incremental AI adoption to avoid heavy spend",
+      "url": "https://www.supplychaindive.com/news/procurement-leaders-urge-incremental-ai-adoption-to-avoid-heavy-spend/820557/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Thu, 21 May 2026 16:26:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/m1zh0M4MYgWSBh0OjRTFSNLgYb_7z_GKRhCFffFAlqg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMDM3MC5qcGVn.webp\"/></div></figure><p>Managing the cost of using AI rests on starting low-risk pilots and scaling the technology slo"
     },
     {
       "headline": "Matson reports air-to-ocean freight conversions amid Iran war",
@@ -270,13 +263,6 @@
       "source": "Supply Chain Dive",
       "raw_date": "Thu, 21 May 2026 08:46:00 -0400",
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/vFSPShZASlHDPFQtLpczBXgeJNh4BAShx1lsi69DB5o/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01NDUzMzE5NzYuanBn.webp\"/></div></figure><p>The Silk and So Delicious manufacturer said 114 workers will be laid off and p"
-    },
-    {
-      "headline": "EU lawmakers back US trade pact with built-in safeguards",
-      "url": "https://www.supplychaindive.com/news/eu-lawmakers-back-us-trade-pact-with-built-in-safeguards/820749/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Wed, 20 May 2026 15:53:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/J8unAr-aTmBy0eK9_x-loJ1SbBfLamZ_3c8oI8TXcgA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjI2NjA0Njc2LmpwZw==.webp\"/></div></figure><p>The European Parliament and EU Council agreed to eliminate tariffs on U.S."
     },
     {
       "headline": "Up, up, and (put)away",
@@ -314,11 +300,25 @@
       "description": "Artificial intelligence (AI) agents hold strong promise for helping logistics professionals make better decisions by analyzing massive data sets at lighting speed, but one thing slowing the spread of the technology is that many people are not willing to blindly trust its results. To address user ske"
     },
     {
-      "headline": "Olympic goalie shares team-building lessons",
-      "url": "https://www.dcvelocity.com/supply-chain/other-services/supply-chain-strategy/olympic-goalie-shares-team-building-lessons",
-      "source": "DC Velocity",
-      "raw_date": "Wed, 20 May 2026 19:59:04 +0000",
-      "description": "As a member of the “Miracle on Ice” hockey team that defied expectations by beating their mighty Russian rivals to score Olympic gold medals in 1980, Jim Craig has learned some critical lessons about the mindset required to meet difficult goals. And many of those lessons can be adopted for other pur"
+      "headline": "LA city’s top construction permits: Week ending 5/17/26",
+      "url": "https://therealdeal.com/la/2026/05/21/los-angeles-top-construction-permits-5-17-26/",
+      "source": "The Real Deal",
+      "raw_date": "Thu, 21 May 2026 21:36:49 +0000",
+      "description": "🏆 The largest new development to receive permits last week was in Woodland Hills, where plans were filed to build a 275,710-square-foot multifamily affordable housing project at 6745 North Independence Avenue. The $50.5 million project will feature 395 apartments and stand six stories tall. The dev"
+    },
+    {
+      "headline": "Dauntless does it again: Pasadena hotel fetches $450k per key",
+      "url": "https://therealdeal.com/la/2026/05/21/dauntless-capital-partners-sells-pasadena-hotel/",
+      "source": "The Real Deal",
+      "raw_date": "Thu, 21 May 2026 21:00:00 +0000",
+      "description": "Dauntless Capital Partners sold a hotel in Old Town Pasadena for $65 million, or about $451,000 a room, The Real Deal has learned. The buyer is little-known David Lee of Cornerstone Hotel Group, a hospitality management company that has begun to accumulate a portfolio of properties as owner-operator"
+    },
+    {
+      "headline": "Pasadena median home price blows past new state record: CAR",
+      "url": "https://therealdeal.com/la/2026/05/21/median-home-price-in-pasadena-remains-lofty/",
+      "source": "The Real Deal",
+      "raw_date": "Thu, 21 May 2026 20:11:43 +0000",
+      "description": "California just hit a new home price record, but Pasadena has been living in that reality for a while. The statewide median home price climbed to $914,810 in April, Pasadena Now reported, citing new data from the California Association of Realtors. At the same time, Pasadena’s median sale price reac"
     },
     {
       "headline": "LA County brings Palisades, Eaton fire recovery efforts under one roof with new agency",
@@ -363,25 +363,18 @@
       "description": "President Donald Trump said he’d like to see Spencer Pratt “do well” in the election as Los Angeles’ mayoral race heats up. The president is the latest to offer support for Pratt, who has garnered notable real estate donors in his time campaigning for Los Angeles mayor. Compass&#8217; Tracy Tutor, l"
     },
     {
-      "headline": "LA County’s post-fire rent gouging ban goes up in smoke",
-      "url": "https://therealdeal.com/la/2026/05/20/los-angeles-county-rent-gouging-ban-ending-soon/",
-      "source": "The Real Deal",
-      "raw_date": "Wed, 20 May 2026 20:00:00 +0000",
-      "description": "Los Angeles County landlords will soon get more pricing power in a rental market still reeling from the January 2025 fires. On Tuesday, the Los Angeles County Board of Supervisors fell short of the necessary votes to extend emergency anti-price gouging protections that capped rent increases after th"
+      "headline": "Top CBRE Researcher Ebere Anokute: E-Commerce’s Impact Is ‘Overblown’",
+      "url": "https://commercialobserver.com/2026/05/cbre-retail-ebere-anokute-e-commerce-icsc/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 21:55:47 +0000",
+      "description": "It’s difficult enough to pinpoint where commercial real estate sits in a cycle with macroeconomics, inflation, interest rates and employment trends all moving at once, and often in different directions. Retail makes that read even more complicated, with changes to population migration, shifting cons"
     },
     {
-      "headline": "Film producer Joe Roth nabs quick close on $21M Beverly Hills mid-century modern",
-      "url": "https://therealdeal.com/la/2026/05/20/joe-roth-sells-off-beverly-hills-mid-century-modern/",
-      "source": "The Real Deal",
-      "raw_date": "Wed, 20 May 2026 19:51:18 +0000",
-      "description": "It was a quick close for big-shot film producer Joe Roth and his Beverly Hills pad. Roth’s now former home at 713 North Hillcrest Road led last week’s homes to go into contract in Los Angeles County, with its nearly $22 million asking price, according to the Eklund Weekly Luxury Report Los Angeles. "
-    },
-    {
-      "headline": "Onni’s $400M loan finds itself in special servicing again",
-      "url": "https://therealdeal.com/la/2026/05/20/onnis-400-million-loan-in-special-servicing/",
-      "source": "The Real Deal",
-      "raw_date": "Wed, 20 May 2026 19:00:32 +0000",
-      "description": "Onni Group’s $408 million loan on Wilshire Courtyard is in special servicing, according to Morningstar Credit. Onni owes about $384 million on the around 1-million-square-foot Miracle Mile office complex at 5700 to 5750 Wilshire Boulevard. Servicer commentary dated early May noted the loan moved due"
+      "headline": "Gersh Autism Academy Signs 21K-SF Bronx Sublease at 425 College Avenue",
+      "url": "https://commercialobserver.com/2026/05/gersh-autism-academy-sublease-bronx-425-college-avenue/",
+      "source": "Commercial Observer",
+      "raw_date": "Thu, 21 May 2026 20:11:37 +0000",
+      "description": "A nonprofit organization for autistic children is taking over the lease for a charter school in the Bronx, Commercial Observer has learned. Gersh Autism Academy subleased the 21,000‑square‑foot building at 452 College Avenue in Mott Haven from Brilla Schools parent company Seton Education Partners, "
     },
     {
       "headline": "Design Firm GKV Architects Signs 6K-SF Lease at AmTrustRE’s 360 Lexington Avenue",
@@ -440,11 +433,11 @@
       "description": "JLL has promoted Angela Gentry, an industry leader with over 20 years of experience, to vice chairman of leasing advisory for the firm’s New York tri-state region, Commercial Observer has learned. Gentry joined JLL in 2022, filling a role that was created specifically for her: executive managing dir"
     },
     {
-      "headline": "AvalonBay, Equity Residential Merge to Form $69B Multifamily Giant",
+      "headline": "AvalonBay, Equity Residential Merging to Form $69B Multifamily Giant",
       "url": "https://commercialobserver.com/2026/05/avalonbay-equity-residential-merge-multifamily/",
       "source": "Commercial Observer",
       "raw_date": "Thu, 21 May 2026 13:03:00 +0000",
-      "description": "AvalonBay and Equity Residential, two of the largest multifamily owners in the U.S., have merged to form one of the country’s largest real estate companies with a total enterprise value of roughly $69 billion, the companies announced Thursday. Once the all-stock merger is complete, the multifamily b"
+      "description": "AvalonBay and Equity Residential, two of the largest multifamily owners in the U.S., are merging to form one of the country’s largest real estate companies with a total enterprise value of roughly $69 billion, the companies announced Thursday. Once the all-stock merger is complete, the multifamily b"
     },
     {
       "headline": "State of California Secures 20K-SF Office at 1180 Avenue of the Americas",
@@ -461,39 +454,18 @@
       "description": "The Shirley Aninias School (SAS), a private special education program for children, has signed the largest lease to date at a Financial District office building. SAS, which was founded in 2022 and provides academics and therapies for neurodiverse students ages 4 to 13, inked a 15-year deal for 23,00"
     },
     {
-      "headline": "Trump Administration Selects Development Team for $8B Penn Station Rebuild",
-      "url": "https://commercialobserver.com/2026/05/penn-station-trump-8b-halmar-redevelopment/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 19:40:35 +0000",
-      "description": "At an $8 billion price tag, the Trump administration has a mostly formed plan to revamp Pennsylvania Station that keeps Madison Square Garden in place. Amtrak and the U.S. Department of Transportation (USDOT) announced Wednesday after a Senate hearing that it had selected a master developer entity c"
+      "headline": "L.A. City Council approves $15-billion budget, clearing the way to hire 510 police officers",
+      "url": "https://www.latimes.com/california/story/2026-05-21/la-council-backs-15-billion-budget-hiring-510-officers",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 21:35:04 GMT",
+      "description": "City Councilmember Traci Park cast the lone opposing vote, saying the plan shortchanges the fire department and cuts the number of homeless encampment cleanups in her coastal district."
     },
     {
-      "headline": "CBRE’s Scott Schnuckel On Why Retail Is Back in Favor",
-      "url": "https://commercialobserver.com/2026/05/icsc-cbre-scott-schnuckel-retail/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 18:45:28 +0000",
-      "description": "Confidence in retail real estate was in the air at ICSC Las Vegas this week, thanks in part to lower vacancy rates and record-low construction. CBRE’s latest data shows U.S. retail availability at 4.9 percent in the first quarter after three straight quarters of positive absorption. Commercial Obser"
-    },
-    {
-      "headline": "Build-to-Rent Investors Catch a Break in U.S. House Bill",
-      "url": "https://commercialobserver.com/2026/05/build-to-rent-housing-affordability-bill/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 18:44:05 +0000",
-      "description": "The U.S. House of Representatives approved a revised bipartisan housing affordability bill Wednesday. The final version addressed commercial real estate concerns about restrictions to build-to-rent (BTR) projects in the initial legislation. The amended House version of the 21st Century ROAD to Housi"
-    },
-    {
-      "headline": "Axiom Retail’s Lea Clay Park On Flattening Rents, Filling Shuttered Drugstores",
-      "url": "https://commercialobserver.com/2026/05/icsc-axiom-retail-lea-clay-park/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 18:35:32 +0000",
-      "description": "Retail real estate was palpably confident at ICSC Las Vegas thanks to scarce space, limited construction and steady tenant demand. Nationally, CoStar warned that low availability is now the sector’s modus operandi rather than a temporary post-pandemic trend. Southern California landlords are in a pa"
-    },
-    {
-      "headline": "Law Firm Jones Jones Signs 5K-SF Lease at 44 Wall Street",
-      "url": "https://commercialobserver.com/2026/05/jones-jones-lease-44-wall-street/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 18:16:09 +0000",
-      "description": "Employment litigation firm Jones Jones is relocating within Manhattan’s Financial District. The tenant signed a 10-year, nine-month lease spanning 5,311 square feet on part of the seventh floor of Gaedeke Group’s 44 Wall Street, according to tenant broker Lee &#38; Associates NYC. Lee &#38; Associat"
+      "headline": "Scientists bet on AI to save gray whales from ship strikes off California coast",
+      "url": "https://www.latimes.com/california/story/2026-05-21/ai-gray-whale-ship-strikes",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 21:03:26 GMT",
+      "description": "Scientists are using thermal cameras and AI technology to track and locate gray whales off the coast to warn nearby ships."
     },
     {
       "headline": "Multiple wildfires trigger unhealthful air quality alert in Southern California",
@@ -510,13 +482,6 @@
       "description": "Immigrant detainees are on a hunger strike to call attention to complaints about medical neglect, mold, dirty water and a reduction of food rations."
     },
     {
-      "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
-      "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
-    },
-    {
       "headline": "This L.A. bookstore is leading a revolt against &#x27;greedy landlords&#x27;",
       "url": "https://www.latimes.com/entertainment-arts/books/story/2026-05-21/read-books-eagle-rock-rent-hike-protests",
       "source": "Los Angeles Times",
@@ -524,11 +489,11 @@
       "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
     },
     {
-      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
-      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
+      "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
+      "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
+      "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
     },
     {
       "headline": "Arellano: Steve Hilton and Spencer Pratt need Latinos, not Trump",
@@ -538,6 +503,13 @@
       "description": "With less than two weeks before the primary election, Steve Hilton is leading in the polls for governor, and Los Angeles mayoral hopeful Spencer Pratt is making the city's progressive class sweat."
     },
     {
+      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
+      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
+    },
+    {
       "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
       "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
       "source": "Los Angeles Times",
@@ -545,18 +517,18 @@
       "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
     },
     {
-      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
-      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
-    },
-    {
       "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
       "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
       "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working-class character by investment capital. Now, some investors are welcomed for building what the community needs."
+    },
+    {
+      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
+      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
     },
     {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
@@ -601,25 +573,11 @@
       "description": "Raman is weighing in on an issue that has defined her two rivals: Pratt, whose home burned in the Palisades fire, and Bass, whose handling of the disaster has become a liability."
     },
     {
-      "headline": "4-year-old found dead in vehicle in Valley Village",
+      "headline": "4-year-old girl found dead in vehicle in Valley Village",
       "url": "https://www.latimes.com/california/story/2026-05-20/4-year-old-found-dead-in-vehicle-in-valley-village",
       "source": "Los Angeles Times",
       "raw_date": "Wed, 20 May 2026 20:08:56 GMT",
       "description": "The Los Angeles Police Department is investigating the death of a 4-year-old girl who was apparently left inside a hot vehicle in Valley Village."
-    },
-    {
-      "headline": "California doctor ran nation&#x27;s &#x27;largest Botox fraud scheme,&#x27; filing $45 million in claims for lush lifestyle",
-      "url": "https://www.latimes.com/california/story/2026-05-20/california-doctor-ran-nations-largest-botox-fraud-scheme-filing-45-million-in-claims-for-lush-lifestyle",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 19:26:37 GMT",
-      "description": "Prosecutors allege the Glendale-based doctor submitted more than $45 million in fraudulent Medicare claims for Botox injections, using the payments to fund a lavish lifestyle."
-    },
-    {
-      "headline": "Containment grows on Sandy fire, other SoCal blazes. But shifting winds pose challenge",
-      "url": "https://www.latimes.com/california/story/2026-05-20/socal-fire-containment-acres",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 18:03:33 GMT",
-      "description": "The Sandy fire, one of several wildfires burning in Southern California this week, was 15% contained Wednesday morning."
     },
     {
       "headline": "After AI layoffs, Newsom orders state government to find ways to ease the pain",
