@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-21T18:00:55.942Z",
-  "elapsed_seconds": 1.9,
+  "harvested_at": "2026-05-21T20:00:56.115Z",
+  "elapsed_seconds": 2.1,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 82,
+  "articles_count": 81,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 12,
+      "count": 13,
       "total": 50,
       "error": null
     },
@@ -22,7 +22,7 @@
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 4,
+      "count": 3,
       "total": 10,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 17,
+      "count": 16,
       "total": 17,
       "error": null
     },
@@ -84,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 19,
+      "count": 18,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 6,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -117,6 +117,41 @@
     }
   ],
   "articles": [
+    {
+      "headline": "Georgia ports volumes hit by higher costs, softer market",
+      "url": "https://www.freightwaves.com/news/georgia-ports-volumes-hit-by-higher-costs-softer-market",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 19:46:33 +0000",
+      "description": "The Georgia Ports Authority said higher operating costs and a softer market were reflected in the latest container figures for the Port of Savannah. The post Georgia ports volumes hit by higher costs, softer market appeared first on FreightWaves ."
+    },
+    {
+      "headline": "The Charcoal on That Truck Costs More to Import, More to Buy, and Is Headed to a Cookout That Runs 13% Higher Than Last Year. Here Is What That Tells You About the Consumer Right Now.",
+      "url": "https://www.freightwaves.com/news/the-charcoal-on-that-truck-costs-more-to-import-more-to-buy-and-is-headed-to-a-cookout-that-runs-13-higher-than-last-year-here-is-what-that-tells-you-about-the-consumer-right-now",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 19:35:13 +0000",
+      "description": "Pull up the import data on U.S. charcoal briquette shipments and you are looking at something that some people in trucking would not think to check heading into a holiday weekend. But that data, read against the consumer spending picture for Memorial Day 2026, tells you something specific about the "
+    },
+    {
+      "headline": "Fleetworthy bets on AI, unified data as trucking margins tighten",
+      "url": "https://www.freightwaves.com/news/fleetworthy-bets-on-ai-unified-data-as-trucking-margins-tighten",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 19:23:41 +0000",
+      "description": "Fleetworthy executives recently unveiled a connected platform strategy they say will help fleets reduce operational inefficiencies and leverage AI-driven analytics across trucking operations. The post Fleetworthy bets on AI, unified data as trucking margins tighten appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Walmart credits fast delivery, third-party marketplace for revenue gains",
+      "url": "https://www.freightwaves.com/news/walmart-credits-fast-delivery-third-party-marketplace-for-revenue-gains",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 18:38:09 +0000",
+      "description": "Walmart’s sophisticated supply chain system is allowing it to speed up delivery speeds to customers who order online. The extra convenience was a key factor in the company’s 26% gain in e-commerce sales during the first quarter. The post Walmart credits fast delivery, third-party marketplace for rev"
+    },
+    {
+      "headline": "Freight Fraud Has Gone Corporate",
+      "url": "https://www.freightwaves.com/news/freight-fraud-has-gone-corporate",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 18:33:02 +0000",
+      "description": "Freight fraud incidents are climbing by double digits year over year, and Reliance Partners breaks down how fraud has evolved and what to do about it. The post Freight Fraud Has Gone Corporate appeared first on FreightWaves ."
+    },
     {
       "headline": "UP CEO confident rail merger application checks all the STB’s boxes",
       "url": "https://www.freightwaves.com/news/up-ceo-confident-rail-merger-application-checks-all-the-stbs-boxes",
@@ -174,32 +209,11 @@
       "description": "FMCSA removed 12 more electronic logging devices from the registry today, bringing the total to 79 revocations since January 2025. The registered list is bleeding devices faster than the market is adding them. At this rate, the agency may be building a de facto third-party certification standard wit"
     },
     {
-      "headline": "Fleetworthy debuts connected fleet ecosystem, mobile app at Austin roadshow",
-      "url": "https://www.freightwaves.com/news/fleetworthy-debuts-connected-fleet-ecosystem-mobile-app-at-austin-roadshow",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 17:32:47 +0000",
-      "description": "Fleetworthy introduced a connected fleet management platform and mobile app during its customer roadshow on Tuesday in Austin, Texas. The post Fleetworthy debuts connected fleet ecosystem, mobile app at Austin roadshow appeared first on FreightWaves ."
-    },
-    {
-      "headline": "RXO sees TL spot market surge further in Q2",
-      "url": "https://www.freightwaves.com/news/rxo-sees-tl-spot-market-surge-further-in-q2",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 17:26:50 +0000",
-      "description": "Freight broker RXO is seeing better-than-expected spot market trends in the second quarter. The post RXO sees TL spot market surge further in Q2 appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Formula 1 experiments with freight rail",
-      "url": "https://www.freightwaves.com/news/formula-1-experiments-with-freight-rail",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 17:06:38 +0000",
-      "description": "Global logistics provider DHL provides the logistics support that makes Formula 1 races possible around the world. Traditionally relying on air, ocean and road transport, DHL has now moved the first F1 shipment between race locations by rail. The post Formula 1 experiments with freight rail appeared"
-    },
-    {
-      "headline": "A top FMCSA official faces a post-Montgomery world at Freight Fraud event",
-      "url": "https://www.freightwaves.com/news/a-top-fmcsa-official-faces-a-post-montgomery-world-at-freight-fraud-event",
-      "source": "FreightWaves",
-      "raw_date": "Wed, 20 May 2026 16:34:21 +0000",
-      "description": "Jesse Elison, a top FMCSA official, talked a post-Montgomery world at a Cleveland event. The post A top FMCSA official faces a post-Montgomery world at Freight Fraud event appeared first on FreightWaves ."
+      "headline": "ILWU chief slams ‘foreign shipping companies’ ahead of contract expiration",
+      "url": "https://joc.com/article/ilwu-chief-slams-foreign-shipping-companies-ahead-of-contract-expiration-6225469",
+      "source": "Journal of Commerce",
+      "raw_date": "Thu, 21 May 2026 19:42:17 GMT",
+      "description": "The speech by Bobby Olvera sends a warning shot to employers and cargo owners ahead of the expiration of its longshore contract in 2028."
     },
     {
       "headline": "Evolution of ocean capacity linked to varied dynamics of trade needs",
@@ -244,13 +258,6 @@
       "description": "The decision comes as wholesale diesel prices in Britain have increased 40% in the last month and logistics businesses are finding it difficult to manage ever-increasing cost pressures."
     },
     {
-      "headline": "Spot rate surge may signal early peak season on trans-Pacific",
-      "url": "https://joc.com/article/spot-rate-surge-may-signal-early-peak-season-on-trans-pacific-6224734",
-      "source": "Journal of Commerce",
-      "raw_date": "Wed, 20 May 2026 17:57:15 GMT",
-      "description": "The underlying strength of that peak is unclear, however, with blank sailings, fuel-linked surcharges and a changeover in annual service contracts all putting upward pressure on spot and FAK rates."
-    },
-    {
       "headline": "Matson reports air-to-ocean freight conversions amid Iran war",
       "url": "https://www.supplychaindive.com/news/matson-reports-air-to-ocean-freight-conversions-amid-iran-war/820506/",
       "source": "Supply Chain Dive",
@@ -270,13 +277,6 @@
       "source": "Supply Chain Dive",
       "raw_date": "Wed, 20 May 2026 15:53:00 -0400",
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/J8unAr-aTmBy0eK9_x-loJ1SbBfLamZ_3c8oI8TXcgA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjI2NjA0Njc2LmpwZw==.webp\"/></div></figure><p>The European Parliament and EU Council agreed to eliminate tariffs on U.S."
-    },
-    {
-      "headline": "Muted peak season expected as ocean shippers delay contract signing",
-      "url": "https://www.supplychaindive.com/news/muted-peak-season-expected-as-ocean-shippers-delay-contract-signing/820397/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Wed, 20 May 2026 12:06:42 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/n91zTUxXVsYoAHw6FMcaLfP0imTWJ8TCCYKIf5lZ6NA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjU4NzExNDUxXzEuanBn.webp\"/></div></figure><p>Despite market uncertainty, some shippers like Bob&rsquo;s Discount Furnit"
     },
     {
       "headline": "Up, up, and (put)away",
@@ -496,14 +496,7 @@
       "description": "Employment litigation firm Jones Jones is relocating within Manhattan’s Financial District. The tenant signed a 10-year, nine-month lease spanning 5,311 square feet on part of the seventh floor of Gaedeke Group’s 44 Wall Street, according to tenant broker Lee &#38; Associates NYC. Lee &#38; Associat"
     },
     {
-      "headline": "Law Firm Kirkland &#038; Ellis Grows to 309K SF at Elecor Properties’ 900 Third Avenue",
-      "url": "https://commercialobserver.com/2026/05/kirkland-ellis-lease-expansion-elecor-900-third-avenue/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 17:58:22 +0000",
-      "description": "Less than a year after arriving at 900 Third Avenue, Chicago-based law firm Kirkland &#38; Ellis has upped its footprint once again. The law firm’s 52,089-square-foot expansion at the Midtown East office tower was revealed in Savills’ Wednesday report on law firm leasing in the first quarter of 2026"
-    },
-    {
-      "headline": "Multiple wildfires trigger unhealthy air quality alert in Southern California",
+      "headline": "Multiple wildfires trigger unhealthful air quality alert in Southern California",
       "url": "https://www.latimes.com/california/story/2026-05-21/socal-wildfire-smoke-advisory",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 15:45:23 GMT",
@@ -517,18 +510,18 @@
       "description": "Immigrant detainees are on a hunger strike to call attention to complaints about medical neglect, mold, dirty water and a reduction of food rations."
     },
     {
-      "headline": "This L.A. bookstore is leading a revolt against &#x27;greedy landlords&#x27;",
-      "url": "https://www.latimes.com/entertainment-arts/books/story/2026-05-21/read-books-eagle-rock-rent-hike-protests",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
-    },
-    {
       "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
       "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
       "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
+    },
+    {
+      "headline": "This L.A. bookstore is leading a revolt against &#x27;greedy landlords&#x27;",
+      "url": "https://www.latimes.com/entertainment-arts/books/story/2026-05-21/read-books-eagle-rock-rent-hike-protests",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
     },
     {
       "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
@@ -545,6 +538,13 @@
       "description": "With less than two weeks before the primary election, Steve Hilton is leading in the polls for governor, and Los Angeles mayoral hopeful Spencer Pratt is making the city's progressive class sweat."
     },
     {
+      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
+      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
+    },
+    {
       "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
       "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
       "source": "Los Angeles Times",
@@ -556,14 +556,7 @@
       "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working class character by investment capital. Now, some investors are welcomed for building what the community needs."
-    },
-    {
-      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
-      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
+      "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working-class character by investment capital. Now, some investors are welcomed for building what the community needs."
     },
     {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
@@ -629,11 +622,11 @@
       "description": "The Sandy fire, one of several wildfires burning in Southern California this week, was 15% contained Wednesday morning."
     },
     {
-      "headline": "Santa Monica Pier area among the dirtiest beaches again in new Beach Report Card",
-      "url": "https://www.latimes.com/california/story/2026-05-20/santa-monica-pier-dirtiest-beaches-10th-year-beach-report-card",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 17:00:00 GMT",
-      "description": "Environmental nonprofit Heal the Bay and the city of Santa Monica are teaming up to investigate and find solutions for the pier's poor water quality."
+      "headline": "After AI layoffs, Newsom orders state government to find ways to ease the pain",
+      "url": "https://calmatters.org/economy/technology/2026/05/california-ai-layoffs-order/",
+      "source": "CalMatters",
+      "raw_date": "Thu, 21 May 2026 19:35:00 +0000",
+      "description": "In an AI executive order, the governor called on state officials to study everything from job subsidies to stock compensation policies to mitigate tech-driven layoffs."
     },
     {
       "headline": "They used to battle in CA elections. Now, they back the same candidate",
