@@ -1,229 +1,6 @@
 {
-  "last_updated": "2026-05-22T10:47:01.645465Z",
+  "last_updated": "2026-05-22T18:25:39.205655Z",
   "articles": [
-    {
-      "item_index": 2,
-      "headline": "Everything's coming up roses: Flower wholesaler plants roots in Commerce with $34M acquisition",
-      "source": "The Real Deal",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://therealdeal.com/la/2026/05/18/los-angeles-flower-seller-acquires-commerce-warehouse/",
-      "summary": "Holland Flower Market, a local importer and wholesaler of fresh-cut flowers, acquired a 91,010-square-foot industrial facility at 5555 East [address truncated in feed] in Commerce, California for $34 million. The acquisition represents an expansion of the company's footprint in the Los Angeles industrial corridor. The buyer is described as a local operator deepening its presence in the region with the larger warehouse.",
-      "category": "socal",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "c680d244f8bb",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z",
-      "submarkets": [
-        "los-angeles"
-      ]
-    },
-    {
-      "item_index": 9,
-      "headline": "At the Milken Institute Global Conference",
-      "source": "Los Angeles Business Journal",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://labusinessjournal.com/featured/at-the-milken-institute-global-conference/",
-      "summary": "The Milken Institute held its 29th annual Global Conference in Los Angeles amid persistent global economic volatility. The four-day event drew senior capital markets participants and functioned as a stress test of current economic conditions rather than a celebration of markets. Topics reportedly centered on navigating instability across global financial and business environments.",
-      "category": "socal",
-      "secondary_categories": [],
-      "id": "d48d3268f17e_loc",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z",
-      "submarkets": [
-        "los-angeles"
-      ],
-      "is_overflow": true,
-      "overflow_from": "economy"
-    },
-    {
-      "item_index": 9,
-      "headline": "At the Milken Institute Global Conference",
-      "source": "Los Angeles Business Journal",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://labusinessjournal.com/featured/at-the-milken-institute-global-conference/",
-      "summary": "The Milken Institute held its 29th annual Global Conference in Los Angeles amid persistent global economic volatility. The four-day event drew senior capital markets participants and functioned as a stress test of current economic conditions rather than a celebration of markets. Topics reportedly centered on navigating instability across global financial and business environments.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "d48d3268f17e",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "item_index": 13,
-      "headline": "CBB Folds in Bay-Area Lender",
-      "source": "Los Angeles Business Journal",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://labusinessjournal.com/finance/cbb-folds-in-bay-area-lender/",
-      "summary": "Ontario, California-based Citizens Business Bank completed a merger with Bay Area-based Heritage Bank of Commerce, pushing the regional lender's total assets above $20 billion. The deal represents Citizens Business Bank's largest acquisition to date. The merger extends the bank's geographic footprint into the Bay Area.",
-      "category": "socal",
-      "secondary_categories": [
-        "socal"
-      ],
-      "id": "f4f11b8b40a0_loc",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z",
-      "submarkets": [
-        "inland-empire",
-        "los-angeles"
-      ],
-      "is_overflow": true,
-      "overflow_from": "economy"
-    },
-    {
-      "item_index": 13,
-      "headline": "CBB Folds in Bay-Area Lender",
-      "source": "Los Angeles Business Journal",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://labusinessjournal.com/finance/cbb-folds-in-bay-area-lender/",
-      "summary": "Ontario, California-based Citizens Business Bank completed a merger with Bay Area-based Heritage Bank of Commerce, pushing the regional lender's total assets above $20 billion. The deal represents Citizens Business Bank's largest acquisition to date. The merger extends the bank's geographic footprint into the Bay Area.",
-      "category": "economy",
-      "secondary_categories": [
-        "socal"
-      ],
-      "id": "f4f11b8b40a0",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "headline": "Economic Outlook at Risk of Further Deterioration, OECD Says",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 19, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/economic-outlook-at-risk-of-further-deterioration-oecd-says",
-      "summary": "OECD Secretary General Mathias Cormann, speaking on the sidelines of a Group of Seven meeting, said risks to the global economy have worsened as the conflict in the Middle East drags on. Cormann told Bloomberg Television that the ongoing war is 'putting downward pressure on growth and upward pressure on inflation.' He said the OECD provided an initial assessment in March and will revise it in the coming weeks. The comments came as G7 finance chiefs gathered to address a new economic reality shaped by energy disruption and rising bond yields.",
-      "category": "economy",
-      "secondary_categories": [
-        "policy"
-      ],
-      "id": "5fdbe9c63125",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "headline": "EU Races to Finalize US Trade Deal to Avoid More Trump Tariffs",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 19, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/eu-races-to-finalize-us-trade-deal-to-avoid-more-trump-tariffs",
-      "summary": "European Union officials met Tuesday in an effort to finalize legislation for the bloc's trade deal with the US, with failure to reach agreement risking the EU missing President Trump's July 4 deadline to have the accord in place. Trump previously threatened to hike tariffs on European auto imports to 25% from 15% because the EU had not moved quickly enough to implement the deal, which was signed nearly a year ago. The disagreement threatens to send transatlantic relations to a new low and trigger a fresh round of tariff escalation. The European Commission has said it maintains options to protect the bloc's interests if Trump follows through on the tariff threat.",
-      "category": "policy",
-      "secondary_categories": [
-        "logistics",
-        "economy"
-      ],
-      "id": "e9e15bd9e5b7",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "headline": "Google, Blackstone to Create AI Cloud Company With In-House Chips",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 19, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/google-to-create-ai-cloud-business-with-blackstone-wsj-says",
-      "summary": "Alphabet's Google agreed to create an artificial intelligence cloud business with Blackstone Inc., aiming to compete with companies like CoreWeave in a burgeoning market. The project will rely on an initial $5 billion in equity capital from Blackstone, which will become the majority owner, with the total investment worth $25 billion including leverage. The joint venture will provide data center capacity, operations, networking, and Google Cloud's Tensor Processing Units as a compute-as-a-service offering, with the first 500 megawatts of power expected online by 2027. The venture will be led by Benjamin Treynor Sloss, a veteran Google executive.",
-      "category": "economy",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "01909f5b4326",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "headline": "Trump to Swear In Warsh as Fed Chair on Friday, White House Confirms",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/trump-to-swear-in-warsh-as-fed-chair-on-friday-white-house-says",
-      "summary": "Kevin Warsh will be sworn in as Federal Reserve chair by President Donald Trump on Friday during a ceremony at the White House, a White House official confirmed. Warsh will become the central bank's 17th leader, succeeding Jerome Powell, who has been serving in a temporary capacity after his official term ended last week. The US Senate confirmed Warsh earlier this month on a 54-45 vote, the slimmest confirmation margin ever for a Fed chair. Warsh takes the helm as the Fed faces elevated inflation driven by war-related energy price shocks and rising long-term Treasury yields.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "5e0c2d02f88b",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "headline": "Extended Oil Shock Spells Higher, Sticky Inflation",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-18/extended-oil-shock-spells-higher-sticky-inflation-video",
-      "summary": "Bloomberg Television aired an analysis segment with Yelena Shulyatyeva, Senior US Economist at The Conference Board, examining the implications of a prolonged oil shock for inflation expectations. Shulyatyeva discussed the disconnect between inflation priced into 10-year Treasury yields and near-term market pricing for price rises. The analysis addressed whether elevated inflation is set to persist for an extended period or whether 10-year yields have moved beyond fundamentals. The segment aired as new Federal Reserve Chair Kevin Warsh prepares to take office amid back-to-back hot inflation data.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "8e4c8c009004",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "headline": "Google and Blackstone to Create New AI Cloud Company",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.wsj.com/tech/ai/google-and-blackstone-to-create-new-ai-cloud-company-0e35b91f",
-      "summary": "Google and Blackstone plan to launch a new U.S.-based artificial intelligence cloud company using Google's specialized Tensor Processing Unit (TPU) chips, the Wall Street Journal reported, citing sources. Blackstone, the world's largest alternative asset manager, will contribute an initial $5 billion in equity and hold a majority stake in the unnamed venture. Including leverage, the total investment value is expected to reach $25 billion. The venture aims to compete with companies like CoreWeave, with plans to bring 500 megawatts of data center capacity online in 2027.",
-      "category": "economy",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "5de274517b80",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "headline": "Home Depot Reports Q1 Fiscal 2026 Results; Reaffirms Full-Year Guidance",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 19, 2026",
-      "url": "https://www.wsj.com/business/retail/home-depot-earnings-q1-2026",
-      "summary": "Home Depot reported Q1 fiscal 2026 sales of $41.8 billion, up 4.8% from the same period a year earlier, beating analyst consensus estimates of approximately $41.5 billion. Net earnings were $3.3 billion, or $3.30 per diluted share, compared with $3.4 billion, or $3.45 per diluted share, in Q1 fiscal 2025; adjusted EPS came in at $3.43 versus $3.56 a year prior. Comparable sales increased 0.6% company-wide, with U.S. comps up 0.4%. The company reaffirmed its full-year fiscal 2026 guidance, calling for total sales growth of 2.5% to 4.5% and adjusted EPS growth of up to 4%.",
-      "category": "industries",
-      "secondary_categories": [
-        "economy"
-      ],
-      "id": "9e68fd24fc2b",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "headline": "Treasury Yields Near One-Year Highs as US-Iran Deal Uncertainty Persists",
-      "source": "Wall Street Journal",
-      "source_type": "paywalled",
-      "date": "May 19, 2026",
-      "url": "https://www.wsj.com/markets/bonds/treasury-yields-iran-deal-inflation-2026",
-      "summary": "The yield on the 10-year U.S. Treasury note hovered around 4.6% on Tuesday, pausing near one-year highs as renewed optimism surrounding a potential U.S.-Iran agreement eased some inflation concerns. President Trump said he suspended a planned strike on Iran after appeals from Saudi Arabia, Qatar, and the UAE, citing continued prospects for a deal. The 30-year Treasury bond yield remained elevated near 5.13%, and markets currently expect the Federal Reserve to leave the fed funds rate unchanged through year-end, though the implied probability of an additional 25 basis point rate hike has risen to approximately 40%. Investors are also awaiting the latest FOMC minutes and flash U.S. PMI data for additional clues on monetary policy and economic activity.",
-      "category": "economy",
-      "secondary_categories": [
-        "policy"
-      ],
-      "id": "c634b10642ea",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
-    {
-      "headline": "2026 Strait of Hormuz Crisis \u2014 Wikipedia",
-      "source": "Wikipedia",
-      "source_type": "free",
-      "date": "May 19, 2026",
-      "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
-      "summary": "Major container shipping companies including Maersk, CMA CGM, and Hapag-Lloyd suspended transits through the Strait of Hormuz and related routes including the Red Sea following the U.S.-Israeli conflict with Iran that began February 28. Brent crude oil prices surpassed $100 per barrel on March 8 and peaked at $126 per barrel, representing the largest monthly oil price increase on record. Iran on May 5 established the Persian Gulf Strait Authority to regulate maritime transit, and on May 13 an Indian-flagged cargo ship was struck by a projectile off the coast of Oman, indicating continued hostilities despite a temporary ceasefire. Houthi-controlled Yemen also resumed attacks on Red Sea commercial shipping, rerouting Suez Canal traffic around Africa's Cape of Good Hope.",
-      "category": "logistics",
-      "secondary_categories": [
-        "economy",
-        "policy"
-      ],
-      "id": "2635478d4523",
-      "added_at": "2026-05-19T11:51:29.633435Z",
-      "timestamp": "2026-05-19T11:51:29.633435Z"
-    },
     {
       "item_index": 1,
       "headline": "$217 Million Just Hit the Table for Trucking Safety and CDL Development \u2014 Here's Who Can Apply and What It Means for Your Operation",
@@ -1705,6 +1482,428 @@
       "id": "014f1f660787",
       "added_at": "2026-05-22T10:47:01.611653Z",
       "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "item_index": 1,
+      "headline": "Short line rail hits T&I truck benefits, costly safety mandates",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://www.freightwaves.com/news/short-line-rail-hits-ti-truck-benefits-costly-safety-mandates",
+      "summary": "A short line rail industry trade group responded to new surface transportation legislation, acknowledging some rail-positive provisions while expressing disappointment over inclusions that benefit heavier trucks and impose expensive safety mandates. The group said the truck-favorable measures could disadvantage short line operators competing for freight. The legislation's safety mandates were flagged as particularly costly for smaller rail carriers.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "2e98b2260df5",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 2,
+      "headline": "Sen. Cotton urges DOJ investigation of China-backed parcel carriers",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://www.freightwaves.com/news/sen-cotton-urges-doj-investigation-of-china-backed-parcel-carriers",
+      "summary": "Sen. Tom Cotton (R-AR) has called on the Department of Justice to investigate Chinese-controlled parcel delivery companies operating in the United States. Cotton alleges the companies receive heavy government subsidies that allow them to underprice domestic carriers. He also raised concerns that the firms may be sharing critical U.S. market data with Chinese interests.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics",
+        "industries"
+      ],
+      "id": "a1630d48602a",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 3,
+      "headline": "Saia opens terminals in Pacific Northwest, Midwest",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://www.freightwaves.com/news/saia-opens-terminals-in-pacific-northwest-midwest",
+      "summary": "Less-than-truckload carrier Saia has expanded its national network by opening new service center terminals in Washington state and Indiana. The openings are part of the carrier's ongoing effort to broaden its geographic footprint across the country. Saia did not disclose the specific cities or the capacity of the new facilities.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "1cf40cea2236",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 4,
+      "headline": "Port Houston sees April cargo dip, expects rebound in May",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://www.freightwaves.com/news/port-houston-sees-april-cargo-dip-expects-rebound-in-may",
+      "summary": "Port Houston recorded its first container volume slowdown since early 2025 in April, according to port officials. Executives attributed the dip to broader market conditions but said improving May volumes indicate a quick recovery is underway. The port did not provide specific container volume figures for either month.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "23fbfe7626ec",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 6,
+      "headline": "Robinson Fresh opens border cold-chain hub as Mexico produce imports grow",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://www.freightwaves.com/news/robinson-fresh-opens-border-cold-chain-hub-as-mexico-produce-imports-grow",
+      "summary": "Robinson Fresh has opened a new cold-chain logistics center in South Texas to serve growing produce imports from Mexico. Company executives said the facility is designed to help customers manage increasingly complex cross-border supply chains. The move comes as Mexico produce import volumes have been expanding, increasing demand for temperature-controlled border infrastructure.",
+      "category": "logistics",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "4f0ade6ce84e",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 7,
+      "headline": "ATRI documents big jump in insurance premiums even as providers in the red",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://www.freightwaves.com/news/atri-documents-big-jump-in-insurance-premiums-even-as-providers-in-the-red",
+      "summary": "The American Transportation Research Institute (ATRI) has released a report documenting a significant spike in truck insurance premiums paid by carriers. The report notes the premium increases are occurring even as insurance providers themselves are operating at a loss. ATRI did not specify the exact percentage increase in premiums in the available description.",
+      "category": "industries",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "c670e71b7e74",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 11,
+      "headline": "CMA CGM posts Q1 earnings decline amid volatile ocean trade",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://joc.com/article/cma-cgm-posts-q1-earnings-decline-amid-volatile-ocean-trade-6225849",
+      "summary": "CMA CGM reported a sharp drop in net profit for the first quarter, with financials pressured by ongoing Middle East tensions, rising oil prices, and increasing operating costs. The carrier's results reflect a market roiled by geopolitical instability affecting key trade lanes. CMA CGM did not provide specific net profit figures in the available summary.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "3770b855a140",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 12,
+      "headline": "Demand rising on Asia-Europe ocean trade as July bunker hike looms",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://joc.com/article/demand-rising-on-asia-europe-ocean-trade-as-july-bunker-hike-looms-6225813",
+      "summary": "Volumes on the Asia-Europe ocean trade lane are rising as shippers brace for a significant bunker fuel cost increase set to take effect at the start of the third quarter. Contracts locked in when the Middle East conflict began included quarterly bunker fuel adjustments that carriers are now preparing to pass on to shippers in July. The looming surcharge is adding cost pressure to an already volatile trade environment.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "42756c3072ba",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 13,
+      "headline": "Heavy-lift trade group lobbies USTR for relief from crane, trailer tariffs",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://joc.com/article/heavy-lift-trade-group-lobbies-ustr-for-relief-from-crane-trailer-tariffs-6225790",
+      "summary": "A heavy-lift industry trade group is urging the U.S. Trade Representative to reduce tariffs on imported cranes and trailers, warning that domestic manufacturing capacity cannot be built up fast enough to compensate. Industry stakeholders cited a five-to-seven year lead time to develop domestic crane manufacturing, arguing the tariffs could cripple U.S. heavy-lift operations in the interim. The group did not specify which tariff schedule or rates are the subject of the lobbying effort.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "6f3a8feb1b4e",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 18,
+      "headline": "J&J Snack Foods completes plant consolidation, turns to distribution",
+      "source": "Supply Chain Dive",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://www.supplychaindive.com/news/jj-snack-foods-completes-plant-consolidation-turns-to-distribution/820679/",
+      "summary": "J&J Snack Foods has completed a manufacturing plant consolidation and is now shifting its operational focus toward distribution network improvements. The company did not disclose the specific number of facilities consolidated or the locations affected. The strategic pivot to distribution signals the company's next phase of supply chain optimization following the manufacturing restructuring.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "fcb986dfd5a4",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 20,
+      "headline": "Survey: Port leaders call for $6.7 billion cargo equipment spending",
+      "source": "DC Velocity",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://www.dcvelocity.com/transportation/maritime-ocean/ports/survey-port-leaders-call-for-6-7-billion-cargo-equipment-spending",
+      "summary": "A survey of 25 senior port and terminal executives conducted by the National Association of Waterfront Employers found that U.S. ports require $6.7 billion in cargo equipment investment over the next five years to maintain efficiency and global competitiveness. Port leaders identified aging equipment as a key challenge to operational performance. The survey did not specify how the investment total was distributed across individual ports or equipment categories.",
+      "category": "logistics",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "def14e1c1f36",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "item_index": 10,
+      "headline": "Printing company buys warehouse",
+      "source": "IE Business Daily",
+      "source_type": "free",
+      "date": "May 22, 2026",
+      "url": "https://iebusinessdaily.com/printing-company-buys-warehouse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=printing-company-buys-warehouse",
+      "summary": "InHouse Media Group, a printing company specializing in posters and music-industry art, has purchased an industrial facility in Chino for $3 million. The building, located at 14963 Sierra Bonita Lane near the 71 Freeway, totals 9,200 square feet. The transaction was reported by Progressive Real Estate Partners in Rancho Cucamonga.",
+      "category": "socal",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "ade82d58351f",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z",
+      "submarkets": [
+        "inland-empire",
+        "san-diego"
+      ]
+    },
+    {
+      "headline": "Trump Tells Warsh to Do 'Own Thing' as Fed Chair Sworn In",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 22, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/warsh-to-be-sworn-in-as-fed-chief-during-white-house-ceremony",
+      "summary": "Kevin Warsh was sworn in as the 17th chair of the Federal Reserve on Friday in a White House ceremony, administered by Supreme Court Associate Justice Clarence Thomas. President Trump stressed he wants Warsh to independently lead the Fed, seeking to downplay investor concern over political pressure on monetary policy decisions. Warsh, who has promised the biggest shakeup in decades at the central bank, takes the helm at a tense moment with soaring Treasury yields and persistent inflation driven by the Iran war energy shock. The White House swearing-in ceremony is the first of its kind since Alan Greenspan was sworn in under President Reagan in 1987.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "544f9e4d1cf8",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "Fed's Chris Waller Says Next Move as Likely to Be Interest Rate Hike as Cut",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 22, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/fed-s-waller-says-next-move-as-likely-to-be-rate-hike-as-cut",
+      "summary": "Federal Reserve Governor Christopher Waller said Friday he supports making clear the central bank's next interest-rate move is just as likely to be an increase as a cut, citing the energy shock from the Iran war pushing up prices. Speaking at an economic forum in Germany, Waller said his current position is to be patient in holding rates but warned he would not rule out a future rate hike if inflation does not start to slow soon. Waller called for removing the FOMC's 'easing bias' language from its policy statement, stating 'inflation is not headed in the right direction' with the Fed's preferred inflation measure hitting 3.8% in April. His comments amplify the challenge facing incoming Fed Chair Kevin Warsh, who was sworn in just hours later.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "5650c36586c3",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "Traders Bet Fed Under Warsh Will Hike Rates by December",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 22, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/traders-bet-fed-under-warsh-will-hike-rates-by-end-of-this-year",
+      "summary": "Bond traders are now fully pricing in an interest-rate hike by the Federal Reserve this year, marking the first time such an outcome has been completely priced into interest-rate swaps. Traders boosted bets for higher rates on Friday after Fed Governor Christopher Waller said the central bank's next rate move is just as likely to be an increase as a cut. Interest-rate swaps imply the market sees the Fed's benchmark rate at least 25 basis points higher by end of 2026. The market shift occurred on the same day Kevin Warsh was sworn in as Fed Chair at the White House.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "e91d86cc4ead",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "Stock Market Today: Dow, S&P Live Updates for May 22 \u2014 Iran Deal Hopes, Two-Year Yields Hit Highest Since February 2025",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 22, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/asian-stocks-to-rise-on-optimism-over-iran-talks-markets-wrap",
+      "summary": "Hopes for a US-Iran deal turning a fragile ceasefire into lasting peace fueled Wall Street optimism on Friday, driving stocks toward their longest streak of weekly gains since 2023. The S&P 500 was set for an eighth straight week of gains following an 18% surge from war-fueled lows. Two-year Treasury yields hit their highest level since February 2025 after Fed Governor Christopher Waller supported making clear the next rate move is just as likely to be a raise as a cut. Money markets fully priced in a rate hike by December, and US oil hovered near $96 in a volatile session.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "7b042d240e9a",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "China Restricts Chemical Exports to US in Fentanyl Crackdown",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 22, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/china-restricts-chemical-exports-to-us-in-fentanyl-crackdown",
+      "summary": "China imposed new export controls on key chemical ingredients shipped to the US, Mexico, and Canada, framing the move as cooperation with Washington on curbing drug trafficking. Five government agencies now require special export licenses for three newly restricted compounds, according to an official announcement Friday. The targeted substances are primary building blocks used to manufacture illicit fentanyl. The restrictions signal continued evolution in US-China trade and regulatory coordination following the broader tariff truce.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "d94f4a5dd0bc",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "China Will Have Rare Earths Leverage Over the US for a Long Time",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 22, 2026",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-22/china-will-have-rare-earths-leverage-over-the-us-for-a-long-time",
+      "summary": "Beijing's grip over the rare earths industry will persist for years, heavily influencing US-China ties and presenting long-term supply chain vulnerabilities for US manufacturers. The newsletter, written from Beijing, examines how China's dominance in rare earth refining and production continues to constrain Western industrial and defense supply chains despite significant new investment outside China. The report is subscriber-only and was published May 22, 2026.",
+      "category": "policy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "ef2a05b93a46",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "China Launches Major Crackdown on Cross-Border Stock Trading",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 22, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/china-cracks-down-on-illegal-cross-border-securities-trading",
+      "summary": "China launched an unprecedented campaign against illegal cross-border securities trading, threatening severe penalties against popular brokers and ordering non-compliant accounts to be liquidated within two years. Eight regulators issued a joint statement after onshore markets closed Friday, vowing a campaign against these trades, which sent US-listed Chinese stocks tumbling. The crackdown is aimed at stemming capital outflows from China. The action represents a significant escalation of China's controls over cross-border capital flows.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "78ead33ddbb3",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "Saudi Wealth Fund Weighs Logistics Merger to Attract Global Investment",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/saudi-1-trillion-wealth-fund-weighs-creating-a-logistics-giant",
+      "summary": "Saudi Arabia's Public Investment Fund is considering consolidating its transport and supply-chain assets \u2014 including ports, rail, and shipping \u2014 into a single logistics entity to attract foreign investment and better serve the kingdom's trade hubs amid the Iran war disruption. The PIF has held early-stage talks on combining parts of its portfolio including the $8.3 billion National Shipping Company of Saudi Arabia and Saudi Global Ports, according to people familiar with the matter. The enlarged firm could evolve into a vehicle for multibillion-dollar investments and potentially include an IPO to bring in international investors. Discussions gained urgency after the ongoing closure of the Strait of Hormuz exposed vulnerabilities in Middle Eastern supply chains.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "658b25484cc1",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "Gulf States Tell Ships Not to Use Iran's Strait of Hormuz Route",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/gulf-states-tell-ships-not-to-use-iran-s-strait-of-hormuz-route",
+      "summary": "Five Middle Eastern countries \u2014 Bahrain, Kuwait, Qatar, Saudi Arabia, and the United Arab Emirates \u2014 formally rejected Iran's establishment of the Persian Gulf Strait Authority to control transit through the Strait of Hormuz. In a letter to the International Maritime Organization distributed earlier this week, the five nations said commercial and merchant vessels should not engage with the PGSA or cross the waterway using Iran's designated route. The joint statement escalates the ongoing standoff over the strategically vital waterway, which has been largely closed to commercial shipping since the US-Israeli military campaign against Iran began on February 28. The letter signals a hardening of Gulf state opposition to Iran's claimed maritime authority.",
+      "category": "logistics",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "33b828c5f793",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "Kevin Warsh Sworn In as Federal Reserve Chair at White House Ceremony",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 22, 2026",
+      "url": "https://www.wsj.com/economy/central-banking/kevin-warsh-federal-reserve-chair-sworn-in",
+      "summary": "Kevin Warsh was sworn in as the 17th chair of the Federal Reserve at a White House ceremony on May 22, replacing Jerome Powell. President Trump stressed he wants Warsh to independently lead the central bank, seeking to downplay investor concern about political pressure on policy decisions. Warsh was confirmed by the Senate 55-45 on May 13 and has promised what he calls the biggest shakeup in decades at the Fed. Markets are pricing in a 97.2% chance of a rate hold at Warsh's first FOMC meeting, with rate cuts widely considered off the table amid persistent inflation driven by elevated oil prices.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "0494c320ec10",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "What's Behind the Dangerous Brew for Bonds",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/economy/what-dangerous-brew-bonds-greg-ip",
+      "summary": "WSJ chief economics commentator Greg Ip warned of a dangerous fundamental shift brewing in the bond market, tied to the combination of rising Treasury yields, elevated oil prices, and growing fiscal concerns surrounding the 'Big Beautiful' tax bill. The 30-year Treasury yield recently topped 5.19%, the highest level since 2007, while the 10-year yield rose to 4.62%. A weak 20-year Treasury auction showed demand at its lowest since February, with investors demanding higher yields to compensate for lending to the U.S. government. The FOMC's April minutes, released May 20, showed a majority of Fed officials warning that rate hikes may be necessary if inflation remains persistently above the 2% target.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "9b311d044779",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "Walmart Posts Strong Q1 FY27 Results but Distribution Fuel Costs Weigh on Operating Income",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/business/retail/walmart-earnings-q1-fy27-results",
+      "summary": "Walmart reported Q1 FY27 results on May 21, 2026, with U.S. comparable sales growing 4.1% and global e-commerce up 26%, but operating income was negatively affected by 250 basis points from higher fuel costs in distribution and fulfillment. The company issued Q2 FY27 guidance for net sales growth of 4% to 5% and adjusted operating income growth of 7% to 10% in constant currency, with adjusted EPS of $0.72 to $0.74. Walmart's full-year fiscal 2027 outlook remained unchanged from prior guidance. The company noted its investments in supply chain automation across U.S. distribution centers continue to scale.",
+      "category": "socal",
+      "secondary_categories": [
+        "logistics",
+        "economy"
+      ],
+      "id": "d19e22ae6623_loc",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "industries"
+    },
+    {
+      "headline": "Walmart Posts Strong Q1 FY27 Results but Distribution Fuel Costs Weigh on Operating Income",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/business/retail/walmart-earnings-q1-fy27-results",
+      "summary": "Walmart reported Q1 FY27 results on May 21, 2026, with U.S. comparable sales growing 4.1% and global e-commerce up 26%, but operating income was negatively affected by 250 basis points from higher fuel costs in distribution and fulfillment. The company issued Q2 FY27 guidance for net sales growth of 4% to 5% and adjusted operating income growth of 7% to 10% in constant currency, with adjusted EPS of $0.72 to $0.74. Walmart's full-year fiscal 2027 outlook remained unchanged from prior guidance. The company noted its investments in supply chain automation across U.S. distribution centers continue to scale.",
+      "category": "industries",
+      "secondary_categories": [
+        "logistics",
+        "economy"
+      ],
+      "id": "d19e22ae6623",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "April FOMC Minutes Show Officials Warned Rate Hike May Be Needed Amid Persistent Inflation",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 20, 2026",
+      "url": "https://www.wsj.com/economy/central-banking/fomc-minutes-april-2026-rate-hike-inflation",
+      "summary": "Minutes from the Federal Reserve's April 29 FOMC meeting, released May 20, showed that a majority of officials warned the central bank would likely need to consider raising interest rates if inflation continued to run persistently above the 2% target. The 8-4 vote to hold rates at 3.5%\u20133.75% marked the greatest internal dissent since October 1992, with four officials dissenting. Many participants called for the Fed to drop its easing bias, signaling that the next move could be a rate increase rather than a cut. The Fed cited elevated inflation driven in part by higher global energy prices linked to the Strait of Hormuz crisis as a key risk factor.",
+      "category": "economy",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "a1de7f1cfc34",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "West Marine Files for Chapter 11 Bankruptcy in Delaware Court",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/pro/bankruptcy/west-marine-chapter-11-bankruptcy-filing",
+      "summary": "West Marine, the largest boating and marine supplies retailer in the United States, filed for Chapter 11 bankruptcy protection on May 17 in the U.S. Bankruptcy Court for the District of Delaware. The pre-arranged restructuring is backed by a Restructuring Support Agreement with 96.2% of term loan lenders, 100% of FILO lenders, and 93.9% of equity holders. The company's approximately 200 retail locations across 34 states and Puerto Rico remain open, with West Marine securing consensual use of cash collateral and new exit financing commitments from secured lenders. The filing follows a leveraged buyout debt load from a 2017 acquisition and ongoing trading difficulties through 2025 and into 2026.",
+      "category": "industries",
+      "secondary_categories": [],
+      "id": "26670ad0169e",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
+    },
+    {
+      "headline": "AvalonBay and Equity Residential Agree to Merger, Creating $52 Billion Multifamily Giant",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com/real-estate/avalon-bay-equity-residential-merger",
+      "summary": "Apartment owners AvalonBay Communities and Equity Residential announced an all-stock merger of equals on May 20, 2026, creating a combined entity with a pro forma equity market capitalization of approximately $52 billion and an enterprise value of approximately $69 billion. The combined company will hold more than 180,000 rental apartments, with AvalonBay shareholders owning just over 51% of the combined entity. Both boards unanimously approved the merger agreement, and the combined company will operate under a new name to be announced prior to closing. Morgan Stanley and Centerview Partners advised Equity Residential, while the combined entity will be one of the largest multifamily REITs in the country.",
+      "category": "economy",
+      "secondary_categories": [],
+      "id": "f649ede1c449",
+      "added_at": "2026-05-22T18:25:39.156954Z",
+      "timestamp": "2026-05-22T18:25:39.156954Z"
     }
   ],
   "settings": {
