@@ -1,8 +1,8 @@
 {
-  "harvested_at": "2026-05-22T14:00:51.720Z",
-  "elapsed_seconds": 3.7,
+  "harvested_at": "2026-05-22T16:00:53.365Z",
+  "elapsed_seconds": 2.7,
   "feeds_attempted": 16,
-  "feeds_successful": 15,
+  "feeds_successful": 14,
   "articles_count": 75,
   "feed_status": [
     {
@@ -15,14 +15,14 @@
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 6,
+      "count": 7,
       "total": 40,
       "error": null
     },
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 3,
+      "count": 4,
       "total": 10,
       "error": null
     },
@@ -70,10 +70,9 @@
     },
     {
       "source": "Propmodo",
-      "success": true,
+      "success": false,
       "count": 0,
-      "total": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "source": "Modern Materials Handling",
@@ -84,14 +83,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 13,
+      "count": 14,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 7,
+      "count": 6,
       "total": 10,
       "error": null
     },
@@ -105,7 +104,7 @@
     {
       "source": "San Diego Business Journal",
       "success": true,
-      "count": 5,
+      "count": 3,
       "total": 10,
       "error": null
     },
@@ -118,6 +117,20 @@
     }
   ],
   "articles": [
+    {
+      "headline": "Sen. Cotton urges DOJ investigation of China-backed parcel carriers",
+      "url": "https://www.freightwaves.com/news/sen-cotton-urges-doj-investigation-of-china-backed-parcel-carriers",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 15:27:40 +0000",
+      "description": "Sen. Tom Cotton of Arkansas is calling for an investigation into Chinese-controlled parcel delivery companies in the U.S., saying they receive heavy subsidies that allow them to underprice domestic carriers and could be sharing critical U.S. market data with the Chinese government. The post Sen. Cot"
+    },
+    {
+      "headline": "Saia opens terminals in Pacific Northwest, Midwest",
+      "url": "https://www.freightwaves.com/news/saia-opens-terminals-in-pacific-northwest-midwest",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 14:58:08 +0000",
+      "description": "Less-than-truckload carrier Saia adds to its national footprint, opening new service centers in Washington and Indiana. The post Saia opens terminals in Pacific Northwest, Midwest appeared first on FreightWaves ."
+    },
     {
       "headline": "Port Houston sees April cargo dip, expects rebound in May",
       "url": "https://www.freightwaves.com/news/port-houston-sees-april-cargo-dip-expects-rebound-in-may",
@@ -231,18 +244,18 @@
       "description": "Target has made it a strategic priority to improve supply chain operations so it can avoid out-of-stock situations and reduce costs. The post Target moves to elevate supply chain operations, inventory reliability appeared first on FreightWaves ."
     },
     {
-      "headline": "OmniTrax tabs Hoskins to lead transload",
-      "url": "https://www.freightwaves.com/news/omnitrax-tabs-hoskins-to-lead-transload",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 13:57:53 +0000",
-      "description": "OmniTRAX appoints VP of transload to lead its network-wide expansion. The post OmniTrax tabs Hoskins to lead transload appeared first on FreightWaves ."
+      "headline": "Demand rising on Asia-Europe ocean trade as July bunker hike looms",
+      "url": "https://joc.com/article/demand-rising-on-asia-europe-ocean-trade-as-july-bunker-hike-looms-6225813",
+      "source": "Journal of Commerce",
+      "raw_date": "Fri, 22 May 2026 15:03:14 GMT",
+      "description": "Volumes under contract when the Middle East war began were locked into quarterly bunker fuel adjustments, and those costs are set to be passed on to shippers at the start of the third quarter."
     },
     {
-      "headline": "DoJ indicts Chinese container makers on price-fixing charges",
-      "url": "https://www.freightwaves.com/news/doj-indicts-chinese-container-makers-on-price-fixing-charges",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 12:12:25 +0000",
-      "description": "The U.S. Justice Department has indicted four major Chinese shipping container manufacturers and seven executives in a global price-fixing conspiracy. The post DoJ indicts Chinese container makers on price-fixing charges appeared first on FreightWaves ."
+      "headline": "Heavy-lift trade group lobbies USTR for relief from crane, trailer tariffs",
+      "url": "https://joc.com/article/heavy-lift-trade-group-lobbies-ustr-for-relief-from-crane-trailer-tariffs-6225790",
+      "source": "Journal of Commerce",
+      "raw_date": "Fri, 22 May 2026 14:12:17 GMT",
+      "description": "A lead time of five to seven years to build up domestic crane manufacturing capacity could cripple the US heavy-lift industry if tariffs on imported products are not reduced, industry stakeholders say."
     },
     {
       "headline": "Peter Tirschwell leaves enduring legacy on Journal of Commerce",
@@ -280,11 +293,18 @@
       "description": "Project shippers in the US are being encouraged to test the robustness of bridge strength and state permitting feasibility up to a year in advance of major cargo moves."
     },
     {
-      "headline": "CU Lines’ network expansion gives fresh capacity influx into Middle East trades",
-      "url": "https://joc.com/article/cu-lines-network-expansion-gives-fresh-capacity-influx-into-middle-east-trades-6225202",
-      "source": "Journal of Commerce",
-      "raw_date": "Thu, 21 May 2026 13:10:16 GMT",
-      "description": "The Shanghai-based carrier has launched two new services connecting Asia to the Middle East as the Persian Gulf trade corridor presents strong green shoots of capacity demand amid ongoing mainline service disruptions."
+      "headline": "What Mattress Firm gained from contactless delivery",
+      "url": "https://www.supplychaindive.com/news/what-mattress-firm-gained-from-contactless-delivery/820809/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Fri, 22 May 2026 11:35:00 -0400",
+      "description": "<p>The shipping option has added customer flexibility and freed up drivers&rsquo; time, despite early hurdles, executives said at Home Delivery World 2026.</p>"
+    },
+    {
+      "headline": "Albertsons launches AI-powered produce inspection tool",
+      "url": "https://www.supplychaindive.com/news/albertsons-launches-ai-powered-produce-inspection-tool/820378/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Fri, 22 May 2026 11:03:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/S1FcF_BdOkcGNNc_YDlClKrze8rPiACrzmj3__O8W5U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BSS1Qb3dlcmVkX0ludGVsbGlnZW50X1F1YWxpdHlfQ29udHJvbF9Ub29sXzEuanBn.webp\"/></div></figure><p>The technology supports the grocer&#39;s quali"
     },
     {
       "headline": "Procurement leaders urge incremental AI adoption to avoid heavy spend",
@@ -301,13 +321,6 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/kGEQkjwd2YGOHpA2SmN-KteVWK5VQp8nJR8GBFDb4IE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTg4NTA0MjIyLmpwZw==.webp\"/></div></figure><p>The U.S.-based ocean carrier benefited from elevated freight costs and red"
     },
     {
-      "headline": "Danone to close plant-based dairy facility in New Jersey",
-      "url": "https://www.supplychaindive.com/news/danone-to-close-plant-based-dairy-facility-in-new-jersey/820390/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Thu, 21 May 2026 08:46:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/vFSPShZASlHDPFQtLpczBXgeJNh4BAShx1lsi69DB5o/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01NDUzMzE5NzYuanBn.webp\"/></div></figure><p>The Silk and So Delicious manufacturer said 114 workers will be laid off and p"
-    },
-    {
       "headline": "Up, up, and (put)away",
       "url": "https://www.dcvelocity.com/material-handling/up-up-and-put-away",
       "source": "DC Velocity",
@@ -319,7 +332,7 @@
       "url": "https://therealdeal.com/la/2026/05/21/office-conversion-new-apartments-coming-to-westwood/",
       "source": "The Real Deal",
       "raw_date": "Thu, 21 May 2026 22:45:00 +0000",
-      "description": "Douglas Emmett’s housing plans for the corner of Wilshire and Westwood Boulevards are coming into focus.&#160; On Wednesday, the Santa Monica-based real estate investment trust filed an application with the City of Los Angeles to convert a 17-story, approximately 247,000-square-foot high-rise at 109"
+      "description": "Douglas Emmett’s housing plans for the corner of Wilshire and Westwood Boulevards are coming into focus.&#160; On Wednesday, the Santa Monica-based real estate investment trust filed an application with the City of Los Angeles to convert the 17-story, approximately 247,000-square-foot high-rise at 1"
     },
     {
       "headline": "LA city’s top construction permits: Week ending 5/17/26",
@@ -355,6 +368,20 @@
       "source": "The Real Deal",
       "raw_date": "Thu, 21 May 2026 16:25:06 +0000",
       "description": "Aaron Kirman’s Christie’s International Real Estate Southern California is testing the breadth of demand for coastal condo living, with the brokerage zeroing in on locals previously priced out of the market and international buyers as prospects for the recently opened Privé Malibu. Kirman, along wit"
+    },
+    {
+      "headline": "Peachtree Group Provides $32M Construction Loan for Alabama Hotel",
+      "url": "https://commercialobserver.com/2026/05/peachtree-group-huntsville-alabama-marriott-hotel/",
+      "source": "Commercial Observer",
+      "raw_date": "Fri, 22 May 2026 15:36:50 +0000",
+      "description": "Spandrel Development Partners has sealed $32.36 million of construction financing to develop a Marriott-branded hotel in Huntsville, Ala., Commercial Observer has learned. Peachtree Group originated the three-year loan with two 12-month extension options for the developer’s planned 154-room AC Hotel"
+    },
+    {
+      "headline": "NYC Developers File Plans for 21M SF of New Construction in Q1: REBNY",
+      "url": "https://commercialobserver.com/2026/05/nyc-developers-building-construction-q1-rebny/",
+      "source": "Commercial Observer",
+      "raw_date": "Fri, 22 May 2026 15:36:12 +0000",
+      "description": "It’s been a busy start to 2026 for New York City developers, as they filed 577 new building filings in the first quarter of 2026, representing a 74 percent increase from the same period last year, according to the latest research from the Real Estate Board of New York (REBNY). The 577 new building f"
     },
     {
       "headline": "The Definition of ‘Jobs’ in the Data Center Economy Needs to Shift",
@@ -434,25 +461,11 @@
       "description": "A joint venture between Klein Development and MOS R.E. has sealed $114 million of U.S. Department of Housing and Urban Development (HUD)-backed debt for the conversion of a Milwaukee office tower into luxury apartments, Commercial Observer has learned. Dwight Capital closed the HUD 221(d)(4) substan"
     },
     {
-      "headline": "JLL Promotes Angela Gentry to New York-Area Vice Chairman of Leasing",
-      "url": "https://commercialobserver.com/2026/05/jll-promotes-angela-gentry-new-york-vice-chairman-leasing/",
-      "source": "Commercial Observer",
-      "raw_date": "Thu, 21 May 2026 13:17:14 +0000",
-      "description": "JLL has promoted Angela Gentry, an industry leader with over 20 years of experience, to vice chairman of leasing advisory for the firm’s New York tri-state region, Commercial Observer has learned. Gentry joined JLL in 2022, filling a role that was created specifically for her: executive managing dir"
-    },
-    {
-      "headline": "AvalonBay, Equity Residential Merging to Form $69B Multifamily Giant",
-      "url": "https://commercialobserver.com/2026/05/avalonbay-equity-residential-merge-multifamily/",
-      "source": "Commercial Observer",
-      "raw_date": "Thu, 21 May 2026 13:03:00 +0000",
-      "description": "AvalonBay and Equity Residential, two of the largest multifamily owners in the U.S., are merging to form one of the country’s largest real estate companies with a total enterprise value of roughly $69 billion, the companies announced Thursday. Once the all-stock merger is complete, the multifamily b"
-    },
-    {
-      "headline": "More &#x27;rough sleepers&#x27; on Hollywood streets as the city removes tents, bringing new challenges",
-      "url": "https://www.latimes.com/california/story/2026-05-22/more-rough-sleepers-on-hollywood-streets-as-city-removes-tents-bringing-new-challenges",
+      "headline": "Crude oil spills onto Cesar Chavez Avenue in East L.A. after pipeline rupture",
+      "url": "https://www.latimes.com/california/story/2026-05-22/east-la-oil-spill",
       "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Hollywood service organizations conducted their own homeless count to help them adapt their outreach to a changing population that has fewer tents and more people sleeping rough or in vehicles"
+      "raw_date": "Fri, 22 May 2026 15:30:22 GMT",
+      "description": "A pipeline rupture in East Los Angeles early Friday morning resulted in a crude oil spill, according to officials."
     },
     {
       "headline": "It&#x27;s OK to pack medical marijuana on a flight ... sometimes. What you need to know",
@@ -460,6 +473,20 @@
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
       "description": "It's OK to pack medical marijuana when flying out of California, but whether those products will still be with you when you land is an open question, experts say."
+    },
+    {
+      "headline": "Spencer Pratt&#x27;s campaign spent more than $15,000 at pricey Hotel Bel-Air",
+      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratts-campaign-spent-more-than-15-000-at-pricey-hotel-bel-air",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "Pratt, whose home burned in the Palisades fire, has said he is living at the hotel because of threats he has received."
+    },
+    {
+      "headline": "More &#x27;rough sleepers&#x27; on Hollywood streets as the city removes tents, bringing new challenges",
+      "url": "https://www.latimes.com/california/story/2026-05-22/more-rough-sleepers-on-hollywood-streets-as-city-removes-tents-bringing-new-challenges",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "Hollywood service organizations conducted their own homeless count to help them adapt their outreach to a changing population that has fewer tents and more people sleeping rough or in vehicles"
     },
     {
       "headline": "Commentary: At ease — permanently. The SoCal military academies that thrived and then folded their tents",
@@ -474,13 +501,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
       "description": "Meet the three men who sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
-    },
-    {
-      "headline": "Spencer Pratt&#x27;s campaign spent more than $15,000 at pricey Hotel Bel-Air",
-      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratts-campaign-spent-more-than-15-000-at-pricey-hotel-bel-air",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Pratt, whose home burned in the Palisades fire, has said he is living at the hotel because of threats he has received."
     },
     {
       "headline": "Residents evacuated as toxic chemical spews from tank at Garden Grove aerospace company",
@@ -581,13 +601,6 @@
       "description": "In an AI executive order, the governor called on state officials to study everything from job subsidies to stock compensation policies to mitigate tech-driven layoffs."
     },
     {
-      "headline": "They used to battle in CA elections. Now, they back the same candidate",
-      "url": "https://calmatters.org/newsletter/superintendent-california-election-endorsements/",
-      "source": "CalMatters",
-      "raw_date": "Thu, 21 May 2026 13:00:00 +0000",
-      "description": "Which of these is least likely? Kendrick Lamar and Drake squashing their feud? Giants fans and Dodgers fans sharing high-fives?&#160; Or California charter schools endorsing the same candidate for superintendent as the state’s largest teachers’ union? If you remember the 2018 election, you’d probabl"
-    },
-    {
       "headline": "SeaWorld Drops Jaws with Reimagined Exhibit",
       "url": "https://www.sdbj.com/tourism/theme-parks-amusement-parks/seaworld-drops-jaws-with-reimagined-exhibit/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=seaworld-drops-jaws-with-reimagined-exhibit",
       "source": "San Diego Business Journal",
@@ -607,20 +620,6 @@
       "source": "San Diego Business Journal",
       "raw_date": "Fri, 22 May 2026 12:00:01 +0000",
       "description": "As President of the San Diego Performing Arts League, I’m speaking on behalf of a broad community of performing arts organizations, artists, actors, technicians, educators, and aspiring performers who help shape the cultural identity of San Diego every day. We understand the difficult budget realiti"
-    },
-    {
-      "headline": "Oceanside Housing Project Aimed at Seniors, Veterans",
-      "url": "https://www.sdbj.com/real-estate/apartments/oceanside-housing-project-aimed-at-seniors-veterans/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=oceanside-housing-project-aimed-at-seniors-veterans",
-      "source": "San Diego Business Journal",
-      "raw_date": "Thu, 21 May 2026 12:01:49 +0000",
-      "description": "OCEANSIDE – San Diego Community Housing Corp., in partnership with National CORE, is building a $36 million affordable apartment building in Oceanside, targeting seniors and veterans. “The city wanted more senior affordable housing, so that’s what we looked for,” said John Wurster, senior vice presi"
-    },
-    {
-      "headline": "Mesa Labworks Lands High-Tech Life Sci Tenant",
-      "url": "https://www.sdbj.com/real-estate/mesa-labworks-lands-high-tech-life-sci-tenant/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=mesa-labworks-lands-high-tech-life-sci-tenant",
-      "source": "San Diego Business Journal",
-      "raw_date": "Thu, 21 May 2026 12:00:57 +0000",
-      "description": "SAN DIEGO – King Street Properties leased 8,775 square feet of a 62,000-square-foot former Sorrento Mesa office building to Interfacial Consultants, a subsidiary of Nagase &#38; Co., Ltd. King Street is converting the one-story building at 5825 Oberlin Drive for life science use as office tenants mo"
     },
     {
       "headline": "Printing company buys warehouse",
