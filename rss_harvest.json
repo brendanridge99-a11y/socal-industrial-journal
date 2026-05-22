@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-22T04:00:56.286Z",
-  "elapsed_seconds": 2.1,
+  "harvested_at": "2026-05-22T06:00:56.146Z",
+  "elapsed_seconds": 2,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 67,
+  "articles_count": 65,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 18,
+      "count": 16,
       "total": 98,
       "error": null
     },
@@ -402,7 +402,7 @@
       "url": "https://www.latimes.com/california/story/2026-05-21/residents-evacuated-toxic-leak-garden-grove-aerospace-company",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 01:58:47 GMT",
-      "description": "Residents and several businesses in Garden Grove were evacuated Thursday afternoon as toxic chemicals spewed into the air from a leaking storage tank at an aerospace company, authorities said."
+      "description": "Residents and several businesses in Garden Grove were evacuated as toxic chemicals spewed into the air from a leaking storage tank at an aerospace company."
     },
     {
       "headline": "More than 1,000 L.A. school employees expected to lose jobs, with bigger cuts ahead",
@@ -416,7 +416,7 @@
       "url": "https://www.latimes.com/california/story/2026-05-21/sandy-fire-burns-near-former-nuclear-test-site-officials-monitor-air",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 01:30:10 GMT",
-      "description": "The Ventura County Fire Department announced Wednesday evening that air quality monitoring is being conducted around the fire's perimeter due to the blaze's proximity to the Santa Susana Field Laboratory."
+      "description": "The Ventura County Fire Department said air quality monitoring is being conducted around the fire's perimeter due to the proximity to the Santa Susana Field Laboratory."
     },
     {
       "headline": "Feds charge former L.A. nonprofit worker with possessing fentanyl, meth near MacArthur Park",
@@ -489,13 +489,6 @@
       "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
     },
     {
-      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
-      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
-    },
-    {
       "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
       "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
       "source": "Los Angeles Times",
@@ -510,18 +503,11 @@
       "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
     },
     {
-      "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
-      "url": "https://www.latimes.com/california/story/2026-05-20/scam-fake-tom-selleck-socal-couple-found-dead",
+      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
+      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
       "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 02:58:07 GMT",
-      "description": "A Coachella Valley woman slain along with her husband last week may have been scammed by a person claiming to be actor Tom Selleck, according to media reports."
-    },
-    {
-      "headline": "Mayoral candidate Spencer Pratt hosts South L.A. block party on Bass&#x27; old turf",
-      "url": "https://www.latimes.com/california/story/2026-05-20/pratt-south-la-appearance",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 02:41:41 GMT",
-      "description": "Mayoral hopeful Spencer Pratt campaigned Wednesday in a South Los Angeles neighborhood that Mayor Karen Bass represented when she was in Congress."
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
     },
     {
       "headline": "California bill moves to make cheaper alternative fuel available to more drivers",
