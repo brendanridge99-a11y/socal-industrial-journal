@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-22T08:00:55.937Z",
-  "elapsed_seconds": 1.8,
+  "harvested_at": "2026-05-22T10:00:49.498Z",
+  "elapsed_seconds": 3,
   "feeds_attempted": 16,
-  "feeds_successful": 14,
-  "articles_count": 65,
+  "feeds_successful": 15,
+  "articles_count": 69,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -79,7 +79,7 @@
       "source": "Modern Materials Handling",
       "success": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "Empty response"
     },
     {
       "source": "Los Angeles Times",
@@ -104,9 +104,10 @@
     },
     {
       "source": "San Diego Business Journal",
-      "success": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "success": true,
+      "count": 4,
+      "total": 10,
+      "error": null
     },
     {
       "source": "IE Business Daily",
@@ -461,13 +462,6 @@
       "description": "Immigrant detainees are on a hunger strike to call attention to complaints about medical neglect, mold, dirty water and a reduction of food rations."
     },
     {
-      "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
-      "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
-    },
-    {
       "headline": "This L.A. bookstore is leading a revolt against &#x27;greedy landlords&#x27;",
       "url": "https://www.latimes.com/entertainment-arts/books/story/2026-05-21/read-books-eagle-rock-rent-hike-protests",
       "source": "Los Angeles Times",
@@ -480,6 +474,13 @@
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
       "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
+    },
+    {
+      "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
+      "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
     },
     {
       "headline": "Arellano: Steve Hilton and Spencer Pratt need Latinos, not Trump",
@@ -496,18 +497,18 @@
       "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
     },
     {
-      "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
-      "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working-class character by investment capital. Now, some investors are welcomed for building what the community needs."
-    },
-    {
       "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
       "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
       "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
+    },
+    {
+      "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
+      "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working-class character by investment capital. Now, some investors are welcomed for building what the community needs."
     },
     {
       "headline": "California bill moves to make cheaper alternative fuel available to more drivers",
@@ -557,6 +558,34 @@
       "source": "CalMatters",
       "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
       "description": "In the Central Valley, Democratic officials are betting that a candidate running to the middle will woo enough swing voters to topple incumbent Republican Rep. David Valadao."
+    },
+    {
+      "headline": "Oceanside Housing Project Aimed at Seniors, Veterans",
+      "url": "https://www.sdbj.com/real-estate/apartments/oceanside-housing-project-aimed-at-seniors-veterans/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=oceanside-housing-project-aimed-at-seniors-veterans",
+      "source": "San Diego Business Journal",
+      "raw_date": "Thu, 21 May 2026 12:01:49 +0000",
+      "description": "OCEANSIDE – San Diego Community Housing Corp., in partnership with National CORE, is building a $36 million affordable apartment building in Oceanside, targeting seniors and veterans. “The city wanted more senior affordable housing, so that’s what we looked for,” said John Wurster, senior vice presi"
+    },
+    {
+      "headline": "Mesa Labworks Lands High-Tech Life Sci Tenant",
+      "url": "https://www.sdbj.com/real-estate/mesa-labworks-lands-high-tech-life-sci-tenant/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=mesa-labworks-lands-high-tech-life-sci-tenant",
+      "source": "San Diego Business Journal",
+      "raw_date": "Thu, 21 May 2026 12:00:57 +0000",
+      "description": "SAN DIEGO – King Street Properties leased 8,775 square feet of a 62,000-square-foot former Sorrento Mesa office building to Interfacial Consultants, a subsidiary of Nagase &#38; Co., Ltd. King Street is converting the one-story building at 5825 Oberlin Drive for life science use as office tenants mo"
+    },
+    {
+      "headline": "Independent Oversight Brings the Accountability San Diego County Needs",
+      "url": "https://www.sdbj.com/commentary/independent-oversight-brings-the-accountability-san-diego-county-needs/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=independent-oversight-brings-the-accountability-san-diego-county-needs",
+      "source": "San Diego Business Journal",
+      "raw_date": "Thu, 21 May 2026 12:00:37 +0000",
+      "description": "After decades in public service, including serving as a city manager, I’ve heard a familiar concern whenever governance reforms are proposed: “Won’t this just create more bureaucracy?” It’s a fair question. But in this case, it gets the answer exactly backward. Well-designed independent oversight do"
+    },
+    {
+      "headline": "BofA Names New Market President",
+      "url": "https://www.sdbj.com/finance/banks/bofa-names-new-market-president/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bofa-names-new-market-president",
+      "source": "San Diego Business Journal",
+      "raw_date": "Thu, 21 May 2026 11:59:57 +0000",
+      "description": "Bank of America has a new San Diego market president. The U.S.’s second largest bank announced May 20 that Anthony DiBlasi, managing director for Merrill Lynch for San Diego, will take the role, replacing Mark Kremers who left the job in February to be Merrill Lynch’s Mountain Pacific Division Manag"
     },
     {
       "headline": "Global Oil Disruption and Regional Economic Resilience",
