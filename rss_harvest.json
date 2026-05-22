@@ -1,21 +1,21 @@
 {
-  "harvested_at": "2026-05-22T20:00:49.997Z",
+  "harvested_at": "2026-05-22T22:00:50.010Z",
   "elapsed_seconds": 2.5,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 70,
+  "articles_count": 67,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 16,
+      "count": 14,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 7,
+      "count": 6,
       "total": 40,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 5,
+      "count": 6,
       "total": 10,
       "error": null
     },
@@ -85,13 +85,13 @@
       "source": "Los Angeles Times",
       "success": true,
       "count": 18,
-      "total": 98,
+      "total": 97,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 10,
       "error": null
     },
@@ -118,6 +118,27 @@
     }
   ],
   "articles": [
+    {
+      "headline": "Phillips Connect names Mark Wallin president and general manager",
+      "url": "https://www.freightwaves.com/news/phillips-connect-mark-wallin-president-general-manager",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 21:45:12 +0000",
+      "description": "Phillips Connect appoints Mark Wallin as president and general manager to drive growth in smart trailer technology and autonomous freight readiness. The post Phillips Connect names Mark Wallin president and general manager appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Coupa adds Tonkean in latest AI acquisition push",
+      "url": "https://www.freightwaves.com/news/coupa-adds-tonkean-in-latest-ai-acquisition-push",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 20:37:03 +0000",
+      "description": "Coupa’s acquisition spree continued with the recent addition of Tonkean, a workflow automation platform aimed at automating procurement and supply chain workflows. The post Coupa adds Tonkean in latest AI acquisition push appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Leading roofing manufacturer uses AI to speed network optimization",
+      "url": "https://www.freightwaves.com/news/leading-roofing-manufacturer-uses-ai-to-speed-network-optimization",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 20:02:45 +0000",
+      "description": "GAF’s Marianna Vydrevich said AI-powered analytics are helping supply chain teams automate workflows, optimize inventory and model disruptions. The post Leading roofing manufacturer uses AI to speed network optimization appeared first on FreightWaves ."
+    },
     {
       "headline": "Short line rail hits T&#038;I truck benefits, costly safety mandates",
       "url": "https://www.freightwaves.com/news/short-line-rail-hits-ti-truck-benefits-costly-safety-mandates",
@@ -196,41 +217,6 @@
       "description": "Industry participants say asset-based carriers are likely the winners following the Supreme Court’s landmark ruling on freight broker liability. The post Broker liability ruling: Carriers, brokers, analysts weigh in appeared first on FreightWaves ."
     },
     {
-      "headline": "Georgia ports volumes hit by higher costs, softer market",
-      "url": "https://www.freightwaves.com/news/georgia-ports-volumes-hit-by-higher-costs-softer-market",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 19:46:33 +0000",
-      "description": "The Georgia Ports Authority said higher operating costs and a softer market were reflected in the latest container figures for the Port of Savannah. The post Georgia ports volumes hit by higher costs, softer market appeared first on FreightWaves ."
-    },
-    {
-      "headline": "The Charcoal on That Truck Costs More to Import, More to Buy, and Is Headed to a Cookout That Runs 13% Higher Than Last Year. Here Is What That Tells You About the Consumer Right Now.",
-      "url": "https://www.freightwaves.com/news/the-charcoal-on-that-truck-costs-more-to-import-more-to-buy-and-is-headed-to-a-cookout-that-runs-13-higher-than-last-year-here-is-what-that-tells-you-about-the-consumer-right-now",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 19:35:13 +0000",
-      "description": "Pull up the import data on U.S. charcoal briquette shipments and you are looking at something that some people in trucking would not think to check heading into a holiday weekend. But that data, read against the consumer spending picture for Memorial Day 2026, tells you something specific about the "
-    },
-    {
-      "headline": "Fleetworthy bets on AI, unified data as trucking margins tighten",
-      "url": "https://www.freightwaves.com/news/fleetworthy-bets-on-ai-unified-data-as-trucking-margins-tighten",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 19:23:41 +0000",
-      "description": "Fleetworthy executives recently unveiled a connected platform strategy they say will help fleets reduce operational inefficiencies and leverage AI-driven analytics across trucking operations. The post Fleetworthy bets on AI, unified data as trucking margins tighten appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Walmart credits fast delivery, third-party marketplace for revenue gains",
-      "url": "https://www.freightwaves.com/news/walmart-credits-fast-delivery-third-party-marketplace-for-revenue-gains",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 18:38:09 +0000",
-      "description": "Walmart’s sophisticated supply chain system is allowing it to speed up delivery speeds to customers who order online. The extra convenience was a key factor in the company’s 26% gain in e-commerce sales during the first quarter. The post Walmart credits fast delivery, third-party marketplace for rev"
-    },
-    {
-      "headline": "Freight Fraud Has Gone Corporate",
-      "url": "https://www.freightwaves.com/news/freight-fraud-has-gone-corporate",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 18:33:02 +0000",
-      "description": "Freight fraud incidents are climbing by double digits year over year, and Reliance Partners breaks down how fraud has evolved and what to do about it. The post Freight Fraud Has Gone Corporate appeared first on FreightWaves ."
-    },
-    {
       "headline": "Local East Coast freight leading charge on intermodal rebound",
       "url": "https://joc.com/article/local-east-coast-freight-leading-charge-on-intermodal-rebound-6225875",
       "source": "Journal of Commerce",
@@ -273,13 +259,6 @@
       "description": "James McNamara, who joined the union as it faced tumult from containerization, persisted at his job over four decades to help shape the modern International Longshoremen’s Association."
     },
     {
-      "headline": "ILWU chief slams ‘foreign shipping companies’ ahead of contract expiration",
-      "url": "https://joc.com/article/ilwu-chief-slams-foreign-shipping-companies-ahead-of-contract-expiration-6225469",
-      "source": "Journal of Commerce",
-      "raw_date": "Thu, 21 May 2026 19:42:17 GMT",
-      "description": "The speech by Bobby Olvera sends a warning shot to employers and cargo owners ahead of the expiration of its longshore contract in 2028."
-    },
-    {
       "headline": "What Mattress Firm gained from contactless delivery",
       "url": "https://www.supplychaindive.com/news/what-mattress-firm-gained-from-contactless-delivery/820809/",
       "source": "Supply Chain Dive",
@@ -313,6 +292,13 @@
       "source": "DC Velocity",
       "raw_date": "Fri, 22 May 2026 16:49:38 +0000",
       "description": "U.S. ports face the need for $6.7 billion in cargo equipment investment over the next five years in order to maintain their efficiency and global competitiveness, according to a survey of 25 senior port and terminal executives conducted by the National Association of Waterfront Employers (NAWE). The"
+    },
+    {
+      "headline": "Huntington Beach senior housing project scores $252M financing package",
+      "url": "https://therealdeal.com/la/2026/05/22/orange-county-senior-housing-lands-252-million-financing/",
+      "source": "The Real Deal",
+      "raw_date": "Fri, 22 May 2026 20:30:00 +0000",
+      "description": "A senior housing developer is moving forward with a project in Huntington Beach thanks to a fresh nine-figure funding injection.&#160; The Marisol, a planned 214-unit assisted living and memory care community at 2120 Main Street in Huntington Beach, secured $252.1 million in construction financing f"
     },
     {
       "headline": "Best Western takes South Western: Jefferson Park hotel plans resurface",
@@ -406,6 +392,13 @@
       "description": "A school for autistic children is taking over the lease for a charter school in the Bronx, Commercial Observer has learned. Gersh Autism Academy subleased the 21,000‑square‑foot building at 452 College Avenue in Mott Haven from Brilla Schools parent company Seton Education Partners, which has been c"
     },
     {
+      "headline": "Pratt raised nearly 10 times more in contributions than Bass in latest filing period",
+      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratt-leads-field-in-mayoral-campaign-contributions",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 21:20:30 GMT",
+      "description": "Pratt raised nearly 10 times as Bass — $2.72 million — in the last reporting period. Raman trails far behind both Pratt and Bass with less than $1 million."
+    },
+    {
       "headline": "California gets $27.5 million to find and replace toxic lead pipes that deliver water to homes",
       "url": "https://www.latimes.com/california/story/2026-05-22/california-gets-27-5-million-to-find-replace-lead-pipes",
       "source": "Los Angeles Times",
@@ -448,13 +441,6 @@
       "description": "It's OK to pack medical marijuana when flying out of California, but whether those products will still be with you when you land is an open question, experts say."
     },
     {
-      "headline": "The three men killed in San Diego shooting saved many others, &#x27;did not die in vain&#x27;",
-      "url": "https://www.latimes.com/california/story/2026-05-22/san-diego-mosque-shooting-victims-heroes",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Meet the three men who sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
-    },
-    {
       "headline": "More &#x27;rough sleepers&#x27; on Hollywood streets as the city removes tents, bringing new challenges",
       "url": "https://www.latimes.com/california/story/2026-05-22/more-rough-sleepers-on-hollywood-streets-as-city-removes-tents-bringing-new-challenges",
       "source": "Los Angeles Times",
@@ -476,7 +462,14 @@
       "description": "Pratt, whose home burned in the Palisades fire, has said he is living at the hotel because of threats he has received."
     },
     {
-      "headline": "Evacuations grow in Orange County around leaking chemical tank: &#x27;It fails, or it blows up.&#x27;",
+      "headline": "The three men killed in San Diego shooting saved many others, &#x27;did not die in vain&#x27;",
+      "url": "https://www.latimes.com/california/story/2026-05-22/san-diego-mosque-shooting-victims-heroes",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "Meet the three men who sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
+    },
+    {
+      "headline": "Thousands evacuated around leaking Orange County chemical tank: &#x27;It fails, or it blows up.&#x27;",
       "url": "https://www.latimes.com/california/story/2026-05-21/residents-evacuated-toxic-leak-garden-grove-aerospace-company",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 01:58:47 GMT",
@@ -525,13 +518,6 @@
       "description": "Scientists are using thermal cameras and AI technology to track and locate gray whales off the coast to warn nearby ships."
     },
     {
-      "headline": "Feds declare Eaton fire was a cleanup success. Their testing shows otherwise",
-      "url": "https://www.latimes.com/environment/story/2026-05-21/feds-declare-eaton-fire-cleanup-success-testing-shows-otherwise",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 18:03:58 GMT",
-      "description": "In announcing its findings, the EPA cited federal lead standards only, and not California's more stringent thresholds."
-    },
-    {
       "headline": "Can CA help its workers survive the AI disruption?",
       "url": "https://calmatters.org/newsletter/artificial-intelligence-work-ideas-festival/",
       "source": "CalMatters",
@@ -565,13 +551,6 @@
       "source": "CalMatters",
       "raw_date": "Thu, 21 May 2026 23:52:00 +0000",
       "description": "In the face of the nation&#8217;s highest gas prices, California lawmakers approved a bill to ease restrictions on E85 conversion kits — devices that let conventional gasoline cars run on a cheaper, mostly ethanol fuel blend. Assembly Bill 2046, dubbed the “Access to Affordable Gas Act” by its autho"
-    },
-    {
-      "headline": "After AI layoffs, Newsom orders state government to find ways to ease the pain",
-      "url": "https://calmatters.org/economy/technology/2026/05/california-ai-layoffs-order/",
-      "source": "CalMatters",
-      "raw_date": "Thu, 21 May 2026 19:35:00 +0000",
-      "description": "In an AI executive order, the governor called on state officials to study everything from job subsidies to stock compensation policies to mitigate tech-driven layoffs."
     },
     {
       "headline": "SeaWorld Drops Jaws with Reimagined Exhibit",
