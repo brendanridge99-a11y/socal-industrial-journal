@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-22T16:00:53.365Z",
-  "elapsed_seconds": 2.7,
+  "harvested_at": "2026-05-22T18:00:50.542Z",
+  "elapsed_seconds": 1.7,
   "feeds_attempted": 16,
-  "feeds_successful": 14,
-  "articles_count": 75,
+  "feeds_successful": 15,
+  "articles_count": 71,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 18,
+      "count": 16,
       "total": 50,
       "error": null
     },
@@ -64,15 +64,16 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 13,
+      "count": 10,
       "total": 17,
       "error": null
     },
     {
       "source": "Propmodo",
-      "success": false,
+      "success": true,
       "count": 0,
-      "error": "HTTP 404"
+      "total": 0,
+      "error": null
     },
     {
       "source": "Modern Materials Handling",
@@ -83,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 14,
+      "count": 15,
       "total": 98,
       "error": null
     },
@@ -117,6 +118,13 @@
     }
   ],
   "articles": [
+    {
+      "headline": "Short line rail hits T&#038;I truck benefits, costly safety mandates",
+      "url": "https://www.freightwaves.com/news/short-line-rail-hits-ti-truck-benefits-costly-safety-mandates",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 16:33:56 +0000",
+      "description": "An industry trade group says the new surface transportation legislation offers some rail-positive provisions, but expressed disappointment at inclusions favoring heavier trucks and expensive safety mandates. The post Short line rail hits T&#038;I truck benefits, costly safety mandates appeared first"
+    },
     {
       "headline": "Sen. Cotton urges DOJ investigation of China-backed parcel carriers",
       "url": "https://www.freightwaves.com/news/sen-cotton-urges-doj-investigation-of-china-backed-parcel-carriers",
@@ -223,25 +231,11 @@
       "description": "Freight fraud incidents are climbing by double digits year over year, and Reliance Partners breaks down how fraud has evolved and what to do about it. The post Freight Fraud Has Gone Corporate appeared first on FreightWaves ."
     },
     {
-      "headline": "UP CEO confident rail merger application checks all the STB’s boxes",
-      "url": "https://www.freightwaves.com/news/up-ceo-confident-rail-merger-application-checks-all-the-stbs-boxes",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 15:52:28 +0000",
-      "description": "The CEO of Union Pacific said he is confident the revised UP-Norfolk Southern merger application will be accepted by the Surface Transportation Board. The post UP CEO confident rail merger application checks all the STB’s boxes appeared first on FreightWaves ."
-    },
-    {
-      "headline": "FreightWaves announces 2026 Fraud Fighters Award winners",
-      "url": "https://www.freightwaves.com/news/freightwaves-announces-2026-fraud-fighters-award-winners",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 14:50:06 +0000",
-      "description": "FreightWaves awarded two categories of winners: Logistics Operations and Solution Providers. The post FreightWaves announces 2026 Fraud Fighters Award winners appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Target moves to elevate supply chain operations, inventory reliability",
-      "url": "https://www.freightwaves.com/news/target-moves-to-elevate-supply-chain-operations-inventory-reliability",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 14:08:05 +0000",
-      "description": "Target has made it a strategic priority to improve supply chain operations so it can avoid out-of-stock situations and reduce costs. The post Target moves to elevate supply chain operations, inventory reliability appeared first on FreightWaves ."
+      "headline": "CMA CGM posts Q1 earnings decline amid volatile ocean trade",
+      "url": "https://joc.com/article/cma-cgm-posts-q1-earnings-decline-amid-volatile-ocean-trade-6225849",
+      "source": "Journal of Commerce",
+      "raw_date": "Fri, 22 May 2026 17:06:15 GMT",
+      "description": "The carrier’s first-quarter financials, which included a sharp drop in net profit, were generated in a market roiled by ongoing tensions in the Middle East, rising oil prices and increasing operating costs."
     },
     {
       "headline": "Demand rising on Asia-Europe ocean trade as July bunker hike looms",
@@ -286,18 +280,11 @@
       "description": "The alignment between demand and the supply of capacity has individual dynamics across each trade lane and different consequences for the newbuild, second-hand and charter markets, writes Jeremy Masters."
     },
     {
-      "headline": "‘Dummy permits’ could overcome last-mile snafus for project cargoes",
-      "url": "https://joc.com/article/dummy-permits-could-overcome-last-mile-snafus-for-project-cargoes-6225300",
-      "source": "Journal of Commerce",
-      "raw_date": "Thu, 21 May 2026 14:50:15 GMT",
-      "description": "Project shippers in the US are being encouraged to test the robustness of bridge strength and state permitting feasibility up to a year in advance of major cargo moves."
-    },
-    {
       "headline": "What Mattress Firm gained from contactless delivery",
       "url": "https://www.supplychaindive.com/news/what-mattress-firm-gained-from-contactless-delivery/820809/",
       "source": "Supply Chain Dive",
       "raw_date": "Fri, 22 May 2026 11:35:00 -0400",
-      "description": "<p>The shipping option has added customer flexibility and freed up drivers&rsquo; time, despite early hurdles, executives said at Home Delivery World 2026.</p>"
+      "description": "<p>The shipping option has added customer flexibility and freed up drivers&rsquo; time despite early hurdles, executives said at Home Delivery World 2026.</p>"
     },
     {
       "headline": "Albertsons launches AI-powered produce inspection tool",
@@ -307,6 +294,13 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/S1FcF_BdOkcGNNc_YDlClKrze8rPiACrzmj3__O8W5U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BSS1Qb3dlcmVkX0ludGVsbGlnZW50X1F1YWxpdHlfQ29udHJvbF9Ub29sXzEuanBn.webp\"/></div></figure><p>The technology supports the grocer&#39;s quali"
     },
     {
+      "headline": "J&J Snack Foods completes plant consolidation, turns to distribution",
+      "url": "https://www.supplychaindive.com/news/jj-snack-foods-completes-plant-consolidation-turns-to-distribution/820679/",
+      "source": "Supply Chain Dive",
+      "raw_date": "Fri, 22 May 2026 07:49:00 -0400",
+      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/SGv7qBvwfpu-Ww4JHJMoVZ7UlpE4I_hk_lQVugiHcvM/g:nowe:0:101/c:1150:649/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjQtMDctMTdfMTEwOTEzLmpwZw==.webp\"/></div></figure><p>The frozen snack food manufacturer expects the "
+    },
+    {
       "headline": "Procurement leaders urge incremental AI adoption to avoid heavy spend",
       "url": "https://www.supplychaindive.com/news/procurement-leaders-urge-incremental-ai-adoption-to-avoid-heavy-spend/820557/",
       "source": "Supply Chain Dive",
@@ -314,18 +308,11 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/m1zh0M4MYgWSBh0OjRTFSNLgYb_7z_GKRhCFffFAlqg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMDM3MC5qcGVn.webp\"/></div></figure><p>Managing the cost of using AI rests on starting low-risk pilots and scaling the technology slo"
     },
     {
-      "headline": "Matson reports air-to-ocean freight conversions amid Iran war",
-      "url": "https://www.supplychaindive.com/news/matson-reports-air-to-ocean-freight-conversions-amid-iran-war/820506/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Thu, 21 May 2026 11:11:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/kGEQkjwd2YGOHpA2SmN-KteVWK5VQp8nJR8GBFDb4IE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTg4NTA0MjIyLmpwZw==.webp\"/></div></figure><p>The U.S.-based ocean carrier benefited from elevated freight costs and red"
-    },
-    {
-      "headline": "Up, up, and (put)away",
-      "url": "https://www.dcvelocity.com/material-handling/up-up-and-put-away",
+      "headline": "Survey: Port leaders call for $6.7 billion cargo equipment spending",
+      "url": "https://www.dcvelocity.com/transportation/maritime-ocean/ports/survey-port-leaders-call-for-6-7-billion-cargo-equipment-spending",
       "source": "DC Velocity",
-      "raw_date": "Thu, 21 May 2026 15:15:11 +0000",
-      "description": "Warehouses and distribution centers are under continual pressure to handle more of everything: more inventory, more stock-keeping units (SKUs), more orders, more shipments. But adding on to existing buildings to accommodate growing demand isn’t always feasible or cost-effective. Instead, many facili"
+      "raw_date": "Fri, 22 May 2026 16:49:38 +0000",
+      "description": "U.S. ports face the need for $6.7 billion in cargo equipment investment over the next five years in order to maintain their efficiency and global competitiveness, according to a survey of 25 senior port and terminal executives conducted by the National Association of Waterfront Employers (NAWE). The"
     },
     {
       "headline": "Douglas Emmett cements resi conversion for Westwood office tower",
@@ -335,7 +322,7 @@
       "description": "Douglas Emmett’s housing plans for the corner of Wilshire and Westwood Boulevards are coming into focus.&#160; On Wednesday, the Santa Monica-based real estate investment trust filed an application with the City of Los Angeles to convert the 17-story, approximately 247,000-square-foot high-rise at 1"
     },
     {
-      "headline": "LA city’s top construction permits: Week ending 5/17/26",
+      "headline": "LA city’s top construction permits: Week ending May 17, 2026",
       "url": "https://therealdeal.com/la/2026/05/21/los-angeles-top-construction-permits-5-17-26/",
       "source": "The Real Deal",
       "raw_date": "Thu, 21 May 2026 21:36:49 +0000",
@@ -368,6 +355,13 @@
       "source": "The Real Deal",
       "raw_date": "Thu, 21 May 2026 16:25:06 +0000",
       "description": "Aaron Kirman’s Christie’s International Real Estate Southern California is testing the breadth of demand for coastal condo living, with the brokerage zeroing in on locals previously priced out of the market and international buyers as prospects for the recently opened Privé Malibu. Kirman, along wit"
+    },
+    {
+      "headline": "Dutch Investor Pays $110M For New Rental in Aventura, Fla.",
+      "url": "https://commercialobserver.com/2026/05/breevest-avida-aventura-fifield-multifamily-housing/",
+      "source": "Commercial Observer",
+      "raw_date": "Fri, 22 May 2026 16:35:34 +0000",
+      "description": "Dutch investor Breevest has paid $110 million for a new multifamily asset near the Aventura Mall in Florida’s Miami-Dade County, property records show. Called Avida Aventura, the eight-story property houses 266 apartments at 19401 West Dixie Highway, facing Biscayne Boulevard and across the street f"
     },
     {
       "headline": "Peachtree Group Provides $32M Construction Loan for Alabama Hotel",
@@ -433,32 +427,11 @@
       "description": "Marcus &#38; Millichap is expanding and extending at AmTrustRE’s 260 Madison Avenue in Midtown. The California-based real estate advisory firm added 5,000 square feet to its existing 36,000-square-foot space at the 22-story office building near Grand Central Terminal, bringing it to a total of 41,00"
     },
     {
-      "headline": "Hudson Companies Hires Isaac Henderson as Principal, Co-Head of Development",
-      "url": "https://commercialobserver.com/2026/05/hudson-companies-hires-isaac-henderson-principal-co-head-development/",
-      "source": "Commercial Observer",
-      "raw_date": "Thu, 21 May 2026 15:54:01 +0000",
-      "description": "Real estate developer the Hudson Companies has hired Isaac Henderson, formerly a managing director at Rockefeller Group, as a principal and its co-head of development, Commercial Observer has learned. In his new role, Henderson will work alongside fellow principal and co-head Ellen Kackmann and over"
-    },
-    {
-      "headline": "Arbor Realty Trust Lends $125M on Chicago Apartments Acquisition",
-      "url": "https://commercialobserver.com/2026/05/arbor-realty-trust-chicago-apartments-ohare-airport/",
-      "source": "Commercial Observer",
-      "raw_date": "Thu, 21 May 2026 15:51:11 +0000",
-      "description": "R.I.G. Capital has sealed $125.3 million of acquisition financing for the purchase of a 1,115-unit multifamily complex near Chicago’s O’Hare International Airport. Arbor Realty Trust supplied the loan for the developer’s $167 million acquisition of Pavilion Apartments in Chicago’s O’Hare neighborhoo"
-    },
-    {
-      "headline": "Rich Maroko Runs Perhaps the Most Powerful U.S. Union in the Hotel Trades Council",
-      "url": "https://commercialobserver.com/2026/05/rich-maroko-hotels-union-contract-2026/",
-      "source": "Commercial Observer",
-      "raw_date": "Thu, 21 May 2026 15:29:27 +0000",
-      "description": "A union representing 40,000 hotel workers — not auto workers, airline pilots or teachers — has become one of the most powerful labor organizations in the United States. How so? The Hotel &#38; Gaming Trades Council (HTC) has championed New York legislation that protected members while weakening thei"
-    },
-    {
-      "headline": "Dwight Capital Provides $114M HUD Loan for Milwaukee Office-to-Resi Conversion",
-      "url": "https://commercialobserver.com/2026/05/dwight-capital-hud-loan-milwaukee-office-to-resi-conversion/",
-      "source": "Commercial Observer",
-      "raw_date": "Thu, 21 May 2026 14:57:35 +0000",
-      "description": "A joint venture between Klein Development and MOS R.E. has sealed $114 million of U.S. Department of Housing and Urban Development (HUD)-backed debt for the conversion of a Milwaukee office tower into luxury apartments, Commercial Observer has learned. Dwight Capital closed the HUD 221(d)(4) substan"
+      "headline": "A frantic two hours as police struggled to assess threat before San Diego shooters opened fire",
+      "url": "https://www.latimes.com/california/story/2026-05-22/la-me-san-diego-attack-final-hours-police",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 16:37:12 GMT",
+      "description": "Two hours before the deadly attack at a San Diego mosque, the mother of one of the assailants reached out to police warning that her son was suicidal and had taken firearms. But it took police nearly 90 minutes to respond to the initial call."
     },
     {
       "headline": "Crude oil spills onto Cesar Chavez Avenue in East L.A. after pipeline rupture",
@@ -475,11 +448,11 @@
       "description": "It's OK to pack medical marijuana when flying out of California, but whether those products will still be with you when you land is an open question, experts say."
     },
     {
-      "headline": "Spencer Pratt&#x27;s campaign spent more than $15,000 at pricey Hotel Bel-Air",
-      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratts-campaign-spent-more-than-15-000-at-pricey-hotel-bel-air",
+      "headline": "The three men killed in San Diego shooting saved many others, &#x27;did not die in vain&#x27;",
+      "url": "https://www.latimes.com/california/story/2026-05-22/san-diego-mosque-shooting-victims-heroes",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Pratt, whose home burned in the Palisades fire, has said he is living at the hotel because of threats he has received."
+      "description": "Meet the three men who sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
     },
     {
       "headline": "More &#x27;rough sleepers&#x27; on Hollywood streets as the city removes tents, bringing new challenges",
@@ -496,14 +469,14 @@
       "description": "At the start of the 20th century, Southern California was home to an astonishing number of military academies designed to turn boys into officers and gentlemen."
     },
     {
-      "headline": "The three men killed in San Diego shooting saved many others, &#x27;did not die in vain&#x27;",
-      "url": "https://www.latimes.com/california/story/2026-05-22/san-diego-mosque-shooting-victims-heroes",
+      "headline": "Spencer Pratt&#x27;s campaign spent more than $15,000 at pricey Hotel Bel-Air",
+      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratts-campaign-spent-more-than-15-000-at-pricey-hotel-bel-air",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Meet the three men who sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
+      "description": "Pratt, whose home burned in the Palisades fire, has said he is living at the hotel because of threats he has received."
     },
     {
-      "headline": "Residents evacuated as toxic chemical spews from tank at Garden Grove aerospace company",
+      "headline": "Evacuations reissued as crews manage toxic chemical spill at Garden Grove aerospace company",
       "url": "https://www.latimes.com/california/story/2026-05-21/residents-evacuated-toxic-leak-garden-grove-aerospace-company",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 01:58:47 GMT",
@@ -552,11 +525,11 @@
       "description": "Scientists are using thermal cameras and AI technology to track and locate gray whales off the coast to warn nearby ships."
     },
     {
-      "headline": "Multiple wildfires trigger unhealthful air quality alert in Southern California",
-      "url": "https://www.latimes.com/california/story/2026-05-21/socal-wildfire-smoke-advisory",
+      "headline": "Feds declare Eaton fire was a cleanup success. Their testing shows otherwise",
+      "url": "https://www.latimes.com/environment/story/2026-05-21/feds-declare-eaton-fire-cleanup-success-testing-shows-otherwise",
       "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 15:45:23 GMT",
-      "description": "Wildfire smoke from several fires has triggered a smoke advisory for wide swaths of Southern California until Thursday evening, according to officials."
+      "raw_date": "Thu, 21 May 2026 18:03:58 GMT",
+      "description": "In announcing its findings, the EPA cited federal lead standards only, and not California's more stringent thresholds."
     },
     {
       "headline": "Can CA help its workers survive the AI disruption?",
