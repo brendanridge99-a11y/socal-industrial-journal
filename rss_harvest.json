@@ -1,8 +1,8 @@
 {
-  "harvested_at": "2026-05-22T02:01:19.944Z",
-  "elapsed_seconds": 25.8,
+  "harvested_at": "2026-05-22T04:00:56.286Z",
+  "elapsed_seconds": 2.1,
   "feeds_attempted": 16,
-  "feeds_successful": 13,
+  "feeds_successful": 14,
   "articles_count": 67,
   "feed_status": [
     {
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 2,
+      "count": 1,
       "total": 30,
       "error": null
     },
@@ -70,9 +70,10 @@
     },
     {
       "source": "Propmodo",
-      "success": false,
+      "success": true,
       "count": 0,
-      "error": "HTTP 404"
+      "total": 0,
+      "error": null
     },
     {
       "source": "Modern Materials Handling",
@@ -83,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 17,
+      "count": 18,
       "total": 98,
       "error": null
     },
@@ -278,13 +279,6 @@
       "description": "Warehouses and distribution centers are under continual pressure to handle more of everything: more inventory, more stock-keeping units (SKUs), more orders, more shipments. But adding on to existing buildings to accommodate growing demand isn’t always feasible or cost-effective. Instead, many facili"
     },
     {
-      "headline": "Krzyzewski shares leadership lessons honed on the basketball court",
-      "url": "https://www.dcvelocity.com/finance-strategy/krzyzewski-shares-leadership-lessons-learned-on-the-basketball-court",
-      "source": "DC Velocity",
-      "raw_date": "Thu, 21 May 2026 01:35:12 +0000",
-      "description": "At the age of 79, the legendary Duke University basketball coach Mike Krzyzewski now walks a bit gingerly thanks to his two artificial hips, two artificial knees, and an artificial ankle. But his wit and his desire to win still drive the philosophies of leadership that he shared in remarks from a ke"
-    },
-    {
       "headline": "Douglas Emmett cements resi conversion for Westwood office tower",
       "url": "https://therealdeal.com/la/2026/05/21/office-conversion-new-apartments-coming-to-westwood/",
       "source": "The Real Deal",
@@ -404,6 +398,13 @@
       "description": "AvalonBay and Equity Residential, two of the largest multifamily owners in the U.S., are merging to form one of the country’s largest real estate companies with a total enterprise value of roughly $69 billion, the companies announced Thursday. Once the all-stock merger is complete, the multifamily b"
     },
     {
+      "headline": "Residents evacuated as toxic chemical spews from tank at Garden Grove aerospace company",
+      "url": "https://www.latimes.com/california/story/2026-05-21/residents-evacuated-toxic-leak-garden-grove-aerospace-company",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 01:58:47 GMT",
+      "description": "Residents and several businesses in Garden Grove were evacuated Thursday afternoon as toxic chemicals spewed into the air from a leaking storage tank at an aerospace company, authorities said."
+    },
+    {
       "headline": "More than 1,000 L.A. school employees expected to lose jobs, with bigger cuts ahead",
       "url": "https://www.latimes.com/california/story/2026-05-21/more-than-1-000-la-school-employees-expected-to-lose-jobs-with-bigger-cuts-ahead",
       "source": "Los Angeles Times",
@@ -467,13 +468,6 @@
       "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
     },
     {
-      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
-      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
-    },
-    {
       "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
       "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
       "source": "Los Angeles Times",
@@ -488,6 +482,13 @@
       "description": "With less than two weeks before the primary election, Steve Hilton is leading in the polls for governor, and Los Angeles mayoral hopeful Spencer Pratt is making the city's progressive class sweat."
     },
     {
+      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
+      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
+    },
+    {
       "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
       "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
       "source": "Los Angeles Times",
@@ -495,18 +496,18 @@
       "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
     },
     {
-      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
-      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
-    },
-    {
       "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
       "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
       "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working-class character by investment capital. Now, some investors are welcomed for building what the community needs."
+    },
+    {
+      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
+      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
     },
     {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
