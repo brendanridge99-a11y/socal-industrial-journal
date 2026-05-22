@@ -1,387 +1,6 @@
 {
-  "last_updated": "2026-05-21T23:45:38.558844Z",
+  "last_updated": "2026-05-22T10:47:01.645465Z",
   "articles": [
-    {
-      "item_index": 1,
-      "headline": "Could new Zim offer start bidding war?",
-      "source": "FreightWaves",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.freightwaves.com/news/could-new-zim-offer-start-bidding-war",
-      "summary": "An investor has submitted a surprise bid for ZIM Integrated Shipping Services that would increase the purchase price and keep the Israeli ocean carrier under Israeli control. The unsolicited offer raises the possibility of a bidding war for the liner. No financial terms of the competing bid were disclosed in the report.",
-      "category": "logistics",
-      "secondary_categories": [
-        "economy"
-      ],
-      "id": "c6ae071139ad",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "item_index": 2,
-      "headline": "Software vendor offers proposal to establish detention, demurrage accountability",
-      "source": "Journal of Commerce",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://joc.com/article/software-vendor-offers-proposal-to-establish-detention-demurrage-accountability-6222721",
-      "summary": "A beneficial cargo owner technology provider has proposed a framework identifying 20 use cases under which shippers, consignees, and carriers can be held accountable for container detention and demurrage charges. The proposal is aimed at reducing costly dispute resolution between supply chain parties. The vendor's framework seeks to establish clear standards for assigning responsibility for container storage costs.",
-      "category": "logistics",
-      "secondary_categories": [
-        "policy"
-      ],
-      "id": "a9c85f6d3a82",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "item_index": 3,
-      "headline": "Guangzhou begins work on $2 billion fifth development phase at Nansha port",
-      "source": "Journal of Commerce",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://joc.com/article/guangzhou-begins-work-on-2-billion-fifth-development-phase-at-nansha-port-6222684",
-      "summary": "Construction has begun on a $2 billion fifth development phase at Nansha port in Guangzhou, China. The project includes four berths capable of handling vessels exceeding 21,000 TEUs, along with 15 berths for regional feeder vessels. The expansion represents a significant addition to one of China's major container port facilities.",
-      "category": "logistics",
-      "secondary_categories": [
-        "economy"
-      ],
-      "id": "973b00063f32",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "item_index": 4,
-      "headline": "US and China to establish trade board, tout agriculture commitments",
-      "source": "Supply Chain Dive",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.supplychaindive.com/news/us-and-china-to-establish-trade-board-tout-agriculture-commitments/820508/",
-      "summary": "The United States and China have announced plans to establish a trade board as part of ongoing bilateral trade negotiations. The two countries also highlighted agriculture commitments as part of the framework. Further details on the structure and scope of the trade board were included in the agreement announcement.",
-      "category": "policy",
-      "secondary_categories": [
-        "economy",
-        "logistics"
-      ],
-      "id": "7a163b4e70d7",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "item_index": 6,
-      "headline": "Parcel express services evolve as market fragmentation accelerates",
-      "source": "DC Velocity",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.dcvelocity.com/transportation/parcel-express-services-evolve-as-market-fragmentation-accelerates",
-      "summary": "Andy Dyer, CEO of transportation management firm AFS, which manages approximately $3 billion in parcel spend annually for its clients, says the parcel carrier market is experiencing accelerating fragmentation. Dyer notes the sector has undergone numerous disruptions, evolutions, and reinventions in recent years. The report examines how express parcel services are adapting to a market increasingly characterized by multiple competing carriers.",
-      "category": "logistics",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "d6cca6d1af8b",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "item_index": 14,
-      "headline": "Industrial Realty Group, Sachem Capital Merge to Form $3.4B Industrial REIT",
-      "source": "Commercial Observer",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://commercialobserver.com/2026/05/industrial-realty-group-sachem-capital-merge-form-reit/",
-      "summary": "Industrial Realty Group (IRG), one of the largest private owners of U.S. industrial real estate, has agreed to merge with public mortgage trust Sachem Capital to form IRG Realty Trust, a $3.4 billion publicly traded real estate investment trust. The combined entity will bring together IRG's private industrial portfolio with Sachem Capital's public market structure. The merger creates a new publicly traded industrial REIT with a combined asset value of $3.4 billion.",
-      "category": "economy",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "05a511b01b79",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "Bond Traders See Shift Toward New Era of Higher Yields",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/bond-traders-see-tipping-point-toward-new-era-of-higher-yields",
-      "summary": "A new era of elevated borrowing costs is potentially underway as war-driven inflation angst intensifies in the US bond market, sending 30-year yields toward a two-decade high above 5%, Bloomberg reported. Treasuries extended their slide Monday in Asia after their worst week in a year, with a renewed rally in oil adding to worries from reports showing inflation accelerated last month. The fear of resurgent price pressures roiled fixed-income globally, sparking a rout in markets including the UK and Japan. G-7 finance chiefs are set to discuss the debt selloff at their Paris meeting.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "01fd92ffb432",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "Latest Iran Offer on War Is Not Enough, Says White House",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-05-18/latest-iran-offer-on-war-is-not-enough-says-white-house",
-      "summary": "Hopes for a breakthrough in the US-Iran standoff over the closure of the Strait of Hormuz were dashed again on Monday after Iran delivered an updated peace proposal that the White House deemed insufficient. Earlier reports of a potential deal had fueled market optimism, but Wall Street's rebound attempt failed as stocks fell and Brent crude topped $110 per barrel in a volatile session. The S&P 500 erased earlier gains as oil extended its advance. The Strait of Hormuz has remained largely blocked since late February, cutting roughly 20% of global seaborne oil trade.",
-      "category": "logistics",
-      "secondary_categories": [
-        "economy"
-      ],
-      "id": "4c06d93a83b0",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "Oil Slips as Trump Spurs Optimism Over Iran Deal: Markets Wrap",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/oil-slips-as-trump-spurs-optimism-over-iran-deal-markets-wrap",
-      "summary": "Oil dropped in early Asia trading after President Donald Trump said he was holding off on fresh military strikes against Iran following appeals from Persian Gulf allies, boosting hopes for a deal that could reopen the Strait of Hormuz to energy flows. West Texas Intermediate crude fell 1.4% after Trump said plans for a strike were called off, with the president adding that \"serious negotiations are now taking place.\" S&P 500 futures were steady after the benchmark index had nearly wiped out its losses in a choppy Monday session. The Strait of Hormuz has remained largely closed since the US and Israel launched strikes on Iran in late February.",
-      "category": "logistics",
-      "secondary_categories": [
-        "economy"
-      ],
-      "id": "3224db0bf4c7",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "Oil Extends Gains as Trump Says Clock Is Ticking for Iran Deal",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/latest-oil-market-news-and-analysis-for-may-18",
-      "summary": "Oil rose for a third consecutive day on Monday as the US and Iran remained far apart on a deal to end weeks of war and reopen the crucial Strait of Hormuz. Brent crude advanced above $110 a barrel, after adding almost 8% the prior week, while West Texas Intermediate rose above $107. President Trump posted on social media that \"For Iran, the Clock is Ticking, and they better get moving, FAST,\" signaling his patience with Tehran was wearing thin. The International Energy Agency cautioned that oil inventories globally are depleting at a record pace as Hormuz remains closed.",
-      "category": "logistics",
-      "secondary_categories": [
-        "economy"
-      ],
-      "id": "72773267254c",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "LIRR Strike Inches Toward a Fourth Day as Talks Progress Slowly",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/lirr-strike-inches-toward-a-fourth-day-as-talks-progress-slowly",
-      "summary": "The Long Island Rail Road strike approached a fourth day on Monday as labor groups and transit officials had yet to reach a deal, leaving the nation's busiest commuter rail line shuttered for the evening commute. Roughly 3,500 engineers, signalmen and electrical workers walked off the job on Saturday after negotiations between the state-run Metropolitan Transportation Authority and five union coalition members collapsed over wages and healthcare premiums. Parties restarted negotiations Sunday after failing to reach a deal by a late Friday deadline. The shutdown is the first LIRR work stoppage in more than 30 years, affecting over 250,000 daily commuters.",
-      "category": "policy",
-      "secondary_categories": [],
-      "id": "cca922ec6548",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "LIRR Strike Jams Roads, Prompts Long Commutes as Talks Continue",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/lirr-strike-to-bring-chaos-to-nyc-commuters-as-talks-resume",
-      "summary": "Long Island workers making their way into New York City grappled with long commutes Monday as the Long Island Rail Road entered its third strike day, the first weekday of the work stoppage. The LIRR \u2014 the nation's busiest commuter railroad \u2014 halted service on Saturday after roughly 3,500 engineers, signalmen and electrical workers walked off the job following a stalemate between the Metropolitan Transportation Authority and union leaders. Roads and alternative transit were strained across the region as commuters scrambled for substitute transportation options. The National Mediation Board, which governs labor relations for railroads, had stepped in to summon parties to negotiations in Manhattan.",
-      "category": "policy",
-      "secondary_categories": [],
-      "id": "e69dfba2c34a",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "US Premarket Movers for May 18, 2026",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/us-stock-futures-today-bio-rad-dominion-liveramp-regeneron",
-      "summary": "S&P 500 Index futures fell 0.4% as of 7:37 a.m. New York time on Monday as investors watched bond markets to see if Friday's surge in yields to multi-year highs would extend. The premarket session tracked the prior week's major bond selloff driven by accelerating inflation data and oil price gains tied to the Iran war and Strait of Hormuz disruption. Bloomberg reported on the biggest US movers before the opening bell in a volatile market session dominated by energy and rate concerns.",
-      "category": "socal",
-      "secondary_categories": [],
-      "id": "ebf860ac0cf6_loc",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z",
-      "submarkets": [
-        "los-angeles"
-      ],
-      "is_overflow": true,
-      "overflow_from": "economy"
-    },
-    {
-      "headline": "US Premarket Movers for May 18, 2026",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/us-stock-futures-today-bio-rad-dominion-liveramp-regeneron",
-      "summary": "S&P 500 Index futures fell 0.4% as of 7:37 a.m. New York time on Monday as investors watched bond markets to see if Friday's surge in yields to multi-year highs would extend. The premarket session tracked the prior week's major bond selloff driven by accelerating inflation data and oil price gains tied to the Iran war and Strait of Hormuz disruption. Bloomberg reported on the biggest US movers before the opening bell in a volatile market session dominated by energy and rate concerns.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "ebf860ac0cf6",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "US Lawmakers Plan New $130 Fee for Electric Vehicle Owners",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/us-house-unveiled-plan-to-charge-130-fee-for-electric-vehicles",
-      "summary": "House lawmakers released a massive $580 billion transportation bill Sunday that would impose new annual fees on electric and hybrid vehicles as gasoline prices surge following the Iran war. The bipartisan legislation, released by members of the House transportation committee, would impose an annual registration fee of $130 per electric vehicle, gradually rising biennially to $150, and as much as $50 for hybrids. The fees are intended to help fund the Highway Trust Fund as EV adoption reduces gasoline tax revenues. The legislation represents the first major federal transportation funding overhaul in years.",
-      "category": "policy",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "007615729717",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "Kioxia's Booming Shares Head for Liquidity Boost With US Float",
-      "source": "Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/kioxia-s-booming-shares-head-for-liquidity-boost-with-us-float",
-      "summary": "Kioxia Holdings Corp. announced plans to float American Depositary Shares on a US stock exchange, aiming to expand its investor base amid global fervor over memory chips. The Japanese chipmaker said in a release that the move would help raise corporate value, though details including the schedule and method remain undetermined and the company may not ultimately pursue the listing. ADSs would make shares directly available for trading, reducing arbitrage costs compared to depositary receipts that Kioxia already offers. The announcement positions Kioxia to capitalize on surging chip demand driven by AI infrastructure investment.",
-      "category": "economy",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "1c30cb84a92c",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "West Marine Files Chapter 11 Bankruptcy to Cut Debt, Close More Stores",
-      "source": "Wall Street Journal / Bloomberg",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/west-marine-files-bankruptcy-to-cut-debt-close-more-stores",
-      "summary": "Boating supply retailer West Marine Inc. filed for Chapter 11 bankruptcy on May 17 in the U.S. Bankruptcy Court for the District of Delaware, citing weaker sales as consumers pull back on outdoor recreation due to inflation and severe weather. The company reached a restructuring support agreement with 96.2% of term loan lenders, 100% of FILO lenders, and 93.9% of equity holders to either find a buyer or hand control to lenders owed $251 million. Approximately 200 stores across 34 states and Puerto Rico will remain open during restructuring. CEO Paulee Day said the company will \"optimize our operations and rationalize our footprint\" as part of the process.",
-      "category": "industries",
-      "secondary_categories": [
-        "economy"
-      ],
-      "id": "3ae799c451d6",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "Oil Climbs as Iran War Shows No Sign of Ending; Stocks Waver on Deal Doubts",
-      "source": "Wall Street Journal / Bloomberg Markets",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
-      "summary": "Wall Street's rebound attempt failed Monday as oil rose after Iranian media reported fundamental differences remain in U.S.-Iran negotiations, with Tehran citing \"excessive demands and unrealistic positions\" in the latest U.S. draft proposal. U.S. crude topped $106 per barrel in volatile trading while Brent crude gained over 1.9% to $111.34 per barrel. The S&P 500 dropped 0.07% and the Nasdaq slid 0.51%, with traders monitoring oil prices and bond yields. President Trump warned Iran on Sunday that \"the Clock is Ticking,\" adding to market anxiety over Strait of Hormuz shipping disruption.",
-      "category": "economy",
-      "secondary_categories": [
-        "logistics"
-      ],
-      "id": "0b5664f3c149",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "China's Economy Loses Steam in April as Retail Sales Hit 40-Month Low",
-      "source": "CNBC / Wire Services",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.cnbc.com/2026/05/18/china-april-retail-sales-industrial-output-investment-unemployment-iran-war.html",
-      "summary": "China's retail sales rose only 0.2% in April from a year ago, the weakest growth since December 2022, as the fallout from the Iran war dampened momentum in the world's second-largest economy. Industrial output climbed 4.1% in April, undershooting expectations for a 5.9% rise, while urban fixed asset investment contracted 1.6% against expectations for 1.6% growth. Crude oil refining volumes fell 5.8% from a year earlier, the steepest decline since August 2024. Following the Trump-Xi Beijing summit, China agreed to purchase at least $17 billion per year in U.S. agricultural products in 2026 through 2028, and an initial 200 jets from Boeing.",
-      "category": "economy",
-      "secondary_categories": [
-        "logistics",
-        "policy"
-      ],
-      "id": "79e576a37505",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "Pet Supplies Plus Franchisee PSP TS LLC Files Chapter 11 Bankruptcy",
-      "source": "TheStreet / Court Records",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.thestreet.com/retail/pet-supplies-plus-franchisee-files-chapter-11-bankruptcy",
-      "summary": "Florida-based Pet Supplies Plus franchisee PSP TS LLC filed for Chapter 11 bankruptcy protection in the U.S. Bankruptcy Court for the Middle District of Florida in Tampa on May 12, listing $100,000 to $500,000 in assets and $1 million to $10 million in liabilities. The Holiday, Fla.-based franchisee's single Pet Supplies Plus store remains open, and the Pet Supplies Plus franchisor itself has not filed for bankruptcy. The Livonia, Mich.-based Pet Supplies Plus chain operates 725 locations in 44 states and 26 Wag N' Wash facilities nationwide. The debtor did not indicate a specific reason for the filing.",
-      "category": "industries",
-      "secondary_categories": [],
-      "id": "c7fcf8918b0d",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "Industrial Realty Group Takes Portfolio Public",
-      "source": "CoStar",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.costar.com/article/1445677246/industrial-realty-group-takes-portfolio-public",
-      "summary": "Los Angeles-based Industrial Realty Group is combining 98 industrial properties into a new publicly traded REIT through a definitive contribution agreement with Connecticut-based mortgage lender Sachem Capital Corp., creating IRG Realty Trust with an implied enterprise value of approximately $3.4 billion. The combined entity is expected to rank among the top 10 publicly listed industrial REITs by enterprise value, with IRG owning approximately 94.1% of the new company via operating partnership units and existing Sachem shareholders retaining roughly 5.9%. The 98 properties \u2014 described as mission-critical industrial infrastructure leased to manufacturing, distribution, and logistics tenants \u2014 carry a gross real estate asset value of $2.9 billion; Sachem's approximately $470 million in existing mortgage loan assets will also be included. The transaction, unanimously approved by Sachem's board, is expected to close by end of 2026 subject to Sachem shareholder approval, with Scotiabank advising IRG and Piper Sandler advising Sachem.",
-      "category": "socal",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "a54ddb5a8c65_loc",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z",
-      "submarkets": [
-        "los-angeles"
-      ],
-      "is_overflow": true,
-      "overflow_from": "economy"
-    },
-    {
-      "headline": "Industrial Realty Group Takes Portfolio Public",
-      "source": "CoStar",
-      "source_type": "paywalled",
-      "date": "May 18, 2026",
-      "url": "https://www.costar.com/article/1445677246/industrial-realty-group-takes-portfolio-public",
-      "summary": "Los Angeles-based Industrial Realty Group is combining 98 industrial properties into a new publicly traded REIT through a definitive contribution agreement with Connecticut-based mortgage lender Sachem Capital Corp., creating IRG Realty Trust with an implied enterprise value of approximately $3.4 billion. The combined entity is expected to rank among the top 10 publicly listed industrial REITs by enterprise value, with IRG owning approximately 94.1% of the new company via operating partnership units and existing Sachem shareholders retaining roughly 5.9%. The 98 properties \u2014 described as mission-critical industrial infrastructure leased to manufacturing, distribution, and logistics tenants \u2014 carry a gross real estate asset value of $2.9 billion; Sachem's approximately $470 million in existing mortgage loan assets will also be included. The transaction, unanimously approved by Sachem's board, is expected to close by end of 2026 subject to Sachem shareholder approval, with Scotiabank advising IRG and Piper Sandler advising Sachem.",
-      "category": "economy",
-      "secondary_categories": [
-        "industries"
-      ],
-      "id": "a54ddb5a8c65",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "2026 Iran war fuel crisis \u2014 Strait of Hormuz closure: ongoing global shipping and energy disruption",
-      "source": "Wikipedia (citing IEA, CRS, Dallas Fed, UNCTAD)",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis",
-      "summary": "The closure of the Strait of Hormuz, through which approximately 20% of global oil trade passes, has caused what the IEA characterized as the 'largest supply disruption in the history of the global oil market.' Iranian forces declared the Strait closed beginning March 4, 2026, following the U.S.-Israeli Operation Epic Fury launched February 28; a brief reopening April 21\u201322 collapsed within 24 hours. Brent crude prices have exceeded $90 per barrel, container shipping companies including Maersk and Hapag-Lloyd suspended Mideast routes, and Asia-to-U.S. East Coast transpacific rates have climbed to approximately $3,800/FEU as of May 12, 2026, per SCFI data.",
-      "category": "logistics",
-      "secondary_categories": [
-        "economy",
-        "policy"
-      ],
-      "id": "9d111db672d5",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "NerdWallet economic outlook week of May 18: Inflation risks tipping as CPI and PPI data signal continued price pressure",
-      "source": "NerdWallet",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.nerdwallet.com/finance/learn/state-of-the-economy",
-      "summary": "NerdWallet senior economist Elizabeth Renter noted that this week's CPI and PPI data signal risks tilting toward inflation, with the oil price shock described as 'significant, and only beginning.' Both sides of the Fed's dual mandate \u2014 stable prices and full employment \u2014 have been at risk, but current data show inflationary pressures strengthening. The U.S. trade deficit stood at $60.3 billion in March 2026, up 4.4% from February, with imports reaching $381.2 billion and exports $320.9 billion per BEA data.",
-      "category": "economy",
-      "secondary_categories": [],
-      "id": "049ddf4a03ff",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
-    {
-      "headline": "Trump talks up trade deals with China, but experts see no big wins for U.S.",
-      "source": "CBS News",
-      "source_type": "free",
-      "date": "May 18, 2026",
-      "url": "https://www.cbsnews.com/news/trump-xi-jinping-china-trade-deals-boeing/",
-      "summary": "Analysts and former trade negotiators assessed the Trump-Xi Beijing summit as falling short of a major breakthrough despite White House claims of 'fantastic trade deals.' China agreed to purchase at least $17 billion in U.S. agricultural products over three years and restored market access for hundreds of U.S. beef facilities, according to the White House fact sheet. China also agreed to address U.S. access concerns for rare earths and other critical minerals, while industries have continued to struggle with supply shortages since Beijing postponed sweeping rare earth controls in October 2025. Boeing shares fell 3.8% on Friday, reflecting investor disappointment that the aircraft order of 200 jets was smaller than pre-summit expectations.",
-      "category": "policy",
-      "secondary_categories": [
-        "industries",
-        "economy"
-      ],
-      "id": "174c5f42589b",
-      "added_at": "2026-05-18T23:53:21.769973Z",
-      "timestamp": "2026-05-18T23:53:21.769973Z"
-    },
     {
       "item_index": 2,
       "headline": "Everything's coming up roses: Flower wholesaler plants roots in Commerce with $34M acquisition",
@@ -1831,6 +1450,261 @@
       "id": "7e980a7f62d5",
       "added_at": "2026-05-21T23:45:38.532405Z",
       "timestamp": "2026-05-21T23:45:38.532405Z"
+    },
+    {
+      "item_index": 1,
+      "headline": "State of Freight 5 takeaways: Montgomery talk; short-term strength",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/state-of-freight-5-takeaways-montgomery-talk-short-term-strength",
+      "summary": "FreightWaves' monthly State of Freight webinar highlighted fallout from the Montgomery case as a key discussion topic among freight industry participants. The webinar also identified short-term strength in freight market conditions. The Montgomery case was described as a subject generating notable industry attention at the time of the event.",
+      "category": "logistics",
+      "secondary_categories": [
+        "policy"
+      ],
+      "id": "b42f77c4ebcd",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "item_index": 4,
+      "headline": "Freight Fraud Has Gone Corporate",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/freight-fraud-has-gone-corporate",
+      "summary": "Freight fraud incidents are climbing by double digits year over year, according to analysis from Reliance Partners. The report details how freight fraud has evolved in structure and sophistication, taking on more organized, corporate characteristics. Reliance Partners also outlined recommended countermeasures for carriers and brokers facing the escalating threat.",
+      "category": "logistics",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "aaee93e22e63",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "item_index": 6,
+      "headline": "OmniTrax tabs Hoskins to lead transload",
+      "source": "FreightWaves",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.freightwaves.com/news/omnitrax-tabs-hoskins-to-lead-transload",
+      "summary": "OmniTRAX has appointed Hoskins as Vice President of Transload to lead expansion efforts across its network. The appointment is tied to a broader network-wide transload growth strategy at the short-line railroad operator. No further financial terms or timeline details were disclosed in the announcement.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "9bf7ce11a44f",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "item_index": 8,
+      "headline": "CU Lines' network expansion gives fresh capacity influx into Middle East trades",
+      "source": "Journal of Commerce",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://joc.com/article/cu-lines-network-expansion-gives-fresh-capacity-influx-into-middle-east-trades-6225202",
+      "summary": "Shanghai-based carrier CU Lines has launched two new services connecting Asia to the Middle East, adding fresh capacity to the Persian Gulf trade corridor. The expansion comes amid strong demand growth in the region and ongoing disruptions to mainline services on other routes. The new services are positioned to capture capacity demand described as showing strong growth signals in Middle East trades.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "0a545c248c0c",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "item_index": 15,
+      "headline": "Top CBRE Researcher Ebere Anokute: E-Commerce's Impact Is 'Overblown'",
+      "source": "Commercial Observer",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://commercialobserver.com/2026/05/cbre-retail-ebere-anokute-e-commerce-icsc/",
+      "summary": "CBRE researcher Ebere Anokute argues that the impact of e-commerce on commercial real estate has been overstated, according to a Commercial Observer interview. Anokute notes that macroeconomic factors including inflation, interest rates, and employment trends are complicating the read on where the retail sector sits in the current cycle. The comments reflect a broader reassessment of e-commerce's role as the primary driver of industrial and retail real estate demand dynamics.",
+      "category": "socal",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "a1ffa500e7ec_loc",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "industries"
+    },
+    {
+      "item_index": 15,
+      "headline": "Top CBRE Researcher Ebere Anokute: E-Commerce's Impact Is 'Overblown'",
+      "source": "Commercial Observer",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://commercialobserver.com/2026/05/cbre-retail-ebere-anokute-e-commerce-icsc/",
+      "summary": "CBRE researcher Ebere Anokute argues that the impact of e-commerce on commercial real estate has been overstated, according to a Commercial Observer interview. Anokute notes that macroeconomic factors including inflation, interest rates, and employment trends are complicating the read on where the retail sector sits in the current cycle. The comments reflect a broader reassessment of e-commerce's role as the primary driver of industrial and retail real estate demand dynamics.",
+      "category": "industries",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "a1ffa500e7ec",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "headline": "Hormuz Closure Threatens Recession Rivaling 2008, Rapidan Says",
+      "source": "Bloomberg",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/hormuz-closure-threatens-recession-rivaling-2008-rapidan-says",
+      "summary": "A closure of the Strait of Hormuz through August raises the risk of an economic downturn approaching the scale of the 2008 Great Recession, according to Rapidan Energy Group analysis reported by Bloomberg. Rapidan's base case assumes the waterway reopens in July, resulting in an average oil demand reduction of 2.6 million barrels a day and benchmark Brent crude peaking near $130 a barrel over the summer. A more pessimistic scenario extending the closure through August would cause the oil supply deficit to grow to 6 billion barrels per day in Q3. The strait has been largely closed to non-Iranian shipping since the US and Israel launched strikes against Iran in late February.",
+      "category": "economy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "de10cd9ed394",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "headline": "U.S. to Award $2 Billion to Quantum Computing Firms, Take Equity Stakes",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com",
+      "summary": "The Wall Street Journal reported, citing the Commerce Department, that the Trump administration is awarding $2 billion in grants to nine quantum-computing companies in deals that include U.S. government equity stakes. IBM is the largest recipient at $1 billion and will use the CHIPS Act funding to establish Anderon, described as America's first dedicated quantum chip manufacturing facility in Albany, New York. GlobalFoundries is set to receive $375 million, while D-Wave Quantum, Rigetti Computing, and Infleqtion are each expected to receive approximately $100 million. Commerce Secretary Howard Lutnick confirmed the deals; shares of quantum companies surged 7% to 30% on the news.",
+      "category": "socal",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "f98e7a663d7f_loc",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "economy"
+    },
+    {
+      "headline": "U.S. to Award $2 Billion to Quantum Computing Firms, Take Equity Stakes",
+      "source": "Wall Street Journal",
+      "source_type": "paywalled",
+      "date": "May 21, 2026",
+      "url": "https://www.wsj.com",
+      "summary": "The Wall Street Journal reported, citing the Commerce Department, that the Trump administration is awarding $2 billion in grants to nine quantum-computing companies in deals that include U.S. government equity stakes. IBM is the largest recipient at $1 billion and will use the CHIPS Act funding to establish Anderon, described as America's first dedicated quantum chip manufacturing facility in Albany, New York. GlobalFoundries is set to receive $375 million, while D-Wave Quantum, Rigetti Computing, and Infleqtion are each expected to receive approximately $100 million. Commerce Secretary Howard Lutnick confirmed the deals; shares of quantum companies surged 7% to 30% on the news.",
+      "category": "economy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "f98e7a663d7f",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "headline": "A New ELFA Survey Shows Equipment Finance Leaders Feeling Better About the Market After a Weaker April",
+      "source": "Modern Materials Handling",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.mmh.com/",
+      "summary": "The Equipment Leasing & Finance Association (ELFA) released its May 2026 Monthly Confidence Index for the Equipment Finance Industry, showing confidence rose to 59.9 from 54.6 in April. When assessing the next four months, 27.3% of executives believe business conditions will improve, up from 11.8% in April, while those expecting conditions to worsen fell to 9.1% from 29.4%. Demand for leases and loans to fund capital expenditures is expected to increase by 26.1% of respondents, up from 10.5% in April. The index provides a qualitative assessment from key executives in the $1.3 trillion equipment finance industry.",
+      "category": "economy",
+      "secondary_categories": [
+        "industries"
+      ],
+      "id": "4c7e7879c2f0",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "headline": "ITS Logistics May Supply Chain Report: Broker Liability Ruling and Inventory Replenishment Collide with Most Expensive Freight Market in Years",
+      "source": "GlobeNewswire / ITS Logistics",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/05/21/3299608/0/en/ITS-Logistics-May-Supply-Chain-Report-Broker-Liability-Ruling-and-Inventory-Replenishment-Collide-with-Most-Expensive-Freight-Market-in-Years.html",
+      "summary": "ITS Logistics released its May Supply Chain Report warning that capacity contraction, record transportation prices, and escalating parcel surcharges are squeezing shipper margins as restocking demand accelerates. CPI rose 3.8% year-over-year in April 2026, with energy prices from Strait of Hormuz disruptions pushing diesel more than $2 per gallon above last year's rates. The Logistics Managers' Index posted Transportation Price levels of 95.0 \u2014 the highest ever recorded \u2014 and dry van and reefer linehaul spot rates climbed more than 20% above the five-year average in mid-May. Capacity shortages are reported throughout key corridors as produce season continues.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy"
+      ],
+      "id": "e05d6bbaa792",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "headline": "Weekly Freight Report: May 21, 2026 \u2014 Hormuz Toll Talks, Peak Season Surcharges, China Tariff Floor Signals",
+      "source": "Kesco Logistics",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.kescologistics.com/shipping-news/weekly-freight-report-may-21-2026/",
+      "summary": "Iran is in talks with Oman to formalize a permanent toll system for vessels transiting the Strait of Hormuz, with traffic collapsing from 135 ships per day pre-war to roughly 26 over a recent 48-hour window. Oil is hovering near $100 a barrel and pump prices have climbed above $4.55 a gallon \u2014 the highest since 2022 \u2014 with fuel surcharges baked into ocean and trucking quotes. Trans-Pacific spot rates have climbed roughly $1,000 per FEU since the Iran war began in late February, sitting at approximately $2,800 per FEU to the West Coast and $4,300 per FEU to the East Coast. Ocean Network Express filed a $2,000 per FEU peak season surcharge on eastbound trans-Pacific cargo effective June 1, with other carriers expected to follow.",
+      "category": "logistics",
+      "secondary_categories": [
+        "economy",
+        "policy"
+      ],
+      "id": "d5510e407d81",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "headline": "WSI's Warehouse Wire: May 21, 2026 \u2014 USMCA Review, CVSA Roadcheck Fallout, and Manufacturing Trade Stakes",
+      "source": "WSI (Warehouse Specialists Inc.)",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.wsinc.com/blog/wsi-warehouse-wire-may-22-2026",
+      "summary": "WSI's weekly roundup highlights a new National Association of Manufacturers report stating that U.S. goods exports to Canada and Mexico directly support 2 million American jobs, with 71% of imports from Canada and 64% from Mexico consisting of industrial materials, parts, components, or capital equipment used in further U.S. manufacturing. The May 12\u201314 CVSA International Roadcheck blitz resulted in 38,926 inspections, 69,446 violations, and 13,273 out-of-service orders, with carrier CSA BASIC scores expected to reflect the impact at the June 8 FMCSA Safety Measurement System update. FMCSA is also changing its DataQs challenge process beginning in mid-September, adding a three-stage independent review for denied challenges. Manufacturers cited in the NAM report said future investment plans depend on clear North American trade rules as USMCA talks intensify ahead of the July 1 deadline.",
+      "category": "logistics",
+      "secondary_categories": [
+        "policy",
+        "industries"
+      ],
+      "id": "9abf3b04cc4a",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "headline": "U.S. Indicts Four Chinese Container Manufacturers Alleging Pandemic-Era Price-Fixing Cartel",
+      "source": "CNBC",
+      "source_type": "free",
+      "date": "May 20, 2026",
+      "url": "https://www.cnbc.com/2026/05/20/china-shipping-companies-department-of-justice-indictment-pandemic.html",
+      "summary": "The U.S. Justice Department unsealed an indictment against four of the world's largest shipping container manufacturers \u2014 China International Marine Containers (CIMC), Dong Fang International Container, CXIC Group Containers, and Singamas Container Holdings \u2014 and seven executives, alleging they conspired to restrict output and fix prices of standard dry shipping containers from November 2019 through at least January 2024. The companies collectively manufacture approximately 95% of the world's standard unrefrigerated shipping containers, according to the DOJ. Prosecutors allege the conspiracy roughly doubled container prices between 2019 and 2021, with CIMC's profits soaring from $20 million in 2019 to $1.75 billion in 2021. One executive, Vick Ma of Singamas, was arrested in France in April and is awaiting extradition; six others remain at large. The case was filed in the U.S. District Court for the Northern District of California.",
+      "category": "policy",
+      "secondary_categories": [
+        "logistics"
+      ],
+      "id": "2d5e7a5a55d9",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
+    },
+    {
+      "headline": "Drewry World Container Index \u2014 May 21: Transpacific Rates Rise, ONE Files $2,000 PSS for June 1",
+      "source": "Drewry Shipping Consultants",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+      "summary": "Drewry's May 21 World Container Index shows freight rates from Shanghai to Los Angeles increased 1% to $3,385 per 40ft container, while Shanghai to New York grew 2% to $4,317 per 40ft container. Ocean Network Express (ONE) has announced a Peak Season Surcharge of $2,000 per 40ft container on Transpacific eastbound cargo, effective June 1, with CMA CGM announcing new FAK levels above current rates for Asia-Europe effective the same date. Seven blank sailings have been announced on the Transpacific for the coming week, tightening capacity. Drewry expects rates to increase further in coming weeks as early peak season trends emerge across East-West trade lanes, compounded by ongoing Middle East geopolitical tensions and elevated bunker costs.",
+      "category": "socal",
+      "secondary_categories": [],
+      "id": "014f1f660787_loc",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z",
+      "submarkets": [
+        "los-angeles"
+      ],
+      "is_overflow": true,
+      "overflow_from": "logistics"
+    },
+    {
+      "headline": "Drewry World Container Index \u2014 May 21: Transpacific Rates Rise, ONE Files $2,000 PSS for June 1",
+      "source": "Drewry Shipping Consultants",
+      "source_type": "free",
+      "date": "May 21, 2026",
+      "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+      "summary": "Drewry's May 21 World Container Index shows freight rates from Shanghai to Los Angeles increased 1% to $3,385 per 40ft container, while Shanghai to New York grew 2% to $4,317 per 40ft container. Ocean Network Express (ONE) has announced a Peak Season Surcharge of $2,000 per 40ft container on Transpacific eastbound cargo, effective June 1, with CMA CGM announcing new FAK levels above current rates for Asia-Europe effective the same date. Seven blank sailings have been announced on the Transpacific for the coming week, tightening capacity. Drewry expects rates to increase further in coming weeks as early peak season trends emerge across East-West trade lanes, compounded by ongoing Middle East geopolitical tensions and elevated bunker costs.",
+      "category": "logistics",
+      "secondary_categories": [],
+      "id": "014f1f660787",
+      "added_at": "2026-05-22T10:47:01.611653Z",
+      "timestamp": "2026-05-22T10:47:01.611653Z"
     }
   ],
   "settings": {
