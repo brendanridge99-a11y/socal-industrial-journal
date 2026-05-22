@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-21T22:00:56.117Z",
-  "elapsed_seconds": 2.1,
+  "harvested_at": "2026-05-22T00:00:55.878Z",
+  "elapsed_seconds": 1.9,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 75,
+  "articles_count": 71,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 13,
+      "count": 14,
       "total": 50,
       "error": null
     },
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 5,
+      "count": 3,
       "total": 30,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 9,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 13,
+      "count": 11,
       "total": 17,
       "error": null
     },
@@ -91,7 +91,7 @@
     {
       "source": "CalMatters",
       "success": true,
-      "count": 7,
+      "count": 8,
       "total": 10,
       "error": null
     },
@@ -117,6 +117,13 @@
     }
   ],
   "articles": [
+    {
+      "headline": "State of Freight 5 takeaways: Montgomery talk; short-term strength",
+      "url": "https://www.freightwaves.com/news/state-of-freight-5-takeaways-montgomery-talk-short-term-strength",
+      "source": "FreightWaves",
+      "raw_date": "Thu, 21 May 2026 22:36:56 +0000",
+      "description": "Fallout from the Montgomery case was a subject in this month’s State of Freight webinar. The post State of Freight 5 takeaways: Montgomery talk; short-term strength appeared first on FreightWaves ."
+    },
     {
       "headline": "AAR slams “hypocrisy” as Trump-backed rail safety measure is included in transportation funding bill",
       "url": "https://www.freightwaves.com/news/aar-slams-hypocrisy-as-trump-backed-rail-safety-measure-is-included-in-transportation-funding-bill",
@@ -286,18 +293,11 @@
       "description": "Trucking industry insurance costs are on the rise, with premiums outpacing consumer inflation by more than five percentage points, according to data from the American Transportation Research Institute (ATRI), released this week. ATRI’s report, Trucking’s Rising Insurance Costs: Issues and Opportunit"
     },
     {
-      "headline": "Google expert: AI is redefining tech jobs",
-      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/google-expert-ai-is-redefining-tech-jobs",
-      "source": "DC Velocity",
-      "raw_date": "Wed, 20 May 2026 20:46:00 +0000",
-      "description": "Technology and search giant Google and its parent company Alphabet Inc. are known for their constant search for major—not minor—disruptive tech ideas in web and cloud markets. Company executives often refer to their standard for success as achieving not just a 10% increase in business growth, but sc"
-    },
-    {
-      "headline": "Manhattan tool explains the “why” behind agentic AI decisions",
-      "url": "https://www.dcvelocity.com/technology/artificial-intelligence/manhattan-tool-explains-the-why-behind-agentic-ai-decisions",
-      "source": "DC Velocity",
-      "raw_date": "Wed, 20 May 2026 20:02:02 +0000",
-      "description": "Artificial intelligence (AI) agents hold strong promise for helping logistics professionals make better decisions by analyzing massive data sets at lighting speed, but one thing slowing the spread of the technology is that many people are not willing to blindly trust its results. To address user ske"
+      "headline": "Douglas Emmett cements resi conversion for Westwood office tower",
+      "url": "https://therealdeal.com/la/2026/05/21/office-conversion-new-apartments-coming-to-westwood/",
+      "source": "The Real Deal",
+      "raw_date": "Thu, 21 May 2026 22:45:00 +0000",
+      "description": "Douglas Emmett’s housing plans for the corner of Wilshire and Westwood Boulevards are coming into focus.&#160; On Wednesday, the Santa Monica-based real estate investment trust filed an application with the City of Los Angeles to convert a 17-story, approximately 247,000-square-foot high-rise at 109"
     },
     {
       "headline": "LA city’s top construction permits: Week ending 5/17/26",
@@ -340,27 +340,6 @@
       "source": "The Real Deal",
       "raw_date": "Wed, 20 May 2026 22:41:14 +0000",
       "description": "A decommissioned school campus in Baldwin Park is poised for redevelopment into housing.&#160; Storm Properties is pursuing the construction of 104 townhomes at the former Florence Flanner School site at 1314 Le Borgne Avenue, Urbanize Los Angeles reported. The proposed development, currently in the"
-    },
-    {
-      "headline": "Los Feliz home floated for demolition to give way to affordable apartment project",
-      "url": "https://therealdeal.com/la/2026/05/20/affordable-housing-coming-to-single-family-site-in-los-feliz/",
-      "source": "The Real Deal",
-      "raw_date": "Wed, 20 May 2026 21:30:00 +0000",
-      "description": "A single-family home in Los Feliz is poised to give way to an affordable housing building.&#160; An application filed with the Los Angeles Department of City Planning outlines a proposal to demolish an existing house at 1756 North Serrano Avenue and replace it with a six-story structure featuring 40"
-    },
-    {
-      "headline": "YIMBY movement split on who should be CA’s next governor",
-      "url": "https://therealdeal.com/la/2026/05/20/yimby-movement-split-on-california-governor-endorsement/",
-      "source": "The Real Deal",
-      "raw_date": "Wed, 20 May 2026 21:23:16 +0000",
-      "description": "Across political parties, the leading candidates in California’s crowded gubernatorial race have put solving the state’s housing crisis at the center of their campaigns. As the issue has risen in importance, so has an endorsement from the YIMBYs (short for yes, in my backyard). Over the last decade,"
-    },
-    {
-      "headline": "“He’s a character”: LA mayoral hopeful Spencer Pratt nabs nod from Trump",
-      "url": "https://therealdeal.com/la/2026/05/20/donald-trump-wants-spencer-pratt-to-do-well-in-mayoral-race/",
-      "source": "The Real Deal",
-      "raw_date": "Wed, 20 May 2026 20:15:00 +0000",
-      "description": "President Donald Trump said he’d like to see Spencer Pratt “do well” in the election as Los Angeles’ mayoral race heats up. The president is the latest to offer support for Pratt, who has garnered notable real estate donors in his time campaigning for Los Angeles mayor. Compass&#8217; Tracy Tutor, l"
     },
     {
       "headline": "Top CBRE Researcher Ebere Anokute: E-Commerce’s Impact Is ‘Overblown’",
@@ -440,18 +419,18 @@
       "description": "AvalonBay and Equity Residential, two of the largest multifamily owners in the U.S., are merging to form one of the country’s largest real estate companies with a total enterprise value of roughly $69 billion, the companies announced Thursday. Once the all-stock merger is complete, the multifamily b"
     },
     {
-      "headline": "State of California Secures 20K-SF Office at 1180 Avenue of the Americas",
-      "url": "https://commercialobserver.com/2026/05/state-of-california-lease-office-1180-avenue-of-the-americas/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 21:38:45 +0000",
-      "description": "The State of California has leased 20,000 square feet of office space at 1180 Avenue of the Americas, Commercial Observer has learned. The deal appears to mark a relocation of the California Franchise Tax Board’s Manhattan field office. The tenant previously occupied an office at the nearby 1212 Ave"
+      "headline": "Feds charge former L.A. nonprofit worker with possessing fentanyl, meth near MacArthur Park",
+      "url": "https://www.latimes.com/california/story/2026-05-21/former-la-nonprofit-worker-fentanyl-federal-charges",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 22:19:14 GMT",
+      "description": "Federal prosecutors allege that Christopher Barret Johnson, an ex-employee of a harm reduction organization that has served MacArthur Park, was caught by police with baggies of fentanyl and meth in his car, along with a scale."
     },
     {
-      "headline": "Shirley Aninias School Signs 23K-SF Lease at 30 Wall Street",
-      "url": "https://commercialobserver.com/2026/05/shirley-aninias-school-lease-30-wall-street/",
-      "source": "Commercial Observer",
-      "raw_date": "Wed, 20 May 2026 21:33:04 +0000",
-      "description": "The Shirley Aninias School (SAS), a private special education program for children, has signed the largest lease to date at a Financial District office building. SAS, which was founded in 2022 and provides academics and therapies for neurodiverse students ages 4 to 13, inked a 15-year deal for 23,00"
+      "headline": "Influencer files complaint against Steyer campaign, alleging violations",
+      "url": "https://www.latimes.com/politics/story/2026-05-21/influencer-files-complaint-against-steyer-campaign-alleging-violations",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 22:03:36 GMT",
+      "description": "The influencer said Steyer's campaign committee failed to notify her of her disclosure requirements, as required by law."
     },
     {
       "headline": "L.A. City Council approves $15-billion budget, clearing the way to hire 510 police officers",
@@ -510,11 +489,11 @@
       "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
     },
     {
-      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
-      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
+      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
+      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
+      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
     },
     {
       "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
@@ -524,11 +503,11 @@
       "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working-class character by investment capital. Now, some investors are welcomed for building what the community needs."
     },
     {
-      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
-      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
+      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
+      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
+      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
     },
     {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
@@ -566,18 +545,11 @@
       "description": "Multiple fires broke out over 48 hours in Southern California this week. What does that say about our fires this year?"
     },
     {
-      "headline": "Mayoral candidate Raman unveils rebuilding plan for Pacific Palisades",
-      "url": "https://www.latimes.com/environment/story/2026-05-20/mayoral-candidate-raman-unveils-rebuilding-plan-for-pacific-palisades",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 20:30:03 GMT",
-      "description": "Raman is weighing in on an issue that has defined her two rivals: Pratt, whose home burned in the Palisades fire, and Bass, whose handling of the disaster has become a liability."
-    },
-    {
-      "headline": "4-year-old girl found dead in vehicle in Valley Village",
-      "url": "https://www.latimes.com/california/story/2026-05-20/4-year-old-found-dead-in-vehicle-in-valley-village",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 20:08:56 GMT",
-      "description": "The Los Angeles Police Department is investigating the death of a 4-year-old girl who was apparently left inside a hot vehicle in Valley Village."
+      "headline": "California bill moves to make cheaper alternative fuel available to more drivers",
+      "url": "https://calmatters.org/environment/2026/05/gas-prices-e85-conversion-kits/",
+      "source": "CalMatters",
+      "raw_date": "Thu, 21 May 2026 23:52:00 +0000",
+      "description": "In the face of the nation&#8217;s highest gas prices, California lawmakers approved a bill to ease restrictions on E85 conversion kits — devices that let conventional gasoline cars run on a cheaper, mostly ethanol fuel blend. Assembly Bill 2046, dubbed the “Access to Affordable Gas Act” by its autho"
     },
     {
       "headline": "After AI layoffs, Newsom orders state government to find ways to ease the pain",
