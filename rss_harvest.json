@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-22T10:00:49.498Z",
+  "harvested_at": "2026-05-22T12:00:49.633Z",
   "elapsed_seconds": 3,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 69,
+  "articles_count": 73,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 14,
+      "count": 15,
       "total": 50,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 11,
+      "count": 12,
       "total": 17,
       "error": null
     },
@@ -84,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 16,
+      "count": 14,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 7,
+      "count": 9,
       "total": 10,
       "error": null
     },
@@ -112,12 +112,26 @@
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 2,
+      "count": 4,
       "total": 6,
       "error": null
     }
   ],
   "articles": [
+    {
+      "headline": "ATRI documents big jump in insurance premiums even as providers in the red",
+      "url": "https://www.freightwaves.com/news/atri-documents-big-jump-in-insurance-premiums-even-as-providers-in-the-red",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
+      "description": "ATRI’s report on truck insurance costs documents a big spike paid by carriers. The post ATRI documents big jump in insurance premiums even as providers in the red appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Earlier broker liability victory for Echo sent back to lower court after Montgomery",
+      "url": "https://www.freightwaves.com/news/earlier-broker-liability-victory-for-echo-sent-back-to-lower-court-after-montgomery",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 11:13:16 +0000",
+      "description": "Echo Global will once again face a South Carolina court following a judge’s order tied to Montgomery. The post Earlier broker liability victory for Echo sent back to lower court after Montgomery appeared first on FreightWaves ."
+    },
     {
       "headline": "State of Freight 5 takeaways: Montgomery talk; short-term strength",
       "url": "https://www.freightwaves.com/news/state-of-freight-5-takeaways-montgomery-talk-short-term-strength",
@@ -208,13 +222,6 @@
       "source": "FreightWaves",
       "raw_date": "Thu, 21 May 2026 12:12:25 +0000",
       "description": "The U.S. Justice Department has indicted four major Chinese shipping container manufacturers and seven executives in a global price-fixing conspiracy. The post DoJ indicts Chinese container makers on price-fixing charges appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Another CA truck crash and two dead kids on Highway 99",
-      "url": "https://www.freightwaves.com/news/another-ca-truck-crash-and-two-dead-kids-on-highway-99",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 09:55:00 +0000",
-      "description": "A Freightliner Cascadia operated by Amritsar Trans Inc., a five-truck carrier out of Manteca, California, rear-ended three vehicles on Highway 99 near Lodi on May 19, 2026, killing two young men. The driver fled on foot. The carrier sits inside a web of 267 carriers clustered across residential addr"
     },
     {
       "headline": "NY-NJ maritime industry honors ILA’s McNamara",
@@ -322,6 +329,13 @@
       "description": "Aaron Kirman’s Christie’s International Real Estate Southern California is testing the breadth of demand for coastal condo living, with the brokerage zeroing in on locals previously priced out of the market and international buyers as prospects for the recently opened Privé Malibu. Kirman, along wit"
     },
     {
+      "headline": "How CRE Analysts Will Best Learn the Work That AI Can’t Do",
+      "url": "https://commercialobserver.com/2026/05/training-cre-analysts-with-ai/",
+      "source": "Commercial Observer",
+      "raw_date": "Fri, 22 May 2026 12:00:21 +0000",
+      "description": "For decades, the path to becoming a competent asset manager or acquisitions principal was unglamorous and repetitive. A junior analyst spent their first two years buried in offering memoranda, lease abstracts and trailing 12-month financials. They made the small, expensive mistakes that taught them "
+    },
+    {
       "headline": "Top CBRE Researcher Ebere Anokute: E-Commerce’s Impact Is ‘Overblown’",
       "url": "https://commercialobserver.com/2026/05/cbre-retail-ebere-anokute-e-commerce-icsc/",
       "source": "Commercial Observer",
@@ -399,6 +413,41 @@
       "description": "AvalonBay and Equity Residential, two of the largest multifamily owners in the U.S., are merging to form one of the country’s largest real estate companies with a total enterprise value of roughly $69 billion, the companies announced Thursday. Once the all-stock merger is complete, the multifamily b"
     },
     {
+      "headline": "It&#x27;s OK to pack medical marijuana on a flight ... sometimes. What you need to know",
+      "url": "https://www.latimes.com/california/story/2026-05-22/medical-marijuana-on-flight-what-you-need-to-know",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "It's OK to pack medical marijuana when flying out of California, but whether those products will still be with you when you land is an open question, experts say."
+    },
+    {
+      "headline": "More &#x27;rough sleepers&#x27; on Hollywood streets as the city removes tents, bringing new challenges",
+      "url": "https://www.latimes.com/california/story/2026-05-22/more-rough-sleepers-on-hollywood-streets-as-city-removes-tents-bringing-new-challenges",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "Hollywood service organizations conducted their own homeless count to help them adapt their outreach to a changing population that has fewer tents and more people sleeping rough or in vehicles"
+    },
+    {
+      "headline": "Commentary: At ease — permanently. The SoCal military academies that thrived and then folded their tents",
+      "url": "https://www.latimes.com/california/story/2026-05-22/at-ease-permanently-socal-military-academies-that-thrived-then-folded-their-tents",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "At the start of the 20th century, Southern California was home to an astonishing number of military academies designed to turn boys into officers and gentlemen."
+    },
+    {
+      "headline": "Spencer Pratt&#x27;s campaign spent more than $15,000 at pricey Hotel Bel-Air",
+      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratts-campaign-spent-more-than-15-000-at-pricey-hotel-bel-air",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "Pratt, whose home burned in the Palisades fire, has said he is living at the hotel because of threats he has received."
+    },
+    {
+      "headline": "The three men killed in San Diego shooting saved many others, &#x27;did not die in vain&#x27;",
+      "url": "https://www.latimes.com/california/story/2026-05-22/san-diego-mosque-shooting-victims-heroes",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "Meet the three men who sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
+    },
+    {
       "headline": "Residents evacuated as toxic chemical spews from tank at Garden Grove aerospace company",
       "url": "https://www.latimes.com/california/story/2026-05-21/residents-evacuated-toxic-leak-garden-grove-aerospace-company",
       "source": "Los Angeles Times",
@@ -462,53 +511,18 @@
       "description": "Immigrant detainees are on a hunger strike to call attention to complaints about medical neglect, mold, dirty water and a reduction of food rations."
     },
     {
-      "headline": "This L.A. bookstore is leading a revolt against &#x27;greedy landlords&#x27;",
-      "url": "https://www.latimes.com/entertainment-arts/books/story/2026-05-21/read-books-eagle-rock-rent-hike-protests",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
+      "headline": "The CalPERS gamble: Why the push to invest in private equity alarms public employees",
+      "url": "https://calmatters.org/commentary/2026/05/calpers-gamble-private-equity-california/",
+      "source": "CalMatters",
+      "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
+      "description": "CalPERS shifted from stable, traditional assets to private equity and a private credit portfolio. Details about their investment risk and fees are secret."
     },
     {
-      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
-      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
-    },
-    {
-      "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
-      "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
-    },
-    {
-      "headline": "Arellano: Steve Hilton and Spencer Pratt need Latinos, not Trump",
-      "url": "https://www.latimes.com/california/story/2026-05-21/steve-hilton-spencer-pratt-latino-support-trump",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "With less than two weeks before the primary election, Steve Hilton is leading in the polls for governor, and Los Angeles mayoral hopeful Spencer Pratt is making the city's progressive class sweat."
-    },
-    {
-      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
-      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
-    },
-    {
-      "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
-      "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
-    },
-    {
-      "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
-      "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working-class character by investment capital. Now, some investors are welcomed for building what the community needs."
+      "headline": "18 years after California voters approved the bullet train, progress and finances are still stalled",
+      "url": "https://calmatters.org/commentary/2026/05/bullet-train-progress-stalled-california/",
+      "source": "CalMatters",
+      "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
+      "description": "The bullet train project launched in 2008 with promises of completion by 2020. Now it's mostly concrete supports. No tracks or train."
     },
     {
       "headline": "California bill moves to make cheaper alternative fuel available to more drivers",
@@ -586,6 +600,20 @@
       "source": "San Diego Business Journal",
       "raw_date": "Thu, 21 May 2026 11:59:57 +0000",
       "description": "Bank of America has a new San Diego market president. The U.S.’s second largest bank announced May 20 that Anthony DiBlasi, managing director for Merrill Lynch for San Diego, will take the role, replacing Mark Kremers who left the job in February to be Merrill Lynch’s Mountain Pacific Division Manag"
+    },
+    {
+      "headline": "Printing company buys warehouse",
+      "url": "https://iebusinessdaily.com/printing-company-buys-warehouse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=printing-company-buys-warehouse",
+      "source": "IE Business Daily",
+      "raw_date": "Fri, 22 May 2026 10:23:51 +0000",
+      "description": "A printing company that specializes in posters and other music-industry art has bought an industrial facility in Chino. InHouse Media Group paid $3 million for the 9,200-square-foot building at 14963 Sierra Bonita Lane near the 71 Freeway, according to Voit Commercial Real Estate. Voit Commercial re"
+    },
+    {
+      "headline": "Fast-food restaurant sold",
+      "url": "https://iebusinessdaily.com/fast-food-restaurant-sold/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fast-food-restaurant-sold",
+      "source": "IE Business Daily",
+      "raw_date": "Fri, 22 May 2026 10:18:40 +0000",
+      "description": "A 2,700-square-foot building in Ontario occupied by a Wienerschnitzel restaurant has been sold. The free-standing building at 4605 Mills Circle was purchased by a private investor for $2.8 million, according to Progressive Real Estate Partners in Rancho Cucamonga. The buyer was represented by Progre"
     },
     {
       "headline": "Global Oil Disruption and Regional Economic Resilience",
