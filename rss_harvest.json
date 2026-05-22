@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-22T00:00:55.878Z",
-  "elapsed_seconds": 1.9,
+  "harvested_at": "2026-05-22T02:01:19.944Z",
+  "elapsed_seconds": 25.8,
   "feeds_attempted": 16,
-  "feeds_successful": 14,
-  "articles_count": 71,
+  "feeds_successful": 13,
+  "articles_count": 67,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 3,
+      "count": 2,
       "total": 30,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 7,
+      "count": 6,
       "total": 10,
       "error": null
     },
@@ -70,10 +70,9 @@
     },
     {
       "source": "Propmodo",
-      "success": true,
+      "success": false,
       "count": 0,
-      "total": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "source": "Modern Materials Handling",
@@ -84,14 +83,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 18,
+      "count": 17,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 8,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -286,13 +285,6 @@
       "description": "At the age of 79, the legendary Duke University basketball coach Mike Krzyzewski now walks a bit gingerly thanks to his two artificial hips, two artificial knees, and an artificial ankle. But his wit and his desire to win still drive the philosophies of leadership that he shared in remarks from a ke"
     },
     {
-      "headline": "Insurance cost increases outpace consumer inflation, trucking industry report shows",
-      "url": "https://www.dcvelocity.com/editorial/featured/insurance-cost-increases-outpace-consumer-inflation-trucking-industry-report-shows",
-      "source": "DC Velocity",
-      "raw_date": "Wed, 20 May 2026 22:03:27 +0000",
-      "description": "Trucking industry insurance costs are on the rise, with premiums outpacing consumer inflation by more than five percentage points, according to data from the American Transportation Research Institute (ATRI), released this week. ATRI’s report, Trucking’s Rising Insurance Costs: Issues and Opportunit"
-    },
-    {
       "headline": "Douglas Emmett cements resi conversion for Westwood office tower",
       "url": "https://therealdeal.com/la/2026/05/21/office-conversion-new-apartments-coming-to-westwood/",
       "source": "The Real Deal",
@@ -333,13 +325,6 @@
       "source": "The Real Deal",
       "raw_date": "Thu, 21 May 2026 16:25:06 +0000",
       "description": "Aaron Kirman’s Christie’s International Real Estate Southern California is testing the breadth of demand for coastal condo living, with the brokerage zeroing in on locals previously priced out of the market and international buyers as prospects for the recently opened Privé Malibu. Kirman, along wit"
-    },
-    {
-      "headline": "Abandoned Baldwin Park school slated for more than 100 townhomes",
-      "url": "https://therealdeal.com/la/2026/05/20/storm-properties-proposes-townhomes-on-shuttered-school-site/",
-      "source": "The Real Deal",
-      "raw_date": "Wed, 20 May 2026 22:41:14 +0000",
-      "description": "A decommissioned school campus in Baldwin Park is poised for redevelopment into housing.&#160; Storm Properties is pursuing the construction of 104 townhomes at the former Florence Flanner School site at 1314 Le Borgne Avenue, Urbanize Los Angeles reported. The proposed development, currently in the"
     },
     {
       "headline": "Top CBRE Researcher Ebere Anokute: E-Commerce’s Impact Is ‘Overblown’",
@@ -419,6 +404,20 @@
       "description": "AvalonBay and Equity Residential, two of the largest multifamily owners in the U.S., are merging to form one of the country’s largest real estate companies with a total enterprise value of roughly $69 billion, the companies announced Thursday. Once the all-stock merger is complete, the multifamily b"
     },
     {
+      "headline": "More than 1,000 L.A. school employees expected to lose jobs, with bigger cuts ahead",
+      "url": "https://www.latimes.com/california/story/2026-05-21/more-than-1-000-la-school-employees-expected-to-lose-jobs-with-bigger-cuts-ahead",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 01:37:26 GMT",
+      "description": "District officials attributed the need for cuts to steadily declining enrollment: The nation's second-largest school system, with about 390,000 students, is about half as large as in the early 2000s."
+    },
+    {
+      "headline": "Sandy fire burns near former nuclear test site, triggering air monitoring efforts",
+      "url": "https://www.latimes.com/california/story/2026-05-21/sandy-fire-burns-near-former-nuclear-test-site-officials-monitor-air",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 01:30:10 GMT",
+      "description": "The Ventura County Fire Department announced Wednesday evening that air quality monitoring is being conducted around the fire's perimeter due to the blaze's proximity to the Santa Susana Field Laboratory."
+    },
+    {
       "headline": "Feds charge former L.A. nonprofit worker with possessing fentanyl, meth near MacArthur Park",
       "url": "https://www.latimes.com/california/story/2026-05-21/former-la-nonprofit-worker-fentanyl-federal-charges",
       "source": "Los Angeles Times",
@@ -468,6 +467,13 @@
       "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
     },
     {
+      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
+      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
+    },
+    {
       "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
       "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
       "source": "Los Angeles Times",
@@ -482,13 +488,6 @@
       "description": "With less than two weeks before the primary election, Steve Hilton is leading in the polls for governor, and Los Angeles mayoral hopeful Spencer Pratt is making the city's progressive class sweat."
     },
     {
-      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
-      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
-    },
-    {
       "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
       "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
       "source": "Los Angeles Times",
@@ -496,18 +495,18 @@
       "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
     },
     {
-      "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
-      "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working-class character by investment capital. Now, some investors are welcomed for building what the community needs."
-    },
-    {
       "headline": "Salmon are at risk with federal plans to give farmers more water from Shasta Lake, critics warn",
       "url": "https://www.latimes.com/environment/story/2026-05-21/california-water-salmon-trump-dam-plan",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
       "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
+    },
+    {
+      "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
+      "url": "https://www.latimes.com/california/story/2026-05-21/in-altadena-outside-investors-were-bogeymen-now-some-are-embraced",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "After the Eaton fire, a movement arose to counter the threat to Altadena's working-class character by investment capital. Now, some investors are welcomed for building what the community needs."
     },
     {
       "headline": "Before SoCal woman, husband found dead, she may have been scammed by a fake Tom Selleck",
@@ -522,27 +521,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 02:41:41 GMT",
       "description": "Mayoral hopeful Spencer Pratt campaigned Wednesday in a South Los Angeles neighborhood that Mayor Karen Bass represented when she was in Congress."
-    },
-    {
-      "headline": "7 nabbed in crackdown as home burglaries surge in the Valley",
-      "url": "https://www.latimes.com/california/story/2026-05-20/cackdown-on-residential-burglary-surge-in-san-fernando-valley",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 23:51:42 GMT",
-      "description": "Seven people have been charged in connection with a surge in residential burglaries in the San Fernando Valley carried out by \"brazen, calculated and predatory\" crews of thieves, authorities said."
-    },
-    {
-      "headline": "AI-written books at Barnes & Noble? CEO clarifies statement that stirred calls for boycott",
-      "url": "https://www.latimes.com/entertainment-arts/story/2026-05-20/barnes-noble-boycott-ceo-bookseller-store-will-sell-ai-written-books",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 23:30:53 GMT",
-      "description": "After Barnes & Noble CEO James Daunt said the store would stock AI-written books as long as they were labeled as such, calls to boycott the retailer circulated online. Now the bookseller is clarifying his stance."
-    },
-    {
-      "headline": "Fires ring Southern California and it&#x27;s only May. What&#x27;s going on?",
-      "url": "https://www.latimes.com/california/story/2026-05-20/california-early-fire-season-climate-change",
-      "source": "Los Angeles Times",
-      "raw_date": "Wed, 20 May 2026 22:28:02 GMT",
-      "description": "Multiple fires broke out over 48 hours in Southern California this week. What does that say about our fires this year?"
     },
     {
       "headline": "California bill moves to make cheaper alternative fuel available to more drivers",
@@ -592,13 +570,6 @@
       "source": "CalMatters",
       "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
       "description": "In the Central Valley, Democratic officials are betting that a candidate running to the middle will woo enough swing voters to topple incumbent Republican Rep. David Valadao."
-    },
-    {
-      "headline": "Hilton y Becerra lideran nueva encuesta para gobernador de California. Steyer va detrás, pero no está fuera",
-      "url": "https://calmatters.org/calmatters-en-espanol/2026/05/hilton-y-becerra-lideran-encuesta/",
-      "source": "CalMatters",
-      "raw_date": "Wed, 20 May 2026 22:14:21 +0000",
-      "description": "En una encuesta demócrata realizada durante las últimas semanas de campaña, la mayoría de los candidatos a gobernador que marcan tendencia muestran un apoyo de un solo dígito."
     },
     {
       "headline": "Global Oil Disruption and Regional Economic Resilience",
