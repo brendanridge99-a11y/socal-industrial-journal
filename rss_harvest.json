@@ -1,21 +1,21 @@
 {
-  "harvested_at": "2026-05-22T12:00:49.633Z",
-  "elapsed_seconds": 3,
+  "harvested_at": "2026-05-22T14:00:51.720Z",
+  "elapsed_seconds": 3.7,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 73,
+  "articles_count": 75,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 15,
+      "count": 18,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 5,
+      "count": 6,
       "total": 40,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 12,
+      "count": 13,
       "total": 17,
       "error": null
     },
@@ -84,14 +84,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 14,
+      "count": 13,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 9,
+      "count": 7,
       "total": 10,
       "error": null
     },
@@ -105,19 +105,40 @@
     {
       "source": "San Diego Business Journal",
       "success": true,
-      "count": 4,
+      "count": 5,
       "total": 10,
       "error": null
     },
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 4,
+      "count": 3,
       "total": 6,
       "error": null
     }
   ],
   "articles": [
+    {
+      "headline": "Port Houston sees April cargo dip, expects rebound in May",
+      "url": "https://www.freightwaves.com/news/port-houston-sees-april-cargo-dip-expects-rebound-in-may",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 14:00:00 +0000",
+      "description": "Port Houston reported its first container slowdown since early 2025 in April, though executives say improving May volumes point to a quick recovery. The post Port Houston sees April cargo dip, expects rebound in May appeared first on FreightWaves ."
+    },
+    {
+      "headline": "ILA’s McNamara enters International Maritime Hall of Fame",
+      "url": "https://www.freightwaves.com/news/ilas-mcnamara-enters-international-maritime-hall-of-fame",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 13:07:07 +0000",
+      "description": "Long-serving International Longshoremen’s Association executive James McNamara inducted into the International Maritime Hall of Fame. The post ILA’s McNamara enters International Maritime Hall of Fame appeared first on FreightWaves ."
+    },
+    {
+      "headline": "Robinson Fresh opens border cold-chain hub as Mexico produce imports grow",
+      "url": "https://www.freightwaves.com/news/robinson-fresh-opens-border-cold-chain-hub-as-mexico-produce-imports-grow",
+      "source": "FreightWaves",
+      "raw_date": "Fri, 22 May 2026 13:00:00 +0000",
+      "description": "Robinson Fresh executives say the company’s newest South Texas logistics center will help customers navigate increasingly complex supply chains. The post Robinson Fresh opens border cold-chain hub as Mexico produce imports grow appeared first on FreightWaves ."
+    },
     {
       "headline": "ATRI documents big jump in insurance premiums even as providers in the red",
       "url": "https://www.freightwaves.com/news/atri-documents-big-jump-in-insurance-premiums-even-as-providers-in-the-red",
@@ -224,11 +245,18 @@
       "description": "The U.S. Justice Department has indicted four major Chinese shipping container manufacturers and seven executives in a global price-fixing conspiracy. The post DoJ indicts Chinese container makers on price-fixing charges appeared first on FreightWaves ."
     },
     {
+      "headline": "Peter Tirschwell leaves enduring legacy on Journal of Commerce",
+      "url": "https://joc.com/article/peter-tirschwell-leaves-enduring-legacy-on-journal-of-commerce-6225776",
+      "source": "Journal of Commerce",
+      "raw_date": "Fri, 22 May 2026 13:38:15 GMT",
+      "description": "Tirschwell, who most recently served as vice president of the Journal of Commerce, announced his plans to leave the business and continue work as an independent shipping journalist."
+    },
+    {
       "headline": "NY-NJ maritime industry honors ILA’s McNamara",
       "url": "https://joc.com/article/ny-nj-maritime-industry-honors-ilas-mcnamara-6225458",
       "source": "Journal of Commerce",
       "raw_date": "Thu, 21 May 2026 20:09:18 GMT",
-      "description": "James McNamara who joined the union as it faced tumult from containerization persisted at his job over four decades to help shape the modern International Longshoremen’s Association."
+      "description": "James McNamara, who joined the union as it faced tumult from containerization, persisted at his job over four decades to help shape the modern International Longshoremen’s Association."
     },
     {
       "headline": "ILWU chief slams ‘foreign shipping companies’ ahead of contract expiration",
@@ -329,6 +357,13 @@
       "description": "Aaron Kirman’s Christie’s International Real Estate Southern California is testing the breadth of demand for coastal condo living, with the brokerage zeroing in on locals previously priced out of the market and international buyers as prospects for the recently opened Privé Malibu. Kirman, along wit"
     },
     {
+      "headline": "The Definition of ‘Jobs’ in the Data Center Economy Needs to Shift",
+      "url": "https://commercialobserver.com/2026/05/defining-data-center-jobs/",
+      "source": "Commercial Observer",
+      "raw_date": "Fri, 22 May 2026 13:00:48 +0000",
+      "description": "The most effective criticism of data center development is also the hardest to dismiss. These projects create fewer permanent jobs than other asset classes, often receive substantial tax incentives, and do not compare favorably to manufacturing when measured by jobs per dollar invested. That critici"
+    },
+    {
       "headline": "How CRE Analysts Will Best Learn the Work That AI Can’t Do",
       "url": "https://commercialobserver.com/2026/05/training-cre-analysts-with-ai/",
       "source": "Commercial Observer",
@@ -343,11 +378,11 @@
       "description": "It’s difficult enough to pinpoint where commercial real estate sits in a cycle with macroeconomics, inflation, interest rates and employment trends all moving at once, and often in different directions. Retail makes that read even more complicated, with changes to population migration, shifting cons"
     },
     {
-      "headline": "Gersh Autism Academy Signs 21K-SF Bronx Sublease at 425 College Avenue",
+      "headline": "Gersh Autism Academy Signs 21K-SF Bronx Sublease at 452 College Avenue",
       "url": "https://commercialobserver.com/2026/05/gersh-autism-academy-sublease-bronx-425-college-avenue/",
       "source": "Commercial Observer",
       "raw_date": "Thu, 21 May 2026 20:11:37 +0000",
-      "description": "A nonprofit organization for autistic children is taking over the lease for a charter school in the Bronx, Commercial Observer has learned. Gersh Autism Academy subleased the 21,000‑square‑foot building at 452 College Avenue in Mott Haven from Brilla Schools parent company Seton Education Partners, "
+      "description": "A school for autistic children is taking over the lease for a charter school in the Bronx, Commercial Observer has learned. Gersh Autism Academy subleased the 21,000‑square‑foot building at 452 College Avenue in Mott Haven from Brilla Schools parent company Seton Education Partners, which has been c"
     },
     {
       "headline": "Design Firm GKV Architects Signs 6K-SF Lease at AmTrustRE’s 360 Lexington Avenue",
@@ -413,18 +448,18 @@
       "description": "AvalonBay and Equity Residential, two of the largest multifamily owners in the U.S., are merging to form one of the country’s largest real estate companies with a total enterprise value of roughly $69 billion, the companies announced Thursday. Once the all-stock merger is complete, the multifamily b"
     },
     {
-      "headline": "It&#x27;s OK to pack medical marijuana on a flight ... sometimes. What you need to know",
-      "url": "https://www.latimes.com/california/story/2026-05-22/medical-marijuana-on-flight-what-you-need-to-know",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "It's OK to pack medical marijuana when flying out of California, but whether those products will still be with you when you land is an open question, experts say."
-    },
-    {
       "headline": "More &#x27;rough sleepers&#x27; on Hollywood streets as the city removes tents, bringing new challenges",
       "url": "https://www.latimes.com/california/story/2026-05-22/more-rough-sleepers-on-hollywood-streets-as-city-removes-tents-bringing-new-challenges",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
       "description": "Hollywood service organizations conducted their own homeless count to help them adapt their outreach to a changing population that has fewer tents and more people sleeping rough or in vehicles"
+    },
+    {
+      "headline": "It&#x27;s OK to pack medical marijuana on a flight ... sometimes. What you need to know",
+      "url": "https://www.latimes.com/california/story/2026-05-22/medical-marijuana-on-flight-what-you-need-to-know",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "It's OK to pack medical marijuana when flying out of California, but whether those products will still be with you when you land is an open question, experts say."
     },
     {
       "headline": "Commentary: At ease — permanently. The SoCal military academies that thrived and then folded their tents",
@@ -434,18 +469,18 @@
       "description": "At the start of the 20th century, Southern California was home to an astonishing number of military academies designed to turn boys into officers and gentlemen."
     },
     {
-      "headline": "Spencer Pratt&#x27;s campaign spent more than $15,000 at pricey Hotel Bel-Air",
-      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratts-campaign-spent-more-than-15-000-at-pricey-hotel-bel-air",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Pratt, whose home burned in the Palisades fire, has said he is living at the hotel because of threats he has received."
-    },
-    {
       "headline": "The three men killed in San Diego shooting saved many others, &#x27;did not die in vain&#x27;",
       "url": "https://www.latimes.com/california/story/2026-05-22/san-diego-mosque-shooting-victims-heroes",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
       "description": "Meet the three men who sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
+    },
+    {
+      "headline": "Spencer Pratt&#x27;s campaign spent more than $15,000 at pricey Hotel Bel-Air",
+      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratts-campaign-spent-more-than-15-000-at-pricey-hotel-bel-air",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
+      "description": "Pratt, whose home burned in the Palisades fire, has said he is living at the hotel because of threats he has received."
     },
     {
       "headline": "Residents evacuated as toxic chemical spews from tank at Garden Grove aerospace company",
@@ -504,11 +539,18 @@
       "description": "Wildfire smoke from several fires has triggered a smoke advisory for wide swaths of Southern California until Thursday evening, according to officials."
     },
     {
-      "headline": "Immigrants launch hunger strike, decry inhumane conditions at SoCal ICE detention facility",
-      "url": "https://www.latimes.com/california/story/2026-05-21/immigrants-hunger-strike-inhumane-conditions-southern-california-detention-facility",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 12:00:00 GMT",
-      "description": "Immigrant detainees are on a hunger strike to call attention to complaints about medical neglect, mold, dirty water and a reduction of food rations."
+      "headline": "Can CA help its workers survive the AI disruption?",
+      "url": "https://calmatters.org/newsletter/artificial-intelligence-work-ideas-festival/",
+      "source": "CalMatters",
+      "raw_date": "Fri, 22 May 2026 13:00:00 +0000",
+      "description": "Scheduling note: WhatMatters is taking Memorial Day off and will return to your inboxes on Tuesday. Is artificial intelligence here to save us or destroy us all? Like you, we don’t yet. But we heard from some smart people at our Idea Festival Thursday in downtown Sacramento, where one AI proponent t"
+    },
+    {
+      "headline": "It’s easier for Californians to escape data brokers following a CalMatters investigation",
+      "url": "https://calmatters.org/economy/technology/2026/05/californians-escape-data-brokers/",
+      "source": "CalMatters",
+      "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
+      "description": "CalMatters and The Markup showed how website code could make it harder for Californians to exercise their right to remove personal data. Now much of that code has disappeared."
     },
     {
       "headline": "The CalPERS gamble: Why the push to invest in private equity alarms public employees",
@@ -546,32 +588,25 @@
       "description": "Which of these is least likely? Kendrick Lamar and Drake squashing their feud? Giants fans and Dodgers fans sharing high-fives?&#160; Or California charter schools endorsing the same candidate for superintendent as the state’s largest teachers’ union? If you remember the 2018 election, you’d probabl"
     },
     {
-      "headline": "Education is vital and costs California billions, so why aren’t candidates for governor talking about it?",
-      "url": "https://calmatters.org/commentary/2026/05/education-governor-candidates-california/",
-      "source": "CalMatters",
-      "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
-      "description": "The next governor will be directly responsible for statewide education leadership. Yet governor candidates haven't broached the subject."
+      "headline": "SeaWorld Drops Jaws with Reimagined Exhibit",
+      "url": "https://www.sdbj.com/tourism/theme-parks-amusement-parks/seaworld-drops-jaws-with-reimagined-exhibit/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=seaworld-drops-jaws-with-reimagined-exhibit",
+      "source": "San Diego Business Journal",
+      "raw_date": "Fri, 22 May 2026 12:01:21 +0000",
+      "description": "SAN DIEGO – SeaWorld San Diego is diving into experiential tourism with its reimagined Shark Encounter attraction. Before the remodel — which was under construction for a year — SeaWorld’s Shark Encounter had not been updated in the 34 years since it was originally constructed in 1992. The exhibit i"
     },
     {
-      "headline": "With so many candidates and options in California, when’s the right time to vote?",
-      "url": "https://calmatters.org/commentary/2026/05/time-to-vote-california-elections/",
-      "source": "CalMatters",
-      "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
-      "description": "Some in the Democratic Party urged voters to wait to see if any Democratic candidates bow out of the race. But how long is too long to wait?"
+      "headline": "Celebrity Chef Heads New ‘Globally Inspired’ Restaurant in UTC",
+      "url": "https://www.sdbj.com/food/restaurants/celebrity-chef-heads-new-globally-inspired-restaurant-in-utc/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=celebrity-chef-heads-new-globally-inspired-restaurant-in-utc",
+      "source": "San Diego Business Journal",
+      "raw_date": "Fri, 22 May 2026 12:00:29 +0000",
+      "description": "SAN DIEGO – A Canadian restaurant company, JOEY Restaurant Group, has opened a 10,600-square-foot JOEY restaurant in the Westfield UTC mall under the direction of celebrity chef Matthew Stowe, a winner of the Canadian version of the “Top Chef” television cooking competition. “We’ve always, as a grou"
     },
     {
-      "headline": "‘Feels like erasure’: Why Native American students may be undercounted by 90% in California schools",
-      "url": "https://calmatters.org/education/k-12-education/2026/05/native-american-students-california-2/",
-      "source": "CalMatters",
-      "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
-      "description": "Native American students who also identify as another race, such as Black, white or Asian, are counted as “two or more races,” not Native American."
-    },
-    {
-      "headline": "National Democrats said they’d stay out of this California race. Then they picked a side",
-      "url": "https://calmatters.org/politics/2026/05/central-valley-congress-dccc/",
-      "source": "CalMatters",
-      "raw_date": "Thu, 21 May 2026 12:00:00 +0000",
-      "description": "In the Central Valley, Democratic officials are betting that a candidate running to the middle will woo enough swing voters to topple incumbent Republican Rep. David Valadao."
+      "headline": "The Severity of Funding Cuts to  San Diego’s Arts Ecosystem",
+      "url": "https://www.sdbj.com/commentary/the-severity-of-funding-cuts-to-san-diegos-arts-ecosystem/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-severity-of-funding-cuts-to-san-diegos-arts-ecosystem",
+      "source": "San Diego Business Journal",
+      "raw_date": "Fri, 22 May 2026 12:00:01 +0000",
+      "description": "As President of the San Diego Performing Arts League, I’m speaking on behalf of a broad community of performing arts organizations, artists, actors, technicians, educators, and aspiring performers who help shape the cultural identity of San Diego every day. We understand the difficult budget realiti"
     },
     {
       "headline": "Oceanside Housing Project Aimed at Seniors, Veterans",
@@ -586,20 +621,6 @@
       "source": "San Diego Business Journal",
       "raw_date": "Thu, 21 May 2026 12:00:57 +0000",
       "description": "SAN DIEGO – King Street Properties leased 8,775 square feet of a 62,000-square-foot former Sorrento Mesa office building to Interfacial Consultants, a subsidiary of Nagase &#38; Co., Ltd. King Street is converting the one-story building at 5825 Oberlin Drive for life science use as office tenants mo"
-    },
-    {
-      "headline": "Independent Oversight Brings the Accountability San Diego County Needs",
-      "url": "https://www.sdbj.com/commentary/independent-oversight-brings-the-accountability-san-diego-county-needs/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=independent-oversight-brings-the-accountability-san-diego-county-needs",
-      "source": "San Diego Business Journal",
-      "raw_date": "Thu, 21 May 2026 12:00:37 +0000",
-      "description": "After decades in public service, including serving as a city manager, I’ve heard a familiar concern whenever governance reforms are proposed: “Won’t this just create more bureaucracy?” It’s a fair question. But in this case, it gets the answer exactly backward. Well-designed independent oversight do"
-    },
-    {
-      "headline": "BofA Names New Market President",
-      "url": "https://www.sdbj.com/finance/banks/bofa-names-new-market-president/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bofa-names-new-market-president",
-      "source": "San Diego Business Journal",
-      "raw_date": "Thu, 21 May 2026 11:59:57 +0000",
-      "description": "Bank of America has a new San Diego market president. The U.S.’s second largest bank announced May 20 that Anthony DiBlasi, managing director for Merrill Lynch for San Diego, will take the role, replacing Mark Kremers who left the job in February to be Merrill Lynch’s Mountain Pacific Division Manag"
     },
     {
       "headline": "Printing company buys warehouse",
@@ -621,13 +642,6 @@
       "source": "IE Business Daily",
       "raw_date": "Thu, 21 May 2026 16:02:49 +0000",
       "description": "Welcome to another episode of the &#8220;Professionals of the Inland Empire&#8221; podcast hosted by John Tulac. This week, Economist Jay Prag sits down to discuss the economic ripple effects of global events, particularly the conflict involving Iran and the Strait of Hormuz, on businesses of variou"
-    },
-    {
-      "headline": "Victorville homeless rate drops",
-      "url": "https://iebusinessdaily.com/victorville-homeless-rate-drops/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=victorville-homeless-rate-drops",
-      "source": "IE Business Daily",
-      "raw_date": "Thu, 21 May 2026 10:48:52 +0000",
-      "description": "Victorville’s unsheltered homeless population fell 68 percent during the past two years, while its total homeless population dropped 28 percent in that time, according to the 2026 San Bernardino County Point-In-Time Count. The High Desert city’s overall homeless count, which includes unsheltered per"
     }
   ]
 }
