@@ -1,6 +1,6 @@
 {
-  "harvested_at": "2026-05-22T06:00:56.146Z",
-  "elapsed_seconds": 2,
+  "harvested_at": "2026-05-22T08:00:55.937Z",
+  "elapsed_seconds": 1.8,
   "feeds_attempted": 16,
   "feeds_successful": 14,
   "articles_count": 65,
@@ -461,6 +461,13 @@
       "description": "Immigrant detainees are on a hunger strike to call attention to complaints about medical neglect, mold, dirty water and a reduction of food rations."
     },
     {
+      "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
+      "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
+      "source": "Los Angeles Times",
+      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
+      "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
+    },
+    {
       "headline": "This L.A. bookstore is leading a revolt against &#x27;greedy landlords&#x27;",
       "url": "https://www.latimes.com/entertainment-arts/books/story/2026-05-21/read-books-eagle-rock-rent-hike-protests",
       "source": "Los Angeles Times",
@@ -468,11 +475,11 @@
       "description": "For nearly 20 years, Read Books was a fixture of Eagle Rock's quirky charm. Now, a 133% price hike has pushed the family-owned shop to close its doors, but not without a fight."
     },
     {
-      "headline": "Democrats may cast last-minute ballots for governor. What it will mean for the count",
-      "url": "https://www.latimes.com/politics/story/2026-05-21/democrats-may-cast-last-minute-ballots-in-uncertain-governors-race-will-it-slow-vote-count",
+      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
+      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "With the top two candidates in the primary advancing, many Democratic-leaning voters appear to be waiting for a clear leader to emerge, political analysts say."
+      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
     },
     {
       "headline": "Arellano: Steve Hilton and Spencer Pratt need Latinos, not Trump",
@@ -482,11 +489,11 @@
       "description": "With less than two weeks before the primary election, Steve Hilton is leading in the polls for governor, and Los Angeles mayoral hopeful Spencer Pratt is making the city's progressive class sweat."
     },
     {
-      "headline": "It was a beacon of hope and faith in San Diego. Attack leaves a community seeking answers",
-      "url": "https://www.latimes.com/california/story/2026-05-21/san-diego-center-was-beacon-of-hope-it-seeks-answers-after-violence",
+      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
+      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "The San Diego Islamic Center is typically a bustling crossroads, with kids in school, the faithful coming to pray and others simply taking part in cultural activity."
+      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
     },
     {
       "headline": "After the fire, outside investors were the bogeymen of Altadena. Now some are embraced",
@@ -501,13 +508,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
       "description": "Fishing groups and environmentalists say the Trump administration's latest plan to send more water to Central Valley farms threatens California salmon."
-    },
-    {
-      "headline": "Spencer Pratt jolts mayor&#x27;s race: The reality TV antagonist&#x27;s path to the 2026 election",
-      "url": "https://www.latimes.com/california/story/2026-05-21/spencer-pratt-goes-from-reality-tv-villain-to-la-mayoral-candidate",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 10:00:00 GMT",
-      "description": "From a reality TV antagonist to a contender in the L.A. mayoral race, Spencer Pratt has jolted local politics, turning personal tragedy in the Palisades fire into a 2026 election campaign."
     },
     {
       "headline": "California bill moves to make cheaper alternative fuel available to more drivers",
