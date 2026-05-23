@@ -1,21 +1,21 @@
 {
-  "harvested_at": "2026-05-23T14:00:14.448Z",
+  "harvested_at": "2026-05-23T16:00:14.177Z",
   "elapsed_seconds": 1.3,
   "feeds_attempted": 16,
   "feeds_successful": 13,
-  "articles_count": 46,
+  "articles_count": 40,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 9,
+      "count": 6,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 5,
+      "count": 4,
       "total": 40,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 3,
+      "count": 4,
       "total": 10,
       "error": null
     },
@@ -63,7 +63,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 6,
+      "count": 4,
       "total": 17,
       "error": null
     },
@@ -90,7 +90,7 @@
     {
       "source": "CalMatters",
       "success": true,
-      "count": 1,
+      "count": 0,
       "total": 10,
       "error": null
     },
@@ -159,27 +159,6 @@
       "description": "Less-than-truckload carrier Saia adds to its national footprint, opening new service centers in Washington and Indiana. The post Saia opens terminals in Pacific Northwest, Midwest appeared first on FreightWaves ."
     },
     {
-      "headline": "Port Houston sees April cargo dip, expects rebound in May",
-      "url": "https://www.freightwaves.com/news/port-houston-sees-april-cargo-dip-expects-rebound-in-may",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 14:00:00 +0000",
-      "description": "Port Houston reported its first container slowdown since early 2025 in April, though executives say improving May volumes point to a quick recovery. The post Port Houston sees April cargo dip, expects rebound in May appeared first on FreightWaves ."
-    },
-    {
-      "headline": "ILA’s McNamara enters International Maritime Hall of Fame",
-      "url": "https://www.freightwaves.com/news/ilas-mcnamara-enters-international-maritime-hall-of-fame",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 13:07:07 +0000",
-      "description": "Long-serving International Longshoremen’s Association executive James McNamara inducted into the International Maritime Hall of Fame. The post ILA’s McNamara enters International Maritime Hall of Fame appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Robinson Fresh opens border cold-chain hub as Mexico produce imports grow",
-      "url": "https://www.freightwaves.com/news/robinson-fresh-opens-border-cold-chain-hub-as-mexico-produce-imports-grow",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 13:00:00 +0000",
-      "description": "Robinson Fresh executives say the company’s newest South Texas logistics center will help customers navigate increasingly complex supply chains. The post Robinson Fresh opens border cold-chain hub as Mexico produce imports grow appeared first on FreightWaves ."
-    },
-    {
       "headline": "Local East Coast freight leading charge on intermodal rebound",
       "url": "https://joc.com/article/local-east-coast-freight-leading-charge-on-intermodal-rebound-6225875",
       "source": "Journal of Commerce",
@@ -208,13 +187,6 @@
       "description": "A lead time of five to seven years to build up domestic crane manufacturing capacity could cripple the US heavy-lift industry if tariffs on imported products are not reduced, industry stakeholders say."
     },
     {
-      "headline": "Peter Tirschwell leaves enduring legacy on Journal of Commerce",
-      "url": "https://joc.com/article/peter-tirschwell-leaves-enduring-legacy-on-journal-of-commerce-6225776",
-      "source": "Journal of Commerce",
-      "raw_date": "Fri, 22 May 2026 13:38:15 GMT",
-      "description": "Tirschwell, who most recently served as vice president of the Journal of Commerce, announced his plans to leave the business and continue work as an independent shipping journalist."
-    },
-    {
       "headline": "What Mattress Firm gained from contactless delivery",
       "url": "https://www.supplychaindive.com/news/what-mattress-firm-gained-from-contactless-delivery/820809/",
       "source": "Supply Chain Dive",
@@ -234,6 +206,13 @@
       "source": "DC Velocity",
       "raw_date": "Fri, 22 May 2026 16:49:38 +0000",
       "description": "U.S. ports face the need for $6.7 billion in cargo equipment investment over the next five years in order to maintain their efficiency and global competitiveness, according to a survey of 25 senior port and terminal executives conducted by the National Association of Waterfront Employers (NAWE). The"
+    },
+    {
+      "headline": "Will Cityview take the lead on Oceanwide Plaza fix?",
+      "url": "https://therealdeal.com/la/2026/05/23/more-on-oceanwide-plaza/",
+      "source": "The Real Deal",
+      "raw_date": "Sat, 23 May 2026 15:00:00 +0000",
+      "description": "The Real Deal reported in early April that an offer connected to Sean Burton’s Cityview was becoming a backup of sorts in the Oceanwide Plaza bankruptcy sale. Fast forward to late May and it looks as though Cityview might be moving to the forefront when it comes to deciding the fate of the mammoth p"
     },
     {
       "headline": "Swath of new Echo Park apartment buildings from Aragon Properties up for sale",
@@ -283,20 +262,6 @@
       "source": "Commercial Observer",
       "raw_date": "Fri, 22 May 2026 15:36:12 +0000",
       "description": "It’s been a busy start to 2026 for New York City developers, as they filed 577 new building filings in the first quarter of 2026, representing a 74 percent increase from the same period last year, according to the latest research from the Real Estate Board of New York (REBNY). The 577 new building f"
-    },
-    {
-      "headline": "The Definition of ‘Jobs’ in the Data Center Economy Needs to Shift",
-      "url": "https://commercialobserver.com/2026/05/defining-data-center-jobs/",
-      "source": "Commercial Observer",
-      "raw_date": "Fri, 22 May 2026 13:00:48 +0000",
-      "description": "The most effective criticism of data center development is also the hardest to dismiss. These projects create fewer permanent jobs than other asset classes, often receive substantial tax incentives, and do not compare favorably to manufacturing when measured by jobs per dollar invested. That critici"
-    },
-    {
-      "headline": "How CRE Analysts Will Best Learn the Work That AI Can’t Do",
-      "url": "https://commercialobserver.com/2026/05/training-cre-analysts-with-ai/",
-      "source": "Commercial Observer",
-      "raw_date": "Fri, 22 May 2026 12:00:21 +0000",
-      "description": "For decades, the path to becoming a competent asset manager or acquisitions principal was unglamorous and repetitive. A junior analyst spent their first two years buried in offering memoranda, lease abstracts and trailing 12-month financials. They made the small, expensive mistakes that taught them "
     },
     {
       "headline": "Lopez: Spencer Pratt, please call me. You don&#x27;t know what you&#x27;re getting yourself into",
@@ -416,13 +381,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 15:30:22 GMT",
       "description": "A pipeline rupture in East Los Angeles early Friday morning resulted in a crude oil spill, according to officials."
-    },
-    {
-      "headline": "Can CA help its workers survive the AI disruption?",
-      "url": "https://calmatters.org/newsletter/artificial-intelligence-work-ideas-festival/",
-      "source": "CalMatters",
-      "raw_date": "Fri, 22 May 2026 13:00:00 +0000",
-      "description": "Scheduling note: WhatMatters is taking Memorial Day off and will return to your inboxes on Tuesday. Is artificial intelligence here to save us or destroy us all? Like you, we don’t yet. But we heard from some smart people at our Idea Festival Thursday in downtown Sacramento, where one AI proponent t"
     },
     {
       "headline": "Chaffey College adds computer classes",
