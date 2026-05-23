@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-22",
+  "date": "2026-05-23",
   "summaries": {
-    "economy": "Global inflation pressures are intensifying amid sustained war-driven energy disruption. Bond yields have surged to multi-decade highs, raising borrowing costs worldwide. The Fed's next move is now more likely a hike than a cut.",
-    "economy_long": "Global bond yields are near multi-decade highs, with the 30-year Treasury above 5%. Iran war energy shocks are driving producer prices to three-year highs and forcing rate-hike repricing. Watch incoming Fed Chair Warsh's first policy signals as hike probability reaches 40%.",
-    "industries": "Retailers and logistics operators are restructuring operations amid cost and trade pressures. AI adoption in distribution centers is accelerating across major consumer goods companies. Warehouse demand remains strong, with tenants prioritizing automation-ready facilities.",
-    "industries_long": "Supply chain investment and warehouse automation are accelerating across retail, logistics, and consumer goods sectors. AI adoption in distribution centers, robotics acquisitions, and major retailer supply chain overhauls are reshaping industrial operations. Watch Walmart's fuel cost warnings and West Marine's restructuring for early signals on demand-side pressure.",
-    "logistics": "Freight costs are at record highs across trucking and ocean shipping. Truck capacity is tightening from enforcement actions and new legal pressures. Trans-Pacific rates are rising sharply as early peak season emerges.",
-    "logistics_long": "Freight capacity is tightening and transportation prices have reached record highs across all modes. Strait of Hormuz disruptions, the broker liability ruling, and Roadcheck enforcement are simultaneously compressing available capacity. Watch ONE's $2,000 per FEU peak season surcharge, effective June 1, as other carriers are expected to follow.",
-    "policy": "Trade policy is unsettled across tariffs, USMCA, and EU negotiations simultaneously. Federal enforcement is tightening on trucking compliance, ELDs, and container pricing. Labor and liability rulings are reshaping operational risk for carriers and tenants.",
-    "policy_long": "Trade policy, enforcement actions, and labor dynamics are reshaping the regulatory landscape across freight, logistics, and supply chain. Tariffs on Chinese goods near 30%, DOJ indictments against CIMC and three other container manufacturers, and accelerating FMCSA ELD revocations are driving operational compliance demands higher. Watch the USMCA review deadline of July 1 and the EU-US tariff accord deadline of July 4.",
-    "socal": "Transpacific rates are rising, with a $2,000 peak season surcharge looming June 1. Commerce recorded a $34 million industrial acquisition, signaling continued owner-user demand. Fuel costs and flat consumer guidance are introducing new caution into the market.",
-    "socal_long": "Acquisition activity continues in the LA industrial corridor, with Commerce recording a $34M deal. Transpacific freight rates are rising, with a $2,000 peak season surcharge effective June 1. Watch Strait of Hormuz fuel cost pressures as Walmart warns of Q2 consumer spending impact.",
-    "bottom_line": "The war in the Strait of Hormuz is driving inflation, freight costs, and borrowing rates higher simultaneously. Every cost input facing industrial operators is moving in the same direction at once. This is not a cycle. It is a structural reset."
+    "economy": null,
+    "economy_long": null,
+    "industries": null,
+    "industries_long": null,
+    "logistics": null,
+    "logistics_long": null,
+    "policy": null,
+    "policy_long": null,
+    "socal": null,
+    "socal_long": null,
+    "bottom_line": null
   }
 }
