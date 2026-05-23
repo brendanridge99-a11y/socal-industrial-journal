@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-23T12:00:15.072Z",
-  "elapsed_seconds": 1.4,
+  "harvested_at": "2026-05-23T14:00:14.448Z",
+  "elapsed_seconds": 1.3,
   "feeds_attempted": 16,
   "feeds_successful": 13,
-  "articles_count": 52,
+  "articles_count": 46,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 11,
+      "count": 9,
       "total": 50,
       "error": null
     },
@@ -22,7 +22,7 @@
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 3,
+      "count": 2,
       "total": 10,
       "error": null
     },
@@ -83,14 +83,14 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 15,
+      "count": 17,
       "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 4,
+      "count": 1,
       "total": 10,
       "error": null
     },
@@ -110,7 +110,7 @@
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 4,
+      "count": 2,
       "total": 6,
       "error": null
     }
@@ -180,20 +180,6 @@
       "description": "Robinson Fresh executives say the company’s newest South Texas logistics center will help customers navigate increasingly complex supply chains. The post Robinson Fresh opens border cold-chain hub as Mexico produce imports grow appeared first on FreightWaves ."
     },
     {
-      "headline": "ATRI documents big jump in insurance premiums even as providers in the red",
-      "url": "https://www.freightwaves.com/news/atri-documents-big-jump-in-insurance-premiums-even-as-providers-in-the-red",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
-      "description": "ATRI’s report on truck insurance costs documents a big spike paid by carriers. The post ATRI documents big jump in insurance premiums even as providers in the red appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Earlier broker liability victory for Echo sent back to lower court after Montgomery",
-      "url": "https://www.freightwaves.com/news/earlier-broker-liability-victory-for-echo-sent-back-to-lower-court-after-montgomery",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 11:13:16 +0000",
-      "description": "Echo Global will once again face a South Carolina court following a judge’s order tied to Montgomery. The post Earlier broker liability victory for Echo sent back to lower court after Montgomery appeared first on FreightWaves ."
-    },
-    {
       "headline": "Local East Coast freight leading charge on intermodal rebound",
       "url": "https://joc.com/article/local-east-coast-freight-leading-charge-on-intermodal-rebound-6225875",
       "source": "Journal of Commerce",
@@ -241,13 +227,6 @@
       "source": "Supply Chain Dive",
       "raw_date": "Fri, 22 May 2026 11:03:00 -0400",
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/S1FcF_BdOkcGNNc_YDlClKrze8rPiACrzmj3__O8W5U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BSS1Qb3dlcmVkX0ludGVsbGlnZW50X1F1YWxpdHlfQ29udHJvbF9Ub29sXzEuanBn.webp\"/></div></figure><p>The technology supports the grocer&#39;s quali"
-    },
-    {
-      "headline": "J&J Snack Foods completes plant consolidation, turns to distribution",
-      "url": "https://www.supplychaindive.com/news/jj-snack-foods-completes-plant-consolidation-turns-to-distribution/820679/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Fri, 22 May 2026 07:49:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/SGv7qBvwfpu-Ww4JHJMoVZ7UlpE4I_hk_lQVugiHcvM/g:nowe:0:101/c:1150:649/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjQtMDctMTdfMTEwOTEzLmpwZw==.webp\"/></div></figure><p>The frozen snack food manufacturer expects the "
     },
     {
       "headline": "Survey: Port leaders call for $6.7 billion cargo equipment spending",
@@ -320,18 +299,18 @@
       "description": "For decades, the path to becoming a competent asset manager or acquisitions principal was unglamorous and repetitive. A junior analyst spent their first two years buried in offering memoranda, lease abstracts and trailing 12-month financials. They made the small, expensive mistakes that taught them "
     },
     {
-      "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
-      "url": "https://www.latimes.com/food/story/2026-05-23/michelin-chef-michael-cimarusti-on-connie-and-teds-closing",
+      "headline": "Lopez: Spencer Pratt, please call me. You don&#x27;t know what you&#x27;re getting yourself into",
+      "url": "https://www.latimes.com/california/story/2026-05-23/la-mayoral-hopeful-spencer-pratt-is-making-big-splash-but-can-he-swim",
       "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
-      "description": "One of L.A.'s most ambitious seafood restaurants from a Michelin three-star chef will close July 1. Owners Michael Cimarusti and Crisi Echiverri share why. Also, what to expect in the last weeks of Connie & Ted's."
+      "raw_date": "Sat, 23 May 2026 12:00:00 GMT",
+      "description": "The candidate and the columnist have something in common, but comparison ends there."
     },
     {
-      "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
-      "url": "https://www.latimes.com/environment/story/2026-05-23/students-build-nurseries-to-reforest-burnt-l-a-inspired-by-jane-goodall",
+      "headline": "What we know about GKN Aerospace, the firm at center of O.C. chemical leak",
+      "url": "https://www.latimes.com/california/story/2026-05-23/garden-grove-chemical-leak-what-we-know-about-gkn-aerospace",
       "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
-      "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
+      "raw_date": "Sat, 23 May 2026 12:00:00 GMT",
+      "description": "The chemical leak that triggered evacuations across a swath of Orange County on Friday is located at GKN Aerospace, a manufacturing company based in the United Kingdom."
     },
     {
       "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
@@ -341,7 +320,21 @@
       "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
     },
     {
-      "headline": "Why is the Orange County chemical tank crisis so hard to fix?",
+      "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
+      "url": "https://www.latimes.com/environment/story/2026-05-23/students-build-nurseries-to-reforest-burnt-l-a-inspired-by-jane-goodall",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
+    },
+    {
+      "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
+      "url": "https://www.latimes.com/food/story/2026-05-23/michelin-chef-michael-cimarusti-on-connie-and-teds-closing",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "One of L.A.'s most ambitious seafood restaurants from a Michelin three-star chef will close July 1. Owners Michael Cimarusti and Crisi Echiverri share why. Also, what to expect in the last weeks of Connie & Ted's."
+    },
+    {
+      "headline": "Why is Orange County chemical tank crisis so hard to fix?",
       "url": "https://www.latimes.com/california/story/2026-05-23/why-is-orange-county-chemical-tank-crisis-so-hard-to-fix",
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
@@ -355,7 +348,7 @@
       "description": "It was a night of anxiety and questions as people across a wide swath of central Orange County fled their homes due to the risk of a chemical explosion at a Garden Grove aerospace firm."
     },
     {
-      "headline": "Why a chemical explosion in Orange County could be so catastrophic",
+      "headline": "Officials say a chemical explosion in Orange County could be catastrophic. Here&#x27;s why.",
       "url": "https://www.latimes.com/california/story/2026-05-22/why-garden-grove-chemical-explosion-could-be-so-catastrophic",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 23:55:41 GMT",
@@ -432,27 +425,6 @@
       "description": "Scheduling note: WhatMatters is taking Memorial Day off and will return to your inboxes on Tuesday. Is artificial intelligence here to save us or destroy us all? Like you, we don’t yet. But we heard from some smart people at our Idea Festival Thursday in downtown Sacramento, where one AI proponent t"
     },
     {
-      "headline": "It’s easier for Californians to escape data brokers following a CalMatters investigation",
-      "url": "https://calmatters.org/economy/technology/2026/05/californians-escape-data-brokers/",
-      "source": "CalMatters",
-      "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
-      "description": "CalMatters and The Markup showed how website code could make it harder for Californians to exercise their right to remove personal data. Now much of that code has disappeared."
-    },
-    {
-      "headline": "The CalPERS gamble: Why the push to invest in private equity alarms public employees",
-      "url": "https://calmatters.org/commentary/2026/05/calpers-gamble-private-equity-california/",
-      "source": "CalMatters",
-      "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
-      "description": "CalPERS shifted from stable, traditional assets to private equity and a private credit portfolio. Details about their investment risk and fees are secret."
-    },
-    {
-      "headline": "18 years after California voters approved the bullet train, progress and finances are still stalled",
-      "url": "https://calmatters.org/commentary/2026/05/bullet-train-progress-stalled-california/",
-      "source": "CalMatters",
-      "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
-      "description": "The bullet train project launched in 2008 with promises of completion by 2020. Now it's mostly concrete supports. No tracks or train."
-    },
-    {
       "headline": "Chaffey College adds computer classes",
       "url": "https://iebusinessdaily.com/chaffey-college-adds-computer-classes/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=chaffey-college-adds-computer-classes",
       "source": "IE Business Daily",
@@ -465,20 +437,6 @@
       "source": "IE Business Daily",
       "raw_date": "Sat, 23 May 2026 10:15:25 +0000",
       "description": "Ontario International Airport had a less-than-spectacular month in April, posting a modest drop in its passenger count but a gain in the amount of cargo it hauled. The airport accommodated 574,504 passengers last month, a year-over-year decline of 0.2 percent, according to the Ontario International "
-    },
-    {
-      "headline": "Printing company buys warehouse",
-      "url": "https://iebusinessdaily.com/printing-company-buys-warehouse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=printing-company-buys-warehouse",
-      "source": "IE Business Daily",
-      "raw_date": "Fri, 22 May 2026 10:23:51 +0000",
-      "description": "A printing company that specializes in posters and other music-industry art has bought an industrial facility in Chino. InHouse Media Group paid $3 million for the 9,200-square-foot building at 14963 Sierra Bonita Lane near the 71 Freeway, according to Voit Commercial Real Estate. Voit Commercial re"
-    },
-    {
-      "headline": "Fast-food restaurant sold",
-      "url": "https://iebusinessdaily.com/fast-food-restaurant-sold/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fast-food-restaurant-sold",
-      "source": "IE Business Daily",
-      "raw_date": "Fri, 22 May 2026 10:18:40 +0000",
-      "description": "A 2,700-square-foot building in Ontario occupied by a Wienerschnitzel restaurant has been sold. The free-standing building at 4605 Mills Circle was purchased by a private investor for $2.8 million, according to Progressive Real Estate Partners in Rancho Cucamonga. The buyer was represented by Progre"
     }
   ]
 }
