@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-23T16:00:14.177Z",
-  "elapsed_seconds": 1.3,
+  "harvested_at": "2026-05-23T18:00:50.936Z",
+  "elapsed_seconds": 6.6,
   "feeds_attempted": 16,
-  "feeds_successful": 13,
-  "articles_count": 40,
+  "feeds_successful": 14,
+  "articles_count": 36,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -15,14 +15,14 @@
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 4,
+      "count": 2,
       "total": 40,
       "error": null
     },
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 2,
+      "count": 0,
       "total": 10,
       "error": null
     },
@@ -49,9 +49,10 @@
     },
     {
       "source": "Connect CRE",
-      "success": false,
+      "success": true,
       "count": 0,
-      "error": "HTTP 403"
+      "total": 0,
+      "error": null
     },
     {
       "source": "GlobeSt",
@@ -63,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 4,
+      "count": 2,
       "total": 17,
       "error": null
     },
@@ -83,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 17,
+      "count": 19,
       "total": 98,
       "error": null
     },
@@ -117,6 +118,20 @@
   ],
   "articles": [
     {
+      "headline": "One Week After Landmark SCOTUS Ruling: Why Truckload Spot Rates Just Hit All-Time Highs — And Why This Is Only the Beginning",
+      "url": "https://www.freightwaves.com/news/one-week-after-landmark-scotus-ruling-why-truckload-spot-rates-just-hit-all-time-highs-and-why-this-is-only-the-beginning",
+      "source": "FreightWaves",
+      "raw_date": "Sat, 23 May 2026 17:32:29 +0000",
+      "description": "One week ago today, the U.S. Supreme Court issued a unanimous 9-0 decision in Montgomery v. Caribe Transport II that is already reshaping the $800-billion-plus truckload brokerage sector. The Court ruled that the Federal Aviation Administration Authorization Act (FAAAA) does not preempt state-law ne"
+    },
+    {
+      "headline": "The FMCSA finally has a regulator who shows up — and the freight market is responding",
+      "url": "https://www.freightwaves.com/news/the-fmcsa-finally-has-a-regulator-who-shows-up-and-the-freight-market-is-responding",
+      "source": "FreightWaves",
+      "raw_date": "Sat, 23 May 2026 16:49:28 +0000",
+      "description": "Federal Motor Carrier Safety Administration Administrator Derek Barrs sat down with me and Matt Leffler in our Chattanooga studio this week for a live taping of Freight Expectations. What I came away with — beyond the hour of substantive policy conversation — was the clearest articulation yet of why"
+    },
+    {
       "headline": "Phillips Connect names Mark Wallin president and general manager",
       "url": "https://www.freightwaves.com/news/phillips-connect-mark-wallin-president-general-manager",
       "source": "FreightWaves",
@@ -145,20 +160,6 @@
       "description": "An industry trade group says the new surface transportation legislation offers some rail-positive provisions, but expressed disappointment at inclusions favoring heavier trucks and expensive safety mandates. The post Short line rail hits T&#038;I truck benefits, costly safety mandates appeared first"
     },
     {
-      "headline": "Sen. Cotton urges DOJ investigation of China-backed parcel carriers",
-      "url": "https://www.freightwaves.com/news/sen-cotton-urges-doj-investigation-of-china-backed-parcel-carriers",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 15:27:40 +0000",
-      "description": "Sen. Tom Cotton of Arkansas is calling for an investigation into Chinese-controlled parcel delivery companies in the U.S., saying they receive heavy subsidies that allow them to underprice domestic carriers and could be sharing critical U.S. market data with the Chinese government. The post Sen. Cot"
-    },
-    {
-      "headline": "Saia opens terminals in Pacific Northwest, Midwest",
-      "url": "https://www.freightwaves.com/news/saia-opens-terminals-in-pacific-northwest-midwest",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 14:58:08 +0000",
-      "description": "Less-than-truckload carrier Saia adds to its national footprint, opening new service centers in Washington and Indiana. The post Saia opens terminals in Pacific Northwest, Midwest appeared first on FreightWaves ."
-    },
-    {
       "headline": "Local East Coast freight leading charge on intermodal rebound",
       "url": "https://joc.com/article/local-east-coast-freight-leading-charge-on-intermodal-rebound-6225875",
       "source": "Journal of Commerce",
@@ -171,34 +172,6 @@
       "source": "Journal of Commerce",
       "raw_date": "Fri, 22 May 2026 17:06:15 GMT",
       "description": "The carrier’s first-quarter financials, which included a sharp drop in net profit, were generated in a market roiled by ongoing tensions in the Middle East, rising oil prices and increasing operating costs."
-    },
-    {
-      "headline": "Demand rising on Asia-Europe ocean trade as July bunker hike looms",
-      "url": "https://joc.com/article/demand-rising-on-asia-europe-ocean-trade-as-july-bunker-hike-looms-6225813",
-      "source": "Journal of Commerce",
-      "raw_date": "Fri, 22 May 2026 15:03:14 GMT",
-      "description": "Volumes under contract when the Middle East war began were locked into quarterly bunker fuel adjustments, and those costs are set to be passed on to shippers at the start of the third quarter."
-    },
-    {
-      "headline": "Heavy-lift trade group lobbies USTR for relief from crane, trailer tariffs",
-      "url": "https://joc.com/article/heavy-lift-trade-group-lobbies-ustr-for-relief-from-crane-trailer-tariffs-6225790",
-      "source": "Journal of Commerce",
-      "raw_date": "Fri, 22 May 2026 14:12:17 GMT",
-      "description": "A lead time of five to seven years to build up domestic crane manufacturing capacity could cripple the US heavy-lift industry if tariffs on imported products are not reduced, industry stakeholders say."
-    },
-    {
-      "headline": "What Mattress Firm gained from contactless delivery",
-      "url": "https://www.supplychaindive.com/news/what-mattress-firm-gained-from-contactless-delivery/820809/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Fri, 22 May 2026 11:35:00 -0400",
-      "description": "<p>The shipping option has added customer flexibility and freed up drivers&rsquo; time despite early hurdles, executives said at Home Delivery World 2026.</p>"
-    },
-    {
-      "headline": "Albertsons launches AI-powered produce inspection tool",
-      "url": "https://www.supplychaindive.com/news/albertsons-launches-ai-powered-produce-inspection-tool/820378/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Fri, 22 May 2026 11:03:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/S1FcF_BdOkcGNNc_YDlClKrze8rPiACrzmj3__O8W5U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BSS1Qb3dlcmVkX0ludGVsbGlnZW50X1F1YWxpdHlfQ29udHJvbF9Ub29sXzEuanBn.webp\"/></div></figure><p>The technology supports the grocer&#39;s quali"
     },
     {
       "headline": "Survey: Port leaders call for $6.7 billion cargo equipment spending",
@@ -250,25 +223,25 @@
       "description": "Dutch investor Breevest has paid $110 million for a new multifamily asset near the Aventura Mall in Florida’s Miami-Dade County, property records show. Called Avida Aventura, the eight-story property houses 266 apartments at 19401 West Dixie Highway, facing Biscayne Boulevard and across the street f"
     },
     {
-      "headline": "Peachtree Group Provides $32M Construction Loan for Alabama Hotel",
-      "url": "https://commercialobserver.com/2026/05/peachtree-group-huntsville-alabama-marriott-hotel/",
-      "source": "Commercial Observer",
-      "raw_date": "Fri, 22 May 2026 15:36:50 +0000",
-      "description": "Spandrel Development Partners has sealed $32.36 million of construction financing to develop a Marriott-branded hotel in Huntsville, Ala., Commercial Observer has learned. Peachtree Group originated the three-year loan with two 12-month extension options for the developer’s planned 154-room AC Hotel"
-    },
-    {
-      "headline": "NYC Developers File Plans for 21M SF of New Construction in Q1: REBNY",
-      "url": "https://commercialobserver.com/2026/05/nyc-developers-building-construction-q1-rebny/",
-      "source": "Commercial Observer",
-      "raw_date": "Fri, 22 May 2026 15:36:12 +0000",
-      "description": "It’s been a busy start to 2026 for New York City developers, as they filed 577 new building filings in the first quarter of 2026, representing a 74 percent increase from the same period last year, according to the latest research from the Real Estate Board of New York (REBNY). The 577 new building f"
-    },
-    {
-      "headline": "Lopez: Spencer Pratt, please call me. You don&#x27;t know what you&#x27;re getting yourself into",
-      "url": "https://www.latimes.com/california/story/2026-05-23/la-mayoral-hopeful-spencer-pratt-is-making-big-splash-but-can-he-swim",
+      "headline": "San Diego gunman was &#x27;idolizing Nazis and mass shooters,&#x27; prompting gun removal from home in 2025",
+      "url": "https://www.latimes.com/california/story/2026-05-23/mosque-shooter-welfare-check-guns",
       "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 12:00:00 GMT",
-      "description": "The candidate and the columnist have something in common, but comparison ends there."
+      "raw_date": "Sat, 23 May 2026 17:33:26 GMT",
+      "description": "In January 2025, Chula Vista police conducted a check on Caleb Vazquez after being alerted to disturbing social media postings and learning there were guns in the family home."
+    },
+    {
+      "headline": "How to talk to your kids about extremism online",
+      "url": "https://www.latimes.com/california/story/2026-05-23/how-to-talk-to-your-kids-about-extremism-online",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 17:29:28 GMT",
+      "description": "Two teenage suspects who attacked the Islamic Center in San Diego on Monday, killing three people before turning the guns on themselves, were engaging with far-right extremist content on social media, authorities have said."
+    },
+    {
+      "headline": "GOP governor hopefuls give closing arguments to oft-forgotten Central Valley Republicans",
+      "url": "https://www.latimes.com/california/story/2026-05-23/gop-governor-hopefuls-give-closing-arguments-to-oft-forgotten-central-valley-republicans",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 17:15:40 GMT",
+      "description": "Chad Bianco and Steve Hilton, the two top Republicans running for governor, make their closing arguments in front of a friendly GOP audience near Fresno before the June 2 primary."
     },
     {
       "headline": "What we know about GKN Aerospace, the firm at center of O.C. chemical leak",
@@ -278,11 +251,11 @@
       "description": "The chemical leak that triggered evacuations across a swath of Orange County on Friday is located at GKN Aerospace, a manufacturing company based in the United Kingdom."
     },
     {
-      "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
-      "url": "https://www.latimes.com/california/story/2026-05-23/la-city-attorney-race-two-challengers",
+      "headline": "Lopez: Spencer Pratt, please call me. You don&#x27;t know what you&#x27;re getting yourself into",
+      "url": "https://www.latimes.com/california/story/2026-05-23/la-mayoral-hopeful-spencer-pratt-is-making-big-splash-but-can-he-swim",
       "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
-      "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
+      "raw_date": "Sat, 23 May 2026 12:00:00 GMT",
+      "description": "The candidate and the columnist have something in common, but comparison ends there."
     },
     {
       "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
@@ -290,6 +263,13 @@
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
       "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
+    },
+    {
+      "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
+      "url": "https://www.latimes.com/california/story/2026-05-23/la-city-attorney-race-two-challengers",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
     },
     {
       "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
@@ -374,13 +354,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 16:37:12 GMT",
       "description": "Two hours before the deadly attack at a San Diego mosque, the mother of one of the assailants reached out to police warning that her son was suicidal and had taken firearms. But it took police nearly 90 minutes to respond to the initial call."
-    },
-    {
-      "headline": "Crude oil spills onto Cesar Chavez Avenue in East L.A. after pipeline rupture",
-      "url": "https://www.latimes.com/california/story/2026-05-22/east-la-oil-spill",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 15:30:22 GMT",
-      "description": "A pipeline rupture in East Los Angeles early Friday morning resulted in a crude oil spill, according to officials."
     },
     {
       "headline": "Chaffey College adds computer classes",
