@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-23T10:00:14.756Z",
+  "harvested_at": "2026-05-23T12:00:15.072Z",
   "elapsed_seconds": 1.4,
   "feeds_attempted": 16,
   "feeds_successful": 13,
-  "articles_count": 51,
+  "articles_count": 52,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -83,7 +83,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 16,
+      "count": 15,
       "total": 98,
       "error": null
     },
@@ -110,7 +110,7 @@
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 2,
+      "count": 4,
       "total": 6,
       "error": null
     }
@@ -320,6 +320,34 @@
       "description": "For decades, the path to becoming a competent asset manager or acquisitions principal was unglamorous and repetitive. A junior analyst spent their first two years buried in offering memoranda, lease abstracts and trailing 12-month financials. They made the small, expensive mistakes that taught them "
     },
     {
+      "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
+      "url": "https://www.latimes.com/food/story/2026-05-23/michelin-chef-michael-cimarusti-on-connie-and-teds-closing",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "One of L.A.'s most ambitious seafood restaurants from a Michelin three-star chef will close July 1. Owners Michael Cimarusti and Crisi Echiverri share why. Also, what to expect in the last weeks of Connie & Ted's."
+    },
+    {
+      "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
+      "url": "https://www.latimes.com/environment/story/2026-05-23/students-build-nurseries-to-reforest-burnt-l-a-inspired-by-jane-goodall",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
+    },
+    {
+      "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
+      "url": "https://www.latimes.com/california/story/2026-05-23/la-city-attorney-race-two-challengers",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
+    },
+    {
+      "headline": "Why is the Orange County chemical tank crisis so hard to fix?",
+      "url": "https://www.latimes.com/california/story/2026-05-23/why-is-orange-county-chemical-tank-crisis-so-hard-to-fix",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Evacuation orders have been issued in portions of the cities of Garden Grove, Anaheim, Buena Park, Cypress, Stanton and Westminster."
+    },
+    {
       "headline": "A night of fear, confusion as thousands flee their homes in O.C. amid chemical crisis",
       "url": "https://www.latimes.com/california/story/2026-05-22/night-of-fear-confusion-as-thousands-flee-their-homes-in-o-c-amid-chemical-crisis",
       "source": "Los Angeles Times",
@@ -397,41 +425,6 @@
       "description": "A pipeline rupture in East Los Angeles early Friday morning resulted in a crude oil spill, according to officials."
     },
     {
-      "headline": "It&#x27;s OK to pack medical marijuana on a flight ... sometimes. What you need to know",
-      "url": "https://www.latimes.com/california/story/2026-05-22/medical-marijuana-on-flight-what-you-need-to-know",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "It's OK to pack medical marijuana when flying out of California, but whether those products will still be with you when you land is an open question, experts say."
-    },
-    {
-      "headline": "More &#x27;rough sleepers&#x27; on Hollywood streets as the city removes tents, bringing new challenges",
-      "url": "https://www.latimes.com/california/story/2026-05-22/more-rough-sleepers-on-hollywood-streets-as-city-removes-tents-bringing-new-challenges",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Hollywood service organizations conducted their own homeless count to help them adapt their outreach to a changing population that has fewer tents and more people sleeping rough or in vehicles"
-    },
-    {
-      "headline": "Commentary: At ease — permanently. The SoCal military academies that thrived and then folded their tents",
-      "url": "https://www.latimes.com/california/story/2026-05-22/at-ease-permanently-socal-military-academies-that-thrived-then-folded-their-tents",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "At the start of the 20th century, Southern California was home to an astonishing number of military academies designed to turn boys into officers and gentlemen."
-    },
-    {
-      "headline": "Spencer Pratt&#x27;s campaign spent more than $15,000 at pricey Hotel Bel-Air",
-      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratts-campaign-spent-more-than-15-000-at-pricey-hotel-bel-air",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Pratt, whose home burned in the Palisades fire, has said he is living at the hotel because of threats he has received."
-    },
-    {
-      "headline": "The three men killed in San Diego shooting saved many others, &#x27;did not die in vain&#x27;",
-      "url": "https://www.latimes.com/california/story/2026-05-22/san-diego-mosque-shooting-victims-heroes",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Three men sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
-    },
-    {
       "headline": "Can CA help its workers survive the AI disruption?",
       "url": "https://calmatters.org/newsletter/artificial-intelligence-work-ideas-festival/",
       "source": "CalMatters",
@@ -458,6 +451,20 @@
       "source": "CalMatters",
       "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
       "description": "The bullet train project launched in 2008 with promises of completion by 2020. Now it's mostly concrete supports. No tracks or train."
+    },
+    {
+      "headline": "Chaffey College adds computer classes",
+      "url": "https://iebusinessdaily.com/chaffey-college-adds-computer-classes/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=chaffey-college-adds-computer-classes",
+      "source": "IE Business Daily",
+      "raw_date": "Sat, 23 May 2026 10:27:57 +0000",
+      "description": "Chaffey College will offer four new computer technology classes this fall. The classes in artificial intelligence, data science, development operations and game development will all offer certificates and associate degrees, according to a statement on the school’s website. &#8220;Chaffey College is "
+    },
+    {
+      "headline": "ONT has flat April",
+      "url": "https://iebusinessdaily.com/ont-has-flat-april/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ont-has-flat-april",
+      "source": "IE Business Daily",
+      "raw_date": "Sat, 23 May 2026 10:15:25 +0000",
+      "description": "Ontario International Airport had a less-than-spectacular month in April, posting a modest drop in its passenger count but a gain in the amount of cargo it hauled. The airport accommodated 574,504 passengers last month, a year-over-year decline of 0.2 percent, according to the Ontario International "
     },
     {
       "headline": "Printing company buys warehouse",
