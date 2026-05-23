@@ -1,21 +1,21 @@
 {
-  "harvested_at": "2026-05-23T18:00:50.936Z",
-  "elapsed_seconds": 6.6,
+  "harvested_at": "2026-05-23T20:00:46.458Z",
+  "elapsed_seconds": 2.3,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 36,
+  "articles_count": 30,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 2,
+      "count": 1,
       "total": 40,
       "error": null
     },
@@ -29,7 +29,7 @@
     {
       "source": "DC Velocity",
       "success": true,
-      "count": 1,
+      "count": 0,
       "total": 30,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 2,
+      "count": 1,
       "total": 17,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 19,
+      "count": 17,
       "total": 98,
       "error": null
     },
@@ -153,32 +153,11 @@
       "description": "GAF’s Marianna Vydrevich said AI-powered analytics are helping supply chain teams automate workflows, optimize inventory and model disruptions. The post Leading roofing manufacturer uses AI to speed network optimization appeared first on FreightWaves ."
     },
     {
-      "headline": "Short line rail hits T&#038;I truck benefits, costly safety mandates",
-      "url": "https://www.freightwaves.com/news/short-line-rail-hits-ti-truck-benefits-costly-safety-mandates",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 16:33:56 +0000",
-      "description": "An industry trade group says the new surface transportation legislation offers some rail-positive provisions, but expressed disappointment at inclusions favoring heavier trucks and expensive safety mandates. The post Short line rail hits T&#038;I truck benefits, costly safety mandates appeared first"
-    },
-    {
       "headline": "Local East Coast freight leading charge on intermodal rebound",
       "url": "https://joc.com/article/local-east-coast-freight-leading-charge-on-intermodal-rebound-6225875",
       "source": "Journal of Commerce",
       "raw_date": "Fri, 22 May 2026 18:44:14 GMT",
       "description": "Rising fuel costs, reliable service and higher rates amid the end of the four-year recession in trucking are helping convert more freight to rail in the eastern US."
-    },
-    {
-      "headline": "CMA CGM posts Q1 earnings decline amid volatile ocean trade",
-      "url": "https://joc.com/article/cma-cgm-posts-q1-earnings-decline-amid-volatile-ocean-trade-6225849",
-      "source": "Journal of Commerce",
-      "raw_date": "Fri, 22 May 2026 17:06:15 GMT",
-      "description": "The carrier’s first-quarter financials, which included a sharp drop in net profit, were generated in a market roiled by ongoing tensions in the Middle East, rising oil prices and increasing operating costs."
-    },
-    {
-      "headline": "Survey: Port leaders call for $6.7 billion cargo equipment spending",
-      "url": "https://www.dcvelocity.com/transportation/maritime-ocean/ports/survey-port-leaders-call-for-6-7-billion-cargo-equipment-spending",
-      "source": "DC Velocity",
-      "raw_date": "Fri, 22 May 2026 16:49:38 +0000",
-      "description": "U.S. ports face the need for $6.7 billion in cargo equipment investment over the next five years in order to maintain their efficiency and global competitiveness, according to a survey of 25 senior port and terminal executives conducted by the National Association of Waterfront Employers (NAWE). The"
     },
     {
       "headline": "Will Cityview take the lead on Oceanwide Plaza fix?",
@@ -216,13 +195,6 @@
       "description": "Another year is in the books. Tens of thousands of brokers and investors piled into the Las Vegas Convention Center earlier this week to talk retail at ICSC and Commercial Observer was on the ground to capture the mood. First: Retail isn’t just recovering anymore — it’s back to being one of commerci"
     },
     {
-      "headline": "Dutch Investor Pays $110M For New Rental in Aventura, Fla.",
-      "url": "https://commercialobserver.com/2026/05/breevest-avida-aventura-fifield-multifamily-housing/",
-      "source": "Commercial Observer",
-      "raw_date": "Fri, 22 May 2026 16:35:34 +0000",
-      "description": "Dutch investor Breevest has paid $110 million for a new multifamily asset near the Aventura Mall in Florida’s Miami-Dade County, property records show. Called Avida Aventura, the eight-story property houses 266 apartments at 19401 West Dixie Highway, facing Biscayne Boulevard and across the street f"
-    },
-    {
       "headline": "San Diego gunman was &#x27;idolizing Nazis and mass shooters,&#x27; prompting gun removal from home in 2025",
       "url": "https://www.latimes.com/california/story/2026-05-23/mosque-shooter-welfare-check-guns",
       "source": "Los Angeles Times",
@@ -244,13 +216,6 @@
       "description": "Chad Bianco and Steve Hilton, the two top Republicans running for governor, make their closing arguments in front of a friendly GOP audience near Fresno before the June 2 primary."
     },
     {
-      "headline": "What we know about GKN Aerospace, the firm at center of O.C. chemical leak",
-      "url": "https://www.latimes.com/california/story/2026-05-23/garden-grove-chemical-leak-what-we-know-about-gkn-aerospace",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 12:00:00 GMT",
-      "description": "The chemical leak that triggered evacuations across a swath of Orange County on Friday is located at GKN Aerospace, a manufacturing company based in the United Kingdom."
-    },
-    {
       "headline": "Lopez: Spencer Pratt, please call me. You don&#x27;t know what you&#x27;re getting yourself into",
       "url": "https://www.latimes.com/california/story/2026-05-23/la-mayoral-hopeful-spencer-pratt-is-making-big-splash-but-can-he-swim",
       "source": "Los Angeles Times",
@@ -258,11 +223,11 @@
       "description": "The candidate and the columnist have something in common, but comparison ends there."
     },
     {
-      "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
-      "url": "https://www.latimes.com/environment/story/2026-05-23/students-build-nurseries-to-reforest-burnt-l-a-inspired-by-jane-goodall",
+      "headline": "What we know about GKN Aerospace, the firm at center of O.C. chemical leak",
+      "url": "https://www.latimes.com/california/story/2026-05-23/garden-grove-chemical-leak-what-we-know-about-gkn-aerospace",
       "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
-      "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
+      "raw_date": "Sat, 23 May 2026 12:00:00 GMT",
+      "description": "The chemical leak that triggered evacuations across a swath of Orange County on Friday is located at GKN Aerospace, a manufacturing company based in the United Kingdom."
     },
     {
       "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
@@ -270,6 +235,13 @@
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
       "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
+    },
+    {
+      "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
+      "url": "https://www.latimes.com/environment/story/2026-05-23/students-build-nurseries-to-reforest-burnt-l-a-inspired-by-jane-goodall",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
     },
     {
       "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
@@ -340,20 +312,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 18:08:56 GMT",
       "description": "Monterey County's Board of Supervisors this week voted to move forward on a plan to restrict parking around Bixby Bridge, arguably the most iconic stop along Highway 1 in Big Sur. The parking moratorium, however, has not yet gone into effect and likely won't several weeks, if not months."
-    },
-    {
-      "headline": "Sandy fire crew salvages family wedding ring amid Simi Valley ashes",
-      "url": "https://www.latimes.com/california/story/2026-05-22/sandy-fire-crew-salvages-family-wedding-ring-amid-simi-valley-ashes",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 18:00:38 GMT",
-      "description": "Firefighters discovered some precious items after coming to the aid of a family whose home was destroyed by a fast-moving wildfire in Simi Valley this week."
-    },
-    {
-      "headline": "A frantic two hours as police struggled to assess threat before San Diego shooters opened fire",
-      "url": "https://www.latimes.com/california/story/2026-05-22/la-me-san-diego-attack-final-hours-police",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 16:37:12 GMT",
-      "description": "Two hours before the deadly attack at a San Diego mosque, the mother of one of the assailants reached out to police warning that her son was suicidal and had taken firearms. But it took police nearly 90 minutes to respond to the initial call."
     },
     {
       "headline": "Chaffey College adds computer classes",
