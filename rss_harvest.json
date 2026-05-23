@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-23T00:00:50.510Z",
-  "elapsed_seconds": 2.8,
+  "harvested_at": "2026-05-23T02:01:16.727Z",
+  "elapsed_seconds": 30.3,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 59,
+  "articles_count": 56,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 12,
+      "count": 11,
       "total": 50,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 4,
+      "count": 3,
       "total": 10,
       "error": null
     },
@@ -85,13 +85,13 @@
       "source": "Los Angeles Times",
       "success": true,
       "count": 18,
-      "total": 97,
+      "total": 98,
       "error": null
     },
     {
       "source": "CalMatters",
       "success": true,
-      "count": 5,
+      "count": 4,
       "total": 10,
       "error": null
     },
@@ -196,13 +196,6 @@
       "description": "Echo Global will once again face a South Carolina court following a judge’s order tied to Montgomery. The post Earlier broker liability victory for Echo sent back to lower court after Montgomery appeared first on FreightWaves ."
     },
     {
-      "headline": "State of Freight 5 takeaways: Montgomery talk; short-term strength",
-      "url": "https://www.freightwaves.com/news/state-of-freight-5-takeaways-montgomery-talk-short-term-strength",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 22:36:56 +0000",
-      "description": "Fallout from the Montgomery case was a subject in this month’s State of Freight webinar. The post State of Freight 5 takeaways: Montgomery talk; short-term strength appeared first on FreightWaves ."
-    },
-    {
       "headline": "Local East Coast freight leading charge on intermodal rebound",
       "url": "https://joc.com/article/local-east-coast-freight-leading-charge-on-intermodal-rebound-6225875",
       "source": "Journal of Commerce",
@@ -287,13 +280,6 @@
       "description": "An empty lot in Jefferson Park is poised to become the site of a new hotel.&#160; Property owner Hitendra Patel filed plans with the Los Angeles Department of City Planning to build a Best Western hotel at 2645 South Western Avenue, Urbanize Los Angeles reported.&#160; The application calls for a th"
     },
     {
-      "headline": "Douglas Emmett cements resi conversion for Westwood office tower",
-      "url": "https://therealdeal.com/la/2026/05/21/office-conversion-new-apartments-coming-to-westwood/",
-      "source": "The Real Deal",
-      "raw_date": "Thu, 21 May 2026 22:45:00 +0000",
-      "description": "Douglas Emmett’s housing plans for the corner of Wilshire and Westwood Boulevards are coming into focus.&#160; On Wednesday, the Santa Monica-based real estate investment trust filed an application with the City of Los Angeles to convert the 17-story, approximately 247,000-square-foot high-rise at 1"
-    },
-    {
       "headline": "ICSC 2026: Inflation, Trampoline Parks and the Fate of Luxury",
       "url": "https://commercialobserver.com/2026/05/icsc-2026-retail/",
       "source": "Commercial Observer",
@@ -334,6 +320,20 @@
       "source": "Commercial Observer",
       "raw_date": "Fri, 22 May 2026 12:00:21 +0000",
       "description": "For decades, the path to becoming a competent asset manager or acquisitions principal was unglamorous and repetitive. A junior analyst spent their first two years buried in offering memoranda, lease abstracts and trailing 12-month financials. They made the small, expensive mistakes that taught them "
+    },
+    {
+      "headline": "Why a chemical explosion in Orange County could be so catastrophic",
+      "url": "https://www.latimes.com/california/story/2026-05-22/why-garden-grove-chemical-explosion-could-be-so-catastrophic",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 23:55:41 GMT",
+      "description": "An \"unprecedented\" situation was taking hold in Orange County on Friday, as a chemical tank was at risk of spewing a highly toxic chemical that can cause severe respiratory distress and hospitalization, officials said."
+    },
+    {
+      "headline": "Caltech could lose control of JPL for first time in decades",
+      "url": "https://www.latimes.com/science/story/2026-05-22/caltech-could-lose-control-of-jpl-for-first-time-in-decades",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 23:53:46 GMT",
+      "description": "The action forces Caltech to compete for control of the La Cañada Flintridge institution it has managed since NASA's inception in 1958."
     },
     {
       "headline": "&#x27;Housewives&#x27; star Erika Girardi settles $25-million lawsuit over money from husband&#x27;s firm",
@@ -448,20 +448,6 @@
       "description": "The Ventura County Fire Department said air quality monitoring is being conducted around the fire's perimeter due to the proximity to the Santa Susana Field Laboratory."
     },
     {
-      "headline": "Feds charge former L.A. nonprofit worker with possessing fentanyl, meth near MacArthur Park",
-      "url": "https://www.latimes.com/california/story/2026-05-21/former-la-nonprofit-worker-fentanyl-federal-charges",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 22:19:14 GMT",
-      "description": "Federal prosecutors allege that Christopher Barret Johnson, an ex-employee of a harm reduction organization that has served MacArthur Park, was caught by police with baggies of fentanyl and meth in his car, along with a scale."
-    },
-    {
-      "headline": "Influencer files complaint against Steyer campaign, alleging violations",
-      "url": "https://www.latimes.com/politics/story/2026-05-21/influencer-files-complaint-against-steyer-campaign-alleging-violations",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 22:03:36 GMT",
-      "description": "The influencer said Steyer's campaign committee failed to notify her of her disclosure requirements, as required by law."
-    },
-    {
       "headline": "Can CA help its workers survive the AI disruption?",
       "url": "https://calmatters.org/newsletter/artificial-intelligence-work-ideas-festival/",
       "source": "CalMatters",
@@ -488,13 +474,6 @@
       "source": "CalMatters",
       "raw_date": "Fri, 22 May 2026 12:00:00 +0000",
       "description": "The bullet train project launched in 2008 with promises of completion by 2020. Now it's mostly concrete supports. No tracks or train."
-    },
-    {
-      "headline": "California bill moves to make cheaper alternative fuel available to more drivers",
-      "url": "https://calmatters.org/environment/2026/05/gas-prices-e85-conversion-kits/",
-      "source": "CalMatters",
-      "raw_date": "Thu, 21 May 2026 23:52:00 +0000",
-      "description": "In the face of the nation&#8217;s highest gas prices, California lawmakers approved a bill to ease restrictions on E85 conversion kits — devices that let conventional gasoline cars run on a cheaper, mostly ethanol fuel blend. Assembly Bill 2046, dubbed the “Access to Affordable Gas Act” by its autho"
     },
     {
       "headline": "SeaWorld Drops Jaws with Reimagined Exhibit",
