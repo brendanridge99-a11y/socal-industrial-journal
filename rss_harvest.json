@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-23T20:00:46.458Z",
-  "elapsed_seconds": 2.3,
+  "harvested_at": "2026-05-23T22:00:49.227Z",
+  "elapsed_seconds": 4.5,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 30,
+  "articles_count": 26,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -15,7 +15,7 @@
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 1,
+      "count": 0,
       "total": 40,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 4,
+      "count": 3,
       "total": 10,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 1,
+      "count": 0,
       "total": 17,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 17,
+      "count": 16,
       "total": 98,
       "error": null
     },
@@ -153,13 +153,6 @@
       "description": "GAF’s Marianna Vydrevich said AI-powered analytics are helping supply chain teams automate workflows, optimize inventory and model disruptions. The post Leading roofing manufacturer uses AI to speed network optimization appeared first on FreightWaves ."
     },
     {
-      "headline": "Local East Coast freight leading charge on intermodal rebound",
-      "url": "https://joc.com/article/local-east-coast-freight-leading-charge-on-intermodal-rebound-6225875",
-      "source": "Journal of Commerce",
-      "raw_date": "Fri, 22 May 2026 18:44:14 GMT",
-      "description": "Rising fuel costs, reliable service and higher rates amid the end of the four-year recession in trucking are helping convert more freight to rail in the eastern US."
-    },
-    {
       "headline": "Will Cityview take the lead on Oceanwide Plaza fix?",
       "url": "https://therealdeal.com/la/2026/05/23/more-on-oceanwide-plaza/",
       "source": "The Real Deal",
@@ -181,18 +174,11 @@
       "description": "A senior housing developer is moving forward with a project in Huntington Beach thanks to a fresh nine-figure funding injection.&#160; The Marisol, a planned 214-unit assisted living and memory care community at 2120 Main Street in Huntington Beach, secured $252.1 million in construction financing f"
     },
     {
-      "headline": "Best Western takes South Western: Jefferson Park hotel plans resurface",
-      "url": "https://therealdeal.com/la/2026/05/22/best-western-plans-revived-in-jefferson-park/",
-      "source": "The Real Deal",
-      "raw_date": "Fri, 22 May 2026 18:45:00 +0000",
-      "description": "An empty lot in Jefferson Park is poised to become the site of a new hotel.&#160; Property owner Hitendra Patel filed plans with the Los Angeles Department of City Planning to build a Best Western hotel at 2645 South Western Avenue, Urbanize Los Angeles reported.&#160; The application calls for a th"
-    },
-    {
-      "headline": "ICSC 2026: Inflation, Trampoline Parks and the Fate of Luxury",
-      "url": "https://commercialobserver.com/2026/05/icsc-2026-retail/",
-      "source": "Commercial Observer",
-      "raw_date": "Fri, 22 May 2026 18:28:35 +0000",
-      "description": "Another year is in the books. Tens of thousands of brokers and investors piled into the Las Vegas Convention Center earlier this week to talk retail at ICSC and Commercial Observer was on the ground to capture the mood. First: Retail isn’t just recovering anymore — it’s back to being one of commerci"
+      "headline": "Photos: Honoring heroes on Memorial Day",
+      "url": "https://www.latimes.com/california/story/2026-05-23/photos-honoring-heroes-on-memorial-day",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 20:15:51 GMT",
+      "description": "Hundreds of Scouts from the Western Los Angeles County Council, Scouting America, along with veteran groups and community volunteers, gathered Saturday morning at the Los Angeles National Cemetery to place 90,000 American flags before Memorial Day."
     },
     {
       "headline": "San Diego gunman was &#x27;idolizing Nazis and mass shooters,&#x27; prompting gun removal from home in 2025",
@@ -209,7 +195,7 @@
       "description": "Two teenage suspects who attacked the Islamic Center in San Diego on Monday, killing three people before turning the guns on themselves, were engaging with far-right extremist content on social media, authorities have said."
     },
     {
-      "headline": "GOP governor hopefuls give closing arguments to oft-forgotten Central Valley Republicans",
+      "headline": "GOP governor hopefuls give closing arguments to Central Valley Republicans",
       "url": "https://www.latimes.com/california/story/2026-05-23/gop-governor-hopefuls-give-closing-arguments-to-oft-forgotten-central-valley-republicans",
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 17:15:40 GMT",
@@ -230,18 +216,18 @@
       "description": "The chemical leak that triggered evacuations across a swath of Orange County on Friday is located at GKN Aerospace, a manufacturing company based in the United Kingdom."
     },
     {
-      "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
-      "url": "https://www.latimes.com/california/story/2026-05-23/la-city-attorney-race-two-challengers",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
-      "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
-    },
-    {
       "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
       "url": "https://www.latimes.com/environment/story/2026-05-23/students-build-nurseries-to-reforest-burnt-l-a-inspired-by-jane-goodall",
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
       "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
+    },
+    {
+      "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
+      "url": "https://www.latimes.com/california/story/2026-05-23/la-city-attorney-race-two-challengers",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
     },
     {
       "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
@@ -298,20 +284,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 21:20:30 GMT",
       "description": "Pratt raised nearly 10 times as Bass — $2.72 million — in the last reporting period. Raman trails far behind both Pratt and Bass with less than $1 million."
-    },
-    {
-      "headline": "California gets $27.5 million to find and replace toxic lead pipes that deliver water to homes",
-      "url": "https://www.latimes.com/california/story/2026-05-22/california-gets-27-5-million-to-find-replace-lead-pipes",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 19:31:26 GMT",
-      "description": "California will get $27.5 million in federal funding to find and replace lead pipes that deliver water to homes, the U.S. Environmental Protection Agency announced Wednesday."
-    },
-    {
-      "headline": "No parking at Big Sur bridge? County mulls restrictions at famous California Highway 1 stop",
-      "url": "https://www.latimes.com/california/story/2026-05-22/officials-plan-parking-restrictions-around-big-surs-bixby-bridge",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 18:08:56 GMT",
-      "description": "Monterey County's Board of Supervisors this week voted to move forward on a plan to restrict parking around Bixby Bridge, arguably the most iconic stop along Highway 1 in Big Sur. The parking moratorium, however, has not yet gone into effect and likely won't several weeks, if not months."
     },
     {
       "headline": "Chaffey College adds computer classes",
