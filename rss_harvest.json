@@ -1,28 +1,28 @@
 {
-  "harvested_at": "2026-05-22T22:00:50.010Z",
-  "elapsed_seconds": 2.5,
+  "harvested_at": "2026-05-23T00:00:50.510Z",
+  "elapsed_seconds": 2.8,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 67,
+  "articles_count": 59,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 14,
+      "count": 12,
       "total": 50,
       "error": null
     },
     {
       "source": "Journal of Commerce",
       "success": true,
-      "count": 6,
+      "count": 5,
       "total": 40,
       "error": null
     },
     {
       "source": "Supply Chain Dive",
       "success": true,
-      "count": 4,
+      "count": 3,
       "total": 10,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 6,
+      "count": 4,
       "total": 10,
       "error": null
     },
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 8,
+      "count": 6,
       "total": 17,
       "error": null
     },
@@ -203,20 +203,6 @@
       "description": "Fallout from the Montgomery case was a subject in this month’s State of Freight webinar. The post State of Freight 5 takeaways: Montgomery talk; short-term strength appeared first on FreightWaves ."
     },
     {
-      "headline": "AAR slams “hypocrisy” as Trump-backed rail safety measure is included in transportation funding bill",
-      "url": "https://www.freightwaves.com/news/aar-slams-hypocrisy-as-trump-backed-rail-safety-measure-is-included-in-transportation-funding-bill",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 20:23:30 +0000",
-      "description": "The Railway Safety Act opposed by railroads rode Trump’s backing to be included in surface transportation funding legislation. The post AAR slams “hypocrisy” as Trump-backed rail safety measure is included in transportation funding bill appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Broker liability ruling: Carriers, brokers, analysts weigh in",
-      "url": "https://www.freightwaves.com/news/broker-liability-ruling-carriers-brokers-analysts-weigh-in",
-      "source": "FreightWaves",
-      "raw_date": "Thu, 21 May 2026 20:09:16 +0000",
-      "description": "Industry participants say asset-based carriers are likely the winners following the Supreme Court’s landmark ruling on freight broker liability. The post Broker liability ruling: Carriers, brokers, analysts weigh in appeared first on FreightWaves ."
-    },
-    {
       "headline": "Local East Coast freight leading charge on intermodal rebound",
       "url": "https://joc.com/article/local-east-coast-freight-leading-charge-on-intermodal-rebound-6225875",
       "source": "Journal of Commerce",
@@ -252,13 +238,6 @@
       "description": "Tirschwell, who most recently served as vice president of the Journal of Commerce, announced his plans to leave the business and continue work as an independent shipping journalist."
     },
     {
-      "headline": "NY-NJ maritime industry honors ILA’s McNamara",
-      "url": "https://joc.com/article/ny-nj-maritime-industry-honors-ilas-mcnamara-6225458",
-      "source": "Journal of Commerce",
-      "raw_date": "Thu, 21 May 2026 20:09:18 GMT",
-      "description": "James McNamara, who joined the union as it faced tumult from containerization, persisted at his job over four decades to help shape the modern International Longshoremen’s Association."
-    },
-    {
       "headline": "What Mattress Firm gained from contactless delivery",
       "url": "https://www.supplychaindive.com/news/what-mattress-firm-gained-from-contactless-delivery/820809/",
       "source": "Supply Chain Dive",
@@ -280,18 +259,18 @@
       "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/SGv7qBvwfpu-Ww4JHJMoVZ7UlpE4I_hk_lQVugiHcvM/g:nowe:0:101/c:1150:649/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjQtMDctMTdfMTEwOTEzLmpwZw==.webp\"/></div></figure><p>The frozen snack food manufacturer expects the "
     },
     {
-      "headline": "Procurement leaders urge incremental AI adoption to avoid heavy spend",
-      "url": "https://www.supplychaindive.com/news/procurement-leaders-urge-incremental-ai-adoption-to-avoid-heavy-spend/820557/",
-      "source": "Supply Chain Dive",
-      "raw_date": "Thu, 21 May 2026 16:26:00 -0400",
-      "description": "<figure><div><img src=\"https://imgproxy.divecdn.com/m1zh0M4MYgWSBh0OjRTFSNLgYb_7z_GKRhCFffFAlqg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMDM3MC5qcGVn.webp\"/></div></figure><p>Managing the cost of using AI rests on starting low-risk pilots and scaling the technology slo"
-    },
-    {
       "headline": "Survey: Port leaders call for $6.7 billion cargo equipment spending",
       "url": "https://www.dcvelocity.com/transportation/maritime-ocean/ports/survey-port-leaders-call-for-6-7-billion-cargo-equipment-spending",
       "source": "DC Velocity",
       "raw_date": "Fri, 22 May 2026 16:49:38 +0000",
       "description": "U.S. ports face the need for $6.7 billion in cargo equipment investment over the next five years in order to maintain their efficiency and global competitiveness, according to a survey of 25 senior port and terminal executives conducted by the National Association of Waterfront Employers (NAWE). The"
+    },
+    {
+      "headline": "Swath of new Echo Park apartment buildings from Aragon Properties up for sale",
+      "url": "https://therealdeal.com/la/2026/05/22/aragon-properties-selling-new-echo-park-apartments/",
+      "source": "The Real Deal",
+      "raw_date": "Fri, 22 May 2026 22:30:00 +0000",
+      "description": "Three new apartment properties in Echo Park are hitting the market.&#160; Aragon Properties is listing the 190-unit portfolio less than two years after they were completed, L.A. Business First reported. The collection consists of Park at 200 North Toluca Street, Vista at 215 North Toluca Street and "
     },
     {
       "headline": "Huntington Beach senior housing project scores $252M financing package",
@@ -313,27 +292,6 @@
       "source": "The Real Deal",
       "raw_date": "Thu, 21 May 2026 22:45:00 +0000",
       "description": "Douglas Emmett’s housing plans for the corner of Wilshire and Westwood Boulevards are coming into focus.&#160; On Wednesday, the Santa Monica-based real estate investment trust filed an application with the City of Los Angeles to convert the 17-story, approximately 247,000-square-foot high-rise at 1"
-    },
-    {
-      "headline": "LA city’s top construction permits: Week ending May 17, 2026",
-      "url": "https://therealdeal.com/la/2026/05/21/los-angeles-top-construction-permits-5-17-26/",
-      "source": "The Real Deal",
-      "raw_date": "Thu, 21 May 2026 21:36:49 +0000",
-      "description": "🏆 The largest new development to receive permits last week was in Woodland Hills, where plans were filed to build a 275,710-square-foot multifamily affordable housing project at 6745 North Independence Avenue. The $50.5 million project will feature 395 apartments and stand six stories tall. The dev"
-    },
-    {
-      "headline": "Dauntless does it again: Pasadena hotel fetches $450k per key",
-      "url": "https://therealdeal.com/la/2026/05/21/dauntless-capital-partners-sells-pasadena-hotel/",
-      "source": "The Real Deal",
-      "raw_date": "Thu, 21 May 2026 21:00:00 +0000",
-      "description": "Dauntless Capital Partners sold a hotel in Old Town Pasadena for $65 million, or about $451,000 a room, The Real Deal has learned. The buyer is little-known David Lee of Cornerstone Hotel Group, a hospitality management company that has begun to accumulate a portfolio of properties as owner-operator"
-    },
-    {
-      "headline": "Pasadena median home price blows past new state record: CAR",
-      "url": "https://therealdeal.com/la/2026/05/21/median-home-price-in-pasadena-remains-lofty/",
-      "source": "The Real Deal",
-      "raw_date": "Thu, 21 May 2026 20:11:43 +0000",
-      "description": "California just hit a new home price record, but Pasadena has been living in that reality for a while. The statewide median home price climbed to $914,810 in April, Pasadena Now reported, citing new data from the California Association of Realtors. At the same time, Pasadena’s median sale price reac"
     },
     {
       "headline": "ICSC 2026: Inflation, Trampoline Parks and the Fate of Luxury",
@@ -378,18 +336,18 @@
       "description": "For decades, the path to becoming a competent asset manager or acquisitions principal was unglamorous and repetitive. A junior analyst spent their first two years buried in offering memoranda, lease abstracts and trailing 12-month financials. They made the small, expensive mistakes that taught them "
     },
     {
-      "headline": "Top CBRE Researcher Ebere Anokute: E-Commerce’s Impact Is ‘Overblown’",
-      "url": "https://commercialobserver.com/2026/05/cbre-retail-ebere-anokute-e-commerce-icsc/",
-      "source": "Commercial Observer",
-      "raw_date": "Thu, 21 May 2026 21:55:47 +0000",
-      "description": "It’s difficult enough to pinpoint where commercial real estate sits in a cycle with macroeconomics, inflation, interest rates and employment trends all moving at once, and often in different directions. Retail makes that read even more complicated, with changes to population migration, shifting cons"
+      "headline": "&#x27;Housewives&#x27; star Erika Girardi settles $25-million lawsuit over money from husband&#x27;s firm",
+      "url": "https://www.latimes.com/california/story/2026-05-22/housewives-star-erika-girardi-settles-25-million-civil-lawsuit",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 23:15:43 GMT",
+      "description": "Erika Girardi, a pop star who appeared on the reality show \"Real Housewives of Beverly Hills,\" faced a lawsuit that alleged she should have known her husband, Tom Girardi, was supporting her singing career with money diverted from his now-defunct law firm."
     },
     {
-      "headline": "Gersh Autism Academy Signs 21K-SF Bronx Sublease at 452 College Avenue",
-      "url": "https://commercialobserver.com/2026/05/gersh-autism-academy-sublease-bronx-425-college-avenue/",
-      "source": "Commercial Observer",
-      "raw_date": "Thu, 21 May 2026 20:11:37 +0000",
-      "description": "A school for autistic children is taking over the lease for a charter school in the Bronx, Commercial Observer has learned. Gersh Autism Academy subleased the 21,000‑square‑foot building at 452 College Avenue in Mott Haven from Brilla Schools parent company Seton Education Partners, which has been c"
+      "headline": "Garden Grove chemical leak: Evacuations, closures, shelters",
+      "url": "https://www.latimes.com/california/story/2026-05-22/orange-county-chemical-leak-evacuations-closures-shelters",
+      "source": "Los Angeles Times",
+      "raw_date": "Fri, 22 May 2026 21:50:51 GMT",
+      "description": "A failing tank in Garden Grove holding toxic chemicals has prompted major evacuations. Here's what you need to know."
     },
     {
       "headline": "Pratt raised nearly 10 times more in contributions than Bass in latest filing period",
@@ -466,10 +424,10 @@
       "url": "https://www.latimes.com/california/story/2026-05-22/san-diego-mosque-shooting-victims-heroes",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 10:00:00 GMT",
-      "description": "Meet the three men who sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
+      "description": "Three men sacrificed their lives to protect dozens of schoolchildren during an attempted mass shooting at the Islamic Center of San Diego."
     },
     {
-      "headline": "Thousands evacuated around leaking Orange County chemical tank: &#x27;It fails, or it blows up.&#x27;",
+      "headline": "Thousands evacuated around leaking Orange County chemical tank: &#x27;It fails, or it blows up&#x27;",
       "url": "https://www.latimes.com/california/story/2026-05-21/residents-evacuated-toxic-leak-garden-grove-aerospace-company",
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 01:58:47 GMT",
@@ -502,20 +460,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Thu, 21 May 2026 22:03:36 GMT",
       "description": "The influencer said Steyer's campaign committee failed to notify her of her disclosure requirements, as required by law."
-    },
-    {
-      "headline": "L.A. City Council approves $15-billion budget, clearing the way to hire 510 police officers",
-      "url": "https://www.latimes.com/california/story/2026-05-21/la-council-backs-15-billion-budget-hiring-510-officers",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 21:35:04 GMT",
-      "description": "City Councilmember Traci Park cast the lone opposing vote, saying the plan shortchanges the fire department and cuts the number of homeless encampment cleanups in her coastal district."
-    },
-    {
-      "headline": "Scientists bet on AI to save gray whales from ship strikes off California coast",
-      "url": "https://www.latimes.com/california/story/2026-05-21/ai-gray-whale-ship-strikes",
-      "source": "Los Angeles Times",
-      "raw_date": "Thu, 21 May 2026 21:03:26 GMT",
-      "description": "Scientists are using thermal cameras and AI technology to track and locate gray whales off the coast to warn nearby ships."
     },
     {
       "headline": "Can CA help its workers survive the AI disruption?",
