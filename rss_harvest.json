@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-24T06:00:49.148Z",
-  "elapsed_seconds": 4.2,
+  "harvested_at": "2026-05-24T08:00:46.428Z",
+  "elapsed_seconds": 2.3,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 20,
+  "articles_count": 19,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 15,
+      "count": 14,
       "total": 98,
       "error": null
     },
@@ -235,13 +235,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
       "description": "Evacuation orders have been issued in portions of the cities of Garden Grove, Anaheim, Buena Park, Cypress, Stanton and Westminster."
-    },
-    {
-      "headline": "A night of fear, confusion as thousands flee their homes in O.C. amid chemical crisis",
-      "url": "https://www.latimes.com/california/story/2026-05-22/night-of-fear-confusion-as-thousands-flee-their-homes-in-o-c-amid-chemical-crisis",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 05:05:47 GMT",
-      "description": "It was a night of anxiety and questions as people across a wide swath of central Orange County fled their homes due to the risk of a chemical explosion at a Garden Grove aerospace firm."
     },
     {
       "headline": "Chaffey College adds computer classes",
