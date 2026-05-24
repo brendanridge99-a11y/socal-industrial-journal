@@ -1,6 +1,6 @@
 {
-  "harvested_at": "2026-05-24T20:00:36.415Z",
-  "elapsed_seconds": 2.7,
+  "harvested_at": "2026-05-24T22:00:38.492Z",
+  "elapsed_seconds": 4.8,
   "feeds_attempted": 16,
   "feeds_successful": 15,
   "articles_count": 17,
@@ -147,25 +147,18 @@
       "description": "Some campaign finance advocates are concerned that voters could increasingly be influenced by social media posts that they don't know are sponsored."
     },
     {
-      "headline": "L.A. voters will cast ballots in eight City Council districts, two with open seats",
-      "url": "https://www.latimes.com/california/story/2026-05-24/la-voters-will-cast-ballots-in-eight-city-council-districts-two-with-open-seats",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "The June 2 primary will include two City Council districts where the incumbents are leaving office, one uncontested seat and a Westside race that has topped all others in campaign spending."
-    },
-    {
-      "headline": "Defying Trump, California continues to bet big on offshore wind",
-      "url": "https://www.latimes.com/environment/story/2026-05-24/defying-trump-california-continues-to-bet-big-on-offshore-wind",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "The Port of Long Beach aims to become an assembly hub for floating offshore wind turbines, while the state awaits a more favorable federal administration for their deployment."
-    },
-    {
       "headline": "Dungeons, dragons and democratic socialists: a leftist fundraiser in Hollywood",
       "url": "https://www.latimes.com/california/story/2026-05-24/dungeons-dragons-democratic-socialists-leftist-fundraiser-in-hollywood",
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
       "description": "Democratic Socialists of America candidates in Los Angeles raised $30,000 for their campaigns during a fundraiser where they played Dungeons & Dragons."
+    },
+    {
+      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
     },
     {
       "headline": "Barabak: The &#x27;greatest threat&#x27; to rule of law in decades. That&#x27;s how lawyers, judges see Trump",
@@ -175,11 +168,18 @@
       "description": "A new survey finds deep concern about presidential overreach, persecution of enemies and other unchecked abuses of power. The poll shows the stakes in November."
     },
     {
-      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
+      "headline": "Defying Trump, California continues to bet big on offshore wind",
+      "url": "https://www.latimes.com/environment/story/2026-05-24/defying-trump-california-continues-to-bet-big-on-offshore-wind",
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
+      "description": "The Port of Long Beach aims to become an assembly hub for floating offshore wind turbines, while the state awaits a more favorable federal administration for their deployment."
+    },
+    {
+      "headline": "L.A. voters will cast ballots in eight City Council districts, two with open seats",
+      "url": "https://www.latimes.com/california/story/2026-05-24/la-voters-will-cast-ballots-in-eight-city-council-districts-two-with-open-seats",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "The June 2 primary will include two City Council districts where the incumbents are leaving office, one uncontested seat and a Westside race that has topped all others in campaign spending."
     },
     {
       "headline": "L.A. is safer than it&#x27;s been in decades, but crime is an issue dominating the mayor&#x27;s race",
