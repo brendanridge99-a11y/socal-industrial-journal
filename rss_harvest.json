@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-24T00:00:48.535Z",
-  "elapsed_seconds": 2.3,
+  "harvested_at": "2026-05-24T02:00:51.288Z",
+  "elapsed_seconds": 6.4,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 23,
+  "articles_count": 20,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 2,
+      "count": 1,
       "total": 10,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 17,
+      "count": 15,
       "total": 98,
       "error": null
     },
@@ -139,11 +139,11 @@
       "description": "The Real Deal reported in early April that an offer connected to Sean Burton’s Cityview was becoming a backup of sorts in the Oceanwide Plaza bankruptcy sale. Fast forward to late May and it looks as though Cityview might be moving to the forefront when it comes to deciding the fate of the mammoth p"
     },
     {
-      "headline": "Swath of new Echo Park apartment buildings from Aragon Properties up for sale",
-      "url": "https://therealdeal.com/la/2026/05/22/aragon-properties-selling-new-echo-park-apartments/",
-      "source": "The Real Deal",
-      "raw_date": "Fri, 22 May 2026 22:30:00 +0000",
-      "description": "Three new apartment properties in Echo Park are hitting the market.&#160; Aragon Properties is listing the 190-unit portfolio less than two years after they were completed, L.A. Business First reported. The collection consists of Park at 200 North Toluca Street, Vista at 215 North Toluca Street and "
+      "headline": "Explosion would cause significant damage around Garden Grove plant, blast zone map shows",
+      "url": "https://www.latimes.com/california/story/2026-05-23/explosion-would-cause-significant-damage-around-garden-grove-plant-blast-zone-map-shows",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 01:39:25 GMT",
+      "description": "If the failing chemical tank in Orange County does explode, the aerospace plant where it sits and dozens of homes surrounding it could suffer severe damage, according to a map released by authorities Saturday."
     },
     {
       "headline": "With conditions worsening, how will the Orange County chemical crisis get resolved?",
@@ -223,13 +223,6 @@
       "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
     },
     {
-      "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
-      "url": "https://www.latimes.com/food/story/2026-05-23/michelin-chef-michael-cimarusti-on-connie-and-teds-closing",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
-      "description": "One of L.A.'s most ambitious seafood restaurants from a Michelin three-star chef will close July 1. Owners Michael Cimarusti and Crisi Echiverri share why. Also, what to expect in the last weeks of Connie & Ted's."
-    },
-    {
       "headline": "Why is Orange County chemical tank crisis so hard to fix?",
       "url": "https://www.latimes.com/california/story/2026-05-23/why-is-orange-county-chemical-tank-crisis-so-hard-to-fix",
       "source": "Los Angeles Times",
@@ -237,32 +230,18 @@
       "description": "Evacuation orders have been issued in portions of the cities of Garden Grove, Anaheim, Buena Park, Cypress, Stanton and Westminster."
     },
     {
+      "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
+      "url": "https://www.latimes.com/food/story/2026-05-23/michelin-chef-michael-cimarusti-on-connie-and-teds-closing",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "One of L.A.'s most ambitious seafood restaurants from a Michelin three-star chef will close July 1. Owners Michael Cimarusti and Crisi Echiverri share why. Also, what to expect in the last weeks of Connie & Ted's."
+    },
+    {
       "headline": "A night of fear, confusion as thousands flee their homes in O.C. amid chemical crisis",
       "url": "https://www.latimes.com/california/story/2026-05-22/night-of-fear-confusion-as-thousands-flee-their-homes-in-o-c-amid-chemical-crisis",
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 05:05:47 GMT",
       "description": "It was a night of anxiety and questions as people across a wide swath of central Orange County fled their homes due to the risk of a chemical explosion at a Garden Grove aerospace firm."
-    },
-    {
-      "headline": "Officials say a chemical explosion in Orange County could be catastrophic. Here&#x27;s why.",
-      "url": "https://www.latimes.com/california/story/2026-05-22/why-garden-grove-chemical-explosion-could-be-so-catastrophic",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 23:55:41 GMT",
-      "description": "An \"unprecedented\" situation was taking hold in Orange County on Friday, as a chemical tank was at risk of spewing a highly toxic chemical that can cause severe respiratory distress and hospitalization, officials said."
-    },
-    {
-      "headline": "Caltech could lose control of JPL for the first time",
-      "url": "https://www.latimes.com/science/story/2026-05-22/caltech-could-lose-control-of-jpl-for-first-time-in-decades",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 23:53:46 GMT",
-      "description": "The action forces Caltech to compete for control of the La Cañada Flintridge institution it has managed since NASA's inception in 1958."
-    },
-    {
-      "headline": "&#x27;Housewives&#x27; star Erika Girardi settles $25-million lawsuit over money from husband&#x27;s firm",
-      "url": "https://www.latimes.com/california/story/2026-05-22/housewives-star-erika-girardi-settles-25-million-civil-lawsuit",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 23:15:43 GMT",
-      "description": "Erika Girardi, a pop star who appeared on the reality show \"Real Housewives of Beverly Hills,\" faced a lawsuit that alleged she should have known her husband, Tom Girardi, was supporting her singing career with money diverted from his now-defunct law firm."
     },
     {
       "headline": "Chaffey College adds computer classes",
