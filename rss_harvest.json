@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-24T12:00:38.076Z",
-  "elapsed_seconds": 4.4,
+  "harvested_at": "2026-05-24T14:00:36.070Z",
+  "elapsed_seconds": 2.4,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 25,
+  "articles_count": 22,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -64,7 +64,7 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 0,
+      "count": 1,
       "total": 17,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 17,
+      "count": 15,
       "total": 98,
       "error": null
     },
@@ -112,7 +112,7 @@
     {
       "source": "IE Business Daily",
       "success": true,
-      "count": 4,
+      "count": 2,
       "total": 6,
       "error": null
     }
@@ -145,6 +145,13 @@
       "source": "The Real Deal",
       "raw_date": "Sat, 23 May 2026 15:00:00 +0000",
       "description": "The Real Deal reported in early April that an offer connected to Sean Burton’s Cityview was becoming a backup of sorts in the Oceanwide Plaza bankruptcy sale. Fast forward to late May and it looks as though Cityview might be moving to the forefront when it comes to deciding the fate of the mammoth p"
+    },
+    {
+      "headline": "Sunday Summary: Retail, Hospitality, ICSC and a Big Merger",
+      "url": "https://commercialobserver.com/2026/05/sunday-summary-retail-hospitality-icsc-and-a-big-merger/",
+      "source": "Commercial Observer",
+      "raw_date": "Sun, 24 May 2026 13:00:14 +0000",
+      "description": "In between poker rooms, trips to The Sphere, and Kwame Onwuachi’s new restaurant at The Sahara, many of us still managed to fit in a little real estate at this year’s ICSC in Las Vegas. “Listen and ask questions,” Nichole Popovics, the recently named president of TSCG, advised first-timers. “You hav"
     },
     {
       "headline": "As influencers rise in politics, some call for tighter regulations on payments",
@@ -252,20 +259,6 @@
       "description": "Chad Bianco and Steve Hilton, the two top Republicans running for governor, make their closing arguments in front of a friendly GOP audience near Fresno before the June 2 primary."
     },
     {
-      "headline": "Lopez: Spencer Pratt, please call me. You don&#x27;t know what you&#x27;re getting yourself into",
-      "url": "https://www.latimes.com/california/story/2026-05-23/la-mayoral-hopeful-spencer-pratt-is-making-big-splash-but-can-he-swim",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 12:00:00 GMT",
-      "description": "The candidate and the columnist have something in common, but comparison ends there."
-    },
-    {
-      "headline": "What we know about GKN Aerospace, the firm at center of O.C. chemical leak",
-      "url": "https://www.latimes.com/california/story/2026-05-23/garden-grove-chemical-leak-what-we-know-about-gkn-aerospace",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 12:00:00 GMT",
-      "description": "The chemical leak that triggered evacuations across a swath of Orange County on Friday is located at GKN Aerospace, a manufacturing company based in the United Kingdom."
-    },
-    {
       "headline": "Gardner promoted by Ajinomoto Foods",
       "url": "https://iebusinessdaily.com/gardner-promoted-by-ajinomoto-foods/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gardner-promoted-by-ajinomoto-foods",
       "source": "IE Business Daily",
@@ -278,20 +271,6 @@
       "source": "IE Business Daily",
       "raw_date": "Sun, 24 May 2026 10:49:57 +0000",
       "description": "Laurel Reimer has been named Riverside’s city planner. Reimer, who began work May 8, is in charge of current and advance planning, planning information, and historic preservation, according to a statement on the city’s website. “The Community and Economic Development Department is excited to welcome"
-    },
-    {
-      "headline": "Chaffey College adds computer classes",
-      "url": "https://iebusinessdaily.com/chaffey-college-adds-computer-classes/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=chaffey-college-adds-computer-classes",
-      "source": "IE Business Daily",
-      "raw_date": "Sat, 23 May 2026 10:27:57 +0000",
-      "description": "Chaffey College will offer four new computer technology classes this fall. The classes in artificial intelligence, data science, development operations and game development will all offer certificates and associate degrees, according to a statement on the school’s website. &#8220;Chaffey College is "
-    },
-    {
-      "headline": "ONT has flat April",
-      "url": "https://iebusinessdaily.com/ont-has-flat-april/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ont-has-flat-april",
-      "source": "IE Business Daily",
-      "raw_date": "Sat, 23 May 2026 10:15:25 +0000",
-      "description": "Ontario International Airport had a less-than-spectacular month in April, posting a modest drop in its passenger count but a gain in the amount of cargo it hauled. The airport accommodated 574,504 passengers last month, a year-over-year decline of 0.2 percent, according to the Ontario International "
     }
   ]
 }
