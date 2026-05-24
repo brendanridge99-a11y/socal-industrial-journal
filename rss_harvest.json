@@ -1,6 +1,6 @@
 {
-  "harvested_at": "2026-05-24T02:00:51.288Z",
-  "elapsed_seconds": 6.4,
+  "harvested_at": "2026-05-24T04:00:47.770Z",
+  "elapsed_seconds": 2.4,
   "feeds_attempted": 16,
   "feeds_successful": 14,
   "articles_count": 20,
@@ -209,13 +209,6 @@
       "description": "The chemical leak that triggered evacuations across a swath of Orange County on Friday is located at GKN Aerospace, a manufacturing company based in the United Kingdom."
     },
     {
-      "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
-      "url": "https://www.latimes.com/california/story/2026-05-23/la-city-attorney-race-two-challengers",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
-      "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
-    },
-    {
       "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
       "url": "https://www.latimes.com/environment/story/2026-05-23/students-build-nurseries-to-reforest-burnt-l-a-inspired-by-jane-goodall",
       "source": "Los Angeles Times",
@@ -223,18 +216,25 @@
       "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
     },
     {
-      "headline": "Why is Orange County chemical tank crisis so hard to fix?",
-      "url": "https://www.latimes.com/california/story/2026-05-23/why-is-orange-county-chemical-tank-crisis-so-hard-to-fix",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
-      "description": "Evacuation orders have been issued in portions of the cities of Garden Grove, Anaheim, Buena Park, Cypress, Stanton and Westminster."
-    },
-    {
       "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
       "url": "https://www.latimes.com/food/story/2026-05-23/michelin-chef-michael-cimarusti-on-connie-and-teds-closing",
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
       "description": "One of L.A.'s most ambitious seafood restaurants from a Michelin three-star chef will close July 1. Owners Michael Cimarusti and Crisi Echiverri share why. Also, what to expect in the last weeks of Connie & Ted's."
+    },
+    {
+      "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
+      "url": "https://www.latimes.com/california/story/2026-05-23/la-city-attorney-race-two-challengers",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
+    },
+    {
+      "headline": "Why is Orange County chemical tank crisis so hard to fix?",
+      "url": "https://www.latimes.com/california/story/2026-05-23/why-is-orange-county-chemical-tank-crisis-so-hard-to-fix",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Evacuation orders have been issued in portions of the cities of Garden Grove, Anaheim, Buena Park, Cypress, Stanton and Westminster."
     },
     {
       "headline": "A night of fear, confusion as thousands flee their homes in O.C. amid chemical crisis",
