@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-24T14:00:36.070Z",
-  "elapsed_seconds": 2.4,
+  "harvested_at": "2026-05-24T16:00:35.626Z",
+  "elapsed_seconds": 1.9,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 22,
+  "articles_count": 23,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 1,
+      "count": 2,
       "total": 10,
       "error": null
     },
@@ -140,6 +140,13 @@
       "description": "Federal Motor Carrier Safety Administration Administrator Derek Barrs sat down with me and Matt Leffler in our Chattanooga studio this week for a live taping of Freight Expectations. What I came away with — beyond the hour of substantive policy conversation — was the clearest articulation yet of why"
     },
     {
+      "headline": "WeHo claims top condo sale of year, counters lagging SoCal market",
+      "url": "https://therealdeal.com/la/2026/05/24/west-hollywood-penthouse-scores-23-million/",
+      "source": "The Real Deal",
+      "raw_date": "Sun, 24 May 2026 15:00:00 +0000",
+      "description": "A West Hollywood penthouse sale marked the priciest condominium trade of 2026 to date for all of Los Angeles County. Penthouse West at 8899 Beverly Boulevard went for $23 million — about 67 percent higher than the previous highwater marker for the year among on-market deals. The price shakes out to "
+    },
+    {
       "headline": "Will Cityview take the lead on Oceanwide Plaza fix?",
       "url": "https://therealdeal.com/la/2026/05/23/more-on-oceanwide-plaza/",
       "source": "The Real Deal",
@@ -161,6 +168,27 @@
       "description": "Some campaign finance advocates are concerned that voters could increasingly be influenced by social media posts that they don't know are sponsored."
     },
     {
+      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
+    },
+    {
+      "headline": "Barabak: The &#x27;greatest threat&#x27; to rule of law in decades. That&#x27;s how lawyers, judges see Trump",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/trump-judiciary-rule-of-law-poll-judges-legal-experts-shows-concern",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "A new survey finds deep concern about presidential overreach, persecution of enemies and other unchecked abuses of power. The poll shows the stakes in November."
+    },
+    {
+      "headline": "Dungeons, dragons and democratic socialists: a leftist fundraiser in Hollywood",
+      "url": "https://www.latimes.com/california/story/2026-05-24/dungeons-dragons-democratic-socialists-leftist-fundraiser-in-hollywood",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "Democratic Socialists of America candidates in Los Angeles raised $30,000 for their campaigns during a fundraiser where they played Dungeons & Dragons."
+    },
+    {
       "headline": "L.A. voters will cast ballots in eight City Council districts, two with open seats",
       "url": "https://www.latimes.com/california/story/2026-05-24/la-voters-will-cast-ballots-in-eight-city-council-districts-two-with-open-seats",
       "source": "Los Angeles Times",
@@ -180,27 +208,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
       "description": "The Port of Long Beach aims to become an assembly hub for floating offshore wind turbines, while the state awaits a more favorable federal administration for their deployment."
-    },
-    {
-      "headline": "Dungeons, dragons and democratic socialists: a leftist fundraiser in Hollywood",
-      "url": "https://www.latimes.com/california/story/2026-05-24/dungeons-dragons-democratic-socialists-leftist-fundraiser-in-hollywood",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "Democratic Socialists of America candidates in Los Angeles raised $30,000 for their campaigns during a fundraiser where they played Dungeons & Dragons."
-    },
-    {
-      "headline": "Barabak: The &#x27;greatest threat&#x27; to rule of law in decades. That&#x27;s how lawyers, judges see Trump",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/trump-judiciary-rule-of-law-poll-judges-legal-experts-shows-concern",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "A new survey finds deep concern about presidential overreach, persecution of enemies and other unchecked abuses of power. The poll shows the stakes in November."
-    },
-    {
-      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
     },
     {
       "headline": "Explosion would cause significant damage around Garden Grove plant, blast zone map shows",
