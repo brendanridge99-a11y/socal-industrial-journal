@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-23T22:00:49.227Z",
-  "elapsed_seconds": 4.5,
+  "harvested_at": "2026-05-24T00:00:48.535Z",
+  "elapsed_seconds": 2.3,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 26,
+  "articles_count": 23,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 5,
+      "count": 2,
       "total": 50,
       "error": null
     },
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 3,
+      "count": 2,
       "total": 10,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 16,
+      "count": 17,
       "total": 98,
       "error": null
     },
@@ -132,27 +132,6 @@
       "description": "Federal Motor Carrier Safety Administration Administrator Derek Barrs sat down with me and Matt Leffler in our Chattanooga studio this week for a live taping of Freight Expectations. What I came away with — beyond the hour of substantive policy conversation — was the clearest articulation yet of why"
     },
     {
-      "headline": "Phillips Connect names Mark Wallin president and general manager",
-      "url": "https://www.freightwaves.com/news/phillips-connect-mark-wallin-president-general-manager",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 21:45:12 +0000",
-      "description": "Phillips Connect appoints Mark Wallin as president and general manager to drive growth in smart trailer technology and autonomous freight readiness. The post Phillips Connect names Mark Wallin president and general manager appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Coupa adds Tonkean in latest AI acquisition push",
-      "url": "https://www.freightwaves.com/news/coupa-adds-tonkean-in-latest-ai-acquisition-push",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 20:37:03 +0000",
-      "description": "Coupa’s acquisition spree continued with the recent addition of Tonkean, a workflow automation platform aimed at automating procurement and supply chain workflows. The post Coupa adds Tonkean in latest AI acquisition push appeared first on FreightWaves ."
-    },
-    {
-      "headline": "Leading roofing manufacturer uses AI to speed network optimization",
-      "url": "https://www.freightwaves.com/news/leading-roofing-manufacturer-uses-ai-to-speed-network-optimization",
-      "source": "FreightWaves",
-      "raw_date": "Fri, 22 May 2026 20:02:45 +0000",
-      "description": "GAF’s Marianna Vydrevich said AI-powered analytics are helping supply chain teams automate workflows, optimize inventory and model disruptions. The post Leading roofing manufacturer uses AI to speed network optimization appeared first on FreightWaves ."
-    },
-    {
       "headline": "Will Cityview take the lead on Oceanwide Plaza fix?",
       "url": "https://therealdeal.com/la/2026/05/23/more-on-oceanwide-plaza/",
       "source": "The Real Deal",
@@ -167,11 +146,25 @@
       "description": "Three new apartment properties in Echo Park are hitting the market.&#160; Aragon Properties is listing the 190-unit portfolio less than two years after they were completed, L.A. Business First reported. The collection consists of Park at 200 North Toluca Street, Vista at 215 North Toluca Street and "
     },
     {
-      "headline": "Huntington Beach senior housing project scores $252M financing package",
-      "url": "https://therealdeal.com/la/2026/05/22/orange-county-senior-housing-lands-252-million-financing/",
-      "source": "The Real Deal",
-      "raw_date": "Fri, 22 May 2026 20:30:00 +0000",
-      "description": "A senior housing developer is moving forward with a project in Huntington Beach thanks to a fresh nine-figure funding injection.&#160; The Marisol, a planned 214-unit assisted living and memory care community at 2120 Main Street in Huntington Beach, secured $252.1 million in construction financing f"
+      "headline": "With conditions worsening, how will the Orange County chemical crisis get resolved?",
+      "url": "https://www.latimes.com/california/story/2026-05-23/how-will-orange-county-chemical-crisis-be-resolved-here-is-what-we-know",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 23:34:16 GMT",
+      "description": "The battle to keep a highly toxic chemical from exploding took a step backward Saturday."
+    },
+    {
+      "headline": "Garden Grove&#x27;s chemical crisis: Thousands flee as conditions worsen at damaged tank",
+      "url": "https://www.latimes.com/california/story/2026-05-23/garden-grove-chemical-crisis-newsom-declares-emergency-as-thousands-flee",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 23:20:19 GMT",
+      "description": "A failing chemical tank at GKN Aerospace in Orange County sparks mass evacuations. Firefighters battle rising temperatures to prevent a massive MMA blast."
+    },
+    {
+      "headline": "Thousands flee their homes in O.C., unsure when they can return",
+      "url": "https://www.latimes.com/california/story/2026-05-23/thousands-flee-their-homes-in-o-c-unsure-when-they-can-return",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 23:14:39 GMT",
+      "description": "Thousands fled their homes in Orange County due to the chemical leak at a Garden Grove aerospace plant, but it remains unclear how long they will need places to live."
     },
     {
       "headline": "Photos: Honoring heroes on Memorial Day",
@@ -216,18 +209,18 @@
       "description": "The chemical leak that triggered evacuations across a swath of Orange County on Friday is located at GKN Aerospace, a manufacturing company based in the United Kingdom."
     },
     {
-      "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
-      "url": "https://www.latimes.com/environment/story/2026-05-23/students-build-nurseries-to-reforest-burnt-l-a-inspired-by-jane-goodall",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
-      "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
-    },
-    {
       "headline": "Leaked files, &#x27;nuclear verdicts,&#x27; bruising attacks: Inside the L.A. city attorney race",
       "url": "https://www.latimes.com/california/story/2026-05-23/la-city-attorney-race-two-challengers",
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
       "description": "Challengers from both sides of the political spectrum are seeking to unseat City Atty. Hydee Feldstein Soto as she chases a second term in office."
+    },
+    {
+      "headline": "Inspired by Jane Goodall, students build nurseries to reforest L.A.&#x27;s fire-scorched communities",
+      "url": "https://www.latimes.com/environment/story/2026-05-23/students-build-nurseries-to-reforest-burnt-l-a-inspired-by-jane-goodall",
+      "source": "Los Angeles Times",
+      "raw_date": "Sat, 23 May 2026 10:00:00 GMT",
+      "description": "Students traumatized by the 2025 fires are cultivating campus nurseries to reforest Southern California's fire-scarred landscapes, fulfilling an idea co-conceived by the late conservationist."
     },
     {
       "headline": "&#x27;This is a reckoning&#x27;: Michael Cimarusti on Connie & Ted&#x27;s closure and the state of restaurants",
@@ -270,20 +263,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Fri, 22 May 2026 23:15:43 GMT",
       "description": "Erika Girardi, a pop star who appeared on the reality show \"Real Housewives of Beverly Hills,\" faced a lawsuit that alleged she should have known her husband, Tom Girardi, was supporting her singing career with money diverted from his now-defunct law firm."
-    },
-    {
-      "headline": "Garden Grove chemical leak: Evacuations, closures, shelters",
-      "url": "https://www.latimes.com/california/story/2026-05-22/orange-county-chemical-leak-evacuations-closures-shelters",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 21:50:51 GMT",
-      "description": "A failing tank in Garden Grove holding toxic chemicals has prompted major evacuations. Here's what you need to know."
-    },
-    {
-      "headline": "Pratt raised nearly 10 times more in contributions than Bass in latest filing period",
-      "url": "https://www.latimes.com/california/story/2026-05-22/spencer-pratt-leads-field-in-mayoral-campaign-contributions",
-      "source": "Los Angeles Times",
-      "raw_date": "Fri, 22 May 2026 21:20:30 GMT",
-      "description": "Pratt raised nearly 10 times as Bass — $2.72 million — in the last reporting period. Raman trails far behind both Pratt and Bass with less than $1 million."
     },
     {
       "headline": "Chaffey College adds computer classes",
