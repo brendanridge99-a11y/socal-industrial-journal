@@ -1,14 +1,14 @@
 {
-  "harvested_at": "2026-05-24T18:00:36.915Z",
-  "elapsed_seconds": 3.2,
+  "harvested_at": "2026-05-24T20:00:36.415Z",
+  "elapsed_seconds": 2.7,
   "feeds_attempted": 16,
   "feeds_successful": 15,
-  "articles_count": 22,
+  "articles_count": 17,
   "feed_status": [
     {
       "source": "FreightWaves",
       "success": true,
-      "count": 3,
+      "count": 1,
       "total": 50,
       "error": null
     },
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 15,
+      "count": 12,
       "total": 98,
       "error": null
     },
@@ -126,20 +126,6 @@
       "description": "This week in Borderlands Mexico: Desteia using AI to ease looming customs compliance crunch; Grocery chain plans $700M supply chain expansion in South Texas; and CPKC, CSX upgrade Southeast Mexico Express for faster transit times. The post Borderlands Mexico: Desteia using AI to ease looming customs"
     },
     {
-      "headline": "One Week After Landmark SCOTUS Ruling: Why Truckload Spot Rates Just Hit All-Time Highs — And Why This Is Only the Beginning",
-      "url": "https://www.freightwaves.com/news/one-week-after-landmark-scotus-ruling-why-truckload-spot-rates-just-hit-all-time-highs-and-why-this-is-only-the-beginning",
-      "source": "FreightWaves",
-      "raw_date": "Sat, 23 May 2026 17:32:29 +0000",
-      "description": "One week ago today, the U.S. Supreme Court issued a unanimous 9-0 decision in Montgomery v. Caribe Transport II that is already reshaping the $800-billion-plus truckload brokerage sector. The Court ruled that the Federal Aviation Administration Authorization Act (FAAAA) does not preempt state-law ne"
-    },
-    {
-      "headline": "The FMCSA finally has a regulator who shows up — and the freight market is responding",
-      "url": "https://www.freightwaves.com/news/the-fmcsa-finally-has-a-regulator-who-shows-up-and-the-freight-market-is-responding",
-      "source": "FreightWaves",
-      "raw_date": "Sat, 23 May 2026 16:49:28 +0000",
-      "description": "Federal Motor Carrier Safety Administration Administrator Derek Barrs sat down with me and Matt Leffler in our Chattanooga studio this week for a live taping of Freight Expectations. What I came away with — beyond the hour of substantive policy conversation — was the clearest articulation yet of why"
-    },
-    {
       "headline": "WeHo claims top condo sale of year, counters lagging SoCal market",
       "url": "https://therealdeal.com/la/2026/05/24/west-hollywood-penthouse-scores-23-million/",
       "source": "The Real Deal",
@@ -168,13 +154,6 @@
       "description": "The June 2 primary will include two City Council districts where the incumbents are leaving office, one uncontested seat and a Westside race that has topped all others in campaign spending."
     },
     {
-      "headline": "L.A. is safer than it&#x27;s been in decades, but crime is an issue dominating the mayor&#x27;s race",
-      "url": "https://www.latimes.com/california/story/2026-05-24/crime-rates-los-angeles-mayor-race-2026-candidates",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "Although homicides and other violent crimes are down to near-historic lows, L.A. Mayor Karen Bass' challengers have zeroed in on homelessness and public drug use."
-    },
-    {
       "headline": "Defying Trump, California continues to bet big on offshore wind",
       "url": "https://www.latimes.com/environment/story/2026-05-24/defying-trump-california-continues-to-bet-big-on-offshore-wind",
       "source": "Los Angeles Times",
@@ -201,6 +180,13 @@
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
       "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
+    },
+    {
+      "headline": "L.A. is safer than it&#x27;s been in decades, but crime is an issue dominating the mayor&#x27;s race",
+      "url": "https://www.latimes.com/california/story/2026-05-24/crime-rates-los-angeles-mayor-race-2026-candidates",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "Although homicides and other violent crimes are down to near-historic lows, L.A. Mayor Karen Bass' challengers have zeroed in on homelessness and public drug use."
     },
     {
       "headline": "Explosion would cause significant damage around Garden Grove plant, blast zone map shows",
@@ -236,27 +222,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Sat, 23 May 2026 20:15:51 GMT",
       "description": "Hundreds of Scouts from the Western Los Angeles County Council, Scouting America, along with veteran groups and community volunteers, gathered Saturday morning at the Los Angeles National Cemetery to place 90,000 American flags before Memorial Day."
-    },
-    {
-      "headline": "San Diego gunman was &#x27;idolizing Nazis and mass shooters,&#x27; prompting gun removal from home in 2025",
-      "url": "https://www.latimes.com/california/story/2026-05-23/mosque-shooter-welfare-check-guns",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 17:33:26 GMT",
-      "description": "In January 2025, Chula Vista police conducted a check on Caleb Vazquez after being alerted to disturbing social media postings and learning there were guns in the family home."
-    },
-    {
-      "headline": "How to talk to your kids about extremism online",
-      "url": "https://www.latimes.com/california/story/2026-05-23/how-to-talk-to-your-kids-about-extremism-online",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 17:29:28 GMT",
-      "description": "Two teenage suspects who attacked the Islamic Center in San Diego on Monday, killing three people before turning the guns on themselves, were engaging with far-right extremist content on social media, authorities have said."
-    },
-    {
-      "headline": "GOP governor hopefuls give closing arguments to Central Valley Republicans",
-      "url": "https://www.latimes.com/california/story/2026-05-23/gop-governor-hopefuls-give-closing-arguments-to-oft-forgotten-central-valley-republicans",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 17:15:40 GMT",
-      "description": "Chad Bianco and Steve Hilton, the two top Republicans running for governor, make their closing arguments in front of a friendly GOP audience near Fresno before the June 2 primary."
     },
     {
       "headline": "Gardner promoted by Ajinomoto Foods",
