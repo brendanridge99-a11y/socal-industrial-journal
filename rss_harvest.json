@@ -1,5 +1,5 @@
 {
-  "harvested_at": "2026-05-25T04:00:49.560Z",
+  "harvested_at": "2026-05-25T06:00:49.697Z",
   "elapsed_seconds": 1.2,
   "feeds_attempted": 16,
   "feeds_successful": 14,
@@ -139,11 +139,11 @@
       "description": "In between poker rooms, trips to The Sphere, and Kwame Onwuachi’s new restaurant at The Sahara, many of us still managed to fit in a little real estate at this year’s ICSC in Las Vegas. “Listen and ask questions,” Nichole Popovics, the recently named president of TSCG, advised first-timers. “You hav"
     },
     {
-      "headline": "Failing Orange County chemical tank rises to 100 degrees — the maximum temperature on the gauge",
+      "headline": "The next few hours will be critical in battle to prevent O.C. chemical explosion",
       "url": "https://www.latimes.com/california/story/2026-05-24/failing-orange-county-chemical-tank-rises-to-100-degrees-maximum-temperature-on-gauge",
       "source": "Los Angeles Times",
       "raw_date": "Mon, 25 May 2026 03:40:49 GMT",
-      "description": "The failing Orange County tank filled with a toxic chemical and at risk of exploding has reached 100 degrees Fahrenheit, the maximum reading on the gauge, officials said Sunday."
+      "description": "Days after mass evacuations were ordered in Orange County, the next few hours could be crucial in dealing with a volatile chemical tank at a Garden Grove aerospace company that has threatened to either explode or cause a major spill."
     },
     {
       "headline": "Oil-covered birds rescued after pipeline rupture sends crude into L.A. River",
@@ -153,7 +153,7 @@
       "description": "Wildlife officials said they found oiled birds after a pipe ruptured in East Los Angeles on May 22, 2026."
     },
     {
-      "headline": "Raging South Gate fire at tire recycling center prompts shelter-in-place order",
+      "headline": "Crews knock down South Gate fire at tire recycling center that prompted shelter-in-place order",
       "url": "https://www.latimes.com/california/story/2026-05-24/raging-south-gate-industrial-fire-prompts-shelter-in-place-order",
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 23:49:09 GMT",
@@ -174,18 +174,11 @@
       "description": "The Los Angeles Fire Department airlifted a man out of Runyon Canyon on Sunday morning, according to authorities."
     },
     {
-      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
+      "headline": "As influencers rise in politics, some call for tighter regulations on payments",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/as-influencers-rise-in-politics-some-call-for-tighter-regulations-on-payments",
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
-    },
-    {
-      "headline": "Barabak: The &#x27;greatest threat&#x27; to rule of law in decades. That&#x27;s how lawyers, judges see Trump",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/trump-judiciary-rule-of-law-poll-judges-legal-experts-shows-concern",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "A new survey finds deep concern about presidential overreach, persecution of enemies and other unchecked abuses of power. The poll shows the stakes in November."
+      "description": "Some campaign finance advocates are concerned that voters could increasingly be influenced by social media posts that they don't know are sponsored."
     },
     {
       "headline": "L.A. voters will cast ballots in eight City Council districts, two with open seats",
@@ -195,6 +188,13 @@
       "description": "The June 2 primary will include two City Council districts where the incumbents are leaving office, one uncontested seat and a Westside race that has topped all others in campaign spending."
     },
     {
+      "headline": "Defying Trump, California continues to bet big on offshore wind",
+      "url": "https://www.latimes.com/environment/story/2026-05-24/defying-trump-california-continues-to-bet-big-on-offshore-wind",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "The Port of Long Beach aims to become an assembly hub for floating offshore wind turbines, while the state awaits a more favorable federal administration for their deployment."
+    },
+    {
       "headline": "Dungeons, dragons and democratic socialists: a leftist fundraiser in Hollywood",
       "url": "https://www.latimes.com/california/story/2026-05-24/dungeons-dragons-democratic-socialists-leftist-fundraiser-in-hollywood",
       "source": "Los Angeles Times",
@@ -202,18 +202,18 @@
       "description": "Democratic Socialists of America candidates in Los Angeles raised $30,000 for their campaigns during a fundraiser where they played Dungeons & Dragons."
     },
     {
-      "headline": "As influencers rise in politics, some call for tighter regulations on payments",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/as-influencers-rise-in-politics-some-call-for-tighter-regulations-on-payments",
+      "headline": "Barabak: The &#x27;greatest threat&#x27; to rule of law in decades. That&#x27;s how lawyers, judges see Trump",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/trump-judiciary-rule-of-law-poll-judges-legal-experts-shows-concern",
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "Some campaign finance advocates are concerned that voters could increasingly be influenced by social media posts that they don't know are sponsored."
+      "description": "A new survey finds deep concern about presidential overreach, persecution of enemies and other unchecked abuses of power. The poll shows the stakes in November."
     },
     {
-      "headline": "Defying Trump, California continues to bet big on offshore wind",
-      "url": "https://www.latimes.com/environment/story/2026-05-24/defying-trump-california-continues-to-bet-big-on-offshore-wind",
+      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "The Port of Long Beach aims to become an assembly hub for floating offshore wind turbines, while the state awaits a more favorable federal administration for their deployment."
+      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
     },
     {
       "headline": "L.A. is safer than it&#x27;s been in decades, but crime is an issue dominating the mayor&#x27;s race",
