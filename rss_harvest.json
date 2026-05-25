@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-25T06:00:49.697Z",
-  "elapsed_seconds": 1.2,
+  "harvested_at": "2026-05-25T08:00:58.658Z",
+  "elapsed_seconds": 8.2,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 17,
+  "articles_count": 20,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -98,7 +98,7 @@
     {
       "source": "Los Angeles Business Journal",
       "success": true,
-      "count": 0,
+      "count": 3,
       "total": 10,
       "error": null
     },
@@ -181,6 +181,27 @@
       "description": "Some campaign finance advocates are concerned that voters could increasingly be influenced by social media posts that they don't know are sponsored."
     },
     {
+      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
+    },
+    {
+      "headline": "Barabak: The &#x27;greatest threat&#x27; to rule of law in decades. That&#x27;s how lawyers, judges see Trump",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/trump-judiciary-rule-of-law-poll-judges-legal-experts-shows-concern",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "A new survey finds deep concern about presidential overreach, persecution of enemies and other unchecked abuses of power. The poll shows the stakes in November."
+    },
+    {
+      "headline": "Dungeons, dragons and democratic socialists: a leftist fundraiser in Hollywood",
+      "url": "https://www.latimes.com/california/story/2026-05-24/dungeons-dragons-democratic-socialists-leftist-fundraiser-in-hollywood",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "Democratic Socialists of America candidates in Los Angeles raised $30,000 for their campaigns during a fundraiser where they played Dungeons & Dragons."
+    },
+    {
       "headline": "L.A. voters will cast ballots in eight City Council districts, two with open seats",
       "url": "https://www.latimes.com/california/story/2026-05-24/la-voters-will-cast-ballots-in-eight-city-council-districts-two-with-open-seats",
       "source": "Los Angeles Times",
@@ -195,32 +216,32 @@
       "description": "The Port of Long Beach aims to become an assembly hub for floating offshore wind turbines, while the state awaits a more favorable federal administration for their deployment."
     },
     {
-      "headline": "Dungeons, dragons and democratic socialists: a leftist fundraiser in Hollywood",
-      "url": "https://www.latimes.com/california/story/2026-05-24/dungeons-dragons-democratic-socialists-leftist-fundraiser-in-hollywood",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "Democratic Socialists of America candidates in Los Angeles raised $30,000 for their campaigns during a fundraiser where they played Dungeons & Dragons."
-    },
-    {
-      "headline": "Barabak: The &#x27;greatest threat&#x27; to rule of law in decades. That&#x27;s how lawyers, judges see Trump",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/trump-judiciary-rule-of-law-poll-judges-legal-experts-shows-concern",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "A new survey finds deep concern about presidential overreach, persecution of enemies and other unchecked abuses of power. The poll shows the stakes in November."
-    },
-    {
-      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
-    },
-    {
       "headline": "L.A. is safer than it&#x27;s been in decades, but crime is an issue dominating the mayor&#x27;s race",
       "url": "https://www.latimes.com/california/story/2026-05-24/crime-rates-los-angeles-mayor-race-2026-candidates",
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
       "description": "Although homicides and other violent crimes are down to near-historic lows, L.A. Mayor Karen Bass' challengers have zeroed in on homelessness and public drug use."
+    },
+    {
+      "headline": "BANKING: Wallace, Hildebrandt",
+      "url": "https://labusinessjournal.com/custom-content/on-the-move/banking-wallace-hildebrandt/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 25 May 2026 07:00:37 +0000",
+      "description": "BANC OF CALIFORNIA HIRES FOR GROWTH IN PAYMENTS AND SMALL BUSINESS LENDING Banc of California has welcomed two bankers to support its growing commercial card and small business lending teams in Los Angeles. Chris Wallace has joined the Payments leadership team as Senior Vice President of Commercial "
+    },
+    {
+      "headline": "LABJ Stock Index: May 25",
+      "url": "https://labusinessjournal.com/branded-content/stock-index/labj-stock-index-may-25/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 25 May 2026 07:00:33 +0000",
+      "description": "Beyond the Headlines: Planning for a Successful Retirement Retirement is back in the headlines. And the topics are hard to scroll past: concerns about Social Security, the far-ranging effects of inflation, changing spending patterns, advances in medical technology and increasing lifespans. Taken tog"
+    },
+    {
+      "headline": "REAL ESTATE: Schaub",
+      "url": "https://labusinessjournal.com/custom-content/on-the-move/real-estate-schaub/",
+      "source": "Los Angeles Business Journal",
+      "raw_date": "Mon, 25 May 2026 07:00:32 +0000",
+      "description": "REVITALIZING MALLS: THE STEELWAVE-STEERPOINT PARTNERSHIP &#160; The American shopping mall is dying. The real estate beneath it doesn&#8217;t have to. Across the country, once-bustling retail destinations sit half-empty, casualties of e-commerce and changing consumer habits. These properties represe"
     },
     {
       "headline": "Gardner promoted by Ajinomoto Foods",
