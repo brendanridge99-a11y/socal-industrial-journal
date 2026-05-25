@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-25T00:00:36.699Z",
-  "elapsed_seconds": 3,
+  "harvested_at": "2026-05-25T02:00:52.190Z",
+  "elapsed_seconds": 4.7,
   "feeds_attempted": 16,
-  "feeds_successful": 15,
-  "articles_count": 18,
+  "feeds_successful": 14,
+  "articles_count": 17,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,8 +84,8 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 13,
-      "total": 97,
+      "count": 12,
+      "total": 98,
       "error": null
     },
     {
@@ -104,10 +104,9 @@
     },
     {
       "source": "San Diego Business Journal",
-      "success": true,
+      "success": false,
       "count": 0,
-      "total": 10,
-      "error": null
+      "error": "HTTP 403"
     },
     {
       "source": "IE Business Daily",
@@ -140,6 +139,20 @@
       "description": "In between poker rooms, trips to The Sphere, and Kwame Onwuachi’s new restaurant at The Sahara, many of us still managed to fit in a little real estate at this year’s ICSC in Las Vegas. “Listen and ask questions,” Nichole Popovics, the recently named president of TSCG, advised first-timers. “You hav"
     },
     {
+      "headline": "Oil-covered birds rescued after pipeline rupture sends crude oil into L.A. River",
+      "url": "https://www.latimes.com/california/story/2026-05-24/oil-covered-birds-rescued-pipeline-rupture-la-river",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 25 May 2026 01:43:42 GMT",
+      "description": "Wildlife officials said they found oiled birds after a pipe ruptured in East Los Angeles on May 22, 2026."
+    },
+    {
+      "headline": "Raging South Gate fire at tire recycling center prompts shelter-in-place order",
+      "url": "https://www.latimes.com/california/story/2026-05-24/raging-south-gate-industrial-fire-prompts-shelter-in-place-order",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 23:49:09 GMT",
+      "description": "South Gate residents have been asked to shelter in place as industrial fire rages at a tire recycling facility."
+    },
+    {
       "headline": "Potential crack found on Garden Grove chemical tank, reducing explosion risk",
       "url": "https://www.latimes.com/california/story/2026-05-24/garden-grove-chemical-tank-crack-reduces-explosion-risk",
       "source": "Los Angeles Times",
@@ -161,27 +174,6 @@
       "description": "Some campaign finance advocates are concerned that voters could increasingly be influenced by social media posts that they don't know are sponsored."
     },
     {
-      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
-    },
-    {
-      "headline": "Barabak: The &#x27;greatest threat&#x27; to rule of law in decades. That&#x27;s how lawyers, judges see Trump",
-      "url": "https://www.latimes.com/politics/story/2026-05-24/trump-judiciary-rule-of-law-poll-judges-legal-experts-shows-concern",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "A new survey finds deep concern about presidential overreach, persecution of enemies and other unchecked abuses of power. The poll shows the stakes in November."
-    },
-    {
-      "headline": "Dungeons, dragons and democratic socialists: a leftist fundraiser in Hollywood",
-      "url": "https://www.latimes.com/california/story/2026-05-24/dungeons-dragons-democratic-socialists-leftist-fundraiser-in-hollywood",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
-      "description": "Democratic Socialists of America candidates in Los Angeles raised $30,000 for their campaigns during a fundraiser where they played Dungeons & Dragons."
-    },
-    {
       "headline": "L.A. voters will cast ballots in eight City Council districts, two with open seats",
       "url": "https://www.latimes.com/california/story/2026-05-24/la-voters-will-cast-ballots-in-eight-city-council-districts-two-with-open-seats",
       "source": "Los Angeles Times",
@@ -196,6 +188,27 @@
       "description": "The Port of Long Beach aims to become an assembly hub for floating offshore wind turbines, while the state awaits a more favorable federal administration for their deployment."
     },
     {
+      "headline": "Dungeons, dragons and democratic socialists: a leftist fundraiser in Hollywood",
+      "url": "https://www.latimes.com/california/story/2026-05-24/dungeons-dragons-democratic-socialists-leftist-fundraiser-in-hollywood",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "Democratic Socialists of America candidates in Los Angeles raised $30,000 for their campaigns during a fundraiser where they played Dungeons & Dragons."
+    },
+    {
+      "headline": "Barabak: The &#x27;greatest threat&#x27; to rule of law in decades. That&#x27;s how lawyers, judges see Trump",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/trump-judiciary-rule-of-law-poll-judges-legal-experts-shows-concern",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "A new survey finds deep concern about presidential overreach, persecution of enemies and other unchecked abuses of power. The poll shows the stakes in November."
+    },
+    {
+      "headline": "News Analysis: Uncertainty, frustration define messy midterm battles for mayor, governor and Congress",
+      "url": "https://www.latimes.com/politics/story/2026-05-24/uncertainty-frustration-define-messy-midterm-battles-for-mayor-governor-congress",
+      "source": "Los Angeles Times",
+      "raw_date": "Sun, 24 May 2026 10:00:00 GMT",
+      "description": "California's primary election has been buffeted by a lack of front-runners, redrawn political maps, party infighting and competing voter resentment for President Trump and the state's Democratic establishment."
+    },
+    {
       "headline": "L.A. is safer than it&#x27;s been in decades, but crime is an issue dominating the mayor&#x27;s race",
       "url": "https://www.latimes.com/california/story/2026-05-24/crime-rates-los-angeles-mayor-race-2026-candidates",
       "source": "Los Angeles Times",
@@ -208,27 +221,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Sun, 24 May 2026 01:39:25 GMT",
       "description": "If the failing chemical tank in Orange County does explode, the aerospace plant where it sits and dozens of homes surrounding it could suffer severe damage, according to a map released by authorities Saturday."
-    },
-    {
-      "headline": "With conditions worsening, how will the Orange County chemical crisis get resolved?",
-      "url": "https://www.latimes.com/california/story/2026-05-23/how-will-orange-county-chemical-crisis-be-resolved-here-is-what-we-know",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 23:34:16 GMT",
-      "description": "The battle to keep a highly toxic chemical from exploding took a step backward Saturday."
-    },
-    {
-      "headline": "Garden Grove&#x27;s chemical crisis: Thousands flee as conditions worsen at damaged tank",
-      "url": "https://www.latimes.com/california/story/2026-05-23/garden-grove-chemical-crisis-newsom-declares-emergency-as-thousands-flee",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 23:20:19 GMT",
-      "description": "A failing chemical tank at GKN Aerospace in Orange County sparks mass evacuations. Firefighters battle rising temperatures to prevent a massive MMA blast."
-    },
-    {
-      "headline": "Thousands flee their homes in O.C., unsure when they can return",
-      "url": "https://www.latimes.com/california/story/2026-05-23/thousands-flee-their-homes-in-o-c-unsure-when-they-can-return",
-      "source": "Los Angeles Times",
-      "raw_date": "Sat, 23 May 2026 23:14:39 GMT",
-      "description": "Thousands fled their homes in Orange County due to the chemical leak at a Garden Grove aerospace plant, but it remains unclear how long they will need places to live."
     },
     {
       "headline": "Gardner promoted by Ajinomoto Foods",
