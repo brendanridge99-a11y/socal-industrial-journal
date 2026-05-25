@@ -552,52 +552,17 @@
     <a href="economy.html" style="" class="site-nav-link">Economy</a><a href="industries.html" style="" class="site-nav-link">Industries</a><a href="logistics.html" style="" class="site-nav-link">Logistics</a><a href="policy.html" style="" class="site-nav-link">Policy</a><a href="socal.html" style="color:#fff; border-bottom-color:var(--accent);" class="site-nav-link">SoCal</a>
   </nav>
 </header>
-<div class="submarket-bar" style="--cat-color:#7A6040;">
-  <span class="submarket-label">Filter by submarket</span>
-  <button class="submarket-btn active" data-sm="all" onclick="filterSM(this)" style="--cat-color:#7A6040;">All <span class="submarket-count">(2)</span></button><button class="submarket-btn" data-sm="inland-empire" onclick="filterSM(this)" style="--cat-color:#7A6040;">Inland Empire <span class="submarket-count">(1)</span></button><button class="submarket-btn" data-sm="los-angeles" onclick="filterSM(this)" style="--cat-color:#7A6040;">Los Angeles <span class="submarket-count">(1)</span></button><button class="submarket-btn" data-sm="san-diego" onclick="filterSM(this)" style="--cat-color:#7A6040;">San Diego <span class="submarket-count">(1)</span></button>
-</div>
+
 
 <main style="max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem;">
 
   <div class="page-header">
     <a href="index.html" class="back-link">← Front Page</a>
     <h1 class="page-title">◑ SoCal</h1>
-    <p class="page-count">2 stories · no clusters</p>
+    <p class="page-count">0 stories · no clusters</p>
   </div>
 
-  
-<div class="section-label">Top Stories</div>
-<div class="article-grid">
-  <div class="top-article-card" data-submarket="los-angeles" style="--cat-color:#7A6040;">
-  <span class="top-badge">Top Story</span>
-  <div class="article-meta">
-    <span>Wall Street Journal</span>
-    <span class="date">· May 21, 2026</span>
-    <span class="paywall-badge">🔒 Subscriber</span><span class="overflow-badge">via Industries</span>
-  </div>
-  <h3 class="top-article-headline">Walmart Posts Strong Q1 FY27 Results but Distribution Fuel Costs Weigh on Operating Income</h3>
-  <p class="article-summary">Walmart reported Q1 FY27 results on May 21, 2026, with U.S. comparable sales growing 4.1% and global e-commerce up 26%, but operating income was negatively affected by 250 basis points from higher fuel costs in distribution and fulfillment. The company issued Q2 FY27 guidance for net sales growth of 4% to 5% and adjusted operating income growth of 7% to 10% in constant currency, with adjusted EPS of $0.72 to $0.74. Walmart's full-year fiscal 2027 outlook remained unchanged from prior guidance. The company noted its investments in supply chain automation across U.S. distribution centers continue to scale.</p>
-  <div>
-    <a href="https://www.wsj.com/business/retail/walmart-earnings-q1-fy27-results" target="_blank" class="article-read">Read full story</a>&nbsp;&nbsp;<a href="mailto:Brendan.ridge@jll.com?subject=Article%20Request%3A%20Walmart%20Posts%20Strong%20Q1%20FY27%20Results%20but%20Distribution%20Fuel%20C&body=Hi%20Brendan%2C%0A%0AI%20would%20like%20more%20information%20on%20the%20following%20article%3A%0A%0AWalmart Posts Strong Q1 FY27 Results but Distribution Fuel Costs Weigh on Operating Income%0Ahttps://www.wsj.com/business/retail/walmart-earnings-q1-fy27-results%0A%0AThanks" style="font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">Request more info →</a>
-  </div>
-  
-</div>
-<div class="top-article-card" data-submarket="inland-empire san-diego" style="--cat-color:#7A6040;">
-  <span class="top-badge">Top Story</span>
-  <div class="article-meta">
-    <span>IE Business Daily</span>
-    <span class="date">· May 22, 2026</span>
-    
-  </div>
-  <h3 class="top-article-headline">Printing company buys warehouse</h3>
-  <p class="article-summary">InHouse Media Group, a printing company specializing in posters and music-industry art, has purchased an industrial facility in Chino for $3 million. The building, located at 14963 Sierra Bonita Lane near the 71 Freeway, totals 9,200 square feet. The transaction was reported by Progressive Real Estate Partners in Rancho Cucamonga.</p>
-  <div>
-    <a href="https://iebusinessdaily.com/printing-company-buys-warehouse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=printing-company-buys-warehouse" target="_blank" class="article-read">Read full story</a>
-  </div>
-  <div class="cross-cat-wrap"><span class="cross-cat-label">Also in</span><a href="industries.html" class="cross-cat-tag">Industries</a></div>
-</div>
-</div>
-
+  <div style="grid-column:1/-1;text-align:center;padding:3rem;background:var(--parchment);border:1px solid var(--rule);font-family:'Cormorant Garamond',Georgia,serif;font-size:1.1rem;color:var(--muted);">No stories in this category yet — check back soon.</div>
 
 </main>
 
@@ -607,34 +572,6 @@
   <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
 </footer>
 
-<script>
-function filterSM(btn) {
-  document.querySelectorAll('.submarket-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  const sm = btn.dataset.sm;
-  const cards = document.querySelectorAll('[data-submarket]');
-  cards.forEach(card => {
-    if (sm === 'all') {
-      card.classList.remove('sm-hidden');
-    } else {
-      const cardSMs = card.dataset.submarket.split(' ');
-      if (cardSMs.includes(sm) || cardSMs.includes('all')) {
-        card.classList.remove('sm-hidden');
-      } else {
-        card.classList.add('sm-hidden');
-      }
-    }
-  });
-  document.querySelectorAll('.article-grid, .fp-grid').forEach(grid => {
-    const visible = [...grid.querySelectorAll('[data-submarket]')]
-      .filter(c => !c.classList.contains('sm-hidden'));
-    const label = grid.previousElementSibling;
-    if (label && label.classList.contains('section-label')) {
-      label.style.display = visible.length ? '' : 'none';
-    }
-    grid.style.display = visible.length ? '' : 'none';
-  });
-}
-</script>
+
 </body>
 </html>
