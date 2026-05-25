@@ -1,8 +1,8 @@
 {
-  "harvested_at": "2026-05-25T16:01:07.747Z",
-  "elapsed_seconds": 19.8,
+  "harvested_at": "2026-05-25T18:00:50.141Z",
+  "elapsed_seconds": 3,
   "feeds_attempted": 16,
-  "feeds_successful": 14,
+  "feeds_successful": 13,
   "articles_count": 15,
   "feed_status": [
     {
@@ -43,7 +43,7 @@
     {
       "source": "The Real Deal",
       "success": true,
-      "count": 1,
+      "count": 0,
       "total": 10,
       "error": null
     },
@@ -64,16 +64,15 @@
     {
       "source": "Commercial Observer",
       "success": true,
-      "count": 1,
+      "count": 2,
       "total": 17,
       "error": null
     },
     {
       "source": "Propmodo",
-      "success": true,
+      "success": false,
       "count": 0,
-      "total": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "source": "Modern Materials Handling",
@@ -132,11 +131,11 @@
       "description": "Ag exporters have always faced logistical challenges because their crops are grown in the interior US and shipped through ports located hundreds of miles away; those challenges seem to be growing, the AgTC conference heard this week."
     },
     {
-      "headline": "WeHo claims top condo sale of year, counters lagging SoCal market",
-      "url": "https://therealdeal.com/la/2026/05/24/west-hollywood-penthouse-scores-23-million/",
-      "source": "The Real Deal",
-      "raw_date": "Sun, 24 May 2026 15:00:00 +0000",
-      "description": "A West Hollywood penthouse sale marked the priciest condominium trade of 2026 to date for all of Los Angeles County. Penthouse West at 8899 Beverly Boulevard went for $23 million — about 67 percent higher than the previous highwater marker for the year among on-market deals. The price shakes out to "
+      "headline": "Roy Stillman of Stillman Development International: 5 Questions",
+      "url": "https://commercialobserver.com/2026/05/roy-stillman-development-international-5-questions/",
+      "source": "Commercial Observer",
+      "raw_date": "Mon, 25 May 2026 16:00:32 +0000",
+      "description": "As is so often the case in real estate, Roy Stillman, founder and president of Stillman Development International, first got the itch to join the industry as he grew up watching his father make his mark in the business. Stillman spent about 15 years working with his family in their development busin"
     },
     {
       "headline": "Hudson Square Is Winning the 2026 Office Market",
