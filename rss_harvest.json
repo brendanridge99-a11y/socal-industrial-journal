@@ -1,9 +1,9 @@
 {
-  "harvested_at": "2026-05-26T00:00:43.935Z",
-  "elapsed_seconds": 4.2,
+  "harvested_at": "2026-05-26T02:00:41.970Z",
+  "elapsed_seconds": 2.5,
   "feeds_attempted": 16,
   "feeds_successful": 14,
-  "articles_count": 15,
+  "articles_count": 13,
   "feed_status": [
     {
       "source": "FreightWaves",
@@ -84,7 +84,7 @@
     {
       "source": "Los Angeles Times",
       "success": true,
-      "count": 6,
+      "count": 4,
       "total": 98,
       "error": null
     },
@@ -146,6 +146,13 @@
       "description": "A dwindling roster of quality office supply citywide is turning New York&#8217;s Hudson Square’s elevated availability rate into an asset. The Midtown South neighborhood had the third-highest office availability rate in Manhattan at the end of 2026&#8217;s first quarter, at 19.4 percent, according t"
     },
     {
+      "headline": "Threat of massive explosion in Garden Grove &#x27;eliminated&#x27; but danger remains, officials say",
+      "url": "https://www.latimes.com/california/story/2026-05-25/threat-of-massive-explosion-eliminated-but-danger-remains",
+      "source": "Los Angeles Times",
+      "raw_date": "Mon, 25 May 2026 23:55:45 GMT",
+      "description": "Concerns remained that an explosion at the aerospace plant in Garden Grove was still possible, fire officials said."
+    },
+    {
       "headline": "Southern California could get 85% of its water locally and avoid Delta tunnel, groups say",
       "url": "https://www.latimes.com/environment/story/2026-05-25/california-more-local-water",
       "source": "Los Angeles Times",
@@ -165,27 +172,6 @@
       "source": "Los Angeles Times",
       "raw_date": "Mon, 25 May 2026 01:43:42 GMT",
       "description": "Wildlife officials said they found oiled birds after a pipe ruptured in East Los Angeles on May 22, 2026."
-    },
-    {
-      "headline": "Crews knock down South Gate fire at tire recycling center that prompted shelter-in-place order",
-      "url": "https://www.latimes.com/california/story/2026-05-24/raging-south-gate-industrial-fire-prompts-shelter-in-place-order",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 23:49:09 GMT",
-      "description": "South Gate residents have been asked to shelter in place as industrial fire rages at a tire recycling facility."
-    },
-    {
-      "headline": "Potential crack found on Garden Grove chemical tank, reducing explosion risk",
-      "url": "https://www.latimes.com/california/story/2026-05-24/garden-grove-chemical-tank-crack-reduces-explosion-risk",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 22:56:21 GMT",
-      "description": "Orange County fire official says a potential crack found on a pressurized chemical tank in Garden Grove might alleviated internal pressure, reducing risk of a catastrophic explosion."
-    },
-    {
-      "headline": "Rescuers airlift hiker by helicopter out of Runyon Canyon; man is in grave condition",
-      "url": "https://www.latimes.com/california/story/2026-05-24/rescuers-airlift-hiker-by-runyon-canyon-hollywood-hills",
-      "source": "Los Angeles Times",
-      "raw_date": "Sun, 24 May 2026 22:16:20 GMT",
-      "description": "The Los Angeles Fire Department airlifted a man out of Runyon Canyon on Sunday morning, according to authorities."
     },
     {
       "headline": "Lawmakers stripped the Board of Equalization of power. Now they’re fighting to join it",
