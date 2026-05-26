@@ -1,545 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Economy | SoCal Industrial Journal</title>
-  <meta http-equiv="refresh" content="7200">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <style>
-        :root {
-            --cream: #FAF7F2;
-            --parchment: #F0EBE1;
-            --ink: #1C1917;
-            --ink-light: #44403C;
-            --rule: #D6CFC4;
-            --accent: #B5451B;
-            --accent-warm: #C9622F;
-            --muted: #78716C;
-        }
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        body {
-            font-family: 'Jost', sans-serif;
-            background: var(--cream);
-            color: var(--ink);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* ── Header ── */
-        .site-header {
-            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-            background: var(--ink);
-            border-bottom: 1px solid rgba(255,255,255,0.08);
-            box-shadow: 0 2px 20px rgba(28,25,23,0.25);
-        }
-        .header-inner {
-            text-align: center;
-            padding: 1.25rem 2rem 0.75rem;
-            border-bottom: 1px solid rgba(255,255,255,0.07);
-        }
-        .masthead {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 2.4rem;
-            font-weight: 400;
-            letter-spacing: 0.06em;
-            color: #fff;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 0.3rem;
-        }
-        .masthead-sub {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 400;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
-            color: rgba(255,255,255,0.45);
-        }
-        .site-nav {
-            display: flex;
-            justify-content: center;
-            gap: 0;
-            background: var(--ink);
-            padding: 0 2rem;
-            overflow-x: auto;
-        }
-        .site-nav a {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 500;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: rgba(255,255,255,0.45);
-            text-decoration: none;
-            padding: 0.7rem 1rem;
-            border-bottom: 2px solid transparent;
-            transition: color 0.2s, border-color 0.2s;
-            white-space: nowrap;
-        }
-        .site-nav a:hover { color: rgba(255,255,255,0.85); }
-        .site-nav a.active {
-            color: #fff;
-            border-bottom-color: var(--accent);
-        }
-
-        /* ── Bottom Line banner ── */
-        .bottom-line {
-            background: var(--ink);
-            border-left: 3px solid var(--accent);
-            padding: 1.75rem 2.25rem;
-            margin-bottom: 2.5rem;
-        }
-        .bottom-line-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--accent);
-            margin-bottom: 0.6rem;
-        }
-        .bottom-line-text {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.45rem;
-            font-weight: 400;
-            font-style: italic;
-            line-height: 1.6;
-            color: rgba(255,255,255,0.92);
-        }
-
-        /* ── Front Page category cards ── */
-        .fp-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-        .fp-card {
-            background: #fff;
-            border: 1px solid var(--rule);
-            border-top: 3px solid var(--cat-color, var(--accent));
-            padding: 1.5rem;
-            text-decoration: none;
-            color: inherit;
-            display: flex;
-            flex-direction: column;
-            transition: transform 0.18s ease, box-shadow 0.18s ease;
-        }
-        .fp-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 24px rgba(28,25,23,0.1);
-        }
-        .fp-card-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            color: var(--cat-color, var(--accent));
-            margin-bottom: 0.75rem;
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-        .fp-card-count {
-            background: var(--cat-color, var(--accent));
-            color: #fff;
-            font-size: 0.62rem;
-            padding: 0.1rem 0.4rem;
-            border-radius: 2px;
-            font-weight: 600;
-        }
-        .fp-card-summary {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.15rem;
-            font-weight: 400;
-            line-height: 1.7;
-            color: var(--ink-light);
-            flex: 1;
-            margin-bottom: 1.25rem;
-        }
-        .fp-card-cta {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--cat-color, var(--accent));
-        }
-
-        /* ── Article grid (category pages) ── */
-        .article-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-        .article-card {
-            background: #fff;
-            border: 1px solid var(--rule);
-            border-top: 3px solid var(--cat-color, var(--accent));
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-        }
-        .article-meta {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 500;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--cat-color, var(--accent));
-            margin-bottom: 0.65rem;
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-            flex-wrap: wrap;
-        }
-        .article-meta .date {
-            color: var(--muted);
-            font-weight: 400;
-        }
-        .article-headline {
-            font-family: 'DM Serif Display', Georgia, serif;
-            font-size: 1.2rem;
-            font-weight: 400;
-            line-height: 1.35;
-            color: var(--ink);
-            margin-bottom: 0.85rem;
-        }
-        .article-summary {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 400;
-            line-height: 1.75;
-            color: var(--ink-light);
-            flex: 1;
-            margin-bottom: 1.1rem;
-        }
-        .article-read {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 500;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--ink);
-            text-decoration: none;
-            border-bottom: 1px solid var(--rule);
-            padding-bottom: 1px;
-            display: inline-block;
-            transition: border-color 0.15s;
-        }
-        .article-read:hover { border-color: var(--ink); }
-
-        /* ── Page header (category pages) ── */
-        .page-header {
-            border-bottom: 1px solid var(--rule);
-            padding-bottom: 1.5rem;
-            margin-bottom: 2.5rem;
-        }
-        .back-link {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.65rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--muted);
-            text-decoration: none;
-            display: inline-block;
-            margin-bottom: 1rem;
-        }
-        .back-link:hover { color: var(--accent); }
-        .page-title {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 2.75rem;
-            font-weight: 300;
-            letter-spacing: 0.02em;
-            color: var(--ink);
-            margin-bottom: 0.35rem;
-        }
-        .page-count {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            color: var(--muted);
-            letter-spacing: 0.05em;
-        }
-
-        /* ── Footer ── */
-        .site-footer {
-            background: var(--ink);
-            color: rgba(255,255,255,0.35);
-            padding: 2rem;
-            text-align: center;
-            font-family: 'Jost', sans-serif;
-            font-size: 0.65rem;
-            letter-spacing: 0.08em;
-            margin-top: 4rem;
-            border-top: 3px solid var(--accent);
-        }
-        .site-footer .footer-name {
-            color: rgba(255,255,255,0.6);
-            font-weight: 500;
-            margin-bottom: 0.5rem;
-            font-size: 0.7rem;
-        }
-        .site-footer .footer-sources { margin-bottom: 0.5rem; }
-
-        /* ── Divider ── */
-        .ruled { border: none; border-top: 1px solid var(--rule); margin: 2rem 0; }
-
-        /* ── Status badge ── */
-        .status-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.35rem;
-            background: #EEFAF2;
-            color: #2D6A4F;
-            font-family: 'Jost', sans-serif;
-            font-size: 0.62rem;
-            font-weight: 500;
-            letter-spacing: 0.06em;
-            padding: 0.25rem 0.65rem;
-            border-radius: 2px;
-        }
-        .status-dot {
-            width: 5px; height: 5px;
-            background: #2D6A4F;
-            border-radius: 50%;
-            display: inline-block;
-        }
-
-        /* ── Paywall badge ── */
-        .paywall-badge {
-            font-size: 0.55rem;
-            color: var(--muted);
-            border: 1px solid var(--rule);
-            padding: 0.1rem 0.35rem;
-            border-radius: 2px;
-        }
-
-        /* ── Category page summary banner ── */
-        .cat-summary-banner {
-            background: var(--parchment);
-            border-left: 3px solid var(--cat-color, var(--accent));
-            padding: 1.5rem 2rem;
-            margin-bottom: 2.5rem;
-        }
-        .cat-summary-text {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.2rem;
-            font-weight: 400;
-            line-height: 1.65;
-            color: var(--ink);
-        }
-
-        /* ── Section labels ── */
-        .section-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.68rem;
-            font-weight: 600;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--muted);
-            margin-bottom: 1rem;
-            padding-bottom: 0.6rem;
-            border-bottom: 1px solid var(--rule);
-        }
-        .top-article-card {
-            background: #fff;
-            border: 1px solid var(--rule);
-            border-top: 3px solid var(--cat-color, var(--accent));
-            padding: 1.75rem;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-        }
-        .top-badge {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.58rem;
-            font-weight: 600;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            color: var(--cat-color, var(--accent));
-            background: var(--parchment);
-            padding: 0.2rem 0.5rem;
-            border-radius: 2px;
-            display: inline-block;
-            margin-bottom: 0.75rem;
-            align-self: flex-start;
-        }
-        .top-article-headline {
-            font-family: 'DM Serif Display', Georgia, serif;
-            font-size: 1.3rem;
-            font-weight: 400;
-            line-height: 1.3;
-            color: var(--ink);
-            margin-bottom: 0.85rem;
-        }
-        .all-stories-divider {
-            margin: 2.5rem 0 1.5rem;
-        }
-
-        /* ── Cross-category tags ── */
-        .cross-cat-wrap {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.35rem;
-            margin-top: 0.75rem;
-        }
-        .cross-cat-tag {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.6rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--muted);
-            border: 1px solid var(--rule);
-            padding: 0.15rem 0.45rem;
-            border-radius: 2px;
-            text-decoration: none;
-            transition: color 0.15s, border-color 0.15s;
-        }
-        .cross-cat-tag:hover {
-            color: var(--ink);
-            border-color: var(--ink-light);
-        }
-        .cross-cat-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.6rem;
-            color: var(--muted);
-            letter-spacing: 0.06em;
-            align-self: center;
-        }
-
-        /* ── Overflow indicator (SoCal tab) ── */
-        .overflow-badge {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.58rem;
-            font-weight: 500;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--muted);
-            border: 1px dashed var(--rule);
-            padding: 0.12rem 0.4rem;
-            border-radius: 2px;
-            margin-left: 0.4rem;
-        }
-
-        /* ── Submarket filter bar ── */
-        .submarket-bar {
-            background: var(--parchment);
-            border-bottom: 1px solid var(--rule);
-            padding: 0.75rem 2rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-        .submarket-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.65rem;
-            font-weight: 600;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            color: var(--muted);
-            margin-right: 0.5rem;
-        }
-        .submarket-btn {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 500;
-            letter-spacing: 0.06em;
-            color: var(--ink-light);
-            background: #fff;
-            border: 1px solid var(--rule);
-            padding: 0.35rem 0.85rem;
-            border-radius: 2px;
-            cursor: pointer;
-            transition: all 0.15s;
-        }
-        .submarket-btn:hover {
-            border-color: var(--cat-color, var(--accent));
-            color: var(--cat-color, var(--accent));
-        }
-        .submarket-btn.active {
-            background: var(--cat-color, var(--accent));
-            border-color: var(--cat-color, var(--accent));
-            color: #fff;
-        }
-        .submarket-count {
-            font-size: 0.6rem;
-            opacity: 0.75;
-            margin-left: 0.2rem;
-        }
-        .sm-hidden { display: none !important; }
-
-        /* ── Cluster cards ── */
-        .cluster-sources {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 0.4rem;
-            margin-top: 1rem;
-            padding-top: 0.75rem;
-            border-top: 1px solid var(--rule);
-        }
-        .cluster-sources-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.65rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--muted);
-            margin-right: 0.25rem;
-        }
-        .cluster-source-link {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.68rem;
-            font-weight: 500;
-            color: var(--cat-color, var(--accent));
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-color 0.15s;
-            padding-bottom: 1px;
-        }
-        .cluster-source-link:hover {
-            border-bottom-color: var(--cat-color, var(--accent));
-        }
-        .cluster-source-sep {
-            color: var(--rule);
-            font-size: 0.65rem;
-        }
-        .cluster-badge {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.58rem;
-            font-weight: 600;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: #fff;
-            background: var(--cat-color, var(--accent));
-            padding: 0.15rem 0.5rem;
-            border-radius: 2px;
-            display: inline-block;
-            margin-left: auto;
-        }
-
-        /* ── Responsive ── */
-        @media (max-width: 900px) {
-            .fp-grid, .article-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 600px) {
-            .fp-grid, .article-grid { grid-template-columns: 1fr; }
-            .masthead { font-size: 1.5rem; }
-            body { padding-top: 170px !important; }
-        }
-
-    body { padding-top: 120px; }
-    @media (max-width: 600px) { body { padding-top: 140px; } }
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Economy | SoCal Industrial Journal</title>
+<meta http-equiv="refresh" content="7200">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+    --cream: #FAF7F2;
+    --parchment: #F0EBE1;
+    --ink: #1C1917;
+    --ink-light: #44403C;
+    --rule: #D6CFC4;
+    --accent: #B5451B;
+    --muted: #78716C;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;}
+.site-header{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--ink);border-bottom:1px solid rgba(255,255,255,0.08);box-shadow:0 2px 20px rgba(28,25,23,0.25);}
+.header-inner{text-align:center;padding:1.25rem 2rem 0.75rem;border-bottom:1px solid rgba(255,255,255,0.07);}
+.masthead{font-family:'Cormorant Garamond',Georgia,serif;font-size:2.4rem;font-weight:400;letter-spacing:0.06em;color:#fff;text-decoration:none;display:block;margin-bottom:0.3rem;}
+.masthead-sub{font-family:'Jost',sans-serif;font-size:0.7rem;font-weight:400;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.45);}
+.site-nav{display:flex;justify-content:center;gap:0;background:var(--ink);padding:0 2rem;overflow-x:auto;}
+.site-nav a{font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.45);text-decoration:none;padding:0.7rem 1rem;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap;}
+.site-nav a:hover{color:rgba(255,255,255,0.85);}
+.site-nav a.active{color:#fff;border-bottom-color:var(--accent);}
+.subscribe-btn{background:var(--accent);color:#fff !important;padding:0.4rem 1rem !important;border-bottom:none !important;border-radius:2px;margin-left:0.5rem;}
+.subscribe-btn:hover{background:#C9622F;}
+.bottom-line{background:var(--ink);border-left:3px solid var(--accent);padding:1.75rem 2.25rem;margin-bottom:2.5rem;}
+.bottom-line-label{font-family:'Jost',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:0.6rem;}
+.bottom-line-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.45rem;font-weight:400;font-style:italic;line-height:1.6;color:rgba(255,255,255,0.92);}
+.fp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:3rem;}
+.fp-card{background:#fff;border:1px solid var(--rule);border-top:3px solid var(--cat-color,var(--accent));padding:1.5rem;text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:transform 0.18s ease,box-shadow 0.18s ease;}
+.fp-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(28,25,23,0.1);}
+.fp-card-label{font-family:'Jost',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--cat-color,var(--accent));margin-bottom:0.75rem;display:flex;align-items:center;gap:0.4rem;}
+.fp-card-count{background:var(--cat-color,var(--accent));color:#fff;font-size:0.62rem;padding:0.1rem 0.4rem;border-radius:2px;font-weight:600;}
+.fp-card-summary{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.15rem;font-weight:400;line-height:1.7;color:var(--ink-light);flex:1;margin-bottom:1.25rem;}
+.fp-card-cta{font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--cat-color,var(--accent));}
+.article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:3rem;}
+.article-card{background:#fff;border:1px solid var(--rule);border-top:3px solid var(--cat-color,var(--accent));padding:1.5rem;display:flex;flex-direction:column;}
+.article-meta{font-family:'Jost',sans-serif;font-size:0.7rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--cat-color,var(--accent));margin-bottom:0.65rem;display:flex;align-items:center;gap:0.4rem;flex-wrap:wrap;}
+.article-meta .date{color:var(--muted);font-weight:400;}
+.article-headline{font-family:'DM Serif Display',Georgia,serif;font-size:1.2rem;font-weight:400;line-height:1.35;color:var(--ink);margin-bottom:0.85rem;}
+.article-summary{font-family:'Jost',sans-serif;font-size:0.9rem;font-weight:400;line-height:1.75;color:var(--ink-light);flex:1;margin-bottom:1.1rem;}
+.article-read{font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:1px;display:inline-block;transition:border-color 0.15s;}
+.article-read:hover{border-color:var(--ink);}
+.top-article-card{background:#fff;border:1px solid var(--rule);border-top:3px solid var(--cat-color,var(--accent));padding:1.75rem;display:flex;flex-direction:column;position:relative;}
+.top-badge{font-family:'Jost',sans-serif;font-size:0.58rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--cat-color,var(--accent));background:var(--parchment);padding:0.2rem 0.5rem;border-radius:2px;display:inline-block;margin-bottom:0.75rem;align-self:flex-start;}
+.top-article-headline{font-family:'DM Serif Display',Georgia,serif;font-size:1.3rem;font-weight:400;line-height:1.3;color:var(--ink);margin-bottom:0.85rem;}
+.cat-summary-banner{background:var(--parchment);border-left:3px solid var(--cat-color,var(--accent));padding:1.5rem 2rem;margin-bottom:2.5rem;}
+.cat-summary-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.2rem;font-weight:400;line-height:1.65;color:var(--ink);}
+.section-label{font-family:'Jost',sans-serif;font-size:0.68rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid var(--rule);}
+.page-header{border-bottom:1px solid var(--rule);padding-bottom:1.5rem;margin-bottom:2.5rem;}
+.back-link{font-family:'Jost',sans-serif;font-size:0.65rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);text-decoration:none;display:inline-block;margin-bottom:1rem;}
+.back-link:hover{color:var(--accent);}
+.page-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:2.75rem;font-weight:300;letter-spacing:0.02em;color:var(--ink);margin-bottom:0.35rem;}
+.page-count{font-family:'Jost',sans-serif;font-size:0.7rem;color:var(--muted);letter-spacing:0.05em;}
+.status-badge{display:inline-flex;align-items:center;gap:0.35rem;background:#EEFAF2;color:#2D6A4F;font-family:'Jost',sans-serif;font-size:0.62rem;font-weight:500;letter-spacing:0.06em;padding:0.25rem 0.65rem;border-radius:2px;}
+.status-dot{width:5px;height:5px;background:#2D6A4F;border-radius:50%;display:inline-block;}
+.paywall-badge{font-size:0.55rem;color:var(--muted);border:1px solid var(--rule);padding:0.1rem 0.35rem;border-radius:2px;}
+.site-footer{background:var(--ink);color:rgba(255,255,255,0.35);padding:2rem;text-align:center;font-family:'Jost',sans-serif;font-size:0.65rem;letter-spacing:0.08em;margin-top:4rem;border-top:3px solid var(--accent);}
+.site-footer .footer-name{color:rgba(255,255,255,0.6);font-weight:500;margin-bottom:0.5rem;font-size:0.7rem;}
+.site-footer a{color:rgba(255,255,255,0.5);text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.25);}
+@media(max-width:900px){.fp-grid,.article-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:600px){.fp-grid,.article-grid{grid-template-columns:1fr;}.masthead{font-size:1.5rem;}body{padding-top:170px !important;}}
+ body{padding-top:120px;}</style>
 </head>
 <body>
 <header class="site-header">
@@ -548,30 +76,123 @@
     <div class="masthead-sub">Monday, May 25, 2026 &nbsp;·&nbsp; Rolling 72-Hour Brief</div>
   </div>
   <nav class="site-nav">
-    <a href="index.html" class="site-nav-link" style="">Front Page</a>
-    <a href="economy.html" style="color:#fff; border-bottom-color:var(--accent);" class="site-nav-link">Economy</a><a href="industries.html" style="" class="site-nav-link">Industries</a><a href="logistics.html" style="" class="site-nav-link">Logistics</a><a href="policy.html" style="" class="site-nav-link">Policy</a><a href="socal.html" style="" class="site-nav-link">SoCal</a>
+    <a href="index.html" style="">Front Page</a>
+    <a href="economy.html" style="color:#fff;border-bottom-color:var(--accent);">Economy</a><a href="industries.html" style="">Industries</a><a href="logistics.html" style="">Logistics</a><a href="policy.html" style="">Policy</a><a href="socal.html" style="">SoCal</a>
+    <a href="https://subscribe.socalindustrialjournal.com" class="subscribe-btn" target="_blank">Subscribe</a>
   </nav>
 </header>
-
-
-<main style="max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem;">
-
-  <div class="page-header">
-    <a href="index.html" class="back-link">← Front Page</a>
-    <h1 class="page-title">◈ Economy</h1>
-    <p class="page-count">0 stories · no clusters</p>
-  </div>
-
-  <div style="grid-column:1/-1;text-align:center;padding:3rem;background:var(--parchment);border:1px solid var(--rule);font-family:'Cormorant Garamond',Georgia,serif;font-size:1.1rem;color:var(--muted);">No stories in this category yet — check back soon.</div>
-
+<main style="max-width:1280px;margin:0 auto;padding:2.5rem 2rem;">
+<div class="page-header">
+<a href="index.html" class="back-link">← Front Page</a>
+<h1 class="page-title">◈ Economy</h1>
+<p class="page-count">14 stories</p>
+</div>
+<div class="cat-summary-banner" style="--cat-color:#7C5C3E;">
+  <p class="cat-summary-text">Markets face crosscurrents as US strikes on Iran push Brent crude near $92 per barrel. Inflation concerns, Warsh's Fed appointment, and coal supply shocks are driving elevated interest rate bets. Watch Wednesday's BEA second estimate for potential revisions to Q1's 2.0% GDP figure.</p>
+</div>
+<div class="section-label">Top Stories</div>
+<div class="article-grid"><div class="top-article-card" style="--cat-color:#7C5C3E;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="top-article-headline">Warsh's Fed Appointment Fuels Bets on Prolonged High US Interest Rates</h3>
+  <p class="article-summary">A key Treasury yield spread — the gap between five-year and 30-year yields — has narrowed to its tightest level in a year, at approximately 81 basis points, as traders increase bets the Federal Reserve will keep interest rates higher for longer under new chairman Kevin Warsh. Bond investors are betting Warsh will prioritize inflation-fighting credibility over President Trump's push for lower rates, with traders now pricing in that the Fed is virtually certain to start raising rates by December. Two-year Treasury yields climbed to as high as 4.14% on Friday, the highest in more than a year and nearly 40 basis points above recent levels. The shift reflects the impact of the Middle East conflict, the resilient US economy, and an AI-investment boom, all fueling concerns that inflation could remain above the Fed's 2% target.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-25/treasury-curve-flashes-higher-for-longer-warning-under-warsh" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="top-article-card" style="--cat-color:#7C5C3E;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="top-article-headline">Chinese Mine Disaster Sparks Jump in Coal Prices and Stocks</h3>
+  <p class="article-summary">Chinese coking coal futures jumped by the daily limit and mining stocks surged after a deadly gas explosion at a coal mine in Shanxi province sparked fears of broader supply disruptions. The fatal blast occurred at the privately owned Liushenyu mine in Shanxi's coal-belt region, killing at least 82 people with two still missing and 128 hospitalized. The Liushenyu mine produces mostly coking coal, supplying steelmakers rather than power plants. Chinese authorities detained company executives and President Xi Jinping ordered rescue operations and a full investigation.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-25/china-mine-explosion-sees-coking-coal-jump-by-daily-limit" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="top-article-card" style="--cat-color:#7C5C3E;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="top-article-headline">Stocks Pare Gains, Oil Climbs as US Strikes Iran</h3>
+  <p class="article-summary">US equities pared earlier gains and crude oil climbed after fresh US military strikes against Iranian targets renewed uncertainty about a pending interim deal to reopen the Strait of Hormuz. Brent crude was trading near $91.58 as of Tuesday morning. The renewed fighting underscored the fragility of the ceasefire between the US and Iran that had briefly sent stocks to record highs on Monday on deal optimism. US cash markets had been closed Monday for the Memorial Day holiday, with S&P 500 futures having climbed 1% and Nasdaq 100 futures up 1.4% on Sunday amid peace deal hopes.</p>
+  <a href="https://www.bloomberg.com/" target="_blank" class="article-read">Read full story</a>
+</div></div>
+<div style="margin:2.5rem 0 1.5rem;"><div class="section-label">All Stories</div></div><div class="article-grid"><div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="article-headline">Yuan May Hit Five Per Dollar on Carry-Trade Exit, Macquarie Says</h3>
+  <p class="article-summary">China's onshore currency may strengthen to as much as five yuan per dollar if local firms unwind a massive buildup of U.S. dollar holdings, triggering a sharp reversal in capital flows, according to Macquarie Group. Economists led by Larry Hu wrote that as long as domestic demand stays weak and exports remain resilient, any yuan appreciation likely reflects broad dollar weakness rather than stronger Chinese fundamentals. If exports falter and Beijing ramps up stimulus, an unwinding of yuan carry trades may trigger a sharp rally, potentially pushing the exchange rate to six or even five per dollar.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-26/yuan-may-hit-five-per-dollar-on-carry-trade-exit-macquarie-says" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 25, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="article-headline">Stocks Rise, Oil Falls on Iran Deal Expectations — Markets Wrap</h3>
+  <p class="article-summary">Global stocks rose to record highs as crude oil fell after officials signaled the U.S. was nearing a deal with Iran to reopen the Strait of Hormuz and restore oil flows. Futures contracts on the S&P 500 climbed 1% and those on the Nasdaq 100 were up 1.4%, while the U.S. dollar retreated against all Group-of-10 peers. U.S. cash markets were closed Monday for the Memorial Day holiday. Gold also jumped as prospects of an Iran deal tempered inflation concerns linked to the energy crisis.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-24/oil-dollar-slide-on-optimism-over-us-iran-deal-markets-wrap" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="article-headline">Gold Jumps as Prospects of Iran Deal Temper Inflation Concerns</h3>
+  <p class="article-summary">Gold prices rose on May 26 as prospects of a U.S.-Iran peace agreement tempered fears of an energy-driven inflation shock that had kept bullion under pressure. Gold had fallen to approximately $4,500 per ounce on the prior Friday, its second straight weekly decline, as elevated oil prices fueled inflation concerns and boosted expectations for a Fed rate hike. Fed Governor Christopher Waller had previously signaled he no longer believed the central bank should retain an easing bias in its policy statement. Gold remains roughly 13% lower since the Middle East conflict began in late February.</p>
+  <a href="https://www.bloomberg.com/markets" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="article-headline">Treasuries Rally as Trump Signals Progress in Iran Negotiations</h3>
+  <p class="article-summary">US Treasuries rallied across the yield curve as cash trading resumed following the Memorial Day holiday, with investors growing more optimistic about a potential US-Iran deal to reopen the Strait of Hormuz. Yields on the two-year note fell six basis points to 4.06%, the 10-year dropped six basis points to 4.50%, and the 30-year declined four basis points to 5.03%. US equity-index futures rose 0.6%, though gains were more muted than Monday's holiday-thinned advance. Asian stocks pared earlier gains after reports of fresh US strikes on Iranian sites damped optimism.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-26/treasuries-rally-as-trump-signals-progress-in-iran-negotiations" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="article-headline">Stock Market Today: Dow, S&P Live Updates for May 26</h3>
+  <p class="article-summary">Asian stocks pared gains and crude oil advanced after reports of US strikes on sites in Iran damped optimism over a potential deal with Tehran. The MSCI Asia Pacific Index pared most of an earlier gain to edge up 0.1%, after climbing as much as 0.4% earlier Tuesday. US equity-index futures rose 0.6%, though gains were more muted than Monday's holiday-thinned advance when US cash markets were closed. Treasuries rallied across the curve as cash trading resumed after the Memorial Day break.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-25/asian-stocks-set-to-extend-gains-on-us-iran-hopes-markets-wrap" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="article-headline">Copper Holds Gain as Traders Track Prospects for US-Iran Deal</h3>
+  <p class="article-summary">Copper held a gain as investors monitored progress toward a possible deal to end three months of war in the Middle East. The industrial metal was little changed near $13,680 a ton on the London Metal Exchange, having risen more than 1% on Friday. The LME was closed Monday for a public holiday. Copper prices are being closely watched as a barometer of industrial demand sentiment tied to the Strait of Hormuz disruption.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-26/copper-holds-gain-as-traders-track-prospects-for-us-iran-deal" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="article-headline">Why China Is Tightening Controls on Overseas Stock Trading</h3>
+  <p class="article-summary">China's efforts to control capital outflows are colliding with growing demand from mainland investors for access to overseas stocks. After an estimated $1 trillion of unauthorized money left the country last year, authorities launched a sweeping crackdown on offshore trading platforms accused of helping investors bypass Beijing's capital controls. The move has already rattled brokerages and investors, and could reshape how mainland Chinese access foreign markets. Citic Securities estimated that the crackdown may affect as much as HK$250 billion ($32 billion) of assets held in Hong Kong.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-26/why-china-is-tightening-controls-on-overseas-stock-trading" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="article-headline">China Traders Run for Exit After Cross-Border Flow Crackdown</h3>
+  <p class="article-summary">Chinese investors rushed to find alternative ways to buy and sell overseas equities after Beijing launched its most forceful crackdown on illicit cross-border stock trading to stem capital outflows. The campaign threatens severe penalties against popular brokers including Futu Holdings Ltd. and orders non-compliant accounts to be liquidated within two years. The crackdown follows Beijing's launch of an unprecedented campaign against illegal cross-border trading announced earlier in the week. Analysts at Citic Securities estimated the action may affect as much as HK$250 billion ($32 billion) of Hong Kong-held assets.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-25/china-traders-rush-for-exit-after-cross-border-flow-crackdown" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Bloomberg</span><span class="date">· May 26, 2026</span><span class="paywall-badge">🔒 Subscriber</span></div>
+  <h3 class="article-headline">Gold Holds Gain as Iran Deal Progress Eases Inflation Concerns</h3>
+  <p class="article-summary">Gold held gains on signs the US and Iran were making progress on reaching a deal to reopen the Strait of Hormuz and restore oil flows, easing inflation fears. The move tracked broader market optimism about a potential end to three months of conflict that has disrupted global energy and shipping markets. Gold has been trading as an inflation hedge and safe-haven asset throughout the Strait of Hormuz crisis. Progress toward a deal is being closely tracked by bond and commodities markets for implications on the Federal Reserve's rate path.</p>
+  <a href="https://www.bloomberg.com/news/articles/2026-05-25/gold-holds-gain-as-iran-deal-progress-eases-inflation-concerns" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>Propmodo</span><span class="date">· May 26, 2026</span></div>
+  <h3 class="article-headline">Healthcare and Last-Mile Bets Draw Record Capital to Opportunistic Fund</h3>
+  <p class="article-summary">Kayne Anderson Capital Advisors closed its seventh opportunistic real estate fund at $5.12 billion, 70 percent above its initial $3 billion target and nearly double the $2.75 billion raised for its sixth fund. The fund targets healthcare and last-mile logistics real estate investments. The close represents a record capital raise for the firm's opportunistic real estate strategy.</p>
+  <a href="https://propmodo.com/healthcare-and-last-mile-bets-draw-record-capital-to-opportunistic-fund/" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7C5C3E;">
+  
+  <div class="article-meta"><span>U.S. Bureau of Economic Analysis</span><span class="date">· May 26, 2026</span></div>
+  <h3 class="article-headline">BEA Q1 2026 GDP Second Estimate Scheduled for Release May 28; Advance Showed 2.0% Annualized Growth</h3>
+  <p class="article-summary">The Bureau of Economic Analysis is scheduled to release its second estimate of first-quarter 2026 GDP on May 28, 2026, at 8:30 a.m. EDT. The advance estimate released April 30 showed real GDP rose at an annualized rate of 2.0% in Q1, rebounding from 0.5% growth in Q4 2025, driven by investment, exports, consumer spending, and a rebound in government spending following the Q4 federal shutdown. Investment in business equipment rose at a 17.2% annualized rate, led by information processing equipment, while the PCE price index ran at 3.2% annually — above the Fed's 2% target. The second estimate is expected to incorporate revised data on consumption, inventories, and trade and may materially revise the initial headline figure.</p>
+  <a href="https://www.bea.gov/data/gdp/gross-domestic-product" target="_blank" class="article-read">Read full story</a>
+</div></div>
 </main>
-
 <footer class="site-footer">
   <div class="footer-name">SoCal Industrial Journal</div>
-  <div class="footer-sources">Sourced from 37 national, trade, and regional publications &nbsp;·&nbsp; <a href="sources.html" style="color:rgba(255,255,255,0.5);text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.25);">View source directory →</a></div>
-  <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
+  <div style="margin-bottom:0.5rem;">Sourced from 37 national, trade, and regional publications &nbsp;·&nbsp; <a href="sources.html">View source directory →</a></div>
+  <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours &nbsp;·&nbsp; 33 stories</div>
 </footer>
-
-
-</body>
-</html>
+</body></html>
