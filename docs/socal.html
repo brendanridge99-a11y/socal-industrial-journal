@@ -1,545 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SoCal | SoCal Industrial Journal</title>
-  <meta http-equiv="refresh" content="7200">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <style>
-        :root {
-            --cream: #FAF7F2;
-            --parchment: #F0EBE1;
-            --ink: #1C1917;
-            --ink-light: #44403C;
-            --rule: #D6CFC4;
-            --accent: #B5451B;
-            --accent-warm: #C9622F;
-            --muted: #78716C;
-        }
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        body {
-            font-family: 'Jost', sans-serif;
-            background: var(--cream);
-            color: var(--ink);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* ── Header ── */
-        .site-header {
-            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-            background: var(--ink);
-            border-bottom: 1px solid rgba(255,255,255,0.08);
-            box-shadow: 0 2px 20px rgba(28,25,23,0.25);
-        }
-        .header-inner {
-            text-align: center;
-            padding: 1.25rem 2rem 0.75rem;
-            border-bottom: 1px solid rgba(255,255,255,0.07);
-        }
-        .masthead {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 2.4rem;
-            font-weight: 400;
-            letter-spacing: 0.06em;
-            color: #fff;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 0.3rem;
-        }
-        .masthead-sub {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 400;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
-            color: rgba(255,255,255,0.45);
-        }
-        .site-nav {
-            display: flex;
-            justify-content: center;
-            gap: 0;
-            background: var(--ink);
-            padding: 0 2rem;
-            overflow-x: auto;
-        }
-        .site-nav a {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 500;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: rgba(255,255,255,0.45);
-            text-decoration: none;
-            padding: 0.7rem 1rem;
-            border-bottom: 2px solid transparent;
-            transition: color 0.2s, border-color 0.2s;
-            white-space: nowrap;
-        }
-        .site-nav a:hover { color: rgba(255,255,255,0.85); }
-        .site-nav a.active {
-            color: #fff;
-            border-bottom-color: var(--accent);
-        }
-
-        /* ── Bottom Line banner ── */
-        .bottom-line {
-            background: var(--ink);
-            border-left: 3px solid var(--accent);
-            padding: 1.75rem 2.25rem;
-            margin-bottom: 2.5rem;
-        }
-        .bottom-line-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--accent);
-            margin-bottom: 0.6rem;
-        }
-        .bottom-line-text {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.45rem;
-            font-weight: 400;
-            font-style: italic;
-            line-height: 1.6;
-            color: rgba(255,255,255,0.92);
-        }
-
-        /* ── Front Page category cards ── */
-        .fp-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-        .fp-card {
-            background: #fff;
-            border: 1px solid var(--rule);
-            border-top: 3px solid var(--cat-color, var(--accent));
-            padding: 1.5rem;
-            text-decoration: none;
-            color: inherit;
-            display: flex;
-            flex-direction: column;
-            transition: transform 0.18s ease, box-shadow 0.18s ease;
-        }
-        .fp-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 24px rgba(28,25,23,0.1);
-        }
-        .fp-card-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            color: var(--cat-color, var(--accent));
-            margin-bottom: 0.75rem;
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-        .fp-card-count {
-            background: var(--cat-color, var(--accent));
-            color: #fff;
-            font-size: 0.62rem;
-            padding: 0.1rem 0.4rem;
-            border-radius: 2px;
-            font-weight: 600;
-        }
-        .fp-card-summary {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.15rem;
-            font-weight: 400;
-            line-height: 1.7;
-            color: var(--ink-light);
-            flex: 1;
-            margin-bottom: 1.25rem;
-        }
-        .fp-card-cta {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--cat-color, var(--accent));
-        }
-
-        /* ── Article grid (category pages) ── */
-        .article-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-        .article-card {
-            background: #fff;
-            border: 1px solid var(--rule);
-            border-top: 3px solid var(--cat-color, var(--accent));
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-        }
-        .article-meta {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 500;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--cat-color, var(--accent));
-            margin-bottom: 0.65rem;
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-            flex-wrap: wrap;
-        }
-        .article-meta .date {
-            color: var(--muted);
-            font-weight: 400;
-        }
-        .article-headline {
-            font-family: 'DM Serif Display', Georgia, serif;
-            font-size: 1.2rem;
-            font-weight: 400;
-            line-height: 1.35;
-            color: var(--ink);
-            margin-bottom: 0.85rem;
-        }
-        .article-summary {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 400;
-            line-height: 1.75;
-            color: var(--ink-light);
-            flex: 1;
-            margin-bottom: 1.1rem;
-        }
-        .article-read {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 500;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--ink);
-            text-decoration: none;
-            border-bottom: 1px solid var(--rule);
-            padding-bottom: 1px;
-            display: inline-block;
-            transition: border-color 0.15s;
-        }
-        .article-read:hover { border-color: var(--ink); }
-
-        /* ── Page header (category pages) ── */
-        .page-header {
-            border-bottom: 1px solid var(--rule);
-            padding-bottom: 1.5rem;
-            margin-bottom: 2.5rem;
-        }
-        .back-link {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.65rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--muted);
-            text-decoration: none;
-            display: inline-block;
-            margin-bottom: 1rem;
-        }
-        .back-link:hover { color: var(--accent); }
-        .page-title {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 2.75rem;
-            font-weight: 300;
-            letter-spacing: 0.02em;
-            color: var(--ink);
-            margin-bottom: 0.35rem;
-        }
-        .page-count {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.7rem;
-            color: var(--muted);
-            letter-spacing: 0.05em;
-        }
-
-        /* ── Footer ── */
-        .site-footer {
-            background: var(--ink);
-            color: rgba(255,255,255,0.35);
-            padding: 2rem;
-            text-align: center;
-            font-family: 'Jost', sans-serif;
-            font-size: 0.65rem;
-            letter-spacing: 0.08em;
-            margin-top: 4rem;
-            border-top: 3px solid var(--accent);
-        }
-        .site-footer .footer-name {
-            color: rgba(255,255,255,0.6);
-            font-weight: 500;
-            margin-bottom: 0.5rem;
-            font-size: 0.7rem;
-        }
-        .site-footer .footer-sources { margin-bottom: 0.5rem; }
-
-        /* ── Divider ── */
-        .ruled { border: none; border-top: 1px solid var(--rule); margin: 2rem 0; }
-
-        /* ── Status badge ── */
-        .status-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.35rem;
-            background: #EEFAF2;
-            color: #2D6A4F;
-            font-family: 'Jost', sans-serif;
-            font-size: 0.62rem;
-            font-weight: 500;
-            letter-spacing: 0.06em;
-            padding: 0.25rem 0.65rem;
-            border-radius: 2px;
-        }
-        .status-dot {
-            width: 5px; height: 5px;
-            background: #2D6A4F;
-            border-radius: 50%;
-            display: inline-block;
-        }
-
-        /* ── Paywall badge ── */
-        .paywall-badge {
-            font-size: 0.55rem;
-            color: var(--muted);
-            border: 1px solid var(--rule);
-            padding: 0.1rem 0.35rem;
-            border-radius: 2px;
-        }
-
-        /* ── Category page summary banner ── */
-        .cat-summary-banner {
-            background: var(--parchment);
-            border-left: 3px solid var(--cat-color, var(--accent));
-            padding: 1.5rem 2rem;
-            margin-bottom: 2.5rem;
-        }
-        .cat-summary-text {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.2rem;
-            font-weight: 400;
-            line-height: 1.65;
-            color: var(--ink);
-        }
-
-        /* ── Section labels ── */
-        .section-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.68rem;
-            font-weight: 600;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--muted);
-            margin-bottom: 1rem;
-            padding-bottom: 0.6rem;
-            border-bottom: 1px solid var(--rule);
-        }
-        .top-article-card {
-            background: #fff;
-            border: 1px solid var(--rule);
-            border-top: 3px solid var(--cat-color, var(--accent));
-            padding: 1.75rem;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-        }
-        .top-badge {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.58rem;
-            font-weight: 600;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            color: var(--cat-color, var(--accent));
-            background: var(--parchment);
-            padding: 0.2rem 0.5rem;
-            border-radius: 2px;
-            display: inline-block;
-            margin-bottom: 0.75rem;
-            align-self: flex-start;
-        }
-        .top-article-headline {
-            font-family: 'DM Serif Display', Georgia, serif;
-            font-size: 1.3rem;
-            font-weight: 400;
-            line-height: 1.3;
-            color: var(--ink);
-            margin-bottom: 0.85rem;
-        }
-        .all-stories-divider {
-            margin: 2.5rem 0 1.5rem;
-        }
-
-        /* ── Cross-category tags ── */
-        .cross-cat-wrap {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.35rem;
-            margin-top: 0.75rem;
-        }
-        .cross-cat-tag {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.6rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--muted);
-            border: 1px solid var(--rule);
-            padding: 0.15rem 0.45rem;
-            border-radius: 2px;
-            text-decoration: none;
-            transition: color 0.15s, border-color 0.15s;
-        }
-        .cross-cat-tag:hover {
-            color: var(--ink);
-            border-color: var(--ink-light);
-        }
-        .cross-cat-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.6rem;
-            color: var(--muted);
-            letter-spacing: 0.06em;
-            align-self: center;
-        }
-
-        /* ── Overflow indicator (SoCal tab) ── */
-        .overflow-badge {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.58rem;
-            font-weight: 500;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--muted);
-            border: 1px dashed var(--rule);
-            padding: 0.12rem 0.4rem;
-            border-radius: 2px;
-            margin-left: 0.4rem;
-        }
-
-        /* ── Submarket filter bar ── */
-        .submarket-bar {
-            background: var(--parchment);
-            border-bottom: 1px solid var(--rule);
-            padding: 0.75rem 2rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-        .submarket-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.65rem;
-            font-weight: 600;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            color: var(--muted);
-            margin-right: 0.5rem;
-        }
-        .submarket-btn {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 500;
-            letter-spacing: 0.06em;
-            color: var(--ink-light);
-            background: #fff;
-            border: 1px solid var(--rule);
-            padding: 0.35rem 0.85rem;
-            border-radius: 2px;
-            cursor: pointer;
-            transition: all 0.15s;
-        }
-        .submarket-btn:hover {
-            border-color: var(--cat-color, var(--accent));
-            color: var(--cat-color, var(--accent));
-        }
-        .submarket-btn.active {
-            background: var(--cat-color, var(--accent));
-            border-color: var(--cat-color, var(--accent));
-            color: #fff;
-        }
-        .submarket-count {
-            font-size: 0.6rem;
-            opacity: 0.75;
-            margin-left: 0.2rem;
-        }
-        .sm-hidden { display: none !important; }
-
-        /* ── Cluster cards ── */
-        .cluster-sources {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 0.4rem;
-            margin-top: 1rem;
-            padding-top: 0.75rem;
-            border-top: 1px solid var(--rule);
-        }
-        .cluster-sources-label {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.65rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--muted);
-            margin-right: 0.25rem;
-        }
-        .cluster-source-link {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.68rem;
-            font-weight: 500;
-            color: var(--cat-color, var(--accent));
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-color 0.15s;
-            padding-bottom: 1px;
-        }
-        .cluster-source-link:hover {
-            border-bottom-color: var(--cat-color, var(--accent));
-        }
-        .cluster-source-sep {
-            color: var(--rule);
-            font-size: 0.65rem;
-        }
-        .cluster-badge {
-            font-family: 'Jost', sans-serif;
-            font-size: 0.58rem;
-            font-weight: 600;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: #fff;
-            background: var(--cat-color, var(--accent));
-            padding: 0.15rem 0.5rem;
-            border-radius: 2px;
-            display: inline-block;
-            margin-left: auto;
-        }
-
-        /* ── Responsive ── */
-        @media (max-width: 900px) {
-            .fp-grid, .article-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 600px) {
-            .fp-grid, .article-grid { grid-template-columns: 1fr; }
-            .masthead { font-size: 1.5rem; }
-            body { padding-top: 170px !important; }
-        }
-
-    body { padding-top: 120px; }
-    @media (max-width: 600px) { body { padding-top: 140px; } }
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SoCal | SoCal Industrial Journal</title>
+<meta http-equiv="refresh" content="7200">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+    --cream: #FAF7F2;
+    --parchment: #F0EBE1;
+    --ink: #1C1917;
+    --ink-light: #44403C;
+    --rule: #D6CFC4;
+    --accent: #B5451B;
+    --muted: #78716C;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;}
+.site-header{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--ink);border-bottom:1px solid rgba(255,255,255,0.08);box-shadow:0 2px 20px rgba(28,25,23,0.25);}
+.header-inner{text-align:center;padding:1.25rem 2rem 0.75rem;border-bottom:1px solid rgba(255,255,255,0.07);}
+.masthead{font-family:'Cormorant Garamond',Georgia,serif;font-size:2.4rem;font-weight:400;letter-spacing:0.06em;color:#fff;text-decoration:none;display:block;margin-bottom:0.3rem;}
+.masthead-sub{font-family:'Jost',sans-serif;font-size:0.7rem;font-weight:400;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.45);}
+.site-nav{display:flex;justify-content:center;gap:0;background:var(--ink);padding:0 2rem;overflow-x:auto;}
+.site-nav a{font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.45);text-decoration:none;padding:0.7rem 1rem;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap;}
+.site-nav a:hover{color:rgba(255,255,255,0.85);}
+.site-nav a.active{color:#fff;border-bottom-color:var(--accent);}
+.subscribe-btn{background:var(--accent);color:#fff !important;padding:0.4rem 1rem !important;border-bottom:none !important;border-radius:2px;margin-left:0.5rem;}
+.subscribe-btn:hover{background:#C9622F;}
+.bottom-line{background:var(--ink);border-left:3px solid var(--accent);padding:1.75rem 2.25rem;margin-bottom:2.5rem;}
+.bottom-line-label{font-family:'Jost',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:0.6rem;}
+.bottom-line-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.45rem;font-weight:400;font-style:italic;line-height:1.6;color:rgba(255,255,255,0.92);}
+.fp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:3rem;}
+.fp-card{background:#fff;border:1px solid var(--rule);border-top:3px solid var(--cat-color,var(--accent));padding:1.5rem;text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:transform 0.18s ease,box-shadow 0.18s ease;}
+.fp-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(28,25,23,0.1);}
+.fp-card-label{font-family:'Jost',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--cat-color,var(--accent));margin-bottom:0.75rem;display:flex;align-items:center;gap:0.4rem;}
+.fp-card-count{background:var(--cat-color,var(--accent));color:#fff;font-size:0.62rem;padding:0.1rem 0.4rem;border-radius:2px;font-weight:600;}
+.fp-card-summary{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.15rem;font-weight:400;line-height:1.7;color:var(--ink-light);flex:1;margin-bottom:1.25rem;}
+.fp-card-cta{font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--cat-color,var(--accent));}
+.article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:3rem;}
+.article-card{background:#fff;border:1px solid var(--rule);border-top:3px solid var(--cat-color,var(--accent));padding:1.5rem;display:flex;flex-direction:column;}
+.article-meta{font-family:'Jost',sans-serif;font-size:0.7rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--cat-color,var(--accent));margin-bottom:0.65rem;display:flex;align-items:center;gap:0.4rem;flex-wrap:wrap;}
+.article-meta .date{color:var(--muted);font-weight:400;}
+.article-headline{font-family:'DM Serif Display',Georgia,serif;font-size:1.2rem;font-weight:400;line-height:1.35;color:var(--ink);margin-bottom:0.85rem;}
+.article-summary{font-family:'Jost',sans-serif;font-size:0.9rem;font-weight:400;line-height:1.75;color:var(--ink-light);flex:1;margin-bottom:1.1rem;}
+.article-read{font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:1px;display:inline-block;transition:border-color 0.15s;}
+.article-read:hover{border-color:var(--ink);}
+.top-article-card{background:#fff;border:1px solid var(--rule);border-top:3px solid var(--cat-color,var(--accent));padding:1.75rem;display:flex;flex-direction:column;position:relative;}
+.top-badge{font-family:'Jost',sans-serif;font-size:0.58rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--cat-color,var(--accent));background:var(--parchment);padding:0.2rem 0.5rem;border-radius:2px;display:inline-block;margin-bottom:0.75rem;align-self:flex-start;}
+.top-article-headline{font-family:'DM Serif Display',Georgia,serif;font-size:1.3rem;font-weight:400;line-height:1.3;color:var(--ink);margin-bottom:0.85rem;}
+.cat-summary-banner{background:var(--parchment);border-left:3px solid var(--cat-color,var(--accent));padding:1.5rem 2rem;margin-bottom:2.5rem;}
+.cat-summary-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.2rem;font-weight:400;line-height:1.65;color:var(--ink);}
+.section-label{font-family:'Jost',sans-serif;font-size:0.68rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid var(--rule);}
+.page-header{border-bottom:1px solid var(--rule);padding-bottom:1.5rem;margin-bottom:2.5rem;}
+.back-link{font-family:'Jost',sans-serif;font-size:0.65rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);text-decoration:none;display:inline-block;margin-bottom:1rem;}
+.back-link:hover{color:var(--accent);}
+.page-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:2.75rem;font-weight:300;letter-spacing:0.02em;color:var(--ink);margin-bottom:0.35rem;}
+.page-count{font-family:'Jost',sans-serif;font-size:0.7rem;color:var(--muted);letter-spacing:0.05em;}
+.status-badge{display:inline-flex;align-items:center;gap:0.35rem;background:#EEFAF2;color:#2D6A4F;font-family:'Jost',sans-serif;font-size:0.62rem;font-weight:500;letter-spacing:0.06em;padding:0.25rem 0.65rem;border-radius:2px;}
+.status-dot{width:5px;height:5px;background:#2D6A4F;border-radius:50%;display:inline-block;}
+.paywall-badge{font-size:0.55rem;color:var(--muted);border:1px solid var(--rule);padding:0.1rem 0.35rem;border-radius:2px;}
+.site-footer{background:var(--ink);color:rgba(255,255,255,0.35);padding:2rem;text-align:center;font-family:'Jost',sans-serif;font-size:0.65rem;letter-spacing:0.08em;margin-top:4rem;border-top:3px solid var(--accent);}
+.site-footer .footer-name{color:rgba(255,255,255,0.6);font-weight:500;margin-bottom:0.5rem;font-size:0.7rem;}
+.site-footer a{color:rgba(255,255,255,0.5);text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.25);}
+@media(max-width:900px){.fp-grid,.article-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:600px){.fp-grid,.article-grid{grid-template-columns:1fr;}.masthead{font-size:1.5rem;}body{padding-top:170px !important;}}
+ body{padding-top:120px;}</style>
 </head>
 <body>
 <header class="site-header">
@@ -548,30 +76,74 @@
     <div class="masthead-sub">Monday, May 25, 2026 &nbsp;·&nbsp; Rolling 72-Hour Brief</div>
   </div>
   <nav class="site-nav">
-    <a href="index.html" class="site-nav-link" style="">Front Page</a>
-    <a href="economy.html" style="" class="site-nav-link">Economy</a><a href="industries.html" style="" class="site-nav-link">Industries</a><a href="logistics.html" style="" class="site-nav-link">Logistics</a><a href="policy.html" style="" class="site-nav-link">Policy</a><a href="socal.html" style="color:#fff; border-bottom-color:var(--accent);" class="site-nav-link">SoCal</a>
+    <a href="index.html" style="">Front Page</a>
+    <a href="economy.html" style="">Economy</a><a href="industries.html" style="">Industries</a><a href="logistics.html" style="">Logistics</a><a href="policy.html" style="">Policy</a><a href="socal.html" style="color:#fff;border-bottom-color:var(--accent);">SoCal</a>
+    <a href="https://subscribe.socalindustrialjournal.com" class="subscribe-btn" target="_blank">Subscribe</a>
   </nav>
 </header>
-
-
-<main style="max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem;">
-
-  <div class="page-header">
-    <a href="index.html" class="back-link">← Front Page</a>
-    <h1 class="page-title">◑ SoCal</h1>
-    <p class="page-count">0 stories · no clusters</p>
-  </div>
-
-  <div style="grid-column:1/-1;text-align:center;padding:3rem;background:var(--parchment);border:1px solid var(--rule);font-family:'Cormorant Garamond',Georgia,serif;font-size:1.1rem;color:var(--muted);">No stories in this category yet — check back soon.</div>
-
+<main style="max-width:1280px;margin:0 auto;padding:2.5rem 2rem;">
+<div class="page-header">
+<a href="index.html" class="back-link">← Front Page</a>
+<h1 class="page-title">◑ SoCal</h1>
+<p class="page-count">7 stories</p>
+</div>
+<div class="cat-summary-banner" style="--cat-color:#7A6040;">
+  <p class="cat-summary-text">The Garden Grove chemical threat has eased; evacuation zones shrank to 16,000 residents as explosion risk was eliminated. A federal emergency declaration activated FEMA support while the Bain fire neared full containment at 95%. Watch Tuesday's 50 mph wind advisory and rising freight surcharges taking effect June 1.</p>
+</div>
+<div class="section-label">Top Stories</div>
+<div class="article-grid"><div class="top-article-card" style="--cat-color:#7A6040;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta"><span>Daily Bulletin</span><span class="date">· May 26, 2026</span></div>
+  <h3 class="top-article-headline">Updated map shows Garden Grove chemical threat and reduced evacuation zone</h3>
+  <p class="article-summary">The evacuation zone around the GKN Aerospace plant in Garden Grove was reduced by 65% late Monday, May 25, after officials determined the threat of a boiling liquid expanding vapor explosion had diminished. The incident had prompted a large-scale emergency response at the aerospace manufacturing facility. Authorities continued to monitor conditions at the site as the situation stabilized.</p>
+  <a href="https://www.dailybulletin.com/2026/05/25/updated-map-shows-garden-grove-chemical-threat-and-reduced-evacuation-zone/" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="top-article-card" style="--cat-color:#7A6040;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta"><span>Daily Bulletin</span><span class="date">· May 26, 2026</span></div>
+  <h3 class="top-article-headline">Federal government approves emergency declaration for Orange County amid chemical threat</h3>
+  <p class="article-summary">The federal government approved California's request for an emergency declaration tied to the chemical incident in Garden Grove, authorizing FEMA to support ongoing response efforts. Gov. Gavin Newsom and bipartisan elected officials were involved in securing the declaration. The incident is centered at the GKN Aerospace facility in Garden Grove, Orange County.</p>
+  <a href="https://www.dailybulletin.com/2026/05/25/federal-government-approves-emergency-declaration-for-orange-county-amid-chemical-threat/" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="top-article-card" style="--cat-color:#7A6040;">
+  <span class="top-badge">Top Story</span>
+  <div class="article-meta"><span>Daily Bulletin</span><span class="date">· May 26, 2026</span></div>
+  <h3 class="top-article-headline">Bain fire nearing full containment after burning nearly 1,500 acres</h3>
+  <p class="article-summary">A brush fire burning approximately 1,500 acres in the Santa Ana River bottom near Jurupa Valley and Riverside reached 95% containment as of Monday, May 25, according to Cal Fire. Full containment was expected sometime Monday. The fire burned in an area adjacent to the Inland Empire's industrial corridor.</p>
+  <a href="https://www.dailybulletin.com/2026/05/25/bain-fire-nearing-full-containment-after-burning-nearly-1500-acres/" target="_blank" class="article-read">Read full story</a>
+</div></div>
+<div style="margin:2.5rem 0 1.5rem;"><div class="section-label">All Stories</div></div><div class="article-grid"><div class="article-card" style="--cat-color:#7A6040;">
+  
+  <div class="article-meta"><span>Daily Bulletin</span><span class="date">· May 26, 2026</span></div>
+  <h3 class="article-headline">Wind advisory for San Bernardino County for Tuesday and Wednesday – gusts as high as 50 mph</h3>
+  <p class="article-summary">The National Weather Service issued a wind advisory for San Bernardino County effective Tuesday, May 26, at 10 a.m. through Wednesday, May 27, at 5 a.m. Wind gusts are forecast to reach up to 50 mph within the advisory area. The advisory covers a county that contains a significant concentration of Inland Empire industrial and logistics facilities.</p>
+  <a href="https://www.dailybulletin.com/2026/05/25/wind-advisory-for-san-bernardino-county-for-tuesday-and-wednesday-gusts-as-high-as-50-mph/" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7A6040;">
+  
+  <div class="article-meta"><span>Daily Bulletin</span><span class="date">· May 26, 2026</span></div>
+  <h3 class="article-headline">Garden Grove chemical tank no longer threat for catastrophic explosion, officials say</h3>
+  <p class="article-summary">Fire officials in Garden Grove confirmed that a crack inside a malfunctioning chemical tank at an aerospace plant is reducing pressure inside the container, eliminating the threat of a catastrophic explosion. Crews have been monitoring the tank and determined that the pressure relief is occurring as hoped. The incident prompted a significant emergency response at the aerospace facility. Officials indicated the situation has moved away from the critical phase that prompted initial alarm.</p>
+  <a href="https://www.dailybulletin.com/2026/05/25/garden-grove-chemical-tank-no-longer-threat-for-catastrophic-explosion-officials-say/" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7A6040;">
+  
+  <div class="article-meta"><span>Orange County Register</span><span class="date">· May 26, 2026</span></div>
+  <h3 class="article-headline">Big blast averted, so far, in Garden Grove, but smaller explosion could pose danger</h3>
+  <p class="article-summary">Orange County Fire Authority officials ruled out the threat of a large pressurized explosion at an aerospace plant in Garden Grove but said the surrounding area remains at risk of a smaller but potentially dangerous blast. The incident involves a malfunctioning tank at the GKN Aerospace facility. Authorities maintained a modified evacuation zone around the plant while crews worked to address the ongoing hazardous conditions.</p>
+  <a href="https://www.ocregister.com/2026/05/25/big-blast-averted-so-far-in-garden-grove-but-smaller-explosion-could-pose-danger/" target="_blank" class="article-read">Read full story</a>
+</div>
+<div class="article-card" style="--cat-color:#7A6040;">
+  
+  <div class="article-meta"><span>ABC7 Los Angeles (KABC) / Multiple Wire Sources</span><span class="date">· May 26, 2026</span></div>
+  <h3 class="article-headline">Explosion Risk Eliminated at GKN Aerospace Garden Grove Chemical Tank; Evacuation Zone Reduced to 16,000 Residents</h3>
+  <p class="article-summary">The Orange County Fire Authority confirmed Monday that the threat of a Boiling Liquid Expanding Vapor Explosion (BLEVE) at a 34,000-gallon methyl methacrylate storage tank at GKN Aerospace's Garden Grove facility — located at 12122 Western Ave., approximately 35 miles southeast of Los Angeles — is 'now off the table.' The crisis, which began May 21, forced over 50,000 residents across a nine-square-mile evacuation zone to leave their homes; as of Monday evening, that zone was reduced to approximately 16,000 residents. GKN Aerospace, a UK-based manufacturer owned by Melrose Industries that produces military canopies, F-35 cockpit components, and Boeing 787 transparencies at the 15.5-acre site, employed at least 540 workers and had a new production line expansion slated for completion in January 2027. Gov. Gavin Newsom declared a state of emergency for Orange County on May 23 and requested a federal emergency declaration; the U.S. EPA deployed air monitoring at 20 locations and FEMA activated atmospheric plume modeling in support of the response.</p>
+  <a href="https://abc7.com/live-updates/garden-grove-chemical-tank-emergency-leaking-toxic-chemicals-orange-county-will-spill-explode-officials-say/19152918/" target="_blank" class="article-read">Read full story</a>
+</div></div>
 </main>
-
 <footer class="site-footer">
   <div class="footer-name">SoCal Industrial Journal</div>
-  <div class="footer-sources">Sourced from 37 national, trade, and regional publications &nbsp;·&nbsp; <a href="sources.html" style="color:rgba(255,255,255,0.5);text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.25);">View source directory →</a></div>
-  <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours</div>
+  <div style="margin-bottom:0.5rem;">Sourced from 37 national, trade, and regional publications &nbsp;·&nbsp; <a href="sources.html">View source directory →</a></div>
+  <div>Rolling 72-hour window &nbsp;·&nbsp; Updates every 2 hours &nbsp;·&nbsp; 33 stories</div>
 </footer>
-
-
-</body>
-</html>
+</body></html>
